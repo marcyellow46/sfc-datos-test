@@ -544,7 +544,8 @@ const SORT_COLUMNS = [
   { key: "position", label: "Pos.", type: "string" },
   { key: "minutesTotal", label: "Min. (total / media)", type: "number" },
   { key: "rangeStart", label: "Rango habitual", type: "number" },
-  { key: "goalsTotal", label: "Goles (total / media)", type: "number" },
+  { key: "goalsTotal", label: "Goles", type: "number" },
+  { key: "goalsAvg", label: "Goles/partido", type: "number" },
   { key: "goalsConcededTotal", label: "Encajados (total / media)", type: "number" },
 ];
 
@@ -583,7 +584,8 @@ function playersTable(players){
       <td>${posBadge(p.position)}</td>
       <td class="num">${p.minutesTotal} <span style="color:var(--chalk-dim)">(${p.minutesAvg}/p)</span></td>
       <td>${playerRangeBar(p)}</td>
-      <td class="num">${p.goalsTotal} <span style="color:var(--chalk-dim)">(${p.goalsAvg}/p)</span></td>
+      <td class="num">${p.goalsTotal}</td>
+      <td class="num">${p.goalsAvg}</td>
       <td class="num">${p.goalsConcededTotal!==null ? p.goalsConcededTotal+` <span style="color:var(--chalk-dim)">(${p.goalsConcededAvg}/p)</span>` : "—"}</td>
     </tr>
   `).join("");
