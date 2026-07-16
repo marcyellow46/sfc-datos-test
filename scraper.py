@@ -48,6 +48,14 @@ GROUP = "grup-1"
 MAX_JORNADAS = 34                     # límite de seguridad; se detiene antes si no hay más
 REQUEST_DELAY_SECONDS = 1.0           # ser educado con el servidor de la FCF
 DEBUG = False                         # True -> guarda el html de cada página descargada
+FORCE_REFRESH = True                  # True -> re-parsea TODO aunque el JSON ya exista.
+                                       # Ponlo en True puntualmente cuando cambies la
+                                       # lógica de parseo (como ahora, para corregir los
+                                       # partidos guardados con el nombre de equipo local
+                                       # vacío). Para el uso normal semanal, déjalo en
+                                       # False: así solo se descargan los partidos nuevos
+                                       # y no se vuelve a golpear el servidor de la FCF
+                                       # pidiendo los ~240 partidos ya guardados.
 
 BASE = "https://www.fcf.cat"
 CALENDAR_URL = f"{BASE}/calendari/{SEASON}/{SPORT}/{COMPETITION}/{GROUP}"
@@ -111,7 +119,12 @@ def discover_matches():
         if len(cells) < 5:
             continue
 
-        team_links = tr.find_all("a", href=re.compile(r"/equip/"))
+        # Cada fila tiene 4 enlaces con href "/equip/": nombre local, escudo
+        # local, escudo visitante, nombre visitante. Los de escudo envuelven
+        # solo una <img> y no llevan texto, así que los descartamos y nos
+        # quedamos solo con los dos que sí tienen nombre.
+        team_links_all = tr.find_all("a", href=re.compile(r"/equip/"))
+        team_links = [a for a in team_links_all if a.get_text(strip=True)]
         home = team_links[0].get_text(strip=True) if len(team_links) > 0 else None
         away = team_links[1].get_text(strip=True) if len(team_links) > 1 else None
 
@@ -310,7 +323,12 @@ def parse_acta(acta_url: str) -> dict:
     title = soup.find("title")
     title_txt = title.get_text() if title else ""
 
-    team_headers = soup.find_all("a", href=re.compile(r"/equip/"))
+    # Misma situación que en discover_matches(): la cabecera de la acta
+    # repite escudo+nombre para cada equipo (y todo el bloque aparece DOS
+    # veces en la página), así que filtramos los enlaces sin texto (escudos)
+    # y nos quedamos con los dos primeros nombres reales.
+    team_headers_all = soup.find_all("a", href=re.compile(r"/equip/"))
+    team_headers = [a for a in team_headers_all if a.get_text(strip=True)]
     home_name = team_headers[0].get_text(strip=True) if len(team_headers) > 0 else None
     away_name = team_headers[1].get_text(strip=True) if len(team_headers) > 1 else None
 
@@ -376,7 +394,7 @@ def main():
     for m in matches:
         acta_id = re.sub(r"[^a-zA-Z0-9]+", "-", m["acta_url"].split("/acta/")[-1]).strip("-")
         out_path = MATCHES_DIR / f"{acta_id}.json"
-        if out_path.exists():
+        if out_path.exists() and not FORCE_REFRESH:
             index.append(m)
             continue  # ya descargado en una ejecución anterior
         try:
