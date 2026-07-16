@@ -6,6 +6,63 @@
     "name": "RUBI, U.E. A",
     "starters": [
       {
+        "dorsal": 1,
+        "name": "LEVA MOLANO, RAFAEL",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/900008888"
+      },
+      {
+        "dorsal": 2,
+        "name": "TORRES MARTÍNEZ, AITOR",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/900008885"
+      },
+      {
+        "dorsal": 3,
+        "name": "JUNCÀ ROVIRA, MARC",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/631565"
+      },
+      {
+        "dorsal": 7,
+        "name": "RECORT MORENO, ADRIA",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/637231"
+      },
+      {
+        "dorsal": 8,
+        "name": "MASIP MENDEZ, JORDI",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/681188"
+      },
+      {
+        "dorsal": 10,
+        "name": "JIMENEZ ALBELDA, PABLO",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/698743"
+      },
+      {
+        "dorsal": 14,
+        "name": "HERRANZ VIDAL, PAU",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/15320604"
+      },
+      {
+        "dorsal": 15,
+        "name": "TENORIO GALCERAN, ORIOL",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/755670"
+      },
+      {
+        "dorsal": 20,
+        "name": "RUIZ FERNANDEZ, ALEX",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/485271"
+      },
+      {
+        "dorsal": 22,
+        "name": "MENDOZA GARCIA, SEBASTIA",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/784869"
+      },
+      {
+        "dorsal": 23,
+        "name": "DIAZ WILLIAMS, KEVIN",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/673820"
+      }
+    ],
+    "bench": [
+      {
         "dorsal": 4,
         "name": "YAHYA RABIE, AYOUB",
         "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/23968785"
@@ -51,13 +108,69 @@
         "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/19854726"
       }
     ],
-    "bench": [],
     "substitutions": [],
     "cards": []
   },
   "away": {
     "name": "SABADELL F.C., C.E. B",
     "starters": [
+      {
+        "dorsal": 13,
+        "name": "HONRUBIA STEFAN, ALEX",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/15437485"
+      },
+      {
+        "dorsal": 4,
+        "name": "FONT AMAT, JAN",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/15195162"
+      },
+      {
+        "dorsal": 5,
+        "name": "MARTINEZ TASIAS, ELOI",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/15668590"
+      },
+      {
+        "dorsal": 6,
+        "name": "KEBE , MOUSSA",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/44705769"
+      },
+      {
+        "dorsal": 7,
+        "name": "BOBI CHAMORRO, ADRIÁN",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/15190170"
+      },
+      {
+        "dorsal": 12,
+        "name": "PEMBERTON , VINCENT NINIAN DAVID",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/19771640"
+      },
+      {
+        "dorsal": 17,
+        "name": "BAULÓ MEJÍAS, SAMUEL",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/18794583"
+      },
+      {
+        "dorsal": 20,
+        "name": "SALGUERO CUENCA, ERICK",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/753091"
+      },
+      {
+        "dorsal": 22,
+        "name": "SÁEZ JIMÉNEZ, ENRIC",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/7009152"
+      },
+      {
+        "dorsal": 24,
+        "name": "TOURE DIAWARA, MAMADOU BOUHARY",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/747210"
+      },
+      {
+        "dorsal": 27,
+        "name": "GARCIA SANTOS, KAUA",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/18807513"
+      }
+    ],
+    "bench": [
       {
         "dorsal": 1,
         "name": "CIURANS CANO, ORIOL",
@@ -104,7 +217,6 @@
         "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/44698885"
       }
     ],
-    "bench": [],
     "substitutions": [],
     "cards": []
   },

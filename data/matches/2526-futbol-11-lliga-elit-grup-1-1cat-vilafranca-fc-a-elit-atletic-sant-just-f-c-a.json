@@ -6,6 +6,63 @@
     "name": "VILAFRANCA, F.C. A",
     "starters": [
       {
+        "dorsal": 13,
+        "name": "VERDEJO QUERO, ALEJANDRO",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/775401"
+      },
+      {
+        "dorsal": 3,
+        "name": "GONZÁLEZ MIQUEL, MARC",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/646061"
+      },
+      {
+        "dorsal": 5,
+        "name": "HILL VALLS, ERIC",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/54594399"
+      },
+      {
+        "dorsal": 6,
+        "name": "TORRES SUGRANYES, IVAN",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/27439894"
+      },
+      {
+        "dorsal": 7,
+        "name": "CASTELL SOLE, NIL",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/15126050"
+      },
+      {
+        "dorsal": 10,
+        "name": "ACEDO SANCHEZ, DAVID",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/630384"
+      },
+      {
+        "dorsal": 15,
+        "name": "MAÑÉ PASCUAL, MARTÍ",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/39749237"
+      },
+      {
+        "dorsal": 17,
+        "name": "MARC",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/15695132"
+      },
+      {
+        "dorsal": 19,
+        "name": "ESCOFET ALEMANY, SERGI",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/647726"
+      },
+      {
+        "dorsal": 22,
+        "name": "KAWAGUCHI , SHINNOSUKE",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/34629289"
+      },
+      {
+        "dorsal": 23,
+        "name": "CABRERIZO TOCON, ADRIAN",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/714601"
+      }
+    ],
+    "bench": [
+      {
         "dorsal": 1,
         "name": "BENITO MARTÍN, DAVID",
         "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/685486"
@@ -46,13 +103,69 @@
         "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/19642198"
       }
     ],
-    "bench": [],
     "substitutions": [],
     "cards": []
   },
   "away": {
     "name": "ATLETIC SANT JUST . F. C. A",
     "starters": [
+      {
+        "dorsal": 13,
+        "name": "LOPEZ LLORENS, VICTOR",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/15947526"
+      },
+      {
+        "dorsal": 2,
+        "name": "SABASTIAN , GODWIN JOHN",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/46878477"
+      },
+      {
+        "dorsal": 3,
+        "name": "PALACIOS CORRAL, ALEJANDRO",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/673474"
+      },
+      {
+        "dorsal": 6,
+        "name": "GONZÁLEZ TARRUELLA, MARC",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/727840"
+      },
+      {
+        "dorsal": 9,
+        "name": "GUMA CERQUEDA, JAN",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/38436012"
+      },
+      {
+        "dorsal": 10,
+        "name": "GONZALEZ OLLER, JAN ANTONI",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/722808"
+      },
+      {
+        "dorsal": 16,
+        "name": "MELERO CALVO, UNAI",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/15544346"
+      },
+      {
+        "dorsal": 19,
+        "name": "ARJONA SERRANO, PAU",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/750040"
+      },
+      {
+        "dorsal": 20,
+        "name": "GARCIA BAQUES, POL",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/15610923"
+      },
+      {
+        "dorsal": 21,
+        "name": "PEREZ PICON, DAVID",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/628784"
+      },
+      {
+        "dorsal": 22,
+        "name": "PILAR DEL HOYO, JON",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/15706465"
+      }
+    ],
+    "bench": [
       {
         "dorsal": 1,
         "name": "CRESPO YUNTA, GUILLERMO",
@@ -99,7 +212,6 @@
         "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/57736517"
       }
     ],
-    "bench": [],
     "substitutions": [],
     "cards": []
   },

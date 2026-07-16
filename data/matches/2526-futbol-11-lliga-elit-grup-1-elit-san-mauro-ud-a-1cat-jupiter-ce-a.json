@@ -6,6 +6,63 @@
     "name": "SAN MAURO, U.D. A",
     "starters": [
       {
+        "dorsal": 25,
+        "name": "MARTÍNEZ BENÍTEZ, CALEB",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/727295"
+      },
+      {
+        "dorsal": 4,
+        "name": "MASEGOSA SOLÍS, ALBERT",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/676982"
+      },
+      {
+        "dorsal": 5,
+        "name": "GARCÍA GARCÍA, JAVIER",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/662263"
+      },
+      {
+        "dorsal": 6,
+        "name": "ENRIQUEZ DE LA ROSA, MARC",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/734626"
+      },
+      {
+        "dorsal": 7,
+        "name": "NAVARRO LÓPEZ, JOSEP",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/720372"
+      },
+      {
+        "dorsal": 8,
+        "name": "BENITO ALSINA, BERNAT",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/654350"
+      },
+      {
+        "dorsal": 11,
+        "name": "YÁÑEZ BORRÀS, PAU",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/15660592"
+      },
+      {
+        "dorsal": 14,
+        "name": "MAYMÓ BALLESTER, LLUC",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/15042061"
+      },
+      {
+        "dorsal": 15,
+        "name": "ESPINOSA FIGUERAS, JAIRÓN RUBÉN",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/15243936"
+      },
+      {
+        "dorsal": 20,
+        "name": "GULIAS AGUILERA, MARC",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/722851"
+      },
+      {
+        "dorsal": 24,
+        "name": "COSANO BERROCAL, KENNETH",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/646697"
+      }
+    ],
+    "bench": [
+      {
         "dorsal": 10,
         "name": "ARIBAU CASALS, JORDI",
         "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/713238"
@@ -51,13 +108,69 @@
         "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/38056126"
       }
     ],
-    "bench": [],
     "substitutions": [],
     "cards": []
   },
   "away": {
     "name": "JÚPITER, C.E. A",
     "starters": [
+      {
+        "dorsal": 1,
+        "name": "XAVI",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/667654"
+      },
+      {
+        "dorsal": 4,
+        "name": "OLIVER JIMENEZ, OSCAR",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/747028"
+      },
+      {
+        "dorsal": 6,
+        "name": "VAQUERA LOPEZ, IKER",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/741995"
+      },
+      {
+        "dorsal": 7,
+        "name": "BECERRA MARTINEZ, CRISTIAN",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/636714"
+      },
+      {
+        "dorsal": 8,
+        "name": "CHICO MARINA, PATRICK",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/671095"
+      },
+      {
+        "dorsal": 14,
+        "name": "GARCIA PASCUAL, ALEX",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/749956"
+      },
+      {
+        "dorsal": 15,
+        "name": "PEÑA PEREZ, SERGIO",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/675548"
+      },
+      {
+        "dorsal": 17,
+        "name": "DAHBI AKALAY, BADREDDINE",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/749393"
+      },
+      {
+        "dorsal": 18,
+        "name": "RODRIGUEZ ROSA, BIEL",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/15726314"
+      },
+      {
+        "dorsal": 20,
+        "name": "RUIZ ROMERA, DANIEL",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/15543509"
+      },
+      {
+        "dorsal": 21,
+        "name": "GURREA SANCHEZ, ALBERT",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/656933"
+      }
+    ],
+    "bench": [
       {
         "dorsal": 3,
         "name": "BASSOLS BOSCH, ADRIA",
@@ -104,7 +217,6 @@
         "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/786532"
       }
     ],
-    "bench": [],
     "substitutions": [],
     "cards": []
   },

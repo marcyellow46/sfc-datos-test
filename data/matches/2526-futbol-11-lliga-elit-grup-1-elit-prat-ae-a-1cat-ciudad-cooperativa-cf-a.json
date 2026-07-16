@@ -6,6 +6,63 @@
     "name": "PRAT, A.E. A",
     "starters": [
       {
+        "dorsal": 13,
+        "name": "GUISERIS MIÑARRO, DANIEL",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/682207"
+      },
+      {
+        "dorsal": 2,
+        "name": "ADAN DELGADO, DAVID",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/659747"
+      },
+      {
+        "dorsal": 3,
+        "name": "PEÑA DOMINGO, ROGER",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/900006763"
+      },
+      {
+        "dorsal": 9,
+        "name": "VIDAL GIRONES, RICARD",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/15694572"
+      },
+      {
+        "dorsal": 11,
+        "name": "PLAZA CREMADES, ALEX",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/731752"
+      },
+      {
+        "dorsal": 16,
+        "name": "SANCHEZ OCAÑA, ALEJANDRO",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/631839"
+      },
+      {
+        "dorsal": 18,
+        "name": "MUÑOZ VELA, MARC",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/633887"
+      },
+      {
+        "dorsal": 20,
+        "name": "GOMEZ CASAS, RUBEN",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/46557319"
+      },
+      {
+        "dorsal": 21,
+        "name": "LAMELAS DOMINGUEZ, MARTIN",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/47621480"
+      },
+      {
+        "dorsal": 23,
+        "name": "CORTINA CABALLERO, ABEL",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/662253"
+      },
+      {
+        "dorsal": 30,
+        "name": "BONAVENTURA GRIS, DANIEL",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/15655071"
+      }
+    ],
+    "bench": [
+      {
         "dorsal": 1,
         "name": "COVES VENTURA, GUILLEM",
         "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/18511973"
@@ -41,13 +98,69 @@
         "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/686061"
       }
     ],
-    "bench": [],
     "substitutions": [],
     "cards": []
   },
   "away": {
     "name": "CIUDAD COOPERATIVA, C.F. A",
     "starters": [
+      {
+        "dorsal": 1,
+        "name": "ALTÉS GUERRERO, JOAN",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/780711"
+      },
+      {
+        "dorsal": 2,
+        "name": "PUEYO VILA, MARC",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/15054564"
+      },
+      {
+        "dorsal": 3,
+        "name": "GARCÍA GARCÍA, KILIAN",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/24400827"
+      },
+      {
+        "dorsal": 5,
+        "name": "COLOM CAÑERO, ANTONIO",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/20020051"
+      },
+      {
+        "dorsal": 10,
+        "name": "BLANCO BLANCO, BIEL",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/713410"
+      },
+      {
+        "dorsal": 12,
+        "name": "ZELLAL NEJAM, HICHAM",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/685031"
+      },
+      {
+        "dorsal": 18,
+        "name": "SÁNCHEZ PÉREZ, KEVIN",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/900006419"
+      },
+      {
+        "dorsal": 19,
+        "name": "DELGADO CHICANO, ADRIAN",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/15687408"
+      },
+      {
+        "dorsal": 21,
+        "name": "RELOBA NAVARRO, IZAN",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/15687351"
+      },
+      {
+        "dorsal": 22,
+        "name": "AKEL MEHDAOUI, RAMZI",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/27325614"
+      },
+      {
+        "dorsal": 24,
+        "name": "NAVARRO GÓMEZ, RUBEN",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/15960092"
+      }
+    ],
+    "bench": [
       {
         "dorsal": 4,
         "name": "DE ANDRADE JIMENEZ, VICTOR MBUKU",
@@ -94,7 +207,6 @@
         "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/15152617"
       }
     ],
-    "bench": [],
     "substitutions": [],
     "cards": []
   },
