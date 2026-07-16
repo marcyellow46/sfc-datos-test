@@ -2,1680 +2,1680 @@
   {
     "jornada": 1,
     "home": "CIUDAD COOPERATIVA, C.F. A",
-    "away": "",
+    "away": "VALLS U.E. A",
     "score": "1-0",
     "acta_url": "https://www.fcf.cat/acta/2526/futbol-11/lliga-elit/grup-1/1cat/ciudad-cooperativa-cf-a/elit/valls-ue-a"
   },
   {
     "jornada": 1,
     "home": "MANLLEU, A.E.C. A",
-    "away": "",
+    "away": "VILAFRANCA, F.C. A",
     "score": "3-0",
     "acta_url": "https://www.fcf.cat/acta/2526/futbol-11/lliga-elit/grup-1/elit/manlleu-aec-a/1cat/vilafranca-fc-a"
   },
   {
     "jornada": 1,
     "home": "HORTA, U.AT. A",
-    "away": "",
+    "away": "SAN MAURO, U.D. A",
     "score": "2-3",
     "acta_url": "https://www.fcf.cat/acta/2526/futbol-11/lliga-elit/grup-1/elit/horta-uat-a/elit/san-mauro-ud-a"
   },
   {
     "jornada": 1,
     "home": "SANTFELIUENC, F.C. A",
-    "away": "",
+    "away": "PRAT, A.E. A",
     "score": "1-2",
     "acta_url": "https://www.fcf.cat/acta/2526/futbol-11/lliga-elit/grup-1/1cat/santfeliuenc-fc-a/elit/prat-ae-a"
   },
   {
     "jornada": 1,
     "home": "SAN JUAN AT. DE MONTCADA,U.E. A",
-    "away": "",
+    "away": "JÚPITER, C.E. A",
     "score": "2-1",
     "acta_url": "https://www.fcf.cat/acta/2526/futbol-11/lliga-elit/grup-1/aa/san-juan-at-de-montcada-ue-a/1cat/jupiter-ce-a"
   },
   {
     "jornada": 1,
     "home": "CASTELLDEFELS, U.E. A",
-    "away": "",
+    "away": "SABADELL F.C., C.E. B",
     "score": "1-1",
     "acta_url": "https://www.fcf.cat/acta/2526/futbol-11/lliga-elit/grup-1/elit/castelldefels-ue-a/elit/sabadell-fc-ce-b"
   },
   {
     "jornada": 1,
     "home": "RUBI, U.E. A",
-    "away": "",
+    "away": "MARTINENC, F.C. A",
     "score": "3-1",
     "acta_url": "https://www.fcf.cat/acta/2526/futbol-11/lliga-elit/grup-1/elit/rubi-ue-a/aa/martinenc-fc-a"
   },
   {
     "jornada": 1,
     "home": "POBLA MAFUMET, C.F. A",
-    "away": "",
+    "away": "ATLETIC SANT JUST . F. C. A",
     "score": "0-1",
     "acta_url": "https://www.fcf.cat/acta/2526/futbol-11/lliga-elit/grup-1/aa/pobla-mafumet-cf-a/elit/atletic-sant-just-f-c-a"
   },
   {
     "jornada": 2,
     "home": "VALLS U.E. A",
-    "away": "",
+    "away": "POBLA MAFUMET, C.F. A",
     "score": "0-0",
     "acta_url": "https://www.fcf.cat/acta/2526/futbol-11/lliga-elit/grup-1/elit/valls-ue-a/aa/pobla-mafumet-cf-a"
   },
   {
     "jornada": 2,
     "home": "CIUDAD COOPERATIVA, C.F. A",
-    "away": "",
+    "away": "VILAFRANCA, F.C. A",
     "score": "2-1",
     "acta_url": "https://www.fcf.cat/acta/2526/futbol-11/lliga-elit/grup-1/1cat/ciudad-cooperativa-cf-a/1cat/vilafranca-fc-a"
   },
   {
     "jornada": 2,
     "home": "SAN MAURO, U.D. A",
-    "away": "",
+    "away": "MANLLEU, A.E.C. A",
     "score": "0-0",
     "acta_url": "https://www.fcf.cat/acta/2526/futbol-11/lliga-elit/grup-1/elit/san-mauro-ud-a/elit/manlleu-aec-a"
   },
   {
     "jornada": 2,
     "home": "PRAT, A.E. A",
-    "away": "",
+    "away": "HORTA, U.AT. A",
     "score": "1-1",
     "acta_url": "https://www.fcf.cat/acta/2526/futbol-11/lliga-elit/grup-1/elit/prat-ae-a/elit/horta-uat-a"
   },
   {
     "jornada": 2,
     "home": "JÚPITER, C.E. A",
-    "away": "",
+    "away": "SANTFELIUENC, F.C. A",
     "score": "0-0",
     "acta_url": "https://www.fcf.cat/acta/2526/futbol-11/lliga-elit/grup-1/1cat/jupiter-ce-a/1cat/santfeliuenc-fc-a"
   },
   {
     "jornada": 2,
     "home": "SABADELL F.C., C.E. B",
-    "away": "",
+    "away": "SAN JUAN AT. DE MONTCADA,U.E. A",
     "score": "0-1",
     "acta_url": "https://www.fcf.cat/acta/2526/futbol-11/lliga-elit/grup-1/elit/sabadell-fc-ce-b/aa/san-juan-at-de-montcada-ue-a"
   },
   {
     "jornada": 2,
     "home": "MARTINENC, F.C. A",
-    "away": "",
+    "away": "CASTELLDEFELS, U.E. A",
     "score": "1-1",
     "acta_url": "https://www.fcf.cat/acta/2526/futbol-11/lliga-elit/grup-1/aa/martinenc-fc-a/elit/castelldefels-ue-a"
   },
   {
     "jornada": 2,
     "home": "ATLETIC SANT JUST . F. C. A",
-    "away": "",
+    "away": "RUBI, U.E. A",
     "score": "0-1",
     "acta_url": "https://www.fcf.cat/acta/2526/futbol-11/lliga-elit/grup-1/elit/atletic-sant-just-f-c-a/elit/rubi-ue-a"
   },
   {
     "jornada": 3,
     "home": "VALLS U.E. A",
-    "away": "",
+    "away": "VILAFRANCA, F.C. A",
     "score": "2-1",
     "acta_url": "https://www.fcf.cat/acta/2526/futbol-11/lliga-elit/grup-1/elit/valls-ue-a/1cat/vilafranca-fc-a"
   },
   {
     "jornada": 3,
     "home": "CIUDAD COOPERATIVA, C.F. A",
-    "away": "",
+    "away": "SAN MAURO, U.D. A",
     "score": "1-0",
     "acta_url": "https://www.fcf.cat/acta/2526/futbol-11/lliga-elit/grup-1/1cat/ciudad-cooperativa-cf-a/elit/san-mauro-ud-a"
   },
   {
     "jornada": 3,
     "home": "MANLLEU, A.E.C. A",
-    "away": "",
+    "away": "PRAT, A.E. A",
     "score": "2-0",
     "acta_url": "https://www.fcf.cat/acta/2526/futbol-11/lliga-elit/grup-1/elit/manlleu-aec-a/elit/prat-ae-a"
   },
   {
     "jornada": 3,
     "home": "HORTA, U.AT. A",
-    "away": "",
+    "away": "JÚPITER, C.E. A",
     "score": "1-3",
     "acta_url": "https://www.fcf.cat/acta/2526/futbol-11/lliga-elit/grup-1/elit/horta-uat-a/1cat/jupiter-ce-a"
   },
   {
     "jornada": 3,
     "home": "SANTFELIUENC, F.C. A",
-    "away": "",
+    "away": "SABADELL F.C., C.E. B",
     "score": "1-0",
     "acta_url": "https://www.fcf.cat/acta/2526/futbol-11/lliga-elit/grup-1/1cat/santfeliuenc-fc-a/elit/sabadell-fc-ce-b"
   },
   {
     "jornada": 3,
     "home": "SAN JUAN AT. DE MONTCADA,U.E. A",
-    "away": "",
+    "away": "MARTINENC, F.C. A",
     "score": "5-2",
     "acta_url": "https://www.fcf.cat/acta/2526/futbol-11/lliga-elit/grup-1/aa/san-juan-at-de-montcada-ue-a/aa/martinenc-fc-a"
   },
   {
     "jornada": 3,
     "home": "CASTELLDEFELS, U.E. A",
-    "away": "",
+    "away": "ATLETIC SANT JUST . F. C. A",
     "score": "1-0",
     "acta_url": "https://www.fcf.cat/acta/2526/futbol-11/lliga-elit/grup-1/elit/castelldefels-ue-a/elit/atletic-sant-just-f-c-a"
   },
   {
     "jornada": 3,
     "home": "POBLA MAFUMET, C.F. A",
-    "away": "",
+    "away": "RUBI, U.E. A",
     "score": "0-0",
     "acta_url": "https://www.fcf.cat/acta/2526/futbol-11/lliga-elit/grup-1/aa/pobla-mafumet-cf-a/elit/rubi-ue-a"
   },
   {
     "jornada": 4,
     "home": "VILAFRANCA, F.C. A",
-    "away": "",
+    "away": "POBLA MAFUMET, C.F. A",
     "score": "3-3",
     "acta_url": "https://www.fcf.cat/acta/2526/futbol-11/lliga-elit/grup-1/1cat/vilafranca-fc-a/aa/pobla-mafumet-cf-a"
   },
   {
     "jornada": 4,
     "home": "SAN MAURO, U.D. A",
-    "away": "",
+    "away": "VALLS U.E. A",
     "score": "1-3",
     "acta_url": "https://www.fcf.cat/acta/2526/futbol-11/lliga-elit/grup-1/elit/san-mauro-ud-a/elit/valls-ue-a"
   },
   {
     "jornada": 4,
     "home": "PRAT, A.E. A",
-    "away": "",
+    "away": "CIUDAD COOPERATIVA, C.F. A",
     "score": "5-2",
     "acta_url": "https://www.fcf.cat/acta/2526/futbol-11/lliga-elit/grup-1/elit/prat-ae-a/1cat/ciudad-cooperativa-cf-a"
   },
   {
     "jornada": 4,
     "home": "JÚPITER, C.E. A",
-    "away": "",
+    "away": "MANLLEU, A.E.C. A",
     "score": "4-2",
     "acta_url": "https://www.fcf.cat/acta/2526/futbol-11/lliga-elit/grup-1/1cat/jupiter-ce-a/elit/manlleu-aec-a"
   },
   {
     "jornada": 4,
     "home": "SABADELL F.C., C.E. B",
-    "away": "",
+    "away": "HORTA, U.AT. A",
     "score": "3-1",
     "acta_url": "https://www.fcf.cat/acta/2526/futbol-11/lliga-elit/grup-1/elit/sabadell-fc-ce-b/elit/horta-uat-a"
   },
   {
     "jornada": 4,
     "home": "MARTINENC, F.C. A",
-    "away": "",
+    "away": "SANTFELIUENC, F.C. A",
     "score": "1-1",
     "acta_url": "https://www.fcf.cat/acta/2526/futbol-11/lliga-elit/grup-1/aa/martinenc-fc-a/1cat/santfeliuenc-fc-a"
   },
   {
     "jornada": 4,
     "home": "ATLETIC SANT JUST . F. C. A",
-    "away": "",
+    "away": "SAN JUAN AT. DE MONTCADA,U.E. A",
     "score": "4-2",
     "acta_url": "https://www.fcf.cat/acta/2526/futbol-11/lliga-elit/grup-1/elit/atletic-sant-just-f-c-a/aa/san-juan-at-de-montcada-ue-a"
   },
   {
     "jornada": 4,
     "home": "RUBI, U.E. A",
-    "away": "",
+    "away": "CASTELLDEFELS, U.E. A",
     "score": "1-3",
     "acta_url": "https://www.fcf.cat/acta/2526/futbol-11/lliga-elit/grup-1/elit/rubi-ue-a/elit/castelldefels-ue-a"
   },
   {
     "jornada": 5,
     "home": "VILAFRANCA, F.C. A",
-    "away": "",
+    "away": "SAN MAURO, U.D. A",
     "score": "2-2",
     "acta_url": "https://www.fcf.cat/acta/2526/futbol-11/lliga-elit/grup-1/1cat/vilafranca-fc-a/elit/san-mauro-ud-a"
   },
   {
     "jornada": 5,
     "home": "VALLS U.E. A",
-    "away": "",
+    "away": "PRAT, A.E. A",
     "score": "3-2",
     "acta_url": "https://www.fcf.cat/acta/2526/futbol-11/lliga-elit/grup-1/elit/valls-ue-a/elit/prat-ae-a"
   },
   {
     "jornada": 5,
     "home": "CIUDAD COOPERATIVA, C.F. A",
-    "away": "",
+    "away": "JÚPITER, C.E. A",
     "score": "0-0",
     "acta_url": "https://www.fcf.cat/acta/2526/futbol-11/lliga-elit/grup-1/1cat/ciudad-cooperativa-cf-a/1cat/jupiter-ce-a"
   },
   {
     "jornada": 5,
     "home": "MANLLEU, A.E.C. A",
-    "away": "",
+    "away": "SABADELL F.C., C.E. B",
     "score": "1-0",
     "acta_url": "https://www.fcf.cat/acta/2526/futbol-11/lliga-elit/grup-1/elit/manlleu-aec-a/elit/sabadell-fc-ce-b"
   },
   {
     "jornada": 5,
     "home": "HORTA, U.AT. A",
-    "away": "",
+    "away": "MARTINENC, F.C. A",
     "score": "0-1",
     "acta_url": "https://www.fcf.cat/acta/2526/futbol-11/lliga-elit/grup-1/elit/horta-uat-a/aa/martinenc-fc-a"
   },
   {
     "jornada": 5,
     "home": "SANTFELIUENC, F.C. A",
-    "away": "",
+    "away": "ATLETIC SANT JUST . F. C. A",
     "score": "0-0",
     "acta_url": "https://www.fcf.cat/acta/2526/futbol-11/lliga-elit/grup-1/1cat/santfeliuenc-fc-a/elit/atletic-sant-just-f-c-a"
   },
   {
     "jornada": 5,
     "home": "SAN JUAN AT. DE MONTCADA,U.E. A",
-    "away": "",
+    "away": "RUBI, U.E. A",
     "score": "2-1",
     "acta_url": "https://www.fcf.cat/acta/2526/futbol-11/lliga-elit/grup-1/aa/san-juan-at-de-montcada-ue-a/elit/rubi-ue-a"
   },
   {
     "jornada": 5,
     "home": "POBLA MAFUMET, C.F. A",
-    "away": "",
+    "away": "CASTELLDEFELS, U.E. A",
     "score": "1-0",
     "acta_url": "https://www.fcf.cat/acta/2526/futbol-11/lliga-elit/grup-1/aa/pobla-mafumet-cf-a/elit/castelldefels-ue-a"
   },
   {
     "jornada": 6,
     "home": "SAN MAURO, U.D. A",
-    "away": "",
+    "away": "POBLA MAFUMET, C.F. A",
     "score": "1-2",
     "acta_url": "https://www.fcf.cat/acta/2526/futbol-11/lliga-elit/grup-1/elit/san-mauro-ud-a/aa/pobla-mafumet-cf-a"
   },
   {
     "jornada": 6,
     "home": "PRAT, A.E. A",
-    "away": "",
+    "away": "VILAFRANCA, F.C. A",
     "score": "3-1",
     "acta_url": "https://www.fcf.cat/acta/2526/futbol-11/lliga-elit/grup-1/elit/prat-ae-a/1cat/vilafranca-fc-a"
   },
   {
     "jornada": 6,
     "home": "JÚPITER, C.E. A",
-    "away": "",
+    "away": "VALLS U.E. A",
     "score": "2-2",
     "acta_url": "https://www.fcf.cat/acta/2526/futbol-11/lliga-elit/grup-1/1cat/jupiter-ce-a/elit/valls-ue-a"
   },
   {
     "jornada": 6,
     "home": "SABADELL F.C., C.E. B",
-    "away": "",
+    "away": "CIUDAD COOPERATIVA, C.F. A",
     "score": "1-2",
     "acta_url": "https://www.fcf.cat/acta/2526/futbol-11/lliga-elit/grup-1/elit/sabadell-fc-ce-b/1cat/ciudad-cooperativa-cf-a"
   },
   {
     "jornada": 6,
     "home": "MARTINENC, F.C. A",
-    "away": "",
+    "away": "MANLLEU, A.E.C. A",
     "score": "1-4",
     "acta_url": "https://www.fcf.cat/acta/2526/futbol-11/lliga-elit/grup-1/aa/martinenc-fc-a/elit/manlleu-aec-a"
   },
   {
     "jornada": 6,
     "home": "ATLETIC SANT JUST . F. C. A",
-    "away": "",
+    "away": "HORTA, U.AT. A",
     "score": "0-3",
     "acta_url": "https://www.fcf.cat/acta/2526/futbol-11/lliga-elit/grup-1/elit/atletic-sant-just-f-c-a/elit/horta-uat-a"
   },
   {
     "jornada": 6,
     "home": "RUBI, U.E. A",
-    "away": "",
+    "away": "SANTFELIUENC, F.C. A",
     "score": "1-0",
     "acta_url": "https://www.fcf.cat/acta/2526/futbol-11/lliga-elit/grup-1/elit/rubi-ue-a/1cat/santfeliuenc-fc-a"
   },
   {
     "jornada": 6,
     "home": "CASTELLDEFELS, U.E. A",
-    "away": "",
+    "away": "SAN JUAN AT. DE MONTCADA,U.E. A",
     "score": "0-2",
     "acta_url": "https://www.fcf.cat/acta/2526/futbol-11/lliga-elit/grup-1/elit/castelldefels-ue-a/aa/san-juan-at-de-montcada-ue-a"
   },
   {
     "jornada": 7,
     "home": "SAN MAURO, U.D. A",
-    "away": "",
+    "away": "PRAT, A.E. A",
     "score": "0-1",
     "acta_url": "https://www.fcf.cat/acta/2526/futbol-11/lliga-elit/grup-1/elit/san-mauro-ud-a/elit/prat-ae-a"
   },
   {
     "jornada": 7,
     "home": "VILAFRANCA, F.C. A",
-    "away": "",
+    "away": "JÚPITER, C.E. A",
     "score": "2-1",
     "acta_url": "https://www.fcf.cat/acta/2526/futbol-11/lliga-elit/grup-1/1cat/vilafranca-fc-a/1cat/jupiter-ce-a"
   },
   {
     "jornada": 7,
     "home": "VALLS U.E. A",
-    "away": "",
+    "away": "SABADELL F.C., C.E. B",
     "score": "1-2",
     "acta_url": "https://www.fcf.cat/acta/2526/futbol-11/lliga-elit/grup-1/elit/valls-ue-a/elit/sabadell-fc-ce-b"
   },
   {
     "jornada": 7,
     "home": "CIUDAD COOPERATIVA, C.F. A",
-    "away": "",
+    "away": "MARTINENC, F.C. A",
     "score": "1-3",
     "acta_url": "https://www.fcf.cat/acta/2526/futbol-11/lliga-elit/grup-1/1cat/ciudad-cooperativa-cf-a/aa/martinenc-fc-a"
   },
   {
     "jornada": 7,
     "home": "MANLLEU, A.E.C. A",
-    "away": "",
+    "away": "ATLETIC SANT JUST . F. C. A",
     "score": "3-0",
     "acta_url": "https://www.fcf.cat/acta/2526/futbol-11/lliga-elit/grup-1/elit/manlleu-aec-a/elit/atletic-sant-just-f-c-a"
   },
   {
     "jornada": 7,
     "home": "HORTA, U.AT. A",
-    "away": "",
+    "away": "RUBI, U.E. A",
     "score": "1-2",
     "acta_url": "https://www.fcf.cat/acta/2526/futbol-11/lliga-elit/grup-1/elit/horta-uat-a/elit/rubi-ue-a"
   },
   {
     "jornada": 7,
     "home": "SANTFELIUENC, F.C. A",
-    "away": "",
+    "away": "CASTELLDEFELS, U.E. A",
     "score": "1-2",
     "acta_url": "https://www.fcf.cat/acta/2526/futbol-11/lliga-elit/grup-1/1cat/santfeliuenc-fc-a/elit/castelldefels-ue-a"
   },
   {
     "jornada": 7,
     "home": "POBLA MAFUMET, C.F. A",
-    "away": "",
+    "away": "SAN JUAN AT. DE MONTCADA,U.E. A",
     "score": "3-0",
     "acta_url": "https://www.fcf.cat/acta/2526/futbol-11/lliga-elit/grup-1/aa/pobla-mafumet-cf-a/aa/san-juan-at-de-montcada-ue-a"
   },
   {
     "jornada": 8,
     "home": "PRAT, A.E. A",
-    "away": "",
+    "away": "POBLA MAFUMET, C.F. A",
     "score": "1-0",
     "acta_url": "https://www.fcf.cat/acta/2526/futbol-11/lliga-elit/grup-1/elit/prat-ae-a/aa/pobla-mafumet-cf-a"
   },
   {
     "jornada": 8,
     "home": "JÚPITER, C.E. A",
-    "away": "",
+    "away": "SAN MAURO, U.D. A",
     "score": "0-1",
     "acta_url": "https://www.fcf.cat/acta/2526/futbol-11/lliga-elit/grup-1/1cat/jupiter-ce-a/elit/san-mauro-ud-a"
   },
   {
     "jornada": 8,
     "home": "SABADELL F.C., C.E. B",
-    "away": "",
+    "away": "VILAFRANCA, F.C. A",
     "score": "1-2",
     "acta_url": "https://www.fcf.cat/acta/2526/futbol-11/lliga-elit/grup-1/elit/sabadell-fc-ce-b/1cat/vilafranca-fc-a"
   },
   {
     "jornada": 8,
     "home": "MARTINENC, F.C. A",
-    "away": "",
+    "away": "VALLS U.E. A",
     "score": "3-2",
     "acta_url": "https://www.fcf.cat/acta/2526/futbol-11/lliga-elit/grup-1/aa/martinenc-fc-a/elit/valls-ue-a"
   },
   {
     "jornada": 8,
     "home": "ATLETIC SANT JUST . F. C. A",
-    "away": "",
+    "away": "CIUDAD COOPERATIVA, C.F. A",
     "score": "3-1",
     "acta_url": "https://www.fcf.cat/acta/2526/futbol-11/lliga-elit/grup-1/elit/atletic-sant-just-f-c-a/1cat/ciudad-cooperativa-cf-a"
   },
   {
     "jornada": 8,
     "home": "RUBI, U.E. A",
-    "away": "",
+    "away": "MANLLEU, A.E.C. A",
     "score": "4-2",
     "acta_url": "https://www.fcf.cat/acta/2526/futbol-11/lliga-elit/grup-1/elit/rubi-ue-a/elit/manlleu-aec-a"
   },
   {
     "jornada": 8,
     "home": "CASTELLDEFELS, U.E. A",
-    "away": "",
+    "away": "HORTA, U.AT. A",
     "score": "1-0",
     "acta_url": "https://www.fcf.cat/acta/2526/futbol-11/lliga-elit/grup-1/elit/castelldefels-ue-a/elit/horta-uat-a"
   },
   {
     "jornada": 8,
     "home": "SAN JUAN AT. DE MONTCADA,U.E. A",
-    "away": "",
+    "away": "SANTFELIUENC, F.C. A",
     "score": "4-0",
     "acta_url": "https://www.fcf.cat/acta/2526/futbol-11/lliga-elit/grup-1/aa/san-juan-at-de-montcada-ue-a/1cat/santfeliuenc-fc-a"
   },
   {
     "jornada": 9,
     "home": "PRAT, A.E. A",
-    "away": "",
+    "away": "JÚPITER, C.E. A",
     "score": "2-1",
     "acta_url": "https://www.fcf.cat/acta/2526/futbol-11/lliga-elit/grup-1/elit/prat-ae-a/1cat/jupiter-ce-a"
   },
   {
     "jornada": 9,
     "home": "SAN MAURO, U.D. A",
-    "away": "",
+    "away": "SABADELL F.C., C.E. B",
     "score": "1-2",
     "acta_url": "https://www.fcf.cat/acta/2526/futbol-11/lliga-elit/grup-1/elit/san-mauro-ud-a/elit/sabadell-fc-ce-b"
   },
   {
     "jornada": 9,
     "home": "VILAFRANCA, F.C. A",
-    "away": "",
+    "away": "MARTINENC, F.C. A",
     "score": "3-2",
     "acta_url": "https://www.fcf.cat/acta/2526/futbol-11/lliga-elit/grup-1/1cat/vilafranca-fc-a/aa/martinenc-fc-a"
   },
   {
     "jornada": 9,
     "home": "VALLS U.E. A",
-    "away": "",
+    "away": "ATLETIC SANT JUST . F. C. A",
     "score": "5-1",
     "acta_url": "https://www.fcf.cat/acta/2526/futbol-11/lliga-elit/grup-1/elit/valls-ue-a/elit/atletic-sant-just-f-c-a"
   },
   {
     "jornada": 9,
     "home": "CIUDAD COOPERATIVA, C.F. A",
-    "away": "",
+    "away": "RUBI, U.E. A",
     "score": "2-2",
     "acta_url": "https://www.fcf.cat/acta/2526/futbol-11/lliga-elit/grup-1/1cat/ciudad-cooperativa-cf-a/elit/rubi-ue-a"
   },
   {
     "jornada": 9,
     "home": "MANLLEU, A.E.C. A",
-    "away": "",
+    "away": "CASTELLDEFELS, U.E. A",
     "score": "1-1",
     "acta_url": "https://www.fcf.cat/acta/2526/futbol-11/lliga-elit/grup-1/elit/manlleu-aec-a/elit/castelldefels-ue-a"
   },
   {
     "jornada": 9,
     "home": "HORTA, U.AT. A",
-    "away": "",
+    "away": "SAN JUAN AT. DE MONTCADA,U.E. A",
     "score": "4-0",
     "acta_url": "https://www.fcf.cat/acta/2526/futbol-11/lliga-elit/grup-1/elit/horta-uat-a/aa/san-juan-at-de-montcada-ue-a"
   },
   {
     "jornada": 9,
     "home": "POBLA MAFUMET, C.F. A",
-    "away": "",
+    "away": "SANTFELIUENC, F.C. A",
     "score": "0-0",
     "acta_url": "https://www.fcf.cat/acta/2526/futbol-11/lliga-elit/grup-1/aa/pobla-mafumet-cf-a/1cat/santfeliuenc-fc-a"
   },
   {
     "jornada": 10,
     "home": "JÚPITER, C.E. A",
-    "away": "",
+    "away": "POBLA MAFUMET, C.F. A",
     "score": "0-2",
     "acta_url": "https://www.fcf.cat/acta/2526/futbol-11/lliga-elit/grup-1/1cat/jupiter-ce-a/aa/pobla-mafumet-cf-a"
   },
   {
     "jornada": 10,
     "home": "SABADELL F.C., C.E. B",
-    "away": "",
+    "away": "PRAT, A.E. A",
     "score": "3-2",
     "acta_url": "https://www.fcf.cat/acta/2526/futbol-11/lliga-elit/grup-1/elit/sabadell-fc-ce-b/elit/prat-ae-a"
   },
   {
     "jornada": 10,
     "home": "MARTINENC, F.C. A",
-    "away": "",
+    "away": "SAN MAURO, U.D. A",
     "score": "2-1",
     "acta_url": "https://www.fcf.cat/acta/2526/futbol-11/lliga-elit/grup-1/aa/martinenc-fc-a/elit/san-mauro-ud-a"
   },
   {
     "jornada": 10,
     "home": "ATLETIC SANT JUST . F. C. A",
-    "away": "",
+    "away": "VILAFRANCA, F.C. A",
     "score": "0-0",
     "acta_url": "https://www.fcf.cat/acta/2526/futbol-11/lliga-elit/grup-1/elit/atletic-sant-just-f-c-a/1cat/vilafranca-fc-a"
   },
   {
     "jornada": 10,
     "home": "RUBI, U.E. A",
-    "away": "",
+    "away": "VALLS U.E. A",
     "score": "0-1",
     "acta_url": "https://www.fcf.cat/acta/2526/futbol-11/lliga-elit/grup-1/elit/rubi-ue-a/elit/valls-ue-a"
   },
   {
     "jornada": 10,
     "home": "CASTELLDEFELS, U.E. A",
-    "away": "",
+    "away": "CIUDAD COOPERATIVA, C.F. A",
     "score": "2-2",
     "acta_url": "https://www.fcf.cat/acta/2526/futbol-11/lliga-elit/grup-1/elit/castelldefels-ue-a/1cat/ciudad-cooperativa-cf-a"
   },
   {
     "jornada": 10,
     "home": "SAN JUAN AT. DE MONTCADA,U.E. A",
-    "away": "",
+    "away": "MANLLEU, A.E.C. A",
     "score": "6-4",
     "acta_url": "https://www.fcf.cat/acta/2526/futbol-11/lliga-elit/grup-1/aa/san-juan-at-de-montcada-ue-a/elit/manlleu-aec-a"
   },
   {
     "jornada": 10,
     "home": "SANTFELIUENC, F.C. A",
-    "away": "",
+    "away": "HORTA, U.AT. A",
     "score": "0-3",
     "acta_url": "https://www.fcf.cat/acta/2526/futbol-11/lliga-elit/grup-1/1cat/santfeliuenc-fc-a/elit/horta-uat-a"
   },
   {
     "jornada": 11,
     "home": "JÚPITER, C.E. A",
-    "away": "",
+    "away": "SABADELL F.C., C.E. B",
     "score": "1-0",
     "acta_url": "https://www.fcf.cat/acta/2526/futbol-11/lliga-elit/grup-1/1cat/jupiter-ce-a/elit/sabadell-fc-ce-b"
   },
   {
     "jornada": 11,
     "home": "PRAT, A.E. A",
-    "away": "",
+    "away": "MARTINENC, F.C. A",
     "score": "1-1",
     "acta_url": "https://www.fcf.cat/acta/2526/futbol-11/lliga-elit/grup-1/elit/prat-ae-a/aa/martinenc-fc-a"
   },
   {
     "jornada": 11,
     "home": "SAN MAURO, U.D. A",
-    "away": "",
+    "away": "ATLETIC SANT JUST . F. C. A",
     "score": "0-0",
     "acta_url": "https://www.fcf.cat/acta/2526/futbol-11/lliga-elit/grup-1/elit/san-mauro-ud-a/elit/atletic-sant-just-f-c-a"
   },
   {
     "jornada": 11,
     "home": "VILAFRANCA, F.C. A",
-    "away": "",
+    "away": "RUBI, U.E. A",
     "score": "1-1",
     "acta_url": "https://www.fcf.cat/acta/2526/futbol-11/lliga-elit/grup-1/1cat/vilafranca-fc-a/elit/rubi-ue-a"
   },
   {
     "jornada": 11,
     "home": "VALLS U.E. A",
-    "away": "",
+    "away": "CASTELLDEFELS, U.E. A",
     "score": "1-1",
     "acta_url": "https://www.fcf.cat/acta/2526/futbol-11/lliga-elit/grup-1/elit/valls-ue-a/elit/castelldefels-ue-a"
   },
   {
     "jornada": 11,
     "home": "CIUDAD COOPERATIVA, C.F. A",
-    "away": "",
+    "away": "SAN JUAN AT. DE MONTCADA,U.E. A",
     "score": "1-2",
     "acta_url": "https://www.fcf.cat/acta/2526/futbol-11/lliga-elit/grup-1/1cat/ciudad-cooperativa-cf-a/aa/san-juan-at-de-montcada-ue-a"
   },
   {
     "jornada": 11,
     "home": "MANLLEU, A.E.C. A",
-    "away": "",
+    "away": "SANTFELIUENC, F.C. A",
     "score": "1-3",
     "acta_url": "https://www.fcf.cat/acta/2526/futbol-11/lliga-elit/grup-1/elit/manlleu-aec-a/1cat/santfeliuenc-fc-a"
   },
   {
     "jornada": 11,
     "home": "POBLA MAFUMET, C.F. A",
-    "away": "",
+    "away": "HORTA, U.AT. A",
     "score": "0-0",
     "acta_url": "https://www.fcf.cat/acta/2526/futbol-11/lliga-elit/grup-1/aa/pobla-mafumet-cf-a/elit/horta-uat-a"
   },
   {
     "jornada": 12,
     "home": "SABADELL F.C., C.E. B",
-    "away": "",
+    "away": "POBLA MAFUMET, C.F. A",
     "score": "0-1",
     "acta_url": "https://www.fcf.cat/acta/2526/futbol-11/lliga-elit/grup-1/elit/sabadell-fc-ce-b/aa/pobla-mafumet-cf-a"
   },
   {
     "jornada": 12,
     "home": "MARTINENC, F.C. A",
-    "away": "",
+    "away": "JÚPITER, C.E. A",
     "score": "2-0",
     "acta_url": "https://www.fcf.cat/acta/2526/futbol-11/lliga-elit/grup-1/aa/martinenc-fc-a/1cat/jupiter-ce-a"
   },
   {
     "jornada": 12,
     "home": "ATLETIC SANT JUST . F. C. A",
-    "away": "",
+    "away": "PRAT, A.E. A",
     "score": "2-2",
     "acta_url": "https://www.fcf.cat/acta/2526/futbol-11/lliga-elit/grup-1/elit/atletic-sant-just-f-c-a/elit/prat-ae-a"
   },
   {
     "jornada": 12,
     "home": "RUBI, U.E. A",
-    "away": "",
+    "away": "SAN MAURO, U.D. A",
     "score": "1-1",
     "acta_url": "https://www.fcf.cat/acta/2526/futbol-11/lliga-elit/grup-1/elit/rubi-ue-a/elit/san-mauro-ud-a"
   },
   {
     "jornada": 12,
     "home": "CASTELLDEFELS, U.E. A",
-    "away": "",
+    "away": "VILAFRANCA, F.C. A",
     "score": "5-1",
     "acta_url": "https://www.fcf.cat/acta/2526/futbol-11/lliga-elit/grup-1/elit/castelldefels-ue-a/1cat/vilafranca-fc-a"
   },
   {
     "jornada": 12,
     "home": "SAN JUAN AT. DE MONTCADA,U.E. A",
-    "away": "",
+    "away": "VALLS U.E. A",
     "score": "1-2",
     "acta_url": "https://www.fcf.cat/acta/2526/futbol-11/lliga-elit/grup-1/aa/san-juan-at-de-montcada-ue-a/elit/valls-ue-a"
   },
   {
     "jornada": 12,
     "home": "SANTFELIUENC, F.C. A",
-    "away": "",
+    "away": "CIUDAD COOPERATIVA, C.F. A",
     "score": "1-0",
     "acta_url": "https://www.fcf.cat/acta/2526/futbol-11/lliga-elit/grup-1/1cat/santfeliuenc-fc-a/1cat/ciudad-cooperativa-cf-a"
   },
   {
     "jornada": 12,
     "home": "HORTA, U.AT. A",
-    "away": "",
+    "away": "MANLLEU, A.E.C. A",
     "score": "2-0",
     "acta_url": "https://www.fcf.cat/acta/2526/futbol-11/lliga-elit/grup-1/elit/horta-uat-a/elit/manlleu-aec-a"
   },
   {
     "jornada": 13,
     "home": "SABADELL F.C., C.E. B",
-    "away": "",
+    "away": "MARTINENC, F.C. A",
     "score": "1-1",
     "acta_url": "https://www.fcf.cat/acta/2526/futbol-11/lliga-elit/grup-1/elit/sabadell-fc-ce-b/aa/martinenc-fc-a"
   },
   {
     "jornada": 13,
     "home": "JÚPITER, C.E. A",
-    "away": "",
+    "away": "ATLETIC SANT JUST . F. C. A",
     "score": "2-2",
     "acta_url": "https://www.fcf.cat/acta/2526/futbol-11/lliga-elit/grup-1/1cat/jupiter-ce-a/elit/atletic-sant-just-f-c-a"
   },
   {
     "jornada": 13,
     "home": "PRAT, A.E. A",
-    "away": "",
+    "away": "RUBI, U.E. A",
     "score": "2-3",
     "acta_url": "https://www.fcf.cat/acta/2526/futbol-11/lliga-elit/grup-1/elit/prat-ae-a/elit/rubi-ue-a"
   },
   {
     "jornada": 13,
     "home": "SAN MAURO, U.D. A",
-    "away": "",
+    "away": "CASTELLDEFELS, U.E. A",
     "score": "1-3",
     "acta_url": "https://www.fcf.cat/acta/2526/futbol-11/lliga-elit/grup-1/elit/san-mauro-ud-a/elit/castelldefels-ue-a"
   },
   {
     "jornada": 13,
     "home": "VILAFRANCA, F.C. A",
-    "away": "",
+    "away": "SAN JUAN AT. DE MONTCADA,U.E. A",
     "score": "1-2",
     "acta_url": "https://www.fcf.cat/acta/2526/futbol-11/lliga-elit/grup-1/1cat/vilafranca-fc-a/aa/san-juan-at-de-montcada-ue-a"
   },
   {
     "jornada": 13,
     "home": "VALLS U.E. A",
-    "away": "",
+    "away": "SANTFELIUENC, F.C. A",
     "score": "1-1",
     "acta_url": "https://www.fcf.cat/acta/2526/futbol-11/lliga-elit/grup-1/elit/valls-ue-a/1cat/santfeliuenc-fc-a"
   },
   {
     "jornada": 13,
     "home": "CIUDAD COOPERATIVA, C.F. A",
-    "away": "",
+    "away": "HORTA, U.AT. A",
     "score": "1-0",
     "acta_url": "https://www.fcf.cat/acta/2526/futbol-11/lliga-elit/grup-1/1cat/ciudad-cooperativa-cf-a/elit/horta-uat-a"
   },
   {
     "jornada": 13,
     "home": "POBLA MAFUMET, C.F. A",
-    "away": "",
+    "away": "MANLLEU, A.E.C. A",
     "score": "0-0",
     "acta_url": "https://www.fcf.cat/acta/2526/futbol-11/lliga-elit/grup-1/aa/pobla-mafumet-cf-a/elit/manlleu-aec-a"
   },
   {
     "jornada": 14,
     "home": "POBLA MAFUMET, C.F. A",
-    "away": "",
+    "away": "MARTINENC, F.C. A",
     "score": "0-0",
     "acta_url": "https://www.fcf.cat/acta/2526/futbol-11/lliga-elit/grup-1/aa/pobla-mafumet-cf-a/aa/martinenc-fc-a"
   },
   {
     "jornada": 14,
     "home": "ATLETIC SANT JUST . F. C. A",
-    "away": "",
+    "away": "SABADELL F.C., C.E. B",
     "score": "3-1",
     "acta_url": "https://www.fcf.cat/acta/2526/futbol-11/lliga-elit/grup-1/elit/atletic-sant-just-f-c-a/elit/sabadell-fc-ce-b"
   },
   {
     "jornada": 14,
     "home": "RUBI, U.E. A",
-    "away": "",
+    "away": "JÚPITER, C.E. A",
     "score": "2-2",
     "acta_url": "https://www.fcf.cat/acta/2526/futbol-11/lliga-elit/grup-1/elit/rubi-ue-a/1cat/jupiter-ce-a"
   },
   {
     "jornada": 14,
     "home": "CASTELLDEFELS, U.E. A",
-    "away": "",
+    "away": "PRAT, A.E. A",
     "score": "2-1",
     "acta_url": "https://www.fcf.cat/acta/2526/futbol-11/lliga-elit/grup-1/elit/castelldefels-ue-a/elit/prat-ae-a"
   },
   {
     "jornada": 14,
     "home": "SAN JUAN AT. DE MONTCADA,U.E. A",
-    "away": "",
+    "away": "SAN MAURO, U.D. A",
     "score": "3-3",
     "acta_url": "https://www.fcf.cat/acta/2526/futbol-11/lliga-elit/grup-1/aa/san-juan-at-de-montcada-ue-a/elit/san-mauro-ud-a"
   },
   {
     "jornada": 14,
     "home": "SANTFELIUENC, F.C. A",
-    "away": "",
+    "away": "VILAFRANCA, F.C. A",
     "score": "1-0",
     "acta_url": "https://www.fcf.cat/acta/2526/futbol-11/lliga-elit/grup-1/1cat/santfeliuenc-fc-a/1cat/vilafranca-fc-a"
   },
   {
     "jornada": 14,
     "home": "HORTA, U.AT. A",
-    "away": "",
+    "away": "VALLS U.E. A",
     "score": "0-0",
     "acta_url": "https://www.fcf.cat/acta/2526/futbol-11/lliga-elit/grup-1/elit/horta-uat-a/elit/valls-ue-a"
   },
   {
     "jornada": 14,
     "home": "MANLLEU, A.E.C. A",
-    "away": "",
+    "away": "CIUDAD COOPERATIVA, C.F. A",
     "score": "1-1",
     "acta_url": "https://www.fcf.cat/acta/2526/futbol-11/lliga-elit/grup-1/elit/manlleu-aec-a/1cat/ciudad-cooperativa-cf-a"
   },
   {
     "jornada": 15,
     "home": "MARTINENC, F.C. A",
-    "away": "",
+    "away": "ATLETIC SANT JUST . F. C. A",
     "score": "4-4",
     "acta_url": "https://www.fcf.cat/acta/2526/futbol-11/lliga-elit/grup-1/aa/martinenc-fc-a/elit/atletic-sant-just-f-c-a"
   },
   {
     "jornada": 15,
     "home": "SABADELL F.C., C.E. B",
-    "away": "",
+    "away": "RUBI, U.E. A",
     "score": "4-1",
     "acta_url": "https://www.fcf.cat/acta/2526/futbol-11/lliga-elit/grup-1/elit/sabadell-fc-ce-b/elit/rubi-ue-a"
   },
   {
     "jornada": 15,
     "home": "JÚPITER, C.E. A",
-    "away": "",
+    "away": "CASTELLDEFELS, U.E. A",
     "score": "2-2",
     "acta_url": "https://www.fcf.cat/acta/2526/futbol-11/lliga-elit/grup-1/1cat/jupiter-ce-a/elit/castelldefels-ue-a"
   },
   {
     "jornada": 15,
     "home": "PRAT, A.E. A",
-    "away": "",
+    "away": "SAN JUAN AT. DE MONTCADA,U.E. A",
     "score": "2-2",
     "acta_url": "https://www.fcf.cat/acta/2526/futbol-11/lliga-elit/grup-1/elit/prat-ae-a/aa/san-juan-at-de-montcada-ue-a"
   },
   {
     "jornada": 15,
     "home": "SAN MAURO, U.D. A",
-    "away": "",
+    "away": "SANTFELIUENC, F.C. A",
     "score": "1-0",
     "acta_url": "https://www.fcf.cat/acta/2526/futbol-11/lliga-elit/grup-1/elit/san-mauro-ud-a/1cat/santfeliuenc-fc-a"
   },
   {
     "jornada": 15,
     "home": "VILAFRANCA, F.C. A",
-    "away": "",
+    "away": "HORTA, U.AT. A",
     "score": "1-1",
     "acta_url": "https://www.fcf.cat/acta/2526/futbol-11/lliga-elit/grup-1/1cat/vilafranca-fc-a/elit/horta-uat-a"
   },
   {
     "jornada": 15,
     "home": "VALLS U.E. A",
-    "away": "",
+    "away": "MANLLEU, A.E.C. A",
     "score": "2-2",
     "acta_url": "https://www.fcf.cat/acta/2526/futbol-11/lliga-elit/grup-1/elit/valls-ue-a/elit/manlleu-aec-a"
   },
   {
     "jornada": 15,
     "home": "CIUDAD COOPERATIVA, C.F. A",
-    "away": "",
+    "away": "POBLA MAFUMET, C.F. A",
     "score": "2-1",
     "acta_url": "https://www.fcf.cat/acta/2526/futbol-11/lliga-elit/grup-1/1cat/ciudad-cooperativa-cf-a/aa/pobla-mafumet-cf-a"
   },
   {
     "jornada": 16,
     "home": "VALLS U.E. A",
-    "away": "",
+    "away": "CIUDAD COOPERATIVA, C.F. A",
     "score": "3-3",
     "acta_url": "https://www.fcf.cat/acta/2526/futbol-11/lliga-elit/grup-1/elit/valls-ue-a/1cat/ciudad-cooperativa-cf-a"
   },
   {
     "jornada": 16,
     "home": "VILAFRANCA, F.C. A",
-    "away": "",
+    "away": "MANLLEU, A.E.C. A",
     "score": "1-0",
     "acta_url": "https://www.fcf.cat/acta/2526/futbol-11/lliga-elit/grup-1/1cat/vilafranca-fc-a/elit/manlleu-aec-a"
   },
   {
     "jornada": 16,
     "home": "SAN MAURO, U.D. A",
-    "away": "",
+    "away": "HORTA, U.AT. A",
     "score": "3-1",
     "acta_url": "https://www.fcf.cat/acta/2526/futbol-11/lliga-elit/grup-1/elit/san-mauro-ud-a/elit/horta-uat-a"
   },
   {
     "jornada": 16,
     "home": "PRAT, A.E. A",
-    "away": "",
+    "away": "SANTFELIUENC, F.C. A",
     "score": "0-0",
     "acta_url": "https://www.fcf.cat/acta/2526/futbol-11/lliga-elit/grup-1/elit/prat-ae-a/1cat/santfeliuenc-fc-a"
   },
   {
     "jornada": 16,
     "home": "JÚPITER, C.E. A",
-    "away": "",
+    "away": "SAN JUAN AT. DE MONTCADA,U.E. A",
     "score": "1-1",
     "acta_url": "https://www.fcf.cat/acta/2526/futbol-11/lliga-elit/grup-1/1cat/jupiter-ce-a/aa/san-juan-at-de-montcada-ue-a"
   },
   {
     "jornada": 16,
     "home": "SABADELL F.C., C.E. B",
-    "away": "",
+    "away": "CASTELLDEFELS, U.E. A",
     "score": "1-1",
     "acta_url": "https://www.fcf.cat/acta/2526/futbol-11/lliga-elit/grup-1/elit/sabadell-fc-ce-b/elit/castelldefels-ue-a"
   },
   {
     "jornada": 16,
     "home": "MARTINENC, F.C. A",
-    "away": "",
+    "away": "RUBI, U.E. A",
     "score": "7-2",
     "acta_url": "https://www.fcf.cat/acta/2526/futbol-11/lliga-elit/grup-1/aa/martinenc-fc-a/elit/rubi-ue-a"
   },
   {
     "jornada": 16,
     "home": "ATLETIC SANT JUST . F. C. A",
-    "away": "",
+    "away": "POBLA MAFUMET, C.F. A",
     "score": "0-1",
     "acta_url": "https://www.fcf.cat/acta/2526/futbol-11/lliga-elit/grup-1/elit/atletic-sant-just-f-c-a/aa/pobla-mafumet-cf-a"
   },
   {
     "jornada": 17,
     "home": "POBLA MAFUMET, C.F. A",
-    "away": "",
+    "away": "VALLS U.E. A",
     "score": "2-1",
     "acta_url": "https://www.fcf.cat/acta/2526/futbol-11/lliga-elit/grup-1/aa/pobla-mafumet-cf-a/elit/valls-ue-a"
   },
   {
     "jornada": 17,
     "home": "VILAFRANCA, F.C. A",
-    "away": "",
+    "away": "CIUDAD COOPERATIVA, C.F. A",
     "score": "1-0",
     "acta_url": "https://www.fcf.cat/acta/2526/futbol-11/lliga-elit/grup-1/1cat/vilafranca-fc-a/1cat/ciudad-cooperativa-cf-a"
   },
   {
     "jornada": 17,
     "home": "MANLLEU, A.E.C. A",
-    "away": "",
+    "away": "SAN MAURO, U.D. A",
     "score": "4-2",
     "acta_url": "https://www.fcf.cat/acta/2526/futbol-11/lliga-elit/grup-1/elit/manlleu-aec-a/elit/san-mauro-ud-a"
   },
   {
     "jornada": 17,
     "home": "HORTA, U.AT. A",
-    "away": "",
+    "away": "PRAT, A.E. A",
     "score": "0-0",
     "acta_url": "https://www.fcf.cat/acta/2526/futbol-11/lliga-elit/grup-1/elit/horta-uat-a/elit/prat-ae-a"
   },
   {
     "jornada": 17,
     "home": "SANTFELIUENC, F.C. A",
-    "away": "",
+    "away": "JÚPITER, C.E. A",
     "score": "1-0",
     "acta_url": "https://www.fcf.cat/acta/2526/futbol-11/lliga-elit/grup-1/1cat/santfeliuenc-fc-a/1cat/jupiter-ce-a"
   },
   {
     "jornada": 17,
     "home": "SAN JUAN AT. DE MONTCADA,U.E. A",
-    "away": "",
+    "away": "SABADELL F.C., C.E. B",
     "score": "1-2",
     "acta_url": "https://www.fcf.cat/acta/2526/futbol-11/lliga-elit/grup-1/aa/san-juan-at-de-montcada-ue-a/elit/sabadell-fc-ce-b"
   },
   {
     "jornada": 17,
     "home": "CASTELLDEFELS, U.E. A",
-    "away": "",
+    "away": "MARTINENC, F.C. A",
     "score": "1-1",
     "acta_url": "https://www.fcf.cat/acta/2526/futbol-11/lliga-elit/grup-1/elit/castelldefels-ue-a/aa/martinenc-fc-a"
   },
   {
     "jornada": 17,
     "home": "RUBI, U.E. A",
-    "away": "",
+    "away": "ATLETIC SANT JUST . F. C. A",
     "score": "4-0",
     "acta_url": "https://www.fcf.cat/acta/2526/futbol-11/lliga-elit/grup-1/elit/rubi-ue-a/elit/atletic-sant-just-f-c-a"
   },
   {
     "jornada": 18,
     "home": "VILAFRANCA, F.C. A",
-    "away": "",
+    "away": "VALLS U.E. A",
     "score": "2-0",
     "acta_url": "https://www.fcf.cat/acta/2526/futbol-11/lliga-elit/grup-1/1cat/vilafranca-fc-a/elit/valls-ue-a"
   },
   {
     "jornada": 18,
     "home": "SAN MAURO, U.D. A",
-    "away": "",
+    "away": "CIUDAD COOPERATIVA, C.F. A",
     "score": "5-2",
     "acta_url": "https://www.fcf.cat/acta/2526/futbol-11/lliga-elit/grup-1/elit/san-mauro-ud-a/1cat/ciudad-cooperativa-cf-a"
   },
   {
     "jornada": 18,
     "home": "PRAT, A.E. A",
-    "away": "",
+    "away": "MANLLEU, A.E.C. A",
     "score": "3-1",
     "acta_url": "https://www.fcf.cat/acta/2526/futbol-11/lliga-elit/grup-1/elit/prat-ae-a/elit/manlleu-aec-a"
   },
   {
     "jornada": 18,
     "home": "JÚPITER, C.E. A",
-    "away": "",
+    "away": "HORTA, U.AT. A",
     "score": "0-1",
     "acta_url": "https://www.fcf.cat/acta/2526/futbol-11/lliga-elit/grup-1/1cat/jupiter-ce-a/elit/horta-uat-a"
   },
   {
     "jornada": 18,
     "home": "SABADELL F.C., C.E. B",
-    "away": "",
+    "away": "SANTFELIUENC, F.C. A",
     "score": "2-1",
     "acta_url": "https://www.fcf.cat/acta/2526/futbol-11/lliga-elit/grup-1/elit/sabadell-fc-ce-b/1cat/santfeliuenc-fc-a"
   },
   {
     "jornada": 18,
     "home": "MARTINENC, F.C. A",
-    "away": "",
+    "away": "SAN JUAN AT. DE MONTCADA,U.E. A",
     "score": "3-0",
     "acta_url": "https://www.fcf.cat/acta/2526/futbol-11/lliga-elit/grup-1/aa/martinenc-fc-a/aa/san-juan-at-de-montcada-ue-a"
   },
   {
     "jornada": 18,
     "home": "ATLETIC SANT JUST . F. C. A",
-    "away": "",
+    "away": "CASTELLDEFELS, U.E. A",
     "score": "0-0",
     "acta_url": "https://www.fcf.cat/acta/2526/futbol-11/lliga-elit/grup-1/elit/atletic-sant-just-f-c-a/elit/castelldefels-ue-a"
   },
   {
     "jornada": 18,
     "home": "RUBI, U.E. A",
-    "away": "",
+    "away": "POBLA MAFUMET, C.F. A",
     "score": "0-1",
     "acta_url": "https://www.fcf.cat/acta/2526/futbol-11/lliga-elit/grup-1/elit/rubi-ue-a/aa/pobla-mafumet-cf-a"
   },
   {
     "jornada": 19,
     "home": "POBLA MAFUMET, C.F. A",
-    "away": "",
+    "away": "VILAFRANCA, F.C. A",
     "score": "4-1",
     "acta_url": "https://www.fcf.cat/acta/2526/futbol-11/lliga-elit/grup-1/aa/pobla-mafumet-cf-a/1cat/vilafranca-fc-a"
   },
   {
     "jornada": 19,
     "home": "VALLS U.E. A",
-    "away": "",
+    "away": "SAN MAURO, U.D. A",
     "score": "3-1",
     "acta_url": "https://www.fcf.cat/acta/2526/futbol-11/lliga-elit/grup-1/elit/valls-ue-a/elit/san-mauro-ud-a"
   },
   {
     "jornada": 19,
     "home": "CIUDAD COOPERATIVA, C.F. A",
-    "away": "",
+    "away": "PRAT, A.E. A",
     "score": "0-1",
     "acta_url": "https://www.fcf.cat/acta/2526/futbol-11/lliga-elit/grup-1/1cat/ciudad-cooperativa-cf-a/elit/prat-ae-a"
   },
   {
     "jornada": 19,
     "home": "MANLLEU, A.E.C. A",
-    "away": "",
+    "away": "JÚPITER, C.E. A",
     "score": "1-2",
     "acta_url": "https://www.fcf.cat/acta/2526/futbol-11/lliga-elit/grup-1/elit/manlleu-aec-a/1cat/jupiter-ce-a"
   },
   {
     "jornada": 19,
     "home": "HORTA, U.AT. A",
-    "away": "",
+    "away": "SABADELL F.C., C.E. B",
     "score": "1-2",
     "acta_url": "https://www.fcf.cat/acta/2526/futbol-11/lliga-elit/grup-1/elit/horta-uat-a/elit/sabadell-fc-ce-b"
   },
   {
     "jornada": 19,
     "home": "SANTFELIUENC, F.C. A",
-    "away": "",
+    "away": "MARTINENC, F.C. A",
     "score": "1-3",
     "acta_url": "https://www.fcf.cat/acta/2526/futbol-11/lliga-elit/grup-1/1cat/santfeliuenc-fc-a/aa/martinenc-fc-a"
   },
   {
     "jornada": 19,
     "home": "SAN JUAN AT. DE MONTCADA,U.E. A",
-    "away": "",
+    "away": "ATLETIC SANT JUST . F. C. A",
     "score": "0-0",
     "acta_url": "https://www.fcf.cat/acta/2526/futbol-11/lliga-elit/grup-1/aa/san-juan-at-de-montcada-ue-a/elit/atletic-sant-just-f-c-a"
   },
   {
     "jornada": 19,
     "home": "CASTELLDEFELS, U.E. A",
-    "away": "",
+    "away": "RUBI, U.E. A",
     "score": "4-2",
     "acta_url": "https://www.fcf.cat/acta/2526/futbol-11/lliga-elit/grup-1/elit/castelldefels-ue-a/elit/rubi-ue-a"
   },
   {
     "jornada": 20,
     "home": "SAN MAURO, U.D. A",
-    "away": "",
+    "away": "VILAFRANCA, F.C. A",
     "score": "1-0",
     "acta_url": "https://www.fcf.cat/acta/2526/futbol-11/lliga-elit/grup-1/elit/san-mauro-ud-a/1cat/vilafranca-fc-a"
   },
   {
     "jornada": 20,
     "home": "PRAT, A.E. A",
-    "away": "",
+    "away": "VALLS U.E. A",
     "score": "2-1",
     "acta_url": "https://www.fcf.cat/acta/2526/futbol-11/lliga-elit/grup-1/elit/prat-ae-a/elit/valls-ue-a"
   },
   {
     "jornada": 20,
     "home": "JÚPITER, C.E. A",
-    "away": "",
+    "away": "CIUDAD COOPERATIVA, C.F. A",
     "score": "2-1",
     "acta_url": "https://www.fcf.cat/acta/2526/futbol-11/lliga-elit/grup-1/1cat/jupiter-ce-a/1cat/ciudad-cooperativa-cf-a"
   },
   {
     "jornada": 20,
     "home": "SABADELL F.C., C.E. B",
-    "away": "",
+    "away": "MANLLEU, A.E.C. A",
     "score": "2-2",
     "acta_url": "https://www.fcf.cat/acta/2526/futbol-11/lliga-elit/grup-1/elit/sabadell-fc-ce-b/elit/manlleu-aec-a"
   },
   {
     "jornada": 20,
     "home": "MARTINENC, F.C. A",
-    "away": "",
+    "away": "HORTA, U.AT. A",
     "score": "0-0",
     "acta_url": "https://www.fcf.cat/acta/2526/futbol-11/lliga-elit/grup-1/aa/martinenc-fc-a/elit/horta-uat-a"
   },
   {
     "jornada": 20,
     "home": "ATLETIC SANT JUST . F. C. A",
-    "away": "",
+    "away": "SANTFELIUENC, F.C. A",
     "score": "2-0",
     "acta_url": "https://www.fcf.cat/acta/2526/futbol-11/lliga-elit/grup-1/elit/atletic-sant-just-f-c-a/1cat/santfeliuenc-fc-a"
   },
   {
     "jornada": 20,
     "home": "RUBI, U.E. A",
-    "away": "",
+    "away": "SAN JUAN AT. DE MONTCADA,U.E. A",
     "score": "0-3",
     "acta_url": "https://www.fcf.cat/acta/2526/futbol-11/lliga-elit/grup-1/elit/rubi-ue-a/aa/san-juan-at-de-montcada-ue-a"
   },
   {
     "jornada": 20,
     "home": "CASTELLDEFELS, U.E. A",
-    "away": "",
+    "away": "POBLA MAFUMET, C.F. A",
     "score": "0-0",
     "acta_url": "https://www.fcf.cat/acta/2526/futbol-11/lliga-elit/grup-1/elit/castelldefels-ue-a/aa/pobla-mafumet-cf-a"
   },
   {
     "jornada": 21,
     "home": "POBLA MAFUMET, C.F. A",
-    "away": "",
+    "away": "SAN MAURO, U.D. A",
     "score": "0-1",
     "acta_url": "https://www.fcf.cat/acta/2526/futbol-11/lliga-elit/grup-1/aa/pobla-mafumet-cf-a/elit/san-mauro-ud-a"
   },
   {
     "jornada": 21,
     "home": "VILAFRANCA, F.C. A",
-    "away": "",
+    "away": "PRAT, A.E. A",
     "score": "2-7",
     "acta_url": "https://www.fcf.cat/acta/2526/futbol-11/lliga-elit/grup-1/1cat/vilafranca-fc-a/elit/prat-ae-a"
   },
   {
     "jornada": 21,
     "home": "VALLS U.E. A",
-    "away": "",
+    "away": "JÚPITER, C.E. A",
     "score": "0-3",
     "acta_url": "https://www.fcf.cat/acta/2526/futbol-11/lliga-elit/grup-1/elit/valls-ue-a/1cat/jupiter-ce-a"
   },
   {
     "jornada": 21,
     "home": "CIUDAD COOPERATIVA, C.F. A",
-    "away": "",
+    "away": "SABADELL F.C., C.E. B",
     "score": "0-0",
     "acta_url": "https://www.fcf.cat/acta/2526/futbol-11/lliga-elit/grup-1/1cat/ciudad-cooperativa-cf-a/elit/sabadell-fc-ce-b"
   },
   {
     "jornada": 21,
     "home": "MANLLEU, A.E.C. A",
-    "away": "",
+    "away": "MARTINENC, F.C. A",
     "score": "0-0",
     "acta_url": "https://www.fcf.cat/acta/2526/futbol-11/lliga-elit/grup-1/elit/manlleu-aec-a/aa/martinenc-fc-a"
   },
   {
     "jornada": 21,
     "home": "HORTA, U.AT. A",
-    "away": "",
+    "away": "ATLETIC SANT JUST . F. C. A",
     "score": "0-1",
     "acta_url": "https://www.fcf.cat/acta/2526/futbol-11/lliga-elit/grup-1/elit/horta-uat-a/elit/atletic-sant-just-f-c-a"
   },
   {
     "jornada": 21,
     "home": "SANTFELIUENC, F.C. A",
-    "away": "",
+    "away": "RUBI, U.E. A",
     "score": "1-0",
     "acta_url": "https://www.fcf.cat/acta/2526/futbol-11/lliga-elit/grup-1/1cat/santfeliuenc-fc-a/elit/rubi-ue-a"
   },
   {
     "jornada": 21,
     "home": "SAN JUAN AT. DE MONTCADA,U.E. A",
-    "away": "",
+    "away": "CASTELLDEFELS, U.E. A",
     "score": "1-0",
     "acta_url": "https://www.fcf.cat/acta/2526/futbol-11/lliga-elit/grup-1/aa/san-juan-at-de-montcada-ue-a/elit/castelldefels-ue-a"
   },
   {
     "jornada": 22,
     "home": "PRAT, A.E. A",
-    "away": "",
+    "away": "SAN MAURO, U.D. A",
     "score": "1-1",
     "acta_url": "https://www.fcf.cat/acta/2526/futbol-11/lliga-elit/grup-1/elit/prat-ae-a/elit/san-mauro-ud-a"
   },
   {
     "jornada": 22,
     "home": "JÚPITER, C.E. A",
-    "away": "",
+    "away": "VILAFRANCA, F.C. A",
     "score": "0-0",
     "acta_url": "https://www.fcf.cat/acta/2526/futbol-11/lliga-elit/grup-1/1cat/jupiter-ce-a/1cat/vilafranca-fc-a"
   },
   {
     "jornada": 22,
     "home": "SABADELL F.C., C.E. B",
-    "away": "",
+    "away": "VALLS U.E. A",
     "score": "3-0",
     "acta_url": "https://www.fcf.cat/acta/2526/futbol-11/lliga-elit/grup-1/elit/sabadell-fc-ce-b/elit/valls-ue-a"
   },
   {
     "jornada": 22,
     "home": "MARTINENC, F.C. A",
-    "away": "",
+    "away": "CIUDAD COOPERATIVA, C.F. A",
     "score": "3-0",
     "acta_url": "https://www.fcf.cat/acta/2526/futbol-11/lliga-elit/grup-1/aa/martinenc-fc-a/1cat/ciudad-cooperativa-cf-a"
   },
   {
     "jornada": 22,
     "home": "ATLETIC SANT JUST . F. C. A",
-    "away": "",
+    "away": "MANLLEU, A.E.C. A",
     "score": "3-0",
     "acta_url": "https://www.fcf.cat/acta/2526/futbol-11/lliga-elit/grup-1/elit/atletic-sant-just-f-c-a/elit/manlleu-aec-a"
   },
   {
     "jornada": 22,
     "home": "RUBI, U.E. A",
-    "away": "",
+    "away": "HORTA, U.AT. A",
     "score": "0-0",
     "acta_url": "https://www.fcf.cat/acta/2526/futbol-11/lliga-elit/grup-1/elit/rubi-ue-a/elit/horta-uat-a"
   },
   {
     "jornada": 22,
     "home": "CASTELLDEFELS, U.E. A",
-    "away": "",
+    "away": "SANTFELIUENC, F.C. A",
     "score": "1-3",
     "acta_url": "https://www.fcf.cat/acta/2526/futbol-11/lliga-elit/grup-1/elit/castelldefels-ue-a/1cat/santfeliuenc-fc-a"
   },
   {
     "jornada": 22,
     "home": "SAN JUAN AT. DE MONTCADA,U.E. A",
-    "away": "",
+    "away": "POBLA MAFUMET, C.F. A",
     "score": "2-1",
     "acta_url": "https://www.fcf.cat/acta/2526/futbol-11/lliga-elit/grup-1/aa/san-juan-at-de-montcada-ue-a/aa/pobla-mafumet-cf-a"
   },
   {
     "jornada": 23,
     "home": "POBLA MAFUMET, C.F. A",
-    "away": "",
+    "away": "PRAT, A.E. A",
     "score": "2-1",
     "acta_url": "https://www.fcf.cat/acta/2526/futbol-11/lliga-elit/grup-1/aa/pobla-mafumet-cf-a/elit/prat-ae-a"
   },
   {
     "jornada": 23,
     "home": "SAN MAURO, U.D. A",
-    "away": "",
+    "away": "JÚPITER, C.E. A",
     "score": "2-2",
     "acta_url": "https://www.fcf.cat/acta/2526/futbol-11/lliga-elit/grup-1/elit/san-mauro-ud-a/1cat/jupiter-ce-a"
   },
   {
     "jornada": 23,
     "home": "VILAFRANCA, F.C. A",
-    "away": "",
+    "away": "SABADELL F.C., C.E. B",
     "score": "1-1",
     "acta_url": "https://www.fcf.cat/acta/2526/futbol-11/lliga-elit/grup-1/1cat/vilafranca-fc-a/elit/sabadell-fc-ce-b"
   },
   {
     "jornada": 23,
     "home": "VALLS U.E. A",
-    "away": "",
+    "away": "MARTINENC, F.C. A",
     "score": "0-1",
     "acta_url": "https://www.fcf.cat/acta/2526/futbol-11/lliga-elit/grup-1/elit/valls-ue-a/aa/martinenc-fc-a"
   },
   {
     "jornada": 23,
     "home": "CIUDAD COOPERATIVA, C.F. A",
-    "away": "",
+    "away": "ATLETIC SANT JUST . F. C. A",
     "score": "1-0",
     "acta_url": "https://www.fcf.cat/acta/2526/futbol-11/lliga-elit/grup-1/1cat/ciudad-cooperativa-cf-a/elit/atletic-sant-just-f-c-a"
   },
   {
     "jornada": 23,
     "home": "MANLLEU, A.E.C. A",
-    "away": "",
+    "away": "RUBI, U.E. A",
     "score": "2-0",
     "acta_url": "https://www.fcf.cat/acta/2526/futbol-11/lliga-elit/grup-1/elit/manlleu-aec-a/elit/rubi-ue-a"
   },
   {
     "jornada": 23,
     "home": "HORTA, U.AT. A",
-    "away": "",
+    "away": "CASTELLDEFELS, U.E. A",
     "score": "2-1",
     "acta_url": "https://www.fcf.cat/acta/2526/futbol-11/lliga-elit/grup-1/elit/horta-uat-a/elit/castelldefels-ue-a"
   },
   {
     "jornada": 23,
     "home": "SANTFELIUENC, F.C. A",
-    "away": "",
+    "away": "SAN JUAN AT. DE MONTCADA,U.E. A",
     "score": "2-4",
     "acta_url": "https://www.fcf.cat/acta/2526/futbol-11/lliga-elit/grup-1/1cat/santfeliuenc-fc-a/aa/san-juan-at-de-montcada-ue-a"
   },
   {
     "jornada": 24,
     "home": "JÚPITER, C.E. A",
-    "away": "",
+    "away": "PRAT, A.E. A",
     "score": "0-1",
     "acta_url": "https://www.fcf.cat/acta/2526/futbol-11/lliga-elit/grup-1/1cat/jupiter-ce-a/elit/prat-ae-a"
   },
   {
     "jornada": 24,
     "home": "SABADELL F.C., C.E. B",
-    "away": "",
+    "away": "SAN MAURO, U.D. A",
     "score": "1-2",
     "acta_url": "https://www.fcf.cat/acta/2526/futbol-11/lliga-elit/grup-1/elit/sabadell-fc-ce-b/elit/san-mauro-ud-a"
   },
   {
     "jornada": 24,
     "home": "MARTINENC, F.C. A",
-    "away": "",
+    "away": "VILAFRANCA, F.C. A",
     "score": "1-0",
     "acta_url": "https://www.fcf.cat/acta/2526/futbol-11/lliga-elit/grup-1/aa/martinenc-fc-a/1cat/vilafranca-fc-a"
   },
   {
     "jornada": 24,
     "home": "ATLETIC SANT JUST . F. C. A",
-    "away": "",
+    "away": "VALLS U.E. A",
     "score": "1-0",
     "acta_url": "https://www.fcf.cat/acta/2526/futbol-11/lliga-elit/grup-1/elit/atletic-sant-just-f-c-a/elit/valls-ue-a"
   },
   {
     "jornada": 24,
     "home": "RUBI, U.E. A",
-    "away": "",
+    "away": "CIUDAD COOPERATIVA, C.F. A",
     "score": "3-0",
     "acta_url": "https://www.fcf.cat/acta/2526/futbol-11/lliga-elit/grup-1/elit/rubi-ue-a/1cat/ciudad-cooperativa-cf-a"
   },
   {
     "jornada": 24,
     "home": "CASTELLDEFELS, U.E. A",
-    "away": "",
+    "away": "MANLLEU, A.E.C. A",
     "score": "2-0",
     "acta_url": "https://www.fcf.cat/acta/2526/futbol-11/lliga-elit/grup-1/elit/castelldefels-ue-a/elit/manlleu-aec-a"
   },
   {
     "jornada": 24,
     "home": "SAN JUAN AT. DE MONTCADA,U.E. A",
-    "away": "",
+    "away": "HORTA, U.AT. A",
     "score": "2-4",
     "acta_url": "https://www.fcf.cat/acta/2526/futbol-11/lliga-elit/grup-1/aa/san-juan-at-de-montcada-ue-a/elit/horta-uat-a"
   },
   {
     "jornada": 24,
     "home": "SANTFELIUENC, F.C. A",
-    "away": "",
+    "away": "POBLA MAFUMET, C.F. A",
     "score": "0-2",
     "acta_url": "https://www.fcf.cat/acta/2526/futbol-11/lliga-elit/grup-1/1cat/santfeliuenc-fc-a/aa/pobla-mafumet-cf-a"
   },
   {
     "jornada": 25,
     "home": "POBLA MAFUMET, C.F. A",
-    "away": "",
+    "away": "JÚPITER, C.E. A",
     "score": "0-2",
     "acta_url": "https://www.fcf.cat/acta/2526/futbol-11/lliga-elit/grup-1/aa/pobla-mafumet-cf-a/1cat/jupiter-ce-a"
   },
   {
     "jornada": 25,
     "home": "PRAT, A.E. A",
-    "away": "",
+    "away": "SABADELL F.C., C.E. B",
     "score": "1-0",
     "acta_url": "https://www.fcf.cat/acta/2526/futbol-11/lliga-elit/grup-1/elit/prat-ae-a/elit/sabadell-fc-ce-b"
   },
   {
     "jornada": 25,
     "home": "SAN MAURO, U.D. A",
-    "away": "",
+    "away": "MARTINENC, F.C. A",
     "score": "1-1",
     "acta_url": "https://www.fcf.cat/acta/2526/futbol-11/lliga-elit/grup-1/elit/san-mauro-ud-a/aa/martinenc-fc-a"
   },
   {
     "jornada": 25,
     "home": "VILAFRANCA, F.C. A",
-    "away": "",
+    "away": "ATLETIC SANT JUST . F. C. A",
     "score": "3-1",
     "acta_url": "https://www.fcf.cat/acta/2526/futbol-11/lliga-elit/grup-1/1cat/vilafranca-fc-a/elit/atletic-sant-just-f-c-a"
   },
   {
     "jornada": 25,
     "home": "VALLS U.E. A",
-    "away": "",
+    "away": "RUBI, U.E. A",
     "score": "2-1",
     "acta_url": "https://www.fcf.cat/acta/2526/futbol-11/lliga-elit/grup-1/elit/valls-ue-a/elit/rubi-ue-a"
   },
   {
     "jornada": 25,
     "home": "CIUDAD COOPERATIVA, C.F. A",
-    "away": "",
+    "away": "CASTELLDEFELS, U.E. A",
     "score": "1-0",
     "acta_url": "https://www.fcf.cat/acta/2526/futbol-11/lliga-elit/grup-1/1cat/ciudad-cooperativa-cf-a/elit/castelldefels-ue-a"
   },
   {
     "jornada": 25,
     "home": "MANLLEU, A.E.C. A",
-    "away": "",
+    "away": "SAN JUAN AT. DE MONTCADA,U.E. A",
     "score": "1-0",
     "acta_url": "https://www.fcf.cat/acta/2526/futbol-11/lliga-elit/grup-1/elit/manlleu-aec-a/aa/san-juan-at-de-montcada-ue-a"
   },
   {
     "jornada": 25,
     "home": "HORTA, U.AT. A",
-    "away": "",
+    "away": "SANTFELIUENC, F.C. A",
     "score": "3-1",
     "acta_url": "https://www.fcf.cat/acta/2526/futbol-11/lliga-elit/grup-1/elit/horta-uat-a/1cat/santfeliuenc-fc-a"
   },
   {
     "jornada": 26,
     "home": "SABADELL F.C., C.E. B",
-    "away": "",
+    "away": "JÚPITER, C.E. A",
     "score": "0-0",
     "acta_url": "https://www.fcf.cat/acta/2526/futbol-11/lliga-elit/grup-1/elit/sabadell-fc-ce-b/1cat/jupiter-ce-a"
   },
   {
     "jornada": 26,
     "home": "MARTINENC, F.C. A",
-    "away": "",
+    "away": "PRAT, A.E. A",
     "score": "2-1",
     "acta_url": "https://www.fcf.cat/acta/2526/futbol-11/lliga-elit/grup-1/aa/martinenc-fc-a/elit/prat-ae-a"
   },
   {
     "jornada": 26,
     "home": "ATLETIC SANT JUST . F. C. A",
-    "away": "",
+    "away": "SAN MAURO, U.D. A",
     "score": "3-3",
     "acta_url": "https://www.fcf.cat/acta/2526/futbol-11/lliga-elit/grup-1/elit/atletic-sant-just-f-c-a/elit/san-mauro-ud-a"
   },
   {
     "jornada": 26,
     "home": "RUBI, U.E. A",
-    "away": "",
+    "away": "VILAFRANCA, F.C. A",
     "score": "1-0",
     "acta_url": "https://www.fcf.cat/acta/2526/futbol-11/lliga-elit/grup-1/elit/rubi-ue-a/1cat/vilafranca-fc-a"
   },
   {
     "jornada": 26,
     "home": "CASTELLDEFELS, U.E. A",
-    "away": "",
+    "away": "VALLS U.E. A",
     "score": "0-1",
     "acta_url": "https://www.fcf.cat/acta/2526/futbol-11/lliga-elit/grup-1/elit/castelldefels-ue-a/elit/valls-ue-a"
   },
   {
     "jornada": 26,
     "home": "SAN JUAN AT. DE MONTCADA,U.E. A",
-    "away": "",
+    "away": "CIUDAD COOPERATIVA, C.F. A",
     "score": "2-0",
     "acta_url": "https://www.fcf.cat/acta/2526/futbol-11/lliga-elit/grup-1/aa/san-juan-at-de-montcada-ue-a/1cat/ciudad-cooperativa-cf-a"
   },
   {
     "jornada": 26,
     "home": "SANTFELIUENC, F.C. A",
-    "away": "",
+    "away": "MANLLEU, A.E.C. A",
     "score": "0-0",
     "acta_url": "https://www.fcf.cat/acta/2526/futbol-11/lliga-elit/grup-1/1cat/santfeliuenc-fc-a/elit/manlleu-aec-a"
   },
   {
     "jornada": 26,
     "home": "HORTA, U.AT. A",
-    "away": "",
+    "away": "POBLA MAFUMET, C.F. A",
     "score": "1-3",
     "acta_url": "https://www.fcf.cat/acta/2526/futbol-11/lliga-elit/grup-1/elit/horta-uat-a/aa/pobla-mafumet-cf-a"
   },
   {
     "jornada": 27,
     "home": "POBLA MAFUMET, C.F. A",
-    "away": "",
+    "away": "SABADELL F.C., C.E. B",
     "score": "2-2",
     "acta_url": "https://www.fcf.cat/acta/2526/futbol-11/lliga-elit/grup-1/aa/pobla-mafumet-cf-a/elit/sabadell-fc-ce-b"
   },
   {
     "jornada": 27,
     "home": "JÚPITER, C.E. A",
-    "away": "",
+    "away": "MARTINENC, F.C. A",
     "score": "0-1",
     "acta_url": "https://www.fcf.cat/acta/2526/futbol-11/lliga-elit/grup-1/1cat/jupiter-ce-a/aa/martinenc-fc-a"
   },
   {
     "jornada": 27,
     "home": "PRAT, A.E. A",
-    "away": "",
+    "away": "ATLETIC SANT JUST . F. C. A",
     "score": "0-2",
     "acta_url": "https://www.fcf.cat/acta/2526/futbol-11/lliga-elit/grup-1/elit/prat-ae-a/elit/atletic-sant-just-f-c-a"
   },
   {
     "jornada": 27,
     "home": "SAN MAURO, U.D. A",
-    "away": "",
+    "away": "RUBI, U.E. A",
     "score": "2-1",
     "acta_url": "https://www.fcf.cat/acta/2526/futbol-11/lliga-elit/grup-1/elit/san-mauro-ud-a/elit/rubi-ue-a"
   },
   {
     "jornada": 27,
     "home": "VILAFRANCA, F.C. A",
-    "away": "",
+    "away": "CASTELLDEFELS, U.E. A",
     "score": "1-0",
     "acta_url": "https://www.fcf.cat/acta/2526/futbol-11/lliga-elit/grup-1/1cat/vilafranca-fc-a/elit/castelldefels-ue-a"
   },
   {
     "jornada": 27,
     "home": "VALLS U.E. A",
-    "away": "",
+    "away": "SAN JUAN AT. DE MONTCADA,U.E. A",
     "score": "0-1",
     "acta_url": "https://www.fcf.cat/acta/2526/futbol-11/lliga-elit/grup-1/elit/valls-ue-a/aa/san-juan-at-de-montcada-ue-a"
   },
   {
     "jornada": 27,
     "home": "CIUDAD COOPERATIVA, C.F. A",
-    "away": "",
+    "away": "SANTFELIUENC, F.C. A",
     "score": "2-0",
     "acta_url": "https://www.fcf.cat/acta/2526/futbol-11/lliga-elit/grup-1/1cat/ciudad-cooperativa-cf-a/1cat/santfeliuenc-fc-a"
   },
   {
     "jornada": 27,
     "home": "MANLLEU, A.E.C. A",
-    "away": "",
+    "away": "HORTA, U.AT. A",
     "score": "3-0",
     "acta_url": "https://www.fcf.cat/acta/2526/futbol-11/lliga-elit/grup-1/elit/manlleu-aec-a/elit/horta-uat-a"
   },
   {
     "jornada": 28,
     "home": "MARTINENC, F.C. A",
-    "away": "",
+    "away": "SABADELL F.C., C.E. B",
     "score": "1-0",
     "acta_url": "https://www.fcf.cat/acta/2526/futbol-11/lliga-elit/grup-1/aa/martinenc-fc-a/elit/sabadell-fc-ce-b"
   },
   {
     "jornada": 28,
     "home": "ATLETIC SANT JUST . F. C. A",
-    "away": "",
+    "away": "JÚPITER, C.E. A",
     "score": "1-1",
     "acta_url": "https://www.fcf.cat/acta/2526/futbol-11/lliga-elit/grup-1/elit/atletic-sant-just-f-c-a/1cat/jupiter-ce-a"
   },
   {
     "jornada": 28,
     "home": "RUBI, U.E. A",
-    "away": "",
+    "away": "PRAT, A.E. A",
     "score": "3-2",
     "acta_url": "https://www.fcf.cat/acta/2526/futbol-11/lliga-elit/grup-1/elit/rubi-ue-a/elit/prat-ae-a"
   },
   {
     "jornada": 28,
     "home": "CASTELLDEFELS, U.E. A",
-    "away": "",
+    "away": "SAN MAURO, U.D. A",
     "score": "0-2",
     "acta_url": "https://www.fcf.cat/acta/2526/futbol-11/lliga-elit/grup-1/elit/castelldefels-ue-a/elit/san-mauro-ud-a"
   },
   {
     "jornada": 28,
     "home": "SAN JUAN AT. DE MONTCADA,U.E. A",
-    "away": "",
+    "away": "VILAFRANCA, F.C. A",
     "score": "2-1",
     "acta_url": "https://www.fcf.cat/acta/2526/futbol-11/lliga-elit/grup-1/aa/san-juan-at-de-montcada-ue-a/1cat/vilafranca-fc-a"
   },
   {
     "jornada": 28,
     "home": "SANTFELIUENC, F.C. A",
-    "away": "",
+    "away": "VALLS U.E. A",
     "score": "1-1",
     "acta_url": "https://www.fcf.cat/acta/2526/futbol-11/lliga-elit/grup-1/1cat/santfeliuenc-fc-a/elit/valls-ue-a"
   },
   {
     "jornada": 28,
     "home": "HORTA, U.AT. A",
-    "away": "",
+    "away": "CIUDAD COOPERATIVA, C.F. A",
     "score": "4-1",
     "acta_url": "https://www.fcf.cat/acta/2526/futbol-11/lliga-elit/grup-1/elit/horta-uat-a/1cat/ciudad-cooperativa-cf-a"
   },
   {
     "jornada": 28,
     "home": "MANLLEU, A.E.C. A",
-    "away": "",
+    "away": "POBLA MAFUMET, C.F. A",
     "score": "0-0",
     "acta_url": "https://www.fcf.cat/acta/2526/futbol-11/lliga-elit/grup-1/elit/manlleu-aec-a/aa/pobla-mafumet-cf-a"
   },
   {
     "jornada": 29,
     "home": "MARTINENC, F.C. A",
-    "away": "",
+    "away": "POBLA MAFUMET, C.F. A",
     "score": "2-3",
     "acta_url": "https://www.fcf.cat/acta/2526/futbol-11/lliga-elit/grup-1/aa/martinenc-fc-a/aa/pobla-mafumet-cf-a"
   },
   {
     "jornada": 29,
     "home": "SABADELL F.C., C.E. B",
-    "away": "",
+    "away": "ATLETIC SANT JUST . F. C. A",
     "score": "3-1",
     "acta_url": "https://www.fcf.cat/acta/2526/futbol-11/lliga-elit/grup-1/elit/sabadell-fc-ce-b/elit/atletic-sant-just-f-c-a"
   },
   {
     "jornada": 29,
     "home": "JÚPITER, C.E. A",
-    "away": "",
+    "away": "RUBI, U.E. A",
     "score": "0-2",
     "acta_url": "https://www.fcf.cat/acta/2526/futbol-11/lliga-elit/grup-1/1cat/jupiter-ce-a/elit/rubi-ue-a"
   },
   {
     "jornada": 29,
     "home": "PRAT, A.E. A",
-    "away": "",
+    "away": "CASTELLDEFELS, U.E. A",
     "score": "2-4",
     "acta_url": "https://www.fcf.cat/acta/2526/futbol-11/lliga-elit/grup-1/elit/prat-ae-a/elit/castelldefels-ue-a"
   },
   {
     "jornada": 29,
     "home": "SAN MAURO, U.D. A",
-    "away": "",
+    "away": "SAN JUAN AT. DE MONTCADA,U.E. A",
     "score": "4-0",
     "acta_url": "https://www.fcf.cat/acta/2526/futbol-11/lliga-elit/grup-1/elit/san-mauro-ud-a/aa/san-juan-at-de-montcada-ue-a"
   },
   {
     "jornada": 29,
     "home": "VILAFRANCA, F.C. A",
-    "away": "",
+    "away": "SANTFELIUENC, F.C. A",
     "score": "1-1",
     "acta_url": "https://www.fcf.cat/acta/2526/futbol-11/lliga-elit/grup-1/1cat/vilafranca-fc-a/1cat/santfeliuenc-fc-a"
   },
   {
     "jornada": 29,
     "home": "VALLS U.E. A",
-    "away": "",
+    "away": "HORTA, U.AT. A",
     "score": "2-1",
     "acta_url": "https://www.fcf.cat/acta/2526/futbol-11/lliga-elit/grup-1/elit/valls-ue-a/elit/horta-uat-a"
   },
   {
     "jornada": 29,
     "home": "CIUDAD COOPERATIVA, C.F. A",
-    "away": "",
+    "away": "MANLLEU, A.E.C. A",
     "score": "4-1",
     "acta_url": "https://www.fcf.cat/acta/2526/futbol-11/lliga-elit/grup-1/1cat/ciudad-cooperativa-cf-a/elit/manlleu-aec-a"
   },
   {
     "jornada": 30,
     "home": "ATLETIC SANT JUST . F. C. A",
-    "away": "",
+    "away": "MARTINENC, F.C. A",
     "score": "0-0",
     "acta_url": "https://www.fcf.cat/acta/2526/futbol-11/lliga-elit/grup-1/elit/atletic-sant-just-f-c-a/aa/martinenc-fc-a"
   },
   {
     "jornada": 30,
     "home": "RUBI, U.E. A",
-    "away": "",
+    "away": "SABADELL F.C., C.E. B",
     "score": "3-0",
     "acta_url": "https://www.fcf.cat/acta/2526/futbol-11/lliga-elit/grup-1/elit/rubi-ue-a/elit/sabadell-fc-ce-b"
   },
   {
     "jornada": 30,
     "home": "CASTELLDEFELS, U.E. A",
-    "away": "",
+    "away": "JÚPITER, C.E. A",
     "score": "0-1",
     "acta_url": "https://www.fcf.cat/acta/2526/futbol-11/lliga-elit/grup-1/elit/castelldefels-ue-a/1cat/jupiter-ce-a"
   },
   {
     "jornada": 30,
     "home": "SAN JUAN AT. DE MONTCADA,U.E. A",
-    "away": "",
+    "away": "PRAT, A.E. A",
     "score": "2-0",
     "acta_url": "https://www.fcf.cat/acta/2526/futbol-11/lliga-elit/grup-1/aa/san-juan-at-de-montcada-ue-a/elit/prat-ae-a"
   },
   {
     "jornada": 30,
     "home": "SANTFELIUENC, F.C. A",
-    "away": "",
+    "away": "SAN MAURO, U.D. A",
     "score": "1-1",
     "acta_url": "https://www.fcf.cat/acta/2526/futbol-11/lliga-elit/grup-1/1cat/santfeliuenc-fc-a/elit/san-mauro-ud-a"
   },
   {
     "jornada": 30,
     "home": "HORTA, U.AT. A",
-    "away": "",
+    "away": "VILAFRANCA, F.C. A",
     "score": "3-2",
     "acta_url": "https://www.fcf.cat/acta/2526/futbol-11/lliga-elit/grup-1/elit/horta-uat-a/1cat/vilafranca-fc-a"
   },
   {
     "jornada": 30,
     "home": "MANLLEU, A.E.C. A",
-    "away": "",
+    "away": "VALLS U.E. A",
     "score": "2-1",
     "acta_url": "https://www.fcf.cat/acta/2526/futbol-11/lliga-elit/grup-1/elit/manlleu-aec-a/elit/valls-ue-a"
   },
   {
     "jornada": 30,
     "home": "POBLA MAFUMET, C.F. A",
-    "away": "",
+    "away": "CIUDAD COOPERATIVA, C.F. A",
     "score": "1-0",
     "acta_url": "https://www.fcf.cat/acta/2526/futbol-11/lliga-elit/grup-1/aa/pobla-mafumet-cf-a/1cat/ciudad-cooperativa-cf-a"
   }
