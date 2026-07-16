@@ -88,6 +88,19 @@
     "substitutions": [],
     "cards": []
   },
-  "goals": [],
+  "goals": [
+    {
+      "score_after": "0 - 1",
+      "scorer": "MUÑOZ DELGADO, ALEJANDRO",
+      "minute": 88,
+      "type": "normal"
+    },
+    {
+      "score_after": "0 - 2",
+      "scorer": "CASTILLO MARAVER, ERIK",
+      "minute": 89,
+      "type": "normal"
+    }
+  ],
   "jornada": 29
 }

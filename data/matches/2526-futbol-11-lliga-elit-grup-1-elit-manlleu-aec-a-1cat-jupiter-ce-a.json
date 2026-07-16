@@ -108,6 +108,25 @@
     "substitutions": [],
     "cards": []
   },
-  "goals": [],
+  "goals": [
+    {
+      "score_after": "1 - 0",
+      "scorer": "CAO FERNÁNDEZ, TONI",
+      "minute": 38,
+      "type": "normal"
+    },
+    {
+      "score_after": "1 - 1",
+      "scorer": "SANCHEZ MOYA, DANIEL",
+      "minute": 78,
+      "type": "normal"
+    },
+    {
+      "score_after": "1 - 2",
+      "scorer": "PEÑA PEREZ, SERGIO",
+      "minute": 83,
+      "type": "normal"
+    }
+  ],
   "jornada": 19
 }

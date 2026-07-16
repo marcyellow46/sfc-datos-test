@@ -108,6 +108,31 @@
     "substitutions": [],
     "cards": []
   },
-  "goals": [],
+  "goals": [
+    {
+      "score_after": "1 - 0",
+      "scorer": "GARCIA SANTOS, KAUA",
+      "minute": 15,
+      "type": "normal"
+    },
+    {
+      "score_after": "1 - 1",
+      "scorer": "GONZALEZ OLLER, JAN ANTONI",
+      "minute": 52,
+      "type": "normal"
+    },
+    {
+      "score_after": "2 - 1",
+      "scorer": "MARTINEZ TASIAS, ELOI",
+      "minute": 56,
+      "type": "normal"
+    },
+    {
+      "score_after": "3 - 1",
+      "scorer": "TORRES CAMARGO, MARIO",
+      "minute": 77,
+      "type": "normal"
+    }
+  ],
   "jornada": 29
 }

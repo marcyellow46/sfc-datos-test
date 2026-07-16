@@ -108,6 +108,25 @@
     "substitutions": [],
     "cards": []
   },
-  "goals": [],
+  "goals": [
+    {
+      "score_after": "1 - 0",
+      "scorer": "DURAN NOMS, FERRAN",
+      "minute": 29,
+      "type": "normal"
+    },
+    {
+      "score_after": "1 - 1",
+      "scorer": "VILLEGAS SANTOS, ALBERT",
+      "minute": 89,
+      "type": "normal"
+    },
+    {
+      "score_after": "2 - 1",
+      "scorer": "DIABY DIAWARA, MAMADOU",
+      "minute": 89,
+      "type": "normal"
+    }
+  ],
   "jornada": 18
 }

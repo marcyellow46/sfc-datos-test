@@ -108,6 +108,13 @@
     "substitutions": [],
     "cards": []
   },
-  "goals": [],
+  "goals": [
+    {
+      "score_after": "0 - 1",
+      "scorer": "RUIZ FERNANDEZ, ALEX",
+      "minute": 43,
+      "type": "normal"
+    }
+  ],
   "jornada": 2
 }

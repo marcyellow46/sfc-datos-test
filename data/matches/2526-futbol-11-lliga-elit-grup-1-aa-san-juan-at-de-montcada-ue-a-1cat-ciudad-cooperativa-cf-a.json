@@ -108,6 +108,19 @@
     "substitutions": [],
     "cards": []
   },
-  "goals": [],
+  "goals": [
+    {
+      "score_after": "1 - 0",
+      "scorer": "PEREZ BELLO, VICTOR",
+      "minute": 6,
+      "type": "normal"
+    },
+    {
+      "score_after": "2 - 0",
+      "scorer": "SANTIAGO PEREZ, ANTONIO",
+      "minute": 87,
+      "type": "normal"
+    }
+  ],
   "jornada": 26
 }

@@ -98,6 +98,37 @@
     "substitutions": [],
     "cards": []
   },
-  "goals": [],
+  "goals": [
+    {
+      "score_after": "1 - 0",
+      "scorer": "RAYA BERNAL, PAU",
+      "minute": 19,
+      "type": "normal"
+    },
+    {
+      "score_after": "2 - 0",
+      "scorer": "RAYA BERNAL, PAU",
+      "minute": 21,
+      "type": "normal"
+    },
+    {
+      "score_after": "3 - 0",
+      "scorer": "AGUZZI BETTINI, NICOLAS ALBERTO",
+      "minute": 28,
+      "type": "normal"
+    },
+    {
+      "score_after": "3 - 1",
+      "scorer": "MARC",
+      "minute": 58,
+      "type": "normal"
+    },
+    {
+      "score_after": "4 - 1",
+      "scorer": "MORA HERNANDEZ, ERIC",
+      "minute": 70,
+      "type": "normal"
+    }
+  ],
   "jornada": 19
 }

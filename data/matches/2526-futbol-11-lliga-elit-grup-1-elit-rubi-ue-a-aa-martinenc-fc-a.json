@@ -103,6 +103,31 @@
     "substitutions": [],
     "cards": []
   },
-  "goals": [],
+  "goals": [
+    {
+      "score_after": "1 - 0",
+      "scorer": "MUÑOZ DELGADO, ALEJANDRO",
+      "minute": 28,
+      "type": "normal"
+    },
+    {
+      "score_after": "2 - 0",
+      "scorer": "MUÑOZ DELGADO, ALEJANDRO",
+      "minute": 36,
+      "type": "normal"
+    },
+    {
+      "score_after": "2 - 1",
+      "scorer": "SUÁREZ POSTIGO, DANIEL",
+      "minute": 54,
+      "type": "normal"
+    },
+    {
+      "score_after": "3 - 1",
+      "scorer": "DIAZ WILLIAMS, KEVIN",
+      "minute": 68,
+      "type": "normal"
+    }
+  ],
   "jornada": 1
 }

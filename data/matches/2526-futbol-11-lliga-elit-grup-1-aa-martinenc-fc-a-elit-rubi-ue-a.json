@@ -98,6 +98,61 @@
     "substitutions": [],
     "cards": []
   },
-  "goals": [],
+  "goals": [
+    {
+      "score_after": "1 - 0",
+      "scorer": "GONZALEZ VALTUEÑA, ANGEL",
+      "minute": 2,
+      "type": "normal"
+    },
+    {
+      "score_after": "1 - 1",
+      "scorer": "MUÑOZ DELGADO, ALEJANDRO",
+      "minute": 19,
+      "type": "normal"
+    },
+    {
+      "score_after": "2 - 1",
+      "scorer": "TEJADA GALLARDO, EDGAR",
+      "minute": 26,
+      "type": "normal"
+    },
+    {
+      "score_after": "3 - 1",
+      "scorer": "GONZALEZ VALTUEÑA, ANGEL",
+      "minute": 44,
+      "type": "normal"
+    },
+    {
+      "score_after": "4 - 1",
+      "scorer": "GONZALEZ VALTUEÑA, ANGEL",
+      "minute": 46,
+      "type": "normal"
+    },
+    {
+      "score_after": "5 - 1",
+      "scorer": "GONZALEZ ALCANTARA, CARLOS",
+      "minute": 50,
+      "type": "normal"
+    },
+    {
+      "score_after": "5 - 2",
+      "scorer": "TORRES MARTÍNEZ, AITOR",
+      "minute": 81,
+      "type": "normal"
+    },
+    {
+      "score_after": "6 - 2",
+      "scorer": "SUÁREZ POSTIGO, DANIEL",
+      "minute": 81,
+      "type": "normal"
+    },
+    {
+      "score_after": "7 - 2",
+      "scorer": "FABIAN PASCUAL, VICTOR",
+      "minute": 89,
+      "type": "normal"
+    }
+  ],
   "jornada": 16
 }

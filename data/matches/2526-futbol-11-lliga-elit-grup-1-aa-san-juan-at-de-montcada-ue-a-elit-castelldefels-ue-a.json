@@ -108,6 +108,13 @@
     "substitutions": [],
     "cards": []
   },
-  "goals": [],
+  "goals": [
+    {
+      "score_after": "1 - 0",
+      "scorer": "PEREZ BELLO, VICTOR",
+      "minute": 84,
+      "type": "normal"
+    }
+  ],
   "jornada": 21
 }

@@ -98,6 +98,19 @@
     "substitutions": [],
     "cards": []
   },
-  "goals": [],
+  "goals": [
+    {
+      "score_after": "1 - 0",
+      "scorer": "CASTELL SOLE, NIL",
+      "minute": 54,
+      "type": "normal"
+    },
+    {
+      "score_after": "1 - 1",
+      "scorer": "FERNÁNDEZ BAUMGARTNER, ADRIÁN",
+      "minute": 68,
+      "type": "normal"
+    }
+  ],
   "jornada": 23
 }

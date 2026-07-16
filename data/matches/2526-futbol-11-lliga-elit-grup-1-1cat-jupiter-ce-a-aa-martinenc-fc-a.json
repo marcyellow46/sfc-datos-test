@@ -103,6 +103,13 @@
     "substitutions": [],
     "cards": []
   },
-  "goals": [],
+  "goals": [
+    {
+      "score_after": "0 - 1",
+      "scorer": "SUÁREZ POSTIGO, DANIEL",
+      "minute": 5,
+      "type": "normal"
+    }
+  ],
   "jornada": 27
 }

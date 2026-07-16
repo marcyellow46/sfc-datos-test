@@ -108,6 +108,31 @@
     "substitutions": [],
     "cards": []
   },
-  "goals": [],
+  "goals": [
+    {
+      "score_after": "1 - 0",
+      "scorer": "SUAREZ SANZ, ADRIA",
+      "minute": 9,
+      "type": "normal"
+    },
+    {
+      "score_after": "1 - 1",
+      "scorer": "CAO FERNÁNDEZ, TONI",
+      "minute": 42,
+      "type": "normal"
+    },
+    {
+      "score_after": "2 - 1",
+      "scorer": "GUASCH PORTAS, MARC",
+      "minute": 76,
+      "type": "normal"
+    },
+    {
+      "score_after": "2 - 2",
+      "scorer": "ROGER SOLA, RAFEL",
+      "minute": 89,
+      "type": "normal"
+    }
+  ],
   "jornada": 15
 }

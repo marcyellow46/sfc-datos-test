@@ -103,6 +103,43 @@
     "substitutions": [],
     "cards": []
   },
-  "goals": [],
+  "goals": [
+    {
+      "score_after": "1 - 0",
+      "scorer": "PALACIOS CORRAL, IGNACIO",
+      "minute": 6,
+      "type": "normal"
+    },
+    {
+      "score_after": "2 - 0",
+      "scorer": "GONZALEZ OLLER, JAN ANTONI",
+      "minute": 12,
+      "type": "normal"
+    },
+    {
+      "score_after": "2 - 1",
+      "scorer": "GULIAS AGUILERA, MARC",
+      "minute": 14,
+      "type": "normal"
+    },
+    {
+      "score_after": "2 - 2",
+      "scorer": "YÁÑEZ BORRÀS, PAU",
+      "minute": 28,
+      "type": "normal"
+    },
+    {
+      "score_after": "2 - 3",
+      "scorer": "ARIBAU CASALS, JORDI",
+      "minute": 47,
+      "type": "normal"
+    },
+    {
+      "score_after": "3 - 3",
+      "scorer": "PALACIOS CORRAL, IGNACIO",
+      "minute": 89,
+      "type": "normal"
+    }
+  ],
   "jornada": 26
 }

@@ -108,6 +108,25 @@
     "substitutions": [],
     "cards": []
   },
-  "goals": [],
+  "goals": [
+    {
+      "score_after": "1 - 0",
+      "scorer": "DOMINGO CIURANETA, JOAN",
+      "minute": 28,
+      "type": "normal"
+    },
+    {
+      "score_after": "2 - 0",
+      "scorer": "RUBIÓ MUNTANYOLA, MARC",
+      "minute": 78,
+      "type": "normal"
+    },
+    {
+      "score_after": "2 - 1",
+      "scorer": "FORNELL SAEZ, JOAQUIM",
+      "minute": 80,
+      "type": "normal"
+    }
+  ],
   "jornada": 29
 }

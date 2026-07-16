@@ -108,6 +108,49 @@
     "substitutions": [],
     "cards": []
   },
-  "goals": [],
+  "goals": [
+    {
+      "score_after": "1 - 0",
+      "scorer": "ESCAMILLA VAN DER DONK, ROGER",
+      "minute": 2,
+      "type": "normal"
+    },
+    {
+      "score_after": "2 - 0",
+      "scorer": "CAÑERO CARMONA, ALEX",
+      "minute": 27,
+      "type": "normal"
+    },
+    {
+      "score_after": "2 - 1",
+      "scorer": "RODRÍGUEZ  ARASIL, RUBÉN",
+      "minute": 55,
+      "type": "normal"
+    },
+    {
+      "score_after": "3 - 1",
+      "scorer": "COSANO BERROCAL, KENNETH",
+      "minute": 60,
+      "type": "normal"
+    },
+    {
+      "score_after": "4 - 1",
+      "scorer": "COSANO BERROCAL, KENNETH",
+      "minute": 71,
+      "type": "normal"
+    },
+    {
+      "score_after": "4 - 2",
+      "scorer": "SÁNCHEZ PÉREZ, KEVIN",
+      "minute": 75,
+      "type": "normal"
+    },
+    {
+      "score_after": "5 - 2",
+      "scorer": "MERINAS CLOP, ERNEST",
+      "minute": 86,
+      "type": "normal"
+    }
+  ],
   "jornada": 18
 }

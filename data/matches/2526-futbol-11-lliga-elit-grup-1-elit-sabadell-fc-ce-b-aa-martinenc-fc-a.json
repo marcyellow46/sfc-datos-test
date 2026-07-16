@@ -108,6 +108,19 @@
     "substitutions": [],
     "cards": []
   },
-  "goals": [],
+  "goals": [
+    {
+      "score_after": "1 - 0",
+      "scorer": "CHLIH LEHDA, OUSSAMA",
+      "minute": 12,
+      "type": "normal"
+    },
+    {
+      "score_after": "1 - 1",
+      "scorer": "ESPIGOL DE LEMUS, MAX",
+      "minute": 73,
+      "type": "normal"
+    }
+  ],
   "jornada": 13
 }

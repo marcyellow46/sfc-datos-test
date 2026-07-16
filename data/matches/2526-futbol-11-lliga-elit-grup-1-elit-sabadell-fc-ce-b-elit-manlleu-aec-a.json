@@ -108,6 +108,31 @@
     "substitutions": [],
     "cards": []
   },
-  "goals": [],
+  "goals": [
+    {
+      "score_after": "1 - 0",
+      "scorer": "MURO",
+      "minute": 35,
+      "type": "normal"
+    },
+    {
+      "score_after": "2 - 0",
+      "scorer": "SALGUERO CUENCA, ERICK",
+      "minute": 39,
+      "type": "normal"
+    },
+    {
+      "score_after": "2 - 1",
+      "scorer": "MURO",
+      "minute": 50,
+      "type": "normal"
+    },
+    {
+      "score_after": "2 - 2",
+      "scorer": "CAO FERNÁNDEZ, TONI",
+      "minute": 67,
+      "type": "normal"
+    }
+  ],
   "jornada": 20
 }

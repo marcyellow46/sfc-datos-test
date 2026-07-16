@@ -103,6 +103,13 @@
     "substitutions": [],
     "cards": []
   },
-  "goals": [],
+  "goals": [
+    {
+      "score_after": "1 - 0",
+      "scorer": "ALVAREZ CABO, SAUL",
+      "minute": 47,
+      "type": "normal"
+    }
+  ],
   "jornada": 21
 }

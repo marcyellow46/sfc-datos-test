@@ -108,6 +108,25 @@
     "substitutions": [],
     "cards": []
   },
-  "goals": [],
+  "goals": [
+    {
+      "score_after": "0 - 1",
+      "scorer": "GERBOLES PEREZ, MARIO",
+      "minute": 10,
+      "type": "normal"
+    },
+    {
+      "score_after": "1 - 1",
+      "scorer": "BLASCO TORRENTE, PABLO",
+      "minute": 62,
+      "type": "normal"
+    },
+    {
+      "score_after": "1 - 2",
+      "scorer": "POZUELO RIERA, ELOI",
+      "minute": 89,
+      "type": "normal"
+    }
+  ],
   "jornada": 7
 }

@@ -93,6 +93,19 @@
     "substitutions": [],
     "cards": []
   },
-  "goals": [],
+  "goals": [
+    {
+      "score_after": "1 - 0",
+      "scorer": "LOPEZ SÁNCHEZ, ALBERT",
+      "minute": 27,
+      "type": "normal"
+    },
+    {
+      "score_after": "2 - 0",
+      "scorer": "MARTÍNEZ VILÀ, LLUÍS",
+      "minute": 78,
+      "type": "normal"
+    }
+  ],
   "jornada": 3
 }

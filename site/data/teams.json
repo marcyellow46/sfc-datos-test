@@ -2,53 +2,53 @@
   "CIUDAD COOPERATIVA, C.F. A": {
     "name": "CIUDAD COOPERATIVA, C.F. A",
     "matchesPlayed": 30,
-    "goalsAgainstTotal": 0,
-    "goalsAgainstAvg": 0.0,
+    "goalsAgainstTotal": 13,
+    "goalsAgainstAvg": 0.43,
     "gfBucketsTotal": [
       0,
       0,
       0,
-      0,
-      0,
-      0
+      2,
+      1,
+      5
     ],
     "gfBucketsAvg": [
       0.0,
       0.0,
       0.0,
-      0.0,
-      0.0,
-      0.0
+      0.07,
+      0.03,
+      0.17
     ],
     "gaBucketsTotal": [
       0,
       0,
       0,
-      0,
-      0,
-      0
+      2,
+      4,
+      7
     ],
     "gaBucketsAvg": [
       0.0,
       0.0,
       0.0,
-      0.0,
-      0.0,
-      0.0
+      0.07,
+      0.13,
+      0.23
     ]
   },
   "JÚPITER, C.E. A": {
     "name": "JÚPITER, C.E. A",
     "matchesPlayed": 30,
-    "goalsAgainstTotal": 0,
-    "goalsAgainstAvg": 0.0,
+    "goalsAgainstTotal": 10,
+    "goalsAgainstAvg": 0.33,
     "gfBucketsTotal": [
       0,
       0,
       0,
       0,
       0,
-      0
+      9
     ],
     "gfBucketsAvg": [
       0.0,
@@ -56,75 +56,75 @@
       0.0,
       0.0,
       0.0,
-      0.0
+      0.3
     ],
     "gaBucketsTotal": [
       0,
       0,
       0,
-      0,
-      0,
-      0
+      2,
+      1,
+      7
     ],
     "gaBucketsAvg": [
       0.0,
       0.0,
       0.0,
-      0.0,
-      0.0,
-      0.0
+      0.07,
+      0.03,
+      0.23
     ]
   },
   "SANTFELIUENC, F.C. A": {
     "name": "SANTFELIUENC, F.C. A",
     "matchesPlayed": 30,
-    "goalsAgainstTotal": 0,
-    "goalsAgainstAvg": 0.0,
+    "goalsAgainstTotal": 8,
+    "goalsAgainstAvg": 0.27,
     "gfBucketsTotal": [
       0,
       0,
       0,
+      1,
       0,
-      0,
-      0
+      2
     ],
     "gfBucketsAvg": [
       0.0,
       0.0,
       0.0,
+      0.03,
       0.0,
-      0.0,
-      0.0
+      0.07
     ],
     "gaBucketsTotal": [
       0,
       0,
+      1,
+      1,
       0,
-      0,
-      0,
-      0
+      6
     ],
     "gaBucketsAvg": [
       0.0,
       0.0,
+      0.03,
+      0.03,
       0.0,
-      0.0,
-      0.0,
-      0.0
+      0.2
     ]
   },
   "VILAFRANCA, F.C. A": {
     "name": "VILAFRANCA, F.C. A",
     "matchesPlayed": 30,
-    "goalsAgainstTotal": 0,
-    "goalsAgainstAvg": 0.0,
+    "goalsAgainstTotal": 10,
+    "goalsAgainstAvg": 0.33,
     "gfBucketsTotal": [
       0,
       0,
       0,
       0,
       0,
-      0
+      5
     ],
     "gfBucketsAvg": [
       0.0,
@@ -132,45 +132,45 @@
       0.0,
       0.0,
       0.0,
-      0.0
+      0.17
     ],
     "gaBucketsTotal": [
       0,
       0,
       0,
-      0,
-      0,
-      0
+      1,
+      1,
+      8
     ],
     "gaBucketsAvg": [
       0.0,
       0.0,
       0.0,
-      0.0,
-      0.0,
-      0.0
+      0.03,
+      0.03,
+      0.27
     ]
   },
   "MARTINENC, F.C. A": {
     "name": "MARTINENC, F.C. A",
     "matchesPlayed": 30,
-    "goalsAgainstTotal": 0,
-    "goalsAgainstAvg": 0.0,
+    "goalsAgainstTotal": 3,
+    "goalsAgainstAvg": 0.1,
     "gfBucketsTotal": [
       0,
       0,
       0,
-      0,
-      0,
-      0
+      2,
+      1,
+      8
     ],
     "gfBucketsAvg": [
       0.0,
       0.0,
       0.0,
-      0.0,
-      0.0,
-      0.0
+      0.07,
+      0.03,
+      0.27
     ],
     "gaBucketsTotal": [
       0,
@@ -178,7 +178,7 @@
       0,
       0,
       0,
-      0
+      3
     ],
     "gaBucketsAvg": [
       0.0,
@@ -186,21 +186,21 @@
       0.0,
       0.0,
       0.0,
-      0.0
+      0.1
     ]
   },
   "POBLA MAFUMET, C.F. A": {
     "name": "POBLA MAFUMET, C.F. A",
     "matchesPlayed": 30,
-    "goalsAgainstTotal": 0,
-    "goalsAgainstAvg": 0.0,
+    "goalsAgainstTotal": 3,
+    "goalsAgainstAvg": 0.1,
     "gfBucketsTotal": [
       0,
       0,
       0,
       0,
       0,
-      0
+      8
     ],
     "gfBucketsAvg": [
       0.0,
@@ -208,7 +208,7 @@
       0.0,
       0.0,
       0.0,
-      0.0
+      0.27
     ],
     "gaBucketsTotal": [
       0,
@@ -216,7 +216,7 @@
       0,
       0,
       0,
-      0
+      3
     ],
     "gaBucketsAvg": [
       0.0,
@@ -224,29 +224,29 @@
       0.0,
       0.0,
       0.0,
-      0.0
+      0.1
     ]
   },
   "SAN JUAN AT. DE MONTCADA,U.E. A": {
     "name": "SAN JUAN AT. DE MONTCADA,U.E. A",
     "matchesPlayed": 30,
-    "goalsAgainstTotal": 0,
-    "goalsAgainstAvg": 0.0,
+    "goalsAgainstTotal": 10,
+    "goalsAgainstAvg": 0.33,
     "gfBucketsTotal": [
       0,
       0,
+      1,
+      2,
       0,
-      0,
-      0,
-      0
+      6
     ],
     "gfBucketsAvg": [
       0.0,
       0.0,
+      0.03,
+      0.07,
       0.0,
-      0.0,
-      0.0,
-      0.0
+      0.2
     ],
     "gaBucketsTotal": [
       0,
@@ -254,7 +254,7 @@
       0,
       0,
       0,
-      0
+      10
     ],
     "gaBucketsAvg": [
       0.0,
@@ -262,349 +262,349 @@
       0.0,
       0.0,
       0.0,
-      0.0
+      0.33
     ]
   },
   "ATLETIC SANT JUST . F. C. A": {
     "name": "ATLETIC SANT JUST . F. C. A",
     "matchesPlayed": 30,
-    "goalsAgainstTotal": 0,
-    "goalsAgainstAvg": 0.0,
+    "goalsAgainstTotal": 7,
+    "goalsAgainstAvg": 0.23,
     "gfBucketsTotal": [
       0,
       0,
       0,
       0,
-      0,
-      0
+      2,
+      3
     ],
     "gfBucketsAvg": [
       0.0,
       0.0,
       0.0,
       0.0,
-      0.0,
-      0.0
+      0.07,
+      0.1
     ],
     "gaBucketsTotal": [
       0,
       0,
       0,
-      0,
-      0,
-      0
+      1,
+      1,
+      5
     ],
     "gaBucketsAvg": [
       0.0,
       0.0,
       0.0,
-      0.0,
-      0.0,
-      0.0
+      0.03,
+      0.03,
+      0.17
     ]
   },
   "CASTELLDEFELS, U.E. A": {
     "name": "CASTELLDEFELS, U.E. A",
     "matchesPlayed": 30,
-    "goalsAgainstTotal": 0,
-    "goalsAgainstAvg": 0.0,
+    "goalsAgainstTotal": 8,
+    "goalsAgainstAvg": 0.27,
     "gfBucketsTotal": [
       0,
       0,
       0,
-      0,
-      0,
-      0
+      1,
+      3,
+      6
     ],
     "gfBucketsAvg": [
       0.0,
       0.0,
       0.0,
-      0.0,
-      0.0,
-      0.0
+      0.03,
+      0.1,
+      0.2
     ],
     "gaBucketsTotal": [
       0,
       0,
       0,
+      1,
       0,
-      0,
-      0
+      7
     ],
     "gaBucketsAvg": [
       0.0,
       0.0,
       0.0,
+      0.03,
       0.0,
-      0.0,
-      0.0
+      0.23
     ]
   },
   "HORTA, U.AT. A": {
     "name": "HORTA, U.AT. A",
     "matchesPlayed": 30,
-    "goalsAgainstTotal": 0,
-    "goalsAgainstAvg": 0.0,
+    "goalsAgainstTotal": 8,
+    "goalsAgainstAvg": 0.27,
     "gfBucketsTotal": [
       0,
       0,
       0,
+      2,
       0,
-      0,
-      0
+      10
     ],
     "gfBucketsAvg": [
       0.0,
       0.0,
       0.0,
+      0.07,
       0.0,
-      0.0,
-      0.0
+      0.33
     ],
     "gaBucketsTotal": [
       0,
       0,
       0,
       0,
-      0,
-      0
+      3,
+      5
     ],
     "gaBucketsAvg": [
       0.0,
       0.0,
       0.0,
       0.0,
-      0.0,
-      0.0
+      0.1,
+      0.17
     ]
   },
   "MANLLEU, A.E.C. A": {
     "name": "MANLLEU, A.E.C. A",
     "matchesPlayed": 30,
-    "goalsAgainstTotal": 0,
-    "goalsAgainstAvg": 0.0,
+    "goalsAgainstTotal": 12,
+    "goalsAgainstAvg": 0.4,
     "gfBucketsTotal": [
       0,
       0,
       0,
       0,
-      0,
-      0
+      3,
+      7
     ],
     "gfBucketsAvg": [
       0.0,
       0.0,
       0.0,
       0.0,
-      0.0,
-      0.0
+      0.1,
+      0.23
     ],
     "gaBucketsTotal": [
       0,
       0,
       0,
-      0,
-      0,
-      0
+      1,
+      2,
+      9
     ],
     "gaBucketsAvg": [
       0.0,
       0.0,
       0.0,
-      0.0,
-      0.0,
-      0.0
+      0.03,
+      0.07,
+      0.3
     ]
   },
   "PRAT, A.E. A": {
     "name": "PRAT, A.E. A",
     "matchesPlayed": 30,
-    "goalsAgainstTotal": 0,
-    "goalsAgainstAvg": 0.0,
+    "goalsAgainstTotal": 10,
+    "goalsAgainstAvg": 0.33,
     "gfBucketsTotal": [
       0,
       0,
       0,
-      0,
-      0,
-      0
+      1,
+      5,
+      4
     ],
     "gfBucketsAvg": [
       0.0,
       0.0,
       0.0,
-      0.0,
-      0.0,
-      0.0
+      0.03,
+      0.17,
+      0.13
     ],
     "gaBucketsTotal": [
       0,
       0,
       0,
-      0,
-      0,
-      0
+      1,
+      1,
+      8
     ],
     "gaBucketsAvg": [
       0.0,
       0.0,
       0.0,
-      0.0,
-      0.0,
-      0.0
+      0.03,
+      0.03,
+      0.27
     ]
   },
   "RUBI, U.E. A": {
     "name": "RUBI, U.E. A",
     "matchesPlayed": 30,
-    "goalsAgainstTotal": 0,
-    "goalsAgainstAvg": 0.0,
+    "goalsAgainstTotal": 10,
+    "goalsAgainstAvg": 0.33,
     "gfBucketsTotal": [
       0,
       0,
       0,
       0,
-      0,
-      0
+      1,
+      8
     ],
     "gfBucketsAvg": [
       0.0,
       0.0,
       0.0,
       0.0,
-      0.0,
-      0.0
+      0.03,
+      0.27
     ],
     "gaBucketsTotal": [
       0,
       0,
       0,
-      0,
-      0,
-      0
+      2,
+      2,
+      6
     ],
     "gaBucketsAvg": [
       0.0,
       0.0,
       0.0,
-      0.0,
-      0.0,
-      0.0
+      0.07,
+      0.07,
+      0.2
     ]
   },
   "SABADELL F.C., C.E. B": {
     "name": "SABADELL F.C., C.E. B",
     "matchesPlayed": 30,
-    "goalsAgainstTotal": 0,
-    "goalsAgainstAvg": 0.0,
+    "goalsAgainstTotal": 8,
+    "goalsAgainstAvg": 0.27,
     "gfBucketsTotal": [
       0,
       0,
       0,
       0,
-      0,
-      0
+      1,
+      9
     ],
     "gfBucketsAvg": [
       0.0,
       0.0,
       0.0,
       0.0,
-      0.0,
-      0.0
+      0.03,
+      0.3
     ],
     "gaBucketsTotal": [
       0,
       0,
       0,
-      0,
-      0,
-      0
+      1,
+      2,
+      5
     ],
     "gaBucketsAvg": [
       0.0,
       0.0,
       0.0,
-      0.0,
-      0.0,
-      0.0
+      0.03,
+      0.07,
+      0.17
     ]
   },
   "SAN MAURO, U.D. A": {
     "name": "SAN MAURO, U.D. A",
     "matchesPlayed": 30,
-    "goalsAgainstTotal": 0,
-    "goalsAgainstAvg": 0.0,
+    "goalsAgainstTotal": 6,
+    "goalsAgainstAvg": 0.2,
     "gfBucketsTotal": [
       0,
       0,
       0,
-      0,
-      0,
-      0
+      2,
+      3,
+      3
     ],
     "gfBucketsAvg": [
       0.0,
       0.0,
       0.0,
-      0.0,
-      0.0,
-      0.0
+      0.07,
+      0.1,
+      0.1
     ],
     "gaBucketsTotal": [
       0,
       0,
       0,
-      0,
-      0,
-      0
+      2,
+      1,
+      3
     ],
     "gaBucketsAvg": [
       0.0,
       0.0,
       0.0,
-      0.0,
-      0.0,
-      0.0
+      0.07,
+      0.03,
+      0.1
     ]
   },
   "VALLS U.E. A": {
     "name": "VALLS U.E. A",
     "matchesPlayed": 30,
-    "goalsAgainstTotal": 0,
-    "goalsAgainstAvg": 0.0,
+    "goalsAgainstTotal": 9,
+    "goalsAgainstAvg": 0.3,
     "gfBucketsTotal": [
       0,
       0,
       0,
+      2,
       0,
-      0,
-      0
+      6
     ],
     "gfBucketsAvg": [
       0.0,
       0.0,
       0.0,
+      0.07,
       0.0,
-      0.0,
-      0.0
+      0.2
     ],
     "gaBucketsTotal": [
       0,
       0,
       0,
       0,
-      0,
-      0
+      2,
+      7
     ],
     "gaBucketsAvg": [
       0.0,
       0.0,
       0.0,
       0.0,
-      0.0,
-      0.0
+      0.07,
+      0.23
     ]
   }
 }

@@ -98,6 +98,31 @@
     "substitutions": [],
     "cards": []
   },
-  "goals": [],
+  "goals": [
+    {
+      "score_after": "1 - 0",
+      "scorer": "LOPEZ ESCRIG, YOEL",
+      "minute": 11,
+      "type": "normal"
+    },
+    {
+      "score_after": "2 - 0",
+      "scorer": "DIAZ WILLIAMS, KEVIN",
+      "minute": 23,
+      "type": "normal"
+    },
+    {
+      "score_after": "2 - 1",
+      "scorer": "S.MONSÓ",
+      "minute": 44,
+      "type": "normal"
+    },
+    {
+      "score_after": "2 - 2",
+      "scorer": "GENESCA GONZALEZ, LLORENÇ",
+      "minute": 60,
+      "type": "normal"
+    }
+  ],
   "jornada": 14
 }

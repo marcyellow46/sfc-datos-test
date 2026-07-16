@@ -108,6 +108,19 @@
     "substitutions": [],
     "cards": []
   },
-  "goals": [],
+  "goals": [
+    {
+      "score_after": "0 - 1",
+      "scorer": "AGUZZI BETTINI, NICOLAS ALBERTO",
+      "minute": 34,
+      "type": "normal"
+    },
+    {
+      "score_after": "0 - 2",
+      "scorer": "MORENO GAITAN, MARC",
+      "minute": 87,
+      "type": "normal"
+    }
+  ],
   "jornada": 24
 }

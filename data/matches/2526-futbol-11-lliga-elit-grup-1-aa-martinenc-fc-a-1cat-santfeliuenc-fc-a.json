@@ -108,6 +108,19 @@
     "substitutions": [],
     "cards": []
   },
-  "goals": [],
+  "goals": [
+    {
+      "score_after": "1 - 0",
+      "scorer": "GONZALEZ VALTUEÑA, ANGEL",
+      "minute": 25,
+      "type": "normal"
+    },
+    {
+      "score_after": "1 - 1",
+      "scorer": "GARCÍA NACARINO, VÍCTOR",
+      "minute": 47,
+      "type": "normal"
+    }
+  ],
   "jornada": 4
 }

@@ -108,6 +108,25 @@
     "substitutions": [],
     "cards": []
   },
-  "goals": [],
+  "goals": [
+    {
+      "score_after": "1 - 0",
+      "scorer": "MONTEJO GARCIA, MARC",
+      "minute": 60,
+      "type": "normal"
+    },
+    {
+      "score_after": "2 - 0",
+      "scorer": "REGUIA EL ANNOUTI, ISMAEL",
+      "minute": 69,
+      "type": "normal"
+    },
+    {
+      "score_after": "2 - 1",
+      "scorer": "CHICO MARINA, PATRICK",
+      "minute": 83,
+      "type": "normal"
+    }
+  ],
   "jornada": 1
 }

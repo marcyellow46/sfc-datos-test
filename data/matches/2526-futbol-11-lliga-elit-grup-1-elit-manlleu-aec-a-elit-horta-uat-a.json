@@ -108,6 +108,25 @@
     "substitutions": [],
     "cards": []
   },
-  "goals": [],
+  "goals": [
+    {
+      "score_after": "1 - 0",
+      "scorer": "MORAL ROGER, ELOI",
+      "minute": 54,
+      "type": "normal"
+    },
+    {
+      "score_after": "2 - 0",
+      "scorer": "ROSSELL VIDAL, ANTONI",
+      "minute": 56,
+      "type": "normal"
+    },
+    {
+      "score_after": "3 - 0",
+      "scorer": "LOPEZ SÁNCHEZ, ALBERT",
+      "minute": 89,
+      "type": "normal"
+    }
+  ],
   "jornada": 27
 }

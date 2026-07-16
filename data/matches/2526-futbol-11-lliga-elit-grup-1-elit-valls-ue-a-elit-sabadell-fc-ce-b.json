@@ -108,6 +108,25 @@
     "substitutions": [],
     "cards": []
   },
-  "goals": [],
+  "goals": [
+    {
+      "score_after": "0 - 1",
+      "scorer": "CHLIH LEHDA, OUSSAMA",
+      "minute": 19,
+      "type": "normal"
+    },
+    {
+      "score_after": "1 - 1",
+      "scorer": "FE CRUSAT, MARC",
+      "minute": 33,
+      "type": "normal"
+    },
+    {
+      "score_after": "1 - 2",
+      "scorer": "MUÑOZ RAYA, MARCOS",
+      "minute": 49,
+      "type": "normal"
+    }
+  ],
   "jornada": 7
 }

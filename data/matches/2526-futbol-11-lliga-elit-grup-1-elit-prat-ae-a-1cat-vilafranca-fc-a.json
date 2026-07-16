@@ -98,6 +98,31 @@
     "substitutions": [],
     "cards": []
   },
-  "goals": [],
+  "goals": [
+    {
+      "score_after": "1 - 0",
+      "scorer": "PADILLA RUBIO, MARC",
+      "minute": 9,
+      "type": "normal"
+    },
+    {
+      "score_after": "1 - 1",
+      "scorer": "MARC",
+      "minute": 35,
+      "type": "normal"
+    },
+    {
+      "score_after": "2 - 1",
+      "scorer": "CORTINA CABALLERO, ABEL",
+      "minute": 44,
+      "type": "normal"
+    },
+    {
+      "score_after": "3 - 1",
+      "scorer": "BONAVENTURA GRIS, DANIEL",
+      "minute": 53,
+      "type": "normal"
+    }
+  ],
   "jornada": 6
 }

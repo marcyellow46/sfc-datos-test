@@ -103,6 +103,25 @@
     "substitutions": [],
     "cards": []
   },
-  "goals": [],
+  "goals": [
+    {
+      "score_after": "0 - 1",
+      "scorer": "HUGUE ALCAIDE, GALDERIC",
+      "minute": 39,
+      "type": "normal"
+    },
+    {
+      "score_after": "0 - 2",
+      "scorer": "MARTI VARELA, DANIEL",
+      "minute": 43,
+      "type": "normal"
+    },
+    {
+      "score_after": "1 - 2",
+      "scorer": "MARC",
+      "minute": 89,
+      "type": "normal"
+    }
+  ],
   "jornada": 13
 }

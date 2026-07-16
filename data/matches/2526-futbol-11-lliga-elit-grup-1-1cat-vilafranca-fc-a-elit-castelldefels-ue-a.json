@@ -93,6 +93,13 @@
     "substitutions": [],
     "cards": []
   },
-  "goals": [],
+  "goals": [
+    {
+      "score_after": "1 - 0",
+      "scorer": "CASTELL SOLE, NIL",
+      "minute": 54,
+      "type": "normal"
+    }
+  ],
   "jornada": 27
 }

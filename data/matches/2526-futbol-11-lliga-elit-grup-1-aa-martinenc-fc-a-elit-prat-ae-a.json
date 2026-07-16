@@ -108,6 +108,25 @@
     "substitutions": [],
     "cards": []
   },
-  "goals": [],
+  "goals": [
+    {
+      "score_after": "0 - 1",
+      "scorer": "RIVAS SANCHEZ, ADRIAN",
+      "minute": 3,
+      "type": "normal"
+    },
+    {
+      "score_after": "1 - 1",
+      "scorer": "SARO SATRÚSTEGUI, ADRIÀ",
+      "minute": 10,
+      "type": "normal"
+    },
+    {
+      "score_after": "2 - 1",
+      "scorer": "ALARCON MILLAN, KEVIN",
+      "minute": 58,
+      "type": "normal"
+    }
+  ],
   "jornada": 26
 }

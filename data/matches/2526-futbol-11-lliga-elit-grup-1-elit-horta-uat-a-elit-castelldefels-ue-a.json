@@ -93,6 +93,25 @@
     "substitutions": [],
     "cards": []
   },
-  "goals": [],
+  "goals": [
+    {
+      "score_after": "1 - 0",
+      "scorer": "MONTESINOS SOLE, JORDI",
+      "minute": 38,
+      "type": "normal"
+    },
+    {
+      "score_after": "1 - 1",
+      "scorer": "POZUELO RIERA, ELOI",
+      "minute": 73,
+      "type": "normal"
+    },
+    {
+      "score_after": "2 - 1",
+      "scorer": "CIFUENTES PELAEZ, RUBEN",
+      "minute": 80,
+      "type": "normal"
+    }
+  ],
   "jornada": 23
 }

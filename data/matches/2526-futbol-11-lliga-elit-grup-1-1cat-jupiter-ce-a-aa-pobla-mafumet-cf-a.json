@@ -103,6 +103,19 @@
     "substitutions": [],
     "cards": []
   },
-  "goals": [],
+  "goals": [
+    {
+      "score_after": "0 - 1",
+      "scorer": "CABEZAS MENSAH, DAVID",
+      "minute": 2,
+      "type": "normal"
+    },
+    {
+      "score_after": "0 - 2",
+      "scorer": "AGUZZI BETTINI, NICOLAS ALBERTO",
+      "minute": 89,
+      "type": "normal"
+    }
+  ],
   "jornada": 10
 }

@@ -98,6 +98,25 @@
     "substitutions": [],
     "cards": []
   },
-  "goals": [],
+  "goals": [
+    {
+      "score_after": "1 - 0",
+      "scorer": "RUIZ ROMERA, DANIEL",
+      "minute": 44,
+      "type": "normal"
+    },
+    {
+      "score_after": "2 - 0",
+      "scorer": "BECERRA MARTINEZ, CRISTIAN",
+      "minute": 49,
+      "type": "normal"
+    },
+    {
+      "score_after": "2 - 1",
+      "scorer": "SERRANO RUIZ, LUIS",
+      "minute": 65,
+      "type": "normal"
+    }
+  ],
   "jornada": 20
 }

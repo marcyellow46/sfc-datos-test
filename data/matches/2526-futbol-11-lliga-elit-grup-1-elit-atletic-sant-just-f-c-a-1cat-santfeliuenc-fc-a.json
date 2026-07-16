@@ -108,6 +108,19 @@
     "substitutions": [],
     "cards": []
   },
-  "goals": [],
+  "goals": [
+    {
+      "score_after": "1 - 0",
+      "scorer": "PEREZ PICON, DAVID",
+      "minute": 56,
+      "type": "normal"
+    },
+    {
+      "score_after": "2 - 0",
+      "scorer": "GONZALEZ OLLER, JAN ANTONI",
+      "minute": 81,
+      "type": "normal"
+    }
+  ],
   "jornada": 20
 }

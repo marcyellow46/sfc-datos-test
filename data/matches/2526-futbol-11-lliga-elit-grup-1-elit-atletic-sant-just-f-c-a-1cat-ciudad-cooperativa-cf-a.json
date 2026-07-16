@@ -108,6 +108,31 @@
     "substitutions": [],
     "cards": []
   },
-  "goals": [],
+  "goals": [
+    {
+      "score_after": "1 - 0",
+      "scorer": "PALACIOS CORRAL, IGNACIO",
+      "minute": 20,
+      "type": "normal"
+    },
+    {
+      "score_after": "1 - 1",
+      "scorer": "MESSOOUDI BAKKALI, MOHAMED YASSIN",
+      "minute": 66,
+      "type": "normal"
+    },
+    {
+      "score_after": "2 - 1",
+      "scorer": "PALACIOS CORRAL, ALEJANDRO",
+      "minute": 75,
+      "type": "normal"
+    },
+    {
+      "score_after": "3 - 1",
+      "scorer": "PALACIOS CORRAL, IGNACIO",
+      "minute": 89,
+      "type": "normal"
+    }
+  ],
   "jornada": 8
 }

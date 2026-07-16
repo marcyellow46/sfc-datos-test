@@ -108,6 +108,31 @@
     "substitutions": [],
     "cards": []
   },
-  "goals": [],
+  "goals": [
+    {
+      "score_after": "0 - 1",
+      "scorer": "MUÑOZ DELGADO, ALEJANDRO",
+      "minute": 57,
+      "type": "normal"
+    },
+    {
+      "score_after": "0 - 2",
+      "scorer": "TORRES MARTÍNEZ, AITOR",
+      "minute": 64,
+      "type": "normal"
+    },
+    {
+      "score_after": "1 - 2",
+      "scorer": "TORO CONEJERO, DAVID",
+      "minute": 74,
+      "type": "normal"
+    },
+    {
+      "score_after": "2 - 2",
+      "scorer": "DELGADO CHICANO, ADRIAN",
+      "minute": 84,
+      "type": "normal"
+    }
+  ],
   "jornada": 9
 }

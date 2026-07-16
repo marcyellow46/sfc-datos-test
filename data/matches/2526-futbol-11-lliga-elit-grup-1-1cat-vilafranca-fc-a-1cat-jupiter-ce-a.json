@@ -98,6 +98,25 @@
     "substitutions": [],
     "cards": []
   },
-  "goals": [],
+  "goals": [
+    {
+      "score_after": "1 - 0",
+      "scorer": "MARC",
+      "minute": 37,
+      "type": "normal"
+    },
+    {
+      "score_after": "2 - 0",
+      "scorer": "CASTELL SOLE, NIL",
+      "minute": 45,
+      "type": "normal"
+    },
+    {
+      "score_after": "2 - 1",
+      "scorer": "GURREA SANCHEZ, ALBERT",
+      "minute": 82,
+      "type": "normal"
+    }
+  ],
   "jornada": 7
 }

@@ -88,6 +88,13 @@
     "substitutions": [],
     "cards": []
   },
-  "goals": [],
+  "goals": [
+    {
+      "score_after": "1 - 0",
+      "scorer": "TEJADA GALLARDO, EDGAR",
+      "minute": 70,
+      "type": "normal"
+    }
+  ],
   "jornada": 24
 }

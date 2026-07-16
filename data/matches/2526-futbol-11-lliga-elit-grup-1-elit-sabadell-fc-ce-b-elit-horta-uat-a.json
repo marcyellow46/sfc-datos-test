@@ -108,6 +108,31 @@
     "substitutions": [],
     "cards": []
   },
-  "goals": [],
+  "goals": [
+    {
+      "score_after": "1 - 0",
+      "scorer": "MUÑOZ RAYA, MARCOS",
+      "minute": 44,
+      "type": "normal"
+    },
+    {
+      "score_after": "1 - 1",
+      "scorer": "CIFUENTES PELAEZ, RUBEN",
+      "minute": 46,
+      "type": "normal"
+    },
+    {
+      "score_after": "2 - 1",
+      "scorer": "MARCH PONS, BRU",
+      "minute": 64,
+      "type": "normal"
+    },
+    {
+      "score_after": "3 - 1",
+      "scorer": "SIMUNYU , ETHAN TAFARA",
+      "minute": 89,
+      "type": "normal"
+    }
+  ],
   "jornada": 4
 }

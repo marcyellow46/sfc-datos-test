@@ -103,6 +103,43 @@
     "substitutions": [],
     "cards": []
   },
-  "goals": [],
+  "goals": [
+    {
+      "score_after": "1 - 0",
+      "scorer": "SENYE PALACIOS, ALFONS",
+      "minute": 21,
+      "type": "normal"
+    },
+    {
+      "score_after": "2 - 0",
+      "scorer": "JIMENEZ ALBELDA, PABLO",
+      "minute": 49,
+      "type": "normal"
+    },
+    {
+      "score_after": "3 - 0",
+      "scorer": "MUÑOZ DELGADO, ALEJANDRO",
+      "minute": 55,
+      "type": "normal"
+    },
+    {
+      "score_after": "3 - 1",
+      "scorer": "CASANOVA CLUSELLS, ADRIA",
+      "minute": 61,
+      "type": "normal"
+    },
+    {
+      "score_after": "3 - 2",
+      "scorer": "COMAMALA FONT, MARC",
+      "minute": 71,
+      "type": "normal"
+    },
+    {
+      "score_after": "4 - 2",
+      "scorer": "VEGA NAVARRO, ENRIC",
+      "minute": 89,
+      "type": "normal"
+    }
+  ],
   "jornada": 8
 }

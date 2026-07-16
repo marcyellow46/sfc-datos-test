@@ -108,6 +108,13 @@
     "substitutions": [],
     "cards": []
   },
-  "goals": [],
+  "goals": [
+    {
+      "score_after": "1 - 0",
+      "scorer": "ROSSELL VIDAL, ANTONI",
+      "minute": 25,
+      "type": "normal"
+    }
+  ],
   "jornada": 25
 }

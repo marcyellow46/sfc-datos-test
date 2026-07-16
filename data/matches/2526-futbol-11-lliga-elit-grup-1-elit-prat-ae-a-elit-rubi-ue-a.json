@@ -108,6 +108,37 @@
     "substitutions": [],
     "cards": []
   },
-  "goals": [],
+  "goals": [
+    {
+      "score_after": "0 - 1",
+      "scorer": "MORRAL CAMPILLO, ALBERT",
+      "minute": 15,
+      "type": "normal"
+    },
+    {
+      "score_after": "1 - 1",
+      "scorer": "CORTINA CABALLERO, ABEL",
+      "minute": 55,
+      "type": "normal"
+    },
+    {
+      "score_after": "1 - 2",
+      "scorer": "TORRES MARTÍNEZ, AITOR",
+      "minute": 71,
+      "type": "normal"
+    },
+    {
+      "score_after": "1 - 3",
+      "scorer": "RUIZ FERNANDEZ, ALEX",
+      "minute": 78,
+      "type": "normal"
+    },
+    {
+      "score_after": "2 - 3",
+      "scorer": "VIDAL GIRONES, RICARD",
+      "minute": 89,
+      "type": "normal"
+    }
+  ],
   "jornada": 13
 }

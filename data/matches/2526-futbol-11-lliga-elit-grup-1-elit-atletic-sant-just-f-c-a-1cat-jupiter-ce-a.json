@@ -98,6 +98,19 @@
     "substitutions": [],
     "cards": []
   },
-  "goals": [],
+  "goals": [
+    {
+      "score_after": "0 - 1",
+      "scorer": "GENESCA GONZALEZ, LLORENÇ",
+      "minute": 39,
+      "type": "normal"
+    },
+    {
+      "score_after": "1 - 1",
+      "scorer": "MATEO QUEJIGO, PAU",
+      "minute": 59,
+      "type": "normal"
+    }
+  ],
   "jornada": 28
 }

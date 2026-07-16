@@ -108,6 +108,13 @@
     "substitutions": [],
     "cards": []
   },
-  "goals": [],
+  "goals": [
+    {
+      "score_after": "1 - 0",
+      "scorer": "FERNÁNDEZ FERNÁNDEZ, HÉCTOR",
+      "minute": 82,
+      "type": "normal"
+    }
+  ],
   "jornada": 12
 }

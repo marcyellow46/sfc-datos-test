@@ -108,6 +108,43 @@
     "substitutions": [],
     "cards": []
   },
-  "goals": [],
+  "goals": [
+    {
+      "score_after": "0 - 1",
+      "scorer": "PEDROL PALMADA, GERARD",
+      "minute": 53,
+      "type": "normal"
+    },
+    {
+      "score_after": "0 - 2",
+      "scorer": "PEDROL PALMADA, GERARD",
+      "minute": 55,
+      "type": "normal"
+    },
+    {
+      "score_after": "0 - 3",
+      "scorer": "AREGALL GUILLEN, VICTOR",
+      "minute": 58,
+      "type": "normal"
+    },
+    {
+      "score_after": "1 - 3",
+      "scorer": "DIAZ MOLINA, ERIC",
+      "minute": 67,
+      "type": "normal"
+    },
+    {
+      "score_after": "2 - 3",
+      "scorer": "RECHE HUCHA, OSCAR",
+      "minute": 76,
+      "type": "normal"
+    },
+    {
+      "score_after": "2 - 4",
+      "scorer": "VALVERDE MILLAN, JUAN",
+      "minute": 89,
+      "type": "normal"
+    }
+  ],
   "jornada": 24
 }

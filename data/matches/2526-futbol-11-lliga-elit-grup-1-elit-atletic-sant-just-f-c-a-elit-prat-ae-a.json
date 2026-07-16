@@ -108,6 +108,31 @@
     "substitutions": [],
     "cards": []
   },
-  "goals": [],
+  "goals": [
+    {
+      "score_after": "1 - 0",
+      "scorer": "SANCHEZ PLACENCIA, IVAN",
+      "minute": 19,
+      "type": "normal"
+    },
+    {
+      "score_after": "1 - 1",
+      "scorer": "CORTINA CABALLERO, ABEL",
+      "minute": 27,
+      "type": "normal"
+    },
+    {
+      "score_after": "2 - 1",
+      "scorer": "PALACIOS CORRAL, IGNACIO",
+      "minute": 43,
+      "type": "normal"
+    },
+    {
+      "score_after": "2 - 2",
+      "scorer": "VIDAL GIRONES, RICARD",
+      "minute": 83,
+      "type": "normal"
+    }
+  ],
   "jornada": 12
 }

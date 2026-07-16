@@ -108,6 +108,31 @@
     "substitutions": [],
     "cards": []
   },
-  "goals": [],
+  "goals": [
+    {
+      "score_after": "1 - 0",
+      "scorer": "GONZALEZ OLLER, JAN ANTONI",
+      "minute": 17,
+      "type": "normal"
+    },
+    {
+      "score_after": "2 - 0",
+      "scorer": "MUÑOZ RAYA, MARCOS",
+      "minute": 81,
+      "type": "normal"
+    },
+    {
+      "score_after": "2 - 1",
+      "scorer": "FONT AMAT, JAN",
+      "minute": 83,
+      "type": "normal"
+    },
+    {
+      "score_after": "3 - 1",
+      "scorer": "GUMA CERQUEDA, JAN",
+      "minute": 86,
+      "type": "normal"
+    }
+  ],
   "jornada": 14
 }

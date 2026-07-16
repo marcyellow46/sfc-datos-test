@@ -108,6 +108,13 @@
     "substitutions": [],
     "cards": []
   },
-  "goals": [],
+  "goals": [
+    {
+      "score_after": "1 - 0",
+      "scorer": "BENITO ALSINA, BERNAT",
+      "minute": 48,
+      "type": "normal"
+    }
+  ],
   "jornada": 15
 }

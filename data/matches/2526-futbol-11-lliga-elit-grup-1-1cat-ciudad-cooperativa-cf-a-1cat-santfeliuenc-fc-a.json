@@ -108,6 +108,19 @@
     "substitutions": [],
     "cards": []
   },
-  "goals": [],
+  "goals": [
+    {
+      "score_after": "1 - 0",
+      "scorer": "DE SOKOLOW LEYVA, BRYAN",
+      "minute": 47,
+      "type": "normal"
+    },
+    {
+      "score_after": "2 - 0",
+      "scorer": "DELGADO CHICANO, ADRIAN",
+      "minute": 61,
+      "type": "normal"
+    }
+  ],
   "jornada": 27
 }

@@ -103,6 +103,19 @@
     "substitutions": [],
     "cards": []
   },
-  "goals": [],
+  "goals": [
+    {
+      "score_after": "0 - 1",
+      "scorer": "DEL CHICCA DORADO, HUGO",
+      "minute": 54,
+      "type": "normal"
+    },
+    {
+      "score_after": "1 - 1",
+      "scorer": "SARO SATRÚSTEGUI, ADRIÀ",
+      "minute": 89,
+      "type": "normal"
+    }
+  ],
   "jornada": 2
 }

@@ -108,6 +108,13 @@
     "substitutions": [],
     "cards": []
   },
-  "goals": [],
+  "goals": [
+    {
+      "score_after": "0 - 1",
+      "scorer": "PALAU DOMINGO, SERGI",
+      "minute": 62,
+      "type": "normal"
+    }
+  ],
   "jornada": 10
 }

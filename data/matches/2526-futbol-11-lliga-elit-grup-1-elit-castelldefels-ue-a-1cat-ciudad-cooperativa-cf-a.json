@@ -108,6 +108,31 @@
     "substitutions": [],
     "cards": []
   },
-  "goals": [],
+  "goals": [
+    {
+      "score_after": "0 - 1",
+      "scorer": "TORO CONEJERO, DAVID",
+      "minute": 33,
+      "type": "normal"
+    },
+    {
+      "score_after": "1 - 1",
+      "scorer": "POZUELO RIERA, ELOI",
+      "minute": 62,
+      "type": "normal"
+    },
+    {
+      "score_after": "2 - 1",
+      "scorer": "CANO JIMENEZ, CARLOS",
+      "minute": 75,
+      "type": "normal"
+    },
+    {
+      "score_after": "2 - 2",
+      "scorer": "SERRANO RUIZ, LUIS",
+      "minute": 89,
+      "type": "normal"
+    }
+  ],
   "jornada": 10
 }

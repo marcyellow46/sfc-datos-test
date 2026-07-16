@@ -98,6 +98,19 @@
     "substitutions": [],
     "cards": []
   },
-  "goals": [],
+  "goals": [
+    {
+      "score_after": "0 - 1",
+      "scorer": "OSORIO BARROZO, FAVIO JULIAN",
+      "minute": 33,
+      "type": "normal"
+    },
+    {
+      "score_after": "1 - 1",
+      "scorer": "MAYMÓ BALLESTER, LLUC",
+      "minute": 48,
+      "type": "normal"
+    }
+  ],
   "jornada": 25
 }

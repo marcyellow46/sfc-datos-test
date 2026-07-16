@@ -103,6 +103,13 @@
     "substitutions": [],
     "cards": []
   },
-  "goals": [],
+  "goals": [
+    {
+      "score_after": "0 - 1",
+      "scorer": "MORA HERNANDEZ, ERIC",
+      "minute": 32,
+      "type": "normal"
+    }
+  ],
   "jornada": 12
 }

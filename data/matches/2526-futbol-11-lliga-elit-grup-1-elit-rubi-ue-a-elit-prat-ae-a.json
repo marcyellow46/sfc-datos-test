@@ -98,6 +98,37 @@
     "substitutions": [],
     "cards": []
   },
-  "goals": [],
+  "goals": [
+    {
+      "score_after": "1 - 0",
+      "scorer": "TORRES MARTÍNEZ, AITOR",
+      "minute": 7,
+      "type": "normal"
+    },
+    {
+      "score_after": "1 - 1",
+      "scorer": "PLAZA CREMADES, ALEX",
+      "minute": 11,
+      "type": "normal"
+    },
+    {
+      "score_after": "2 - 1",
+      "scorer": "TORRES MARTÍNEZ, AITOR",
+      "minute": 51,
+      "type": "normal"
+    },
+    {
+      "score_after": "2 - 2",
+      "scorer": "UFANO SANCHEZ, PABLO",
+      "minute": 57,
+      "type": "normal"
+    },
+    {
+      "score_after": "3 - 2",
+      "scorer": "CASTILLO MARAVER, ERIK",
+      "minute": 89,
+      "type": "normal"
+    }
+  ],
   "jornada": 28
 }

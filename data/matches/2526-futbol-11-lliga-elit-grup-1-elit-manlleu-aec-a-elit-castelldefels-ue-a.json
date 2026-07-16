@@ -98,6 +98,19 @@
     "substitutions": [],
     "cards": []
   },
-  "goals": [],
+  "goals": [
+    {
+      "score_after": "1 - 0",
+      "scorer": "ROSSELL VIDAL, ANTONI",
+      "minute": 5,
+      "type": "normal"
+    },
+    {
+      "score_after": "1 - 1",
+      "scorer": "POZUELO RIERA, ELOI",
+      "minute": 73,
+      "type": "normal"
+    }
+  ],
   "jornada": 9
 }

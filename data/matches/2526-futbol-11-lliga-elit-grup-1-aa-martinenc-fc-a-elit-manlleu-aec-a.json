@@ -98,6 +98,37 @@
     "substitutions": [],
     "cards": []
   },
-  "goals": [],
+  "goals": [
+    {
+      "score_after": "0 - 1",
+      "scorer": "CAO FERNÁNDEZ, TONI",
+      "minute": 32,
+      "type": "normal"
+    },
+    {
+      "score_after": "0 - 2",
+      "scorer": "CASANOVA CLUSELLS, ADRIA",
+      "minute": 37,
+      "type": "normal"
+    },
+    {
+      "score_after": "0 - 3",
+      "scorer": "CAO FERNÁNDEZ, TONI",
+      "minute": 65,
+      "type": "normal"
+    },
+    {
+      "score_after": "1 - 3",
+      "scorer": "BALDEH KANDEH, ELHADJI",
+      "minute": 89,
+      "type": "normal"
+    },
+    {
+      "score_after": "1 - 4",
+      "scorer": "PIJUAN COLOM, MARC",
+      "minute": 89,
+      "type": "normal"
+    }
+  ],
   "jornada": 6
 }

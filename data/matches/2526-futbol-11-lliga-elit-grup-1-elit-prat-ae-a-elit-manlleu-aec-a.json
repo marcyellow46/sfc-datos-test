@@ -103,6 +103,31 @@
     "substitutions": [],
     "cards": []
   },
-  "goals": [],
+  "goals": [
+    {
+      "score_after": "1 - 0",
+      "scorer": "REINKE GONÇALVES, GUSTAVO",
+      "minute": 51,
+      "type": "normal"
+    },
+    {
+      "score_after": "1 - 1",
+      "scorer": "CAO FERNÁNDEZ, TONI",
+      "minute": 62,
+      "type": "normal"
+    },
+    {
+      "score_after": "2 - 1",
+      "scorer": "VIDAL GIRONES, RICARD",
+      "minute": 64,
+      "type": "normal"
+    },
+    {
+      "score_after": "3 - 1",
+      "scorer": "ARCHS HORTIGÓN, ALEJANDRO",
+      "minute": 68,
+      "type": "normal"
+    }
+  ],
   "jornada": 18
 }

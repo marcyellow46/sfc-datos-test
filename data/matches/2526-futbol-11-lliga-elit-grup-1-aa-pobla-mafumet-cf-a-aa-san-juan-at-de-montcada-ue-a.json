@@ -108,6 +108,25 @@
     "substitutions": [],
     "cards": []
   },
-  "goals": [],
+  "goals": [
+    {
+      "score_after": "1 - 0",
+      "scorer": "AGUZZI BETTINI, NICOLAS ALBERTO",
+      "minute": 34,
+      "type": "normal"
+    },
+    {
+      "score_after": "2 - 0",
+      "scorer": "AGUZZI BETTINI, NICOLAS ALBERTO",
+      "minute": 50,
+      "type": "normal"
+    },
+    {
+      "score_after": "3 - 0",
+      "scorer": "QUEROL MONTAÑES, ALBERT",
+      "minute": 73,
+      "type": "normal"
+    }
+  ],
   "jornada": 7
 }

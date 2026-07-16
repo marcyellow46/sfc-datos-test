@@ -108,6 +108,25 @@
     "substitutions": [],
     "cards": []
   },
-  "goals": [],
+  "goals": [
+    {
+      "score_after": "0 - 1",
+      "scorer": "ACEDO SANCHEZ, DAVID",
+      "minute": 29,
+      "type": "normal"
+    },
+    {
+      "score_after": "0 - 2",
+      "scorer": "ACEDO SANCHEZ, DAVID",
+      "minute": 37,
+      "type": "normal"
+    },
+    {
+      "score_after": "1 - 2",
+      "scorer": "SÁEZ JIMÉNEZ, ENRIC",
+      "minute": 85,
+      "type": "normal"
+    }
+  ],
   "jornada": 8
 }

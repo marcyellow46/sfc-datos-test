@@ -103,6 +103,25 @@
     "substitutions": [],
     "cards": []
   },
-  "goals": [],
+  "goals": [
+    {
+      "score_after": "0 - 1",
+      "scorer": "MUÑOZ DELGADO, ALEJANDRO",
+      "minute": 29,
+      "type": "normal"
+    },
+    {
+      "score_after": "1 - 1",
+      "scorer": "DIAZ MOLINA, ERIC",
+      "minute": 52,
+      "type": "normal"
+    },
+    {
+      "score_after": "2 - 1",
+      "scorer": "MUÑOZ SAYOL, OSCAR",
+      "minute": 62,
+      "type": "normal"
+    }
+  ],
   "jornada": 5
 }

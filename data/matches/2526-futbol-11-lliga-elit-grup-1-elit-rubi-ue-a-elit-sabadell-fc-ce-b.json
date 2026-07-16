@@ -108,6 +108,25 @@
     "substitutions": [],
     "cards": []
   },
-  "goals": [],
+  "goals": [
+    {
+      "score_after": "1 - 0",
+      "scorer": "HERRANZ VIDAL, PAU",
+      "minute": 29,
+      "type": "normal"
+    },
+    {
+      "score_after": "2 - 0",
+      "scorer": "TORRES MARTÍNEZ, AITOR",
+      "minute": 44,
+      "type": "normal"
+    },
+    {
+      "score_after": "3 - 0",
+      "scorer": "CASTILLO MARAVER, ERIK",
+      "minute": 84,
+      "type": "normal"
+    }
+  ],
   "jornada": 30
 }

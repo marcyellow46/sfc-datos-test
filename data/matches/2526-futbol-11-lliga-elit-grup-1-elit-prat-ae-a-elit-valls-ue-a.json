@@ -93,6 +93,25 @@
     "substitutions": [],
     "cards": []
   },
-  "goals": [],
+  "goals": [
+    {
+      "score_after": "1 - 0",
+      "scorer": "MIRO ANDREU, ARNAU",
+      "minute": 2,
+      "type": "normal"
+    },
+    {
+      "score_after": "2 - 0",
+      "scorer": "REINKE GONÇALVES, GUSTAVO",
+      "minute": 24,
+      "type": "normal"
+    },
+    {
+      "score_after": "2 - 1",
+      "scorer": "FE CRUSAT, MARC",
+      "minute": 89,
+      "type": "normal"
+    }
+  ],
   "jornada": 20
 }

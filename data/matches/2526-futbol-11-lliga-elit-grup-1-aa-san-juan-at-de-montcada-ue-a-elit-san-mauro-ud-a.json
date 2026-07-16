@@ -108,6 +108,43 @@
     "substitutions": [],
     "cards": []
   },
-  "goals": [],
+  "goals": [
+    {
+      "score_after": "0 - 1",
+      "scorer": "GULIAS AGUILERA, MARC",
+      "minute": 21,
+      "type": "normal"
+    },
+    {
+      "score_after": "1 - 1",
+      "scorer": "MUÑOZ SAYOL, OSCAR",
+      "minute": 32,
+      "type": "normal"
+    },
+    {
+      "score_after": "2 - 1",
+      "scorer": "MUÑOZ SAYOL, OSCAR",
+      "minute": 33,
+      "type": "normal"
+    },
+    {
+      "score_after": "2 - 2",
+      "scorer": "ENRIQUEZ DE LA ROSA, MARC",
+      "minute": 57,
+      "type": "normal"
+    },
+    {
+      "score_after": "3 - 2",
+      "scorer": "PEREZ BELLO, VICTOR",
+      "minute": 81,
+      "type": "normal"
+    },
+    {
+      "score_after": "3 - 3",
+      "scorer": "GULIAS AGUILERA, MARC",
+      "minute": 84,
+      "type": "normal"
+    }
+  ],
   "jornada": 14
 }

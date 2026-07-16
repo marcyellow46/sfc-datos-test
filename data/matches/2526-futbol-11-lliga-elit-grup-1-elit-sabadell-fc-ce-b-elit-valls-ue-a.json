@@ -103,6 +103,25 @@
     "substitutions": [],
     "cards": []
   },
-  "goals": [],
+  "goals": [
+    {
+      "score_after": "1 - 0",
+      "scorer": "BORRELL SOTO, ALEIX",
+      "minute": 38,
+      "type": "normal"
+    },
+    {
+      "score_after": "2 - 0",
+      "scorer": "MUÑOZ RAYA, MARCOS",
+      "minute": 88,
+      "type": "normal"
+    },
+    {
+      "score_after": "3 - 0",
+      "scorer": "DE WEERD ROBLES, ALEX",
+      "minute": 89,
+      "type": "normal"
+    }
+  ],
   "jornada": 22
 }

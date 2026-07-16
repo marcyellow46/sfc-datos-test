@@ -103,6 +103,25 @@
     "substitutions": [],
     "cards": []
   },
-  "goals": [],
+  "goals": [
+    {
+      "score_after": "0 - 1",
+      "scorer": "RUIZ ROMERA, DANIEL",
+      "minute": 2,
+      "type": "normal"
+    },
+    {
+      "score_after": "0 - 2",
+      "scorer": "VAQUERA LOPEZ, IKER",
+      "minute": 18,
+      "type": "normal"
+    },
+    {
+      "score_after": "0 - 3",
+      "scorer": "GENESCA GONZALEZ, LLORENÇ",
+      "minute": 74,
+      "type": "normal"
+    }
+  ],
   "jornada": 21
 }

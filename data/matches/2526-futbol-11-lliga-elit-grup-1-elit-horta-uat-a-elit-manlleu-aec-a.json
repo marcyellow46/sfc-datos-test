@@ -98,6 +98,19 @@
     "substitutions": [],
     "cards": []
   },
-  "goals": [],
+  "goals": [
+    {
+      "score_after": "1 - 0",
+      "scorer": "VILAJOSANA MAY, VÍCTOR",
+      "minute": 84,
+      "type": "normal"
+    },
+    {
+      "score_after": "2 - 0",
+      "scorer": "RAMIREZ GALLEGO, MARC",
+      "minute": 89,
+      "type": "normal"
+    }
+  ],
   "jornada": 12
 }

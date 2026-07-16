@@ -108,6 +108,19 @@
     "substitutions": [],
     "cards": []
   },
-  "goals": [],
+  "goals": [
+    {
+      "score_after": "0 - 1",
+      "scorer": "MARTINEZ MORENO, CARLOS",
+      "minute": 12,
+      "type": "normal"
+    },
+    {
+      "score_after": "0 - 2",
+      "scorer": "HUGUE ALCAIDE, GALDERIC",
+      "minute": 32,
+      "type": "normal"
+    }
+  ],
   "jornada": 6
 }

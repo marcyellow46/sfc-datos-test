@@ -103,6 +103,25 @@
     "substitutions": [],
     "cards": []
   },
-  "goals": [],
+  "goals": [
+    {
+      "score_after": "0 - 1",
+      "scorer": "SUAREZ SANZ, ADRIA",
+      "minute": 25,
+      "type": "normal"
+    },
+    {
+      "score_after": "1 - 1",
+      "scorer": "MARTI VARELA, DANIEL",
+      "minute": 73,
+      "type": "normal"
+    },
+    {
+      "score_after": "1 - 2",
+      "scorer": "LEON SEGURA, PAU",
+      "minute": 89,
+      "type": "normal"
+    }
+  ],
   "jornada": 12
 }

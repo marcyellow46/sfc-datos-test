@@ -108,6 +108,25 @@
     "substitutions": [],
     "cards": []
   },
-  "goals": [],
+  "goals": [
+    {
+      "score_after": "1 - 0",
+      "scorer": "RUBIÓ MUNTANYOLA, MARC",
+      "minute": 10,
+      "type": "normal"
+    },
+    {
+      "score_after": "2 - 0",
+      "scorer": "PRADES MANRESA, JORDI",
+      "minute": 26,
+      "type": "normal"
+    },
+    {
+      "score_after": "2 - 1",
+      "scorer": "RUIZ FERNANDEZ, ALEX",
+      "minute": 69,
+      "type": "normal"
+    }
+  ],
   "jornada": 25
 }

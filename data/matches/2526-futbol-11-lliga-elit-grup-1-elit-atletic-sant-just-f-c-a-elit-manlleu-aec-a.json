@@ -98,6 +98,25 @@
     "substitutions": [],
     "cards": []
   },
-  "goals": [],
+  "goals": [
+    {
+      "score_after": "1 - 0",
+      "scorer": "GIL NAVARRO, JOEL",
+      "minute": 6,
+      "type": "normal"
+    },
+    {
+      "score_after": "2 - 0",
+      "scorer": "PALACIOS CORRAL, IGNACIO",
+      "minute": 42,
+      "type": "normal"
+    },
+    {
+      "score_after": "3 - 0",
+      "scorer": "GUMA CERQUEDA, JAN",
+      "minute": 55,
+      "type": "normal"
+    }
+  ],
   "jornada": 22
 }

@@ -108,6 +108,25 @@
     "substitutions": [],
     "cards": []
   },
-  "goals": [],
+  "goals": [
+    {
+      "score_after": "0 - 1",
+      "scorer": "MONTEJO GARCIA, MARC",
+      "minute": 39,
+      "type": "normal"
+    },
+    {
+      "score_after": "0 - 2",
+      "scorer": "HUGUE ALCAIDE, GALDERIC",
+      "minute": 44,
+      "type": "normal"
+    },
+    {
+      "score_after": "0 - 3",
+      "scorer": "MONTEJO GARCIA, MARC",
+      "minute": 59,
+      "type": "normal"
+    }
+  ],
   "jornada": 20
 }

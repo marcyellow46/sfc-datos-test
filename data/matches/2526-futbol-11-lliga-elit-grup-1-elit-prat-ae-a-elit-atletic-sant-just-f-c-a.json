@@ -108,6 +108,19 @@
     "substitutions": [],
     "cards": []
   },
-  "goals": [],
+  "goals": [
+    {
+      "score_after": "0 - 1",
+      "scorer": "SANCHEZ PLACENCIA, IVAN",
+      "minute": 26,
+      "type": "normal"
+    },
+    {
+      "score_after": "0 - 2",
+      "scorer": "SORROCHE CALLE, MARK",
+      "minute": 74,
+      "type": "normal"
+    }
+  ],
   "jornada": 27
 }

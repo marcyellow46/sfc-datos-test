@@ -103,6 +103,37 @@
     "substitutions": [],
     "cards": []
   },
-  "goals": [],
+  "goals": [
+    {
+      "score_after": "1 - 0",
+      "scorer": "TEJADA GALLARDO, EDGAR",
+      "minute": 11,
+      "type": "normal"
+    },
+    {
+      "score_after": "1 - 1",
+      "scorer": "SUAREZ SANZ, ADRIA",
+      "minute": 15,
+      "type": "normal"
+    },
+    {
+      "score_after": "2 - 1",
+      "scorer": "ALARCON MILLAN, KEVIN",
+      "minute": 69,
+      "type": "normal"
+    },
+    {
+      "score_after": "2 - 2",
+      "scorer": "SANTIAGO CORTES, ANTONIO",
+      "minute": 81,
+      "type": "normal"
+    },
+    {
+      "score_after": "3 - 2",
+      "scorer": "NAVARRO LINARES, ADRIÁN",
+      "minute": 88,
+      "type": "normal"
+    }
+  ],
   "jornada": 8
 }

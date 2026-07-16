@@ -103,6 +103,19 @@
     "substitutions": [],
     "cards": []
   },
-  "goals": [],
+  "goals": [
+    {
+      "score_after": "1 - 0",
+      "scorer": "TORRES GOMEZ, ALEJANDRO",
+      "minute": 87,
+      "type": "normal"
+    },
+    {
+      "score_after": "2 - 0",
+      "scorer": "GONZALEZ VALTUEÑA, ANGEL",
+      "minute": 89,
+      "type": "normal"
+    }
+  ],
   "jornada": 12
 }

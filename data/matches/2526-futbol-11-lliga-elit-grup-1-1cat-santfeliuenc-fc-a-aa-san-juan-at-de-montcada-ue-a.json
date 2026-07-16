@@ -108,6 +108,43 @@
     "substitutions": [],
     "cards": []
   },
-  "goals": [],
+  "goals": [
+    {
+      "score_after": "1 - 0",
+      "scorer": "CARESIA MESA, PAU",
+      "minute": 12,
+      "type": "normal"
+    },
+    {
+      "score_after": "1 - 1",
+      "scorer": "BALDE GOMEZ, OMAR",
+      "minute": 35,
+      "type": "normal"
+    },
+    {
+      "score_after": "1 - 2",
+      "scorer": "MONTEJO GARCIA, MARC",
+      "minute": 68,
+      "type": "normal"
+    },
+    {
+      "score_after": "1 - 3",
+      "scorer": "MULERO GONZALEZ, SERGIO",
+      "minute": 74,
+      "type": "normal"
+    },
+    {
+      "score_after": "1 - 4",
+      "scorer": "MONTEJO GARCIA, MARC",
+      "minute": 84,
+      "type": "normal"
+    },
+    {
+      "score_after": "2 - 4",
+      "scorer": "MATEO QUEJIGO, ELOI",
+      "minute": 89,
+      "type": "normal"
+    }
+  ],
   "jornada": 23
 }

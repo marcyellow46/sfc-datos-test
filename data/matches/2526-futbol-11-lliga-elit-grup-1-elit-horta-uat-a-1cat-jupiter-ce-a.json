@@ -103,6 +103,31 @@
     "substitutions": [],
     "cards": []
   },
-  "goals": [],
+  "goals": [
+    {
+      "score_after": "1 - 0",
+      "scorer": "REYES SEGURA, DAVID",
+      "minute": 14,
+      "type": "normal"
+    },
+    {
+      "score_after": "1 - 1",
+      "scorer": "GURREA SANCHEZ, ALBERT",
+      "minute": 50,
+      "type": "normal"
+    },
+    {
+      "score_after": "1 - 2",
+      "scorer": "GURREA SANCHEZ, ALBERT",
+      "minute": 52,
+      "type": "normal"
+    },
+    {
+      "score_after": "1 - 3",
+      "scorer": "SANCHEZ MOYA, DANIEL",
+      "minute": 89,
+      "type": "normal"
+    }
+  ],
   "jornada": 3
 }

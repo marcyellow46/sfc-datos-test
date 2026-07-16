@@ -103,6 +103,31 @@
     "substitutions": [],
     "cards": []
   },
-  "goals": [],
+  "goals": [
+    {
+      "score_after": "1 - 0",
+      "scorer": "AGUZZI BETTINI, NICOLAS ALBERTO",
+      "minute": 7,
+      "type": "normal"
+    },
+    {
+      "score_after": "2 - 0",
+      "scorer": "MUÑOZ RAYA, MARCOS",
+      "minute": 14,
+      "type": "normal"
+    },
+    {
+      "score_after": "2 - 1",
+      "scorer": "MARTINEZ TASIAS, ELOI",
+      "minute": 87,
+      "type": "normal"
+    },
+    {
+      "score_after": "2 - 2",
+      "scorer": "ANGLES MASERAS, ROGER",
+      "minute": 89,
+      "type": "normal"
+    }
+  ],
   "jornada": 27
 }

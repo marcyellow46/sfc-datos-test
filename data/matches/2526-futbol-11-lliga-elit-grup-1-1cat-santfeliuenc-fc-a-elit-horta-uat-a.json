@@ -108,6 +108,25 @@
     "substitutions": [],
     "cards": []
   },
-  "goals": [],
+  "goals": [
+    {
+      "score_after": "0 - 1",
+      "scorer": "CIFUENTES PELAEZ, RUBEN",
+      "minute": 5,
+      "type": "normal"
+    },
+    {
+      "score_after": "0 - 2",
+      "scorer": "HOMEDES DE LA FUENTE, SAMUEL",
+      "minute": 14,
+      "type": "normal"
+    },
+    {
+      "score_after": "0 - 3",
+      "scorer": "PEDROL PALMADA, GERARD",
+      "minute": 69,
+      "type": "normal"
+    }
+  ],
   "jornada": 10
 }

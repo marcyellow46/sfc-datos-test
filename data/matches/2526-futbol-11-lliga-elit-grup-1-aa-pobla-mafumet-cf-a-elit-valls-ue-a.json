@@ -108,6 +108,25 @@
     "substitutions": [],
     "cards": []
   },
-  "goals": [],
+  "goals": [
+    {
+      "score_after": "0 - 1",
+      "scorer": "SUAREZ SANZ, ADRIA",
+      "minute": 37,
+      "type": "normal"
+    },
+    {
+      "score_after": "1 - 1",
+      "scorer": "QUEROL MONTAÑES, ALBERT",
+      "minute": 58,
+      "type": "normal"
+    },
+    {
+      "score_after": "2 - 1",
+      "scorer": "GUTIERREZ DESTEFANIS, AGUSTIN",
+      "minute": 77,
+      "type": "normal"
+    }
+  ],
   "jornada": 17
 }

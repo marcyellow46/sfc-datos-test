@@ -103,6 +103,13 @@
     "substitutions": [],
     "cards": []
   },
-  "goals": [],
+  "goals": [
+    {
+      "score_after": "0 - 1",
+      "scorer": "NAVARRO LINARES, ADRIÁN",
+      "minute": 61,
+      "type": "normal"
+    }
+  ],
   "jornada": 23
 }

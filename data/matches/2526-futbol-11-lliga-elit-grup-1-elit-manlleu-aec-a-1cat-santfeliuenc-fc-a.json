@@ -98,6 +98,31 @@
     "substitutions": [],
     "cards": []
   },
-  "goals": [],
+  "goals": [
+    {
+      "score_after": "0 - 1",
+      "scorer": "CARESIA MESA, PAU",
+      "minute": 3,
+      "type": "normal"
+    },
+    {
+      "score_after": "0 - 2",
+      "scorer": "VILLEGAS SANTOS, ALBERT",
+      "minute": 10,
+      "type": "normal"
+    },
+    {
+      "score_after": "1 - 2",
+      "scorer": "ROSSELL VIDAL, ANTONI",
+      "minute": 13,
+      "type": "normal"
+    },
+    {
+      "score_after": "1 - 3",
+      "scorer": "AVELLANEDA PLAZUELO, JOSE JOAQUIN",
+      "minute": 53,
+      "type": "normal"
+    }
+  ],
   "jornada": 11
 }

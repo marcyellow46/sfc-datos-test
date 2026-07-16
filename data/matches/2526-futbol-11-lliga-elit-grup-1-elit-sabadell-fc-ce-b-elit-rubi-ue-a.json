@@ -108,6 +108,37 @@
     "substitutions": [],
     "cards": []
   },
-  "goals": [],
+  "goals": [
+    {
+      "score_after": "1 - 0",
+      "scorer": "GONZÁLEZ GARCÍA, ADRIÁ",
+      "minute": 7,
+      "type": "normal"
+    },
+    {
+      "score_after": "2 - 0",
+      "scorer": "CHLIH LEHDA, OUSSAMA",
+      "minute": 11,
+      "type": "normal"
+    },
+    {
+      "score_after": "3 - 0",
+      "scorer": "GONZÁLEZ GARCÍA, ADRIÁ",
+      "minute": 14,
+      "type": "normal"
+    },
+    {
+      "score_after": "3 - 1",
+      "scorer": "MUÑOZ DELGADO, ALEJANDRO",
+      "minute": 40,
+      "type": "normal"
+    },
+    {
+      "score_after": "4 - 1",
+      "scorer": "CHLIH LEHDA, OUSSAMA",
+      "minute": 49,
+      "type": "normal"
+    }
+  ],
   "jornada": 15
 }

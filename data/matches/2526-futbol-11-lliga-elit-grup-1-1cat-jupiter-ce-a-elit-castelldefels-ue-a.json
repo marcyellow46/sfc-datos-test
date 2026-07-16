@@ -93,6 +93,31 @@
     "substitutions": [],
     "cards": []
   },
-  "goals": [],
+  "goals": [
+    {
+      "score_after": "0 - 1",
+      "scorer": "PARRA GARCIA, EDGAR",
+      "minute": 11,
+      "type": "normal"
+    },
+    {
+      "score_after": "0 - 2",
+      "scorer": "GIBERT FUERTES, JOAN",
+      "minute": 60,
+      "type": "normal"
+    },
+    {
+      "score_after": "1 - 2",
+      "scorer": "CHICO MARINA, PATRICK",
+      "minute": 79,
+      "type": "normal"
+    },
+    {
+      "score_after": "2 - 2",
+      "scorer": "CHICO MARINA, PATRICK",
+      "minute": 89,
+      "type": "normal"
+    }
+  ],
   "jornada": 15
 }

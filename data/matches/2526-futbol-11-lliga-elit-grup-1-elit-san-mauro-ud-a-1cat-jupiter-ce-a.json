@@ -108,6 +108,31 @@
     "substitutions": [],
     "cards": []
   },
-  "goals": [],
+  "goals": [
+    {
+      "score_after": "1 - 0",
+      "scorer": "GULIAS AGUILERA, MARC",
+      "minute": 12,
+      "type": "normal"
+    },
+    {
+      "score_after": "1 - 1",
+      "scorer": "DAHBI AKALAY, BADREDDINE",
+      "minute": 59,
+      "type": "normal"
+    },
+    {
+      "score_after": "2 - 1",
+      "scorer": "MERINAS CLOP, ERNEST",
+      "minute": 80,
+      "type": "normal"
+    },
+    {
+      "score_after": "2 - 2",
+      "scorer": "CLARÀ ANDREU, GERARD",
+      "minute": 89,
+      "type": "normal"
+    }
+  ],
   "jornada": 23
 }

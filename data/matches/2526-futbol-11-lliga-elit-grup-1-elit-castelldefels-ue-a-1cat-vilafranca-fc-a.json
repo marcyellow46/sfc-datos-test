@@ -103,6 +103,43 @@
     "substitutions": [],
     "cards": []
   },
-  "goals": [],
+  "goals": [
+    {
+      "score_after": "0 - 1",
+      "scorer": "ACEDO SANCHEZ, DAVID",
+      "minute": 23,
+      "type": "normal"
+    },
+    {
+      "score_after": "1 - 1",
+      "scorer": "VILLAVERDE GARCIA, KILIAN",
+      "minute": 35,
+      "type": "normal"
+    },
+    {
+      "score_after": "2 - 1",
+      "scorer": "VILLAVERDE GARCIA, KILIAN",
+      "minute": 39,
+      "type": "normal"
+    },
+    {
+      "score_after": "3 - 1",
+      "scorer": "POZUELO RIERA, ELOI",
+      "minute": 76,
+      "type": "normal"
+    },
+    {
+      "score_after": "4 - 1",
+      "scorer": "CANO JIMENEZ, CARLOS",
+      "minute": 88,
+      "type": "normal"
+    },
+    {
+      "score_after": "5 - 1",
+      "scorer": "CANO JIMENEZ, CARLOS",
+      "minute": 89,
+      "type": "normal"
+    }
+  ],
   "jornada": 12
 }

@@ -103,6 +103,55 @@
     "substitutions": [],
     "cards": []
   },
-  "goals": [],
+  "goals": [
+    {
+      "score_after": "1 - 0",
+      "scorer": "OSORIO BARROZO, FAVIO JULIAN",
+      "minute": 9,
+      "type": "normal"
+    },
+    {
+      "score_after": "1 - 1",
+      "scorer": "PALACIOS CORRAL, IGNACIO",
+      "minute": 32,
+      "type": "normal"
+    },
+    {
+      "score_after": "1 - 2",
+      "scorer": "GONZALEZ OLLER, JAN ANTONI",
+      "minute": 48,
+      "type": "normal"
+    },
+    {
+      "score_after": "1 - 3",
+      "scorer": "GUMA CERQUEDA, JAN",
+      "minute": 59,
+      "type": "normal"
+    },
+    {
+      "score_after": "2 - 3",
+      "scorer": "SUÁREZ POSTIGO, DANIEL",
+      "minute": 60,
+      "type": "normal"
+    },
+    {
+      "score_after": "2 - 4",
+      "scorer": "PEREZ PICON, DAVID",
+      "minute": 71,
+      "type": "normal"
+    },
+    {
+      "score_after": "3 - 4",
+      "scorer": "SUÁREZ POSTIGO, DANIEL",
+      "minute": 76,
+      "type": "normal"
+    },
+    {
+      "score_after": "4 - 4",
+      "scorer": "OSORIO BARROZO, FAVIO JULIAN",
+      "minute": 89,
+      "type": "normal"
+    }
+  ],
   "jornada": 15
 }

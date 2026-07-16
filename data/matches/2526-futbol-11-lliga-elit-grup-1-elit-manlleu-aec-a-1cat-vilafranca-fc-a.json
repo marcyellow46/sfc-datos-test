@@ -98,6 +98,25 @@
     "substitutions": [],
     "cards": []
   },
-  "goals": [],
+  "goals": [
+    {
+      "score_after": "1 - 0",
+      "scorer": "HILL VALLS, ERIC",
+      "minute": 16,
+      "type": "normal"
+    },
+    {
+      "score_after": "2 - 0",
+      "scorer": "COSTA GARCIA, JORDI",
+      "minute": 27,
+      "type": "normal"
+    },
+    {
+      "score_after": "3 - 0",
+      "scorer": "CAO FERNÁNDEZ, TONI",
+      "minute": 56,
+      "type": "normal"
+    }
+  ],
   "jornada": 1
 }

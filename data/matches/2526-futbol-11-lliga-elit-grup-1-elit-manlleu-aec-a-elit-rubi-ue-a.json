@@ -108,6 +108,19 @@
     "substitutions": [],
     "cards": []
   },
-  "goals": [],
+  "goals": [
+    {
+      "score_after": "1 - 0",
+      "scorer": "ROSSELL VIDAL, ANTONI",
+      "minute": 77,
+      "type": "normal"
+    },
+    {
+      "score_after": "2 - 0",
+      "scorer": "CASANOVA CLUSELLS, ADRIA",
+      "minute": 79,
+      "type": "normal"
+    }
+  ],
   "jornada": 23
 }

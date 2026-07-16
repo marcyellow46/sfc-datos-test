@@ -108,6 +108,19 @@
     "substitutions": [],
     "cards": []
   },
-  "goals": [],
+  "goals": [
+    {
+      "score_after": "0 - 1",
+      "scorer": "BOBI CHAMORRO, ADRIÁN",
+      "minute": 17,
+      "type": "normal"
+    },
+    {
+      "score_after": "1 - 1",
+      "scorer": "GIBERT FUERTES, JOAN",
+      "minute": 87,
+      "type": "normal"
+    }
+  ],
   "jornada": 1
 }

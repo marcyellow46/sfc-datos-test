@@ -108,6 +108,13 @@
     "substitutions": [],
     "cards": []
   },
-  "goals": [],
+  "goals": [
+    {
+      "score_after": "1 - 0",
+      "scorer": "RIVAS SANCHEZ, ADRIAN",
+      "minute": 23,
+      "type": "normal"
+    }
+  ],
   "jornada": 25
 }

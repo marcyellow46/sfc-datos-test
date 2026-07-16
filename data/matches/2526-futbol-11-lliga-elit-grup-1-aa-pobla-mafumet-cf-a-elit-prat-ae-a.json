@@ -108,6 +108,25 @@
     "substitutions": [],
     "cards": []
   },
-  "goals": [],
+  "goals": [
+    {
+      "score_after": "0 - 1",
+      "scorer": "RAYA BERNAL, PAU",
+      "minute": 28,
+      "type": "normal"
+    },
+    {
+      "score_after": "1 - 1",
+      "scorer": "CIURÓ RIUDEUBAS, ROGER",
+      "minute": 47,
+      "type": "normal"
+    },
+    {
+      "score_after": "2 - 1",
+      "scorer": "AGUZZI BETTINI, NICOLAS ALBERTO",
+      "minute": 53,
+      "type": "normal"
+    }
+  ],
   "jornada": 23
 }

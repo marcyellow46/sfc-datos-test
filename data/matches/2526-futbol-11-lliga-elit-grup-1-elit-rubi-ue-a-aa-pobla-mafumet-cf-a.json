@@ -103,6 +103,13 @@
     "substitutions": [],
     "cards": []
   },
-  "goals": [],
+  "goals": [
+    {
+      "score_after": "0 - 1",
+      "scorer": "CABEZAS MENSAH, DAVID",
+      "minute": 88,
+      "type": "normal"
+    }
+  ],
   "jornada": 18
 }

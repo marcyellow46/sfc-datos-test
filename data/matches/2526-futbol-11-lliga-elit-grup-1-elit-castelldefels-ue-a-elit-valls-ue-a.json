@@ -108,6 +108,13 @@
     "substitutions": [],
     "cards": []
   },
-  "goals": [],
+  "goals": [
+    {
+      "score_after": "0 - 1",
+      "scorer": "SUAREZ SANZ, ADRIA",
+      "minute": 84,
+      "type": "normal"
+    }
+  ],
   "jornada": 26
 }

@@ -103,6 +103,43 @@
     "substitutions": [],
     "cards": []
   },
-  "goals": [],
+  "goals": [
+    {
+      "score_after": "1 - 0",
+      "scorer": "GURREA SANCHEZ, ALBERT",
+      "minute": 8,
+      "type": "normal"
+    },
+    {
+      "score_after": "2 - 0",
+      "scorer": "GURREA SANCHEZ, ALBERT",
+      "minute": 31,
+      "type": "normal"
+    },
+    {
+      "score_after": "3 - 0",
+      "scorer": "S.MONSÓ",
+      "minute": 55,
+      "type": "normal"
+    },
+    {
+      "score_after": "4 - 0",
+      "scorer": "BORDALLO CANALS, JOAN",
+      "minute": 69,
+      "type": "normal"
+    },
+    {
+      "score_after": "4 - 1",
+      "scorer": "COMAMALA FONT, MARC",
+      "minute": 77,
+      "type": "normal"
+    },
+    {
+      "score_after": "4 - 2",
+      "scorer": "ROURA JIMÉNEZ, ROGER",
+      "minute": 79,
+      "type": "normal"
+    }
+  ],
   "jornada": 4
 }

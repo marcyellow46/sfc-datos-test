@@ -108,6 +108,13 @@
     "substitutions": [],
     "cards": []
   },
-  "goals": [],
+  "goals": [
+    {
+      "score_after": "0 - 1",
+      "scorer": "BABIA , HAITAM",
+      "minute": 76,
+      "type": "normal"
+    }
+  ],
   "jornada": 18
 }

@@ -108,6 +108,19 @@
     "substitutions": [],
     "cards": []
   },
-  "goals": [],
+  "goals": [
+    {
+      "score_after": "1 - 0",
+      "scorer": "GONZÁLEZ GARCÍA, ADRIÁ",
+      "minute": 65,
+      "type": "normal"
+    },
+    {
+      "score_after": "1 - 1",
+      "scorer": "PEÑAS ANDREU, ALEX",
+      "minute": 69,
+      "type": "normal"
+    }
+  ],
   "jornada": 16
 }

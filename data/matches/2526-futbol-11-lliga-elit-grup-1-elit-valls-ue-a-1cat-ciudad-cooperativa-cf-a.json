@@ -88,6 +88,43 @@
     "substitutions": [],
     "cards": []
   },
-  "goals": [],
+  "goals": [
+    {
+      "score_after": "0 - 1",
+      "scorer": "ZELLAL NEJAM, HICHAM",
+      "minute": 11,
+      "type": "normal"
+    },
+    {
+      "score_after": "0 - 2",
+      "scorer": "DE SOKOLOW LEYVA, BRYAN",
+      "minute": 18,
+      "type": "normal"
+    },
+    {
+      "score_after": "1 - 2",
+      "scorer": "MARTINEZ MARTINEZ, GUILLEM",
+      "minute": 20,
+      "type": "normal"
+    },
+    {
+      "score_after": "1 - 3",
+      "scorer": "ZELLAL NEJAM, HICHAM",
+      "minute": 26,
+      "type": "normal"
+    },
+    {
+      "score_after": "2 - 3",
+      "scorer": "FE CRUSAT, MARC",
+      "minute": 27,
+      "type": "normal"
+    },
+    {
+      "score_after": "3 - 3",
+      "scorer": "MARTINEZ MARTINEZ, GUILLEM",
+      "minute": 52,
+      "type": "normal"
+    }
+  ],
   "jornada": 16
 }

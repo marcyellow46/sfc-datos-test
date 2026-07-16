@@ -108,6 +108,19 @@
     "substitutions": [],
     "cards": []
   },
-  "goals": [],
+  "goals": [
+    {
+      "score_after": "0 - 1",
+      "scorer": "MATEO QUEJIGO, ELOI",
+      "minute": 35,
+      "type": "normal"
+    },
+    {
+      "score_after": "1 - 1",
+      "scorer": "FORGAS PALLARES, ERNEST",
+      "minute": 89,
+      "type": "normal"
+    }
+  ],
   "jornada": 29
 }

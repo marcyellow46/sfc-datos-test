@@ -108,6 +108,19 @@
     "substitutions": [],
     "cards": []
   },
-  "goals": [],
+  "goals": [
+    {
+      "score_after": "1 - 0",
+      "scorer": "PLAZA CREMADES, ALEX",
+      "minute": 44,
+      "type": "normal"
+    },
+    {
+      "score_after": "1 - 1",
+      "scorer": "REYES SEGURA, DAVID",
+      "minute": 52,
+      "type": "normal"
+    }
+  ],
   "jornada": 2
 }

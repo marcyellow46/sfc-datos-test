@@ -103,6 +103,49 @@
     "substitutions": [],
     "cards": []
   },
-  "goals": [],
+  "goals": [
+    {
+      "score_after": "0 - 1",
+      "scorer": "PLAZUELO MOLINA, EUGENIO",
+      "minute": 9,
+      "type": "normal"
+    },
+    {
+      "score_after": "0 - 2",
+      "scorer": "FABIAN PASCUAL, VICTOR",
+      "minute": 15,
+      "type": "normal"
+    },
+    {
+      "score_after": "1 - 2",
+      "scorer": "BA ANDEME, MARCELO SALIOU",
+      "minute": 27,
+      "type": "normal"
+    },
+    {
+      "score_after": "2 - 2",
+      "scorer": "MUÑOZ SAYOL, OSCAR",
+      "minute": 44,
+      "type": "normal"
+    },
+    {
+      "score_after": "3 - 2",
+      "scorer": "MUÑOZ SAYOL, OSCAR",
+      "minute": 46,
+      "type": "normal"
+    },
+    {
+      "score_after": "4 - 2",
+      "scorer": "MUÑOZ SAYOL, OSCAR",
+      "minute": 49,
+      "type": "normal"
+    },
+    {
+      "score_after": "5 - 2",
+      "scorer": "FERNANDEZ AMAT, JOSE JAVIER",
+      "minute": 89,
+      "type": "normal"
+    }
+  ],
   "jornada": 3
 }

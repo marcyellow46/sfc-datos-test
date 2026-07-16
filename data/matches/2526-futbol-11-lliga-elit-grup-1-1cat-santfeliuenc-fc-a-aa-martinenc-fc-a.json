@@ -98,6 +98,31 @@
     "substitutions": [],
     "cards": []
   },
-  "goals": [],
+  "goals": [
+    {
+      "score_after": "1 - 0",
+      "scorer": "RODRIGUEZ JIMENEZ, CHRISTIAN",
+      "minute": 7,
+      "type": "normal"
+    },
+    {
+      "score_after": "1 - 1",
+      "scorer": "SUÁREZ POSTIGO, DANIEL",
+      "minute": 36,
+      "type": "normal"
+    },
+    {
+      "score_after": "1 - 2",
+      "scorer": "SOSA MORENO, JUAN",
+      "minute": 89,
+      "type": "normal"
+    },
+    {
+      "score_after": "1 - 3",
+      "scorer": "RIBERA",
+      "minute": 89,
+      "type": "normal"
+    }
+  ],
   "jornada": 19
 }

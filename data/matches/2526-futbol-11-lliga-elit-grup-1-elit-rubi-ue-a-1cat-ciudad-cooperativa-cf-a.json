@@ -98,6 +98,25 @@
     "substitutions": [],
     "cards": []
   },
-  "goals": [],
+  "goals": [
+    {
+      "score_after": "1 - 0",
+      "scorer": "JIMENEZ ALBELDA, PABLO",
+      "minute": 35,
+      "type": "normal"
+    },
+    {
+      "score_after": "2 - 0",
+      "scorer": "RECORT MORENO, ADRIA",
+      "minute": 50,
+      "type": "normal"
+    },
+    {
+      "score_after": "3 - 0",
+      "scorer": "MUÑOZ DELGADO, ALEJANDRO",
+      "minute": 59,
+      "type": "normal"
+    }
+  ],
   "jornada": 24
 }

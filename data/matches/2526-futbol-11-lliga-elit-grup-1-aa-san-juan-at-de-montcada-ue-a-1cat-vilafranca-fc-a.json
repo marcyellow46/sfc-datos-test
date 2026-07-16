@@ -108,6 +108,25 @@
     "substitutions": [],
     "cards": []
   },
-  "goals": [],
+  "goals": [
+    {
+      "score_after": "0 - 1",
+      "scorer": "MARC",
+      "minute": 36,
+      "type": "normal"
+    },
+    {
+      "score_after": "1 - 1",
+      "scorer": "MULERO GONZALEZ, SERGIO",
+      "minute": 44,
+      "type": "normal"
+    },
+    {
+      "score_after": "2 - 1",
+      "scorer": "BALDE GOMEZ, OMAR",
+      "minute": 83,
+      "type": "normal"
+    }
+  ],
   "jornada": 28
 }

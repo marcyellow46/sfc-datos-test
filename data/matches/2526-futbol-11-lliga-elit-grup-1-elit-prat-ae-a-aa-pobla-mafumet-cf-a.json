@@ -108,6 +108,13 @@
     "substitutions": [],
     "cards": []
   },
-  "goals": [],
+  "goals": [
+    {
+      "score_after": "1 - 0",
+      "scorer": "PLAZA CREMADES, ALEX",
+      "minute": 20,
+      "type": "normal"
+    }
+  ],
   "jornada": 8
 }

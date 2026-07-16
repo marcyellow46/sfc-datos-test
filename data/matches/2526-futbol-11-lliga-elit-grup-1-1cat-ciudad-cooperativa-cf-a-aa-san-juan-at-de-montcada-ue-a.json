@@ -103,6 +103,25 @@
     "substitutions": [],
     "cards": []
   },
-  "goals": [],
+  "goals": [
+    {
+      "score_after": "0 - 1",
+      "scorer": "MONTEJO GARCIA, MARC",
+      "minute": 66,
+      "type": "normal"
+    },
+    {
+      "score_after": "0 - 2",
+      "scorer": "MUÑOZ SAYOL, OSCAR",
+      "minute": 83,
+      "type": "normal"
+    },
+    {
+      "score_after": "1 - 2",
+      "scorer": "SÁNCHEZ PÉREZ, KEVIN",
+      "minute": 88,
+      "type": "normal"
+    }
+  ],
   "jornada": 11
 }

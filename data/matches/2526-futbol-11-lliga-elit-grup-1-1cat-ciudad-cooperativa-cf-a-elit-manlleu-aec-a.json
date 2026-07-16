@@ -108,6 +108,37 @@
     "substitutions": [],
     "cards": []
   },
-  "goals": [],
+  "goals": [
+    {
+      "score_after": "0 - 1",
+      "scorer": "ROSSELL VIDAL, ANTONI",
+      "minute": 11,
+      "type": "normal"
+    },
+    {
+      "score_after": "1 - 1",
+      "scorer": "BLANCO BLANCO, BIEL",
+      "minute": 44,
+      "type": "normal"
+    },
+    {
+      "score_after": "2 - 1",
+      "scorer": "BLANCO BLANCO, BIEL",
+      "minute": 51,
+      "type": "normal"
+    },
+    {
+      "score_after": "3 - 1",
+      "scorer": "SERRANO RUIZ, LUIS",
+      "minute": 82,
+      "type": "normal"
+    },
+    {
+      "score_after": "4 - 1",
+      "scorer": "DE SOKOLOW LEYVA, BRYAN",
+      "minute": 84,
+      "type": "normal"
+    }
+  ],
   "jornada": 29
 }

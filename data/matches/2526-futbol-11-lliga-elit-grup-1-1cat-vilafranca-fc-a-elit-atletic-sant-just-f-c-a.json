@@ -103,6 +103,31 @@
     "substitutions": [],
     "cards": []
   },
-  "goals": [],
+  "goals": [
+    {
+      "score_after": "1 - 0",
+      "scorer": "MARC",
+      "minute": 9,
+      "type": "normal"
+    },
+    {
+      "score_after": "2 - 0",
+      "scorer": "ESCOFET ALEMANY, SERGI",
+      "minute": 21,
+      "type": "normal"
+    },
+    {
+      "score_after": "2 - 1",
+      "scorer": "PALACIOS CORRAL, ALEJANDRO",
+      "minute": 31,
+      "type": "normal"
+    },
+    {
+      "score_after": "3 - 1",
+      "scorer": "CASTELL SOLE, NIL",
+      "minute": 39,
+      "type": "normal"
+    }
+  ],
   "jornada": 25
 }

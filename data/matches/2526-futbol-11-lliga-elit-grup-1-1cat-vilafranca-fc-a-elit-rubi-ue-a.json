@@ -108,6 +108,19 @@
     "substitutions": [],
     "cards": []
   },
-  "goals": [],
+  "goals": [
+    {
+      "score_after": "0 - 1",
+      "scorer": "JIMENEZ ALBELDA, PABLO",
+      "minute": 55,
+      "type": "normal"
+    },
+    {
+      "score_after": "1 - 1",
+      "scorer": "MARC",
+      "minute": 65,
+      "type": "normal"
+    }
+  ],
   "jornada": 11
 }

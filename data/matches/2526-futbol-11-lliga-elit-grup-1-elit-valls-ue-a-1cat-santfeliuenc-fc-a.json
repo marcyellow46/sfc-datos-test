@@ -108,6 +108,19 @@
     "substitutions": [],
     "cards": []
   },
-  "goals": [],
+  "goals": [
+    {
+      "score_after": "0 - 1",
+      "scorer": "AVILES DIAZ, ALEJANDRO",
+      "minute": 47,
+      "type": "normal"
+    },
+    {
+      "score_after": "1 - 1",
+      "scorer": "SANTIAGO CORTES, ANTONIO",
+      "minute": 59,
+      "type": "normal"
+    }
+  ],
   "jornada": 13
 }

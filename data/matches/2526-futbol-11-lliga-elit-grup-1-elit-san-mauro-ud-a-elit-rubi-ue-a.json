@@ -103,6 +103,25 @@
     "substitutions": [],
     "cards": []
   },
-  "goals": [],
+  "goals": [
+    {
+      "score_after": "0 - 1",
+      "scorer": "JIMENEZ ALBELDA, PABLO",
+      "minute": 57,
+      "type": "normal"
+    },
+    {
+      "score_after": "1 - 1",
+      "scorer": "ARIBAU CASALS, JORDI",
+      "minute": 68,
+      "type": "normal"
+    },
+    {
+      "score_after": "2 - 1",
+      "scorer": "GARCÍA GARCÍA, JAVIER",
+      "minute": 79,
+      "type": "normal"
+    }
+  ],
   "jornada": 27
 }

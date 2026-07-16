@@ -93,6 +93,25 @@
     "substitutions": [],
     "cards": []
   },
-  "goals": [],
+  "goals": [
+    {
+      "score_after": "1 - 0",
+      "scorer": "HIDALGO PEREZ, MANUEL",
+      "minute": 56,
+      "type": "normal"
+    },
+    {
+      "score_after": "2 - 0",
+      "scorer": "ZELLAL NEJAM, HICHAM",
+      "minute": 59,
+      "type": "normal"
+    },
+    {
+      "score_after": "2 - 1",
+      "scorer": "NGOM , SERIGNE SALIOU",
+      "minute": 89,
+      "type": "normal"
+    }
+  ],
   "jornada": 2
 }

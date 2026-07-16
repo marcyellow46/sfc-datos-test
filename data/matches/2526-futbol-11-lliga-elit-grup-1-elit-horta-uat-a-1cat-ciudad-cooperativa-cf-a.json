@@ -108,6 +108,37 @@
     "substitutions": [],
     "cards": []
   },
-  "goals": [],
+  "goals": [
+    {
+      "score_after": "1 - 0",
+      "scorer": "PEDROL PALMADA, GERARD",
+      "minute": 11,
+      "type": "normal"
+    },
+    {
+      "score_after": "2 - 0",
+      "scorer": "MONTESINOS SOLE, JORDI",
+      "minute": 19,
+      "type": "normal"
+    },
+    {
+      "score_after": "2 - 1",
+      "scorer": "PUEYO VILA, MARC",
+      "minute": 30,
+      "type": "normal"
+    },
+    {
+      "score_after": "3 - 1",
+      "scorer": "CIFUENTES PELAEZ, RUBEN",
+      "minute": 59,
+      "type": "normal"
+    },
+    {
+      "score_after": "4 - 1",
+      "scorer": "COLY , PAPE OUMAR SARR",
+      "minute": 81,
+      "type": "normal"
+    }
+  ],
   "jornada": 28
 }

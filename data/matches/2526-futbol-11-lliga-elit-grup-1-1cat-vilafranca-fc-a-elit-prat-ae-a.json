@@ -93,6 +93,61 @@
     "substitutions": [],
     "cards": []
   },
-  "goals": [],
+  "goals": [
+    {
+      "score_after": "0 - 1",
+      "scorer": "REINKE GONÇALVES, GUSTAVO",
+      "minute": 11,
+      "type": "normal"
+    },
+    {
+      "score_after": "0 - 2",
+      "scorer": "REINKE GONÇALVES, GUSTAVO",
+      "minute": 33,
+      "type": "normal"
+    },
+    {
+      "score_after": "0 - 3",
+      "scorer": "VIDAL GIRONES, RICARD",
+      "minute": 34,
+      "type": "normal"
+    },
+    {
+      "score_after": "1 - 3",
+      "scorer": "CASTELL SOLE, NIL",
+      "minute": 36,
+      "type": "normal"
+    },
+    {
+      "score_after": "1 - 4",
+      "scorer": "ARCHS HORTIGÓN, ALEJANDRO",
+      "minute": 44,
+      "type": "normal"
+    },
+    {
+      "score_after": "2 - 4",
+      "scorer": "ACEDO SANCHEZ, DAVID",
+      "minute": 52,
+      "type": "normal"
+    },
+    {
+      "score_after": "2 - 5",
+      "scorer": "RIVAS SANCHEZ, ADRIAN",
+      "minute": 73,
+      "type": "normal"
+    },
+    {
+      "score_after": "2 - 6",
+      "scorer": "ARCHS HORTIGÓN, ALEJANDRO",
+      "minute": 81,
+      "type": "normal"
+    },
+    {
+      "score_after": "2 - 7",
+      "scorer": "CORTINA CABALLERO, ABEL",
+      "minute": 89,
+      "type": "normal"
+    }
+  ],
   "jornada": 21
 }

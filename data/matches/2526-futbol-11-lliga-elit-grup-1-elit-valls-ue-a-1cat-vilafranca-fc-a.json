@@ -98,6 +98,25 @@
     "substitutions": [],
     "cards": []
   },
-  "goals": [],
+  "goals": [
+    {
+      "score_after": "1 - 0",
+      "scorer": "BILE , JEAN CLAUDE TOFEY",
+      "minute": 22,
+      "type": "normal"
+    },
+    {
+      "score_after": "2 - 0",
+      "scorer": "DOMINGO CIURANETA, JOAN",
+      "minute": 56,
+      "type": "normal"
+    },
+    {
+      "score_after": "2 - 1",
+      "scorer": "ACEDO SANCHEZ, DAVID",
+      "minute": 89,
+      "type": "normal"
+    }
+  ],
   "jornada": 3
 }

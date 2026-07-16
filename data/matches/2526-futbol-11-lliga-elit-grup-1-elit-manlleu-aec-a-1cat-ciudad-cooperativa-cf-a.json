@@ -103,6 +103,19 @@
     "substitutions": [],
     "cards": []
   },
-  "goals": [],
+  "goals": [
+    {
+      "score_after": "0 - 1",
+      "scorer": "ZELLAL NEJAM, HICHAM",
+      "minute": 21,
+      "type": "normal"
+    },
+    {
+      "score_after": "1 - 1",
+      "scorer": "ROSSELL VIDAL, ANTONI",
+      "minute": 75,
+      "type": "normal"
+    }
+  ],
   "jornada": 14
 }

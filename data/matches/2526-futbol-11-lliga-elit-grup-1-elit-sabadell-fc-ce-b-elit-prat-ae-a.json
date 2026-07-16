@@ -108,6 +108,37 @@
     "substitutions": [],
     "cards": []
   },
-  "goals": [],
+  "goals": [
+    {
+      "score_after": "0 - 1",
+      "scorer": "RIVAS SANCHEZ, ADRIAN",
+      "minute": 61,
+      "type": "normal"
+    },
+    {
+      "score_after": "0 - 2",
+      "scorer": "CORTINA CABALLERO, ABEL",
+      "minute": 76,
+      "type": "normal"
+    },
+    {
+      "score_after": "1 - 2",
+      "scorer": "BORRELL SOTO, ALEIX",
+      "minute": 84,
+      "type": "normal"
+    },
+    {
+      "score_after": "2 - 2",
+      "scorer": "CHLIH LEHDA, OUSSAMA",
+      "minute": 86,
+      "type": "normal"
+    },
+    {
+      "score_after": "3 - 2",
+      "scorer": "BOBI CHAMORRO, ADRIÁN",
+      "minute": 89,
+      "type": "normal"
+    }
+  ],
   "jornada": 10
 }

@@ -108,6 +108,31 @@
     "substitutions": [],
     "cards": []
   },
-  "goals": [],
+  "goals": [
+    {
+      "score_after": "1 - 0",
+      "scorer": "MONTESINOS SOLE, JORDI",
+      "minute": 10,
+      "type": "normal"
+    },
+    {
+      "score_after": "2 - 0",
+      "scorer": "CIFUENTES PELAEZ, RUBEN",
+      "minute": 12,
+      "type": "normal"
+    },
+    {
+      "score_after": "3 - 0",
+      "scorer": "NOGALES ROVIRA, DAVID",
+      "minute": 16,
+      "type": "normal"
+    },
+    {
+      "score_after": "3 - 1",
+      "scorer": "CASARES ALGUACIL, MARC",
+      "minute": 48,
+      "type": "normal"
+    }
+  ],
   "jornada": 25
 }

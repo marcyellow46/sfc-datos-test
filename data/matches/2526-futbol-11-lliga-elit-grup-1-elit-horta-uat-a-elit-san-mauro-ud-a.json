@@ -103,6 +103,37 @@
     "substitutions": [],
     "cards": []
   },
-  "goals": [],
+  "goals": [
+    {
+      "score_after": "0 - 1",
+      "scorer": "GULIAS AGUILERA, MARC",
+      "minute": 28,
+      "type": "normal"
+    },
+    {
+      "score_after": "0 - 2",
+      "scorer": "ROMEU MARQUES, POL",
+      "minute": 39,
+      "type": "normal"
+    },
+    {
+      "score_after": "0 - 3",
+      "scorer": "VALENTÍ SOLER CABOT, ENRIQUE",
+      "minute": 60,
+      "type": "normal"
+    },
+    {
+      "score_after": "1 - 3",
+      "scorer": "BABIA , HAITAM",
+      "minute": 70,
+      "type": "normal"
+    },
+    {
+      "score_after": "2 - 3",
+      "scorer": "NOGALES ROVIRA, DAVID",
+      "minute": 89,
+      "type": "normal"
+    }
+  ],
   "jornada": 1
 }

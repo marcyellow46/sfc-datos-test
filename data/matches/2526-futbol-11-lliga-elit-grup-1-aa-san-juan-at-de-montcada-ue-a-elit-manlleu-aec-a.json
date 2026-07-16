@@ -93,6 +93,67 @@
     "substitutions": [],
     "cards": []
   },
-  "goals": [],
+  "goals": [
+    {
+      "score_after": "1 - 0",
+      "scorer": "BA ANDEME, MARCELO SALIOU",
+      "minute": 5,
+      "type": "normal"
+    },
+    {
+      "score_after": "2 - 0",
+      "scorer": "DIAZ MOLINA, ERIC",
+      "minute": 9,
+      "type": "normal"
+    },
+    {
+      "score_after": "2 - 1",
+      "scorer": "CAPDEVILA GALEANO, NIL",
+      "minute": 24,
+      "type": "normal"
+    },
+    {
+      "score_after": "3 - 1",
+      "scorer": "DIAZ MOLINA, ERIC",
+      "minute": 26,
+      "type": "normal"
+    },
+    {
+      "score_after": "3 - 2",
+      "scorer": "ROURA JIMÉNEZ, ROGER",
+      "minute": 32,
+      "type": "normal"
+    },
+    {
+      "score_after": "4 - 2",
+      "scorer": "ALCOVER ROIGE, ANTONI",
+      "minute": 59,
+      "type": "normal"
+    },
+    {
+      "score_after": "4 - 3",
+      "scorer": "CAO FERNÁNDEZ, TONI",
+      "minute": 78,
+      "type": "normal"
+    },
+    {
+      "score_after": "5 - 3",
+      "scorer": "FERNANDEZ AMAT, JOSE JAVIER",
+      "minute": 82,
+      "type": "normal"
+    },
+    {
+      "score_after": "5 - 4",
+      "scorer": "ROURA JIMÉNEZ, ROGER",
+      "minute": 88,
+      "type": "normal"
+    },
+    {
+      "score_after": "6 - 4",
+      "scorer": "HUGUE ALCAIDE, GALDERIC",
+      "minute": 89,
+      "type": "normal"
+    }
+  ],
   "jornada": 10
 }

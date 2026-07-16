@@ -93,6 +93,31 @@
     "substitutions": [],
     "cards": []
   },
-  "goals": [],
+  "goals": [
+    {
+      "score_after": "1 - 0",
+      "scorer": "MONTESINOS SOLE, JORDI",
+      "minute": 2,
+      "type": "normal"
+    },
+    {
+      "score_after": "1 - 1",
+      "scorer": "CIURÓ RIUDEUBAS, ROGER",
+      "minute": 20,
+      "type": "normal"
+    },
+    {
+      "score_after": "1 - 2",
+      "scorer": "AGUZZI BETTINI, NICOLAS ALBERTO",
+      "minute": 63,
+      "type": "normal"
+    },
+    {
+      "score_after": "1 - 3",
+      "scorer": "AGUZZI BETTINI, NICOLAS ALBERTO",
+      "minute": 67,
+      "type": "normal"
+    }
+  ],
   "jornada": 26
 }

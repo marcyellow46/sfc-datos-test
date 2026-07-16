@@ -98,6 +98,19 @@
     "substitutions": [],
     "cards": []
   },
-  "goals": [],
+  "goals": [
+    {
+      "score_after": "1 - 0",
+      "scorer": "CHICO MARINA, PATRICK",
+      "minute": 39,
+      "type": "normal"
+    },
+    {
+      "score_after": "1 - 1",
+      "scorer": "DIAZ MOLINA, ERIC",
+      "minute": 44,
+      "type": "normal"
+    }
+  ],
   "jornada": 16
 }

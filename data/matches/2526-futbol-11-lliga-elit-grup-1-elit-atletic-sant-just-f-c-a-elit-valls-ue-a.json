@@ -108,6 +108,13 @@
     "substitutions": [],
     "cards": []
   },
-  "goals": [],
+  "goals": [
+    {
+      "score_after": "1 - 0",
+      "scorer": "PALACIOS CORRAL, ALEJANDRO",
+      "minute": 50,
+      "type": "normal"
+    }
+  ],
   "jornada": 24
 }

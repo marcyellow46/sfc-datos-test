@@ -108,6 +108,25 @@
     "substitutions": [],
     "cards": []
   },
-  "goals": [],
+  "goals": [
+    {
+      "score_after": "0 - 1",
+      "scorer": "GONZÁLEZ GARCÍA, ADRIÁ",
+      "minute": 27,
+      "type": "normal"
+    },
+    {
+      "score_after": "1 - 1",
+      "scorer": "ESCAMILLA VAN DER DONK, ROGER",
+      "minute": 70,
+      "type": "normal"
+    },
+    {
+      "score_after": "1 - 2",
+      "scorer": "ESPINOSA FIGUERAS, JAIRÓN RUBÉN",
+      "minute": 89,
+      "type": "normal"
+    }
+  ],
   "jornada": 9
 }

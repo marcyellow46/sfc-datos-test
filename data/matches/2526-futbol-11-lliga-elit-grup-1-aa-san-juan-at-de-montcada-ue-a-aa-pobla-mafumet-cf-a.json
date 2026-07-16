@@ -108,6 +108,25 @@
     "substitutions": [],
     "cards": []
   },
-  "goals": [],
+  "goals": [
+    {
+      "score_after": "0 - 1",
+      "scorer": "CABEZAS MENSAH, DAVID",
+      "minute": 32,
+      "type": "normal"
+    },
+    {
+      "score_after": "1 - 1",
+      "scorer": "PEREZ BELLO, VICTOR",
+      "minute": 57,
+      "type": "normal"
+    },
+    {
+      "score_after": "2 - 1",
+      "scorer": "MONTEJO GARCIA, MARC",
+      "minute": 67,
+      "type": "normal"
+    }
+  ],
   "jornada": 22
 }

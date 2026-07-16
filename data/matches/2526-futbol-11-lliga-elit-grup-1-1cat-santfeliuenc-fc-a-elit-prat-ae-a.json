@@ -103,6 +103,25 @@
     "substitutions": [],
     "cards": []
   },
-  "goals": [],
+  "goals": [
+    {
+      "score_after": "0 - 1",
+      "scorer": "LAMELAS DOMINGUEZ, MARTIN",
+      "minute": 6,
+      "type": "normal"
+    },
+    {
+      "score_after": "1 - 1",
+      "scorer": "BLASCO TORRENTE, PABLO",
+      "minute": 11,
+      "type": "normal"
+    },
+    {
+      "score_after": "1 - 2",
+      "scorer": "LAMELAS DOMINGUEZ, MARTIN",
+      "minute": 50,
+      "type": "normal"
+    }
+  ],
   "jornada": 1
 }

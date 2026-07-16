@@ -103,6 +103,25 @@
     "substitutions": [],
     "cards": []
   },
-  "goals": [],
+  "goals": [
+    {
+      "score_after": "0 - 1",
+      "scorer": "MESSOOUDI BAKKALI, MOHAMED YASSIN",
+      "minute": 7,
+      "type": "normal"
+    },
+    {
+      "score_after": "1 - 1",
+      "scorer": "DIABY DIAWARA, MAMADOU",
+      "minute": 83,
+      "type": "normal"
+    },
+    {
+      "score_after": "1 - 2",
+      "scorer": "HIDALGO PEREZ, MANUEL",
+      "minute": 89,
+      "type": "normal"
+    }
+  ],
   "jornada": 6
 }

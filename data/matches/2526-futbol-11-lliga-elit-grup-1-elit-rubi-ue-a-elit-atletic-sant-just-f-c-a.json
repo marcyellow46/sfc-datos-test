@@ -108,6 +108,31 @@
     "substitutions": [],
     "cards": []
   },
-  "goals": [],
+  "goals": [
+    {
+      "score_after": "1 - 0",
+      "scorer": "MENDOZA GARCIA, SEBASTIA",
+      "minute": 29,
+      "type": "normal"
+    },
+    {
+      "score_after": "2 - 0",
+      "scorer": "CASTILLO MARAVER, ERIK",
+      "minute": 64,
+      "type": "normal"
+    },
+    {
+      "score_after": "3 - 0",
+      "scorer": "MUÑOZ DELGADO, ALEJANDRO",
+      "minute": 75,
+      "type": "normal"
+    },
+    {
+      "score_after": "4 - 0",
+      "scorer": "CASTILLO MARAVER, ERIK",
+      "minute": 85,
+      "type": "normal"
+    }
+  ],
   "jornada": 17
 }

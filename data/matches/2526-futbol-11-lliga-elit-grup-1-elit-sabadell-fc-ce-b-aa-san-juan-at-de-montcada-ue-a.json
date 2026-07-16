@@ -108,6 +108,13 @@
     "substitutions": [],
     "cards": []
   },
-  "goals": [],
+  "goals": [
+    {
+      "score_after": "0 - 1",
+      "scorer": "MUÑOZ SAYOL, OSCAR",
+      "minute": 50,
+      "type": "normal"
+    }
+  ],
   "jornada": 2
 }

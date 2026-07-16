@@ -108,6 +108,31 @@
     "substitutions": [],
     "cards": []
   },
-  "goals": [],
+  "goals": [
+    {
+      "score_after": "0 - 1",
+      "scorer": "FORNELL SAEZ, JOAQUIM",
+      "minute": 5,
+      "type": "normal"
+    },
+    {
+      "score_after": "1 - 1",
+      "scorer": "CAÑERO CARMONA, ALEX",
+      "minute": 43,
+      "type": "normal"
+    },
+    {
+      "score_after": "2 - 1",
+      "scorer": "CAÑERO CARMONA, ALEX",
+      "minute": 68,
+      "type": "normal"
+    },
+    {
+      "score_after": "3 - 1",
+      "scorer": "MERINAS CLOP, ERNEST",
+      "minute": 71,
+      "type": "normal"
+    }
+  ],
   "jornada": 16
 }

@@ -108,6 +108,13 @@
     "substitutions": [],
     "cards": []
   },
-  "goals": [],
+  "goals": [
+    {
+      "score_after": "0 - 1",
+      "scorer": "BALDEH KANDEH, ELHADJI",
+      "minute": 79,
+      "type": "normal"
+    }
+  ],
   "jornada": 5
 }

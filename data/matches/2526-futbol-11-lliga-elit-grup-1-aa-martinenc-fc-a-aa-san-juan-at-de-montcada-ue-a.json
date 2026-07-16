@@ -98,6 +98,25 @@
     "substitutions": [],
     "cards": []
   },
-  "goals": [],
+  "goals": [
+    {
+      "score_after": "1 - 0",
+      "scorer": "SUÁREZ POSTIGO, DANIEL",
+      "minute": 28,
+      "type": "normal"
+    },
+    {
+      "score_after": "2 - 0",
+      "scorer": "SUÁREZ POSTIGO, DANIEL",
+      "minute": 39,
+      "type": "normal"
+    },
+    {
+      "score_after": "3 - 0",
+      "scorer": "SUÁREZ POSTIGO, DANIEL",
+      "minute": 77,
+      "type": "normal"
+    }
+  ],
   "jornada": 18
 }

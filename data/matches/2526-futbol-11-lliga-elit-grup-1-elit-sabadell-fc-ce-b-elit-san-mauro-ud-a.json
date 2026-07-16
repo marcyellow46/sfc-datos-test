@@ -93,6 +93,25 @@
     "substitutions": [],
     "cards": []
   },
-  "goals": [],
+  "goals": [
+    {
+      "score_after": "0 - 1",
+      "scorer": "MAYMÓ BALLESTER, LLUC",
+      "minute": 11,
+      "type": "normal"
+    },
+    {
+      "score_after": "1 - 1",
+      "scorer": "CHLIH LEHDA, OUSSAMA",
+      "minute": 55,
+      "type": "normal"
+    },
+    {
+      "score_after": "1 - 2",
+      "scorer": "MERINAS CLOP, ERNEST",
+      "minute": 71,
+      "type": "normal"
+    }
+  ],
   "jornada": 24
 }

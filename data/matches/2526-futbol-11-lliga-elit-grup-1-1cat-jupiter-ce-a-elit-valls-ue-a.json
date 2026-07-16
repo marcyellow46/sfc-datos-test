@@ -108,6 +108,31 @@
     "substitutions": [],
     "cards": []
   },
-  "goals": [],
+  "goals": [
+    {
+      "score_after": "0 - 1",
+      "scorer": "DOMINGO CIURANETA, JOAN",
+      "minute": 10,
+      "type": "normal"
+    },
+    {
+      "score_after": "1 - 1",
+      "scorer": "OLIVER JIMENEZ, OSCAR",
+      "minute": 17,
+      "type": "normal"
+    },
+    {
+      "score_after": "2 - 1",
+      "scorer": "S.MONSÓ",
+      "minute": 34,
+      "type": "normal"
+    },
+    {
+      "score_after": "2 - 2",
+      "scorer": "GARCIA COMPANY, DANIEL",
+      "minute": 51,
+      "type": "normal"
+    }
+  ],
   "jornada": 6
 }

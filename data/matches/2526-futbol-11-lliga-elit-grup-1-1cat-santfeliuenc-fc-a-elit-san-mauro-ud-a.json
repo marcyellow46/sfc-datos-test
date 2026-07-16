@@ -88,6 +88,19 @@
     "substitutions": [],
     "cards": []
   },
-  "goals": [],
+  "goals": [
+    {
+      "score_after": "1 - 0",
+      "scorer": "HONORATO TORREJON, KILIAN",
+      "minute": 41,
+      "type": "normal"
+    },
+    {
+      "score_after": "1 - 1",
+      "scorer": "CAÑERO CARMONA, ALEX",
+      "minute": 58,
+      "type": "normal"
+    }
+  ],
   "jornada": 30
 }

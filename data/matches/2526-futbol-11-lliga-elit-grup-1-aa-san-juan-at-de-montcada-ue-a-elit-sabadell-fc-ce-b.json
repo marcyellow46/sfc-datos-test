@@ -103,6 +103,25 @@
     "substitutions": [],
     "cards": []
   },
-  "goals": [],
+  "goals": [
+    {
+      "score_after": "1 - 0",
+      "scorer": "MUÑOZ SAYOL, OSCAR",
+      "minute": 18,
+      "type": "normal"
+    },
+    {
+      "score_after": "1 - 1",
+      "scorer": "TOURE DIAWARA, MAMADOU BOUHARY",
+      "minute": 69,
+      "type": "normal"
+    },
+    {
+      "score_after": "1 - 2",
+      "scorer": "BOBI CHAMORRO, ADRIÁN",
+      "minute": 89,
+      "type": "normal"
+    }
+  ],
   "jornada": 17
 }

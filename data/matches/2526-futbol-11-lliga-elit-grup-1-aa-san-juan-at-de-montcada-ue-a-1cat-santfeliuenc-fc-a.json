@@ -108,6 +108,31 @@
     "substitutions": [],
     "cards": []
   },
-  "goals": [],
+  "goals": [
+    {
+      "score_after": "1 - 0",
+      "scorer": "PEREZ BELLO, VICTOR",
+      "minute": 44,
+      "type": "normal"
+    },
+    {
+      "score_after": "2 - 0",
+      "scorer": "ALCOVER ROIGE, ANTONI",
+      "minute": 49,
+      "type": "normal"
+    },
+    {
+      "score_after": "3 - 0",
+      "scorer": "MUÑOZ SAYOL, OSCAR",
+      "minute": 65,
+      "type": "normal"
+    },
+    {
+      "score_after": "4 - 0",
+      "scorer": "DIAZ MOLINA, ERIC",
+      "minute": 69,
+      "type": "normal"
+    }
+  ],
   "jornada": 8
 }

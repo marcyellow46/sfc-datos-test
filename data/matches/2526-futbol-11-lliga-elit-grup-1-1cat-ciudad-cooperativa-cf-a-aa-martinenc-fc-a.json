@@ -98,6 +98,31 @@
     "substitutions": [],
     "cards": []
   },
-  "goals": [],
+  "goals": [
+    {
+      "score_after": "1 - 0",
+      "scorer": "BLANCO BLANCO, BIEL",
+      "minute": 40,
+      "type": "normal"
+    },
+    {
+      "score_after": "1 - 1",
+      "scorer": "KADOCHNIKOV , VENIAMIN",
+      "minute": 52,
+      "type": "normal"
+    },
+    {
+      "score_after": "1 - 2",
+      "scorer": "SUÁREZ POSTIGO, DANIEL",
+      "minute": 75,
+      "type": "normal"
+    },
+    {
+      "score_after": "1 - 3",
+      "scorer": "FABIAN PASCUAL, VICTOR",
+      "minute": 89,
+      "type": "normal"
+    }
+  ],
   "jornada": 7
 }

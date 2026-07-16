@@ -108,6 +108,13 @@
     "substitutions": [],
     "cards": []
   },
-  "goals": [],
+  "goals": [
+    {
+      "score_after": "0 - 1",
+      "scorer": "PADILLA RUBIO, MARC",
+      "minute": 51,
+      "type": "normal"
+    }
+  ],
   "jornada": 7
 }

@@ -108,6 +108,37 @@
     "substitutions": [],
     "cards": []
   },
-  "goals": [],
+  "goals": [
+    {
+      "score_after": "0 - 1",
+      "scorer": "OLTRA PLA, IKER",
+      "minute": 28,
+      "type": "normal"
+    },
+    {
+      "score_after": "1 - 1",
+      "scorer": "FORNELL SAEZ, JOAQUIM",
+      "minute": 33,
+      "type": "normal"
+    },
+    {
+      "score_after": "1 - 2",
+      "scorer": "CASTELL SOLE, NIL",
+      "minute": 39,
+      "type": "normal"
+    },
+    {
+      "score_after": "2 - 2",
+      "scorer": "NOGALES ROVIRA, DAVID",
+      "minute": 49,
+      "type": "normal"
+    },
+    {
+      "score_after": "3 - 2",
+      "scorer": "COLY , PAPE OUMAR SARR",
+      "minute": 89,
+      "type": "normal"
+    }
+  ],
   "jornada": 30
 }

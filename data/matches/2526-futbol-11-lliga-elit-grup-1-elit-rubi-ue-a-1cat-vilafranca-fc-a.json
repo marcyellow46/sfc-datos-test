@@ -98,6 +98,13 @@
     "substitutions": [],
     "cards": []
   },
-  "goals": [],
+  "goals": [
+    {
+      "score_after": "1 - 0",
+      "scorer": "MENDOZA GARCIA, SEBASTIA",
+      "minute": 86,
+      "type": "normal"
+    }
+  ],
   "jornada": 26
 }

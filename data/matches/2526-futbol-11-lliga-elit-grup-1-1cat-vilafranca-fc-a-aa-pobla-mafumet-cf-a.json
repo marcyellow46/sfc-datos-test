@@ -98,6 +98,43 @@
     "substitutions": [],
     "cards": []
   },
-  "goals": [],
+  "goals": [
+    {
+      "score_after": "1 - 0",
+      "scorer": "ESCOFET ALEMANY, SERGI",
+      "minute": 15,
+      "type": "normal"
+    },
+    {
+      "score_after": "1 - 1",
+      "scorer": "MORA HERNANDEZ, ERIC",
+      "minute": 54,
+      "type": "normal"
+    },
+    {
+      "score_after": "2 - 1",
+      "scorer": "FORGAS PALLARES, ERNEST",
+      "minute": 57,
+      "type": "normal"
+    },
+    {
+      "score_after": "2 - 2",
+      "scorer": "CABEZAS MENSAH, DAVID",
+      "minute": 60,
+      "type": "normal"
+    },
+    {
+      "score_after": "2 - 3",
+      "scorer": "AGUZZI BETTINI, NICOLAS ALBERTO",
+      "minute": 78,
+      "type": "normal"
+    },
+    {
+      "score_after": "3 - 3",
+      "scorer": "NGOM , SERIGNE SALIOU",
+      "minute": 85,
+      "type": "normal"
+    }
+  ],
   "jornada": 4
 }

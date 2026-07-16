@@ -108,6 +108,25 @@
     "substitutions": [],
     "cards": []
   },
-  "goals": [],
+  "goals": [
+    {
+      "score_after": "0 - 1",
+      "scorer": "BEAMUZ  AROCA, ÀLEX",
+      "minute": 34,
+      "type": "normal"
+    },
+    {
+      "score_after": "1 - 1",
+      "scorer": "ZELLAL NEJAM, HICHAM",
+      "minute": 54,
+      "type": "normal"
+    },
+    {
+      "score_after": "2 - 1",
+      "scorer": "GARCÍA GARCÍA, KILIAN",
+      "minute": 86,
+      "type": "normal"
+    }
+  ],
   "jornada": 15
 }

@@ -93,6 +93,37 @@
     "substitutions": [],
     "cards": []
   },
-  "goals": [],
+  "goals": [
+    {
+      "score_after": "1 - 0",
+      "scorer": "KAWAGUCHI , SHINNOSUKE",
+      "minute": 25,
+      "type": "normal"
+    },
+    {
+      "score_after": "2 - 0",
+      "scorer": "MARC",
+      "minute": 34,
+      "type": "normal"
+    },
+    {
+      "score_after": "2 - 1",
+      "scorer": "TORRES GOMEZ, ALEJANDRO",
+      "minute": 57,
+      "type": "normal"
+    },
+    {
+      "score_after": "2 - 2",
+      "scorer": "OSORIO BARROZO, FAVIO JULIAN",
+      "minute": 77,
+      "type": "normal"
+    },
+    {
+      "score_after": "3 - 2",
+      "scorer": "FORGAS PALLARES, ERNEST",
+      "minute": 82,
+      "type": "normal"
+    }
+  ],
   "jornada": 9
 }

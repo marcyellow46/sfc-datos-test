@@ -98,6 +98,31 @@
     "substitutions": [],
     "cards": []
   },
-  "goals": [],
+  "goals": [
+    {
+      "score_after": "1 - 0",
+      "scorer": "CIFUENTES PELAEZ, RUBEN",
+      "minute": 60,
+      "type": "normal"
+    },
+    {
+      "score_after": "2 - 0",
+      "scorer": "CIFUENTES PELAEZ, RUBEN",
+      "minute": 69,
+      "type": "normal"
+    },
+    {
+      "score_after": "3 - 0",
+      "scorer": "HAMAD , ABDUL-MOUATY",
+      "minute": 89,
+      "type": "normal"
+    },
+    {
+      "score_after": "4 - 0",
+      "scorer": "AGUILAR COSTA, JULIA",
+      "minute": 89,
+      "type": "normal"
+    }
+  ],
   "jornada": 9
 }

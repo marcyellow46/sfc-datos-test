@@ -98,6 +98,49 @@
     "substitutions": [],
     "cards": []
   },
-  "goals": [],
+  "goals": [
+    {
+      "score_after": "0 - 1",
+      "scorer": "AKEL MEHDAOUI, RAMZI",
+      "minute": 17,
+      "type": "normal"
+    },
+    {
+      "score_after": "1 - 1",
+      "scorer": "LAMELAS DOMINGUEZ, MARTIN",
+      "minute": 48,
+      "type": "normal"
+    },
+    {
+      "score_after": "2 - 1",
+      "scorer": "LAMELAS DOMINGUEZ, MARTIN",
+      "minute": 65,
+      "type": "normal"
+    },
+    {
+      "score_after": "3 - 1",
+      "scorer": "GOMEZ CASAS, RUBEN",
+      "minute": 78,
+      "type": "normal"
+    },
+    {
+      "score_after": "3 - 2",
+      "scorer": "RODRÍGUEZ  ARASIL, RUBÉN",
+      "minute": 79,
+      "type": "normal"
+    },
+    {
+      "score_after": "4 - 2",
+      "scorer": "LAMELAS DOMINGUEZ, MARTIN",
+      "minute": 83,
+      "type": "normal"
+    },
+    {
+      "score_after": "5 - 2",
+      "scorer": "DONCHEV , MARTIN VALERIEV",
+      "minute": 87,
+      "type": "normal"
+    }
+  ],
   "jornada": 4
 }

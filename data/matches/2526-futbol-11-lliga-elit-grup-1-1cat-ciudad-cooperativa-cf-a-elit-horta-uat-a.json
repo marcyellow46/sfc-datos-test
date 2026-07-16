@@ -108,6 +108,13 @@
     "substitutions": [],
     "cards": []
   },
-  "goals": [],
+  "goals": [
+    {
+      "score_after": "1 - 0",
+      "scorer": "RELOBA NAVARRO, IZAN",
+      "minute": 18,
+      "type": "normal"
+    }
+  ],
   "jornada": 13
 }

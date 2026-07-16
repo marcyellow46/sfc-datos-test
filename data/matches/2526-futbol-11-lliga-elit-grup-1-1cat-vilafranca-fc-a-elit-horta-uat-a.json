@@ -108,6 +108,19 @@
     "substitutions": [],
     "cards": []
   },
-  "goals": [],
+  "goals": [
+    {
+      "score_after": "1 - 0",
+      "scorer": "ESCOFET ALEMANY, SERGI",
+      "minute": 5,
+      "type": "normal"
+    },
+    {
+      "score_after": "1 - 1",
+      "scorer": "HOMEDES DE LA FUENTE, SAMUEL",
+      "minute": 34,
+      "type": "normal"
+    }
+  ],
   "jornada": 15
 }

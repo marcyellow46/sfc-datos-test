@@ -98,6 +98,31 @@
     "substitutions": [],
     "cards": []
   },
-  "goals": [],
+  "goals": [
+    {
+      "score_after": "1 - 0",
+      "scorer": "CHICO MARINA, PATRICK",
+      "minute": 6,
+      "type": "normal"
+    },
+    {
+      "score_after": "1 - 1",
+      "scorer": "GONZALEZ OLLER, JAN ANTONI",
+      "minute": 34,
+      "type": "normal"
+    },
+    {
+      "score_after": "1 - 2",
+      "scorer": "GARCIA BAQUES, POL",
+      "minute": 75,
+      "type": "normal"
+    },
+    {
+      "score_after": "2 - 2",
+      "scorer": "GURREA SANCHEZ, ALBERT",
+      "minute": 83,
+      "type": "normal"
+    }
+  ],
   "jornada": 13
 }

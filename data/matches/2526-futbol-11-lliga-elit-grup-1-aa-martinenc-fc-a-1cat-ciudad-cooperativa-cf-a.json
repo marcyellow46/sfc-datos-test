@@ -103,6 +103,25 @@
     "substitutions": [],
     "cards": []
   },
-  "goals": [],
+  "goals": [
+    {
+      "score_after": "1 - 0",
+      "scorer": "SUÁREZ POSTIGO, DANIEL",
+      "minute": 33,
+      "type": "normal"
+    },
+    {
+      "score_after": "2 - 0",
+      "scorer": "SUÁREZ POSTIGO, DANIEL",
+      "minute": 81,
+      "type": "normal"
+    },
+    {
+      "score_after": "3 - 0",
+      "scorer": "SOSA MORENO, JUAN",
+      "minute": 89,
+      "type": "normal"
+    }
+  ],
   "jornada": 22
 }

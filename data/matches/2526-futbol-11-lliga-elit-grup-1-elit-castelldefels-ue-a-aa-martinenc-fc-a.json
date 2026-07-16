@@ -108,6 +108,19 @@
     "substitutions": [],
     "cards": []
   },
-  "goals": [],
+  "goals": [
+    {
+      "score_after": "0 - 1",
+      "scorer": "GONZALEZ ALCANTARA, CARLOS",
+      "minute": 30,
+      "type": "normal"
+    },
+    {
+      "score_after": "1 - 1",
+      "scorer": "VILLAVERDE GARCIA, KILIAN",
+      "minute": 64,
+      "type": "normal"
+    }
+  ],
   "jornada": 17
 }

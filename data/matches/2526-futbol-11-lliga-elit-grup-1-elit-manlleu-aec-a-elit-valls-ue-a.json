@@ -108,6 +108,25 @@
     "substitutions": [],
     "cards": []
   },
-  "goals": [],
+  "goals": [
+    {
+      "score_after": "1 - 0",
+      "scorer": "CASANOVA CLUSELLS, ADRIA",
+      "minute": 68,
+      "type": "normal"
+    },
+    {
+      "score_after": "2 - 0",
+      "scorer": "ROGER SOLA, RAFEL",
+      "minute": 72,
+      "type": "normal"
+    },
+    {
+      "score_after": "2 - 1",
+      "scorer": "DOMINGO CIURANETA, JOAN",
+      "minute": 89,
+      "type": "normal"
+    }
+  ],
   "jornada": 30
 }

@@ -103,6 +103,31 @@
     "substitutions": [],
     "cards": []
   },
-  "goals": [],
+  "goals": [
+    {
+      "score_after": "0 - 1",
+      "scorer": "RECHE HUCHA, OSCAR",
+      "minute": 31,
+      "type": "normal"
+    },
+    {
+      "score_after": "0 - 2",
+      "scorer": "FERNANDEZ AMAT, JOSE JAVIER",
+      "minute": 51,
+      "type": "normal"
+    },
+    {
+      "score_after": "1 - 2",
+      "scorer": "VIDAL GIRONES, RICARD",
+      "minute": 62,
+      "type": "normal"
+    },
+    {
+      "score_after": "2 - 2",
+      "scorer": "REINKE GONÇALVES, GUSTAVO",
+      "minute": 85,
+      "type": "normal"
+    }
+  ],
   "jornada": 15
 }

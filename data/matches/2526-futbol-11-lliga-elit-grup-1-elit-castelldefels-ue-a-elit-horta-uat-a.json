@@ -108,6 +108,13 @@
     "substitutions": [],
     "cards": []
   },
-  "goals": [],
+  "goals": [
+    {
+      "score_after": "1 - 0",
+      "scorer": "DEL CHICCA DORADO, HUGO",
+      "minute": 75,
+      "type": "normal"
+    }
+  ],
   "jornada": 8
 }

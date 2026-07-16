@@ -98,6 +98,37 @@
     "substitutions": [],
     "cards": []
   },
-  "goals": [],
+  "goals": [
+    {
+      "score_after": "0 - 1",
+      "scorer": "CIURÓ RIUDEUBAS, ROGER",
+      "minute": 7,
+      "type": "normal"
+    },
+    {
+      "score_after": "1 - 1",
+      "scorer": "TEJADA GALLARDO, EDGAR",
+      "minute": 37,
+      "type": "normal"
+    },
+    {
+      "score_after": "1 - 2",
+      "scorer": "CABEZAS MENSAH, DAVID",
+      "minute": 47,
+      "type": "normal"
+    },
+    {
+      "score_after": "1 - 3",
+      "scorer": "QUEROL MONTAÑES, ALBERT",
+      "minute": 54,
+      "type": "normal"
+    },
+    {
+      "score_after": "2 - 3",
+      "scorer": "SUÁREZ POSTIGO, DANIEL",
+      "minute": 73,
+      "type": "normal"
+    }
+  ],
   "jornada": 29
 }

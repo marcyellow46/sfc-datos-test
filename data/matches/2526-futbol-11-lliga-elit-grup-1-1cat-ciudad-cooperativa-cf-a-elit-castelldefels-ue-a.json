@@ -93,6 +93,13 @@
     "substitutions": [],
     "cards": []
   },
-  "goals": [],
+  "goals": [
+    {
+      "score_after": "1 - 0",
+      "scorer": "ZELLAL NEJAM, HICHAM",
+      "minute": 66,
+      "type": "normal"
+    }
+  ],
   "jornada": 25
 }

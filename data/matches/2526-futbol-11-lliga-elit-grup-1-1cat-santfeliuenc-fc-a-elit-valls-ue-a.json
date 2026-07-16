@@ -103,6 +103,19 @@
     "substitutions": [],
     "cards": []
   },
-  "goals": [],
+  "goals": [
+    {
+      "score_after": "1 - 0",
+      "scorer": "CARESIA MESA, PAU",
+      "minute": 25,
+      "type": "normal"
+    },
+    {
+      "score_after": "1 - 1",
+      "scorer": "MORELL BONO, OSCAR",
+      "minute": 60,
+      "type": "normal"
+    }
+  ],
   "jornada": 28
 }

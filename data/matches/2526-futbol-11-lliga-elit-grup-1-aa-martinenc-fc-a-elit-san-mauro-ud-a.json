@@ -108,6 +108,25 @@
     "substitutions": [],
     "cards": []
   },
-  "goals": [],
+  "goals": [
+    {
+      "score_after": "0 - 1",
+      "scorer": "YÁÑEZ BORRÀS, PAU",
+      "minute": 14,
+      "type": "normal"
+    },
+    {
+      "score_after": "1 - 1",
+      "scorer": "PLAZUELO MOLINA, EUGENIO",
+      "minute": 44,
+      "type": "normal"
+    },
+    {
+      "score_after": "2 - 1",
+      "scorer": "SARO SATRÚSTEGUI, ADRIÀ",
+      "minute": 84,
+      "type": "normal"
+    }
+  ],
   "jornada": 10
 }

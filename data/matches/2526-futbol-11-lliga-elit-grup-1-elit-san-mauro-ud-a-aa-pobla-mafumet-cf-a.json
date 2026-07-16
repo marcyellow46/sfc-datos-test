@@ -93,6 +93,25 @@
     "substitutions": [],
     "cards": []
   },
-  "goals": [],
+  "goals": [
+    {
+      "score_after": "0 - 1",
+      "scorer": "SAMPER ARBO, XAVIER",
+      "minute": 66,
+      "type": "normal"
+    },
+    {
+      "score_after": "1 - 1",
+      "scorer": "MAYMÓ BALLESTER, LLUC",
+      "minute": 87,
+      "type": "normal"
+    },
+    {
+      "score_after": "1 - 2",
+      "scorer": "MAYA PÉREZ, RUBÉN",
+      "minute": 89,
+      "type": "normal"
+    }
+  ],
   "jornada": 6
 }

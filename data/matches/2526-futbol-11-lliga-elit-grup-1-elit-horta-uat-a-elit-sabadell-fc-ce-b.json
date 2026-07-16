@@ -108,6 +108,25 @@
     "substitutions": [],
     "cards": []
   },
-  "goals": [],
+  "goals": [
+    {
+      "score_after": "0 - 1",
+      "scorer": "SALGUERO CUENCA, ERICK",
+      "minute": 33,
+      "type": "normal"
+    },
+    {
+      "score_after": "1 - 1",
+      "scorer": "LOPEZ CABEZAS, JORDI",
+      "minute": 39,
+      "type": "normal"
+    },
+    {
+      "score_after": "1 - 2",
+      "scorer": "BOBI CHAMORRO, ADRIÁN",
+      "minute": 75,
+      "type": "normal"
+    }
+  ],
   "jornada": 19
 }

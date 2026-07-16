@@ -98,6 +98,19 @@
     "substitutions": [],
     "cards": []
   },
-  "goals": [],
+  "goals": [
+    {
+      "score_after": "1 - 0",
+      "scorer": "CASTELL SOLE, NIL",
+      "minute": 69,
+      "type": "normal"
+    },
+    {
+      "score_after": "2 - 0",
+      "scorer": "AFAZAZ BEN HAMZA, ABDELLAH",
+      "minute": 89,
+      "type": "normal"
+    }
+  ],
   "jornada": 18
 }

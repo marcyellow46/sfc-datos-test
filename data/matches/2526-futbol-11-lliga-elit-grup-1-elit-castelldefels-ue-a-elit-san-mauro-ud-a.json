@@ -88,6 +88,19 @@
     "substitutions": [],
     "cards": []
   },
-  "goals": [],
+  "goals": [
+    {
+      "score_after": "0 - 1",
+      "scorer": "CAÑERO CARMONA, ALEX",
+      "minute": 8,
+      "type": "normal"
+    },
+    {
+      "score_after": "0 - 2",
+      "scorer": "GULIAS AGUILERA, MARC",
+      "minute": 39,
+      "type": "normal"
+    }
+  ],
   "jornada": 28
 }

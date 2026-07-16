@@ -103,6 +103,31 @@
     "substitutions": [],
     "cards": []
   },
-  "goals": [],
+  "goals": [
+    {
+      "score_after": "1 - 0",
+      "scorer": "COSANO BERROCAL, KENNETH",
+      "minute": 46,
+      "type": "normal"
+    },
+    {
+      "score_after": "2 - 0",
+      "scorer": "MAYMÓ BALLESTER, LLUC",
+      "minute": 64,
+      "type": "normal"
+    },
+    {
+      "score_after": "3 - 0",
+      "scorer": "GULIAS AGUILERA, MARC",
+      "minute": 73,
+      "type": "normal"
+    },
+    {
+      "score_after": "4 - 0",
+      "scorer": "GULIAS AGUILERA, MARC",
+      "minute": 82,
+      "type": "normal"
+    }
+  ],
   "jornada": 29
 }

@@ -98,6 +98,19 @@
     "substitutions": [],
     "cards": []
   },
-  "goals": [],
+  "goals": [
+    {
+      "score_after": "0 - 1",
+      "scorer": "GENESCA GONZALEZ, LLORENÇ",
+      "minute": 62,
+      "type": "normal"
+    },
+    {
+      "score_after": "0 - 2",
+      "scorer": "BASSOLS BOSCH, ADRIA",
+      "minute": 80,
+      "type": "normal"
+    }
+  ],
   "jornada": 25
 }

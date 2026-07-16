@@ -103,6 +103,43 @@
     "substitutions": [],
     "cards": []
   },
-  "goals": [],
+  "goals": [
+    {
+      "score_after": "0 - 1",
+      "scorer": "JUNCÀ ROVIRA, MARC",
+      "minute": 30,
+      "type": "normal"
+    },
+    {
+      "score_after": "0 - 2",
+      "scorer": "REY GALLEGO, SERGIO",
+      "minute": 44,
+      "type": "normal"
+    },
+    {
+      "score_after": "1 - 2",
+      "scorer": "VILLAVERDE GARCIA, KILIAN",
+      "minute": 64,
+      "type": "normal"
+    },
+    {
+      "score_after": "2 - 2",
+      "scorer": "PARRA GARCIA, EDGAR",
+      "minute": 82,
+      "type": "normal"
+    },
+    {
+      "score_after": "3 - 2",
+      "scorer": "POZUELO RIERA, ELOI",
+      "minute": 89,
+      "type": "normal"
+    },
+    {
+      "score_after": "4 - 2",
+      "scorer": "GIBERT FUERTES, JOAN",
+      "minute": 89,
+      "type": "normal"
+    }
+  ],
   "jornada": 19
 }

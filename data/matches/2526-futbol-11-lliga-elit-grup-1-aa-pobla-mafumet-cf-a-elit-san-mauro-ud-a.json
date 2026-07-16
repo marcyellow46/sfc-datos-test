@@ -103,6 +103,13 @@
     "substitutions": [],
     "cards": []
   },
-  "goals": [],
+  "goals": [
+    {
+      "score_after": "0 - 1",
+      "scorer": "MERINAS CLOP, ERNEST",
+      "minute": 84,
+      "type": "normal"
+    }
+  ],
   "jornada": 21
 }

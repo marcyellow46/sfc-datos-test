@@ -108,6 +108,13 @@
     "substitutions": [],
     "cards": []
   },
-  "goals": [],
+  "goals": [
+    {
+      "score_after": "1 - 0",
+      "scorer": "MALDONADO MOYA, IZAN",
+      "minute": 2,
+      "type": "normal"
+    }
+  ],
   "jornada": 3
 }

@@ -103,6 +103,19 @@
     "substitutions": [],
     "cards": []
   },
-  "goals": [],
+  "goals": [
+    {
+      "score_after": "1 - 0",
+      "scorer": "SUAREZ SANZ, ADRIA",
+      "minute": 21,
+      "type": "normal"
+    },
+    {
+      "score_after": "1 - 1",
+      "scorer": "VILLAVERDE GARCIA, KILIAN",
+      "minute": 89,
+      "type": "normal"
+    }
+  ],
   "jornada": 11
 }

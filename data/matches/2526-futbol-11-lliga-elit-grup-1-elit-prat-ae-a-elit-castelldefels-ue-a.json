@@ -93,6 +93,43 @@
     "substitutions": [],
     "cards": []
   },
-  "goals": [],
+  "goals": [
+    {
+      "score_after": "1 - 0",
+      "scorer": "VIDAL GIRONES, RICARD",
+      "minute": 24,
+      "type": "normal"
+    },
+    {
+      "score_after": "2 - 0",
+      "scorer": "VIDAL GIRONES, RICARD",
+      "minute": 39,
+      "type": "normal"
+    },
+    {
+      "score_after": "2 - 1",
+      "scorer": "POZUELO RIERA, ELOI",
+      "minute": 84,
+      "type": "normal"
+    },
+    {
+      "score_after": "2 - 2",
+      "scorer": "POZUELO RIERA, ELOI",
+      "minute": 88,
+      "type": "normal"
+    },
+    {
+      "score_after": "2 - 3",
+      "scorer": "ALDABÓ BENAQUE, POL",
+      "minute": 89,
+      "type": "normal"
+    },
+    {
+      "score_after": "2 - 4",
+      "scorer": "VILLAVERDE GARCIA, KILIAN",
+      "minute": 89,
+      "type": "normal"
+    }
+  ],
   "jornada": 29
 }

@@ -98,6 +98,25 @@
     "substitutions": [],
     "cards": []
   },
-  "goals": [],
+  "goals": [
+    {
+      "score_after": "0 - 1",
+      "scorer": "ARAGALL PUIGVERT, JORDI",
+      "minute": 14,
+      "type": "normal"
+    },
+    {
+      "score_after": "0 - 2",
+      "scorer": "HOMEDES DE LA FUENTE, SAMUEL",
+      "minute": 60,
+      "type": "normal"
+    },
+    {
+      "score_after": "0 - 3",
+      "scorer": "HOMEDES DE LA FUENTE, SAMUEL",
+      "minute": 73,
+      "type": "normal"
+    }
+  ],
   "jornada": 6
 }

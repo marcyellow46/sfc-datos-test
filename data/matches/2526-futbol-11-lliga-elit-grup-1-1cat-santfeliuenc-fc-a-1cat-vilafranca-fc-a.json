@@ -108,6 +108,13 @@
     "substitutions": [],
     "cards": []
   },
-  "goals": [],
+  "goals": [
+    {
+      "score_after": "1 - 0",
+      "scorer": "VILLEGAS SANTOS, ALBERT",
+      "minute": 55,
+      "type": "normal"
+    }
+  ],
   "jornada": 14
 }

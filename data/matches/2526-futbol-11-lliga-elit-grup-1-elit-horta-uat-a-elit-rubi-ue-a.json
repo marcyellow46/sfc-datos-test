@@ -103,6 +103,25 @@
     "substitutions": [],
     "cards": []
   },
-  "goals": [],
+  "goals": [
+    {
+      "score_after": "0 - 1",
+      "scorer": "LOPEZ ESCRIG, YOEL",
+      "minute": 54,
+      "type": "normal"
+    },
+    {
+      "score_after": "1 - 1",
+      "scorer": "FORNELL SAEZ, JOAQUIM",
+      "minute": 56,
+      "type": "normal"
+    },
+    {
+      "score_after": "1 - 2",
+      "scorer": "CORNELLA MOLINS, ALEX",
+      "minute": 69,
+      "type": "normal"
+    }
+  ],
   "jornada": 7
 }
