@@ -48,7 +48,7 @@ GROUP = "grup-1"
 MAX_JORNADAS = 34                     # límite de seguridad; se detiene antes si no hay más
 REQUEST_DELAY_SECONDS = 1.0           # ser educado con el servidor de la FCF
 DEBUG = False                         # True -> guarda el html de cada página descargada
-FORCE_REFRESH = False                  # True -> re-parsea TODO aunque el JSON ya exista.
+FORCE_REFRESH = True                  # True -> re-parsea TODO aunque el JSON ya exista.
                                        # Ponlo en True puntualmente cuando cambies la
                                        # lógica de parseo (como ahora, para corregir los
                                        # partidos guardados con el nombre de equipo local
@@ -262,24 +262,42 @@ def _parse_substitutions(table):
     return subs
 
 
-def _parse_goals(table):
+def _parse_goals(soup):
+    """
+    En vez de buscar primero la tabla que sigue al texto "Gols" (frágil: si
+    "Gols" es la propia cabecera de esa tabla en lugar de un título aparte,
+    "la siguiente tabla" es la equivocada — esto es justo lo que estaba
+    pasando: 0 goles detectados en los 240 partidos reales), recorremos
+    TODAS las filas <tr> del documento y nos quedamos con las que tienen
+    forma de fila de gol:
+      - primera celda con un marcador tipo "1 - 0"
+      - un enlace a un jugador (href "/jugador/") en la fila
+      - última celda con un minuto tipo "45'"
+    Esto es más robusto porque no depende de dónde esté colocada la tabla
+    ni de cómo se llame su cabecera.
+    """
     goals = []
-    if not table:
-        return goals
-    for row in table.find_all("tr"):
+    for row in soup.find_all("tr"):
         cells = row.find_all("td")
         if len(cells) < 3:
             continue
         score_txt = cells[0].get_text(strip=True)
-        link = cells[-2].find("a") if len(cells) >= 2 else None
-        scorer = link.get_text(strip=True) if link else None
+        if not re.match(r"^\d+\s*-\s*\d+$", score_txt):
+            continue
+
+        link = row.find("a", href=re.compile(r"/jugador/"))
+        if not link:
+            continue
+        scorer = link.get_text(strip=True)
+
         minute_txt = cells[-1].get_text(strip=True).replace("'", "")
-        if not (scorer and minute_txt.isdigit()):
+        if not minute_txt.isdigit():
             continue
 
         # Intento de detectar el tipo de gol por el icono (alt/src de la img).
-        # AJUSTAR aquí una vez se vea el HTML real: de momento clasifica por
-        # palabras clave típicas ("penal", "propia") si aparecen en alt/title/src.
+        # AJUSTAR aquí si se confirma un patrón distinto: de momento clasifica
+        # por palabras clave típicas ("penal", "propia") si aparecen en
+        # alt/title/src de alguna imagen de la fila.
         goal_type = "normal"
         img = row.find("img")
         if img:
@@ -354,8 +372,7 @@ def parse_acta(acta_url: str) -> dict:
     home_cards = _parse_cards(table_after(cards_tables[0])) if len(cards_tables) > 0 else []
     away_cards = _parse_cards(table_after(cards_tables[1])) if len(cards_tables) > 1 else []
 
-    goals_table = _find_section_table(soup, "Gols")
-    goals = _parse_goals(goals_table)
+    goals = _parse_goals(soup)
 
     # fecha del partido (aparece como "Data: DD-MM-AAAA, HH:MMh")
     date_match = re.search(r"Data:\s*([\d\-]+),?\s*([\d:]+h)?", soup.get_text())
