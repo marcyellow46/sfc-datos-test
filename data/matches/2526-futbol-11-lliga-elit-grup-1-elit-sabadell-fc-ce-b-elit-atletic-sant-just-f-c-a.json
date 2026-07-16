@@ -1,0 +1,113 @@
+{
+  "acta_url": "https://www.fcf.cat/acta/2526/futbol-11/lliga-elit/grup-1/elit/sabadell-fc-ce-b/elit/atletic-sant-just-f-c-a",
+  "date": "09-05-2026",
+  "score": "2025-2026",
+  "home": {
+    "name": "",
+    "starters": [
+      {
+        "dorsal": 1,
+        "name": "CIURANS CANO, ORIOL",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/677820"
+      },
+      {
+        "dorsal": 3,
+        "name": "TORRES CAMARGO, MARIO",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/15127804"
+      },
+      {
+        "dorsal": 7,
+        "name": "BOBI CHAMORRO, ADRIÁN",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/15190170"
+      },
+      {
+        "dorsal": 11,
+        "name": "ROSENA CAÑAMERO, IZAN",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/15544227"
+      },
+      {
+        "dorsal": 12,
+        "name": "PEMBERTON , VINCENT NINIAN DAVID",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/19771640"
+      },
+      {
+        "dorsal": 14,
+        "name": "MARCH PONS, BRU",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/18567940"
+      },
+      {
+        "dorsal": 15,
+        "name": "MUÑOZ RAYA, MARCOS",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/18475263"
+      },
+      {
+        "dorsal": 18,
+        "name": "FERNÁNDEZ BAUMGARTNER, ADRIÁN",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/57740586"
+      },
+      {
+        "dorsal": 26,
+        "name": "DE WEERD ROBLES, ALEX",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/44698885"
+      }
+    ],
+    "bench": [],
+    "substitutions": [],
+    "cards": []
+  },
+  "away": {
+    "name": "SABADELL F.C., C.E. B",
+    "starters": [
+      {
+        "dorsal": 8,
+        "name": "RUIZ PIQUE, ARNAU",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/18632084"
+      },
+      {
+        "dorsal": 9,
+        "name": "GUMA CERQUEDA, JAN",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/38436012"
+      },
+      {
+        "dorsal": 11,
+        "name": "JAWO DANSO, MUHAMMED DABA",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/56937815"
+      },
+      {
+        "dorsal": 13,
+        "name": "LOPEZ LLORENS, VICTOR",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/15947526"
+      },
+      {
+        "dorsal": 15,
+        "name": "RAMBLA FORTES, PAU",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/27386059"
+      },
+      {
+        "dorsal": 16,
+        "name": "MELERO CALVO, UNAI",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/15544346"
+      },
+      {
+        "dorsal": 18,
+        "name": "GASPAR MARTINEZ, MARIO",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/18480032"
+      },
+      {
+        "dorsal": 20,
+        "name": "GARCIA BAQUES, POL",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/15610923"
+      },
+      {
+        "dorsal": 24,
+        "name": "SORROCHE CALLE, MARK",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/785098"
+      }
+    ],
+    "bench": [],
+    "substitutions": [],
+    "cards": []
+  },
+  "goals": [],
+  "jornada": 29
+}

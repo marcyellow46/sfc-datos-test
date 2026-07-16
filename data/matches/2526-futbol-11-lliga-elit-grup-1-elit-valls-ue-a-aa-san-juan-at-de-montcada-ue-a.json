@@ -1,0 +1,113 @@
+{
+  "acta_url": "https://www.fcf.cat/acta/2526/futbol-11/lliga-elit/grup-1/elit/valls-ue-a/aa/san-juan-at-de-montcada-ue-a",
+  "date": "26-04-2026",
+  "score": "2025-2026",
+  "home": {
+    "name": "",
+    "starters": [
+      {
+        "dorsal": 1,
+        "name": "ROMAGUERA I OLIVÉ, ALEX",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/15056757"
+      },
+      {
+        "dorsal": 3,
+        "name": "MORELL BONO, OSCAR",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/686445"
+      },
+      {
+        "dorsal": 7,
+        "name": "SUAREZ SANZ, ADRIA",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/742304"
+      },
+      {
+        "dorsal": 8,
+        "name": "GUASCH PORTAS, MARC",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/705581"
+      },
+      {
+        "dorsal": 9,
+        "name": "GARCIA COMPANY, DANIEL",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/700526"
+      },
+      {
+        "dorsal": 19,
+        "name": "VEGA ALDOMA, SERGI",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/19795871"
+      },
+      {
+        "dorsal": 20,
+        "name": "GÓMEZ MACÍAS, HUGO",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/639257"
+      },
+      {
+        "dorsal": 23,
+        "name": "LORCA RODRÍGUEZ, JOAQUIN",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/15056727"
+      },
+      {
+        "dorsal": 26,
+        "name": "ORIOL GRACIA, EDUARD",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/900003705"
+      }
+    ],
+    "bench": [],
+    "substitutions": [],
+    "cards": []
+  },
+  "away": {
+    "name": "VALLS U.E. A",
+    "starters": [
+      {
+        "dorsal": 2,
+        "name": "ORTIZ PARAISO, JOSHUA",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/353696"
+      },
+      {
+        "dorsal": 7,
+        "name": "RECHE HUCHA, OSCAR",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/706833"
+      },
+      {
+        "dorsal": 8,
+        "name": "GALEANO JARDI, FERNANDO",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/642177"
+      },
+      {
+        "dorsal": 9,
+        "name": "SANTIAGO PEREZ, ANTONIO",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/900007321"
+      },
+      {
+        "dorsal": 10,
+        "name": "MUÑOZ SAYOL, OSCAR",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/900009104"
+      },
+      {
+        "dorsal": 13,
+        "name": "GARCIA HERNANDEZ, ROGER",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/694000"
+      },
+      {
+        "dorsal": 15,
+        "name": "RUIZ SANTAMARÍA, HUGO",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/15624100"
+      },
+      {
+        "dorsal": 20,
+        "name": "MONTEJO GARCIA, MARC",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/713924"
+      },
+      {
+        "dorsal": 24,
+        "name": "FERNANDEZ AMAT, JOSE JAVIER",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/900009640"
+      }
+    ],
+    "bench": [],
+    "substitutions": [],
+    "cards": []
+  },
+  "goals": [],
+  "jornada": 27
+}

@@ -1,0 +1,98 @@
+{
+  "acta_url": "https://www.fcf.cat/acta/2526/futbol-11/lliga-elit/grup-1/1cat/jupiter-ce-a/1cat/vilafranca-fc-a",
+  "date": "15-03-2026",
+  "score": "2025-2026",
+  "home": {
+    "name": "",
+    "starters": [
+      {
+        "dorsal": 3,
+        "name": "BASSOLS BOSCH, ADRIA",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/672077"
+      },
+      {
+        "dorsal": 5,
+        "name": "KARROUCH KADRI, HICHAM",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/40723113"
+      },
+      {
+        "dorsal": 12,
+        "name": "SANCHEZ MOYA, DANIEL",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/18593525"
+      },
+      {
+        "dorsal": 16,
+        "name": "FALGUERAS LLOP, MARTÍ",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/25844936"
+      },
+      {
+        "dorsal": 17,
+        "name": "DAHBI AKALAY, BADREDDINE",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/749393"
+      },
+      {
+        "dorsal": 23,
+        "name": "GONZALEZ NAVARRO, DIDAC",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/15548932"
+      },
+      {
+        "dorsal": 24,
+        "name": "CLARÀ ANDREU, GERARD",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/45161775"
+      },
+      {
+        "dorsal": 25,
+        "name": "NADAL FERNANDEZ, CARLOS",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/786532"
+      }
+    ],
+    "bench": [],
+    "substitutions": [],
+    "cards": []
+  },
+  "away": {
+    "name": "JÚPITER, C.E. A",
+    "starters": [
+      {
+        "dorsal": 1,
+        "name": "BENITO MARTÍN, DAVID",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/685486"
+      },
+      {
+        "dorsal": 4,
+        "name": "OLTRA PLA, IKER",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/746890"
+      },
+      {
+        "dorsal": 5,
+        "name": "HILL VALLS, ERIC",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/54594399"
+      },
+      {
+        "dorsal": 11,
+        "name": "OUMANSSOUR OUFOUL, KHALID",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/30421588"
+      },
+      {
+        "dorsal": 12,
+        "name": "FENOLLOSA TORRES, JOSEP ORIOL",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/18703880"
+      },
+      {
+        "dorsal": 17,
+        "name": "MARC",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/15695132"
+      },
+      {
+        "dorsal": 18,
+        "name": "RAVENTOS ALMIRALL, ORIOL",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/26715398"
+      }
+    ],
+    "bench": [],
+    "substitutions": [],
+    "cards": []
+  },
+  "goals": [],
+  "jornada": 22
+}

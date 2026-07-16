@@ -1,0 +1,108 @@
+{
+  "acta_url": "https://www.fcf.cat/acta/2526/futbol-11/lliga-elit/grup-1/elit/sabadell-fc-ce-b/1cat/ciudad-cooperativa-cf-a",
+  "date": "26-10-2025",
+  "score": "2025-2026",
+  "home": {
+    "name": "",
+    "starters": [
+      {
+        "dorsal": 1,
+        "name": "CIURANS CANO, ORIOL",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/677820"
+      },
+      {
+        "dorsal": 11,
+        "name": "ROSENA CAÑAMERO, IZAN",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/15544227"
+      },
+      {
+        "dorsal": 12,
+        "name": "DIABY DIAWARA, MAMADOU",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/15159103"
+      },
+      {
+        "dorsal": 15,
+        "name": "MUÑOZ RAYA, MARCOS",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/18475263"
+      },
+      {
+        "dorsal": 18,
+        "name": "ZAMORA LOZANO, ALONSO",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/18491640"
+      },
+      {
+        "dorsal": 21,
+        "name": "DIAZ SORIANO, ALBERTO",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/15645738"
+      },
+      {
+        "dorsal": 23,
+        "name": "BARRERA FONT, ROGER",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/18778179"
+      },
+      {
+        "dorsal": 24,
+        "name": "TOURE DIAWARA, MAMADOU BOUHARY",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/747210"
+      },
+      {
+        "dorsal": 27,
+        "name": "DE WEERD ROBLES, ALEX",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/44698885"
+      }
+    ],
+    "bench": [],
+    "substitutions": [],
+    "cards": []
+  },
+  "away": {
+    "name": "SABADELL F.C., C.E. B",
+    "starters": [
+      {
+        "dorsal": 1,
+        "name": "ALTÉS GUERRERO, JOAN",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/780711"
+      },
+      {
+        "dorsal": 4,
+        "name": "DE SOKOLOW LEYVA, BRYAN",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/15141268"
+      },
+      {
+        "dorsal": 6,
+        "name": "HIDALGO PEREZ, MANUEL",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/18730429"
+      },
+      {
+        "dorsal": 11,
+        "name": "SERRANO RUIZ, LUIS",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/704410"
+      },
+      {
+        "dorsal": 15,
+        "name": "MARTINEZ DOMINGUEZ, DANIEL",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/7001929"
+      },
+      {
+        "dorsal": 17,
+        "name": "MIRANDA COSTA, HECTOR",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/15640648"
+      },
+      {
+        "dorsal": 19,
+        "name": "DELGADO CHICANO, ADRIAN",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/15687408"
+      },
+      {
+        "dorsal": 22,
+        "name": "AKEL MEHDAOUI, RAMZI",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/27325614"
+      }
+    ],
+    "bench": [],
+    "substitutions": [],
+    "cards": []
+  },
+  "goals": [],
+  "jornada": 6
+}

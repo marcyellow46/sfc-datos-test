@@ -1,0 +1,113 @@
+{
+  "acta_url": "https://www.fcf.cat/acta/2526/futbol-11/lliga-elit/grup-1/elit/castelldefels-ue-a/elit/atletic-sant-just-f-c-a",
+  "date": "12-11-2025",
+  "score": "2025-2026",
+  "home": {
+    "name": "",
+    "starters": [
+      {
+        "dorsal": 1,
+        "name": "MORENO LOPEZ, DAVID",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/724479"
+      },
+      {
+        "dorsal": 2,
+        "name": "MARTIN DURAN, JUAN ANTONIO",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/900009008"
+      },
+      {
+        "dorsal": 7,
+        "name": "RAMIREZ RUIZ, ENRIQUE",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/642498"
+      },
+      {
+        "dorsal": 10,
+        "name": "CANO JIMENEZ, CARLOS",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/633680"
+      },
+      {
+        "dorsal": 15,
+        "name": "FAURA MARTINEZ, JOEL",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/15908749"
+      },
+      {
+        "dorsal": 16,
+        "name": "FERREIRA MOREIRA, JONATHAN",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/44279498"
+      },
+      {
+        "dorsal": 21,
+        "name": "DIAZ MENDOZA, ALEIX",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/648528"
+      },
+      {
+        "dorsal": 22,
+        "name": "THEO DE VILLARS",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/19625740"
+      },
+      {
+        "dorsal": 24,
+        "name": "VILLAVERDE GARCIA, KILIAN",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/40748333"
+      }
+    ],
+    "bench": [],
+    "substitutions": [],
+    "cards": []
+  },
+  "away": {
+    "name": "CASTELLDEFELS, U.E. A",
+    "starters": [
+      {
+        "dorsal": 8,
+        "name": "RUIZ PIQUE, ARNAU",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/18632084"
+      },
+      {
+        "dorsal": 9,
+        "name": "WERCKMEISTER GARCIA, ANDER",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/18651406"
+      },
+      {
+        "dorsal": 12,
+        "name": "SANCHEZ PLACENCIA, IVAN",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/15158482"
+      },
+      {
+        "dorsal": 13,
+        "name": "CRESPO YUNTA, GUILLERMO",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/15666684"
+      },
+      {
+        "dorsal": 14,
+        "name": "RABANAL VILLAR, ANIOL",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/637130"
+      },
+      {
+        "dorsal": 16,
+        "name": "MELERO CALVO, UNAI",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/15544346"
+      },
+      {
+        "dorsal": 17,
+        "name": "GIL NAVARRO, JOEL",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/15550746"
+      },
+      {
+        "dorsal": 19,
+        "name": "ARJONA SERRANO, PAU",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/750040"
+      },
+      {
+        "dorsal": 25,
+        "name": "KANTE , ALHASSANE",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/43487600"
+      }
+    ],
+    "bench": [],
+    "substitutions": [],
+    "cards": []
+  },
+  "goals": [],
+  "jornada": 3
+}

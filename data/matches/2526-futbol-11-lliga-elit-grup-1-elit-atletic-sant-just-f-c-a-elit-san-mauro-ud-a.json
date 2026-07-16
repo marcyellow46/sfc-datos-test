@@ -1,0 +1,108 @@
+{
+  "acta_url": "https://www.fcf.cat/acta/2526/futbol-11/lliga-elit/grup-1/elit/atletic-sant-just-f-c-a/elit/san-mauro-ud-a",
+  "date": "18-04-2026",
+  "score": "2025-2026",
+  "home": {
+    "name": "",
+    "starters": [
+      {
+        "dorsal": 7,
+        "name": "MATEO QUEJIGO, PAU",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/313559"
+      },
+      {
+        "dorsal": 9,
+        "name": "GUMA CERQUEDA, JAN",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/38436012"
+      },
+      {
+        "dorsal": 13,
+        "name": "LOPEZ LLORENS, VICTOR",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/15947526"
+      },
+      {
+        "dorsal": 14,
+        "name": "RABANAL VILLAR, ANIOL",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/637130"
+      },
+      {
+        "dorsal": 17,
+        "name": "GIL NAVARRO, JOEL",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/15550746"
+      },
+      {
+        "dorsal": 19,
+        "name": "ARJONA SERRANO, PAU",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/750040"
+      },
+      {
+        "dorsal": 22,
+        "name": "PILAR DEL HOYO, JON",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/15706465"
+      },
+      {
+        "dorsal": 23,
+        "name": "CLAVIJO LARIOS, PABLO",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/15625670"
+      },
+      {
+        "dorsal": 25,
+        "name": "SANCHEZ ERAZO, ALLAN MACCRAY",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/57736517"
+      }
+    ],
+    "bench": [],
+    "substitutions": [],
+    "cards": []
+  },
+  "away": {
+    "name": "ATLETIC SANT JUST . F. C. A",
+    "starters": [
+      {
+        "dorsal": 13,
+        "name": "CLARAMUNT GONZALEZ, ADRIÀ",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/15643074"
+      },
+      {
+        "dorsal": 15,
+        "name": "ESPINOSA FIGUERAS, JAIRÓN RUBÉN",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/15243936"
+      },
+      {
+        "dorsal": 17,
+        "name": "ROMEU MARQUES, POL",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/18669938"
+      },
+      {
+        "dorsal": 18,
+        "name": "MORENO ORDOÑEZ, DAVID",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/15089975"
+      },
+      {
+        "dorsal": 19,
+        "name": "CAÑERO CARMONA, ALEX",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/31990626"
+      },
+      {
+        "dorsal": 21,
+        "name": "MARQUILLAS BONAVILA, GERARD",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/644228"
+      },
+      {
+        "dorsal": 22,
+        "name": "BARBERO GARCIA, RODRIGO",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/38056126"
+      },
+      {
+        "dorsal": 24,
+        "name": "COSANO BERROCAL, KENNETH",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/646697"
+      }
+    ],
+    "bench": [],
+    "substitutions": [],
+    "cards": []
+  },
+  "goals": [],
+  "jornada": 26
+}

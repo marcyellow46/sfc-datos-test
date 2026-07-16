@@ -1,0 +1,113 @@
+{
+  "acta_url": "https://www.fcf.cat/acta/2526/futbol-11/lliga-elit/grup-1/aa/san-juan-at-de-montcada-ue-a/1cat/ciudad-cooperativa-cf-a",
+  "date": "18-04-2026",
+  "score": "2025-2026",
+  "home": {
+    "name": "",
+    "starters": [
+      {
+        "dorsal": 1,
+        "name": "GARCIA HERNANDEZ, ROGER",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/694000"
+      },
+      {
+        "dorsal": 2,
+        "name": "ORTIZ PARAISO, JOSHUA",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/353696"
+      },
+      {
+        "dorsal": 3,
+        "name": "POU GOMEZ, ARNAU",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/15550976"
+      },
+      {
+        "dorsal": 9,
+        "name": "SANTIAGO PEREZ, ANTONIO",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/900007321"
+      },
+      {
+        "dorsal": 10,
+        "name": "MUÑOZ SAYOL, OSCAR",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/900009104"
+      },
+      {
+        "dorsal": 16,
+        "name": "BA ANDEME, MARCELO SALIOU",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/15116905"
+      },
+      {
+        "dorsal": 18,
+        "name": "LOPEZ BONIGNO, DERECK",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/15582003"
+      },
+      {
+        "dorsal": 19,
+        "name": "HUGUE ALCAIDE, GALDERIC",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/15118036"
+      },
+      {
+        "dorsal": 22,
+        "name": "HERNANDEZ DEL RIO, DANIEL",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/647946"
+      }
+    ],
+    "bench": [],
+    "substitutions": [],
+    "cards": []
+  },
+  "away": {
+    "name": "SAN JUAN AT. DE MONTCADA,U.E. A",
+    "starters": [
+      {
+        "dorsal": 4,
+        "name": "DE ANDRADE JIMENEZ, VICTOR MBUKU",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/566534"
+      },
+      {
+        "dorsal": 6,
+        "name": "HIDALGO PEREZ, MANUEL",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/18730429"
+      },
+      {
+        "dorsal": 8,
+        "name": "KADOCHNIKOV , VENIAMIN",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/43544905"
+      },
+      {
+        "dorsal": 9,
+        "name": "RODRÍGUEZ  ARASIL, RUBÉN",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/15056580"
+      },
+      {
+        "dorsal": 11,
+        "name": "SERRANO RUIZ, LUIS",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/704410"
+      },
+      {
+        "dorsal": 13,
+        "name": "CHACÓN MARTÍN, PABLO",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/15372397"
+      },
+      {
+        "dorsal": 16,
+        "name": "PROKOPEV , MIKHAIL",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/57743929"
+      },
+      {
+        "dorsal": 19,
+        "name": "DELGADO CHICANO, ADRIAN",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/15687408"
+      },
+      {
+        "dorsal": 24,
+        "name": "NAVARRO GÓMEZ, RUBEN",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/15960092"
+      }
+    ],
+    "bench": [],
+    "substitutions": [],
+    "cards": []
+  },
+  "goals": [],
+  "jornada": 26
+}

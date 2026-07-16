@@ -1,0 +1,108 @@
+{
+  "acta_url": "https://www.fcf.cat/acta/2526/futbol-11/lliga-elit/grup-1/elit/sabadell-fc-ce-b/elit/valls-ue-a",
+  "date": "15-03-2026",
+  "score": "2025-2026",
+  "home": {
+    "name": "",
+    "starters": [
+      {
+        "dorsal": 6,
+        "name": "KEBE , MOUSSA",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/44705769"
+      },
+      {
+        "dorsal": 11,
+        "name": "ROSENA CAÑAMERO, IZAN",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/15544227"
+      },
+      {
+        "dorsal": 13,
+        "name": "HONRUBIA STEFAN, ALEX",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/15437485"
+      },
+      {
+        "dorsal": 14,
+        "name": "MARCH PONS, BRU",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/18567940"
+      },
+      {
+        "dorsal": 17,
+        "name": "PEMBERTON , VINCENT NINIAN DAVID",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/19771640"
+      },
+      {
+        "dorsal": 21,
+        "name": "DIABY DIAWARA, MAMADOU",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/15159103"
+      },
+      {
+        "dorsal": 23,
+        "name": "BARRERA FONT, ROGER",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/18778179"
+      },
+      {
+        "dorsal": 26,
+        "name": "DE WEERD ROBLES, ALEX",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/44698885"
+      },
+      {
+        "dorsal": 27,
+        "name": "GARCIA SANTOS, KAUA",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/18807513"
+      }
+    ],
+    "bench": [],
+    "substitutions": [],
+    "cards": []
+  },
+  "away": {
+    "name": "SABADELL F.C., C.E. B",
+    "starters": [
+      {
+        "dorsal": 2,
+        "name": "EL MANSORI ZOUBAI, YASSIN",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/15778857"
+      },
+      {
+        "dorsal": 3,
+        "name": "MORELL BONO, OSCAR",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/686445"
+      },
+      {
+        "dorsal": 12,
+        "name": "ALVAREZ CABALLERO, UNAX",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/57797442"
+      },
+      {
+        "dorsal": 13,
+        "name": "FERNANDEZ SERRA, DANIEL",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/15037405"
+      },
+      {
+        "dorsal": 17,
+        "name": "ZHOVTENKO , OLEKSANDR",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/37389168"
+      },
+      {
+        "dorsal": 19,
+        "name": "VEGA ALDOMA, SERGI",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/19795871"
+      },
+      {
+        "dorsal": 20,
+        "name": "GÓMEZ MACÍAS, HUGO",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/639257"
+      },
+      {
+        "dorsal": 22,
+        "name": "LEON SEGURA, PAU",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/15661919"
+      }
+    ],
+    "bench": [],
+    "substitutions": [],
+    "cards": []
+  },
+  "goals": [],
+  "jornada": 22
+}

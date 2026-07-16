@@ -1,0 +1,103 @@
+{
+  "acta_url": "https://www.fcf.cat/acta/2526/futbol-11/lliga-elit/grup-1/aa/martinenc-fc-a/aa/pobla-mafumet-cf-a",
+  "date": "09-05-2026",
+  "score": "2025-2026",
+  "home": {
+    "name": "",
+    "starters": [
+      {
+        "dorsal": 7,
+        "name": "FABIAN PASCUAL, VICTOR",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/732891"
+      },
+      {
+        "dorsal": 9,
+        "name": "OSORIO BARROZO, FAVIO JULIAN",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/35325471"
+      },
+      {
+        "dorsal": 13,
+        "name": "APARICIO MARTINEZ, LUCAS",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/28728333"
+      },
+      {
+        "dorsal": 14,
+        "name": "GONZALEZ ALCANTARA, CARLOS",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/15715511"
+      },
+      {
+        "dorsal": 15,
+        "name": "GASPA ALFONSO, ERIC",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/15579689"
+      },
+      {
+        "dorsal": 18,
+        "name": "IBAÑEZ BLASCO, DANIEL",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/15117540"
+      },
+      {
+        "dorsal": 19,
+        "name": "ARAGONES PADILLA, ALBERT",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/7023027"
+      },
+      {
+        "dorsal": 21,
+        "name": "NAVARRO LINARES, ADRIÁN",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/674405"
+      },
+      {
+        "dorsal": 25,
+        "name": "RIBERA",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/26282381"
+      }
+    ],
+    "bench": [],
+    "substitutions": [],
+    "cards": []
+  },
+  "away": {
+    "name": "MARTINENC, F.C. A",
+    "starters": [
+      {
+        "dorsal": 1,
+        "name": "PEIRI CABRERA, ALEX",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/7007376"
+      },
+      {
+        "dorsal": 3,
+        "name": "DANILO LUCHETTI",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/15218494"
+      },
+      {
+        "dorsal": 16,
+        "name": "GUTIERREZ DESTEFANIS, AGUSTIN",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/40613508"
+      },
+      {
+        "dorsal": 17,
+        "name": "FERREÑO CASADO, PAU",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/18585957"
+      },
+      {
+        "dorsal": 19,
+        "name": "TORRES GONZÁLEZ, ÁLVARO",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/15586725"
+      },
+      {
+        "dorsal": 21,
+        "name": "PARISI FERRANDIZ, GUILLEM",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/40613567"
+      },
+      {
+        "dorsal": 27,
+        "name": "GARROFÉ SALLA, JOEL",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/15723516"
+      }
+    ],
+    "bench": [],
+    "substitutions": [],
+    "cards": []
+  },
+  "goals": [],
+  "jornada": 29
+}

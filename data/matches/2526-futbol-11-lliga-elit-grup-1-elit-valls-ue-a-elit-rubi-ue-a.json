@@ -1,0 +1,113 @@
+{
+  "acta_url": "https://www.fcf.cat/acta/2526/futbol-11/lliga-elit/grup-1/elit/valls-ue-a/elit/rubi-ue-a",
+  "date": "12-04-2026",
+  "score": "2025-2026",
+  "home": {
+    "name": "",
+    "starters": [
+      {
+        "dorsal": 1,
+        "name": "ROMAGUERA I OLIVÉ, ALEX",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/15056757"
+      },
+      {
+        "dorsal": 2,
+        "name": "EL MANSORI ZOUBAI, YASSIN",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/15778857"
+      },
+      {
+        "dorsal": 7,
+        "name": "SUAREZ SANZ, ADRIA",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/742304"
+      },
+      {
+        "dorsal": 8,
+        "name": "GUASCH PORTAS, MARC",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/705581"
+      },
+      {
+        "dorsal": 9,
+        "name": "GARCIA COMPANY, DANIEL",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/700526"
+      },
+      {
+        "dorsal": 15,
+        "name": "SANTIAGO CORTES, ANTONIO",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/15141380"
+      },
+      {
+        "dorsal": 19,
+        "name": "VEGA ALDOMA, SERGI",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/19795871"
+      },
+      {
+        "dorsal": 23,
+        "name": "LORCA RODRÍGUEZ, JOAQUIN",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/15056727"
+      },
+      {
+        "dorsal": 26,
+        "name": "ORIOL GRACIA, EDUARD",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/900003705"
+      }
+    ],
+    "bench": [],
+    "substitutions": [],
+    "cards": []
+  },
+  "away": {
+    "name": "VALLS U.E. A",
+    "starters": [
+      {
+        "dorsal": 3,
+        "name": "JUNCÀ ROVIRA, MARC",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/631565"
+      },
+      {
+        "dorsal": 5,
+        "name": "CORNELLA MOLINS, ALEX",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/18681318"
+      },
+      {
+        "dorsal": 9,
+        "name": "LOPEZ ESCRIG, YOEL",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/20154611"
+      },
+      {
+        "dorsal": 10,
+        "name": "JIMENEZ ALBELDA, PABLO",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/698743"
+      },
+      {
+        "dorsal": 13,
+        "name": "MURAY SANCHEZ, IGNASI",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/729757"
+      },
+      {
+        "dorsal": 14,
+        "name": "HERRANZ VIDAL, PAU",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/15320604"
+      },
+      {
+        "dorsal": 16,
+        "name": "CASTILLO MARAVER, ERIK",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/693335"
+      },
+      {
+        "dorsal": 22,
+        "name": "MENDOZA GARCIA, SEBASTIA",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/784869"
+      },
+      {
+        "dorsal": 23,
+        "name": "DIAZ WILLIAMS, KEVIN",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/673820"
+      }
+    ],
+    "bench": [],
+    "substitutions": [],
+    "cards": []
+  },
+  "goals": [],
+  "jornada": 25
+}

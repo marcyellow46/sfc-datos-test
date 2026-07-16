@@ -1,0 +1,113 @@
+{
+  "acta_url": "https://www.fcf.cat/acta/2526/futbol-11/lliga-elit/grup-1/elit/sabadell-fc-ce-b/aa/san-juan-at-de-montcada-ue-a",
+  "date": "28-09-2025",
+  "score": "2025-2026",
+  "home": {
+    "name": "",
+    "starters": [
+      {
+        "dorsal": 5,
+        "name": "MARTINEZ TASIAS, ELOI",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/15668590"
+      },
+      {
+        "dorsal": 11,
+        "name": "ROSENA CAÑAMERO, IZAN",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/15544227"
+      },
+      {
+        "dorsal": 13,
+        "name": "VALLINA RIVERA, MATEO",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/55354829"
+      },
+      {
+        "dorsal": 14,
+        "name": "MARCH PONS, BRU",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/18567940"
+      },
+      {
+        "dorsal": 17,
+        "name": "TOURAY , OUSMAN",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/44956599"
+      },
+      {
+        "dorsal": 19,
+        "name": "CHLIH LEHDA, OUSSAMA",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/23398565"
+      },
+      {
+        "dorsal": 21,
+        "name": "DIAZ SORIANO, ALBERTO",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/15645738"
+      },
+      {
+        "dorsal": 23,
+        "name": "BARRERA FONT, ROGER",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/18778179"
+      },
+      {
+        "dorsal": 26,
+        "name": "DE WEERD ROBLES, ALEX",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/44698885"
+      }
+    ],
+    "bench": [],
+    "substitutions": [],
+    "cards": []
+  },
+  "away": {
+    "name": "SABADELL F.C., C.E. B",
+    "starters": [
+      {
+        "dorsal": 2,
+        "name": "ORTIZ PARAISO, JOSHUA",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/353696"
+      },
+      {
+        "dorsal": 7,
+        "name": "BA ANDEME, MARCELO SALIOU",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/15116905"
+      },
+      {
+        "dorsal": 12,
+        "name": "FIRDMAN , ALON",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/23831463"
+      },
+      {
+        "dorsal": 14,
+        "name": "BALDE GOMEZ, OMAR",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/631237"
+      },
+      {
+        "dorsal": 17,
+        "name": "RODRÍGUEZ FERNÁNDEZ, DANIEL",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/710793"
+      },
+      {
+        "dorsal": 18,
+        "name": "OSORIO ROVIRA, ALEX",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/705000"
+      },
+      {
+        "dorsal": 24,
+        "name": "FERNANDEZ AMAT, JOSE JAVIER",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/900009640"
+      },
+      {
+        "dorsal": 25,
+        "name": "PEREZ BELLO, DAVID",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/37995376"
+      },
+      {
+        "dorsal": 26,
+        "name": "BARCELO GONZALEZ, DIDAC",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/18760009"
+      }
+    ],
+    "bench": [],
+    "substitutions": [],
+    "cards": []
+  },
+  "goals": [],
+  "jornada": 2
+}

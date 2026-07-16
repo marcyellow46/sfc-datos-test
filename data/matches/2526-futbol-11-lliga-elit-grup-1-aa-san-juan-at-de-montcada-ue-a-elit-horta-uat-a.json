@@ -1,0 +1,113 @@
+{
+  "acta_url": "https://www.fcf.cat/acta/2526/futbol-11/lliga-elit/grup-1/aa/san-juan-at-de-montcada-ue-a/elit/horta-uat-a",
+  "date": "28-03-2026",
+  "score": "2025-2026",
+  "home": {
+    "name": "",
+    "starters": [
+      {
+        "dorsal": 1,
+        "name": "PEREZ BELLO, DAVID",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/37995376"
+      },
+      {
+        "dorsal": 7,
+        "name": "RECHE HUCHA, OSCAR",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/706833"
+      },
+      {
+        "dorsal": 9,
+        "name": "SANTIAGO PEREZ, ANTONIO",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/900007321"
+      },
+      {
+        "dorsal": 15,
+        "name": "RUIZ SANTAMARÍA, HUGO",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/15624100"
+      },
+      {
+        "dorsal": 16,
+        "name": "BA ANDEME, MARCELO SALIOU",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/15116905"
+      },
+      {
+        "dorsal": 17,
+        "name": "MULERO GONZALEZ, SERGIO",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/669378"
+      },
+      {
+        "dorsal": 22,
+        "name": "HERNANDEZ DEL RIO, DANIEL",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/647946"
+      },
+      {
+        "dorsal": 24,
+        "name": "FERNANDEZ AMAT, JOSE JAVIER",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/900009640"
+      },
+      {
+        "dorsal": 26,
+        "name": "BARCELO GONZALEZ, DIDAC",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/18760009"
+      }
+    ],
+    "bench": [],
+    "substitutions": [],
+    "cards": []
+  },
+  "away": {
+    "name": "SAN JUAN AT. DE MONTCADA,U.E. A",
+    "starters": [
+      {
+        "dorsal": 7,
+        "name": "BABIA , HAITAM",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/774388"
+      },
+      {
+        "dorsal": 13,
+        "name": "RODRIGUEZ PIQUERAS, LEON",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/38238071"
+      },
+      {
+        "dorsal": 14,
+        "name": "HAMAD , ABDUL-MOUATY",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/57345634"
+      },
+      {
+        "dorsal": 15,
+        "name": "CIFUENTES PELAEZ, RUBEN",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/717530"
+      },
+      {
+        "dorsal": 17,
+        "name": "COLY , PAPE OUMAR SARR",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/39311605"
+      },
+      {
+        "dorsal": 18,
+        "name": "AGUILAR COSTA, JULIA",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/47413242"
+      },
+      {
+        "dorsal": 20,
+        "name": "VALVERDE MILLAN, JUAN",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/15337130"
+      },
+      {
+        "dorsal": 22,
+        "name": "KOUBISS AJOUB, ALI",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/15654695"
+      },
+      {
+        "dorsal": 23,
+        "name": "VALENTÍ SOLER CABOT, ENRIQUE",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/24255628"
+      }
+    ],
+    "bench": [],
+    "substitutions": [],
+    "cards": []
+  },
+  "goals": [],
+  "jornada": 24
+}

@@ -1,0 +1,108 @@
+{
+  "acta_url": "https://www.fcf.cat/acta/2526/futbol-11/lliga-elit/grup-1/elit/horta-uat-a/1cat/jupiter-ce-a",
+  "date": "04-10-2025",
+  "score": "2025-2026",
+  "home": {
+    "name": "",
+    "starters": [
+      {
+        "dorsal": 2,
+        "name": "AREGALL GUILLEN, VICTOR",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/18487039"
+      },
+      {
+        "dorsal": 3,
+        "name": "HOMEDES DE LA FUENTE, SAMUEL",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/726659"
+      },
+      {
+        "dorsal": 4,
+        "name": "JOSA LEVRATTO, GUILLEM",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/40663605"
+      },
+      {
+        "dorsal": 13,
+        "name": "RODRIGUEZ RIVAS, POL",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/26314592"
+      },
+      {
+        "dorsal": 14,
+        "name": "DE ARRIBA VILLAHUTE, MAURO",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/18794822"
+      },
+      {
+        "dorsal": 15,
+        "name": "CIFUENTES PELAEZ, RUBEN",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/717530"
+      },
+      {
+        "dorsal": 17,
+        "name": "SITGES GINÉ, POL",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/40998023"
+      },
+      {
+        "dorsal": 18,
+        "name": "AGUILAR COSTA, JULIA",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/47413242"
+      }
+    ],
+    "bench": [],
+    "substitutions": [],
+    "cards": []
+  },
+  "away": {
+    "name": "HORTA, U.AT. A",
+    "starters": [
+      {
+        "dorsal": 3,
+        "name": "BASSOLS BOSCH, ADRIA",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/672077"
+      },
+      {
+        "dorsal": 5,
+        "name": "KARROUCH KADRI, HICHAM",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/40723113"
+      },
+      {
+        "dorsal": 11,
+        "name": "S.MONSÓ",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/686703"
+      },
+      {
+        "dorsal": 12,
+        "name": "SANCHEZ MOYA, DANIEL",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/18593525"
+      },
+      {
+        "dorsal": 15,
+        "name": "PEÑA PEREZ, SERGIO",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/675548"
+      },
+      {
+        "dorsal": 16,
+        "name": "BORDALLO CANALS, JOAN",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/657208"
+      },
+      {
+        "dorsal": 17,
+        "name": "CAÑETE GRAS, JOSEP",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/15139451"
+      },
+      {
+        "dorsal": 23,
+        "name": "SÁNCHEZ OLIVARES, IVÁN",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/708067"
+      },
+      {
+        "dorsal": 25,
+        "name": "NADAL FERNANDEZ, CARLOS",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/786532"
+      }
+    ],
+    "bench": [],
+    "substitutions": [],
+    "cards": []
+  },
+  "goals": [],
+  "jornada": 3
+}

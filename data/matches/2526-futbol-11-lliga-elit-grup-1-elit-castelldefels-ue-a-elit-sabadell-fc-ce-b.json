@@ -1,0 +1,113 @@
+{
+  "acta_url": "https://www.fcf.cat/acta/2526/futbol-11/lliga-elit/grup-1/elit/castelldefels-ue-a/elit/sabadell-fc-ce-b",
+  "date": "20-09-2025",
+  "score": "2025-2026",
+  "home": {
+    "name": "",
+    "starters": [
+      {
+        "dorsal": 6,
+        "name": "GIMENO HERNÁNDEZ, ADRIÁN",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/629546"
+      },
+      {
+        "dorsal": 10,
+        "name": "CANO JIMENEZ, CARLOS",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/633680"
+      },
+      {
+        "dorsal": 13,
+        "name": "GUTIÉRREZ ADAME, ADRIÀ",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/15596602"
+      },
+      {
+        "dorsal": 15,
+        "name": "FAURA MARTINEZ, JOEL",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/15908749"
+      },
+      {
+        "dorsal": 17,
+        "name": "FRANCO CARRASCO, PABLO",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/663545"
+      },
+      {
+        "dorsal": 20,
+        "name": "MALDONADO MOYA, IZAN",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/727358"
+      },
+      {
+        "dorsal": 22,
+        "name": "MARTÍ NAVAS, JOEL",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/15115386"
+      },
+      {
+        "dorsal": 23,
+        "name": "MATAMOROS SEGURA, JOEL",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/23168454"
+      },
+      {
+        "dorsal": 26,
+        "name": "MARC",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/18782056"
+      }
+    ],
+    "bench": [],
+    "substitutions": [],
+    "cards": []
+  },
+  "away": {
+    "name": "CASTELLDEFELS, U.E. A",
+    "starters": [
+      {
+        "dorsal": 2,
+        "name": "BERTRAN DEL RIO, FRANCESC POL",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/28984588"
+      },
+      {
+        "dorsal": 6,
+        "name": "GIRALT PALAHÍ, XAVI",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/21881714"
+      },
+      {
+        "dorsal": 8,
+        "name": "BORRELL SOTO, ALEIX",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/40662538"
+      },
+      {
+        "dorsal": 13,
+        "name": "FONT COLOMER, IAN",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/19634700"
+      },
+      {
+        "dorsal": 14,
+        "name": "MARCH PONS, BRU",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/18567940"
+      },
+      {
+        "dorsal": 17,
+        "name": "TOURAY , OUSMAN",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/44956599"
+      },
+      {
+        "dorsal": 20,
+        "name": "REECE , JADEN RYAN SAMUEL",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/48588256"
+      },
+      {
+        "dorsal": 23,
+        "name": "BARRERA FONT, ROGER",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/18778179"
+      },
+      {
+        "dorsal": 26,
+        "name": "DE WEERD ROBLES, ALEX",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/44698885"
+      }
+    ],
+    "bench": [],
+    "substitutions": [],
+    "cards": []
+  },
+  "goals": [],
+  "jornada": 1
+}

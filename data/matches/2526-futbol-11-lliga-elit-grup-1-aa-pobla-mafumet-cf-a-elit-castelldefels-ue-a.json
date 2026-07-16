@@ -1,0 +1,113 @@
+{
+  "acta_url": "https://www.fcf.cat/acta/2526/futbol-11/lliga-elit/grup-1/aa/pobla-mafumet-cf-a/elit/castelldefels-ue-a",
+  "date": "18-10-2025",
+  "score": "2025-2026",
+  "home": {
+    "name": "",
+    "starters": [
+      {
+        "dorsal": 2,
+        "name": "MORENO GAITAN, MARC",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/15712251"
+      },
+      {
+        "dorsal": 8,
+        "name": "BEAMUZ  AROCA, ÀLEX",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/40613396"
+      },
+      {
+        "dorsal": 11,
+        "name": "POZO GIL, TEO",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/625642"
+      },
+      {
+        "dorsal": 14,
+        "name": "CIURÓ RIUDEUBAS, ROGER",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/19646295"
+      },
+      {
+        "dorsal": 17,
+        "name": "MAYA PÉREZ, RUBÉN",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/15712979"
+      },
+      {
+        "dorsal": 22,
+        "name": "EDUARDO ESTEVES",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/55176732"
+      },
+      {
+        "dorsal": 23,
+        "name": "RAYA BERNAL, PAU",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/40613580"
+      },
+      {
+        "dorsal": 24,
+        "name": "CARDONA PONS, UBAI",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/26062046"
+      },
+      {
+        "dorsal": 26,
+        "name": "AGUZZI BETTINI, NICOLAS ALBERTO",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/18474635"
+      }
+    ],
+    "bench": [],
+    "substitutions": [],
+    "cards": []
+  },
+  "away": {
+    "name": "POBLA MAFUMET, C.F. A",
+    "starters": [
+      {
+        "dorsal": 1,
+        "name": "MORENO LOPEZ, DAVID",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/724479"
+      },
+      {
+        "dorsal": 7,
+        "name": "RAMIREZ RUIZ, ENRIQUE",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/642498"
+      },
+      {
+        "dorsal": 10,
+        "name": "CANO JIMENEZ, CARLOS",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/633680"
+      },
+      {
+        "dorsal": 12,
+        "name": "MONTERO PRADAS, IKER",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/15765782"
+      },
+      {
+        "dorsal": 15,
+        "name": "FAURA MARTINEZ, JOEL",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/15908749"
+      },
+      {
+        "dorsal": 17,
+        "name": "FRANCO CARRASCO, PABLO",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/663545"
+      },
+      {
+        "dorsal": 20,
+        "name": "MALDONADO MOYA, IZAN",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/727358"
+      },
+      {
+        "dorsal": 22,
+        "name": "MARTÍ NAVAS, JOEL",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/15115386"
+      },
+      {
+        "dorsal": 23,
+        "name": "MATAMOROS SEGURA, JOEL",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/23168454"
+      }
+    ],
+    "bench": [],
+    "substitutions": [],
+    "cards": []
+  },
+  "goals": [],
+  "jornada": 5
+}

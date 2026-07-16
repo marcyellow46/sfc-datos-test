@@ -1,0 +1,113 @@
+{
+  "acta_url": "https://www.fcf.cat/acta/2526/futbol-11/lliga-elit/grup-1/elit/atletic-sant-just-f-c-a/elit/valls-ue-a",
+  "date": "28-03-2026",
+  "score": "2025-2026",
+  "home": {
+    "name": "",
+    "starters": [
+      {
+        "dorsal": 7,
+        "name": "MATEO QUEJIGO, PAU",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/313559"
+      },
+      {
+        "dorsal": 8,
+        "name": "RUIZ PIQUE, ARNAU",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/18632084"
+      },
+      {
+        "dorsal": 9,
+        "name": "GUMA CERQUEDA, JAN",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/38436012"
+      },
+      {
+        "dorsal": 13,
+        "name": "LOPEZ LLORENS, VICTOR",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/15947526"
+      },
+      {
+        "dorsal": 14,
+        "name": "RABANAL VILLAR, ANIOL",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/637130"
+      },
+      {
+        "dorsal": 17,
+        "name": "GIL NAVARRO, JOEL",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/15550746"
+      },
+      {
+        "dorsal": 23,
+        "name": "CLAVIJO LARIOS, PABLO",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/15625670"
+      },
+      {
+        "dorsal": 24,
+        "name": "SORROCHE CALLE, MARK",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/785098"
+      },
+      {
+        "dorsal": 25,
+        "name": "SANCHEZ ERAZO, ALLAN MACCRAY",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/57736517"
+      }
+    ],
+    "bench": [],
+    "substitutions": [],
+    "cards": []
+  },
+  "away": {
+    "name": "ATLETIC SANT JUST . F. C. A",
+    "starters": [
+      {
+        "dorsal": 1,
+        "name": "ROMAGUERA I OLIVÉ, ALEX",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/15056757"
+      },
+      {
+        "dorsal": 2,
+        "name": "EL MANSORI ZOUBAI, YASSIN",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/15778857"
+      },
+      {
+        "dorsal": 3,
+        "name": "MORELL BONO, OSCAR",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/686445"
+      },
+      {
+        "dorsal": 9,
+        "name": "GARCIA COMPANY, DANIEL",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/700526"
+      },
+      {
+        "dorsal": 17,
+        "name": "ZHOVTENKO , OLEKSANDR",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/37389168"
+      },
+      {
+        "dorsal": 19,
+        "name": "VEGA ALDOMA, SERGI",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/19795871"
+      },
+      {
+        "dorsal": 20,
+        "name": "GÓMEZ MACÍAS, HUGO",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/639257"
+      },
+      {
+        "dorsal": 22,
+        "name": "LEON SEGURA, PAU",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/15661919"
+      },
+      {
+        "dorsal": 23,
+        "name": "LORCA RODRÍGUEZ, JOAQUIN",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/15056727"
+      }
+    ],
+    "bench": [],
+    "substitutions": [],
+    "cards": []
+  },
+  "goals": [],
+  "jornada": 24
+}

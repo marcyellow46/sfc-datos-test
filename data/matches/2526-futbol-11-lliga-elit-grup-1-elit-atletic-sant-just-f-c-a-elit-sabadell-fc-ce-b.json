@@ -1,0 +1,113 @@
+{
+  "acta_url": "https://www.fcf.cat/acta/2526/futbol-11/lliga-elit/grup-1/elit/atletic-sant-just-f-c-a/elit/sabadell-fc-ce-b",
+  "date": "10-01-2026",
+  "score": "2025-2026",
+  "home": {
+    "name": "",
+    "starters": [
+      {
+        "dorsal": 5,
+        "name": "DURAN KIRCHNER, ÒSCAR",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/54355148"
+      },
+      {
+        "dorsal": 6,
+        "name": "GONZÁLEZ TARRUELLA, MARC",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/727840"
+      },
+      {
+        "dorsal": 11,
+        "name": "BEATTIE ORFILA, ERIK",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/15134055"
+      },
+      {
+        "dorsal": 13,
+        "name": "PARTIDA GORDILLO, MARIO",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/15586223"
+      },
+      {
+        "dorsal": 14,
+        "name": "RABANAL VILLAR, ANIOL",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/637130"
+      },
+      {
+        "dorsal": 17,
+        "name": "GIL NAVARRO, JOEL",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/15550746"
+      },
+      {
+        "dorsal": 22,
+        "name": "LASTRA SERRANO, JUAN CAMILO",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/15196842"
+      },
+      {
+        "dorsal": 23,
+        "name": "BUERA NADAL, FERRAN",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/651174"
+      },
+      {
+        "dorsal": 25,
+        "name": "GUMA CERQUEDA, JAN",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/38436012"
+      }
+    ],
+    "bench": [],
+    "substitutions": [],
+    "cards": []
+  },
+  "away": {
+    "name": "ATLETIC SANT JUST . F. C. A",
+    "starters": [
+      {
+        "dorsal": 6,
+        "name": "GIRALT PALAHÍ, XAVI",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/21881714"
+      },
+      {
+        "dorsal": 9,
+        "name": "GONZÁLEZ GARCÍA, ADRIÁ",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/752379"
+      },
+      {
+        "dorsal": 10,
+        "name": "DURAN NOMS, FERRAN",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/635152"
+      },
+      {
+        "dorsal": 12,
+        "name": "DIABY DIAWARA, MAMADOU",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/15159103"
+      },
+      {
+        "dorsal": 13,
+        "name": "IZQUIERDO NICOLAU, ARNAU",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/20868042"
+      },
+      {
+        "dorsal": 14,
+        "name": "MARCH PONS, BRU",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/18567940"
+      },
+      {
+        "dorsal": 17,
+        "name": "TOURAY , OUSMAN",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/44956599"
+      },
+      {
+        "dorsal": 18,
+        "name": "SALGUERO CUENCA, ERICK",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/753091"
+      },
+      {
+        "dorsal": 24,
+        "name": "TOURE DIAWARA, MAMADOU BOUHARY",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/747210"
+      }
+    ],
+    "bench": [],
+    "substitutions": [],
+    "cards": []
+  },
+  "goals": [],
+  "jornada": 14
+}

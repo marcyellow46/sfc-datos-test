@@ -1,0 +1,113 @@
+{
+  "acta_url": "https://www.fcf.cat/acta/2526/futbol-11/lliga-elit/grup-1/elit/san-mauro-ud-a/1cat/ciudad-cooperativa-cf-a",
+  "date": "08-02-2026",
+  "score": "2025-2026",
+  "home": {
+    "name": "",
+    "starters": [
+      {
+        "dorsal": 2,
+        "name": "LOPEZ ARANDA, MARC",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/18713107"
+      },
+      {
+        "dorsal": 7,
+        "name": "NAVARRO LÓPEZ, JOSEP",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/720372"
+      },
+      {
+        "dorsal": 16,
+        "name": "SARSANEDAS CONTRERAS, JOAO",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/15549504"
+      },
+      {
+        "dorsal": 17,
+        "name": "ROMEU MARQUES, POL",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/18669938"
+      },
+      {
+        "dorsal": 18,
+        "name": "MORENO ORDOÑEZ, DAVID",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/15089975"
+      },
+      {
+        "dorsal": 21,
+        "name": "MARQUILLAS BONAVILA, GERARD",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/644228"
+      },
+      {
+        "dorsal": 22,
+        "name": "BARBERO GARCIA, RODRIGO",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/38056126"
+      },
+      {
+        "dorsal": 24,
+        "name": "COSANO BERROCAL, KENNETH",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/646697"
+      },
+      {
+        "dorsal": 25,
+        "name": "SEGOVIA ARCE, IKER ANDRES",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/22776481"
+      }
+    ],
+    "bench": [],
+    "substitutions": [],
+    "cards": []
+  },
+  "away": {
+    "name": "SAN MAURO, U.D. A",
+    "starters": [
+      {
+        "dorsal": 1,
+        "name": "DOUMBIA , MAMADOU",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/15868698"
+      },
+      {
+        "dorsal": 4,
+        "name": "DE ANDRADE JIMENEZ, VICTOR MBUKU",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/566534"
+      },
+      {
+        "dorsal": 6,
+        "name": "HIDALGO PEREZ, MANUEL",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/18730429"
+      },
+      {
+        "dorsal": 8,
+        "name": "NAVARRO GÓMEZ, RUBEN",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/15960092"
+      },
+      {
+        "dorsal": 9,
+        "name": "MESSOOUDI BAKKALI, MOHAMED YASSIN",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/15152617"
+      },
+      {
+        "dorsal": 11,
+        "name": "SERRANO RUIZ, LUIS",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/704410"
+      },
+      {
+        "dorsal": 16,
+        "name": "RODRÍGUEZ  ARASIL, RUBÉN",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/15056580"
+      },
+      {
+        "dorsal": 17,
+        "name": "OLLÉ JURADO, PEPE",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/54356125"
+      },
+      {
+        "dorsal": 23,
+        "name": "BUSTO FORTUNA, DANIEL",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/18475202"
+      }
+    ],
+    "bench": [],
+    "substitutions": [],
+    "cards": []
+  },
+  "goals": [],
+  "jornada": 18
+}

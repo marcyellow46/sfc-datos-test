@@ -1,0 +1,113 @@
+{
+  "acta_url": "https://www.fcf.cat/acta/2526/futbol-11/lliga-elit/grup-1/elit/valls-ue-a/aa/pobla-mafumet-cf-a",
+  "date": "28-09-2025",
+  "score": "2025-2026",
+  "home": {
+    "name": "",
+    "starters": [
+      {
+        "dorsal": 1,
+        "name": "BESORA CORTES, BIEL",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/20329625"
+      },
+      {
+        "dorsal": 2,
+        "name": "EL MANSORI ZOUBAI, YASSIN",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/15778857"
+      },
+      {
+        "dorsal": 3,
+        "name": "MORELL BONO, OSCAR",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/686445"
+      },
+      {
+        "dorsal": 17,
+        "name": "ZHOVTENKO , OLEKSANDR",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/37389168"
+      },
+      {
+        "dorsal": 18,
+        "name": "CIURÓ ALTÉS, ARNAU",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/15688472"
+      },
+      {
+        "dorsal": 20,
+        "name": "GÓMEZ MACÍAS, HUGO",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/639257"
+      },
+      {
+        "dorsal": 21,
+        "name": "BILE , JEAN CLAUDE TOFEY",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/52295114"
+      },
+      {
+        "dorsal": 23,
+        "name": "LORCA RODRÍGUEZ, JOAQUIN",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/15056727"
+      },
+      {
+        "dorsal": 24,
+        "name": "LEON SEGURA, PAU",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/15661919"
+      }
+    ],
+    "bench": [],
+    "substitutions": [],
+    "cards": []
+  },
+  "away": {
+    "name": "VALLS U.E. A",
+    "starters": [
+      {
+        "dorsal": 1,
+        "name": "PEIRI CABRERA, ALEX",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/7007376"
+      },
+      {
+        "dorsal": 2,
+        "name": "MORENO GAITAN, MARC",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/15712251"
+      },
+      {
+        "dorsal": 3,
+        "name": "DANILO LUCHETTI",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/15218494"
+      },
+      {
+        "dorsal": 6,
+        "name": "PACHON MORALES, SERGIO",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/15726571"
+      },
+      {
+        "dorsal": 14,
+        "name": "CIURÓ RIUDEUBAS, ROGER",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/19646295"
+      },
+      {
+        "dorsal": 20,
+        "name": "HAFIDH BOUKLATA, ADAM",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/26307386"
+      },
+      {
+        "dorsal": 21,
+        "name": "PARISI FERRANDIZ, GUILLEM",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/40613567"
+      },
+      {
+        "dorsal": 24,
+        "name": "CARDONA PONS, UBAI",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/26062046"
+      },
+      {
+        "dorsal": 26,
+        "name": "AGUZZI BETTINI, NICOLAS ALBERTO",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/18474635"
+      }
+    ],
+    "bench": [],
+    "substitutions": [],
+    "cards": []
+  },
+  "goals": [],
+  "jornada": 2
+}

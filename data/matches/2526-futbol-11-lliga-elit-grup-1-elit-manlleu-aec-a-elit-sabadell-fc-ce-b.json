@@ -1,0 +1,108 @@
+{
+  "acta_url": "https://www.fcf.cat/acta/2526/futbol-11/lliga-elit/grup-1/elit/manlleu-aec-a/elit/sabadell-fc-ce-b",
+  "date": "19-10-2025",
+  "score": "2025-2026",
+  "home": {
+    "name": "",
+    "starters": [
+      {
+        "dorsal": 8,
+        "name": "MARTÍNEZ VILÀ, LLUÍS",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/758036"
+      },
+      {
+        "dorsal": 11,
+        "name": "ADU TUTU AMOAH, NANA",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/19758513"
+      },
+      {
+        "dorsal": 13,
+        "name": "TAULATS CANUDAS, SERGI",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/18625969"
+      },
+      {
+        "dorsal": 14,
+        "name": "BASART VIGAS, SERGI",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/15138655"
+      },
+      {
+        "dorsal": 16,
+        "name": "COLLELL JORDÀ, GERARD",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/18557477"
+      },
+      {
+        "dorsal": 17,
+        "name": "CAO FERNÁNDEZ, TONI",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/15545632"
+      },
+      {
+        "dorsal": 18,
+        "name": "CARDENAS CASTILLO, AITOR",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/729709"
+      },
+      {
+        "dorsal": 20,
+        "name": "MURO",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/19806774"
+      }
+    ],
+    "bench": [],
+    "substitutions": [],
+    "cards": []
+  },
+  "away": {
+    "name": "MANLLEU, A.E.C. A",
+    "starters": [
+      {
+        "dorsal": 2,
+        "name": "BERTRAN DEL RIO, FRANCESC POL",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/28984588"
+      },
+      {
+        "dorsal": 3,
+        "name": "TORRES CAMARGO, MARIO",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/15127804"
+      },
+      {
+        "dorsal": 6,
+        "name": "GIRALT PALAHÍ, XAVI",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/21881714"
+      },
+      {
+        "dorsal": 19,
+        "name": "CHLIH LEHDA, OUSSAMA",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/23398565"
+      },
+      {
+        "dorsal": 21,
+        "name": "DIAZ SORIANO, ALBERTO",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/15645738"
+      },
+      {
+        "dorsal": 22,
+        "name": "SÁEZ JIMÉNEZ, ENRIC",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/7009152"
+      },
+      {
+        "dorsal": 23,
+        "name": "BARRERA FONT, ROGER",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/18778179"
+      },
+      {
+        "dorsal": 24,
+        "name": "TOURE DIAWARA, MAMADOU BOUHARY",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/747210"
+      },
+      {
+        "dorsal": 25,
+        "name": "VALLINA RIVERA, MATEO",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/55354829"
+      }
+    ],
+    "bench": [],
+    "substitutions": [],
+    "cards": []
+  },
+  "goals": [],
+  "jornada": 5
+}

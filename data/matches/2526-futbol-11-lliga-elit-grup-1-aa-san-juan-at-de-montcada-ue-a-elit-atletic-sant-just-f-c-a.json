@@ -1,0 +1,103 @@
+{
+  "acta_url": "https://www.fcf.cat/acta/2526/futbol-11/lliga-elit/grup-1/aa/san-juan-at-de-montcada-ue-a/elit/atletic-sant-just-f-c-a",
+  "date": "21-02-2026",
+  "score": "2025-2026",
+  "home": {
+    "name": "",
+    "starters": [
+      {
+        "dorsal": 2,
+        "name": "ORTIZ PARAISO, JOSHUA",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/353696"
+      },
+      {
+        "dorsal": 3,
+        "name": "POU GOMEZ, ARNAU",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/15550976"
+      },
+      {
+        "dorsal": 8,
+        "name": "GALEANO JARDI, FERNANDO",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/642177"
+      },
+      {
+        "dorsal": 9,
+        "name": "SANTIAGO PEREZ, ANTONIO",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/900007321"
+      },
+      {
+        "dorsal": 13,
+        "name": "GARCIA HERNANDEZ, ROGER",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/694000"
+      },
+      {
+        "dorsal": 22,
+        "name": "HERNANDEZ DEL RIO, DANIEL",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/647946"
+      },
+      {
+        "dorsal": 24,
+        "name": "FERNANDEZ AMAT, JOSE JAVIER",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/900009640"
+      }
+    ],
+    "bench": [],
+    "substitutions": [],
+    "cards": []
+  },
+  "away": {
+    "name": "SAN JUAN AT. DE MONTCADA,U.E. A",
+    "starters": [
+      {
+        "dorsal": 3,
+        "name": "PALACIOS CORRAL, ALEJANDRO",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/673474"
+      },
+      {
+        "dorsal": 7,
+        "name": "PUJADAS MARTINEZ, ALEIX",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/7020609"
+      },
+      {
+        "dorsal": 8,
+        "name": "RUIZ PIQUE, ARNAU",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/18632084"
+      },
+      {
+        "dorsal": 11,
+        "name": "AGELET DEL CARMEN, LUIS",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/54355113"
+      },
+      {
+        "dorsal": 13,
+        "name": "LOPEZ LLORENS, VICTOR",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/15947526"
+      },
+      {
+        "dorsal": 15,
+        "name": "GASULL TARRADELLAS, MARTÍ",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/54355207"
+      },
+      {
+        "dorsal": 16,
+        "name": "MELERO CALVO, UNAI",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/15544346"
+      },
+      {
+        "dorsal": 17,
+        "name": "GIL NAVARRO, JOEL",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/15550746"
+      },
+      {
+        "dorsal": 25,
+        "name": "SANCHEZ ERAZO, ALLAN MACCRAY",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/57736517"
+      }
+    ],
+    "bench": [],
+    "substitutions": [],
+    "cards": []
+  },
+  "goals": [],
+  "jornada": 19
+}

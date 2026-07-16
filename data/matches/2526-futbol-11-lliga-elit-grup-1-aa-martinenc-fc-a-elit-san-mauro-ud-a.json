@@ -1,0 +1,113 @@
+{
+  "acta_url": "https://www.fcf.cat/acta/2526/futbol-11/lliga-elit/grup-1/aa/martinenc-fc-a/elit/san-mauro-ud-a",
+  "date": "23-11-2025",
+  "score": "2025-2026",
+  "home": {
+    "name": "",
+    "starters": [
+      {
+        "dorsal": 6,
+        "name": "SOSA MORENO, JUAN",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/700791"
+      },
+      {
+        "dorsal": 8,
+        "name": "SUÁREZ POSTIGO, DANIEL",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/688231"
+      },
+      {
+        "dorsal": 9,
+        "name": "PEREZ PLAZA, DAVID",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/725007"
+      },
+      {
+        "dorsal": 11,
+        "name": "GONZALEZ VALTUEÑA, ANGEL",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/7014186"
+      },
+      {
+        "dorsal": 13,
+        "name": "APARICIO MARTINEZ, LUCAS",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/28728333"
+      },
+      {
+        "dorsal": 15,
+        "name": "BANGUERO LASSO, YILSON EDUTH",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/43761211"
+      },
+      {
+        "dorsal": 17,
+        "name": "ESPIGOL DE LEMUS, MAX",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/41116375"
+      },
+      {
+        "dorsal": 20,
+        "name": "GARRIGA ORS, ALEJANDRO",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/15159017"
+      },
+      {
+        "dorsal": 23,
+        "name": "MARTINEZ ATIENZA, GERARD",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/15307332"
+      }
+    ],
+    "bench": [],
+    "substitutions": [],
+    "cards": []
+  },
+  "away": {
+    "name": "MARTINENC, F.C. A",
+    "starters": [
+      {
+        "dorsal": 2,
+        "name": "MARTÍNEZ VALLS, ROGER",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/712885"
+      },
+      {
+        "dorsal": 3,
+        "name": "NAVARRO , GUIDO ALCIDES",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/44354719"
+      },
+      {
+        "dorsal": 6,
+        "name": "ENRIQUEZ DE LA ROSA, MARC",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/734626"
+      },
+      {
+        "dorsal": 13,
+        "name": "CLARAMUNT GONZALEZ, ADRIÀ",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/15643074"
+      },
+      {
+        "dorsal": 16,
+        "name": "SARSANEDAS CONTRERAS, JOAO",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/15549504"
+      },
+      {
+        "dorsal": 18,
+        "name": "MORENO ORDOÑEZ, DAVID",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/15089975"
+      },
+      {
+        "dorsal": 19,
+        "name": "NUÑEZ RUIZ, YANIS",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/675084"
+      },
+      {
+        "dorsal": 22,
+        "name": "PUCHE RODRÍGUEZ, FERRAN",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/15195656"
+      },
+      {
+        "dorsal": 24,
+        "name": "COSANO BERROCAL, KENNETH",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/646697"
+      }
+    ],
+    "bench": [],
+    "substitutions": [],
+    "cards": []
+  },
+  "goals": [],
+  "jornada": 10
+}

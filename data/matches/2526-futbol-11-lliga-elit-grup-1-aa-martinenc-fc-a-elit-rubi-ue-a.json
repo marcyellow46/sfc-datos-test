@@ -1,0 +1,103 @@
+{
+  "acta_url": "https://www.fcf.cat/acta/2526/futbol-11/lliga-elit/grup-1/aa/martinenc-fc-a/elit/rubi-ue-a",
+  "date": "25-01-2026",
+  "score": "2025-2026",
+  "home": {
+    "name": "",
+    "starters": [
+      {
+        "dorsal": 3,
+        "name": "MEGIA ASCASO, ALEJANDRO",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/627828"
+      },
+      {
+        "dorsal": 8,
+        "name": "SUÁREZ POSTIGO, DANIEL",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/688231"
+      },
+      {
+        "dorsal": 13,
+        "name": "APARICIO MARTINEZ, LUCAS",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/28728333"
+      },
+      {
+        "dorsal": 15,
+        "name": "BANGUERO LASSO, YILSON EDUTH",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/43761211"
+      },
+      {
+        "dorsal": 16,
+        "name": "ALARCON MILLAN, KEVIN",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/53814281"
+      },
+      {
+        "dorsal": 18,
+        "name": "IBAÑEZ BLASCO, DANIEL",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/15117540"
+      },
+      {
+        "dorsal": 20,
+        "name": "GARRIGA ORS, ALEJANDRO",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/15159017"
+      },
+      {
+        "dorsal": 22,
+        "name": "FABIAN PASCUAL, VICTOR",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/732891"
+      },
+      {
+        "dorsal": 23,
+        "name": "MARTINEZ ATIENZA, GERARD",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/15307332"
+      }
+    ],
+    "bench": [],
+    "substitutions": [],
+    "cards": []
+  },
+  "away": {
+    "name": "MARTINENC, F.C. A",
+    "starters": [
+      {
+        "dorsal": 1,
+        "name": "DURAN VALBUENA, ARNAU",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/15695612"
+      },
+      {
+        "dorsal": 4,
+        "name": "YAHYA RABIE, AYOUB",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/23968785"
+      },
+      {
+        "dorsal": 5,
+        "name": "HERNANDEZ MORENO, IKER",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/675185"
+      },
+      {
+        "dorsal": 12,
+        "name": "NII , OLIVER KOTA",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/45002526"
+      },
+      {
+        "dorsal": 14,
+        "name": "HERRANZ VIDAL, PAU",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/15320604"
+      },
+      {
+        "dorsal": 17,
+        "name": "REY GALLEGO, SERGIO",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/15661615"
+      },
+      {
+        "dorsal": 22,
+        "name": "MENDOZA GARCIA, SEBASTIA",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/784869"
+      }
+    ],
+    "bench": [],
+    "substitutions": [],
+    "cards": []
+  },
+  "goals": [],
+  "jornada": 16
+}

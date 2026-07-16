@@ -1,0 +1,108 @@
+{
+  "acta_url": "https://www.fcf.cat/acta/2526/futbol-11/lliga-elit/grup-1/1cat/vilafranca-fc-a/elit/manlleu-aec-a",
+  "date": "25-01-2026",
+  "score": "2025-2026",
+  "home": {
+    "name": "",
+    "starters": [
+      {
+        "dorsal": 1,
+        "name": "PASCUAL MARTÍNEZ, DAVID",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/18672142"
+      },
+      {
+        "dorsal": 3,
+        "name": "GONZÁLEZ MIQUEL, MARC",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/646061"
+      },
+      {
+        "dorsal": 7,
+        "name": "CASTELL SOLE, NIL",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/15126050"
+      },
+      {
+        "dorsal": 11,
+        "name": "NGOM , SERIGNE SALIOU",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/36220672"
+      },
+      {
+        "dorsal": 12,
+        "name": "RADINSKY , TEODOR KRASSINOV",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/34525875"
+      },
+      {
+        "dorsal": 20,
+        "name": "MARÍ PASCUAL, ALEIX",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/19640580"
+      },
+      {
+        "dorsal": 22,
+        "name": "KAWAGUCHI , SHINNOSUKE",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/34629289"
+      },
+      {
+        "dorsal": 23,
+        "name": "CABRERIZO TOCON, ADRIAN",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/714601"
+      },
+      {
+        "dorsal": 24,
+        "name": "HERVÁS LEAL, JAVIER",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/18619027"
+      }
+    ],
+    "bench": [],
+    "substitutions": [],
+    "cards": []
+  },
+  "away": {
+    "name": "VILAFRANCA, F.C. A",
+    "starters": [
+      {
+        "dorsal": 5,
+        "name": "POUS MUNTADAS, POL",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/729753"
+      },
+      {
+        "dorsal": 11,
+        "name": "ADU TUTU AMOAH, NANA",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/19758513"
+      },
+      {
+        "dorsal": 13,
+        "name": "TAULATS CANUDAS, SERGI",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/18625969"
+      },
+      {
+        "dorsal": 14,
+        "name": "BASART VIGAS, SERGI",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/15138655"
+      },
+      {
+        "dorsal": 16,
+        "name": "COLLELL JORDÀ, GERARD",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/18557477"
+      },
+      {
+        "dorsal": 20,
+        "name": "MURO",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/19806774"
+      },
+      {
+        "dorsal": 22,
+        "name": "QUADRI , MURITALA ABIOLA",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/38061608"
+      },
+      {
+        "dorsal": 23,
+        "name": "COMAMALA FONT, MARC",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/18481364"
+      }
+    ],
+    "bench": [],
+    "substitutions": [],
+    "cards": []
+  },
+  "goals": [],
+  "jornada": 16
+}

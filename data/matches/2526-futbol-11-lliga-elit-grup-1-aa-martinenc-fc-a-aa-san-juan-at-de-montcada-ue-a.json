@@ -1,0 +1,103 @@
+{
+  "acta_url": "https://www.fcf.cat/acta/2526/futbol-11/lliga-elit/grup-1/aa/martinenc-fc-a/aa/san-juan-at-de-montcada-ue-a",
+  "date": "08-02-2026",
+  "score": "2025-2026",
+  "home": {
+    "name": "",
+    "starters": [
+      {
+        "dorsal": 3,
+        "name": "MEGIA ASCASO, ALEJANDRO",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/627828"
+      },
+      {
+        "dorsal": 7,
+        "name": "FABIAN PASCUAL, VICTOR",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/732891"
+      },
+      {
+        "dorsal": 13,
+        "name": "APARICIO MARTINEZ, LUCAS",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/28728333"
+      },
+      {
+        "dorsal": 15,
+        "name": "BANGUERO LASSO, YILSON EDUTH",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/43761211"
+      },
+      {
+        "dorsal": 18,
+        "name": "IBAÑEZ BLASCO, DANIEL",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/15117540"
+      },
+      {
+        "dorsal": 20,
+        "name": "GARRIGA ORS, ALEJANDRO",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/15159017"
+      },
+      {
+        "dorsal": 22,
+        "name": "BLASCO TORNE, GENIS",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/636860"
+      },
+      {
+        "dorsal": 23,
+        "name": "MARTINEZ ATIENZA, GERARD",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/15307332"
+      }
+    ],
+    "bench": [],
+    "substitutions": [],
+    "cards": []
+  },
+  "away": {
+    "name": "MARTINENC, F.C. A",
+    "starters": [
+      {
+        "dorsal": 7,
+        "name": "RECHE HUCHA, OSCAR",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/706833"
+      },
+      {
+        "dorsal": 14,
+        "name": "BALDE GOMEZ, OMAR",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/631237"
+      },
+      {
+        "dorsal": 15,
+        "name": "RUIZ SANTAMARÍA, HUGO",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/15624100"
+      },
+      {
+        "dorsal": 17,
+        "name": "MARTI VARELA, DANIEL",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/900003187"
+      },
+      {
+        "dorsal": 18,
+        "name": "LOPEZ BONIGNO, DERECK",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/15582003"
+      },
+      {
+        "dorsal": 22,
+        "name": "HERNANDEZ DEL RIO, DANIEL",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/647946"
+      },
+      {
+        "dorsal": 25,
+        "name": "GARCIA HERNANDEZ, ROGER",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/694000"
+      },
+      {
+        "dorsal": 26,
+        "name": "BARCELO GONZALEZ, DIDAC",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/18760009"
+      }
+    ],
+    "bench": [],
+    "substitutions": [],
+    "cards": []
+  },
+  "goals": [],
+  "jornada": 18
+}

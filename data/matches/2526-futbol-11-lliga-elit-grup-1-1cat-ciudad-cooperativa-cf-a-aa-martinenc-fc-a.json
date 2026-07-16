@@ -1,0 +1,103 @@
+{
+  "acta_url": "https://www.fcf.cat/acta/2526/futbol-11/lliga-elit/grup-1/1cat/ciudad-cooperativa-cf-a/aa/martinenc-fc-a",
+  "date": "01-11-2025",
+  "score": "2025-2026",
+  "home": {
+    "name": "",
+    "starters": [
+      {
+        "dorsal": 1,
+        "name": "RUIZ HERRERO, ALEIX",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/15363915"
+      },
+      {
+        "dorsal": 2,
+        "name": "PUEYO VILA, MARC",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/15054564"
+      },
+      {
+        "dorsal": 4,
+        "name": "DE ANDRADE JIMENEZ, VICTOR MBUKU",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/566534"
+      },
+      {
+        "dorsal": 12,
+        "name": "ZELLAL NEJAM, HICHAM",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/685031"
+      },
+      {
+        "dorsal": 15,
+        "name": "MARTINEZ DOMINGUEZ, DANIEL",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/7001929"
+      },
+      {
+        "dorsal": 16,
+        "name": "RODRÍGUEZ  ARASIL, RUBÉN",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/15056580"
+      },
+      {
+        "dorsal": 17,
+        "name": "MIRANDA COSTA, HECTOR",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/15640648"
+      },
+      {
+        "dorsal": 19,
+        "name": "DELGADO CHICANO, ADRIAN",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/15687408"
+      },
+      {
+        "dorsal": 22,
+        "name": "AKEL MEHDAOUI, RAMZI",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/27325614"
+      }
+    ],
+    "bench": [],
+    "substitutions": [],
+    "cards": []
+  },
+  "away": {
+    "name": "CIUDAD COOPERATIVA, C.F. A",
+    "starters": [
+      {
+        "dorsal": 3,
+        "name": "IZQUIERDO GIL, ANDREU",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/19677045"
+      },
+      {
+        "dorsal": 4,
+        "name": "TORRES GOMEZ, ALEJANDRO",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/900005715"
+      },
+      {
+        "dorsal": 13,
+        "name": "APARICIO MARTINEZ, LUCAS",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/28728333"
+      },
+      {
+        "dorsal": 14,
+        "name": "GONZALEZ ALCANTARA, CARLOS",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/15715511"
+      },
+      {
+        "dorsal": 16,
+        "name": "ALARCON MILLAN, KEVIN",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/53814281"
+      },
+      {
+        "dorsal": 20,
+        "name": "GARRIGA ORS, ALEJANDRO",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/15159017"
+      },
+      {
+        "dorsal": 22,
+        "name": "FABIAN PASCUAL, VICTOR",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/732891"
+      }
+    ],
+    "bench": [],
+    "substitutions": [],
+    "cards": []
+  },
+  "goals": [],
+  "jornada": 7
+}

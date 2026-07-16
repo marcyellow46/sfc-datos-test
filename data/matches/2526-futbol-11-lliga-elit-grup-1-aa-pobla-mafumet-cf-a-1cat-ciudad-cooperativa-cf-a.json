@@ -1,0 +1,113 @@
+{
+  "acta_url": "https://www.fcf.cat/acta/2526/futbol-11/lliga-elit/grup-1/aa/pobla-mafumet-cf-a/1cat/ciudad-cooperativa-cf-a",
+  "date": "16-05-2026",
+  "score": "2025-2026",
+  "home": {
+    "name": "",
+    "starters": [
+      {
+        "dorsal": 1,
+        "name": "PEIRI CABRERA, ALEX",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/7007376"
+      },
+      {
+        "dorsal": 3,
+        "name": "DANILO LUCHETTI",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/15218494"
+      },
+      {
+        "dorsal": 12,
+        "name": "ADELL ALIAU, IKER",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/21875512"
+      },
+      {
+        "dorsal": 16,
+        "name": "GUTIERREZ DESTEFANIS, AGUSTIN",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/40613508"
+      },
+      {
+        "dorsal": 17,
+        "name": "RUVIRA VALBUENA, AIRAN",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/49686557"
+      },
+      {
+        "dorsal": 19,
+        "name": "TORRES GONZÁLEZ, ÁLVARO",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/15586725"
+      },
+      {
+        "dorsal": 21,
+        "name": "PARISI FERRANDIZ, GUILLEM",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/40613567"
+      },
+      {
+        "dorsal": 26,
+        "name": "AGUZZI BETTINI, NICOLAS ALBERTO",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/18474635"
+      },
+      {
+        "dorsal": 27,
+        "name": "GARROFÉ SALLA, JOEL",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/15723516"
+      }
+    ],
+    "bench": [],
+    "substitutions": [],
+    "cards": []
+  },
+  "away": {
+    "name": "POBLA MAFUMET, C.F. A",
+    "starters": [
+      {
+        "dorsal": 4,
+        "name": "DE ANDRADE JIMENEZ, VICTOR MBUKU",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/566534"
+      },
+      {
+        "dorsal": 6,
+        "name": "HIDALGO PEREZ, MANUEL",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/18730429"
+      },
+      {
+        "dorsal": 8,
+        "name": "KADOCHNIKOV , VENIAMIN",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/43544905"
+      },
+      {
+        "dorsal": 9,
+        "name": "RODRÍGUEZ  ARASIL, RUBÉN",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/15056580"
+      },
+      {
+        "dorsal": 11,
+        "name": "SERRANO RUIZ, LUIS",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/704410"
+      },
+      {
+        "dorsal": 13,
+        "name": "CHACÓN MARTÍN, PABLO",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/15372397"
+      },
+      {
+        "dorsal": 20,
+        "name": "VARGAS ECHEPARES, TOMAS",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/647741"
+      },
+      {
+        "dorsal": 22,
+        "name": "BRAVO PONCE, PEDRO",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/900009639"
+      },
+      {
+        "dorsal": 25,
+        "name": "MESSOOUDI BAKKALI, MOHAMED YASSIN",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/15152617"
+      }
+    ],
+    "bench": [],
+    "substitutions": [],
+    "cards": []
+  },
+  "goals": [],
+  "jornada": 30
+}

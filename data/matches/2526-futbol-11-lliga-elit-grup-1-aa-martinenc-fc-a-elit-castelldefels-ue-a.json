@@ -1,0 +1,108 @@
+{
+  "acta_url": "https://www.fcf.cat/acta/2526/futbol-11/lliga-elit/grup-1/aa/martinenc-fc-a/elit/castelldefels-ue-a",
+  "date": "28-09-2025",
+  "score": "2025-2026",
+  "home": {
+    "name": "",
+    "starters": [
+      {
+        "dorsal": 3,
+        "name": "IZQUIERDO GIL, ANDREU",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/19677045"
+      },
+      {
+        "dorsal": 8,
+        "name": "SUÁREZ POSTIGO, DANIEL",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/688231"
+      },
+      {
+        "dorsal": 13,
+        "name": "MONTOYA CUSA, VICTOR",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/19082089"
+      },
+      {
+        "dorsal": 16,
+        "name": "ALARCON MILLAN, KEVIN",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/53814281"
+      },
+      {
+        "dorsal": 18,
+        "name": "VALVERDE MILLAN, JUAN",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/15337130"
+      },
+      {
+        "dorsal": 20,
+        "name": "GARRIGA ORS, ALEJANDRO",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/15159017"
+      },
+      {
+        "dorsal": 22,
+        "name": "FABIAN PASCUAL, VICTOR",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/732891"
+      },
+      {
+        "dorsal": 23,
+        "name": "MARTINEZ ATIENZA, GERARD",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/15307332"
+      }
+    ],
+    "bench": [],
+    "substitutions": [],
+    "cards": []
+  },
+  "away": {
+    "name": "MARTINENC, F.C. A",
+    "starters": [
+      {
+        "dorsal": 5,
+        "name": "ORTEGA RAMIREZ, IVAN",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/15588249"
+      },
+      {
+        "dorsal": 7,
+        "name": "RAMIREZ RUIZ, ENRIQUE",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/642498"
+      },
+      {
+        "dorsal": 10,
+        "name": "CANO JIMENEZ, CARLOS",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/633680"
+      },
+      {
+        "dorsal": 13,
+        "name": "GUTIÉRREZ ADAME, ADRIÀ",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/15596602"
+      },
+      {
+        "dorsal": 15,
+        "name": "FAURA MARTINEZ, JOEL",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/15908749"
+      },
+      {
+        "dorsal": 16,
+        "name": "FERREIRA MOREIRA, JONATHAN",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/44279498"
+      },
+      {
+        "dorsal": 20,
+        "name": "MALDONADO MOYA, IZAN",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/727358"
+      },
+      {
+        "dorsal": 22,
+        "name": "MARTÍ NAVAS, JOEL",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/15115386"
+      },
+      {
+        "dorsal": 23,
+        "name": "MATAMOROS SEGURA, JOEL",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/23168454"
+      }
+    ],
+    "bench": [],
+    "substitutions": [],
+    "cards": []
+  },
+  "goals": [],
+  "jornada": 2
+}

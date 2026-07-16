@@ -1,0 +1,113 @@
+{
+  "acta_url": "https://www.fcf.cat/acta/2526/futbol-11/lliga-elit/grup-1/elit/atletic-sant-just-f-c-a/elit/prat-ae-a",
+  "date": "13-12-2025",
+  "score": "2025-2026",
+  "home": {
+    "name": "",
+    "starters": [
+      {
+        "dorsal": 9,
+        "name": "WERCKMEISTER GARCIA, ANDER",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/18651406"
+      },
+      {
+        "dorsal": 13,
+        "name": "LOPEZ LLORENS, VICTOR",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/15947526"
+      },
+      {
+        "dorsal": 16,
+        "name": "JIMENEZ PORTO, ERIK",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/18559639"
+      },
+      {
+        "dorsal": 17,
+        "name": "GIL NAVARRO, JOEL",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/15550746"
+      },
+      {
+        "dorsal": 18,
+        "name": "PORCAR MARÍN, ENZO",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/19795906"
+      },
+      {
+        "dorsal": 22,
+        "name": "LASTRA SERRANO, JUAN CAMILO",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/15196842"
+      },
+      {
+        "dorsal": 23,
+        "name": "BUERA NADAL, FERRAN",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/651174"
+      },
+      {
+        "dorsal": 24,
+        "name": "SANTAELLA PRINETTI, YEDID",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/32596617"
+      },
+      {
+        "dorsal": 25,
+        "name": "KANTE , ALHASSANE",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/43487600"
+      }
+    ],
+    "bench": [],
+    "substitutions": [],
+    "cards": []
+  },
+  "away": {
+    "name": "ATLETIC SANT JUST . F. C. A",
+    "starters": [
+      {
+        "dorsal": 1,
+        "name": "COVES VENTURA, GUILLEM",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/18511973"
+      },
+      {
+        "dorsal": 3,
+        "name": "PEÑA DOMINGO, ROGER",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/900006763"
+      },
+      {
+        "dorsal": 7,
+        "name": "PLUVINS RAMOS, XAVIER",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/685159"
+      },
+      {
+        "dorsal": 10,
+        "name": "TORO CONEJERO, ADRIAN",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/673334"
+      },
+      {
+        "dorsal": 11,
+        "name": "PLAZA CREMADES, ALEX",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/731752"
+      },
+      {
+        "dorsal": 12,
+        "name": "ARCHS HORTIGÓN, ALEJANDRO",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/25236916"
+      },
+      {
+        "dorsal": 15,
+        "name": "HIDALGO GARCIA, DAVID",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/20139352"
+      },
+      {
+        "dorsal": 19,
+        "name": "DONCHEV , MARTIN VALERIEV",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/22731415"
+      },
+      {
+        "dorsal": 30,
+        "name": "BONAVENTURA GRIS, DANIEL",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/15655071"
+      }
+    ],
+    "bench": [],
+    "substitutions": [],
+    "cards": []
+  },
+  "goals": [],
+  "jornada": 12
+}

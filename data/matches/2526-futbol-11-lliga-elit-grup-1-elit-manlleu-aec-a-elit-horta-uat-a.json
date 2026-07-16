@@ -1,0 +1,113 @@
+{
+  "acta_url": "https://www.fcf.cat/acta/2526/futbol-11/lliga-elit/grup-1/elit/manlleu-aec-a/elit/horta-uat-a",
+  "date": "26-04-2026",
+  "score": "2025-2026",
+  "home": {
+    "name": "",
+    "starters": [
+      {
+        "dorsal": 4,
+        "name": "COSTA GARCIA, JORDI",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/38021806"
+      },
+      {
+        "dorsal": 8,
+        "name": "CAPDEVILA GALEANO, NIL",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/18528409"
+      },
+      {
+        "dorsal": 9,
+        "name": "CASANOVA CLUSELLS, ADRIA",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/900006640"
+      },
+      {
+        "dorsal": 10,
+        "name": "AGUILAR MESTRES, ISAAC",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/19666486"
+      },
+      {
+        "dorsal": 11,
+        "name": "ADU TUTU AMOAH, NANA",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/19758513"
+      },
+      {
+        "dorsal": 13,
+        "name": "TAULATS CANUDAS, SERGI",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/18625969"
+      },
+      {
+        "dorsal": 14,
+        "name": "BASART VIGAS, SERGI",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/15138655"
+      },
+      {
+        "dorsal": 15,
+        "name": "LOPEZ SÁNCHEZ, ALBERT",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/19649152"
+      },
+      {
+        "dorsal": 22,
+        "name": "QUADRI , MURITALA ABIOLA",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/38061608"
+      }
+    ],
+    "bench": [],
+    "substitutions": [],
+    "cards": []
+  },
+  "away": {
+    "name": "MANLLEU, A.E.C. A",
+    "starters": [
+      {
+        "dorsal": 7,
+        "name": "BABIA , HAITAM",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/774388"
+      },
+      {
+        "dorsal": 9,
+        "name": "LOPEZ CABEZAS, JORDI",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/630869"
+      },
+      {
+        "dorsal": 12,
+        "name": "ARAGALL PUIGVERT, JORDI",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/15657367"
+      },
+      {
+        "dorsal": 13,
+        "name": "RODRIGUEZ PIQUERAS, LEON",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/38238071"
+      },
+      {
+        "dorsal": 16,
+        "name": "PEDROL PALMADA, GERARD",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/731234"
+      },
+      {
+        "dorsal": 17,
+        "name": "COLY , PAPE OUMAR SARR",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/39311605"
+      },
+      {
+        "dorsal": 18,
+        "name": "AGUILAR COSTA, JULIA",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/47413242"
+      },
+      {
+        "dorsal": 19,
+        "name": "TOURAY , FABAKARY",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/52100669"
+      },
+      {
+        "dorsal": 22,
+        "name": "KOUBISS AJOUB, ALI",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/15654695"
+      }
+    ],
+    "bench": [],
+    "substitutions": [],
+    "cards": []
+  },
+  "goals": [],
+  "jornada": 27
+}

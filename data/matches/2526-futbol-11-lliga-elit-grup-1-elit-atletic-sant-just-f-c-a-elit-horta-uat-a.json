@@ -1,0 +1,103 @@
+{
+  "acta_url": "https://www.fcf.cat/acta/2526/futbol-11/lliga-elit/grup-1/elit/atletic-sant-just-f-c-a/elit/horta-uat-a",
+  "date": "25-10-2025",
+  "score": "2025-2026",
+  "home": {
+    "name": "",
+    "starters": [
+      {
+        "dorsal": 1,
+        "name": "DOMINGUEZ CIVICO, TONI",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/39689760"
+      },
+      {
+        "dorsal": 7,
+        "name": "MATEO QUEJIGO, PAU",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/313559"
+      },
+      {
+        "dorsal": 8,
+        "name": "RUIZ PIQUE, ARNAU",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/18632084"
+      },
+      {
+        "dorsal": 12,
+        "name": "SANCHEZ PLACENCIA, IVAN",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/15158482"
+      },
+      {
+        "dorsal": 17,
+        "name": "GIL NAVARRO, JOEL",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/15550746"
+      },
+      {
+        "dorsal": 22,
+        "name": "LASTRA SERRANO, JUAN CAMILO",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/15196842"
+      },
+      {
+        "dorsal": 23,
+        "name": "BUERA NADAL, FERRAN",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/651174"
+      },
+      {
+        "dorsal": 25,
+        "name": "KANTE , ALHASSANE",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/43487600"
+      }
+    ],
+    "bench": [],
+    "substitutions": [],
+    "cards": []
+  },
+  "away": {
+    "name": "ATLETIC SANT JUST . F. C. A",
+    "starters": [
+      {
+        "dorsal": 4,
+        "name": "MARTINEZ ALBA, VICTOR",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/15550724"
+      },
+      {
+        "dorsal": 8,
+        "name": "ITO , RYUSEI",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/55273075"
+      },
+      {
+        "dorsal": 13,
+        "name": "RODRIGUEZ RIVAS, POL",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/26314592"
+      },
+      {
+        "dorsal": 15,
+        "name": "CIFUENTES PELAEZ, RUBEN",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/717530"
+      },
+      {
+        "dorsal": 19,
+        "name": "SÁNCHEZ GIRÁLDEZ, ERIC",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/15148554"
+      },
+      {
+        "dorsal": 20,
+        "name": "VALVERDE MILLAN, JUAN",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/15337130"
+      },
+      {
+        "dorsal": 21,
+        "name": "FORNELL SAEZ, JOAQUIM",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/43387549"
+      },
+      {
+        "dorsal": 22,
+        "name": "KOUBISS AJOUB, ALI",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/15654695"
+      }
+    ],
+    "bench": [],
+    "substitutions": [],
+    "cards": []
+  },
+  "goals": [],
+  "jornada": 6
+}

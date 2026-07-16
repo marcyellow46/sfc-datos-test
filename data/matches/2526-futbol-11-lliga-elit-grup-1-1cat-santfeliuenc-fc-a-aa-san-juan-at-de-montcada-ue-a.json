@@ -1,0 +1,113 @@
+{
+  "acta_url": "https://www.fcf.cat/acta/2526/futbol-11/lliga-elit/grup-1/1cat/santfeliuenc-fc-a/aa/san-juan-at-de-montcada-ue-a",
+  "date": "21-03-2026",
+  "score": "2025-2026",
+  "home": {
+    "name": "",
+    "starters": [
+      {
+        "dorsal": 1,
+        "name": "VAZQUEZ ALONSO, MARC",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/15325597"
+      },
+      {
+        "dorsal": 2,
+        "name": "MATEO QUEJIGO, ELOI",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/750063"
+      },
+      {
+        "dorsal": 5,
+        "name": "SADURNI FABRELLAS, JOSEP",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/19891478"
+      },
+      {
+        "dorsal": 6,
+        "name": "VARESE NAFA, ANDRES",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/53848832"
+      },
+      {
+        "dorsal": 9,
+        "name": "ALVAREZ CABO, SAUL",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/15180376"
+      },
+      {
+        "dorsal": 15,
+        "name": "HERVIAS MARTINEZ, MARIO",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/750880"
+      },
+      {
+        "dorsal": 19,
+        "name": "HONORATO TORREJON, KILIAN",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/709497"
+      },
+      {
+        "dorsal": 21,
+        "name": "GUILLEM ARMADA, SAUL",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/15173121"
+      },
+      {
+        "dorsal": 23,
+        "name": "OLAECHEA MARTÍNEZ, FRANCESC XAVIER",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/15169415"
+      }
+    ],
+    "bench": [],
+    "substitutions": [],
+    "cards": []
+  },
+  "away": {
+    "name": "SANTFELIUENC, F.C. A",
+    "starters": [
+      {
+        "dorsal": 1,
+        "name": "PEREZ BELLO, DAVID",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/37995376"
+      },
+      {
+        "dorsal": 2,
+        "name": "ORTIZ PARAISO, JOSHUA",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/353696"
+      },
+      {
+        "dorsal": 6,
+        "name": "MARTINEZ MORENO, CARLOS",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/673345"
+      },
+      {
+        "dorsal": 9,
+        "name": "SANTIAGO PEREZ, ANTONIO",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/900007321"
+      },
+      {
+        "dorsal": 18,
+        "name": "LOPEZ BONIGNO, DERECK",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/15582003"
+      },
+      {
+        "dorsal": 19,
+        "name": "HUGUE ALCAIDE, GALDERIC",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/15118036"
+      },
+      {
+        "dorsal": 21,
+        "name": "BA ANDEME, MARCELO SALIOU",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/15116905"
+      },
+      {
+        "dorsal": 22,
+        "name": "HERNANDEZ DEL RIO, DANIEL",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/647946"
+      },
+      {
+        "dorsal": 24,
+        "name": "BARCELO GONZALEZ, DIDAC",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/18760009"
+      }
+    ],
+    "bench": [],
+    "substitutions": [],
+    "cards": []
+  },
+  "goals": [],
+  "jornada": 23
+}

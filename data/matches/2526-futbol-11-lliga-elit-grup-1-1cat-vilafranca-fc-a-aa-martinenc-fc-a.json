@@ -1,0 +1,98 @@
+{
+  "acta_url": "https://www.fcf.cat/acta/2526/futbol-11/lliga-elit/grup-1/1cat/vilafranca-fc-a/aa/martinenc-fc-a",
+  "date": "16-11-2025",
+  "score": "2025-2026",
+  "home": {
+    "name": "",
+    "starters": [
+      {
+        "dorsal": 1,
+        "name": "PASCUAL MARTÍNEZ, DAVID",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/18672142"
+      },
+      {
+        "dorsal": 2,
+        "name": "ROCA BOFILL, MARC",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/18474071"
+      },
+      {
+        "dorsal": 3,
+        "name": "GONZÁLEZ MIQUEL, MARC",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/646061"
+      },
+      {
+        "dorsal": 6,
+        "name": "CAÑETE RODRIGUEZ, ERIC",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/47147796"
+      },
+      {
+        "dorsal": 9,
+        "name": "FORGAS PALLARES, ERNEST",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/900006084"
+      },
+      {
+        "dorsal": 14,
+        "name": "HERNANDEZ LLANOS, LUIS MIGUEL",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/51512020"
+      },
+      {
+        "dorsal": 24,
+        "name": "HERVÁS LEAL, JAVIER",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/18619027"
+      }
+    ],
+    "bench": [],
+    "substitutions": [],
+    "cards": []
+  },
+  "away": {
+    "name": "VILAFRANCA, F.C. A",
+    "starters": [
+      {
+        "dorsal": 2,
+        "name": "ZAFRA CABRERA, ALBERT",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/18699731"
+      },
+      {
+        "dorsal": 3,
+        "name": "IZQUIERDO GIL, ANDREU",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/19677045"
+      },
+      {
+        "dorsal": 13,
+        "name": "APARICIO MARTINEZ, LUCAS",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/28728333"
+      },
+      {
+        "dorsal": 14,
+        "name": "GONZALEZ ALCANTARA, CARLOS",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/15715511"
+      },
+      {
+        "dorsal": 16,
+        "name": "ALARCON MILLAN, KEVIN",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/53814281"
+      },
+      {
+        "dorsal": 18,
+        "name": "OSORIO BARROZO, FAVIO JULIAN",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/35325471"
+      },
+      {
+        "dorsal": 20,
+        "name": "GARRIGA ORS, ALEJANDRO",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/15159017"
+      },
+      {
+        "dorsal": 22,
+        "name": "FABIAN PASCUAL, VICTOR",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/732891"
+      }
+    ],
+    "bench": [],
+    "substitutions": [],
+    "cards": []
+  },
+  "goals": [],
+  "jornada": 9
+}

@@ -1,0 +1,113 @@
+{
+  "acta_url": "https://www.fcf.cat/acta/2526/futbol-11/lliga-elit/grup-1/1cat/santfeliuenc-fc-a/elit/horta-uat-a",
+  "date": "22-11-2025",
+  "score": "2025-2026",
+  "home": {
+    "name": "",
+    "starters": [
+      {
+        "dorsal": 1,
+        "name": "FELEZ NAVARRO, SERGI",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/15625517"
+      },
+      {
+        "dorsal": 2,
+        "name": "MATEO QUEJIGO, ELOI",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/750063"
+      },
+      {
+        "dorsal": 5,
+        "name": "SADURNI FABRELLAS, JOSEP",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/19891478"
+      },
+      {
+        "dorsal": 8,
+        "name": "CARBONELL GIL, MARC",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/746568"
+      },
+      {
+        "dorsal": 9,
+        "name": "ALVAREZ CABO, SAUL",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/15180376"
+      },
+      {
+        "dorsal": 12,
+        "name": "CARESIA MESA, PAU",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/7001966"
+      },
+      {
+        "dorsal": 21,
+        "name": "GUILLEM ARMADA, SAUL",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/15173121"
+      },
+      {
+        "dorsal": 22,
+        "name": "CASARES ALGUACIL, MARC",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/18579866"
+      },
+      {
+        "dorsal": 23,
+        "name": "OLAECHEA MARTÍNEZ, FRANCESC XAVIER",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/15169415"
+      }
+    ],
+    "bench": [],
+    "substitutions": [],
+    "cards": []
+  },
+  "away": {
+    "name": "SANTFELIUENC, F.C. A",
+    "starters": [
+      {
+        "dorsal": 2,
+        "name": "ITO , RYUSEI",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/55273075"
+      },
+      {
+        "dorsal": 4,
+        "name": "JOSA LEVRATTO, GUILLEM",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/40663605"
+      },
+      {
+        "dorsal": 7,
+        "name": "HAMAD , ABDUL-MOUATY",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/57345634"
+      },
+      {
+        "dorsal": 9,
+        "name": "LOPEZ CABEZAS, JORDI",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/630869"
+      },
+      {
+        "dorsal": 13,
+        "name": "RODRIGUEZ RIVAS, POL",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/26314592"
+      },
+      {
+        "dorsal": 14,
+        "name": "DE ARRIBA VILLAHUTE, MAURO",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/18794822"
+      },
+      {
+        "dorsal": 17,
+        "name": "SITGES GINÉ, POL",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/40998023"
+      },
+      {
+        "dorsal": 18,
+        "name": "AGUILAR COSTA, JULIA",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/47413242"
+      },
+      {
+        "dorsal": 19,
+        "name": "SÁNCHEZ GIRÁLDEZ, ERIC",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/15148554"
+      }
+    ],
+    "bench": [],
+    "substitutions": [],
+    "cards": []
+  },
+  "goals": [],
+  "jornada": 10
+}

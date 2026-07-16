@@ -1,0 +1,113 @@
+{
+  "acta_url": "https://www.fcf.cat/acta/2526/futbol-11/lliga-elit/grup-1/elit/rubi-ue-a/1cat/santfeliuenc-fc-a",
+  "date": "26-10-2025",
+  "score": "2025-2026",
+  "home": {
+    "name": "",
+    "starters": [
+      {
+        "dorsal": 1,
+        "name": "DURAN VALBUENA, ARNAU",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/15695612"
+      },
+      {
+        "dorsal": 5,
+        "name": "OLLÉ JURADO, PEPE",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/54356125"
+      },
+      {
+        "dorsal": 14,
+        "name": "HERRANZ VIDAL, PAU",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/15320604"
+      },
+      {
+        "dorsal": 16,
+        "name": "GONZALEZ SENDINO, PEDRO",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/23263357"
+      },
+      {
+        "dorsal": 17,
+        "name": "REY GALLEGO, SERGIO",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/15661615"
+      },
+      {
+        "dorsal": 19,
+        "name": "LOPEZ ESCRIG, YOEL",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/20154611"
+      },
+      {
+        "dorsal": 21,
+        "name": "RAMIREZ CASTILLO, HUGO",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/693487"
+      },
+      {
+        "dorsal": 24,
+        "name": "CORNELLA MOLINS, ALEX",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/18681318"
+      },
+      {
+        "dorsal": 30,
+        "name": "RUIZ DEL TÍO, JOAN",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/15946659"
+      }
+    ],
+    "bench": [],
+    "substitutions": [],
+    "cards": []
+  },
+  "away": {
+    "name": "RUBI, U.E. A",
+    "starters": [
+      {
+        "dorsal": 1,
+        "name": "FELEZ NAVARRO, SERGI",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/15625517"
+      },
+      {
+        "dorsal": 2,
+        "name": "MATEO QUEJIGO, ELOI",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/750063"
+      },
+      {
+        "dorsal": 5,
+        "name": "SADURNI FABRELLAS, JOSEP",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/19891478"
+      },
+      {
+        "dorsal": 8,
+        "name": "CARBONELL GIL, MARC",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/746568"
+      },
+      {
+        "dorsal": 9,
+        "name": "ALVAREZ CABO, SAUL",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/15180376"
+      },
+      {
+        "dorsal": 14,
+        "name": "HERNÁNDEZ BAYÉS, ALBERT",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/15146024"
+      },
+      {
+        "dorsal": 19,
+        "name": "HONORATO TORREJON, KILIAN",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/709497"
+      },
+      {
+        "dorsal": 20,
+        "name": "FELEZ NAVARRO, ROGER",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/15625474"
+      },
+      {
+        "dorsal": 22,
+        "name": "CASARES ALGUACIL, MARC",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/18579866"
+      }
+    ],
+    "bench": [],
+    "substitutions": [],
+    "cards": []
+  },
+  "goals": [],
+  "jornada": 6
+}

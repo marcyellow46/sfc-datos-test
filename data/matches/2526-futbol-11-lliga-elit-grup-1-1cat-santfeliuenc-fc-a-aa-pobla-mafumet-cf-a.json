@@ -1,0 +1,113 @@
+{
+  "acta_url": "https://www.fcf.cat/acta/2526/futbol-11/lliga-elit/grup-1/1cat/santfeliuenc-fc-a/aa/pobla-mafumet-cf-a",
+  "date": "28-03-2026",
+  "score": "2025-2026",
+  "home": {
+    "name": "",
+    "starters": [
+      {
+        "dorsal": 1,
+        "name": "VAZQUEZ ALONSO, MARC",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/15325597"
+      },
+      {
+        "dorsal": 2,
+        "name": "MATEO QUEJIGO, ELOI",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/750063"
+      },
+      {
+        "dorsal": 5,
+        "name": "SADURNI FABRELLAS, JOSEP",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/19891478"
+      },
+      {
+        "dorsal": 15,
+        "name": "HERVIAS MARTINEZ, MARIO",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/750880"
+      },
+      {
+        "dorsal": 17,
+        "name": "AVILES DIAZ, ALEJANDRO",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/748540"
+      },
+      {
+        "dorsal": 19,
+        "name": "HONORATO TORREJON, KILIAN",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/709497"
+      },
+      {
+        "dorsal": 20,
+        "name": "DURAN MANZANILLA, HUGO",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/20038387"
+      },
+      {
+        "dorsal": 27,
+        "name": "FERNÁNDEZ FERNÁNDEZ, HÉCTOR",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/699148"
+      },
+      {
+        "dorsal": 28,
+        "name": "PADILLA TAUSTE, ERIC",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/21616573"
+      }
+    ],
+    "bench": [],
+    "substitutions": [],
+    "cards": []
+  },
+  "away": {
+    "name": "SANTFELIUENC, F.C. A",
+    "starters": [
+      {
+        "dorsal": 2,
+        "name": "MORENO GAITAN, MARC",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/15712251"
+      },
+      {
+        "dorsal": 9,
+        "name": "CABEZAS MENSAH, DAVID",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/23168365"
+      },
+      {
+        "dorsal": 13,
+        "name": "PEREZ , NAHUEL",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/40616336"
+      },
+      {
+        "dorsal": 16,
+        "name": "GUTIERREZ DESTEFANIS, AGUSTIN",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/40613508"
+      },
+      {
+        "dorsal": 17,
+        "name": "RUVIRA VALBUENA, AIRAN",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/49686557"
+      },
+      {
+        "dorsal": 19,
+        "name": "TORRES GONZÁLEZ, ÁLVARO",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/15586725"
+      },
+      {
+        "dorsal": 21,
+        "name": "PARISI FERRANDIZ, GUILLEM",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/40613567"
+      },
+      {
+        "dorsal": 24,
+        "name": "CARDONA PONS, UBAI",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/26062046"
+      },
+      {
+        "dorsal": 27,
+        "name": "GARROFÉ SALLA, JOEL",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/15723516"
+      }
+    ],
+    "bench": [],
+    "substitutions": [],
+    "cards": []
+  },
+  "goals": [],
+  "jornada": 24
+}

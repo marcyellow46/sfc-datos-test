@@ -1,0 +1,113 @@
+{
+  "acta_url": "https://www.fcf.cat/acta/2526/futbol-11/lliga-elit/grup-1/elit/manlleu-aec-a/elit/rubi-ue-a",
+  "date": "22-03-2026",
+  "score": "2025-2026",
+  "home": {
+    "name": "",
+    "starters": [
+      {
+        "dorsal": 4,
+        "name": "COSTA GARCIA, JORDI",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/38021806"
+      },
+      {
+        "dorsal": 9,
+        "name": "CASANOVA CLUSELLS, ADRIA",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/900006640"
+      },
+      {
+        "dorsal": 11,
+        "name": "ADU TUTU AMOAH, NANA",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/19758513"
+      },
+      {
+        "dorsal": 13,
+        "name": "TAULATS CANUDAS, SERGI",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/18625969"
+      },
+      {
+        "dorsal": 14,
+        "name": "BASART VIGAS, SERGI",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/15138655"
+      },
+      {
+        "dorsal": 20,
+        "name": "MURO",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/19806774"
+      },
+      {
+        "dorsal": 21,
+        "name": "MORAL ROGER, ELOI",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/37992506"
+      },
+      {
+        "dorsal": 22,
+        "name": "QUADRI , MURITALA ABIOLA",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/38061608"
+      },
+      {
+        "dorsal": 23,
+        "name": "COMAMALA FONT, MARC",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/18481364"
+      }
+    ],
+    "bench": [],
+    "substitutions": [],
+    "cards": []
+  },
+  "away": {
+    "name": "MANLLEU, A.E.C. A",
+    "starters": [
+      {
+        "dorsal": 4,
+        "name": "YAHYA RABIE, AYOUB",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/23968785"
+      },
+      {
+        "dorsal": 5,
+        "name": "CORNELLA MOLINS, ALEX",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/18681318"
+      },
+      {
+        "dorsal": 12,
+        "name": "NII , OLIVER KOTA",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/45002526"
+      },
+      {
+        "dorsal": 13,
+        "name": "MURAY SANCHEZ, IGNASI",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/729757"
+      },
+      {
+        "dorsal": 14,
+        "name": "HERRANZ VIDAL, PAU",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/15320604"
+      },
+      {
+        "dorsal": 18,
+        "name": "MORRAL CAMPILLO, ALBERT",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/669445"
+      },
+      {
+        "dorsal": 21,
+        "name": "MARTIN RIVERA, AIMAR",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/15239332"
+      },
+      {
+        "dorsal": 22,
+        "name": "MENDOZA GARCIA, SEBASTIA",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/784869"
+      },
+      {
+        "dorsal": 26,
+        "name": "CASTELLOTE REDON, IKER",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/28910357"
+      }
+    ],
+    "bench": [],
+    "substitutions": [],
+    "cards": []
+  },
+  "goals": [],
+  "jornada": 23
+}

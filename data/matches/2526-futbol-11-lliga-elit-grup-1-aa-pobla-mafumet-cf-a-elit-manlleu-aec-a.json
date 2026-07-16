@@ -1,0 +1,98 @@
+{
+  "acta_url": "https://www.fcf.cat/acta/2526/futbol-11/lliga-elit/grup-1/aa/pobla-mafumet-cf-a/elit/manlleu-aec-a",
+  "date": "21-12-2025",
+  "score": "2025-2026",
+  "home": {
+    "name": "",
+    "starters": [
+      {
+        "dorsal": 2,
+        "name": "MORENO GAITAN, MARC",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/15712251"
+      },
+      {
+        "dorsal": 8,
+        "name": "BEAMUZ  AROCA, ÀLEX",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/40613396"
+      },
+      {
+        "dorsal": 12,
+        "name": "CID PLA, POL",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/19627661"
+      },
+      {
+        "dorsal": 13,
+        "name": "PEREZ , NAHUEL",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/40616336"
+      },
+      {
+        "dorsal": 14,
+        "name": "CIURÓ RIUDEUBAS, ROGER",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/19646295"
+      },
+      {
+        "dorsal": 21,
+        "name": "PARISI FERRANDIZ, GUILLEM",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/40613567"
+      },
+      {
+        "dorsal": 22,
+        "name": "EDUARDO ESTEVES",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/55176732"
+      },
+      {
+        "dorsal": 23,
+        "name": "RAYA BERNAL, PAU",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/40613580"
+      },
+      {
+        "dorsal": 26,
+        "name": "AGUZZI BETTINI, NICOLAS ALBERTO",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/18474635"
+      }
+    ],
+    "bench": [],
+    "substitutions": [],
+    "cards": []
+  },
+  "away": {
+    "name": "POBLA MAFUMET, C.F. A",
+    "starters": [
+      {
+        "dorsal": 9,
+        "name": "CASANOVA CLUSELLS, ADRIA",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/900006640"
+      },
+      {
+        "dorsal": 11,
+        "name": "QUADRI , MURITALA ABIOLA",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/38061608"
+      },
+      {
+        "dorsal": 13,
+        "name": "CAPDEVILA SOLER, FERRAN",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/32206006"
+      },
+      {
+        "dorsal": 16,
+        "name": "KIPIANI MAZMANOV, LUKA",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/23930206"
+      },
+      {
+        "dorsal": 20,
+        "name": "MURO",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/19806774"
+      },
+      {
+        "dorsal": 21,
+        "name": "VILA SERRA, OLEGUER",
+        "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/18557632"
+      }
+    ],
+    "bench": [],
+    "substitutions": [],
+    "cards": []
+  },
+  "goals": [],
+  "jornada": 13
+}
