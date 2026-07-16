@@ -360,6 +360,23 @@ def parse_acta(acta_url: str) -> dict:
     cards_tables = soup.find_all(string=re.compile(r"^\s*Targetes\s*$"))
 
     def table_after(text_node):
+        """
+        Dos casos posibles:
+          1. El texto ("Titulars", "Suplents"...) es un título APARTE, antes
+             de su tabla -> la tabla correcta es la SIGUIENTE tabla del
+             documento a partir de ese punto.
+          2. El texto es la propia cabecera DENTRO de esa tabla (p.ej. una
+             fila <th colspan="3">Titulars</th> que encabeza la propia tabla
+             de titulares) -> la tabla correcta es la tabla ANCESTRA que
+             contiene ese texto, no "la siguiente".
+        Este segundo caso era justo el que se nos estaba escapando: hacía
+        que, por ejemplo, "Titulars" cogiera en realidad la tabla de
+        Suplents (la que viene justo después), dejando fuera del reparto de
+        minutos y goles a jugadores que sí eran titulares.
+        """
+        own_table = text_node.find_parent("table")
+        if own_table is not None:
+            return own_table
         node = text_node.find_parent()
         return node.find_next("table") if node else None
 
