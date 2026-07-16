@@ -65,6 +65,28 @@ def load_positions():
     return {normalize_name(k): v for k, v in raw.items()}
 
 
+def roster_names(side: dict) -> set:
+    """
+    Reúne TODOS los nombres mencionados para un lado del partido —
+    titulares, suplentes, y quien salga/entre en las sustituciones — sin
+    depender de que el cálculo de minutos (que sí depende de que las
+    sustituciones estén bien parseadas) esté afinado. Se usa solo para
+    decidir de qué equipo es cada gol; el cálculo de minutos exacto es un
+    problema aparte que se aborda después.
+    """
+    names = set()
+    for p in side.get("starters", []):
+        names.add(normalize_name(p["name"]))
+    for p in side.get("bench", []):
+        names.add(normalize_name(p["name"]))
+    for sub in side.get("substitutions", []):
+        if sub.get("out"):
+            names.add(normalize_name(sub["out"]["name"]))
+        if sub.get("in"):
+            names.add(normalize_name(sub["in"]["name"]))
+    return names
+
+
 def player_minutes(side: dict, match_length=MATCH_LENGTH):
     """
     Devuelve {nombre: (dorsal, minuto_inicio, minuto_fin)} para todos los
@@ -162,10 +184,14 @@ def main():
             player_ranges[name].append((start, end))
 
         # goles: hay que decidir de qué equipo es cada gol comparando el
-        # autor con las plantillas de cada lado. Si es "own_goal", el gol
-        # cuenta A FAVOR del equipo contrario y EN CONTRA del equipo del autor.
-        home_names = set(home_intervals.keys())
-        away_names = set(away_intervals.keys())
+        # autor con las plantillas de cada lado. Usamos roster_names (titulares
+        # + suplentes + sustituciones) en vez de las intervals de minutos, para
+        # que esto funcione ya mismo aunque el cálculo de minutos por
+        # sustitución todavía no esté perfeccionado (eso se aborda aparte).
+        # Si es "own_goal", el gol cuenta A FAVOR del equipo contrario y EN
+        # CONTRA del equipo del autor.
+        home_names = roster_names(home)
+        away_names = roster_names(away)
 
         for goal in match.get("goals", []):
             scorer = normalize_name(goal["scorer"])
