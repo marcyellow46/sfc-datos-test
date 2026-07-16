@@ -23,9 +23,6 @@ jobs:
     steps:
       - name: Comprobar que son las 23:00 en Madrid
         id: check_time
-        run: |
-          - name: Comprobar que son las 23:00 en Madrid
-        id: check_time
         run: echo "should_run=true" >> "$GITHUB_OUTPUT"
 
       - uses: actions/checkout@v4
