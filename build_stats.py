@@ -151,6 +151,8 @@ def main():
 
     goals_total_seen = 0
     goals_skipped = 0
+    subs_total_seen = 0
+    matches_with_zero_subs = 0
 
     for f in match_files:
         match = json.loads(f.read_text(encoding="utf-8"))
@@ -158,6 +160,11 @@ def main():
         home_name, away_name = home["name"], away["name"]
         if not home_name or not away_name:
             continue
+
+        n_subs_this_match = len(home.get("substitutions", [])) + len(away.get("substitutions", []))
+        subs_total_seen += n_subs_this_match
+        if n_subs_this_match == 0:
+            matches_with_zero_subs += 1
 
         team_played[home_name] += 1
         team_played[away_name] += 1
@@ -283,6 +290,10 @@ def main():
     print(f"OK: {len(teams_out)} equipos, {len(players_out)} jugadores.")
     print(f"Goles procesados: {goals_total_seen - goals_skipped} / {goals_total_seen} "
           f"({goals_skipped} descartados por no encontrar al autor en la alineación)")
+    print(f"Sustituciones detectadas: {subs_total_seen} en {len(match_files)} partidos "
+          f"({subs_total_seen / len(match_files):.1f} de media por partido). "
+          f"Partidos con 0 sustituciones detectadas: {matches_with_zero_subs} "
+          f"(sospechoso si es un número alto — en fútbol amateur casi siempre hay alguna).")
 
     missing = [n for n in players_out if players_out[n]["position"] == "Sin definir"]
     if missing:
