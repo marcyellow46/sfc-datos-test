@@ -3,8 +3,13 @@ build_stats.py
 ===============
 Lee todos los JSON de data/matches/*.json (generados por scraper.py) y los
 agrega en:
-  - data/teams.json    -> stats por equipo
-  - data/players.json  -> stats por jugador
+  - site/data/teams.json    -> stats por equipo
+  - site/data/players.json  -> stats por jugador
+
+Se escriben dentro de site/ (y no en data/) a propósito: GitHub Pages solo
+publica el contenido de la carpeta site/, así que los JSON que necesita leer
+el navegador tienen que vivir ahí. data/matches/ se queda como el archivo
+"crudo" de cada partido (no hace falta publicarlo).
 
 Requiere positions.json (tú lo editas a mano) con el mapeo
 "NOMBRE EXACTO COMO APARECE EN LA ACTA" -> "Portero" | "Defensa" | "Centrocampista" | "Delantero"
@@ -21,6 +26,8 @@ from pathlib import Path
 DATA_DIR = Path(__file__).parent / "data"
 MATCHES_DIR = DATA_DIR / "matches"
 POSITIONS_PATH = Path(__file__).parent / "positions.json"
+SITE_DATA_DIR = Path(__file__).parent / "site" / "data"
+SITE_DATA_DIR.mkdir(parents=True, exist_ok=True)
 
 MATCH_LENGTH = 90  # se asume partido completo de 90'; los añadidos de tiempo no vienen en la acta
 BUCKETS = [(0, 15), (15, 30), (30, 45), (45, 60), (60, 75), (75, 90)]
@@ -209,10 +216,10 @@ def main():
             entry["goalsConcededAvg"] = None
         players_out[name] = entry
 
-    (DATA_DIR / "teams.json").write_text(
+    (SITE_DATA_DIR / "teams.json").write_text(
         json.dumps(teams_out, ensure_ascii=False, indent=2), encoding="utf-8"
     )
-    (DATA_DIR / "players.json").write_text(
+    (SITE_DATA_DIR / "players.json").write_text(
         json.dumps(players_out, ensure_ascii=False, indent=2), encoding="utf-8"
     )
     print(f"OK: {len(teams_out)} equipos, {len(players_out)} jugadores.")
