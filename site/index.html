@@ -236,7 +236,11 @@
     text-align:left;font-family:var(--font-body);font-weight:600;font-size:11px;
     color:var(--chalk-dim);text-transform:uppercase;letter-spacing:0.4px;
     padding:8px 10px;border-bottom:1px solid var(--panel-line);
+    user-select:none;
   }
+  table.players th.sortable{cursor:pointer;white-space:nowrap;}
+  table.players th.sortable:hover{color:var(--chalk);}
+  table.players th.sortable.active{color:var(--amber);}
   table.players td{padding:10px;border-bottom:1px solid rgba(255,255,255,0.05);vertical-align:middle;}
   table.players tr:hover td{background:rgba(255,255,255,0.03);}
   .pos-badge{
@@ -535,8 +539,45 @@ function posBadge(pos){
   return `<span class="${cls}">${pos}</span>`;
 }
 
+const SORT_COLUMNS = [
+  { key: "name", label: "Jugador", type: "string" },
+  { key: "position", label: "Pos.", type: "string" },
+  { key: "minutesTotal", label: "Min. (total / media)", type: "number" },
+  { key: "rangeStart", label: "Rango habitual", type: "number" },
+  { key: "goalsTotal", label: "Goles (total / media)", type: "number" },
+  { key: "goalsConcededTotal", label: "Encajados (total / media)", type: "number" },
+];
+
+let sortState = { key: "minutesTotal", dir: "desc" };
+
+function setSort(key){
+  if(sortState.key === key){
+    sortState.dir = sortState.dir === "asc" ? "desc" : "asc";
+  } else {
+    sortState.key = key;
+    sortState.dir = "desc";
+  }
+  renderAll();
+}
+
+function sortPlayers(players){
+  const { key, dir } = sortState;
+  const mul = dir === "asc" ? 1 : -1;
+  return [...players].sort((a,b)=>{
+    let va = a[key], vb = b[key];
+    const vaNull = va===null || va===undefined;
+    const vbNull = vb===null || vb===undefined;
+    if(vaNull && vbNull) return 0;
+    if(vaNull) return 1;   // los "sin dato" (p.ej. encajados de no-porteros) siempre al final
+    if(vbNull) return -1;
+    if(typeof va === "string") return mul * va.localeCompare(vb, "es");
+    return mul * (va - vb);
+  });
+}
+
 function playersTable(players){
-  const rows = players.map(p=>`
+  const sorted = sortPlayers(players);
+  const rows = sorted.map(p=>`
     <tr>
       <td class="name-cell"><span class="dorsal">${p.dorsal}</span>${p.name}</td>
       <td>${posBadge(p.position)}</td>
@@ -546,12 +587,21 @@ function playersTable(players){
       <td class="num">${p.goalsConcededTotal!==null ? p.goalsConcededTotal+` <span style="color:var(--chalk-dim)">(${p.goalsConcededAvg}/p)</span>` : "—"}</td>
     </tr>
   `).join("");
+  const headerCells = SORT_COLUMNS.map(col=>{
+    const active = sortState.key === col.key;
+    const arrow = active ? (sortState.dir === "asc" ? " ▲" : " ▼") : "";
+    return `<th class="sortable${active?' active':''}" data-sort-key="${col.key}">${col.label}${arrow}</th>`;
+  }).join("");
   return `<table class="players">
-    <thead><tr>
-      <th>Jugador</th><th>Pos.</th><th>Min. (total / media)</th><th>Rango habitual</th><th>Goles (total / media)</th><th>Encajados (total / media)</th>
-    </tr></thead>
+    <thead><tr>${headerCells}</tr></thead>
     <tbody>${rows}</tbody>
   </table>`;
+}
+
+function attachSortHandlers(container){
+  container.querySelectorAll("th.sortable").forEach(th=>{
+    th.onclick = () => setSort(th.dataset.sortKey);
+  });
 }
 
 function renderTeamView(){
@@ -584,6 +634,7 @@ function renderTeamView(){
   const content = document.getElementById("tabContent");
   if(activeTab==="plantilla"){
     content.innerHTML = `<div class="section-block">${playersTable(team.players)}</div>`;
+    attachSortHandlers(content);
   } else {
     content.innerHTML = `
       <div class="stat-grid">
@@ -661,6 +712,7 @@ function renderCompareView(){
       </div>
     </div>
   `;
+  attachSortHandlers(mainEl);
 }
 
 function renderAll(){
