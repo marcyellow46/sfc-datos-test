@@ -1,10 +1,15 @@
 name: Actualizar datos SFC Datos
 
 on:
+  # Se dispara dos veces (21:00 y 22:00 UTC) para cubrir tanto horario de
+  # verano (CEST, UTC+2) como de invierno (CET, UTC+1). El primer paso del
+  # job comprueba la hora real en Madrid y si no son las 23:00 en punto,
+  # el resto del workflow se salta -> así solo se ejecuta una vez de verdad
+  # cada sábado y domingo, sin tener que tocar el cron dos veces al año.
   schedule:
     - cron: "0 21 * * 6,0"
     - cron: "0 22 * * 6,0"
-  workflow_dispatch: {}
+  workflow_dispatch: {}   # también se puede lanzar a mano desde GitHub
 
 permissions:
   contents: write
@@ -21,9 +26,21 @@ jobs:
     outputs:
       should_run: ${{ steps.check_time.outputs.should_run }}
     steps:
-      - name: Comprobar que son las 23:00 en Madrid
+      - name: Comprobar si toca ejecutar
         id: check_time
-        run: echo "should_run=true" >> "$GITHUB_OUTPUT"
+        run: |
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            echo "should_run=true" >> "$GITHUB_OUTPUT"
+            echo "Lanzado a mano: se ejecuta siempre, sin comprobar la hora."
+          else
+            HOUR=$(TZ="Europe/Madrid" date +%H)
+            if [ "$HOUR" = "23" ]; then
+              echo "should_run=true" >> "$GITHUB_OUTPUT"
+            else
+              echo "should_run=false" >> "$GITHUB_OUTPUT"
+              echo "No son las 23:00 en Madrid (son las $HOUR:xx), esta ejecución programada se salta."
+            fi
+          fi
 
       - uses: actions/checkout@v4
         if: steps.check_time.outputs.should_run == 'true'
@@ -50,7 +67,7 @@ jobs:
         run: |
           git config user.name "sfcdatos-bot"
           git config user.email "actions@users.noreply.github.com"
-          git add data/
+          git add data/ site/data/
           git diff --quiet --cached || git commit -m "Actualización de datos automática $(date -u +'%Y-%m-%d %H:%M UTC')"
           git push
 
