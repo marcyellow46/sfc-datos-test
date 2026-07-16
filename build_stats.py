@@ -184,7 +184,7 @@ def main():
                 goals_skipped += 1
                 print(f"  AVISO: gol de '{scorer}' (min {minute}) en {home_name} vs {away_name} "
                       f"no coincide con ningún jugador de la alineación de ese partido — se descarta.")
-                if goals_skipped <= 3:
+                if goals_skipped <= 20:
                     print(f"    DIAGNOSTICO — jugadores detectados en {home_name} ({len(home_names)}): "
                           f"{sorted(home_names)}")
                     print(f"    DIAGNOSTICO — jugadores detectados en {away_name} ({len(away_names)}): "
