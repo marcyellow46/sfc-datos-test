@@ -293,7 +293,7 @@
 
     <div class="team-list" id="teamList"></div>
 
-    <div class="sidebar-foot">Datos de ejemplo — prototipo de interfaz</div>
+    <div class="sidebar-foot" id="sidebarNote">Cargando datos…</div>
   </aside>
 
   <main class="main" id="main"></main>
@@ -335,7 +335,7 @@ function mkTeam(id,name,crestUrl,initials,played,gaTotal,gfBuckets,gaBuckets,pla
   };
 }
 
-const TEAMS = [
+const MOCK_TEAMS = [
   mkTeam("santfeliuenc-fc-a","Santfeliuenc, F.C. A",
     "https://files.fcf.cat/escudos/clubes/escudos/00100_0000574621_stfeliuenc_200x200.png","SF",
     30, 28, [4,7,6,5,9,8], [3,6,8,4,5,2],
@@ -397,9 +397,64 @@ const TEAMS = [
 /* ========================================================================= */
 
 let mode = "team";          // "team" | "compare"
-let selectedTeamId = TEAMS[0].id;
+let TEAMS = [];
+let selectedTeamId = null;
 let compareA = null, compareB = null;
 let activeTab = "plantilla"; // "plantilla" | "equipo"
+
+function slugify(str) {
+  return str.toLowerCase()
+    .normalize("NFD").replace(/[\u0300-\u036f]/g, "")
+    .replace(/[^a-z0-9]+/g, "-")
+    .replace(/^-+|-+$/g, "");
+}
+
+function initialsOf(name) {
+  return name.split(/[\s,]+/).filter(Boolean).slice(0, 2).map(w => w[0]).join("").toUpperCase();
+}
+
+async function loadRealData() {
+  const noteEl = document.getElementById("sidebarNote");
+  try {
+    const [teamsRes, playersRes] = await Promise.all([
+      fetch("data/teams.json"),
+      fetch("data/players.json"),
+    ]);
+    if (!teamsRes.ok || !playersRes.ok) throw new Error("HTTP no-ok al pedir los JSON");
+    const teamsObj = await teamsRes.json();
+    const playersObj = await playersRes.json();
+
+    const playersByTeam = {};
+    Object.values(playersObj).forEach(p => {
+      (playersByTeam[p.team] ||= []).push(p);
+    });
+
+    TEAMS = Object.values(teamsObj)
+      .map(t => ({
+        id: slugify(t.name),
+        name: t.name,
+        crestUrl: null,
+        initials: initialsOf(t.name),
+        played: t.matchesPlayed,
+        goalsAgainstTotal: t.goalsAgainstTotal,
+        goalsAgainstAvg: t.goalsAgainstAvg,
+        gfBucketsTotal: t.gfBucketsTotal,
+        gfBucketsAvg: t.gfBucketsAvg,
+        gaBucketsTotal: t.gaBucketsTotal,
+        gaBucketsAvg: t.gaBucketsAvg,
+        players: (playersByTeam[t.name] || []).sort((a, b) => b.minutesTotal - a.minutesTotal),
+      }))
+      .sort((a, b) => a.name.localeCompare(b.name));
+
+    if (noteEl) noteEl.textContent = `Datos reales · ${TEAMS.length} equipos · temporada 25/26`;
+  } catch (err) {
+    console.warn("No se pudieron cargar data/teams.json y data/players.json, muestro datos de ejemplo.", err);
+    TEAMS = MOCK_TEAMS;
+    if (noteEl) noteEl.textContent = "⚠ No se pudo cargar data/teams.json — mostrando datos de ejemplo";
+  }
+  selectedTeamId = TEAMS[0]?.id ?? null;
+  renderAll();
+}
 
 const teamListEl = document.getElementById("teamList");
 const mainEl = document.getElementById("main");
@@ -501,6 +556,10 @@ function playersTable(players){
 
 function renderTeamView(){
   const team = TEAMS.find(t=>t.id===selectedTeamId);
+  if(!team){
+    mainEl.innerHTML = `<div class="empty-state"><h2>Cargando…</h2><p>Un momento mientras se cargan los datos.</p></div>`;
+    return;
+  }
   mainEl.innerHTML = `
     <div class="team-header">
       ${crestHtml(team,56)}
@@ -610,7 +669,7 @@ function renderAll(){
   else renderCompareView();
 }
 
-renderAll();
+loadRealData();
 </script>
 </body>
 </html>
