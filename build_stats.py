@@ -20,6 +20,7 @@ USO:
 """
 
 import json
+import re
 from collections import defaultdict
 from pathlib import Path
 
@@ -33,6 +34,22 @@ MATCH_LENGTH = 90  # se asume partido completo de 90'; los añadidos de tiempo n
 BUCKETS = [(0, 15), (15, 30), (30, 45), (45, 60), (60, 75), (75, 90)]
 
 
+def normalize_name(name):
+    """
+    Colapsa cualquier tipo de espacio (incluido el NBSP \\xa0, que se ve
+    idéntico a un espacio normal pero es un carácter distinto) en un único
+    espacio normal, y quita espacios sobrantes al principio/final.
+    Sin esto, "DE SOKOLOW LEYVA, BRYAN" (con espacio normal en la tabla de
+    alineación) y "DE SOKOLOW LEYVA,\\xa0BRYAN" (con NBSP en la tabla de
+    goles, o viceversa) se tratan como dos jugadores distintos y el gol se
+    descarta por "no encontrado" — era justo el motivo de que ~80% de los
+    goles de la temporada se estuvieran perdiendo.
+    """
+    if name is None:
+        return name
+    return re.sub(r"\s+", " ", name).strip()
+
+
 def bucket_index(minute: int) -> int:
     minute = min(minute, 90)
     for i, (lo, hi) in enumerate(BUCKETS):
@@ -42,9 +59,10 @@ def bucket_index(minute: int) -> int:
 
 
 def load_positions():
-    if POSITIONS_PATH.exists():
-        return json.loads(POSITIONS_PATH.read_text(encoding="utf-8"))
-    return {}
+    if not POSITIONS_PATH.exists():
+        return {}
+    raw = json.loads(POSITIONS_PATH.read_text(encoding="utf-8"))
+    return {normalize_name(k): v for k, v in raw.items()}
 
 
 def player_minutes(side: dict, match_length=MATCH_LENGTH):
@@ -55,7 +73,7 @@ def player_minutes(side: dict, match_length=MATCH_LENGTH):
     """
     intervals = {}
 
-    starters_by_name = {p["name"]: p["dorsal"] for p in side.get("starters", [])}
+    starters_by_name = {normalize_name(p["name"]): p["dorsal"] for p in side.get("starters", [])}
     for name, dorsal in starters_by_name.items():
         intervals[name] = [dorsal, 0, match_length]  # por defecto, todo el partido
 
@@ -64,17 +82,19 @@ def player_minutes(side: dict, match_length=MATCH_LENGTH):
     for sub in subs:
         minute = sub["minute"]
         out_p, in_p = sub.get("out"), sub.get("in")
-        if out_p and out_p["name"] in intervals:
-            intervals[out_p["name"]][2] = minute
+        out_name = normalize_name(out_p["name"]) if out_p else None
+        in_name = normalize_name(in_p["name"]) if in_p else None
+        if out_p and out_name in intervals:
+            intervals[out_name][2] = minute
         elif out_p:
             # jugador que sale pero no estaba registrado como titular (raro) -> lo ignoramos
             pass
         if in_p:
-            if in_p["name"] in intervals:
+            if in_name in intervals:
                 # reentra tras haber salido antes (raro, pero por si acaso)
-                intervals[in_p["name"]][2] = match_length
+                intervals[in_name][2] = match_length
             else:
-                intervals[in_p["name"]] = [in_p["dorsal"], minute, match_length]
+                intervals[in_name] = [in_p["dorsal"], minute, match_length]
 
     return {name: tuple(v) for name, v in intervals.items()}
 
@@ -148,7 +168,7 @@ def main():
         away_names = set(away_intervals.keys())
 
         for goal in match.get("goals", []):
-            scorer = goal["scorer"]
+            scorer = normalize_name(goal["scorer"])
             minute = goal["minute"]
             b = bucket_index(minute)
             is_own_goal = goal.get("type") == "own_goal"
