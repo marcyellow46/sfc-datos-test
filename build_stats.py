@@ -107,6 +107,9 @@ def main():
     player_team = {}
     player_ranges = defaultdict(list)  # nombre -> lista de (start, end) por partido
 
+    goals_total_seen = 0
+    goals_skipped = 0
+
     for f in match_files:
         match = json.loads(f.read_text(encoding="utf-8"))
         home, away = match["home"], match["away"]
@@ -149,6 +152,7 @@ def main():
             minute = goal["minute"]
             b = bucket_index(minute)
             is_own_goal = goal.get("type") == "own_goal"
+            goals_total_seen += 1
 
             if scorer in home_names:
                 scoring_team, conceding_team = (away_name, home_name) if is_own_goal else (home_name, away_name)
@@ -157,6 +161,9 @@ def main():
             else:
                 # autor no encontrado en ninguna plantilla (nombre distinto entre
                 # tabla de goles y alineación); se ignora para las stats de equipo
+                goals_skipped += 1
+                print(f"  AVISO: gol de '{scorer}' (min {minute}) en {home_name} vs {away_name} "
+                      f"no coincide con ningún jugador de la alineación de ese partido — se descarta.")
                 continue
 
             team_gf_buckets[scoring_team][b] += 1
@@ -223,6 +230,8 @@ def main():
         json.dumps(players_out, ensure_ascii=False, indent=2), encoding="utf-8"
     )
     print(f"OK: {len(teams_out)} equipos, {len(players_out)} jugadores.")
+    print(f"Goles procesados: {goals_total_seen - goals_skipped} / {goals_total_seen} "
+          f"({goals_skipped} descartados por no encontrar al autor en la alineación)")
 
     missing = [n for n in players_out if players_out[n]["position"] == "Sin definir"]
     if missing:
