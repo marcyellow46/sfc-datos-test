@@ -48,7 +48,7 @@ GROUP = "grup-1"
 MAX_JORNADAS = 34                     # límite de seguridad; se detiene antes si no hay más
 REQUEST_DELAY_SECONDS = 1.0           # ser educado con el servidor de la FCF
 DEBUG = False                         # True -> guarda el html de cada página descargada
-FORCE_REFRESH = False                  # True -> re-parsea TODO aunque el JSON ya exista.
+FORCE_REFRESH = True                  # True -> re-parsea TODO aunque el JSON ya exista.
                                        # Ponlo en True puntualmente cuando cambies la
                                        # lógica de parseo (como ahora, para corregir los
                                        # partidos guardados con el nombre de equipo local
@@ -359,35 +359,40 @@ def parse_acta(acta_url: str) -> dict:
     subs_tables = soup.find_all(string=re.compile(r"^\s*Substitucions\s*$"))
     cards_tables = soup.find_all(string=re.compile(r"^\s*Targetes\s*$"))
 
-    def table_after(text_node):
+    def _resolve(text_node, parser_fn):
         """
-        Dos casos posibles:
-          1. El texto ("Titulars", "Suplents"...) es un título APARTE, antes
-             de su tabla -> la tabla correcta es la SIGUIENTE tabla del
-             documento a partir de ese punto.
-          2. El texto es la propia cabecera DENTRO de esa tabla (p.ej. una
-             fila <th colspan="3">Titulars</th> que encabeza la propia tabla
-             de titulares) -> la tabla correcta es la tabla ANCESTRA que
-             contiene ese texto, no "la siguiente".
-        Este segundo caso era justo el que se nos estaba escapando: hacía
-        que, por ejemplo, "Titulars" cogiera en realidad la tabla de
-        Suplents (la que viene justo después), dejando fuera del reparto de
-        minutos y goles a jugadores que sí eran titulares.
+        Prueba las dos formas posibles de localizar la tabla de una sección
+        ("Titulars", "Suplents", "Substitucions", "Targetes") y se queda con
+        la que produzca un resultado no vacío al parsearla:
+          1. La tabla ANCESTRA del propio texto de cabecera (por si el texto
+             es la cabecera de su propia tabla).
+          2. La SIGUIENTE tabla del documento a partir de ese texto (por si
+             el texto es un título aparte, antes de una tabla separada).
+        No todas las secciones de la acta usan la misma estructura interna
+        (así lo hemos comprobado: Titulars/Suplents usan una, Substitucions
+        parece usar la otra), así que en vez de asumir una sola regla fija,
+        probamos las dos y validamos por resultado.
         """
         own_table = text_node.find_parent("table")
-        if own_table is not None:
-            return own_table
         node = text_node.find_parent()
-        return node.find_next("table") if node else None
+        next_table = node.find_next("table") if node else None
 
-    home_starters = _parse_lineup_table(table_after(titulars_tables[0])) if len(titulars_tables) > 0 else []
-    away_starters = _parse_lineup_table(table_after(titulars_tables[1])) if len(titulars_tables) > 1 else []
-    home_subs_bench = _parse_lineup_table(table_after(suplents_tables[0])) if len(suplents_tables) > 0 else []
-    away_subs_bench = _parse_lineup_table(table_after(suplents_tables[1])) if len(suplents_tables) > 1 else []
-    home_substitutions = _parse_substitutions(table_after(subs_tables[0])) if len(subs_tables) > 0 else []
-    away_substitutions = _parse_substitutions(table_after(subs_tables[1])) if len(subs_tables) > 1 else []
-    home_cards = _parse_cards(table_after(cards_tables[0])) if len(cards_tables) > 0 else []
-    away_cards = _parse_cards(table_after(cards_tables[1])) if len(cards_tables) > 1 else []
+        for candidate in (own_table, next_table):
+            if candidate is None:
+                continue
+            result = parser_fn(candidate)
+            if result:
+                return result
+        return []
+
+    home_starters = _resolve(titulars_tables[0], _parse_lineup_table) if len(titulars_tables) > 0 else []
+    away_starters = _resolve(titulars_tables[1], _parse_lineup_table) if len(titulars_tables) > 1 else []
+    home_subs_bench = _resolve(suplents_tables[0], _parse_lineup_table) if len(suplents_tables) > 0 else []
+    away_subs_bench = _resolve(suplents_tables[1], _parse_lineup_table) if len(suplents_tables) > 1 else []
+    home_substitutions = _resolve(subs_tables[0], _parse_substitutions) if len(subs_tables) > 0 else []
+    away_substitutions = _resolve(subs_tables[1], _parse_substitutions) if len(subs_tables) > 1 else []
+    home_cards = _resolve(cards_tables[0], _parse_cards) if len(cards_tables) > 0 else []
+    away_cards = _resolve(cards_tables[1], _parse_cards) if len(cards_tables) > 1 else []
 
     goals = _parse_goals(soup)
 
