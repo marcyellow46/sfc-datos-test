@@ -48,7 +48,7 @@ GROUP = "grup-1"
 MAX_JORNADAS = 34                     # límite de seguridad; se detiene antes si no hay más
 REQUEST_DELAY_SECONDS = 1.0           # ser educado con el servidor de la FCF
 DEBUG = False                         # True -> guarda el html de cada página descargada
-FORCE_REFRESH = False                  # True -> re-parsea TODO aunque el JSON ya exista.
+FORCE_REFRESH = True                  # True -> re-parsea TODO aunque el JSON ya exista.
                                        # Ponlo en True puntualmente cuando cambies la
                                        # lógica de parseo (como ahora, para corregir los
                                        # partidos guardados con el nombre de equipo local
@@ -209,8 +209,28 @@ def _find_section_table(soup: BeautifulSoup, header_text: str):
     return table
 
 
+def _player_id_from_url(url):
+    """
+    Cada jugador tiene una URL de perfil del tipo
+    https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/628037
+    El PENÚLTIMO número (54322937) es un identificador del PARTIDO, no del
+    jugador (es el mismo para todos los jugadores de esa acta). El ÚLTIMO
+    número (628037) sí es único por jugador — es su identificador de la FCF,
+    estable entre partidos y temporadas.
+
+    Usamos este ID como clave principal en vez del nombre en todo el
+    proyecto, precisamente para que dos hermanos (o cualquier coincidencia
+    de nombre completo) nunca se puedan mezclar entre sí, aunque su nombre
+    en la acta esté escrito exactamente igual.
+    """
+    if not url:
+        return None
+    parts = [p for p in url.rstrip("/").split("/") if p]
+    return parts[-1] if parts else None
+
+
 def _parse_lineup_table(table):
-    """Devuelve lista de {"dorsal": int, "name": str, "player_url": str|None}."""
+    """Devuelve lista de {"dorsal": int, "name": str, "player_id": str|None, "player_url": str|None}."""
     players = []
     if not table:
         return players
@@ -224,7 +244,12 @@ def _parse_lineup_table(table):
         link = cells[1].find("a")
         name = link.get_text(strip=True) if link else cells[1].get_text(strip=True)
         player_url = link["href"] if link else None
-        players.append({"dorsal": int(dorsal_txt), "name": name, "player_url": player_url})
+        players.append({
+            "dorsal": int(dorsal_txt),
+            "name": name,
+            "player_id": _player_id_from_url(player_url),
+            "player_url": player_url,
+        })
     return players
 
 
@@ -254,7 +279,12 @@ def _parse_substitutions_global(soup, debug_label=None):
         link = cells[2].find("a", href=re.compile(r"/jugador/"))
         if not (minute_txt.isdigit() and dorsal_txt.isdigit() and link):
             return None
-        return {"minute": int(minute_txt), "dorsal": int(dorsal_txt), "name": link.get_text(strip=True)}
+        return {
+            "minute": int(minute_txt),
+            "dorsal": int(dorsal_txt),
+            "name": link.get_text(strip=True),
+            "player_id": _player_id_from_url(link.get("href")),
+        }
 
     def row_as_in(cells):
         # fila "entra": no lleva celda de minuto (esa celda usa rowspan desde
@@ -266,14 +296,22 @@ def _parse_substitutions_global(soup, debug_label=None):
             dorsal_txt = cells[0].get_text(strip=True)
             link = cells[1].find("a", href=re.compile(r"/jugador/"))
             if dorsal_txt.isdigit() and link:
-                return {"dorsal": int(dorsal_txt), "name": link.get_text(strip=True)}
+                return {
+                    "dorsal": int(dorsal_txt),
+                    "name": link.get_text(strip=True),
+                    "player_id": _player_id_from_url(link.get("href")),
+                }
         # variante alternativa, por si alguna acta sí lleva un hueco vacío
         # de la celda de minuto en vez de omitirla del todo
         if len(cells) >= 3 and cells[0].get_text(strip=True) == "":
             dorsal_txt = cells[1].get_text(strip=True)
             link = cells[2].find("a", href=re.compile(r"/jugador/"))
             if dorsal_txt.isdigit() and link:
-                return {"dorsal": int(dorsal_txt), "name": link.get_text(strip=True)}
+                return {
+                    "dorsal": int(dorsal_txt),
+                    "name": link.get_text(strip=True),
+                    "player_id": _player_id_from_url(link.get("href")),
+                }
         return None
 
     events = []
@@ -287,7 +325,7 @@ def _parse_substitutions_global(soup, debug_label=None):
             if in_player:
                 events.append({
                     "minute": out_player["minute"],
-                    "out": {"dorsal": out_player["dorsal"], "name": out_player["name"]},
+                    "out": {"dorsal": out_player["dorsal"], "name": out_player["name"], "player_id": out_player["player_id"]},
                     "in": in_player,
                 })
                 i += 2
@@ -356,6 +394,7 @@ def _parse_goals(soup):
         goals.append({
             "score_after": score_txt,
             "scorer": scorer,
+            "scorer_id": _player_id_from_url(link.get("href")),
             "minute": int(minute_txt),
             "type": goal_type,
         })
@@ -376,7 +415,12 @@ def _parse_cards(table):
         minute_txt = cells[2].get_text(strip=True).replace("'", "")
         if not (dorsal_txt.isdigit() and minute_txt.isdigit()):
             continue
-        cards.append({"dorsal": int(dorsal_txt), "name": name, "minute": int(minute_txt)})
+        cards.append({
+            "dorsal": int(dorsal_txt),
+            "name": name,
+            "player_id": _player_id_from_url(link.get("href")) if link else None,
+            "minute": int(minute_txt),
+        })
     return cards
 
 
