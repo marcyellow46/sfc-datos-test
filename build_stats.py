@@ -38,6 +38,7 @@ from pathlib import Path
 DATA_DIR = Path(__file__).parent / "data"
 MATCHES_DIR = DATA_DIR / "matches"
 POSITIONS_PATH = Path(__file__).parent / "positions.json"
+CORRECTIONS_PATH = Path(__file__).parent / "corrections.json"
 SITE_DATA_DIR = Path(__file__).parent / "site" / "data"
 SITE_DATA_DIR.mkdir(parents=True, exist_ok=True)
 
@@ -50,7 +51,7 @@ BUCKETS = [(0, 15), (15, 30), (30, 45), (45, 60), (60, 75), (75, 90)]
 # partido, con qué ID, si es titular o suplente, y qué minutos se le
 # calculan. Útil para verificar casos como dos hermanos con el mismo
 # apellido, y confirmar que sus datos no se mezclan.
-DEBUG_PLAYER_NAME_FILTER = "FELEZ NAVARRO"  # ejemplo: "FELEZ NAVARRO"
+DEBUG_PLAYER_NAME_FILTER = ""  # ejemplo: "FELEZ NAVARRO"
 
 
 def normalize_name(name):
@@ -88,6 +89,69 @@ def load_positions():
         return {}
     raw = json.loads(POSITIONS_PATH.read_text(encoding="utf-8"))
     return {normalize_name(k): v for k, v in raw.items()}
+
+
+def load_corrections():
+    if not CORRECTIONS_PATH.exists():
+        return []
+    return json.loads(CORRECTIONS_PATH.read_text(encoding="utf-8"))
+
+
+def apply_corrections(match: dict, match_filename: str, corrections: list) -> dict:
+    """
+    Aplica correcciones manuales a un partido concreto, ANTES de agregar sus
+    datos. Se usa para arreglar errores puntuales de la propia acta de la
+    FCF (p.ej. una sustitución registrada con el jugador equivocado) sin
+    tocar el archivo original descargado — así la corrección sobrevive
+    aunque se vuelva a descargar la temporada entera más adelante.
+
+    Formato de cada corrección en corrections.json:
+    {
+      "match_file": "nombre-exacto-del-archivo.json",
+      "reason": "texto libre explicando el porqué (solo para referencia)",
+      "reassign_player": {
+        "from_id": "ID que aparece por error en la acta",
+        "to_id": "ID del jugador real",
+        "to_name": "NOMBRE, DEL JUGADOR REAL",
+        "to_dorsal": 20
+      }
+    }
+    """
+    relevant = [c for c in corrections if c.get("match_file") == match_filename]
+    if not relevant:
+        return match
+
+    for c in relevant:
+        r = c.get("reassign_player")
+        if not r:
+            continue
+        from_id, to_id = r["from_id"], r["to_id"]
+        to_name, to_dorsal = r.get("to_name"), r.get("to_dorsal")
+
+        def fix(p):
+            if p and p.get("player_id") == from_id:
+                p["player_id"] = to_id
+                if to_name:
+                    p["name"] = to_name
+                if to_dorsal is not None:
+                    p["dorsal"] = to_dorsal
+
+        for side in (match["home"], match["away"]):
+            for p in side.get("starters", []) + side.get("bench", []):
+                fix(p)
+            for sub in side.get("substitutions", []):
+                fix(sub.get("out"))
+                fix(sub.get("in"))
+        for g in match.get("goals", []):
+            if g.get("scorer_id") == from_id:
+                g["scorer_id"] = to_id
+                if to_name:
+                    g["scorer"] = to_name
+
+        print(f"  [correccion aplicada] {match_filename}: {c.get('reason', '(sin motivo indicado)')} "
+              f"(id {from_id} -> {to_id})")
+
+    return match
 
 
 def roster_keys(side: dict) -> set:
@@ -142,6 +206,7 @@ def player_minutes(side: dict, match_length=MATCH_LENGTH):
 
 def main():
     positions = load_positions()
+    corrections = load_corrections()
     match_files = sorted(MATCHES_DIR.glob("*.json"))
     if not match_files:
         print("No hay partidos en data/matches/. Ejecuta antes scraper.py")
@@ -172,6 +237,7 @@ def main():
 
     for f in match_files:
         match = json.loads(f.read_text(encoding="utf-8"))
+        match = apply_corrections(match, f.name, corrections)
         home, away = match["home"], match["away"]
         home_name, away_name = home["name"], away["name"]
         if not home_name or not away_name:
