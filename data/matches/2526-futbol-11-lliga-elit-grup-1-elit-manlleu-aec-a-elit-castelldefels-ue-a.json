@@ -8,56 +8,67 @@
       {
         "dorsal": 13,
         "name": "TAULATS CANUDAS, SERGI",
+        "player_id": "18625969",
         "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/18625969"
       },
       {
         "dorsal": 3,
         "name": "ROURA JIMÉNEZ, ROGER",
+        "player_id": "18494853",
         "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/18494853"
       },
       {
         "dorsal": 4,
         "name": "COSTA GARCIA, JORDI",
+        "player_id": "38021806",
         "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/38021806"
       },
       {
         "dorsal": 5,
         "name": "POUS MUNTADAS, POL",
+        "player_id": "729753",
         "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/729753"
       },
       {
         "dorsal": 7,
         "name": "ROSSELL VIDAL, ANTONI",
+        "player_id": "15445025",
         "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/15445025"
       },
       {
         "dorsal": 8,
         "name": "CAPDEVILA GALEANO, NIL",
+        "player_id": "18528409",
         "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/18528409"
       },
       {
         "dorsal": 9,
         "name": "CASANOVA CLUSELLS, ADRIA",
+        "player_id": "900006640",
         "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/900006640"
       },
       {
         "dorsal": 14,
         "name": "BASART VIGAS, SERGI",
+        "player_id": "15138655",
         "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/15138655"
       },
       {
         "dorsal": 15,
         "name": "LOPEZ SÁNCHEZ, ALBERT",
+        "player_id": "19649152",
         "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/19649152"
       },
       {
         "dorsal": 23,
         "name": "COMAMALA FONT, MARC",
+        "player_id": "18481364",
         "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/18481364"
       },
       {
         "dorsal": 24,
         "name": "ROGER SOLA, RAFEL",
+        "player_id": "679590",
         "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/679590"
       }
     ],
@@ -65,36 +76,43 @@
       {
         "dorsal": 1,
         "name": "CHARLI",
+        "player_id": "745109",
         "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/745109"
       },
       {
         "dorsal": 11,
         "name": "ADU TUTU AMOAH, NANA",
+        "player_id": "19758513",
         "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/19758513"
       },
       {
         "dorsal": 16,
         "name": "COLLELL JORDÀ, GERARD",
+        "player_id": "18557477",
         "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/18557477"
       },
       {
         "dorsal": 17,
         "name": "CAO FERNÁNDEZ, TONI",
+        "player_id": "15545632",
         "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/15545632"
       },
       {
         "dorsal": 19,
         "name": "PIJUAN COLOM, MARC",
+        "player_id": "15601567",
         "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/15601567"
       },
       {
         "dorsal": 20,
         "name": "MURO",
+        "player_id": "19806774",
         "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/19806774"
       },
       {
         "dorsal": 21,
         "name": "VILA SERRA, OLEGUER",
+        "player_id": "18557632",
         "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/18557632"
       }
     ],
@@ -103,44 +121,52 @@
         "minute": 59,
         "out": {
           "dorsal": 23,
-          "name": "COMAMALA FONT, MARC"
+          "name": "COMAMALA FONT, MARC",
+          "player_id": "18481364"
         },
         "in": {
           "dorsal": 19,
-          "name": "PIJUAN COLOM, MARC"
+          "name": "PIJUAN COLOM, MARC",
+          "player_id": "15601567"
         }
       },
       {
         "minute": 59,
         "out": {
           "dorsal": 9,
-          "name": "CASANOVA CLUSELLS, ADRIA"
+          "name": "CASANOVA CLUSELLS, ADRIA",
+          "player_id": "900006640"
         },
         "in": {
           "dorsal": 21,
-          "name": "VILA SERRA, OLEGUER"
+          "name": "VILA SERRA, OLEGUER",
+          "player_id": "18557632"
         }
       },
       {
         "minute": 75,
         "out": {
           "dorsal": 8,
-          "name": "CAPDEVILA GALEANO, NIL"
+          "name": "CAPDEVILA GALEANO, NIL",
+          "player_id": "18528409"
         },
         "in": {
           "dorsal": 17,
-          "name": "CAO FERNÁNDEZ, TONI"
+          "name": "CAO FERNÁNDEZ, TONI",
+          "player_id": "15545632"
         }
       },
       {
         "minute": 82,
         "out": {
           "dorsal": 15,
-          "name": "LOPEZ SÁNCHEZ, ALBERT"
+          "name": "LOPEZ SÁNCHEZ, ALBERT",
+          "player_id": "19649152"
         },
         "in": {
           "dorsal": 11,
-          "name": "ADU TUTU AMOAH, NANA"
+          "name": "ADU TUTU AMOAH, NANA",
+          "player_id": "19758513"
         }
       }
     ],
@@ -152,56 +178,67 @@
       {
         "dorsal": 13,
         "name": "GUTIÉRREZ ADAME, ADRIÀ",
+        "player_id": "15596602",
         "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/15596602"
       },
       {
         "dorsal": 3,
         "name": "PEÑAS ANDREU, ALEX",
+        "player_id": "629565",
         "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/629565"
       },
       {
         "dorsal": 6,
         "name": "GIMENO HERNÁNDEZ, ADRIÁN",
+        "player_id": "629546",
         "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/629546"
       },
       {
         "dorsal": 9,
         "name": "POZUELO RIERA, ELOI",
+        "player_id": "40602472",
         "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/40602472"
       },
       {
         "dorsal": 11,
         "name": "GERBOLES PEREZ, MARIO",
+        "player_id": "632224",
         "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/632224"
       },
       {
         "dorsal": 12,
         "name": "MONTERO PRADAS, IKER",
+        "player_id": "15765782",
         "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/15765782"
       },
       {
         "dorsal": 14,
         "name": "GIBERT FUERTES, JOAN",
+        "player_id": "668573",
         "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/668573"
       },
       {
         "dorsal": 16,
         "name": "FERREIRA MOREIRA, JONATHAN",
+        "player_id": "44279498",
         "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/44279498"
       },
       {
         "dorsal": 19,
         "name": "PARRA GARCIA, EDGAR",
+        "player_id": "630390",
         "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/630390"
       },
       {
         "dorsal": 20,
         "name": "MALDONADO MOYA, IZAN",
+        "player_id": "727358",
         "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/727358"
       },
       {
         "dorsal": 23,
         "name": "MATAMOROS SEGURA, JOEL",
+        "player_id": "23168454",
         "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/23168454"
       }
     ],
@@ -209,46 +246,55 @@
       {
         "dorsal": 1,
         "name": "MORENO LOPEZ, DAVID",
+        "player_id": "724479",
         "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/724479"
       },
       {
         "dorsal": 2,
         "name": "MARTIN DURAN, JUAN ANTONIO",
+        "player_id": "900009008",
         "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/900009008"
       },
       {
         "dorsal": 7,
         "name": "RAMIREZ RUIZ, ENRIQUE",
+        "player_id": "642498",
         "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/642498"
       },
       {
         "dorsal": 8,
         "name": "DEL CHICCA DORADO, HUGO",
+        "player_id": "37920251",
         "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/37920251"
       },
       {
         "dorsal": 10,
         "name": "CANO JIMENEZ, CARLOS",
+        "player_id": "633680",
         "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/633680"
       },
       {
         "dorsal": 15,
         "name": "FAURA MARTINEZ, JOEL",
+        "player_id": "15908749",
         "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/15908749"
       },
       {
         "dorsal": 21,
         "name": "DIAZ MENDOZA, ALEIX",
+        "player_id": "648528",
         "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/648528"
       },
       {
         "dorsal": 22,
         "name": "THEO DE VILLARS",
+        "player_id": "19625740",
         "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/19625740"
       },
       {
         "dorsal": 24,
         "name": "VILLAVERDE GARCIA, KILIAN",
+        "player_id": "40748333",
         "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/40748333"
       }
     ],
@@ -257,66 +303,78 @@
         "minute": 59,
         "out": {
           "dorsal": 16,
-          "name": "FERREIRA MOREIRA, JONATHAN"
+          "name": "FERREIRA MOREIRA, JONATHAN",
+          "player_id": "44279498"
         },
         "in": {
           "dorsal": 10,
-          "name": "CANO JIMENEZ, CARLOS"
+          "name": "CANO JIMENEZ, CARLOS",
+          "player_id": "633680"
         }
       },
       {
         "minute": 59,
         "out": {
           "dorsal": 20,
-          "name": "MALDONADO MOYA, IZAN"
+          "name": "MALDONADO MOYA, IZAN",
+          "player_id": "727358"
         },
         "in": {
           "dorsal": 8,
-          "name": "DEL CHICCA DORADO, HUGO"
+          "name": "DEL CHICCA DORADO, HUGO",
+          "player_id": "37920251"
         }
       },
       {
         "minute": 82,
         "out": {
           "dorsal": 9,
-          "name": "POZUELO RIERA, ELOI"
+          "name": "POZUELO RIERA, ELOI",
+          "player_id": "40602472"
         },
         "in": {
           "dorsal": 15,
-          "name": "FAURA MARTINEZ, JOEL"
+          "name": "FAURA MARTINEZ, JOEL",
+          "player_id": "15908749"
         }
       },
       {
         "minute": 82,
         "out": {
           "dorsal": 19,
-          "name": "PARRA GARCIA, EDGAR"
+          "name": "PARRA GARCIA, EDGAR",
+          "player_id": "630390"
         },
         "in": {
           "dorsal": 24,
-          "name": "VILLAVERDE GARCIA, KILIAN"
+          "name": "VILLAVERDE GARCIA, KILIAN",
+          "player_id": "40748333"
         }
       },
       {
         "minute": 88,
         "out": {
           "dorsal": 11,
-          "name": "GERBOLES PEREZ, MARIO"
+          "name": "GERBOLES PEREZ, MARIO",
+          "player_id": "632224"
         },
         "in": {
           "dorsal": 21,
-          "name": "DIAZ MENDOZA, ALEIX"
+          "name": "DIAZ MENDOZA, ALEIX",
+          "player_id": "648528"
         }
       },
       {
         "minute": 88,
         "out": {
           "dorsal": 14,
-          "name": "GIBERT FUERTES, JOAN"
+          "name": "GIBERT FUERTES, JOAN",
+          "player_id": "668573"
         },
         "in": {
           "dorsal": 2,
-          "name": "MARTIN DURAN, JUAN ANTONIO"
+          "name": "MARTIN DURAN, JUAN ANTONIO",
+          "player_id": "900009008"
         }
       }
     ],
@@ -326,12 +384,14 @@
     {
       "score_after": "1 - 0",
       "scorer": "ROSSELL VIDAL, ANTONI",
+      "scorer_id": "15445025",
       "minute": 5,
       "type": "normal"
     },
     {
       "score_after": "1 - 1",
       "scorer": "POZUELO RIERA, ELOI",
+      "scorer_id": "40602472",
       "minute": 73,
       "type": "normal"
     }
