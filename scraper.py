@@ -228,51 +228,55 @@ def _parse_lineup_table(table):
     return players
 
 
-def _parse_substitutions_global(soup):
+def _parse_substitutions_global(soup, debug_label=None):
     """
     Igual que con los goles: en vez de depender de encontrar primero la
     tabla que sigue (o que envuelve) al texto "Substitucions" —que resultó
     no encontrarse NUNCA en los 240 partidos reales, el mismo tipo de
     fragilidad que ya vimos con "Gols"—, recorremos TODAS las filas <tr>
     del documento y nos quedamos con las que tienen forma de fila de
-    sustitución:
-      - fila "sale": primera celda con un minuto tipo "45'", segunda celda
-        con el dorsal, tercera celda con un enlace a un jugador.
-      - fila "entra": primera celda VACÍA, segunda celda con el dorsal,
-        tercera celda con un enlace a un jugador — inmediatamente después
-        de una fila "sale".
-    Devuelve una lista plana de eventos de TODO el partido (mezclando los
-    dos equipos); parse_acta() se encarga después de repartirlos entre
-    local y visitante comparando el nombre de quien sale con cada plantilla.
-    """
-    events = []
-    pending = None  # {"minute": int, "out": {...}} a la espera de su pareja "entra"
+    sustitución (dorsal + enlace a jugador en las celdas 2ª y 3ª, con la 1ª
+    celda siendo un minuto tipo "45'" o estando vacía).
 
+    En vez de exigir que la fila "sale" y su fila "entra" sean vecinas
+    inmediatas en el documento (lo cual se rompe si hay algo intercalado
+    entre medias, p.ej. por cómo repite bloques esta web), primero
+    recogemos TODAS las filas candidatas en orden, y luego las emparejamos
+    por alternancia: candidata-con-minuto seguida de candidata-sin-minuto.
+    """
+    candidates = []
     for row in soup.find_all("tr"):
         cells = row.find_all("td")
         if len(cells) < 3:
-            pending = None
             continue
-
         link = cells[2].find("a", href=re.compile(r"/jugador/"))
         dorsal_txt = cells[1].get_text(strip=True)
         if not link or not dorsal_txt.isdigit():
-            pending = None
             continue
-
         minute_txt = cells[0].get_text(strip=True).replace("'", "")
-        player = {"dorsal": int(dorsal_txt), "name": link.get_text(strip=True)}
+        candidates.append({
+            "minute": int(minute_txt) if minute_txt.isdigit() else None,
+            "dorsal": int(dorsal_txt),
+            "name": link.get_text(strip=True),
+        })
 
-        if minute_txt.isdigit():
-            # fila "sale": abre un evento nuevo a la espera de su "entra"
-            pending = {"minute": int(minute_txt), "out": player}
-        elif minute_txt == "" and pending is not None:
-            # fila "entra": se empareja con la "sale" inmediatamente anterior
-            events.append({"minute": pending["minute"], "out": pending["out"], "in": player})
-            pending = None
+    if debug_label:
+        print(f"    [debug] {debug_label}: {len(candidates)} filas candidatas de sustitución "
+              f"detectadas: {candidates[:6]}{' ...' if len(candidates) > 6 else ''}")
+
+    events = []
+    i = 0
+    while i < len(candidates) - 1:
+        a, b = candidates[i], candidates[i + 1]
+        if a["minute"] is not None and b["minute"] is None:
+            events.append({
+                "minute": a["minute"],
+                "out": {"dorsal": a["dorsal"], "name": a["name"]},
+                "in": {"dorsal": b["dorsal"], "name": b["name"]},
+            })
+            i += 2
         else:
-            pending = None
-
+            i += 1
     return events
 
 
@@ -348,7 +352,12 @@ def _parse_cards(table):
     return cards
 
 
+_debug_subs_calls = 0
+_debug_subs_limit = 3
+
+
 def parse_acta(acta_url: str) -> dict:
+    global _debug_subs_calls
     soup = get_soup(acta_url)
 
     # Nombres de equipo y marcador desde el título de la página / cabecera.
@@ -410,7 +419,10 @@ def parse_acta(acta_url: str) -> dict:
     # y repartimos cada evento a local o visitante según a qué plantilla
     # pertenece el jugador que sale (comparando contra titulares+suplentes,
     # ya localizados arriba).
-    all_substitutions = _parse_substitutions_global(soup)
+    all_substitutions = _parse_substitutions_global(
+        soup, debug_label=(acta_url if _debug_subs_calls < _debug_subs_limit else None)
+    )
+    _debug_subs_calls += 1
     home_roster = {p["name"] for p in home_starters} | {p["name"] for p in home_subs_bench}
     away_roster = {p["name"] for p in away_starters} | {p["name"] for p in away_subs_bench}
     home_substitutions = [e for e in all_substitutions if e["out"]["name"] in home_roster]
