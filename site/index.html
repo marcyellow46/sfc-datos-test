@@ -325,7 +325,10 @@ function mkPlayer(dorsal,name,position,minTotal,partidos,goles,rangoIni,rangoFin
     rangeStart:rangoIni,
     rangeEnd:rangoFin,
     goalsConcededTotal:golesEncajados,
-    goalsConcededAvg:golesEncajados!==null?+(golesEncajados/partidos).toFixed(2):null
+    goalsConcededAvg:golesEncajados!==null?+(golesEncajados/partidos).toFixed(2):null,
+    yellowCardsCycles:0,
+    yellowCardsTally:Math.min(partidos%5,4),
+    yellowCardsScore:Math.min(partidos%5,4)
   };
 }
 
@@ -433,6 +436,7 @@ async function loadRealData() {
 
     const playersByTeam = {};
     Object.values(playersObj).forEach(p => {
+      p.yellowCardsScore = (p.yellowCardsCycles ?? 0) * 5 + (p.yellowCardsTally ?? 0);
       (playersByTeam[p.team] ||= []).push(p);
     });
 
@@ -554,6 +558,7 @@ const SORT_COLUMNS = [
   { key: "goalsTotal", label: "Goles", type: "number" },
   { key: "goalsAvg", label: "Goles/partido", type: "number" },
   { key: "goalsConcededTotal", label: "Encajados (total / media)", type: "number" },
+  { key: "yellowCardsScore", label: "Amarillas", type: "number" },
 ];
 
 let sortState = { key: "minutesTotal", dir: "desc" };
@@ -583,6 +588,16 @@ function sortPlayers(players){
   });
 }
 
+function yellowCardsDisplay(p){
+  const cycles = p.yellowCardsCycles ?? 0;
+  const tally = p.yellowCardsTally ?? 0;
+  let squares = "";
+  for(let i=1; i<=tally; i++){
+    squares += (i % 5 === 0) ? "🟧" : "🟨";
+  }
+  return `<span style="color:var(--chalk-dim)">(${cycles})</span> ${squares}`;
+}
+
 function playersTable(players){
   const sorted = sortPlayers(players);
   const rows = sorted.map(p=>`
@@ -598,6 +613,7 @@ function playersTable(players){
       <td class="num">${p.goalsTotal}</td>
       <td class="num">${p.goalsAvg}</td>
       <td class="num">${p.goalsConcededTotal!==null ? p.goalsConcededTotal+` <span style="color:var(--chalk-dim)">(${p.goalsConcededAvg}/p)</span>` : "—"}</td>
+      <td class="num">${yellowCardsDisplay(p)}</td>
     </tr>
   `).join("");
   const headerCells = SORT_COLUMNS.map(col=>{
