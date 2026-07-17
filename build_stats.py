@@ -50,7 +50,7 @@ BUCKETS = [(0, 15), (15, 30), (30, 45), (45, 60), (60, 75), (75, 90)]
 # partido, con qué ID, si es titular o suplente, y qué minutos se le
 # calculan. Útil para verificar casos como dos hermanos con el mismo
 # apellido, y confirmar que sus datos no se mezclan.
-DEBUG_PLAYER_NAME_FILTER = ""  # ejemplo: "FELEZ NAVARRO"
+DEBUG_PLAYER_NAME_FILTER = "FELEZ NAVARRO"  # ejemplo: "FELEZ NAVARRO"
 
 
 def normalize_name(name):
