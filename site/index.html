@@ -333,8 +333,11 @@ function mkPlayer(dorsal,name,position,minTotal,partidos,goles,rangoIni,rangoFin
 }
 
 function mkTeam(id,name,crestUrl,initials,played,gaTotal,gfBuckets,gaBuckets,players){
+  const gfTotal = gfBuckets.reduce((a,b)=>a+b,0);
   return {
     id,name,crestUrl,initials,played,
+    goalsForTotal:gfTotal,
+    goalsForAvg:+(gfTotal/played).toFixed(2),
     goalsAgainstTotal:gaTotal,
     goalsAgainstAvg:+(gaTotal/played).toFixed(2),
     gfBucketsTotal:gfBuckets,
@@ -447,6 +450,8 @@ async function loadRealData() {
         crestUrl: null,
         initials: initialsOf(t.name),
         played: t.matchesPlayed,
+        goalsForTotal: t.goalsForTotal,
+        goalsForAvg: t.goalsForAvg,
         goalsAgainstTotal: t.goalsAgainstTotal,
         goalsAgainstAvg: t.goalsAgainstAvg,
         gfBucketsTotal: t.gfBucketsTotal,
@@ -668,6 +673,14 @@ function renderTeamView(){
     content.innerHTML = `
       <div class="stat-grid">
         <div class="stat-card">
+          <div class="label">Goles a favor (total)</div>
+          <div class="value">${team.goalsForTotal}</div>
+        </div>
+        <div class="stat-card">
+          <div class="label">Goles a favor (media/partido)</div>
+          <div class="value">${team.goalsForAvg}</div>
+        </div>
+        <div class="stat-card">
           <div class="label">Goles en contra (total)</div>
           <div class="value">${team.goalsAgainstTotal}</div>
         </div>
@@ -712,6 +725,8 @@ function renderCompareView(){
       <div class="team-meta">${A.name} vs ${B.name}</div>
 
       <div class="section-block" style="margin-top:22px;">
+        ${compareStatRow("Goles a favor (total)", A.goalsForTotal, B.goalsForTotal)}
+        ${compareStatRow("Goles a favor (media)", A.goalsForAvg, B.goalsForAvg)}
         ${compareStatRow("Goles en contra (total)", A.goalsAgainstTotal, B.goalsAgainstTotal)}
         ${compareStatRow("Goles en contra (media)", A.goalsAgainstAvg, B.goalsAgainstAvg)}
       </div>
