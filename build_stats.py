@@ -84,6 +84,20 @@ def bucket_index(minute: int) -> int:
     return len(BUCKETS) - 1
 
 
+def _sign(x):
+    return (x > 0) - (x < 0)
+
+
+def _new_key_moments():
+    return {
+        "early1_10For": 0, "early1_10Against": 0,
+        "halfEnd40_45For": 0, "halfEnd40_45Against": 0,
+        "halfStart45_50For": 0, "halfStart45_50Against": 0,
+        "lateDecisiveFor": 0, "lateDecisiveAgainst": 0,
+        "quickResponseFor": 0, "quickResponseAgainst": 0,
+    }
+
+
 def load_positions():
     if not POSITIONS_PATH.exists():
         return {}
@@ -247,6 +261,7 @@ def main():
     team_goals_against_total = defaultdict(int)
     team_gf_buckets = defaultdict(lambda: [0] * 6)
     team_ga_buckets = defaultdict(lambda: [0] * 6)
+    team_key_moments = defaultdict(_new_key_moments)
 
     player_matches = defaultdict(int)
     player_call_ups = defaultdict(int)
@@ -357,14 +372,17 @@ def main():
         # autor con las plantillas de cada lado, usando su ID de jugador
         # (con respaldo por nombre si faltara el ID). Si es "own_goal", el
         # gol cuenta A FAVOR del equipo contrario y EN CONTRA del autor.
+        # Primera pasada: solo determinar de qué equipo es cada gol y
+        # dejarlos ordenados por minuto (hace falta el orden real para
+        # calcular el marcador en vivo y los "momentos clave" después).
         home_keys = roster_keys(home)
         away_keys = roster_keys(away)
 
+        valid_goals = []
         for goal in match.get("goals", []):
             scorer_name = normalize_name(goal["scorer"])
             scorer_key = player_key(goal.get("scorer_id"), goal["scorer"])
             minute = goal["minute"]
-            b = bucket_index(minute)
             is_own_goal = goal.get("type") == "own_goal"
             goals_total_seen += 1
 
@@ -379,19 +397,75 @@ def main():
                       f"no coincide con ningún jugador de la alineación de ese partido — se descarta.")
                 continue
 
+            valid_goals.append({
+                "minute": minute,
+                "scoring_team": scoring_team,
+                "conceding_team": conceding_team,
+                "is_own_goal": is_own_goal,
+                "scorer_key": scorer_key,
+                "scorer_name": scorer_name,
+            })
+
+        valid_goals.sort(key=lambda g: g["minute"])
+
+        # Segunda pasada: con los goles ya ordenados, aplicamos los tramos de
+        # siempre y calculamos los "momentos clave" llevando el marcador en vivo.
+        home_score, away_score = 0, 0
+        prev_goal_minute = None
+        for g in valid_goals:
+            minute = g["minute"]
+            scoring_team, conceding_team = g["scoring_team"], g["conceding_team"]
+            b = bucket_index(minute)
+
             team_gf_buckets[scoring_team][b] += 1
             team_ga_buckets[conceding_team][b] += 1
             team_goals_against_total[conceding_team] += 1
 
-            if not is_own_goal:
-                player_goals_total[scorer_key] += 1
-                player_name.setdefault(scorer_key, scorer_name)
+            if not g["is_own_goal"]:
+                player_goals_total[g["scorer_key"]] += 1
+                player_name.setdefault(g["scorer_key"], g["scorer_name"])
 
             # goles encajados por el portero que estuviera en el campo en ese minuto
             conceding_side_intervals = home_intervals if conceding_team == home_name else away_intervals
             for key, (dorsal, name, start, end) in conceding_side_intervals.items():
                 if positions.get(name) == "Portero" and start <= minute <= end:
                     player_goals_conceded_total[key] += 1
+
+            # -------- momentos clave --------
+            km_scoring = team_key_moments[scoring_team]
+            km_conceding = team_key_moments[conceding_team]
+
+            if 1 <= minute <= 10:
+                km_scoring["early1_10For"] += 1
+                km_conceding["early1_10Against"] += 1
+            if 40 <= minute <= 45:
+                km_scoring["halfEnd40_45For"] += 1
+                km_conceding["halfEnd40_45Against"] += 1
+            if 45 <= minute <= 50:
+                km_scoring["halfStart45_50For"] += 1
+                km_conceding["halfStart45_50Against"] += 1
+
+            # gol decisivo tardío: compara el signo del marcador (a favor del
+            # local) antes y después de este gol concreto.
+            diff_before = home_score - away_score
+            if scoring_team == home_name:
+                home_score += 1
+            else:
+                away_score += 1
+            diff_after = home_score - away_score
+
+            if minute >= 80 and _sign(diff_before) != _sign(diff_after):
+                km_scoring["lateDecisiveFor"] += 1
+                km_conceding["lateDecisiveAgainst"] += 1
+
+            # respuesta rápida: este gol cae dentro de los 5 minutos
+            # siguientes al gol anterior del partido (de cualquiera de los
+            # dos equipos)
+            if prev_goal_minute is not None and (minute - prev_goal_minute) <= 5:
+                km_scoring["quickResponseFor"] += 1
+                km_conceding["quickResponseAgainst"] += 1
+
+            prev_goal_minute = minute
 
     # -------- construir teams.json --------
     teams_out = {}
@@ -408,6 +482,7 @@ def main():
             "gfBucketsAvg": [round(v / played, 2) for v in team_gf_buckets[team]],
             "gaBucketsTotal": team_ga_buckets[team],
             "gaBucketsAvg": [round(v / played, 2) for v in team_ga_buckets[team]],
+            "keyMoments": team_key_moments[team],
         }
 
     # -------- construir players.json --------
