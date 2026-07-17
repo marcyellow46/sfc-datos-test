@@ -48,7 +48,7 @@ GROUP = "grup-1"
 MAX_JORNADAS = 34                     # límite de seguridad; se detiene antes si no hay más
 REQUEST_DELAY_SECONDS = 1.0           # ser educado con el servidor de la FCF
 DEBUG = False                         # True -> guarda el html de cada página descargada
-FORCE_REFRESH = False                  # True -> re-parsea TODO aunque el JSON ya exista.
+FORCE_REFRESH = True                  # True -> re-parsea TODO aunque el JSON ya exista.
                                        # Ponlo en True puntualmente cuando cambies la
                                        # lógica de parseo (como ahora, para corregir los
                                        # partidos guardados con el nombre de equipo local
@@ -415,11 +415,26 @@ def _parse_cards(table):
         minute_txt = cells[2].get_text(strip=True).replace("'", "")
         if not (dorsal_txt.isdigit() and minute_txt.isdigit()):
             continue
+
+        # Tipo de tarjeta por el icono (alt/title/src). Por defecto "yellow"
+        # si no se detecta nada más específico, ya que la amarilla es el
+        # caso más común con diferencia; AJUSTAR aquí si se confirma que el
+        # patrón real es distinto una vez se vea en producción.
+        card_type = "yellow"
+        img = row.find("img")
+        if img:
+            hint = " ".join(filter(None, [img.get("alt", ""), img.get("title", ""), img.get("src", "")])).lower()
+            if "vermell" in hint or "red" in hint or "roja" in hint:
+                card_type = "red"
+            elif "groc" in hint or "yellow" in hint or "amarilla" in hint:
+                card_type = "yellow"
+
         cards.append({
             "dorsal": int(dorsal_txt),
             "name": name,
             "player_id": _player_id_from_url(link.get("href")) if link else None,
             "minute": int(minute_txt),
+            "type": card_type,
         })
     return cards
 
