@@ -204,6 +204,36 @@ def player_minutes(side: dict, match_length=MATCH_LENGTH):
     return {key: tuple(v) for key, v in intervals.items()}
 
 
+def compute_yellow_cycle(team_schedule: list, card_jornadas: set):
+    """
+    Simula la acumulación de amarillas y su reseteo por sanción, jornada a
+    jornada, siguiendo el calendario real del EQUIPO (no solo los partidos
+    en los que jugó el propio jugador, porque la sanción se cumple con el
+    calendario del equipo).
+
+    Regla: al llegar a 5 amarillas (o 10, 15...), el contador se queda
+    "a la espera" — se sigue mostrando esa 5ª amarilla en naranja hasta que
+    el equipo dispute su SIGUIENTE partido (se entiende que ahí cumple el
+    partido de sanción); en cuanto ese partido pasa, el contador se pone a
+    0 y se suma un ciclo completado.
+
+    Devuelve (ciclos_completados, amarillas_actuales_del_ciclo).
+    """
+    tally = 0
+    cycles = 0
+    awaiting_reset = False
+    for j in sorted(team_schedule):
+        if awaiting_reset:
+            tally = 0
+            cycles += 1
+            awaiting_reset = False
+        if j in card_jornadas:
+            tally += 1
+            if tally == 5:
+                awaiting_reset = True
+    return cycles, tally
+
+
 def main():
     positions = load_positions()
     corrections = load_corrections()
@@ -228,6 +258,9 @@ def main():
     player_team = {}
     player_name = {}  # clave -> nombre normalizado, para mostrar en la web
 
+    team_jornadas = defaultdict(set)          # equipo -> {jornadas que ha disputado}
+    player_yellow_jornadas = defaultdict(set)  # clave jugador -> {jornadas en las que vio amarilla}
+
     goals_total_seen = 0
     goals_skipped = 0
     subs_total_seen = 0
@@ -250,6 +283,21 @@ def main():
 
         team_played[home_name] += 1
         team_played[away_name] += 1
+
+        jornada = match.get("jornada")
+        if jornada is not None:
+            team_jornadas[home_name].add(jornada)
+            team_jornadas[away_name].add(jornada)
+
+        for side_name, side in ((home_name, home), (away_name, away)):
+            for c in side.get("cards", []):
+                if c.get("type") != "yellow":
+                    continue
+                key = player_key(c.get("player_id"), c["name"])
+                name = normalize_name(c["name"])
+                player_name.setdefault(key, name)
+                if jornada is not None:
+                    player_yellow_jornadas[key].add(jornada)
 
         home_intervals = player_minutes(home)
         away_intervals = player_minutes(away)
@@ -370,6 +418,11 @@ def main():
         suplente = call_ups - titular
         minutes_total = player_minutes_total[key]
         position = positions.get(name, "Sin definir")
+        team = player_team.get(key)
+        schedule = team_jornadas.get(team, set())
+        card_jornadas = player_yellow_jornadas.get(key, set())
+        yellow_cycles, yellow_tally = compute_yellow_cycle(schedule, card_jornadas)
+
         entry = {
             "name": name,
             "dorsal": player_dorsal.get(key),
@@ -383,6 +436,9 @@ def main():
             "minutesAvg": round(minutes_total / matches, 1) if matches else 0,
             "goalsTotal": player_goals_total.get(key, 0),
             "goalsAvg": round(player_goals_total.get(key, 0) / matches, 2) if matches else 0,
+            "yellowCardsTotal": len(card_jornadas),
+            "yellowCardsCycles": yellow_cycles,
+            "yellowCardsTally": yellow_tally,
         }
         if position == "Portero":
             gc = player_goals_conceded_total.get(key, 0)
