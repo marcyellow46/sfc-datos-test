@@ -315,6 +315,8 @@ function mkPlayer(dorsal,name,position,minTotal,partidos,goles,rangoIni,rangoFin
   return {
     dorsal,name,position,
     callUpsTotal:partidos,
+    titularTotal:partidos,
+    suplenteTotal:0,
     minutesTotal:minTotal,
     matches:partidos,
     minutesAvg:+(minTotal/partidos).toFixed(1),
@@ -544,9 +546,11 @@ const SORT_COLUMNS = [
   { key: "name", label: "Jugador", type: "string" },
   { key: "position", label: "Pos.", type: "string" },
   { key: "callUpsTotal", label: "Convocatorias", type: "number" },
+  { key: "matches", label: "Participaciones", type: "number" },
+  { key: "titularTotal", label: "Titular", type: "number" },
+  { key: "suplenteTotal", label: "Suplente", type: "number" },
   { key: "minutesTotal", label: "Minutos", type: "number" },
   { key: "minutesAvg", label: "Min./partido", type: "number" },
-  { key: "rangeStart", label: "Rango habitual", type: "number" },
   { key: "goalsTotal", label: "Goles", type: "number" },
   { key: "goalsAvg", label: "Goles/partido", type: "number" },
   { key: "goalsConcededTotal", label: "Encajados (total / media)", type: "number" },
@@ -586,9 +590,11 @@ function playersTable(players){
       <td class="name-cell"><span class="dorsal">${p.dorsal}</span>${p.name}</td>
       <td>${posBadge(p.position)}</td>
       <td class="num">${p.callUpsTotal}</td>
+      <td class="num">${p.matches}</td>
+      <td class="num">${p.titularTotal}</td>
+      <td class="num">${p.suplenteTotal}</td>
       <td class="num">${p.minutesTotal}</td>
       <td class="num">${p.minutesAvg}</td>
-      <td>${playerRangeBar(p)}</td>
       <td class="num">${p.goalsTotal}</td>
       <td class="num">${p.goalsAvg}</td>
       <td class="num">${p.goalsConcededTotal!==null ? p.goalsConcededTotal+` <span style="color:var(--chalk-dim)">(${p.goalsConcededAvg}/p)</span>` : "—"}</td>
