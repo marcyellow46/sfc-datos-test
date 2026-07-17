@@ -257,21 +257,28 @@ def _parse_substitutions_global(soup, debug_label=None):
         return {"minute": int(minute_txt), "dorsal": int(dorsal_txt), "name": link.get_text(strip=True)}
 
     def row_as_in(cells):
-        # fila "entra": 2 celdas (dorsal + jugador) o 3 (vacía + dorsal + jugador)
-        if len(cells) == 2:
+        # fila "entra": no lleva celda de minuto (esa celda usa rowspan desde
+        # la fila "sale" de arriba, así que aquí ni siquiera existe un hueco
+        # vacío). La forma real es [dorsal][jugador] seguido de lo que sea
+        # (p.ej. el icono de la flecha azul de "entra"), así que solo miramos
+        # las DOS primeras celdas y ya, sin importar cuántas vengan detrás.
+        if len(cells) >= 2:
             dorsal_txt = cells[0].get_text(strip=True)
             link = cells[1].find("a", href=re.compile(r"/jugador/"))
-        elif len(cells) >= 3 and cells[0].get_text(strip=True) == "":
+            if dorsal_txt.isdigit() and link:
+                return {"dorsal": int(dorsal_txt), "name": link.get_text(strip=True)}
+        # variante alternativa, por si alguna acta sí lleva un hueco vacío
+        # de la celda de minuto en vez de omitirla del todo
+        if len(cells) >= 3 and cells[0].get_text(strip=True) == "":
             dorsal_txt = cells[1].get_text(strip=True)
             link = cells[2].find("a", href=re.compile(r"/jugador/"))
-        else:
-            return None
-        if not (dorsal_txt.isdigit() and link):
-            return None
-        return {"dorsal": int(dorsal_txt), "name": link.get_text(strip=True)}
+            if dorsal_txt.isdigit() and link:
+                return {"dorsal": int(dorsal_txt), "name": link.get_text(strip=True)}
+        return None
 
     events = []
     unpaired_sale = 0
+    raw_dump_left = 2  # cuántas veces mostramos el HTML crudo de la fila que falla
     i = 0
     while i < len(all_rows):
         out_player = row_as_out(all_rows[i].find_all("td"))
@@ -286,6 +293,12 @@ def _parse_substitutions_global(soup, debug_label=None):
                 i += 2
                 continue
             unpaired_sale += 1
+            if debug_label and raw_dump_left > 0:
+                raw_dump_left -= 1
+                print(f"    [debug-html] {debug_label}: fila 'sale' encontrada "
+                      f"({out_player}), pero la fila siguiente no encaja como 'entra'. "
+                      f"HTML crudo de la fila siguiente:\n"
+                      f"    {all_rows[i + 1] if i + 1 < len(all_rows) else '(no hay fila siguiente)'}")
         i += 1
 
     if debug_label:
