@@ -2,6 +2,8 @@
   "CIUDAD COOPERATIVA, C.F. A": {
     "name": "CIUDAD COOPERATIVA, C.F. A",
     "matchesPlayed": 30,
+    "goalsForTotal": 35,
+    "goalsForAvg": 1.17,
     "goalsAgainstTotal": 47,
     "goalsAgainstAvg": 1.57,
     "gfBucketsTotal": [
@@ -40,6 +42,8 @@
   "JÚPITER, C.E. A": {
     "name": "JÚPITER, C.E. A",
     "matchesPlayed": 30,
+    "goalsForTotal": 33,
+    "goalsForAvg": 1.1,
     "goalsAgainstTotal": 34,
     "goalsAgainstAvg": 1.13,
     "gfBucketsTotal": [
@@ -78,6 +82,8 @@
   "SANTFELIUENC, F.C. A": {
     "name": "SANTFELIUENC, F.C. A",
     "matchesPlayed": 30,
+    "goalsForTotal": 23,
+    "goalsForAvg": 0.77,
     "goalsAgainstTotal": 38,
     "goalsAgainstAvg": 1.27,
     "gfBucketsTotal": [
@@ -116,6 +122,8 @@
   "VILAFRANCA, F.C. A": {
     "name": "VILAFRANCA, F.C. A",
     "matchesPlayed": 30,
+    "goalsForTotal": 36,
+    "goalsForAvg": 1.2,
     "goalsAgainstTotal": 50,
     "goalsAgainstAvg": 1.67,
     "gfBucketsTotal": [
@@ -154,6 +162,8 @@
   "MARTINENC, F.C. A": {
     "name": "MARTINENC, F.C. A",
     "matchesPlayed": 30,
+    "goalsForTotal": 50,
+    "goalsForAvg": 1.67,
     "goalsAgainstTotal": 37,
     "goalsAgainstAvg": 1.23,
     "gfBucketsTotal": [
@@ -192,6 +202,8 @@
   "POBLA MAFUMET, C.F. A": {
     "name": "POBLA MAFUMET, C.F. A",
     "matchesPlayed": 30,
+    "goalsForTotal": 36,
+    "goalsForAvg": 1.2,
     "goalsAgainstTotal": 20,
     "goalsAgainstAvg": 0.67,
     "gfBucketsTotal": [
@@ -230,6 +242,8 @@
   "SAN JUAN AT. DE MONTCADA,U.E. A": {
     "name": "SAN JUAN AT. DE MONTCADA,U.E. A",
     "matchesPlayed": 30,
+    "goalsForTotal": 55,
+    "goalsForAvg": 1.83,
     "goalsAgainstTotal": 47,
     "goalsAgainstAvg": 1.57,
     "gfBucketsTotal": [
@@ -268,6 +282,8 @@
   "ATLETIC SANT JUST . F. C. A": {
     "name": "ATLETIC SANT JUST . F. C. A",
     "matchesPlayed": 30,
+    "goalsForTotal": 36,
+    "goalsForAvg": 1.2,
     "goalsAgainstTotal": 40,
     "goalsAgainstAvg": 1.33,
     "gfBucketsTotal": [
@@ -306,6 +322,8 @@
   "CASTELLDEFELS, U.E. A": {
     "name": "CASTELLDEFELS, U.E. A",
     "matchesPlayed": 30,
+    "goalsForTotal": 38,
+    "goalsForAvg": 1.27,
     "goalsAgainstTotal": 35,
     "goalsAgainstAvg": 1.17,
     "gfBucketsTotal": [
@@ -344,6 +362,8 @@
   "HORTA, U.AT. A": {
     "name": "HORTA, U.AT. A",
     "matchesPlayed": 30,
+    "goalsForTotal": 41,
+    "goalsForAvg": 1.37,
     "goalsAgainstTotal": 36,
     "goalsAgainstAvg": 1.2,
     "gfBucketsTotal": [
@@ -382,6 +402,8 @@
   "MANLLEU, A.E.C. A": {
     "name": "MANLLEU, A.E.C. A",
     "matchesPlayed": 30,
+    "goalsForTotal": 41,
+    "goalsForAvg": 1.37,
     "goalsAgainstTotal": 46,
     "goalsAgainstAvg": 1.53,
     "gfBucketsTotal": [
@@ -420,6 +442,8 @@
   "PRAT, A.E. A": {
     "name": "PRAT, A.E. A",
     "matchesPlayed": 30,
+    "goalsForTotal": 48,
+    "goalsForAvg": 1.6,
     "goalsAgainstTotal": 45,
     "goalsAgainstAvg": 1.5,
     "gfBucketsTotal": [
@@ -458,6 +482,8 @@
   "RUBI, U.E. A": {
     "name": "RUBI, U.E. A",
     "matchesPlayed": 30,
+    "goalsForTotal": 45,
+    "goalsForAvg": 1.5,
     "goalsAgainstTotal": 46,
     "goalsAgainstAvg": 1.53,
     "gfBucketsTotal": [
@@ -496,6 +522,8 @@
   "SABADELL F.C., C.E. B": {
     "name": "SABADELL F.C., C.E. B",
     "matchesPlayed": 30,
+    "goalsForTotal": 37,
+    "goalsForAvg": 1.23,
     "goalsAgainstTotal": 38,
     "goalsAgainstAvg": 1.27,
     "gfBucketsTotal": [
@@ -534,6 +562,8 @@
   "SAN MAURO, U.D. A": {
     "name": "SAN MAURO, U.D. A",
     "matchesPlayed": 30,
+    "goalsForTotal": 49,
+    "goalsForAvg": 1.63,
     "goalsAgainstTotal": 40,
     "goalsAgainstAvg": 1.33,
     "gfBucketsTotal": [
@@ -572,6 +602,8 @@
   "VALLS U.E. A": {
     "name": "VALLS U.E. A",
     "matchesPlayed": 30,
+    "goalsForTotal": 39,
+    "goalsForAvg": 1.3,
     "goalsAgainstTotal": 43,
     "goalsAgainstAvg": 1.43,
     "gfBucketsTotal": [
