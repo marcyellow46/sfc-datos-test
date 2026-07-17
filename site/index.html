@@ -530,10 +530,10 @@ function renderSidebar(){
 }
 
 function timelineHtml(totals, avgs, colorClass){
-  const max = Math.max(...avgs, 0.1);
-  const segs = avgs.map((v,i)=>{
+  const max = Math.max(...totals, 1);
+  const segs = totals.map((v,i)=>{
     const h = Math.round((v/max)*100);
-    return `<div class="seg" title="${BUCKET_LABELS[i]}': ${totals[i]} total / ${v} media">
+    return `<div class="seg" title="${BUCKET_LABELS[i]}': ${v} total / ${avgs[i]} media por partido">
               <div class="seg-value" style="bottom:${h}%">${v}</div>
               <div class="fill ${colorClass||''}" style="height:${h}%"></div>
             </div>`;
@@ -696,11 +696,11 @@ function renderTeamView(){
       </div>
       <div class="two-col">
         <div>
-          <div class="timeline-block-title">Minutos en que marca (media por partido)</div>
+          <div class="timeline-block-title">Minutos en que marca (total)</div>
           ${timelineHtml(team.gfBucketsTotal, team.gfBucketsAvg)}
         </div>
         <div>
-          <div class="timeline-block-title">Minutos en que encaja (media por partido)</div>
+          <div class="timeline-block-title">Minutos en que encaja (total)</div>
           ${timelineHtml(team.gaBucketsTotal, team.gaBucketsAvg, "clay")}
         </div>
       </div>
@@ -739,12 +739,12 @@ function renderCompareView(){
       <div class="two-col section-block">
         <div>
           <div class="compare-team-title">${crestHtml(A,34)}${A.name}</div>
-          <div class="timeline-block-title">Encaja por tramos (media)</div>
+          <div class="timeline-block-title">Encaja por tramos (total)</div>
           ${timelineHtml(A.gaBucketsTotal, A.gaBucketsAvg, "clay")}
         </div>
         <div>
           <div class="compare-team-title">${crestHtml(B,34)}${B.name}</div>
-          <div class="timeline-block-title">Encaja por tramos (media)</div>
+          <div class="timeline-block-title">Encaja por tramos (total)</div>
           ${timelineHtml(B.gaBucketsTotal, B.gaBucketsAvg, "clay")}
         </div>
       </div>
