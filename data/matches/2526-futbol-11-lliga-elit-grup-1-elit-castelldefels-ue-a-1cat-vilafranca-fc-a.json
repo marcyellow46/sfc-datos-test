@@ -108,7 +108,74 @@
         "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/23168454"
       }
     ],
-    "substitutions": [],
+    "substitutions": [
+      {
+        "minute": 65,
+        "out": {
+          "dorsal": 24,
+          "name": "VILLAVERDE GARCIA, KILIAN"
+        },
+        "in": {
+          "dorsal": 20,
+          "name": "MALDONADO MOYA, IZAN"
+        }
+      },
+      {
+        "minute": 65,
+        "out": {
+          "dorsal": 17,
+          "name": "FRANCO CARRASCO, PABLO"
+        },
+        "in": {
+          "dorsal": 7,
+          "name": "RAMIREZ RUIZ, ENRIQUE"
+        }
+      },
+      {
+        "minute": 74,
+        "out": {
+          "dorsal": 19,
+          "name": "PARRA GARCIA, EDGAR"
+        },
+        "in": {
+          "dorsal": 15,
+          "name": "FAURA MARTINEZ, JOEL"
+        }
+      },
+      {
+        "minute": 74,
+        "out": {
+          "dorsal": 14,
+          "name": "GIBERT FUERTES, JOAN"
+        },
+        "in": {
+          "dorsal": 16,
+          "name": "FERREIRA MOREIRA, JONATHAN"
+        }
+      },
+      {
+        "minute": 74,
+        "out": {
+          "dorsal": 11,
+          "name": "GERBOLES PEREZ, MARIO"
+        },
+        "in": {
+          "dorsal": 21,
+          "name": "DIAZ MENDOZA, ALEIX"
+        }
+      },
+      {
+        "minute": 82,
+        "out": {
+          "dorsal": 9,
+          "name": "POZUELO RIERA, ELOI"
+        },
+        "in": {
+          "dorsal": 10,
+          "name": "CANO JIMENEZ, CARLOS"
+        }
+      }
+    ],
     "cards": []
   },
   "away": {
@@ -212,7 +279,63 @@
         "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/20122441"
       }
     ],
-    "substitutions": [],
+    "substitutions": [
+      {
+        "minute": 46,
+        "out": {
+          "dorsal": 21,
+          "name": "RODRIGUEZ GELABERT, MARC"
+        },
+        "in": {
+          "dorsal": 22,
+          "name": "KAWAGUCHI , SHINNOSUKE"
+        }
+      },
+      {
+        "minute": 46,
+        "out": {
+          "dorsal": 19,
+          "name": "ESCOFET ALEMANY, SERGI"
+        },
+        "in": {
+          "dorsal": 8,
+          "name": "POL MARCE"
+        }
+      },
+      {
+        "minute": 60,
+        "out": {
+          "dorsal": 16,
+          "name": "TORRES RAMIREZ, MARC"
+        },
+        "in": {
+          "dorsal": 6,
+          "name": "CAÑETE RODRIGUEZ, ERIC"
+        }
+      },
+      {
+        "minute": 60,
+        "out": {
+          "dorsal": 7,
+          "name": "CASTELL SOLE, NIL"
+        },
+        "in": {
+          "dorsal": 9,
+          "name": "FORGAS PALLARES, ERNEST"
+        }
+      },
+      {
+        "minute": 72,
+        "out": {
+          "dorsal": 3,
+          "name": "GONZÁLEZ MIQUEL, MARC"
+        },
+        "in": {
+          "dorsal": 20,
+          "name": "MARÍ PASCUAL, ALEIX"
+        }
+      }
+    ],
     "cards": []
   },
   "goals": [

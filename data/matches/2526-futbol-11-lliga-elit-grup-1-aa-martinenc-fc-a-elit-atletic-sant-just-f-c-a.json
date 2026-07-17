@@ -108,7 +108,41 @@
         "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/15307332"
       }
     ],
-    "substitutions": [],
+    "substitutions": [
+      {
+        "minute": 56,
+        "out": {
+          "dorsal": 24,
+          "name": "SANCHEZ PONS, FERRAN"
+        },
+        "in": {
+          "dorsal": 14,
+          "name": "GONZALEZ ALCANTARA, CARLOS"
+        }
+      },
+      {
+        "minute": 56,
+        "out": {
+          "dorsal": 22,
+          "name": "FABIAN PASCUAL, VICTOR"
+        },
+        "in": {
+          "dorsal": 16,
+          "name": "ALARCON MILLAN, KEVIN"
+        }
+      },
+      {
+        "minute": 56,
+        "out": {
+          "dorsal": 11,
+          "name": "GONZALEZ VALTUEÑA, ANGEL"
+        },
+        "in": {
+          "dorsal": 8,
+          "name": "SUÁREZ POSTIGO, DANIEL"
+        }
+      }
+    ],
     "cards": []
   },
   "away": {
@@ -212,7 +246,41 @@
         "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/651174"
       }
     ],
-    "substitutions": [],
+    "substitutions": [
+      {
+        "minute": 62,
+        "out": {
+          "dorsal": 8,
+          "name": "RUIZ PIQUE, ARNAU"
+        },
+        "in": {
+          "dorsal": 14,
+          "name": "RABANAL VILLAR, ANIOL"
+        }
+      },
+      {
+        "minute": 68,
+        "out": {
+          "dorsal": 24,
+          "name": "SORROCHE CALLE, MARK"
+        },
+        "in": {
+          "dorsal": 11,
+          "name": "BEATTIE ORFILA, ERIK"
+        }
+      },
+      {
+        "minute": 83,
+        "out": {
+          "dorsal": 10,
+          "name": "GONZALEZ OLLER, JAN ANTONI"
+        },
+        "in": {
+          "dorsal": 12,
+          "name": "SANCHEZ PLACENCIA, IVAN"
+        }
+      }
+    ],
     "cards": []
   },
   "goals": [

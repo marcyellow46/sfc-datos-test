@@ -108,7 +108,52 @@
         "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/43487600"
       }
     ],
-    "substitutions": [],
+    "substitutions": [
+      {
+        "minute": 58,
+        "out": {
+          "dorsal": 12,
+          "name": "SANCHEZ PLACENCIA, IVAN"
+        },
+        "in": {
+          "dorsal": 11,
+          "name": "BEATTIE ORFILA, ERIK"
+        }
+      },
+      {
+        "minute": 67,
+        "out": {
+          "dorsal": 14,
+          "name": "RABANAL VILLAR, ANIOL"
+        },
+        "in": {
+          "dorsal": 20,
+          "name": "GARCIA BAQUES, POL"
+        }
+      },
+      {
+        "minute": 67,
+        "out": {
+          "dorsal": 19,
+          "name": "ARJONA SERRANO, PAU"
+        },
+        "in": {
+          "dorsal": 21,
+          "name": "PEREZ PICON, DAVID"
+        }
+      },
+      {
+        "minute": 88,
+        "out": {
+          "dorsal": 9,
+          "name": "WERCKMEISTER GARCIA, ANDER"
+        },
+        "in": {
+          "dorsal": 17,
+          "name": "GIL NAVARRO, JOEL"
+        }
+      }
+    ],
     "cards": []
   },
   "away": {
@@ -217,7 +262,63 @@
         "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/20122441"
       }
     ],
-    "substitutions": [],
+    "substitutions": [
+      {
+        "minute": 38,
+        "out": {
+          "dorsal": 8,
+          "name": "POL MARCE"
+        },
+        "in": {
+          "dorsal": 6,
+          "name": "CAÑETE RODRIGUEZ, ERIC"
+        }
+      },
+      {
+        "minute": 67,
+        "out": {
+          "dorsal": 17,
+          "name": "MARC"
+        },
+        "in": {
+          "dorsal": 18,
+          "name": "RAVENTOS ALMIRALL, ORIOL"
+        }
+      },
+      {
+        "minute": 67,
+        "out": {
+          "dorsal": 24,
+          "name": "HERVÁS LEAL, JAVIER"
+        },
+        "in": {
+          "dorsal": 9,
+          "name": "FORGAS PALLARES, ERNEST"
+        }
+      },
+      {
+        "minute": 88,
+        "out": {
+          "dorsal": 1,
+          "name": "PASCUAL MARTÍNEZ, DAVID"
+        },
+        "in": {
+          "dorsal": 13,
+          "name": "HURTADO MARTIN, HECTOR"
+        }
+      },
+      {
+        "minute": 88,
+        "out": {
+          "dorsal": 20,
+          "name": "MARÍ PASCUAL, ALEIX"
+        },
+        "in": {
+          "dorsal": 2,
+          "name": "ROCA BOFILL, MARC"
+        }
+      }
+    ],
     "cards": []
   },
   "goals": [],

@@ -108,7 +108,52 @@
         "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/23168454"
       }
     ],
-    "substitutions": [],
+    "substitutions": [
+      {
+        "minute": 63,
+        "out": {
+          "dorsal": 7,
+          "name": "DIAZ MENDOZA, ALEIX"
+        },
+        "in": {
+          "dorsal": 9,
+          "name": "POZUELO RIERA, ELOI"
+        }
+      },
+      {
+        "minute": 68,
+        "out": {
+          "dorsal": 5,
+          "name": "ORTEGA RAMIREZ, IVAN"
+        },
+        "in": {
+          "dorsal": 18,
+          "name": "POUGET FLORIDO, MARC"
+        }
+      },
+      {
+        "minute": 77,
+        "out": {
+          "dorsal": 17,
+          "name": "FRANCO CARRASCO, PABLO"
+        },
+        "in": {
+          "dorsal": 22,
+          "name": "PALOU NOGALES, CARLOS"
+        }
+      },
+      {
+        "minute": 77,
+        "out": {
+          "dorsal": 11,
+          "name": "GERBOLES PEREZ, MARIO"
+        },
+        "in": {
+          "dorsal": 4,
+          "name": "ESTEBAN CANELLES, ALEIX"
+        }
+      }
+    ],
     "cards": []
   },
   "away": {
@@ -212,7 +257,30 @@
         "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/15723516"
       }
     ],
-    "substitutions": [],
+    "substitutions": [
+      {
+        "minute": 63,
+        "out": {
+          "dorsal": 26,
+          "name": "AGUZZI BETTINI, NICOLAS ALBERTO"
+        },
+        "in": {
+          "dorsal": 9,
+          "name": "CABEZAS MENSAH, DAVID"
+        }
+      },
+      {
+        "minute": 68,
+        "out": {
+          "dorsal": 14,
+          "name": "CIURÓ RIUDEUBAS, ROGER"
+        },
+        "in": {
+          "dorsal": 16,
+          "name": "GUTIERREZ DESTEFANIS, AGUSTIN"
+        }
+      }
+    ],
     "cards": []
   },
   "goals": [],

@@ -108,7 +108,85 @@
         "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/57736517"
       }
     ],
-    "substitutions": [],
+    "substitutions": [
+      {
+        "minute": 46,
+        "out": {
+          "dorsal": 18,
+          "name": "GASPAR MARTINEZ, MARIO"
+        },
+        "in": {
+          "dorsal": 14,
+          "name": "RABANAL VILLAR, ANIOL"
+        }
+      },
+      {
+        "minute": 46,
+        "out": {
+          "dorsal": 20,
+          "name": "GARCIA BAQUES, POL"
+        },
+        "in": {
+          "dorsal": 19,
+          "name": "ARJONA SERRANO, PAU"
+        }
+      },
+      {
+        "minute": 64,
+        "out": {
+          "dorsal": 7,
+          "name": "MATEO QUEJIGO, PAU"
+        },
+        "in": {
+          "dorsal": 24,
+          "name": "SORROCHE CALLE, MARK"
+        }
+      },
+      {
+        "minute": 74,
+        "out": {
+          "dorsal": 22,
+          "name": "PILAR DEL HOYO, JON"
+        },
+        "in": {
+          "dorsal": 16,
+          "name": "MELERO CALVO, UNAI"
+        }
+      },
+      {
+        "minute": 80,
+        "out": {
+          "dorsal": 4,
+          "name": "PALACIOS CORRAL, IGNACIO"
+        },
+        "in": {
+          "dorsal": 11,
+          "name": "JAWO DANSO, MUHAMMED DABA"
+        }
+      },
+      {
+        "minute": 80,
+        "out": {
+          "dorsal": 12,
+          "name": "SANCHEZ PLACENCIA, IVAN"
+        },
+        "in": {
+          "dorsal": 17,
+          "name": "GIL NAVARRO, JOEL"
+        }
+      },
+      {
+        "minute": 89,
+        "out": {
+          "dorsal": 6,
+          "name": "GONZÁLEZ TARRUELLA, MARC"
+        },
+        "in": {
+          "dorsal": 23,
+          "name": "CLAVIJO LARIOS, PABLO"
+        }
+      }
+    ],
     "cards": []
   },
   "away": {
@@ -207,7 +285,63 @@
         "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/15548932"
       }
     ],
-    "substitutions": [],
+    "substitutions": [
+      {
+        "minute": 69,
+        "out": {
+          "dorsal": 8,
+          "name": "CHICO MARINA, PATRICK"
+        },
+        "in": {
+          "dorsal": 10,
+          "name": "BARON VARGAS, ADRIA"
+        }
+      },
+      {
+        "minute": 69,
+        "out": {
+          "dorsal": 5,
+          "name": "KARROUCH KADRI, HICHAM"
+        },
+        "in": {
+          "dorsal": 22,
+          "name": "AYLLON JALDON, SERGI"
+        }
+      },
+      {
+        "minute": 74,
+        "out": {
+          "dorsal": 9,
+          "name": "GENESCA GONZALEZ, LLORENÇ"
+        },
+        "in": {
+          "dorsal": 20,
+          "name": "RUIZ ROMERA, DANIEL"
+        }
+      },
+      {
+        "minute": 80,
+        "out": {
+          "dorsal": 14,
+          "name": "GARCIA PASCUAL, ALEX"
+        },
+        "in": {
+          "dorsal": 18,
+          "name": "RODRIGUEZ ROSA, BIEL"
+        }
+      },
+      {
+        "minute": 89,
+        "out": {
+          "dorsal": 21,
+          "name": "GURREA SANCHEZ, ALBERT"
+        },
+        "in": {
+          "dorsal": 23,
+          "name": "GONZALEZ NAVARRO, DIDAC"
+        }
+      }
+    ],
     "cards": []
   },
   "goals": [

@@ -108,7 +108,63 @@
         "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/18475202"
       }
     ],
-    "substitutions": [],
+    "substitutions": [
+      {
+        "minute": 46,
+        "out": {
+          "dorsal": 5,
+          "name": "COLOM CAÑERO, ANTONIO"
+        },
+        "in": {
+          "dorsal": 6,
+          "name": "HIDALGO PEREZ, MANUEL"
+        }
+      },
+      {
+        "minute": 65,
+        "out": {
+          "dorsal": 8,
+          "name": "KADOCHNIKOV , VENIAMIN"
+        },
+        "in": {
+          "dorsal": 16,
+          "name": "RODRÍGUEZ  ARASIL, RUBÉN"
+        }
+      },
+      {
+        "minute": 65,
+        "out": {
+          "dorsal": 12,
+          "name": "ZELLAL NEJAM, HICHAM"
+        },
+        "in": {
+          "dorsal": 19,
+          "name": "DELGADO CHICANO, ADRIAN"
+        }
+      },
+      {
+        "minute": 72,
+        "out": {
+          "dorsal": 25,
+          "name": "MESSOOUDI BAKKALI, MOHAMED YASSIN"
+        },
+        "in": {
+          "dorsal": 11,
+          "name": "SERRANO RUIZ, LUIS"
+        }
+      },
+      {
+        "minute": 89,
+        "out": {
+          "dorsal": 9,
+          "name": "TORO CONEJERO, DAVID"
+        },
+        "in": {
+          "dorsal": 22,
+          "name": "AKEL MEHDAOUI, RAMZI"
+        }
+      }
+    ],
     "cards": []
   },
   "away": {
@@ -217,7 +273,63 @@
         "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/693487"
       }
     ],
-    "substitutions": [],
+    "substitutions": [
+      {
+        "minute": 72,
+        "out": {
+          "dorsal": 18,
+          "name": "MORRAL CAMPILLO, ALBERT"
+        },
+        "in": {
+          "dorsal": 19,
+          "name": "LOPEZ ESCRIG, YOEL"
+        }
+      },
+      {
+        "minute": 72,
+        "out": {
+          "dorsal": 6,
+          "name": "MUÑOZ DELGADO, ALEJANDRO"
+        },
+        "in": {
+          "dorsal": 9,
+          "name": "VEGA NAVARRO, ENRIC"
+        }
+      },
+      {
+        "minute": 82,
+        "out": {
+          "dorsal": 23,
+          "name": "DIAZ WILLIAMS, KEVIN"
+        },
+        "in": {
+          "dorsal": 3,
+          "name": "JUNCÀ ROVIRA, MARC"
+        }
+      },
+      {
+        "minute": 89,
+        "out": {
+          "dorsal": 2,
+          "name": "TORRES MARTÍNEZ, AITOR"
+        },
+        "in": {
+          "dorsal": 12,
+          "name": "NII , OLIVER KOTA"
+        }
+      },
+      {
+        "minute": 89,
+        "out": {
+          "dorsal": 4,
+          "name": "YAHYA RABIE, AYOUB"
+        },
+        "in": {
+          "dorsal": 17,
+          "name": "REY GALLEGO, SERGIO"
+        }
+      }
+    ],
     "cards": []
   },
   "goals": [

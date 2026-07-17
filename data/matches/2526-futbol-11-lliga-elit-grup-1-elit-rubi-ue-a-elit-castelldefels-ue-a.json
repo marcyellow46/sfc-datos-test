@@ -108,7 +108,85 @@
         "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/15946659"
       }
     ],
-    "substitutions": [],
+    "substitutions": [
+      {
+        "minute": 46,
+        "out": {
+          "dorsal": 4,
+          "name": "YAHYA RABIE, AYOUB"
+        },
+        "in": {
+          "dorsal": 5,
+          "name": "OLLÉ JURADO, PEPE"
+        }
+      },
+      {
+        "minute": 57,
+        "out": {
+          "dorsal": 23,
+          "name": "DIAZ WILLIAMS, KEVIN"
+        },
+        "in": {
+          "dorsal": 17,
+          "name": "REY GALLEGO, SERGIO"
+        }
+      },
+      {
+        "minute": 70,
+        "out": {
+          "dorsal": 9,
+          "name": "VEGA NAVARRO, ENRIC"
+        },
+        "in": {
+          "dorsal": 30,
+          "name": "RUIZ DEL TÍO, JOAN"
+        }
+      },
+      {
+        "minute": 70,
+        "out": {
+          "dorsal": 18,
+          "name": "MORRAL CAMPILLO, ALBERT"
+        },
+        "in": {
+          "dorsal": 6,
+          "name": "MUÑOZ DELGADO, ALEJANDRO"
+        }
+      },
+      {
+        "minute": 76,
+        "out": {
+          "dorsal": 7,
+          "name": "RECORT MORENO, ADRIA"
+        },
+        "in": {
+          "dorsal": 12,
+          "name": "NII , OLIVER KOTA"
+        }
+      },
+      {
+        "minute": 76,
+        "out": {
+          "dorsal": 2,
+          "name": "TORRES MARTÍNEZ, AITOR"
+        },
+        "in": {
+          "dorsal": 14,
+          "name": "HERRANZ VIDAL, PAU"
+        }
+      },
+      {
+        "minute": 76,
+        "out": {
+          "dorsal": 10,
+          "name": "JIMENEZ ALBELDA, PABLO"
+        },
+        "in": {
+          "dorsal": 21,
+          "name": "RAMIREZ CASTILLO, HUGO"
+        }
+      }
+    ],
     "cards": []
   },
   "away": {
@@ -212,7 +290,63 @@
         "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/18475186"
       }
     ],
-    "substitutions": [],
+    "substitutions": [
+      {
+        "minute": 65,
+        "out": {
+          "dorsal": 16,
+          "name": "FERREIRA MOREIRA, JONATHAN"
+        },
+        "in": {
+          "dorsal": 17,
+          "name": "FRANCO CARRASCO, PABLO"
+        }
+      },
+      {
+        "minute": 65,
+        "out": {
+          "dorsal": 21,
+          "name": "DIAZ MENDOZA, ALEIX"
+        },
+        "in": {
+          "dorsal": 7,
+          "name": "RAMIREZ RUIZ, ENRIQUE"
+        }
+      },
+      {
+        "minute": 76,
+        "out": {
+          "dorsal": 9,
+          "name": "POZUELO RIERA, ELOI"
+        },
+        "in": {
+          "dorsal": 10,
+          "name": "CANO JIMENEZ, CARLOS"
+        }
+      },
+      {
+        "minute": 76,
+        "out": {
+          "dorsal": 14,
+          "name": "GIBERT FUERTES, JOAN"
+        },
+        "in": {
+          "dorsal": 15,
+          "name": "FAURA MARTINEZ, JOEL"
+        }
+      },
+      {
+        "minute": 82,
+        "out": {
+          "dorsal": 2,
+          "name": "MARTIN DURAN, JUAN ANTONIO"
+        },
+        "in": {
+          "dorsal": 22,
+          "name": "MARTÍ NAVAS, JOEL"
+        }
+      }
+    ],
     "cards": []
   },
   "goals": [

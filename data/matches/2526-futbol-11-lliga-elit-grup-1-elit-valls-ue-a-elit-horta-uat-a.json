@@ -108,7 +108,52 @@
         "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/900003705"
       }
     ],
-    "substitutions": [],
+    "substitutions": [
+      {
+        "minute": 50,
+        "out": {
+          "dorsal": 15,
+          "name": "SANTIAGO CORTES, ANTONIO"
+        },
+        "in": {
+          "dorsal": 23,
+          "name": "LORCA RODRÍGUEZ, JOAQUIN"
+        }
+      },
+      {
+        "minute": 69,
+        "out": {
+          "dorsal": 18,
+          "name": "BARROSO COTO, ERIK"
+        },
+        "in": {
+          "dorsal": 8,
+          "name": "GUASCH PORTAS, MARC"
+        }
+      },
+      {
+        "minute": 74,
+        "out": {
+          "dorsal": 7,
+          "name": "SUAREZ SANZ, ADRIA"
+        },
+        "in": {
+          "dorsal": 10,
+          "name": "MARTINEZ MARTINEZ, GUILLEM"
+        }
+      },
+      {
+        "minute": 89,
+        "out": {
+          "dorsal": 11,
+          "name": "PRADES MANRESA, JORDI"
+        },
+        "in": {
+          "dorsal": 26,
+          "name": "ORIOL GRACIA, EDUARD"
+        }
+      }
+    ],
     "cards": []
   },
   "away": {
@@ -217,7 +262,74 @@
         "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/669936"
       }
     ],
-    "substitutions": [],
+    "substitutions": [
+      {
+        "minute": 46,
+        "out": {
+          "dorsal": 2,
+          "name": "AREGALL GUILLEN, VICTOR"
+        },
+        "in": {
+          "dorsal": 12,
+          "name": "ARAGALL PUIGVERT, JORDI"
+        }
+      },
+      {
+        "minute": 69,
+        "out": {
+          "dorsal": 16,
+          "name": "PEDROL PALMADA, GERARD"
+        },
+        "in": {
+          "dorsal": 10,
+          "name": "VIVES LUQUE, JOAN"
+        }
+      },
+      {
+        "minute": 69,
+        "out": {
+          "dorsal": 15,
+          "name": "CIFUENTES PELAEZ, RUBEN"
+        },
+        "in": {
+          "dorsal": 20,
+          "name": "VALVERDE MILLAN, JUAN"
+        }
+      },
+      {
+        "minute": 69,
+        "out": {
+          "dorsal": 17,
+          "name": "COLY , PAPE OUMAR SARR"
+        },
+        "in": {
+          "dorsal": 21,
+          "name": "FORNELL SAEZ, JOAQUIM"
+        }
+      },
+      {
+        "minute": 77,
+        "out": {
+          "dorsal": 22,
+          "name": "KOUBISS AJOUB, ALI"
+        },
+        "in": {
+          "dorsal": 9,
+          "name": "LOPEZ CABEZAS, JORDI"
+        }
+      },
+      {
+        "minute": 85,
+        "out": {
+          "dorsal": 3,
+          "name": "HOMEDES DE LA FUENTE, SAMUEL"
+        },
+        "in": {
+          "dorsal": 24,
+          "name": "VILLAGRASA JIMENEZ, BRUNO"
+        }
+      }
+    ],
     "cards": []
   },
   "goals": [

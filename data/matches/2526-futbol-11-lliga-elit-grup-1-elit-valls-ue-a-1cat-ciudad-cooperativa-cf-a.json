@@ -98,7 +98,52 @@
         "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/15661919"
       }
     ],
-    "substitutions": [],
+    "substitutions": [
+      {
+        "minute": 59,
+        "out": {
+          "dorsal": 17,
+          "name": "ZHOVTENKO , OLEKSANDR"
+        },
+        "in": {
+          "dorsal": 20,
+          "name": "GÓMEZ MACÍAS, HUGO"
+        }
+      },
+      {
+        "minute": 67,
+        "out": {
+          "dorsal": 8,
+          "name": "GUASCH PORTAS, MARC"
+        },
+        "in": {
+          "dorsal": 3,
+          "name": "MORELL BONO, OSCAR"
+        }
+      },
+      {
+        "minute": 77,
+        "out": {
+          "dorsal": 7,
+          "name": "SUAREZ SANZ, ADRIA"
+        },
+        "in": {
+          "dorsal": 22,
+          "name": "LEON SEGURA, PAU"
+        }
+      },
+      {
+        "minute": 85,
+        "out": {
+          "dorsal": 14,
+          "name": "FE CRUSAT, MARC"
+        },
+        "in": {
+          "dorsal": 9,
+          "name": "GARCIA COMPANY, DANIEL"
+        }
+      }
+    ],
     "cards": []
   },
   "away": {
@@ -197,7 +242,52 @@
         "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/713391"
       }
     ],
-    "substitutions": [],
+    "substitutions": [
+      {
+        "minute": 46,
+        "out": {
+          "dorsal": 7,
+          "name": "DE SOKOLOW LEYVA, BRYAN"
+        },
+        "in": {
+          "dorsal": 22,
+          "name": "MESSOOUDI BAKKALI, MOHAMED YASSIN"
+        }
+      },
+      {
+        "minute": 54,
+        "out": {
+          "dorsal": 24,
+          "name": "NAVARRO GÓMEZ, RUBEN"
+        },
+        "in": {
+          "dorsal": 23,
+          "name": "BUSTO FORTUNA, DANIEL"
+        }
+      },
+      {
+        "minute": 59,
+        "out": {
+          "dorsal": 19,
+          "name": "DELGADO CHICANO, ADRIAN"
+        },
+        "in": {
+          "dorsal": 6,
+          "name": "HIDALGO PEREZ, MANUEL"
+        }
+      },
+      {
+        "minute": 85,
+        "out": {
+          "dorsal": 12,
+          "name": "ZELLAL NEJAM, HICHAM"
+        },
+        "in": {
+          "dorsal": 4,
+          "name": "DE ANDRADE JIMENEZ, VICTOR MBUKU"
+        }
+      }
+    ],
     "cards": []
   },
   "goals": [

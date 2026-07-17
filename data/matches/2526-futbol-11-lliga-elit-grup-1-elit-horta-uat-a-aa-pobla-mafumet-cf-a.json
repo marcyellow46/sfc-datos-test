@@ -108,7 +108,85 @@
         "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/24255628"
       }
     ],
-    "substitutions": [],
+    "substitutions": [
+      {
+        "minute": 46,
+        "out": {
+          "dorsal": 9,
+          "name": "LOPEZ CABEZAS, JORDI"
+        },
+        "in": {
+          "dorsal": 20,
+          "name": "VALVERDE MILLAN, JUAN"
+        }
+      },
+      {
+        "minute": 58,
+        "out": {
+          "dorsal": 6,
+          "name": "RAMIREZ GALLEGO, MARC"
+        },
+        "in": {
+          "dorsal": 7,
+          "name": "BABIA , HAITAM"
+        }
+      },
+      {
+        "minute": 73,
+        "out": {
+          "dorsal": 24,
+          "name": "VILLAGRASA JIMENEZ, BRUNO"
+        },
+        "in": {
+          "dorsal": 12,
+          "name": "ARAGALL PUIGVERT, JORDI"
+        }
+      },
+      {
+        "minute": 73,
+        "out": {
+          "dorsal": 3,
+          "name": "HOMEDES DE LA FUENTE, SAMUEL"
+        },
+        "in": {
+          "dorsal": 18,
+          "name": "AGUILAR COSTA, JULIA"
+        }
+      },
+      {
+        "minute": 73,
+        "out": {
+          "dorsal": 10,
+          "name": "VIVES LUQUE, JOAN"
+        },
+        "in": {
+          "dorsal": 19,
+          "name": "TOURAY , FABAKARY"
+        }
+      },
+      {
+        "minute": 73,
+        "out": {
+          "dorsal": 2,
+          "name": "AREGALL GUILLEN, VICTOR"
+        },
+        "in": {
+          "dorsal": 8,
+          "name": "VILAJOSANA MAY, VÍCTOR"
+        }
+      },
+      {
+        "minute": 80,
+        "out": {
+          "dorsal": 11,
+          "name": "MONTESINOS SOLE, JORDI"
+        },
+        "in": {
+          "dorsal": 21,
+          "name": "FORNELL SAEZ, JOAQUIM"
+        }
+      }
+    ],
     "cards": []
   },
   "away": {
@@ -202,7 +280,63 @@
         "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/15723516"
       }
     ],
-    "substitutions": [],
+    "substitutions": [
+      {
+        "minute": 58,
+        "out": {
+          "dorsal": 6,
+          "name": "ANGLES MASERAS, ROGER"
+        },
+        "in": {
+          "dorsal": 16,
+          "name": "GUTIERREZ DESTEFANIS, AGUSTIN"
+        }
+      },
+      {
+        "minute": 73,
+        "out": {
+          "dorsal": 24,
+          "name": "CARDONA PONS, UBAI"
+        },
+        "in": {
+          "dorsal": 19,
+          "name": "TORRES GONZÁLEZ, ÁLVARO"
+        }
+      },
+      {
+        "minute": 73,
+        "out": {
+          "dorsal": 23,
+          "name": "RAYA BERNAL, PAU"
+        },
+        "in": {
+          "dorsal": 27,
+          "name": "GARROFÉ SALLA, JOEL"
+        }
+      },
+      {
+        "minute": 78,
+        "out": {
+          "dorsal": 26,
+          "name": "AGUZZI BETTINI, NICOLAS ALBERTO"
+        },
+        "in": {
+          "dorsal": 9,
+          "name": "CABEZAS MENSAH, DAVID"
+        }
+      },
+      {
+        "minute": 84,
+        "out": {
+          "dorsal": 7,
+          "name": "QUEROL MONTAÑES, ALBERT"
+        },
+        "in": {
+          "dorsal": 17,
+          "name": "RUVIRA VALBUENA, AIRAN"
+        }
+      }
+    ],
     "cards": []
   },
   "goals": [

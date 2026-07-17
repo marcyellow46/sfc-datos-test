@@ -108,7 +108,52 @@
         "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/22731415"
       }
     ],
-    "substitutions": [],
+    "substitutions": [
+      {
+        "minute": 46,
+        "out": {
+          "dorsal": 30,
+          "name": "BONAVENTURA GRIS, DANIEL"
+        },
+        "in": {
+          "dorsal": 16,
+          "name": "SANCHEZ OCAÑA, ALEJANDRO"
+        }
+      },
+      {
+        "minute": 66,
+        "out": {
+          "dorsal": 12,
+          "name": "ARCHS HORTIGÓN, ALEJANDRO"
+        },
+        "in": {
+          "dorsal": 14,
+          "name": "RIVAS SANCHEZ, ADRIAN"
+        }
+      },
+      {
+        "minute": 85,
+        "out": {
+          "dorsal": 11,
+          "name": "PLAZA CREMADES, ALEX"
+        },
+        "in": {
+          "dorsal": 17,
+          "name": "CUEVAS LARDIES, NICOLAS DANIEL"
+        }
+      },
+      {
+        "minute": 85,
+        "out": {
+          "dorsal": 22,
+          "name": "PADILLA RUBIO, MARC"
+        },
+        "in": {
+          "dorsal": 19,
+          "name": "DONCHEV , MARTIN VALERIEV"
+        }
+      }
+    ],
     "cards": []
   },
   "away": {
@@ -217,7 +262,85 @@
         "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/26062046"
       }
     ],
-    "substitutions": [],
+    "substitutions": [
+      {
+        "minute": 46,
+        "out": {
+          "dorsal": 16,
+          "name": "GUTIERREZ DESTEFANIS, AGUSTIN"
+        },
+        "in": {
+          "dorsal": 8,
+          "name": "BEAMUZ  AROCA, ÀLEX"
+        }
+      },
+      {
+        "minute": 66,
+        "out": {
+          "dorsal": 26,
+          "name": "AGUZZI BETTINI, NICOLAS ALBERTO"
+        },
+        "in": {
+          "dorsal": 19,
+          "name": "CABEZAS MENSAH, DAVID"
+        }
+      },
+      {
+        "minute": 66,
+        "out": {
+          "dorsal": 11,
+          "name": "POZO GIL, TEO"
+        },
+        "in": {
+          "dorsal": 3,
+          "name": "DANILO LUCHETTI"
+        }
+      },
+      {
+        "minute": 75,
+        "out": {
+          "dorsal": 23,
+          "name": "RAYA BERNAL, PAU"
+        },
+        "in": {
+          "dorsal": 14,
+          "name": "CIURÓ RIUDEUBAS, ROGER"
+        }
+      },
+      {
+        "minute": 75,
+        "out": {
+          "dorsal": 12,
+          "name": "CID PLA, POL"
+        },
+        "in": {
+          "dorsal": 17,
+          "name": "MAYA PÉREZ, RUBÉN"
+        }
+      },
+      {
+        "minute": 85,
+        "out": {
+          "dorsal": 6,
+          "name": "ANGLES MASERAS, ROGER"
+        },
+        "in": {
+          "dorsal": 21,
+          "name": "MORA HERNANDEZ, ERIC"
+        }
+      },
+      {
+        "minute": 85,
+        "out": {
+          "dorsal": 5,
+          "name": "MARQUEZ SANCHEZ, CRISTIAN"
+        },
+        "in": {
+          "dorsal": 2,
+          "name": "MORENO GAITAN, MARC"
+        }
+      }
+    ],
     "cards": []
   },
   "goals": [

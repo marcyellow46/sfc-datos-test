@@ -108,7 +108,85 @@
         "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/786532"
       }
     ],
-    "substitutions": [],
+    "substitutions": [
+      {
+        "minute": 65,
+        "out": {
+          "dorsal": 8,
+          "name": "CHICO MARINA, PATRICK"
+        },
+        "in": {
+          "dorsal": 16,
+          "name": "BORDALLO CANALS, JOAN"
+        }
+      },
+      {
+        "minute": 65,
+        "out": {
+          "dorsal": 22,
+          "name": "AYLLON JALDON, SERGI"
+        },
+        "in": {
+          "dorsal": 24,
+          "name": "CLARÀ ANDREU, GERARD"
+        }
+      },
+      {
+        "minute": 76,
+        "out": {
+          "dorsal": 21,
+          "name": "GURREA SANCHEZ, ALBERT"
+        },
+        "in": {
+          "dorsal": 20,
+          "name": "BERNABEU ALVAREZ, ALBERT"
+        }
+      },
+      {
+        "minute": 76,
+        "out": {
+          "dorsal": 14,
+          "name": "GARCIA PASCUAL, ALEX"
+        },
+        "in": {
+          "dorsal": 23,
+          "name": "SÁNCHEZ OLIVARES, IVÁN"
+        }
+      },
+      {
+        "minute": 85,
+        "out": {
+          "dorsal": 6,
+          "name": "VAQUERA LOPEZ, IKER"
+        },
+        "in": {
+          "dorsal": 2,
+          "name": "LEIRA CUTILLAS, DAVID"
+        }
+      },
+      {
+        "minute": 85,
+        "out": {
+          "dorsal": 11,
+          "name": "S.MONSÓ"
+        },
+        "in": {
+          "dorsal": 9,
+          "name": "GENESCA GONZALEZ, LLORENÇ"
+        }
+      },
+      {
+        "minute": 89,
+        "out": {
+          "dorsal": 10,
+          "name": "BARON VARGAS, ADRIA"
+        },
+        "in": {
+          "dorsal": 3,
+          "name": "BASSOLS BOSCH, ADRIA"
+        }
+      }
+    ],
     "cards": []
   },
   "away": {
@@ -217,7 +295,85 @@
         "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/15056727"
       }
     ],
-    "substitutions": [],
+    "substitutions": [
+      {
+        "minute": 45,
+        "out": {
+          "dorsal": 7,
+          "name": "SUAREZ SANZ, ADRIA"
+        },
+        "in": {
+          "dorsal": 8,
+          "name": "GUASCH PORTAS, MARC"
+        }
+      },
+      {
+        "minute": 45,
+        "out": {
+          "dorsal": 22,
+          "name": "LEON SEGURA, PAU"
+        },
+        "in": {
+          "dorsal": 9,
+          "name": "GARCIA COMPANY, DANIEL"
+        }
+      },
+      {
+        "minute": 65,
+        "out": {
+          "dorsal": 17,
+          "name": "ZHOVTENKO , OLEKSANDR"
+        },
+        "in": {
+          "dorsal": 23,
+          "name": "LORCA RODRÍGUEZ, JOAQUIN"
+        }
+      },
+      {
+        "minute": 70,
+        "out": {
+          "dorsal": 15,
+          "name": "SANTIAGO CORTES, ANTONIO"
+        },
+        "in": {
+          "dorsal": 10,
+          "name": "BARROSO COTO, ERIK"
+        }
+      },
+      {
+        "minute": 70,
+        "out": {
+          "dorsal": 20,
+          "name": "GÓMEZ MACÍAS, HUGO"
+        },
+        "in": {
+          "dorsal": 19,
+          "name": "VEGA ALDOMA, SERGI"
+        }
+      },
+      {
+        "minute": 70,
+        "out": {
+          "dorsal": 6,
+          "name": "PALAU DOMINGO, SERGI"
+        },
+        "in": {
+          "dorsal": 3,
+          "name": "MORELL BONO, OSCAR"
+        }
+      },
+      {
+        "minute": 89,
+        "out": {
+          "dorsal": 11,
+          "name": "PRADES MANRESA, JORDI"
+        },
+        "in": {
+          "dorsal": 18,
+          "name": "CIURÓ ALTÉS, ARNAU"
+        }
+      }
+    ],
     "cards": []
   },
   "goals": [

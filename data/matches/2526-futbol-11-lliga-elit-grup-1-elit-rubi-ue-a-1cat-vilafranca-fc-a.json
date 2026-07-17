@@ -108,7 +108,63 @@
         "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/19854726"
       }
     ],
-    "substitutions": [],
+    "substitutions": [
+      {
+        "minute": 55,
+        "out": {
+          "dorsal": 5,
+          "name": "CORNELLA MOLINS, ALEX"
+        },
+        "in": {
+          "dorsal": 23,
+          "name": "DIAZ WILLIAMS, KEVIN"
+        }
+      },
+      {
+        "minute": 69,
+        "out": {
+          "dorsal": 16,
+          "name": "CASTILLO MARAVER, ERIK"
+        },
+        "in": {
+          "dorsal": 21,
+          "name": "MARTIN RIVERA, AIMAR"
+        }
+      },
+      {
+        "minute": 81,
+        "out": {
+          "dorsal": 23,
+          "name": "DIAZ WILLIAMS, KEVIN"
+        },
+        "in": {
+          "dorsal": 14,
+          "name": "HERRANZ VIDAL, PAU"
+        }
+      },
+      {
+        "minute": 81,
+        "out": {
+          "dorsal": 8,
+          "name": "MASIP MENDEZ, JORDI"
+        },
+        "in": {
+          "dorsal": 9,
+          "name": "LOPEZ ESCRIG, YOEL"
+        }
+      },
+      {
+        "minute": 88,
+        "out": {
+          "dorsal": 22,
+          "name": "MENDOZA GARCIA, SEBASTIA"
+        },
+        "in": {
+          "dorsal": 4,
+          "name": "YAHYA RABIE, AYOUB"
+        }
+      }
+    ],
     "cards": []
   },
   "away": {
@@ -207,7 +263,63 @@
         "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/24519663"
       }
     ],
-    "substitutions": [],
+    "substitutions": [
+      {
+        "minute": 55,
+        "out": {
+          "dorsal": 10,
+          "name": "ACEDO SANCHEZ, DAVID"
+        },
+        "in": {
+          "dorsal": 8,
+          "name": "ORIBE GUILLÉN, VÍCTOR"
+        }
+      },
+      {
+        "minute": 65,
+        "out": {
+          "dorsal": 17,
+          "name": "MARC"
+        },
+        "in": {
+          "dorsal": 21,
+          "name": "MARENA CONTEH, ANSUMAN"
+        }
+      },
+      {
+        "minute": 65,
+        "out": {
+          "dorsal": 23,
+          "name": "CABRERIZO TOCON, ADRIAN"
+        },
+        "in": {
+          "dorsal": 6,
+          "name": "TORRES SUGRANYES, IVAN"
+        }
+      },
+      {
+        "minute": 87,
+        "out": {
+          "dorsal": 4,
+          "name": "OLTRA PLA, IKER"
+        },
+        "in": {
+          "dorsal": 9,
+          "name": "FORGAS PALLARES, ERNEST"
+        }
+      },
+      {
+        "minute": 89,
+        "out": {
+          "dorsal": 19,
+          "name": "ESCOFET ALEMANY, SERGI"
+        },
+        "in": {
+          "dorsal": 20,
+          "name": "MARÍ PASCUAL, ALEIX"
+        }
+      }
+    ],
     "cards": []
   },
   "goals": [

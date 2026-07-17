@@ -108,7 +108,85 @@
         "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/669445"
       }
     ],
-    "substitutions": [],
+    "substitutions": [
+      {
+        "minute": 62,
+        "out": {
+          "dorsal": 17,
+          "name": "REY GALLEGO, SERGIO"
+        },
+        "in": {
+          "dorsal": 16,
+          "name": "CASTILLO MARAVER, ERIK"
+        }
+      },
+      {
+        "minute": 66,
+        "out": {
+          "dorsal": 8,
+          "name": "MASIP MENDEZ, JORDI"
+        },
+        "in": {
+          "dorsal": 18,
+          "name": "MORRAL CAMPILLO, ALBERT"
+        }
+      },
+      {
+        "minute": 77,
+        "out": {
+          "dorsal": 22,
+          "name": "MENDOZA GARCIA, SEBASTIA"
+        },
+        "in": {
+          "dorsal": 11,
+          "name": "SENYE PALACIOS, ALFONS"
+        }
+      },
+      {
+        "minute": 77,
+        "out": {
+          "dorsal": 10,
+          "name": "JIMENEZ ALBELDA, PABLO"
+        },
+        "in": {
+          "dorsal": 9,
+          "name": "VEGA NAVARRO, ENRIC"
+        }
+      },
+      {
+        "minute": 86,
+        "out": {
+          "dorsal": 15,
+          "name": "TENORIO GALCERAN, ORIOL"
+        },
+        "in": {
+          "dorsal": 12,
+          "name": "NII , OLIVER KOTA"
+        }
+      },
+      {
+        "minute": 86,
+        "out": {
+          "dorsal": 2,
+          "name": "TORRES MARTÍNEZ, AITOR"
+        },
+        "in": {
+          "dorsal": 5,
+          "name": "CORNELLA MOLINS, ALEX"
+        }
+      },
+      {
+        "minute": 89,
+        "out": {
+          "dorsal": 6,
+          "name": "MUÑOZ DELGADO, ALEJANDRO"
+        },
+        "in": {
+          "dorsal": 4,
+          "name": "YAHYA RABIE, AYOUB"
+        }
+      }
+    ],
     "cards": []
   },
   "away": {
@@ -217,7 +295,85 @@
         "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/750040"
       }
     ],
-    "substitutions": [],
+    "substitutions": [
+      {
+        "minute": 46,
+        "out": {
+          "dorsal": 16,
+          "name": "MELERO CALVO, UNAI"
+        },
+        "in": {
+          "dorsal": 19,
+          "name": "ARJONA SERRANO, PAU"
+        }
+      },
+      {
+        "minute": 46,
+        "out": {
+          "dorsal": 4,
+          "name": "PALACIOS CORRAL, IGNACIO"
+        },
+        "in": {
+          "dorsal": 9,
+          "name": "GUMA CERQUEDA, JAN"
+        }
+      },
+      {
+        "minute": 62,
+        "out": {
+          "dorsal": 17,
+          "name": "GIL NAVARRO, JOEL"
+        },
+        "in": {
+          "dorsal": 8,
+          "name": "RUIZ PIQUE, ARNAU"
+        }
+      },
+      {
+        "minute": 66,
+        "out": {
+          "dorsal": 25,
+          "name": "SANCHEZ ERAZO, ALLAN MACCRAY"
+        },
+        "in": {
+          "dorsal": 14,
+          "name": "RABANAL VILLAR, ANIOL"
+        }
+      },
+      {
+        "minute": 77,
+        "out": {
+          "dorsal": 24,
+          "name": "SORROCHE CALLE, MARK"
+        },
+        "in": {
+          "dorsal": 18,
+          "name": "GASPAR MARTINEZ, MARIO"
+        }
+      },
+      {
+        "minute": 77,
+        "out": {
+          "dorsal": 21,
+          "name": "PEREZ PICON, DAVID"
+        },
+        "in": {
+          "dorsal": 3,
+          "name": "PALACIOS CORRAL, ALEJANDRO"
+        }
+      },
+      {
+        "minute": 86,
+        "out": {
+          "dorsal": 6,
+          "name": "GONZÁLEZ TARRUELLA, MARC"
+        },
+        "in": {
+          "dorsal": 11,
+          "name": "WALKER , WILLIAM CHRISTOPHER"
+        }
+      }
+    ],
     "cards": []
   },
   "goals": [

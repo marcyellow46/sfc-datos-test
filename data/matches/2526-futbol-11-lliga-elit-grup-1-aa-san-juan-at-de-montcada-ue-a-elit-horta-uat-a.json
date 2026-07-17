@@ -108,7 +108,63 @@
         "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/18760009"
       }
     ],
-    "substitutions": [],
+    "substitutions": [
+      {
+        "minute": 46,
+        "out": {
+          "dorsal": 18,
+          "name": "LOPEZ BONIGNO, DERECK"
+        },
+        "in": {
+          "dorsal": 17,
+          "name": "MULERO GONZALEZ, SERGIO"
+        }
+      },
+      {
+        "minute": 56,
+        "out": {
+          "dorsal": 8,
+          "name": "GALEANO JARDI, FERNANDO"
+        },
+        "in": {
+          "dorsal": 15,
+          "name": "RUIZ SANTAMARÍA, HUGO"
+        }
+      },
+      {
+        "minute": 56,
+        "out": {
+          "dorsal": 6,
+          "name": "MARTINEZ MORENO, CARLOS"
+        },
+        "in": {
+          "dorsal": 24,
+          "name": "FERNANDEZ AMAT, JOSE JAVIER"
+        }
+      },
+      {
+        "minute": 63,
+        "out": {
+          "dorsal": 4,
+          "name": "MARTI VARELA, DANIEL"
+        },
+        "in": {
+          "dorsal": 7,
+          "name": "RECHE HUCHA, OSCAR"
+        }
+      },
+      {
+        "minute": 84,
+        "out": {
+          "dorsal": 2,
+          "name": "ORTIZ PARAISO, JOSHUA"
+        },
+        "in": {
+          "dorsal": 16,
+          "name": "BA ANDEME, MARCELO SALIOU"
+        }
+      }
+    ],
     "cards": []
   },
   "away": {
@@ -217,7 +273,63 @@
         "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/24255628"
       }
     ],
-    "substitutions": [],
+    "substitutions": [
+      {
+        "minute": 56,
+        "out": {
+          "dorsal": 10,
+          "name": "VIVES LUQUE, JOAN"
+        },
+        "in": {
+          "dorsal": 15,
+          "name": "CIFUENTES PELAEZ, RUBEN"
+        }
+      },
+      {
+        "minute": 56,
+        "out": {
+          "dorsal": 16,
+          "name": "PEDROL PALMADA, GERARD"
+        },
+        "in": {
+          "dorsal": 20,
+          "name": "VALVERDE MILLAN, JUAN"
+        }
+      },
+      {
+        "minute": 63,
+        "out": {
+          "dorsal": 11,
+          "name": "MONTESINOS SOLE, JORDI"
+        },
+        "in": {
+          "dorsal": 17,
+          "name": "COLY , PAPE OUMAR SARR"
+        }
+      },
+      {
+        "minute": 84,
+        "out": {
+          "dorsal": 3,
+          "name": "HOMEDES DE LA FUENTE, SAMUEL"
+        },
+        "in": {
+          "dorsal": 14,
+          "name": "HAMAD , ABDUL-MOUATY"
+        }
+      },
+      {
+        "minute": 84,
+        "out": {
+          "dorsal": 24,
+          "name": "VILLAGRASA JIMENEZ, BRUNO"
+        },
+        "in": {
+          "dorsal": 22,
+          "name": "KOUBISS AJOUB, ALI"
+        }
+      }
+    ],
     "cards": []
   },
   "goals": [

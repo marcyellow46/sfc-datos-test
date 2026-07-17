@@ -108,7 +108,74 @@
         "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/44698885"
       }
     ],
-    "substitutions": [],
+    "substitutions": [
+      {
+        "minute": 46,
+        "out": {
+          "dorsal": 10,
+          "name": "DURAN NOMS, FERRAN"
+        },
+        "in": {
+          "dorsal": 12,
+          "name": "DIABY DIAWARA, MAMADOU"
+        }
+      },
+      {
+        "minute": 61,
+        "out": {
+          "dorsal": 6,
+          "name": "GIRALT PALAHÍ, XAVI"
+        },
+        "in": {
+          "dorsal": 23,
+          "name": "BARRERA FONT, ROGER"
+        }
+      },
+      {
+        "minute": 61,
+        "out": {
+          "dorsal": 14,
+          "name": "MARCH PONS, BRU"
+        },
+        "in": {
+          "dorsal": 24,
+          "name": "TOURE DIAWARA, MAMADOU BOUHARY"
+        }
+      },
+      {
+        "minute": 70,
+        "out": {
+          "dorsal": 19,
+          "name": "CHLIH LEHDA, OUSSAMA"
+        },
+        "in": {
+          "dorsal": 11,
+          "name": "ROSENA CAÑAMERO, IZAN"
+        }
+      },
+      {
+        "minute": 70,
+        "out": {
+          "dorsal": 7,
+          "name": "BOBI CHAMORRO, ADRIÁN"
+        },
+        "in": {
+          "dorsal": 27,
+          "name": "DE WEERD ROBLES, ALEX"
+        }
+      },
+      {
+        "minute": 74,
+        "out": {
+          "dorsal": 3,
+          "name": "TORRES CAMARGO, MARIO"
+        },
+        "in": {
+          "dorsal": 21,
+          "name": "DIAZ SORIANO, ALBERTO"
+        }
+      }
+    ],
     "cards": []
   },
   "away": {
@@ -212,7 +279,63 @@
         "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/27325614"
       }
     ],
-    "substitutions": [],
+    "substitutions": [
+      {
+        "minute": 10,
+        "out": {
+          "dorsal": 3,
+          "name": "GARCÍA GARCÍA, KILIAN"
+        },
+        "in": {
+          "dorsal": 15,
+          "name": "MARTINEZ DOMINGUEZ, DANIEL"
+        }
+      },
+      {
+        "minute": 46,
+        "out": {
+          "dorsal": 16,
+          "name": "RODRÍGUEZ  ARASIL, RUBÉN"
+        },
+        "in": {
+          "dorsal": 19,
+          "name": "DELGADO CHICANO, ADRIAN"
+        }
+      },
+      {
+        "minute": 61,
+        "out": {
+          "dorsal": 12,
+          "name": "ZELLAL NEJAM, HICHAM"
+        },
+        "in": {
+          "dorsal": 6,
+          "name": "HIDALGO PEREZ, MANUEL"
+        }
+      },
+      {
+        "minute": 74,
+        "out": {
+          "dorsal": 9,
+          "name": "TORO CONEJERO, DAVID"
+        },
+        "in": {
+          "dorsal": 22,
+          "name": "AKEL MEHDAOUI, RAMZI"
+        }
+      },
+      {
+        "minute": 89,
+        "out": {
+          "dorsal": 19,
+          "name": "DELGADO CHICANO, ADRIAN"
+        },
+        "in": {
+          "dorsal": 4,
+          "name": "DE SOKOLOW LEYVA, BRYAN"
+        }
+      }
+    ],
     "cards": []
   },
   "goals": [

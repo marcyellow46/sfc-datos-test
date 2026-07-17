@@ -103,7 +103,52 @@
         "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/26282381"
       }
     ],
-    "substitutions": [],
+    "substitutions": [
+      {
+        "minute": 54,
+        "out": {
+          "dorsal": 24,
+          "name": "SANCHEZ PONS, FERRAN"
+        },
+        "in": {
+          "dorsal": 10,
+          "name": "TEJADA GALLARDO, EDGAR"
+        }
+      },
+      {
+        "minute": 69,
+        "out": {
+          "dorsal": 8,
+          "name": "SUÁREZ POSTIGO, DANIEL"
+        },
+        "in": {
+          "dorsal": 9,
+          "name": "OSORIO BARROZO, FAVIO JULIAN"
+        }
+      },
+      {
+        "minute": 72,
+        "out": {
+          "dorsal": 7,
+          "name": "FABIAN PASCUAL, VICTOR"
+        },
+        "in": {
+          "dorsal": 18,
+          "name": "IBAÑEZ BLASCO, DANIEL"
+        }
+      },
+      {
+        "minute": 78,
+        "out": {
+          "dorsal": 3,
+          "name": "OTERO LOBATO, ALEXANDRE"
+        },
+        "in": {
+          "dorsal": 22,
+          "name": "BLASCO TORNE, GENIS"
+        }
+      }
+    ],
     "cards": []
   },
   "away": {
@@ -212,7 +257,74 @@
         "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/44698885"
       }
     ],
-    "substitutions": [],
+    "substitutions": [
+      {
+        "minute": 21,
+        "out": {
+          "dorsal": 8,
+          "name": "BORRELL SOTO, ALEIX"
+        },
+        "in": {
+          "dorsal": 10,
+          "name": "DURAN NOMS, FERRAN"
+        }
+      },
+      {
+        "minute": 60,
+        "out": {
+          "dorsal": 7,
+          "name": "BOBI CHAMORRO, ADRIÁN"
+        },
+        "in": {
+          "dorsal": 20,
+          "name": "SALGUERO CUENCA, ERICK"
+        }
+      },
+      {
+        "minute": 60,
+        "out": {
+          "dorsal": 11,
+          "name": "ROSENA CAÑAMERO, IZAN"
+        },
+        "in": {
+          "dorsal": 2,
+          "name": "TEBAR ZORRILLA, IVAN"
+        }
+      },
+      {
+        "minute": 72,
+        "out": {
+          "dorsal": 15,
+          "name": "MUÑOZ RAYA, MARCOS"
+        },
+        "in": {
+          "dorsal": 12,
+          "name": "GARCIA SABADO, MARC"
+        }
+      },
+      {
+        "minute": 72,
+        "out": {
+          "dorsal": 22,
+          "name": "SÁEZ JIMÉNEZ, ENRIC"
+        },
+        "in": {
+          "dorsal": 17,
+          "name": "BARRERA FONT, ROGER"
+        }
+      },
+      {
+        "minute": 72,
+        "out": {
+          "dorsal": 18,
+          "name": "FERNÁNDEZ BAUMGARTNER, ADRIÁN"
+        },
+        "in": {
+          "dorsal": 26,
+          "name": "DE WEERD ROBLES, ALEX"
+        }
+      }
+    ],
     "cards": []
   },
   "goals": [

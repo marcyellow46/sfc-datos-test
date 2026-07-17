@@ -98,7 +98,41 @@
         "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/686061"
       }
     ],
-    "substitutions": [],
+    "substitutions": [
+      {
+        "minute": 20,
+        "out": {
+          "dorsal": 9,
+          "name": "VIDAL GIRONES, RICARD"
+        },
+        "in": {
+          "dorsal": 22,
+          "name": "PADILLA RUBIO, MARC"
+        }
+      },
+      {
+        "minute": 73,
+        "out": {
+          "dorsal": 16,
+          "name": "SANCHEZ OCAÑA, ALEJANDRO"
+        },
+        "in": {
+          "dorsal": 19,
+          "name": "DONCHEV , MARTIN VALERIEV"
+        }
+      },
+      {
+        "minute": 73,
+        "out": {
+          "dorsal": 30,
+          "name": "BONAVENTURA GRIS, DANIEL"
+        },
+        "in": {
+          "dorsal": 7,
+          "name": "PLUVINS RAMOS, XAVIER"
+        }
+      }
+    ],
     "cards": []
   },
   "away": {
@@ -207,7 +241,63 @@
         "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/15152617"
       }
     ],
-    "substitutions": [],
+    "substitutions": [
+      {
+        "minute": 60,
+        "out": {
+          "dorsal": 24,
+          "name": "NAVARRO GÓMEZ, RUBEN"
+        },
+        "in": {
+          "dorsal": 16,
+          "name": "RODRÍGUEZ  ARASIL, RUBÉN"
+        }
+      },
+      {
+        "minute": 60,
+        "out": {
+          "dorsal": 22,
+          "name": "AKEL MEHDAOUI, RAMZI"
+        },
+        "in": {
+          "dorsal": 17,
+          "name": "MIRANDA COSTA, HECTOR"
+        }
+      },
+      {
+        "minute": 65,
+        "out": {
+          "dorsal": 18,
+          "name": "SÁNCHEZ PÉREZ, KEVIN"
+        },
+        "in": {
+          "dorsal": 25,
+          "name": "MESSOOUDI BAKKALI, MOHAMED YASSIN"
+        }
+      },
+      {
+        "minute": 73,
+        "out": {
+          "dorsal": 5,
+          "name": "COLOM CAÑERO, ANTONIO"
+        },
+        "in": {
+          "dorsal": 6,
+          "name": "HIDALGO PEREZ, MANUEL"
+        }
+      },
+      {
+        "minute": 73,
+        "out": {
+          "dorsal": 19,
+          "name": "DELGADO CHICANO, ADRIAN"
+        },
+        "in": {
+          "dorsal": 8,
+          "name": "KADOCHNIKOV , VENIAMIN"
+        }
+      }
+    ],
     "cards": []
   },
   "goals": [

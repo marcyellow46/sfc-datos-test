@@ -108,7 +108,85 @@
         "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/15337130"
       }
     ],
-    "substitutions": [],
+    "substitutions": [
+      {
+        "minute": 28,
+        "out": {
+          "dorsal": 15,
+          "name": "CIFUENTES PELAEZ, RUBEN"
+        },
+        "in": {
+          "dorsal": 20,
+          "name": "VALVERDE MILLAN, JUAN"
+        }
+      },
+      {
+        "minute": 53,
+        "out": {
+          "dorsal": 24,
+          "name": "VILLAGRASA JIMENEZ, BRUNO"
+        },
+        "in": {
+          "dorsal": 17,
+          "name": "COLY , PAPE OUMAR SARR"
+        }
+      },
+      {
+        "minute": 53,
+        "out": {
+          "dorsal": 10,
+          "name": "VIVES LUQUE, JOAN"
+        },
+        "in": {
+          "dorsal": 6,
+          "name": "RAMIREZ GALLEGO, MARC"
+        }
+      },
+      {
+        "minute": 71,
+        "out": {
+          "dorsal": 16,
+          "name": "PEDROL PALMADA, GERARD"
+        },
+        "in": {
+          "dorsal": 8,
+          "name": "VILAJOSANA MAY, VÍCTOR"
+        }
+      },
+      {
+        "minute": 71,
+        "out": {
+          "dorsal": 21,
+          "name": "FORNELL SAEZ, JOAQUIM"
+        },
+        "in": {
+          "dorsal": 9,
+          "name": "LOPEZ CABEZAS, JORDI"
+        }
+      },
+      {
+        "minute": 84,
+        "out": {
+          "dorsal": 22,
+          "name": "KOUBISS AJOUB, ALI"
+        },
+        "in": {
+          "dorsal": 12,
+          "name": "ARAGALL PUIGVERT, JORDI"
+        }
+      },
+      {
+        "minute": 84,
+        "out": {
+          "dorsal": 3,
+          "name": "HOMEDES DE LA FUENTE, SAMUEL"
+        },
+        "in": {
+          "dorsal": 7,
+          "name": "BABIA , HAITAM"
+        }
+      }
+    ],
     "cards": []
   },
   "away": {
@@ -217,7 +295,74 @@
         "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/714601"
       }
     ],
-    "substitutions": [],
+    "substitutions": [
+      {
+        "minute": 46,
+        "out": {
+          "dorsal": 19,
+          "name": "ESCOFET ALEMANY, SERGI"
+        },
+        "in": {
+          "dorsal": 20,
+          "name": "MARÍ PASCUAL, ALEIX"
+        }
+      },
+      {
+        "minute": 58,
+        "out": {
+          "dorsal": 18,
+          "name": "ORIBE GUILLÉN, VÍCTOR"
+        },
+        "in": {
+          "dorsal": 21,
+          "name": "AFAZAZ BEN HAMZA, ABDELLAH"
+        }
+      },
+      {
+        "minute": 58,
+        "out": {
+          "dorsal": 16,
+          "name": "TORRES RAMIREZ, MARC"
+        },
+        "in": {
+          "dorsal": 6,
+          "name": "TORRES SUGRANYES, IVAN"
+        }
+      },
+      {
+        "minute": 73,
+        "out": {
+          "dorsal": 7,
+          "name": "CASTELL SOLE, NIL"
+        },
+        "in": {
+          "dorsal": 17,
+          "name": "MARC"
+        }
+      },
+      {
+        "minute": 84,
+        "out": {
+          "dorsal": 3,
+          "name": "GONZÁLEZ MIQUEL, MARC"
+        },
+        "in": {
+          "dorsal": 23,
+          "name": "CABRERIZO TOCON, ADRIAN"
+        }
+      },
+      {
+        "minute": 84,
+        "out": {
+          "dorsal": 22,
+          "name": "KAWAGUCHI , SHINNOSUKE"
+        },
+        "in": {
+          "dorsal": 9,
+          "name": "FORGAS PALLARES, ERNEST"
+        }
+      }
+    ],
     "cards": []
   },
   "goals": [

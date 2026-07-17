@@ -103,7 +103,74 @@
         "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/26282381"
       }
     ],
-    "substitutions": [],
+    "substitutions": [
+      {
+        "minute": 46,
+        "out": {
+          "dorsal": 9,
+          "name": "OSORIO BARROZO, FAVIO JULIAN"
+        },
+        "in": {
+          "dorsal": 24,
+          "name": "SANCHEZ PONS, FERRAN"
+        }
+      },
+      {
+        "minute": 46,
+        "out": {
+          "dorsal": 16,
+          "name": "ALARCON MILLAN, KEVIN"
+        },
+        "in": {
+          "dorsal": 7,
+          "name": "FABIAN PASCUAL, VICTOR"
+        }
+      },
+      {
+        "minute": 60,
+        "out": {
+          "dorsal": 5,
+          "name": "SARO SATRÚSTEGUI, ADRIÀ"
+        },
+        "in": {
+          "dorsal": 22,
+          "name": "BLASCO TORNE, GENIS"
+        }
+      },
+      {
+        "minute": 86,
+        "out": {
+          "dorsal": 11,
+          "name": "GONZALEZ VALTUEÑA, ANGEL"
+        },
+        "in": {
+          "dorsal": 25,
+          "name": "RIBERA"
+        }
+      },
+      {
+        "minute": 86,
+        "out": {
+          "dorsal": 8,
+          "name": "SUÁREZ POSTIGO, DANIEL"
+        },
+        "in": {
+          "dorsal": 3,
+          "name": "MEGIA ASCASO, ALEJANDRO"
+        }
+      },
+      {
+        "minute": 88,
+        "out": {
+          "dorsal": 6,
+          "name": "SOSA MORENO, JUAN"
+        },
+        "in": {
+          "dorsal": 2,
+          "name": "IZQUIERDO GIL, ANDREU"
+        }
+      }
+    ],
     "cards": []
   },
   "away": {
@@ -197,7 +264,52 @@
         "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/19642198"
       }
     ],
-    "substitutions": [],
+    "substitutions": [
+      {
+        "minute": 57,
+        "out": {
+          "dorsal": 15,
+          "name": "HERNANDEZ LLANOS, LUIS MIGUEL"
+        },
+        "in": {
+          "dorsal": 17,
+          "name": "MARC"
+        }
+      },
+      {
+        "minute": 57,
+        "out": {
+          "dorsal": 20,
+          "name": "MARÍ PASCUAL, ALEIX"
+        },
+        "in": {
+          "dorsal": 6,
+          "name": "TORRES SUGRANYES, IVAN"
+        }
+      },
+      {
+        "minute": 60,
+        "out": {
+          "dorsal": 23,
+          "name": "CABRERIZO TOCON, ADRIAN"
+        },
+        "in": {
+          "dorsal": 14,
+          "name": "MAÑÉ PASCUAL, MARTÍ"
+        }
+      },
+      {
+        "minute": 74,
+        "out": {
+          "dorsal": 5,
+          "name": "HILL VALLS, ERIC"
+        },
+        "in": {
+          "dorsal": 21,
+          "name": "MARENA CONTEH, ANSUMAN"
+        }
+      }
+    ],
     "cards": []
   },
   "goals": [

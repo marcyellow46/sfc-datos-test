@@ -98,7 +98,63 @@
         "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/18481364"
       }
     ],
-    "substitutions": [],
+    "substitutions": [
+      {
+        "minute": 46,
+        "out": {
+          "dorsal": 15,
+          "name": "LOPEZ SÁNCHEZ, ALBERT"
+        },
+        "in": {
+          "dorsal": 23,
+          "name": "COMAMALA FONT, MARC"
+        }
+      },
+      {
+        "minute": 58,
+        "out": {
+          "dorsal": 17,
+          "name": "CAO FERNÁNDEZ, TONI"
+        },
+        "in": {
+          "dorsal": 11,
+          "name": "ADU TUTU AMOAH, NANA"
+        }
+      },
+      {
+        "minute": 71,
+        "out": {
+          "dorsal": 20,
+          "name": "MURO"
+        },
+        "in": {
+          "dorsal": 14,
+          "name": "BASART VIGAS, SERGI"
+        }
+      },
+      {
+        "minute": 71,
+        "out": {
+          "dorsal": 12,
+          "name": "MATA GARCIA, MARTI"
+        },
+        "in": {
+          "dorsal": 16,
+          "name": "COLLELL JORDÀ, GERARD"
+        }
+      },
+      {
+        "minute": 78,
+        "out": {
+          "dorsal": 19,
+          "name": "PIJUAN COLOM, MARC"
+        },
+        "in": {
+          "dorsal": 9,
+          "name": "CASANOVA CLUSELLS, ADRIA"
+        }
+      }
+    ],
     "cards": []
   },
   "away": {
@@ -207,7 +263,74 @@
         "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/15625474"
       }
     ],
-    "substitutions": [],
+    "substitutions": [
+      {
+        "minute": 58,
+        "out": {
+          "dorsal": 8,
+          "name": "CARBONELL GIL, MARC"
+        },
+        "in": {
+          "dorsal": 15,
+          "name": "HERVIAS MARTINEZ, MARIO"
+        }
+      },
+      {
+        "minute": 58,
+        "out": {
+          "dorsal": 10,
+          "name": "AVELLANEDA PLAZUELO, JOSE JOAQUIN"
+        },
+        "in": {
+          "dorsal": 17,
+          "name": "AVILES DIAZ, ALEJANDRO"
+        }
+      },
+      {
+        "minute": 58,
+        "out": {
+          "dorsal": 2,
+          "name": "MATEO QUEJIGO, ELOI"
+        },
+        "in": {
+          "dorsal": 7,
+          "name": "MENDEZ GIRALDEZ, IVAN"
+        }
+      },
+      {
+        "minute": 71,
+        "out": {
+          "dorsal": 23,
+          "name": "OLAECHEA MARTÍNEZ, FRANCESC XAVIER"
+        },
+        "in": {
+          "dorsal": 5,
+          "name": "SADURNI FABRELLAS, JOSEP"
+        }
+      },
+      {
+        "minute": 80,
+        "out": {
+          "dorsal": 12,
+          "name": "CARESIA MESA, PAU"
+        },
+        "in": {
+          "dorsal": 19,
+          "name": "HONORATO TORREJON, KILIAN"
+        }
+      },
+      {
+        "minute": 86,
+        "out": {
+          "dorsal": 11,
+          "name": "BLASCO TORRENTE, PABLO"
+        },
+        "in": {
+          "dorsal": 14,
+          "name": "HERNÁNDEZ BAYÉS, ALBERT"
+        }
+      }
+    ],
     "cards": []
   },
   "goals": [

@@ -108,7 +108,74 @@
         "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/786532"
       }
     ],
-    "substitutions": [],
+    "substitutions": [
+      {
+        "minute": 46,
+        "out": {
+          "dorsal": 18,
+          "name": "RODRIGUEZ ROSA, BIEL"
+        },
+        "in": {
+          "dorsal": 23,
+          "name": "GONZALEZ NAVARRO, DIDAC"
+        }
+      },
+      {
+        "minute": 66,
+        "out": {
+          "dorsal": 24,
+          "name": "CLARÀ ANDREU, GERARD"
+        },
+        "in": {
+          "dorsal": 5,
+          "name": "KARROUCH KADRI, HICHAM"
+        }
+      },
+      {
+        "minute": 66,
+        "out": {
+          "dorsal": 10,
+          "name": "BARON VARGAS, ADRIA"
+        },
+        "in": {
+          "dorsal": 9,
+          "name": "GENESCA GONZALEZ, LLORENÇ"
+        }
+      },
+      {
+        "minute": 83,
+        "out": {
+          "dorsal": 20,
+          "name": "RUIZ ROMERA, DANIEL"
+        },
+        "in": {
+          "dorsal": 12,
+          "name": "SANCHEZ MOYA, DANIEL"
+        }
+      },
+      {
+        "minute": 83,
+        "out": {
+          "dorsal": 4,
+          "name": "OLIVER JIMENEZ, OSCAR"
+        },
+        "in": {
+          "dorsal": 22,
+          "name": "AYLLON JALDON, SERGI"
+        }
+      },
+      {
+        "minute": 83,
+        "out": {
+          "dorsal": 14,
+          "name": "GARCIA PASCUAL, ALEX"
+        },
+        "in": {
+          "dorsal": 8,
+          "name": "CHICO MARINA, PATRICK"
+        }
+      }
+    ],
     "cards": []
   },
   "away": {
@@ -212,7 +279,63 @@
         "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/26282381"
       }
     ],
-    "substitutions": [],
+    "substitutions": [
+      {
+        "minute": 63,
+        "out": {
+          "dorsal": 3,
+          "name": "OTERO LOBATO, ALEXANDRE"
+        },
+        "in": {
+          "dorsal": 22,
+          "name": "BLASCO TORNE, GENIS"
+        }
+      },
+      {
+        "minute": 71,
+        "out": {
+          "dorsal": 7,
+          "name": "FABIAN PASCUAL, VICTOR"
+        },
+        "in": {
+          "dorsal": 19,
+          "name": "ARAGONES PADILLA, ALBERT"
+        }
+      },
+      {
+        "minute": 71,
+        "out": {
+          "dorsal": 8,
+          "name": "SUÁREZ POSTIGO, DANIEL"
+        },
+        "in": {
+          "dorsal": 9,
+          "name": "OSORIO BARROZO, FAVIO JULIAN"
+        }
+      },
+      {
+        "minute": 88,
+        "out": {
+          "dorsal": 16,
+          "name": "ALARCON MILLAN, KEVIN"
+        },
+        "in": {
+          "dorsal": 18,
+          "name": "IBAÑEZ BLASCO, DANIEL"
+        }
+      },
+      {
+        "minute": 88,
+        "out": {
+          "dorsal": 11,
+          "name": "GONZALEZ VALTUEÑA, ANGEL"
+        },
+        "in": {
+          "dorsal": 25,
+          "name": "RIBERA"
+        }
+      }
+    ],
     "cards": []
   },
   "goals": [

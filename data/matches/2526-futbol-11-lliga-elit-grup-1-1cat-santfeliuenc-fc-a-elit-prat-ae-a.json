@@ -108,7 +108,74 @@
         "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/634084"
       }
     ],
-    "substitutions": [],
+    "substitutions": [
+      {
+        "minute": 58,
+        "out": {
+          "dorsal": 6,
+          "name": "VARESE NAFA, ANDRES"
+        },
+        "in": {
+          "dorsal": 18,
+          "name": "RODRIGUEZ JIMENEZ, CHRISTIAN"
+        }
+      },
+      {
+        "minute": 58,
+        "out": {
+          "dorsal": 21,
+          "name": "GUILLEM ARMADA, SAUL"
+        },
+        "in": {
+          "dorsal": 5,
+          "name": "SADURNI FABRELLAS, JOSEP"
+        }
+      },
+      {
+        "minute": 68,
+        "out": {
+          "dorsal": 7,
+          "name": "MENDEZ GIRALDEZ, IVAN"
+        },
+        "in": {
+          "dorsal": 20,
+          "name": "FELEZ NAVARRO, SERGI"
+        }
+      },
+      {
+        "minute": 68,
+        "out": {
+          "dorsal": 10,
+          "name": "AVELLANEDA PLAZUELO, JOSE JOAQUIN"
+        },
+        "in": {
+          "dorsal": 23,
+          "name": "OLAECHEA MARTÍNEZ, FRANCESC XAVIER"
+        }
+      },
+      {
+        "minute": 68,
+        "out": {
+          "dorsal": 17,
+          "name": "AVILES DIAZ, ALEJANDRO"
+        },
+        "in": {
+          "dorsal": 28,
+          "name": "COLLADO GUTIERREZ, JONATAN"
+        }
+      },
+      {
+        "minute": 84,
+        "out": {
+          "dorsal": 22,
+          "name": "CASARES ALGUACIL, MARC"
+        },
+        "in": {
+          "dorsal": 2,
+          "name": "MATEO QUEJIGO, ELOI"
+        }
+      }
+    ],
     "cards": []
   },
   "away": {
@@ -212,7 +279,52 @@
         "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/686061"
       }
     ],
-    "substitutions": [],
+    "substitutions": [
+      {
+        "minute": 22,
+        "out": {
+          "dorsal": 28,
+          "name": "VICTOR DELGADO, XAVI"
+        },
+        "in": {
+          "dorsal": 17,
+          "name": "CUEVAS LARDIES, NICOLAS DANIEL"
+        }
+      },
+      {
+        "minute": 46,
+        "out": {
+          "dorsal": 11,
+          "name": "PLAZA CREMADES, ALEX"
+        },
+        "in": {
+          "dorsal": 22,
+          "name": "PADILLA RUBIO, MARC"
+        }
+      },
+      {
+        "minute": 58,
+        "out": {
+          "dorsal": 7,
+          "name": "PLUVINS RAMOS, XAVIER"
+        },
+        "in": {
+          "dorsal": 8,
+          "name": "FONT MONTSERRAT, MARC"
+        }
+      },
+      {
+        "minute": 84,
+        "out": {
+          "dorsal": 21,
+          "name": "LAMELAS DOMINGUEZ, MARTIN"
+        },
+        "in": {
+          "dorsal": 18,
+          "name": "MUÑOZ VELA, MARC"
+        }
+      }
+    ],
     "cards": []
   },
   "goals": [

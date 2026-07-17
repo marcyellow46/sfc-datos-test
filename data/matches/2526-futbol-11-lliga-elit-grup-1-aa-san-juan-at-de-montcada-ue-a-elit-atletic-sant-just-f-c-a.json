@@ -98,7 +98,63 @@
         "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/900009640"
       }
     ],
-    "substitutions": [],
+    "substitutions": [
+      {
+        "minute": 18,
+        "out": {
+          "dorsal": 11,
+          "name": "DIAZ MOLINA, ERIC"
+        },
+        "in": {
+          "dorsal": 24,
+          "name": "FERNANDEZ AMAT, JOSE JAVIER"
+        }
+      },
+      {
+        "minute": 61,
+        "out": {
+          "dorsal": 5,
+          "name": "PEREZ MARIN, ERIC"
+        },
+        "in": {
+          "dorsal": 2,
+          "name": "ORTIZ PARAISO, JOSHUA"
+        }
+      },
+      {
+        "minute": 86,
+        "out": {
+          "dorsal": 18,
+          "name": "LOPEZ BONIGNO, DERECK"
+        },
+        "in": {
+          "dorsal": 3,
+          "name": "POU GOMEZ, ARNAU"
+        }
+      },
+      {
+        "minute": 86,
+        "out": {
+          "dorsal": 15,
+          "name": "RUIZ SANTAMARÍA, HUGO"
+        },
+        "in": {
+          "dorsal": 8,
+          "name": "GALEANO JARDI, FERNANDO"
+        }
+      },
+      {
+        "minute": 86,
+        "out": {
+          "dorsal": 24,
+          "name": "FERNANDEZ AMAT, JOSE JAVIER"
+        },
+        "in": {
+          "dorsal": 9,
+          "name": "SANTIAGO PEREZ, ANTONIO"
+        }
+      }
+    ],
     "cards": []
   },
   "away": {
@@ -207,7 +263,41 @@
         "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/57736517"
       }
     ],
-    "substitutions": [],
+    "substitutions": [
+      {
+        "minute": 65,
+        "out": {
+          "dorsal": 9,
+          "name": "GUMA CERQUEDA, JAN"
+        },
+        "in": {
+          "dorsal": 16,
+          "name": "MELERO CALVO, UNAI"
+        }
+      },
+      {
+        "minute": 74,
+        "out": {
+          "dorsal": 14,
+          "name": "RABANAL VILLAR, ANIOL"
+        },
+        "in": {
+          "dorsal": 8,
+          "name": "RUIZ PIQUE, ARNAU"
+        }
+      },
+      {
+        "minute": 84,
+        "out": {
+          "dorsal": 24,
+          "name": "SORROCHE CALLE, MARK"
+        },
+        "in": {
+          "dorsal": 17,
+          "name": "GIL NAVARRO, JOEL"
+        }
+      }
+    ],
     "cards": []
   },
   "goals": [],

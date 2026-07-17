@@ -108,7 +108,52 @@
         "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/900009640"
       }
     ],
-    "substitutions": [],
+    "substitutions": [
+      {
+        "minute": 46,
+        "out": {
+          "dorsal": 22,
+          "name": "HERNANDEZ DEL RIO, DANIEL"
+        },
+        "in": {
+          "dorsal": 18,
+          "name": "LOPEZ BONIGNO, DERECK"
+        }
+      },
+      {
+        "minute": 66,
+        "out": {
+          "dorsal": 20,
+          "name": "MONTEJO GARCIA, MARC"
+        },
+        "in": {
+          "dorsal": 19,
+          "name": "HUGUE ALCAIDE, GALDERIC"
+        }
+      },
+      {
+        "minute": 69,
+        "out": {
+          "dorsal": 6,
+          "name": "MARTINEZ MORENO, CARLOS"
+        },
+        "in": {
+          "dorsal": 15,
+          "name": "RUIZ SANTAMARÍA, HUGO"
+        }
+      },
+      {
+        "minute": 81,
+        "out": {
+          "dorsal": 10,
+          "name": "MUÑOZ SAYOL, OSCAR"
+        },
+        "in": {
+          "dorsal": 9,
+          "name": "SANTIAGO PEREZ, ANTONIO"
+        }
+      }
+    ],
     "cards": []
   },
   "away": {
@@ -217,7 +262,74 @@
         "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/714601"
       }
     ],
-    "substitutions": [],
+    "substitutions": [
+      {
+        "minute": 66,
+        "out": {
+          "dorsal": 17,
+          "name": "MARC"
+        },
+        "in": {
+          "dorsal": 10,
+          "name": "ACEDO SANCHEZ, DAVID"
+        }
+      },
+      {
+        "minute": 69,
+        "out": {
+          "dorsal": 18,
+          "name": "ORIBE GUILLÉN, VÍCTOR"
+        },
+        "in": {
+          "dorsal": 9,
+          "name": "FORGAS PALLARES, ERNEST"
+        }
+      },
+      {
+        "minute": 81,
+        "out": {
+          "dorsal": 19,
+          "name": "ESCOFET ALEMANY, SERGI"
+        },
+        "in": {
+          "dorsal": 16,
+          "name": "TORRES RAMIREZ, MARC"
+        }
+      },
+      {
+        "minute": 81,
+        "out": {
+          "dorsal": 5,
+          "name": "HILL VALLS, ERIC"
+        },
+        "in": {
+          "dorsal": 20,
+          "name": "MARÍ PASCUAL, ALEIX"
+        }
+      },
+      {
+        "minute": 89,
+        "out": {
+          "dorsal": 4,
+          "name": "OLTRA PLA, IKER"
+        },
+        "in": {
+          "dorsal": 15,
+          "name": "HERNANDEZ LLANOS, LUIS MIGUEL"
+        }
+      },
+      {
+        "minute": 89,
+        "out": {
+          "dorsal": 22,
+          "name": "KAWAGUCHI , SHINNOSUKE"
+        },
+        "in": {
+          "dorsal": 21,
+          "name": "MARENA CONTEH, ANSUMAN"
+        }
+      }
+    ],
     "cards": []
   },
   "goals": [

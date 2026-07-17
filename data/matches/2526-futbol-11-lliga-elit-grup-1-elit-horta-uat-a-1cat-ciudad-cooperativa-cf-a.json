@@ -108,7 +108,85 @@
         "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/52100669"
       }
     ],
-    "substitutions": [],
+    "substitutions": [
+      {
+        "minute": 55,
+        "out": {
+          "dorsal": 21,
+          "name": "FORNELL SAEZ, JOAQUIM"
+        },
+        "in": {
+          "dorsal": 15,
+          "name": "CIFUENTES PELAEZ, RUBEN"
+        }
+      },
+      {
+        "minute": 55,
+        "out": {
+          "dorsal": 10,
+          "name": "VIVES LUQUE, JOAN"
+        },
+        "in": {
+          "dorsal": 17,
+          "name": "COLY , PAPE OUMAR SARR"
+        }
+      },
+      {
+        "minute": 70,
+        "out": {
+          "dorsal": 20,
+          "name": "VALVERDE MILLAN, JUAN"
+        },
+        "in": {
+          "dorsal": 19,
+          "name": "TOURAY , FABAKARY"
+        }
+      },
+      {
+        "minute": 70,
+        "out": {
+          "dorsal": 6,
+          "name": "RAMIREZ GALLEGO, MARC"
+        },
+        "in": {
+          "dorsal": 8,
+          "name": "VILAJOSANA MAY, VÍCTOR"
+        }
+      },
+      {
+        "minute": 80,
+        "out": {
+          "dorsal": 16,
+          "name": "PEDROL PALMADA, GERARD"
+        },
+        "in": {
+          "dorsal": 12,
+          "name": "ARAGALL PUIGVERT, JORDI"
+        }
+      },
+      {
+        "minute": 84,
+        "out": {
+          "dorsal": 22,
+          "name": "KOUBISS AJOUB, ALI"
+        },
+        "in": {
+          "dorsal": 5,
+          "name": "NOGALES ROVIRA, DAVID"
+        }
+      },
+      {
+        "minute": 84,
+        "out": {
+          "dorsal": 11,
+          "name": "MONTESINOS SOLE, JORDI"
+        },
+        "in": {
+          "dorsal": 7,
+          "name": "BABIA , HAITAM"
+        }
+      }
+    ],
     "cards": []
   },
   "away": {
@@ -217,7 +295,85 @@
         "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/15152617"
       }
     ],
-    "substitutions": [],
+    "substitutions": [
+      {
+        "minute": 46,
+        "out": {
+          "dorsal": 17,
+          "name": "OLLÉ JURADO, PEPE"
+        },
+        "in": {
+          "dorsal": 12,
+          "name": "ZELLAL NEJAM, HICHAM"
+        }
+      },
+      {
+        "minute": 46,
+        "out": {
+          "dorsal": 5,
+          "name": "COLOM CAÑERO, ANTONIO"
+        },
+        "in": {
+          "dorsal": 6,
+          "name": "HIDALGO PEREZ, MANUEL"
+        }
+      },
+      {
+        "minute": 55,
+        "out": {
+          "dorsal": 7,
+          "name": "DE SOKOLOW LEYVA, BRYAN"
+        },
+        "in": {
+          "dorsal": 25,
+          "name": "MESSOOUDI BAKKALI, MOHAMED YASSIN"
+        }
+      },
+      {
+        "minute": 62,
+        "out": {
+          "dorsal": 9,
+          "name": "RODRÍGUEZ  ARASIL, RUBÉN"
+        },
+        "in": {
+          "dorsal": 20,
+          "name": "VARGAS ECHEPARES, TOMAS"
+        }
+      },
+      {
+        "minute": 62,
+        "out": {
+          "dorsal": 19,
+          "name": "DELGADO CHICANO, ADRIAN"
+        },
+        "in": {
+          "dorsal": 21,
+          "name": "BRAVO PONCE, PEDRO"
+        }
+      },
+      {
+        "minute": 80,
+        "out": {
+          "dorsal": 23,
+          "name": "BUSTO FORTUNA, DANIEL"
+        },
+        "in": {
+          "dorsal": 8,
+          "name": "KADOCHNIKOV , VENIAMIN"
+        }
+      },
+      {
+        "minute": 84,
+        "out": {
+          "dorsal": 10,
+          "name": "BLANCO BLANCO, BIEL"
+        },
+        "in": {
+          "dorsal": 4,
+          "name": "DE ANDRADE JIMENEZ, VICTOR MBUKU"
+        }
+      }
+    ],
     "cards": []
   },
   "goals": [

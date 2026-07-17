@@ -103,7 +103,63 @@
         "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/38061608"
       }
     ],
-    "substitutions": [],
+    "substitutions": [
+      {
+        "minute": 46,
+        "out": {
+          "dorsal": 23,
+          "name": "COMAMALA FONT, MARC"
+        },
+        "in": {
+          "dorsal": 17,
+          "name": "CAO FERNÁNDEZ, TONI"
+        }
+      },
+      {
+        "minute": 46,
+        "out": {
+          "dorsal": 14,
+          "name": "BASART VIGAS, SERGI"
+        },
+        "in": {
+          "dorsal": 21,
+          "name": "VILA SERRA, OLEGUER"
+        }
+      },
+      {
+        "minute": 46,
+        "out": {
+          "dorsal": 19,
+          "name": "PIJUAN COLOM, MARC"
+        },
+        "in": {
+          "dorsal": 9,
+          "name": "CASANOVA CLUSELLS, ADRIA"
+        }
+      },
+      {
+        "minute": 61,
+        "out": {
+          "dorsal": 8,
+          "name": "CAPDEVILA GALEANO, NIL"
+        },
+        "in": {
+          "dorsal": 15,
+          "name": "LOPEZ SÁNCHEZ, ALBERT"
+        }
+      },
+      {
+        "minute": 67,
+        "out": {
+          "dorsal": 5,
+          "name": "POUS MUNTADAS, POL"
+        },
+        "in": {
+          "dorsal": 20,
+          "name": "MURO"
+        }
+      }
+    ],
     "cards": []
   },
   "away": {
@@ -212,7 +268,52 @@
         "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/18475202"
       }
     ],
-    "substitutions": [],
+    "substitutions": [
+      {
+        "minute": 23,
+        "out": {
+          "dorsal": 11,
+          "name": "SERRANO RUIZ, LUIS"
+        },
+        "in": {
+          "dorsal": 19,
+          "name": "DELGADO CHICANO, ADRIAN"
+        }
+      },
+      {
+        "minute": 56,
+        "out": {
+          "dorsal": 16,
+          "name": "RODRÍGUEZ  ARASIL, RUBÉN"
+        },
+        "in": {
+          "dorsal": 20,
+          "name": "TORO CONEJERO, DAVID"
+        }
+      },
+      {
+        "minute": 56,
+        "out": {
+          "dorsal": 12,
+          "name": "ZELLAL NEJAM, HICHAM"
+        },
+        "in": {
+          "dorsal": 7,
+          "name": "DE SOKOLOW LEYVA, BRYAN"
+        }
+      },
+      {
+        "minute": 82,
+        "out": {
+          "dorsal": 10,
+          "name": "BLANCO BLANCO, BIEL"
+        },
+        "in": {
+          "dorsal": 6,
+          "name": "HIDALGO PEREZ, MANUEL"
+        }
+      }
+    ],
     "cards": []
   },
   "goals": [

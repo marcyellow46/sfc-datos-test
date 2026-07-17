@@ -108,7 +108,41 @@
         "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/15195656"
       }
     ],
-    "substitutions": [],
+    "substitutions": [
+      {
+        "minute": 45,
+        "out": {
+          "dorsal": 7,
+          "name": "NAVARRO LÓPEZ, JOSEP"
+        },
+        "in": {
+          "dorsal": 8,
+          "name": "BENITO ALSINA, BERNAT"
+        }
+      },
+      {
+        "minute": 60,
+        "out": {
+          "dorsal": 24,
+          "name": "COSANO BERROCAL, KENNETH"
+        },
+        "in": {
+          "dorsal": 9,
+          "name": "ESCAMILLA VAN DER DONK, ROGER"
+        }
+      },
+      {
+        "minute": 73,
+        "out": {
+          "dorsal": 6,
+          "name": "ENRIQUEZ DE LA ROSA, MARC"
+        },
+        "in": {
+          "dorsal": 22,
+          "name": "PUCHE RODRÍGUEZ, FERRAN"
+        }
+      }
+    ],
     "cards": []
   },
   "away": {
@@ -217,7 +251,63 @@
         "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/55354829"
       }
     ],
-    "substitutions": [],
+    "substitutions": [
+      {
+        "minute": 52,
+        "out": {
+          "dorsal": 10,
+          "name": "DURAN NOMS, FERRAN"
+        },
+        "in": {
+          "dorsal": 11,
+          "name": "ROSENA CAÑAMERO, IZAN"
+        }
+      },
+      {
+        "minute": 66,
+        "out": {
+          "dorsal": 12,
+          "name": "DIABY DIAWARA, MAMADOU"
+        },
+        "in": {
+          "dorsal": 14,
+          "name": "MARCH PONS, BRU"
+        }
+      },
+      {
+        "minute": 66,
+        "out": {
+          "dorsal": 22,
+          "name": "SÁEZ JIMÉNEZ, ENRIC"
+        },
+        "in": {
+          "dorsal": 24,
+          "name": "TOURE DIAWARA, MAMADOU BOUHARY"
+        }
+      },
+      {
+        "minute": 78,
+        "out": {
+          "dorsal": 6,
+          "name": "GIRALT PALAHÍ, XAVI"
+        },
+        "in": {
+          "dorsal": 19,
+          "name": "CHLIH LEHDA, OUSSAMA"
+        }
+      },
+      {
+        "minute": 78,
+        "out": {
+          "dorsal": 9,
+          "name": "GONZÁLEZ GARCÍA, ADRIÁ"
+        },
+        "in": {
+          "dorsal": 5,
+          "name": "MARTINEZ TASIAS, ELOI"
+        }
+      }
+    ],
     "cards": []
   },
   "goals": [

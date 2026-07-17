@@ -108,7 +108,52 @@
         "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/662253"
       }
     ],
-    "substitutions": [],
+    "substitutions": [
+      {
+        "minute": 62,
+        "out": {
+          "dorsal": 14,
+          "name": "RIVAS SANCHEZ, ADRIAN"
+        },
+        "in": {
+          "dorsal": 11,
+          "name": "PLAZA CREMADES, ALEX"
+        }
+      },
+      {
+        "minute": 72,
+        "out": {
+          "dorsal": 12,
+          "name": "ARCHS HORTIGÓN, ALEJANDRO"
+        },
+        "in": {
+          "dorsal": 21,
+          "name": "LAMELAS DOMINGUEZ, MARTIN"
+        }
+      },
+      {
+        "minute": 72,
+        "out": {
+          "dorsal": 9,
+          "name": "VIDAL GIRONES, RICARD"
+        },
+        "in": {
+          "dorsal": 22,
+          "name": "UFANO SANCHEZ, PABLO"
+        }
+      },
+      {
+        "minute": 72,
+        "out": {
+          "dorsal": 30,
+          "name": "BONAVENTURA GRIS, DANIEL"
+        },
+        "in": {
+          "dorsal": 6,
+          "name": "REINKE GONÇALVES, GUSTAVO"
+        }
+      }
+    ],
     "cards": []
   },
   "away": {
@@ -217,7 +262,74 @@
         "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/34011173"
       }
     ],
-    "substitutions": [],
+    "substitutions": [
+      {
+        "minute": 46,
+        "out": {
+          "dorsal": 10,
+          "name": "DURAN NOMS, FERRAN"
+        },
+        "in": {
+          "dorsal": 19,
+          "name": "CHLIH LEHDA, OUSSAMA"
+        }
+      },
+      {
+        "minute": 63,
+        "out": {
+          "dorsal": 11,
+          "name": "ROSENA CAÑAMERO, IZAN"
+        },
+        "in": {
+          "dorsal": 23,
+          "name": "BARRERA FONT, ROGER"
+        }
+      },
+      {
+        "minute": 63,
+        "out": {
+          "dorsal": 18,
+          "name": "FERNÁNDEZ BAUMGARTNER, ADRIÁN"
+        },
+        "in": {
+          "dorsal": 8,
+          "name": "BORRELL SOTO, ALEIX"
+        }
+      },
+      {
+        "minute": 72,
+        "out": {
+          "dorsal": 15,
+          "name": "MUÑOZ RAYA, MARCOS"
+        },
+        "in": {
+          "dorsal": 14,
+          "name": "MARCH PONS, BRU"
+        }
+      },
+      {
+        "minute": 72,
+        "out": {
+          "dorsal": 22,
+          "name": "SÁEZ JIMÉNEZ, ENRIC"
+        },
+        "in": {
+          "dorsal": 21,
+          "name": "DIABY DIAWARA, MAMADOU"
+        }
+      },
+      {
+        "minute": 81,
+        "out": {
+          "dorsal": 7,
+          "name": "BOBI CHAMORRO, ADRIÁN"
+        },
+        "in": {
+          "dorsal": 26,
+          "name": "SIMUNYU , ETHAN TAFARA"
+        }
+      }
+    ],
     "cards": []
   },
   "goals": [

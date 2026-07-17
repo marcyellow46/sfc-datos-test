@@ -103,7 +103,85 @@
         "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/699148"
       }
     ],
-    "substitutions": [],
+    "substitutions": [
+      {
+        "minute": 30,
+        "out": {
+          "dorsal": 28,
+          "name": "DURAN MANZANILLA, HUGO"
+        },
+        "in": {
+          "dorsal": 27,
+          "name": "FERNÁNDEZ FERNÁNDEZ, HÉCTOR"
+        }
+      },
+      {
+        "minute": 46,
+        "out": {
+          "dorsal": 8,
+          "name": "CARBONELL GIL, MARC"
+        },
+        "in": {
+          "dorsal": 15,
+          "name": "HERVIAS MARTINEZ, MARIO"
+        }
+      },
+      {
+        "minute": 46,
+        "out": {
+          "dorsal": 6,
+          "name": "VARESE NAFA, ANDRES"
+        },
+        "in": {
+          "dorsal": 2,
+          "name": "MATEO QUEJIGO, ELOI"
+        }
+      },
+      {
+        "minute": 46,
+        "out": {
+          "dorsal": 7,
+          "name": "MENDEZ GIRALDEZ, IVAN"
+        },
+        "in": {
+          "dorsal": 5,
+          "name": "SADURNI FABRELLAS, JOSEP"
+        }
+      },
+      {
+        "minute": 56,
+        "out": {
+          "dorsal": 3,
+          "name": "VILLEGAS SANTOS, ALBERT"
+        },
+        "in": {
+          "dorsal": 4,
+          "name": "GARCÍA NACARINO, VÍCTOR"
+        }
+      },
+      {
+        "minute": 63,
+        "out": {
+          "dorsal": 19,
+          "name": "HONORATO TORREJON, KILIAN"
+        },
+        "in": {
+          "dorsal": 10,
+          "name": "JIMENEZ IBARROLA, ERIC"
+        }
+      },
+      {
+        "minute": 63,
+        "out": {
+          "dorsal": 12,
+          "name": "CARESIA MESA, PAU"
+        },
+        "in": {
+          "dorsal": 9,
+          "name": "ALVAREZ CABO, SAUL"
+        }
+      }
+    ],
     "cards": []
   },
   "away": {
@@ -197,7 +275,41 @@
         "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/38056126"
       }
     ],
-    "substitutions": [],
+    "substitutions": [
+      {
+        "minute": 65,
+        "out": {
+          "dorsal": 12,
+          "name": "MERINAS CLOP, ERNEST"
+        },
+        "in": {
+          "dorsal": 17,
+          "name": "ROMEU MARQUES, POL"
+        }
+      },
+      {
+        "minute": 75,
+        "out": {
+          "dorsal": 6,
+          "name": "ENRIQUEZ DE LA ROSA, MARC"
+        },
+        "in": {
+          "dorsal": 18,
+          "name": "MORENO ORDOÑEZ, DAVID"
+        }
+      },
+      {
+        "minute": 84,
+        "out": {
+          "dorsal": 19,
+          "name": "CAÑERO CARMONA, ALEX"
+        },
+        "in": {
+          "dorsal": 16,
+          "name": "SARSANEDAS CONTRERAS, JOAO"
+        }
+      }
+    ],
     "cards": []
   },
   "goals": [

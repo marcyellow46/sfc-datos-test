@@ -108,7 +108,74 @@
         "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/57736517"
       }
     ],
-    "substitutions": [],
+    "substitutions": [
+      {
+        "minute": 58,
+        "out": {
+          "dorsal": 18,
+          "name": "GASPAR MARTINEZ, MARIO"
+        },
+        "in": {
+          "dorsal": 19,
+          "name": "ARJONA SERRANO, PAU"
+        }
+      },
+      {
+        "minute": 58,
+        "out": {
+          "dorsal": 8,
+          "name": "RUIZ PIQUE, ARNAU"
+        },
+        "in": {
+          "dorsal": 22,
+          "name": "PILAR DEL HOYO, JON"
+        }
+      },
+      {
+        "minute": 65,
+        "out": {
+          "dorsal": 12,
+          "name": "SANCHEZ PLACENCIA, IVAN"
+        },
+        "in": {
+          "dorsal": 14,
+          "name": "RABANAL VILLAR, ANIOL"
+        }
+      },
+      {
+        "minute": 65,
+        "out": {
+          "dorsal": 6,
+          "name": "GONZÁLEZ TARRUELLA, MARC"
+        },
+        "in": {
+          "dorsal": 7,
+          "name": "MATEO QUEJIGO, PAU"
+        }
+      },
+      {
+        "minute": 65,
+        "out": {
+          "dorsal": 16,
+          "name": "MELERO CALVO, UNAI"
+        },
+        "in": {
+          "dorsal": 9,
+          "name": "GUMA CERQUEDA, JAN"
+        }
+      },
+      {
+        "minute": 82,
+        "out": {
+          "dorsal": 20,
+          "name": "GARCIA BAQUES, POL"
+        },
+        "in": {
+          "dorsal": 23,
+          "name": "CLAVIJO LARIOS, PABLO"
+        }
+      }
+    ],
     "cards": []
   },
   "away": {
@@ -212,7 +279,63 @@
         "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/646697"
       }
     ],
-    "substitutions": [],
+    "substitutions": [
+      {
+        "minute": 46,
+        "out": {
+          "dorsal": 16,
+          "name": "SARSANEDAS CONTRERAS, JOAO"
+        },
+        "in": {
+          "dorsal": 19,
+          "name": "CAÑERO CARMONA, ALEX"
+        }
+      },
+      {
+        "minute": 46,
+        "out": {
+          "dorsal": 12,
+          "name": "MERINAS CLOP, ERNEST"
+        },
+        "in": {
+          "dorsal": 24,
+          "name": "COSANO BERROCAL, KENNETH"
+        }
+      },
+      {
+        "minute": 73,
+        "out": {
+          "dorsal": 6,
+          "name": "ENRIQUEZ DE LA ROSA, MARC"
+        },
+        "in": {
+          "dorsal": 21,
+          "name": "MARQUILLAS BONAVILA, GERARD"
+        }
+      },
+      {
+        "minute": 82,
+        "out": {
+          "dorsal": 10,
+          "name": "ARIBAU CASALS, JORDI"
+        },
+        "in": {
+          "dorsal": 15,
+          "name": "ESPINOSA FIGUERAS, JAIRÓN RUBÉN"
+        }
+      },
+      {
+        "minute": 89,
+        "out": {
+          "dorsal": 20,
+          "name": "GULIAS AGUILERA, MARC"
+        },
+        "in": {
+          "dorsal": 17,
+          "name": "ROMEU MARQUES, POL"
+        }
+      }
+    ],
     "cards": []
   },
   "goals": [

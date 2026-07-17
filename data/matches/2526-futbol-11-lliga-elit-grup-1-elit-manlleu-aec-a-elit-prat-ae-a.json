@@ -108,7 +108,74 @@
         "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/18481364"
       }
     ],
-    "substitutions": [],
+    "substitutions": [
+      {
+        "minute": 31,
+        "out": {
+          "dorsal": 22,
+          "name": "CAPDEVILA GALEANO, NIL"
+        },
+        "in": {
+          "dorsal": 19,
+          "name": "PIJUAN COLOM, MARC"
+        }
+      },
+      {
+        "minute": 65,
+        "out": {
+          "dorsal": 17,
+          "name": "CAO FERNÁNDEZ, TONI"
+        },
+        "in": {
+          "dorsal": 8,
+          "name": "MARTÍNEZ VILÀ, LLUÍS"
+        }
+      },
+      {
+        "minute": 76,
+        "out": {
+          "dorsal": 3,
+          "name": "ROURA JIMÉNEZ, ROGER"
+        },
+        "in": {
+          "dorsal": 2,
+          "name": "PUNTI GINESTET, JOEL"
+        }
+      },
+      {
+        "minute": 83,
+        "out": {
+          "dorsal": 15,
+          "name": "LOPEZ SÁNCHEZ, ALBERT"
+        },
+        "in": {
+          "dorsal": 23,
+          "name": "COMAMALA FONT, MARC"
+        }
+      },
+      {
+        "minute": 85,
+        "out": {
+          "dorsal": 9,
+          "name": "CASANOVA CLUSELLS, ADRIA"
+        },
+        "in": {
+          "dorsal": 11,
+          "name": "ADU TUTU AMOAH, NANA"
+        }
+      },
+      {
+        "minute": 85,
+        "out": {
+          "dorsal": 14,
+          "name": "BASART VIGAS, SERGI"
+        },
+        "in": {
+          "dorsal": 20,
+          "name": "MURO"
+        }
+      }
+    ],
     "cards": []
   },
   "away": {
@@ -202,7 +269,52 @@
         "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/15655071"
       }
     ],
-    "substitutions": [],
+    "substitutions": [
+      {
+        "minute": 46,
+        "out": {
+          "dorsal": 16,
+          "name": "SANCHEZ OCAÑA, ALEJANDRO"
+        },
+        "in": {
+          "dorsal": 7,
+          "name": "PLUVINS RAMOS, XAVIER"
+        }
+      },
+      {
+        "minute": 65,
+        "out": {
+          "dorsal": 8,
+          "name": "FONT MONTSERRAT, MARC"
+        },
+        "in": {
+          "dorsal": 17,
+          "name": "CUEVAS LARDIES, NICOLAS DANIEL"
+        }
+      },
+      {
+        "minute": 83,
+        "out": {
+          "dorsal": 23,
+          "name": "CORTINA CABALLERO, ABEL"
+        },
+        "in": {
+          "dorsal": 19,
+          "name": "DONCHEV , MARTIN VALERIEV"
+        }
+      },
+      {
+        "minute": 83,
+        "out": {
+          "dorsal": 20,
+          "name": "GOMEZ CASAS, RUBEN"
+        },
+        "in": {
+          "dorsal": 2,
+          "name": "ADAN DELGADO, DAVID"
+        }
+      }
+    ],
     "cards": []
   },
   "goals": [

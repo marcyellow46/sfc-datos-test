@@ -108,7 +108,74 @@
         "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/18760009"
       }
     ],
-    "substitutions": [],
+    "substitutions": [
+      {
+        "minute": 62,
+        "out": {
+          "dorsal": 11,
+          "name": "DIAZ MOLINA, ERIC"
+        },
+        "in": {
+          "dorsal": 14,
+          "name": "BALDE GOMEZ, OMAR"
+        }
+      },
+      {
+        "minute": 67,
+        "out": {
+          "dorsal": 23,
+          "name": "PEREZ BELLO, VICTOR"
+        },
+        "in": {
+          "dorsal": 16,
+          "name": "FERNANDEZ AMAT, JOSE JAVIER"
+        }
+      },
+      {
+        "minute": 67,
+        "out": {
+          "dorsal": 15,
+          "name": "BA ANDEME, MARCELO SALIOU"
+        },
+        "in": {
+          "dorsal": 20,
+          "name": "MONTEJO GARCIA, MARC"
+        }
+      },
+      {
+        "minute": 80,
+        "out": {
+          "dorsal": 19,
+          "name": "HUGUE ALCAIDE, GALDERIC"
+        },
+        "in": {
+          "dorsal": 18,
+          "name": "OSORIO ROVIRA, ALEX"
+        }
+      },
+      {
+        "minute": 80,
+        "out": {
+          "dorsal": 3,
+          "name": "POU GOMEZ, ARNAU"
+        },
+        "in": {
+          "dorsal": 22,
+          "name": "HERNANDEZ DEL RIO, DANIEL"
+        }
+      },
+      {
+        "minute": 80,
+        "out": {
+          "dorsal": 8,
+          "name": "GALEANO JARDI, FERNANDO"
+        },
+        "in": {
+          "dorsal": 6,
+          "name": "MARTINEZ MORENO, CARLOS"
+        }
+      }
+    ],
     "cards": []
   },
   "away": {
@@ -212,7 +279,63 @@
         "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/15307332"
       }
     ],
-    "substitutions": [],
+    "substitutions": [
+      {
+        "minute": 51,
+        "out": {
+          "dorsal": 22,
+          "name": "FABIAN PASCUAL, VICTOR"
+        },
+        "in": {
+          "dorsal": 11,
+          "name": "GONZALEZ VALTUEÑA, ANGEL"
+        }
+      },
+      {
+        "minute": 51,
+        "out": {
+          "dorsal": 6,
+          "name": "SOSA MORENO, JUAN"
+        },
+        "in": {
+          "dorsal": 16,
+          "name": "ALARCON MILLAN, KEVIN"
+        }
+      },
+      {
+        "minute": 51,
+        "out": {
+          "dorsal": 4,
+          "name": "TORRES GOMEZ, ALEJANDRO"
+        },
+        "in": {
+          "dorsal": 9,
+          "name": "PEREZ PLAZA, DAVID"
+        }
+      },
+      {
+        "minute": 62,
+        "out": {
+          "dorsal": 24,
+          "name": "SANCHEZ PONS, FERRAN"
+        },
+        "in": {
+          "dorsal": 20,
+          "name": "GARRIGA ORS, ALEJANDRO"
+        }
+      },
+      {
+        "minute": 67,
+        "out": {
+          "dorsal": 10,
+          "name": "TEJADA GALLARDO, EDGAR"
+        },
+        "in": {
+          "dorsal": 8,
+          "name": "SUÁREZ POSTIGO, DANIEL"
+        }
+      }
+    ],
     "cards": []
   },
   "goals": [

@@ -108,7 +108,63 @@
         "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/15706465"
       }
     ],
-    "substitutions": [],
+    "substitutions": [
+      {
+        "minute": 63,
+        "out": {
+          "dorsal": 11,
+          "name": "BEATTIE ORFILA, ERIK"
+        },
+        "in": {
+          "dorsal": 8,
+          "name": "RUIZ PIQUE, ARNAU"
+        }
+      },
+      {
+        "minute": 72,
+        "out": {
+          "dorsal": 4,
+          "name": "PALACIOS CORRAL, IGNACIO"
+        },
+        "in": {
+          "dorsal": 12,
+          "name": "SANCHEZ PLACENCIA, IVAN"
+        }
+      },
+      {
+        "minute": 72,
+        "out": {
+          "dorsal": 6,
+          "name": "GONZÁLEZ TARRUELLA, MARC"
+        },
+        "in": {
+          "dorsal": 14,
+          "name": "RABANAL VILLAR, ANIOL"
+        }
+      },
+      {
+        "minute": 72,
+        "out": {
+          "dorsal": 16,
+          "name": "MELERO CALVO, UNAI"
+        },
+        "in": {
+          "dorsal": 25,
+          "name": "PILAR DEL HOYO, JON"
+        }
+      },
+      {
+        "minute": 85,
+        "out": {
+          "dorsal": 24,
+          "name": "SORROCHE CALLE, MARK"
+        },
+        "in": {
+          "dorsal": 17,
+          "name": "GIL NAVARRO, JOEL"
+        }
+      }
+    ],
     "cards": []
   },
   "away": {
@@ -217,7 +273,63 @@
         "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/15723516"
       }
     ],
-    "substitutions": [],
+    "substitutions": [
+      {
+        "minute": 64,
+        "out": {
+          "dorsal": 8,
+          "name": "BEAMUZ  AROCA, ÀLEX"
+        },
+        "in": {
+          "dorsal": 10,
+          "name": "PAVON COLOMBO, MANUEL"
+        }
+      },
+      {
+        "minute": 78,
+        "out": {
+          "dorsal": 7,
+          "name": "QUEROL MONTAÑES, ALBERT"
+        },
+        "in": {
+          "dorsal": 27,
+          "name": "GARROFÉ SALLA, JOEL"
+        }
+      },
+      {
+        "minute": 78,
+        "out": {
+          "dorsal": 12,
+          "name": "CID PLA, POL"
+        },
+        "in": {
+          "dorsal": 9,
+          "name": "CABEZAS MENSAH, DAVID"
+        }
+      },
+      {
+        "minute": 87,
+        "out": {
+          "dorsal": 11,
+          "name": "POZO GIL, TEO"
+        },
+        "in": {
+          "dorsal": 19,
+          "name": "TORRES GONZÁLEZ, ÁLVARO"
+        }
+      },
+      {
+        "minute": 87,
+        "out": {
+          "dorsal": 26,
+          "name": "AGUZZI BETTINI, NICOLAS ALBERTO"
+        },
+        "in": {
+          "dorsal": 24,
+          "name": "CARDONA PONS, UBAI"
+        }
+      }
+    ],
     "cards": []
   },
   "goals": [

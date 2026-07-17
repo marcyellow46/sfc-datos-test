@@ -98,7 +98,52 @@
         "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/19640580"
       }
     ],
-    "substitutions": [],
+    "substitutions": [
+      {
+        "minute": 76,
+        "out": {
+          "dorsal": 10,
+          "name": "ACEDO SANCHEZ, DAVID"
+        },
+        "in": {
+          "dorsal": 11,
+          "name": "NGOM , SERIGNE SALIOU"
+        }
+      },
+      {
+        "minute": 82,
+        "out": {
+          "dorsal": 9,
+          "name": "FORGAS PALLARES, ERNEST"
+        },
+        "in": {
+          "dorsal": 17,
+          "name": "MARC"
+        }
+      },
+      {
+        "minute": 82,
+        "out": {
+          "dorsal": 24,
+          "name": "HERVÁS LEAL, JAVIER"
+        },
+        "in": {
+          "dorsal": 2,
+          "name": "ROCA BOFILL, MARC"
+        }
+      },
+      {
+        "minute": 85,
+        "out": {
+          "dorsal": 19,
+          "name": "ESCOFET ALEMANY, SERGI"
+        },
+        "in": {
+          "dorsal": 20,
+          "name": "MARÍ PASCUAL, ALEIX"
+        }
+      }
+    ],
     "cards": []
   },
   "away": {
@@ -207,7 +252,63 @@
         "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/18474635"
       }
     ],
-    "substitutions": [],
+    "substitutions": [
+      {
+        "minute": 63,
+        "out": {
+          "dorsal": 11,
+          "name": "POZO GIL, TEO"
+        },
+        "in": {
+          "dorsal": 12,
+          "name": "CID PLA, POL"
+        }
+      },
+      {
+        "minute": 63,
+        "out": {
+          "dorsal": 8,
+          "name": "BEAMUZ  AROCA, ÀLEX"
+        },
+        "in": {
+          "dorsal": 2,
+          "name": "MORENO GAITAN, MARC"
+        }
+      },
+      {
+        "minute": 76,
+        "out": {
+          "dorsal": 14,
+          "name": "CIURÓ RIUDEUBAS, ROGER"
+        },
+        "in": {
+          "dorsal": 16,
+          "name": "GUTIERREZ DESTEFANIS, AGUSTIN"
+        }
+      },
+      {
+        "minute": 76,
+        "out": {
+          "dorsal": 23,
+          "name": "RAYA BERNAL, PAU"
+        },
+        "in": {
+          "dorsal": 24,
+          "name": "CARDONA PONS, UBAI"
+        }
+      },
+      {
+        "minute": 76,
+        "out": {
+          "dorsal": 19,
+          "name": "CABEZAS MENSAH, DAVID"
+        },
+        "in": {
+          "dorsal": 26,
+          "name": "AGUZZI BETTINI, NICOLAS ALBERTO"
+        }
+      }
+    ],
     "cards": []
   },
   "goals": [

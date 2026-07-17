@@ -108,7 +108,74 @@
         "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/15307332"
       }
     ],
-    "substitutions": [],
+    "substitutions": [
+      {
+        "minute": 54,
+        "out": {
+          "dorsal": 9,
+          "name": "OSORIO BARROZO, FAVIO JULIAN"
+        },
+        "in": {
+          "dorsal": 8,
+          "name": "SUÁREZ POSTIGO, DANIEL"
+        }
+      },
+      {
+        "minute": 60,
+        "out": {
+          "dorsal": 24,
+          "name": "SANCHEZ PONS, FERRAN"
+        },
+        "in": {
+          "dorsal": 16,
+          "name": "ALARCON MILLAN, KEVIN"
+        }
+      },
+      {
+        "minute": 69,
+        "out": {
+          "dorsal": 14,
+          "name": "GONZALEZ ALCANTARA, CARLOS"
+        },
+        "in": {
+          "dorsal": 20,
+          "name": "GARRIGA ORS, ALEJANDRO"
+        }
+      },
+      {
+        "minute": 69,
+        "out": {
+          "dorsal": 6,
+          "name": "SOSA MORENO, JUAN"
+        },
+        "in": {
+          "dorsal": 22,
+          "name": "FABIAN PASCUAL, VICTOR"
+        }
+      },
+      {
+        "minute": 77,
+        "out": {
+          "dorsal": 11,
+          "name": "GONZALEZ VALTUEÑA, ANGEL"
+        },
+        "in": {
+          "dorsal": 18,
+          "name": "IBAÑEZ BLASCO, DANIEL"
+        }
+      },
+      {
+        "minute": 82,
+        "out": {
+          "dorsal": 7,
+          "name": "PLAZUELO MOLINA, EUGENIO"
+        },
+        "in": {
+          "dorsal": 15,
+          "name": "BANGUERO LASSO, YILSON EDUTH"
+        }
+      }
+    ],
     "cards": []
   },
   "away": {
@@ -207,7 +274,74 @@
         "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/784869"
       }
     ],
-    "substitutions": [],
+    "substitutions": [
+      {
+        "minute": 46,
+        "out": {
+          "dorsal": 24,
+          "name": "CORNELLA MOLINS, ALEX"
+        },
+        "in": {
+          "dorsal": 22,
+          "name": "MENDOZA GARCIA, SEBASTIA"
+        }
+      },
+      {
+        "minute": 46,
+        "out": {
+          "dorsal": 3,
+          "name": "JUNCÀ ROVIRA, MARC"
+        },
+        "in": {
+          "dorsal": 5,
+          "name": "HERNANDEZ MORENO, IKER"
+        }
+      },
+      {
+        "minute": 60,
+        "out": {
+          "dorsal": 8,
+          "name": "MASIP MENDEZ, JORDI"
+        },
+        "in": {
+          "dorsal": 12,
+          "name": "NII , OLIVER KOTA"
+        }
+      },
+      {
+        "minute": 60,
+        "out": {
+          "dorsal": 11,
+          "name": "SENYE PALACIOS, ALFONS"
+        },
+        "in": {
+          "dorsal": 17,
+          "name": "REY GALLEGO, SERGIO"
+        }
+      },
+      {
+        "minute": 63,
+        "out": {
+          "dorsal": 7,
+          "name": "RECORT MORENO, ADRIA"
+        },
+        "in": {
+          "dorsal": 4,
+          "name": "YAHYA RABIE, AYOUB"
+        }
+      },
+      {
+        "minute": 69,
+        "out": {
+          "dorsal": 18,
+          "name": "MORRAL CAMPILLO, ALBERT"
+        },
+        "in": {
+          "dorsal": 14,
+          "name": "HERRANZ VIDAL, PAU"
+        }
+      }
+    ],
     "cards": []
   },
   "goals": [

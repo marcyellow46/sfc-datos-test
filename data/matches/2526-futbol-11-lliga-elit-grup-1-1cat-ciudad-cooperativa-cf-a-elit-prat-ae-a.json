@@ -108,7 +108,52 @@
         "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/18475202"
       }
     ],
-    "substitutions": [],
+    "substitutions": [
+      {
+        "minute": 55,
+        "out": {
+          "dorsal": 12,
+          "name": "ZELLAL NEJAM, HICHAM"
+        },
+        "in": {
+          "dorsal": 11,
+          "name": "SERRANO RUIZ, LUIS"
+        }
+      },
+      {
+        "minute": 55,
+        "out": {
+          "dorsal": 7,
+          "name": "DE SOKOLOW LEYVA, BRYAN"
+        },
+        "in": {
+          "dorsal": 22,
+          "name": "MESSOOUDI BAKKALI, MOHAMED YASSIN"
+        }
+      },
+      {
+        "minute": 65,
+        "out": {
+          "dorsal": 16,
+          "name": "RODRÍGUEZ  ARASIL, RUBÉN"
+        },
+        "in": {
+          "dorsal": 9,
+          "name": "TORO CONEJERO, DAVID"
+        }
+      },
+      {
+        "minute": 72,
+        "out": {
+          "dorsal": 6,
+          "name": "HIDALGO PEREZ, MANUEL"
+        },
+        "in": {
+          "dorsal": 19,
+          "name": "DELGADO CHICANO, ADRIAN"
+        }
+      }
+    ],
     "cards": []
   },
   "away": {
@@ -207,7 +252,30 @@
         "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/18474805"
       }
     ],
-    "substitutions": [],
+    "substitutions": [
+      {
+        "minute": 46,
+        "out": {
+          "dorsal": 12,
+          "name": "ARCHS HORTIGÓN, ALEJANDRO"
+        },
+        "in": {
+          "dorsal": 14,
+          "name": "RIVAS SANCHEZ, ADRIAN"
+        }
+      },
+      {
+        "minute": 62,
+        "out": {
+          "dorsal": 11,
+          "name": "PLAZA CREMADES, ALEX"
+        },
+        "in": {
+          "dorsal": 22,
+          "name": "UFANO SANCHEZ, PABLO"
+        }
+      }
+    ],
     "cards": []
   },
   "goals": [

@@ -108,7 +108,41 @@
         "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/18685162"
       }
     ],
-    "substitutions": [],
+    "substitutions": [
+      {
+        "minute": 68,
+        "out": {
+          "dorsal": 16,
+          "name": "ALARCON MILLAN, KEVIN"
+        },
+        "in": {
+          "dorsal": 11,
+          "name": "GONZALEZ VALTUEÑA, ANGEL"
+        }
+      },
+      {
+        "minute": 86,
+        "out": {
+          "dorsal": 22,
+          "name": "FABIAN PASCUAL, VICTOR"
+        },
+        "in": {
+          "dorsal": 15,
+          "name": "BANGUERO LASSO, YILSON EDUTH"
+        }
+      },
+      {
+        "minute": 87,
+        "out": {
+          "dorsal": 18,
+          "name": "OSORIO BARROZO, FAVIO JULIAN"
+        },
+        "in": {
+          "dorsal": 20,
+          "name": "GARRIGA ORS, ALEJANDRO"
+        }
+      }
+    ],
     "cards": []
   },
   "away": {
@@ -212,7 +246,41 @@
         "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/18690386"
       }
     ],
-    "substitutions": [],
+    "substitutions": [
+      {
+        "minute": 46,
+        "out": {
+          "dorsal": 11,
+          "name": "S.MONSÓ"
+        },
+        "in": {
+          "dorsal": 22,
+          "name": "AYLLON JALDON, SERGI"
+        }
+      },
+      {
+        "minute": 63,
+        "out": {
+          "dorsal": 17,
+          "name": "DAHBI AKALAY, BADREDDINE"
+        },
+        "in": {
+          "dorsal": 9,
+          "name": "GENESCA GONZALEZ, LLORENÇ"
+        }
+      },
+      {
+        "minute": 78,
+        "out": {
+          "dorsal": 8,
+          "name": "CHICO MARINA, PATRICK"
+        },
+        "in": {
+          "dorsal": 23,
+          "name": "SÁNCHEZ OLIVARES, IVÁN"
+        }
+      }
+    ],
     "cards": []
   },
   "goals": [

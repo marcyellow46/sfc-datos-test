@@ -98,7 +98,52 @@
         "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/18557632"
       }
     ],
-    "substitutions": [],
+    "substitutions": [
+      {
+        "minute": 59,
+        "out": {
+          "dorsal": 23,
+          "name": "COMAMALA FONT, MARC"
+        },
+        "in": {
+          "dorsal": 19,
+          "name": "PIJUAN COLOM, MARC"
+        }
+      },
+      {
+        "minute": 59,
+        "out": {
+          "dorsal": 9,
+          "name": "CASANOVA CLUSELLS, ADRIA"
+        },
+        "in": {
+          "dorsal": 21,
+          "name": "VILA SERRA, OLEGUER"
+        }
+      },
+      {
+        "minute": 75,
+        "out": {
+          "dorsal": 8,
+          "name": "CAPDEVILA GALEANO, NIL"
+        },
+        "in": {
+          "dorsal": 17,
+          "name": "CAO FERNÁNDEZ, TONI"
+        }
+      },
+      {
+        "minute": 82,
+        "out": {
+          "dorsal": 15,
+          "name": "LOPEZ SÁNCHEZ, ALBERT"
+        },
+        "in": {
+          "dorsal": 11,
+          "name": "ADU TUTU AMOAH, NANA"
+        }
+      }
+    ],
     "cards": []
   },
   "away": {
@@ -207,7 +252,74 @@
         "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/40748333"
       }
     ],
-    "substitutions": [],
+    "substitutions": [
+      {
+        "minute": 59,
+        "out": {
+          "dorsal": 16,
+          "name": "FERREIRA MOREIRA, JONATHAN"
+        },
+        "in": {
+          "dorsal": 10,
+          "name": "CANO JIMENEZ, CARLOS"
+        }
+      },
+      {
+        "minute": 59,
+        "out": {
+          "dorsal": 20,
+          "name": "MALDONADO MOYA, IZAN"
+        },
+        "in": {
+          "dorsal": 8,
+          "name": "DEL CHICCA DORADO, HUGO"
+        }
+      },
+      {
+        "minute": 82,
+        "out": {
+          "dorsal": 9,
+          "name": "POZUELO RIERA, ELOI"
+        },
+        "in": {
+          "dorsal": 15,
+          "name": "FAURA MARTINEZ, JOEL"
+        }
+      },
+      {
+        "minute": 82,
+        "out": {
+          "dorsal": 19,
+          "name": "PARRA GARCIA, EDGAR"
+        },
+        "in": {
+          "dorsal": 24,
+          "name": "VILLAVERDE GARCIA, KILIAN"
+        }
+      },
+      {
+        "minute": 88,
+        "out": {
+          "dorsal": 11,
+          "name": "GERBOLES PEREZ, MARIO"
+        },
+        "in": {
+          "dorsal": 21,
+          "name": "DIAZ MENDOZA, ALEIX"
+        }
+      },
+      {
+        "minute": 88,
+        "out": {
+          "dorsal": 14,
+          "name": "GIBERT FUERTES, JOAN"
+        },
+        "in": {
+          "dorsal": 2,
+          "name": "MARTIN DURAN, JUAN ANTONIO"
+        }
+      }
+    ],
     "cards": []
   },
   "goals": [

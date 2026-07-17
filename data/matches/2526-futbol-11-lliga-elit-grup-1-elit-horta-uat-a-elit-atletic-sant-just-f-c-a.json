@@ -108,7 +108,52 @@
         "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/15654695"
       }
     ],
-    "substitutions": [],
+    "substitutions": [
+      {
+        "minute": 62,
+        "out": {
+          "dorsal": 23,
+          "name": "VALENTÍ SOLER CABOT, ENRIQUE"
+        },
+        "in": {
+          "dorsal": 15,
+          "name": "CIFUENTES PELAEZ, RUBEN"
+        }
+      },
+      {
+        "minute": 62,
+        "out": {
+          "dorsal": 9,
+          "name": "LOPEZ CABEZAS, JORDI"
+        },
+        "in": {
+          "dorsal": 7,
+          "name": "BABIA , HAITAM"
+        }
+      },
+      {
+        "minute": 82,
+        "out": {
+          "dorsal": 11,
+          "name": "MONTESINOS SOLE, JORDI"
+        },
+        "in": {
+          "dorsal": 17,
+          "name": "SITGES GINÉ, POL"
+        }
+      },
+      {
+        "minute": 86,
+        "out": {
+          "dorsal": 12,
+          "name": "ARAGALL PUIGVERT, JORDI"
+        },
+        "in": {
+          "dorsal": 19,
+          "name": "TOURAY , FABAKARY"
+        }
+      }
+    ],
     "cards": []
   },
   "away": {
@@ -217,7 +262,63 @@
         "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/57736517"
       }
     ],
-    "substitutions": [],
+    "substitutions": [
+      {
+        "minute": 46,
+        "out": {
+          "dorsal": 8,
+          "name": "RUIZ PIQUE, ARNAU"
+        },
+        "in": {
+          "dorsal": 9,
+          "name": "GUMA CERQUEDA, JAN"
+        }
+      },
+      {
+        "minute": 62,
+        "out": {
+          "dorsal": 19,
+          "name": "ARJONA SERRANO, PAU"
+        },
+        "in": {
+          "dorsal": 3,
+          "name": "PALACIOS CORRAL, ALEJANDRO"
+        }
+      },
+      {
+        "minute": 68,
+        "out": {
+          "dorsal": 14,
+          "name": "RABANAL VILLAR, ANIOL"
+        },
+        "in": {
+          "dorsal": 18,
+          "name": "GASPAR MARTINEZ, MARIO"
+        }
+      },
+      {
+        "minute": 82,
+        "out": {
+          "dorsal": 16,
+          "name": "MELERO CALVO, UNAI"
+        },
+        "in": {
+          "dorsal": 25,
+          "name": "SANCHEZ ERAZO, ALLAN MACCRAY"
+        }
+      },
+      {
+        "minute": 89,
+        "out": {
+          "dorsal": 24,
+          "name": "SORROCHE CALLE, MARK"
+        },
+        "in": {
+          "dorsal": 17,
+          "name": "GIL NAVARRO, JOEL"
+        }
+      }
+    ],
     "cards": []
   },
   "goals": [

@@ -103,7 +103,85 @@
         "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/43487600"
       }
     ],
-    "substitutions": [],
+    "substitutions": [
+      {
+        "minute": 45,
+        "out": {
+          "dorsal": 4,
+          "name": "PALACIOS CORRAL, IGNACIO"
+        },
+        "in": {
+          "dorsal": 8,
+          "name": "RUIZ PIQUE, ARNAU"
+        }
+      },
+      {
+        "minute": 58,
+        "out": {
+          "dorsal": 15,
+          "name": "ANDREU LOPEZ, LUCAS"
+        },
+        "in": {
+          "dorsal": 17,
+          "name": "GIL NAVARRO, JOEL"
+        }
+      },
+      {
+        "minute": 58,
+        "out": {
+          "dorsal": 9,
+          "name": "WERCKMEISTER GARCIA, ANDER"
+        },
+        "in": {
+          "dorsal": 25,
+          "name": "KANTE , ALHASSANE"
+        }
+      },
+      {
+        "minute": 64,
+        "out": {
+          "dorsal": 10,
+          "name": "GONZALEZ OLLER, JAN ANTONI"
+        },
+        "in": {
+          "dorsal": 12,
+          "name": "SANCHEZ PLACENCIA, IVAN"
+        }
+      },
+      {
+        "minute": 64,
+        "out": {
+          "dorsal": 16,
+          "name": "MELERO CALVO, UNAI"
+        },
+        "in": {
+          "dorsal": 22,
+          "name": "LASTRA SERRANO, JUAN CAMILO"
+        }
+      },
+      {
+        "minute": 77,
+        "out": {
+          "dorsal": 11,
+          "name": "BEATTIE ORFILA, ERIK"
+        },
+        "in": {
+          "dorsal": 7,
+          "name": "MATEO QUEJIGO, PAU"
+        }
+      },
+      {
+        "minute": 81,
+        "out": {
+          "dorsal": 20,
+          "name": "GARCIA BAQUES, POL"
+        },
+        "in": {
+          "dorsal": 23,
+          "name": "BUERA NADAL, FERRAN"
+        }
+      }
+    ],
     "cards": []
   },
   "away": {
@@ -207,7 +285,63 @@
         "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/15654695"
       }
     ],
-    "substitutions": [],
+    "substitutions": [
+      {
+        "minute": 45,
+        "out": {
+          "dorsal": 9,
+          "name": "LOPEZ CABEZAS, JORDI"
+        },
+        "in": {
+          "dorsal": 21,
+          "name": "FORNELL SAEZ, JOAQUIM"
+        }
+      },
+      {
+        "minute": 48,
+        "out": {
+          "dorsal": 18,
+          "name": "AGUILAR COSTA, JULIA"
+        },
+        "in": {
+          "dorsal": 15,
+          "name": "CIFUENTES PELAEZ, RUBEN"
+        }
+      },
+      {
+        "minute": 58,
+        "out": {
+          "dorsal": 11,
+          "name": "REYES SEGURA, DAVID"
+        },
+        "in": {
+          "dorsal": 20,
+          "name": "VALVERDE MILLAN, JUAN"
+        }
+      },
+      {
+        "minute": 64,
+        "out": {
+          "dorsal": 24,
+          "name": "VILLAGRASA JIMENEZ, BRUNO"
+        },
+        "in": {
+          "dorsal": 22,
+          "name": "KOUBISS AJOUB, ALI"
+        }
+      },
+      {
+        "minute": 78,
+        "out": {
+          "dorsal": 16,
+          "name": "PEDROL PALMADA, GERARD"
+        },
+        "in": {
+          "dorsal": 19,
+          "name": "SÁNCHEZ GIRÁLDEZ, ERIC"
+        }
+      }
+    ],
     "cards": []
   },
   "goals": [

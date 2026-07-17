@@ -108,7 +108,85 @@
         "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/15661919"
       }
     ],
-    "substitutions": [],
+    "substitutions": [
+      {
+        "minute": 46,
+        "out": {
+          "dorsal": 6,
+          "name": "PALAU DOMINGO, SERGI"
+        },
+        "in": {
+          "dorsal": 17,
+          "name": "ZHOVTENKO , OLEKSANDR"
+        }
+      },
+      {
+        "minute": 46,
+        "out": {
+          "dorsal": 8,
+          "name": "GUASCH PORTAS, MARC"
+        },
+        "in": {
+          "dorsal": 23,
+          "name": "LORCA RODRÍGUEZ, JOAQUIN"
+        }
+      },
+      {
+        "minute": 57,
+        "out": {
+          "dorsal": 7,
+          "name": "SUAREZ SANZ, ADRIA"
+        },
+        "in": {
+          "dorsal": 21,
+          "name": "BILE , JEAN CLAUDE TOFEY"
+        }
+      },
+      {
+        "minute": 69,
+        "out": {
+          "dorsal": 11,
+          "name": "PRADES MANRESA, JORDI"
+        },
+        "in": {
+          "dorsal": 20,
+          "name": "GÓMEZ MACÍAS, HUGO"
+        }
+      },
+      {
+        "minute": 78,
+        "out": {
+          "dorsal": 15,
+          "name": "SANTIAGO CORTES, ANTONIO"
+        },
+        "in": {
+          "dorsal": 24,
+          "name": "LEON SEGURA, PAU"
+        }
+      },
+      {
+        "minute": 78,
+        "out": {
+          "dorsal": 10,
+          "name": "BARROSO COTO, ERIK"
+        },
+        "in": {
+          "dorsal": 3,
+          "name": "MORELL BONO, OSCAR"
+        }
+      },
+      {
+        "minute": 87,
+        "out": {
+          "dorsal": 9,
+          "name": "GARCIA COMPANY, DANIEL"
+        },
+        "in": {
+          "dorsal": 18,
+          "name": "CIURÓ ALTÉS, ARNAU"
+        }
+      }
+    ],
     "cards": []
   },
   "away": {
@@ -217,7 +295,74 @@
         "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/18474635"
       }
     ],
-    "substitutions": [],
+    "substitutions": [
+      {
+        "minute": 69,
+        "out": {
+          "dorsal": 19,
+          "name": "CABEZAS MENSAH, DAVID"
+        },
+        "in": {
+          "dorsal": 14,
+          "name": "CIURÓ RIUDEUBAS, ROGER"
+        }
+      },
+      {
+        "minute": 69,
+        "out": {
+          "dorsal": 15,
+          "name": "MORA HERNANDEZ, ERIC"
+        },
+        "in": {
+          "dorsal": 26,
+          "name": "AGUZZI BETTINI, NICOLAS ALBERTO"
+        }
+      },
+      {
+        "minute": 69,
+        "out": {
+          "dorsal": 8,
+          "name": "BEAMUZ  AROCA, ÀLEX"
+        },
+        "in": {
+          "dorsal": 3,
+          "name": "DANILO LUCHETTI"
+        }
+      },
+      {
+        "minute": 85,
+        "out": {
+          "dorsal": 11,
+          "name": "POZO GIL, TEO"
+        },
+        "in": {
+          "dorsal": 24,
+          "name": "CARDONA PONS, UBAI"
+        }
+      },
+      {
+        "minute": 85,
+        "out": {
+          "dorsal": 16,
+          "name": "GUTIERREZ DESTEFANIS, AGUSTIN"
+        },
+        "in": {
+          "dorsal": 2,
+          "name": "MORENO GAITAN, MARC"
+        }
+      },
+      {
+        "minute": 89,
+        "out": {
+          "dorsal": 23,
+          "name": "RAYA BERNAL, PAU"
+        },
+        "in": {
+          "dorsal": 21,
+          "name": "PARISI FERRANDIZ, GUILLEM"
+        }
+      }
+    ],
     "cards": []
   },
   "goals": [],

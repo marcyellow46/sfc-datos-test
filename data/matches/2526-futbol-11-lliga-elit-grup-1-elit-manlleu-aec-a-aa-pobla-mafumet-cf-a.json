@@ -108,7 +108,41 @@
         "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/38061608"
       }
     ],
-    "substitutions": [],
+    "substitutions": [
+      {
+        "minute": 63,
+        "out": {
+          "dorsal": 23,
+          "name": "COMAMALA FONT, MARC"
+        },
+        "in": {
+          "dorsal": 9,
+          "name": "CASANOVA CLUSELLS, ADRIA"
+        }
+      },
+      {
+        "minute": 77,
+        "out": {
+          "dorsal": 21,
+          "name": "MORAL ROGER, ELOI"
+        },
+        "in": {
+          "dorsal": 15,
+          "name": "LOPEZ SÁNCHEZ, ALBERT"
+        }
+      },
+      {
+        "minute": 89,
+        "out": {
+          "dorsal": 17,
+          "name": "CAO FERNÁNDEZ, TONI"
+        },
+        "in": {
+          "dorsal": 8,
+          "name": "CAPDEVILA GALEANO, NIL"
+        }
+      }
+    ],
     "cards": []
   },
   "away": {
@@ -212,7 +246,52 @@
         "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/15723516"
       }
     ],
-    "substitutions": [],
+    "substitutions": [
+      {
+        "minute": 59,
+        "out": {
+          "dorsal": 14,
+          "name": "CIURÓ RIUDEUBAS, ROGER"
+        },
+        "in": {
+          "dorsal": 10,
+          "name": "PAVON COLOMBO, MANUEL"
+        }
+      },
+      {
+        "minute": 75,
+        "out": {
+          "dorsal": 24,
+          "name": "CARDONA PONS, UBAI"
+        },
+        "in": {
+          "dorsal": 27,
+          "name": "GARROFÉ SALLA, JOEL"
+        }
+      },
+      {
+        "minute": 89,
+        "out": {
+          "dorsal": 26,
+          "name": "AGUZZI BETTINI, NICOLAS ALBERTO"
+        },
+        "in": {
+          "dorsal": 19,
+          "name": "TORRES GONZÁLEZ, ÁLVARO"
+        }
+      },
+      {
+        "minute": 89,
+        "out": {
+          "dorsal": 11,
+          "name": "POZO GIL, TEO"
+        },
+        "in": {
+          "dorsal": 3,
+          "name": "DANILO LUCHETTI"
+        }
+      }
+    ],
     "cards": []
   },
   "goals": [],

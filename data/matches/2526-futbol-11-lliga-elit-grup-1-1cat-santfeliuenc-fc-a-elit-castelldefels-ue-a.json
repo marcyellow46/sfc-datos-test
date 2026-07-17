@@ -108,7 +108,74 @@
         "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/699148"
       }
     ],
-    "substitutions": [],
+    "substitutions": [
+      {
+        "minute": 46,
+        "out": {
+          "dorsal": 20,
+          "name": "FELEZ NAVARRO, ROGER"
+        },
+        "in": {
+          "dorsal": 17,
+          "name": "AVILES DIAZ, ALEJANDRO"
+        }
+      },
+      {
+        "minute": 46,
+        "out": {
+          "dorsal": 14,
+          "name": "HERNÁNDEZ BAYÉS, ALBERT"
+        },
+        "in": {
+          "dorsal": 27,
+          "name": "FERNÁNDEZ FERNÁNDEZ, HÉCTOR"
+        }
+      },
+      {
+        "minute": 67,
+        "out": {
+          "dorsal": 23,
+          "name": "OLAECHEA MARTÍNEZ, FRANCESC XAVIER"
+        },
+        "in": {
+          "dorsal": 21,
+          "name": "GUILLEM ARMADA, SAUL"
+        }
+      },
+      {
+        "minute": 71,
+        "out": {
+          "dorsal": 19,
+          "name": "HONORATO TORREJON, KILIAN"
+        },
+        "in": {
+          "dorsal": 9,
+          "name": "ALVAREZ CABO, SAUL"
+        }
+      },
+      {
+        "minute": 75,
+        "out": {
+          "dorsal": 8,
+          "name": "CARBONELL GIL, MARC"
+        },
+        "in": {
+          "dorsal": 15,
+          "name": "HERVIAS MARTINEZ, MARIO"
+        }
+      },
+      {
+        "minute": 82,
+        "out": {
+          "dorsal": 7,
+          "name": "MENDEZ GIRALDEZ, IVAN"
+        },
+        "in": {
+          "dorsal": 2,
+          "name": "MATEO QUEJIGO, ELOI"
+        }
+      }
+    ],
     "cards": []
   },
   "away": {
@@ -217,7 +284,74 @@
         "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/40748333"
       }
     ],
-    "substitutions": [],
+    "substitutions": [
+      {
+        "minute": 67,
+        "out": {
+          "dorsal": 10,
+          "name": "CANO JIMENEZ, CARLOS"
+        },
+        "in": {
+          "dorsal": 20,
+          "name": "MALDONADO MOYA, IZAN"
+        }
+      },
+      {
+        "minute": 67,
+        "out": {
+          "dorsal": 7,
+          "name": "RAMIREZ RUIZ, ENRIQUE"
+        },
+        "in": {
+          "dorsal": 9,
+          "name": "POZUELO RIERA, ELOI"
+        }
+      },
+      {
+        "minute": 75,
+        "out": {
+          "dorsal": 19,
+          "name": "PARRA GARCIA, EDGAR"
+        },
+        "in": {
+          "dorsal": 15,
+          "name": "FAURA MARTINEZ, JOEL"
+        }
+      },
+      {
+        "minute": 75,
+        "out": {
+          "dorsal": 16,
+          "name": "FERREIRA MOREIRA, JONATHAN"
+        },
+        "in": {
+          "dorsal": 6,
+          "name": "GIMENO HERNÁNDEZ, ADRIÁN"
+        }
+      },
+      {
+        "minute": 85,
+        "out": {
+          "dorsal": 14,
+          "name": "GIBERT FUERTES, JOAN"
+        },
+        "in": {
+          "dorsal": 12,
+          "name": "MONTERO PRADAS, IKER"
+        }
+      },
+      {
+        "minute": 85,
+        "out": {
+          "dorsal": 5,
+          "name": "ORTEGA RAMIREZ, IVAN"
+        },
+        "in": {
+          "dorsal": 24,
+          "name": "VILLAVERDE GARCIA, KILIAN"
+        }
+      }
+    ],
     "cards": []
   },
   "goals": [

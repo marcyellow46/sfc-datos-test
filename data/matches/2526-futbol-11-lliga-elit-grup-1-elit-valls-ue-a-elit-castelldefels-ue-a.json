@@ -103,7 +103,74 @@
         "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/15226675"
       }
     ],
-    "substitutions": [],
+    "substitutions": [
+      {
+        "minute": 60,
+        "out": {
+          "dorsal": 11,
+          "name": "PRADES MANRESA, JORDI"
+        },
+        "in": {
+          "dorsal": 8,
+          "name": "GUASCH PORTAS, MARC"
+        }
+      },
+      {
+        "minute": 74,
+        "out": {
+          "dorsal": 9,
+          "name": "GARCIA COMPANY, DANIEL"
+        },
+        "in": {
+          "dorsal": 2,
+          "name": "EL MANSORI ZOUBAI, YASSIN"
+        }
+      },
+      {
+        "minute": 78,
+        "out": {
+          "dorsal": 18,
+          "name": "BARROSO COTO, ERIK"
+        },
+        "in": {
+          "dorsal": 20,
+          "name": "GÓMEZ MACÍAS, HUGO"
+        }
+      },
+      {
+        "minute": 82,
+        "out": {
+          "dorsal": 7,
+          "name": "SUAREZ SANZ, ADRIA"
+        },
+        "in": {
+          "dorsal": 10,
+          "name": "MARTINEZ MARTINEZ, GUILLEM"
+        }
+      },
+      {
+        "minute": 89,
+        "out": {
+          "dorsal": 2,
+          "name": "EL MANSORI ZOUBAI, YASSIN"
+        },
+        "in": {
+          "dorsal": 19,
+          "name": "VEGA ALDOMA, SERGI"
+        }
+      },
+      {
+        "minute": 89,
+        "out": {
+          "dorsal": 17,
+          "name": "ZHOVTENKO , OLEKSANDR"
+        },
+        "in": {
+          "dorsal": 22,
+          "name": "LEON SEGURA, PAU"
+        }
+      }
+    ],
     "cards": []
   },
   "away": {
@@ -212,7 +279,63 @@
         "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/40748333"
       }
     ],
-    "substitutions": [],
+    "substitutions": [
+      {
+        "minute": 50,
+        "out": {
+          "dorsal": 10,
+          "name": "CANO JIMENEZ, CARLOS"
+        },
+        "in": {
+          "dorsal": 24,
+          "name": "VILLAVERDE GARCIA, KILIAN"
+        }
+      },
+      {
+        "minute": 60,
+        "out": {
+          "dorsal": 19,
+          "name": "PARRA GARCIA, EDGAR"
+        },
+        "in": {
+          "dorsal": 15,
+          "name": "FAURA MARTINEZ, JOEL"
+        }
+      },
+      {
+        "minute": 60,
+        "out": {
+          "dorsal": 21,
+          "name": "DIAZ MENDOZA, ALEIX"
+        },
+        "in": {
+          "dorsal": 17,
+          "name": "FRANCO CARRASCO, PABLO"
+        }
+      },
+      {
+        "minute": 74,
+        "out": {
+          "dorsal": 12,
+          "name": "MONTERO PRADAS, IKER"
+        },
+        "in": {
+          "dorsal": 22,
+          "name": "GOMEZ SOLER, MARC"
+        }
+      },
+      {
+        "minute": 74,
+        "out": {
+          "dorsal": 7,
+          "name": "RAMIREZ RUIZ, ENRIQUE"
+        },
+        "in": {
+          "dorsal": 23,
+          "name": "MATAMOROS SEGURA, JOEL"
+        }
+      }
+    ],
     "cards": []
   },
   "goals": [

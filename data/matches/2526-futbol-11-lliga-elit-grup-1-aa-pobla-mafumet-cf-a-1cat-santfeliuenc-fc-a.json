@@ -108,7 +108,74 @@
         "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/26062046"
       }
     ],
-    "substitutions": [],
+    "substitutions": [
+      {
+        "minute": 65,
+        "out": {
+          "dorsal": 3,
+          "name": "DANILO LUCHETTI"
+        },
+        "in": {
+          "dorsal": 11,
+          "name": "POZO GIL, TEO"
+        }
+      },
+      {
+        "minute": 65,
+        "out": {
+          "dorsal": 16,
+          "name": "GUTIERREZ DESTEFANIS, AGUSTIN"
+        },
+        "in": {
+          "dorsal": 24,
+          "name": "CARDONA PONS, UBAI"
+        }
+      },
+      {
+        "minute": 65,
+        "out": {
+          "dorsal": 14,
+          "name": "CIURÓ RIUDEUBAS, ROGER"
+        },
+        "in": {
+          "dorsal": 8,
+          "name": "BEAMUZ  AROCA, ÀLEX"
+        }
+      },
+      {
+        "minute": 73,
+        "out": {
+          "dorsal": 26,
+          "name": "AGUZZI BETTINI, NICOLAS ALBERTO"
+        },
+        "in": {
+          "dorsal": 17,
+          "name": "MAYA PÉREZ, RUBÉN"
+        }
+      },
+      {
+        "minute": 87,
+        "out": {
+          "dorsal": 15,
+          "name": "MORA HERNANDEZ, ERIC"
+        },
+        "in": {
+          "dorsal": 18,
+          "name": "TORRES GONZÁLEZ, ÁLVARO"
+        }
+      },
+      {
+        "minute": 87,
+        "out": {
+          "dorsal": 7,
+          "name": "QUEROL MONTAÑES, ALBERT"
+        },
+        "in": {
+          "dorsal": 23,
+          "name": "RAYA BERNAL, PAU"
+        }
+      }
+    ],
     "cards": []
   },
   "away": {
@@ -217,7 +284,74 @@
         "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/634084"
       }
     ],
-    "substitutions": [],
+    "substitutions": [
+      {
+        "minute": 65,
+        "out": {
+          "dorsal": 5,
+          "name": "SADURNI FABRELLAS, JOSEP"
+        },
+        "in": {
+          "dorsal": 6,
+          "name": "VARESE NAFA, ANDRES"
+        }
+      },
+      {
+        "minute": 71,
+        "out": {
+          "dorsal": 11,
+          "name": "BLASCO TORRENTE, PABLO"
+        },
+        "in": {
+          "dorsal": 28,
+          "name": "COLLADO GUTIERREZ, JONATAN"
+        }
+      },
+      {
+        "minute": 71,
+        "out": {
+          "dorsal": 19,
+          "name": "HONORATO TORREJON, KILIAN"
+        },
+        "in": {
+          "dorsal": 9,
+          "name": "ALVAREZ CABO, SAUL"
+        }
+      },
+      {
+        "minute": 80,
+        "out": {
+          "dorsal": 17,
+          "name": "AVILES DIAZ, ALEJANDRO"
+        },
+        "in": {
+          "dorsal": 10,
+          "name": "AVELLANEDA PLAZUELO, JOSE JOAQUIN"
+        }
+      },
+      {
+        "minute": 87,
+        "out": {
+          "dorsal": 8,
+          "name": "CARBONELL GIL, MARC"
+        },
+        "in": {
+          "dorsal": 15,
+          "name": "HERVIAS MARTINEZ, MARIO"
+        }
+      },
+      {
+        "minute": 87,
+        "out": {
+          "dorsal": 23,
+          "name": "OLAECHEA MARTÍNEZ, FRANCESC XAVIER"
+        },
+        "in": {
+          "dorsal": 21,
+          "name": "GUILLEM ARMADA, SAUL"
+        }
+      }
+    ],
     "cards": []
   },
   "goals": [],

@@ -108,7 +108,74 @@
         "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/15661919"
       }
     ],
-    "substitutions": [],
+    "substitutions": [
+      {
+        "minute": 54,
+        "out": {
+          "dorsal": 21,
+          "name": "BILE , JEAN CLAUDE TOFEY"
+        },
+        "in": {
+          "dorsal": 17,
+          "name": "ZHOVTENKO , OLEKSANDR"
+        }
+      },
+      {
+        "minute": 54,
+        "out": {
+          "dorsal": 8,
+          "name": "GUASCH PORTAS, MARC"
+        },
+        "in": {
+          "dorsal": 6,
+          "name": "PALAU DOMINGO, SERGI"
+        }
+      },
+      {
+        "minute": 54,
+        "out": {
+          "dorsal": 11,
+          "name": "PRADES MANRESA, JORDI"
+        },
+        "in": {
+          "dorsal": 7,
+          "name": "SUAREZ SANZ, ADRIA"
+        }
+      },
+      {
+        "minute": 64,
+        "out": {
+          "dorsal": 20,
+          "name": "GÓMEZ MACÍAS, HUGO"
+        },
+        "in": {
+          "dorsal": 23,
+          "name": "LORCA RODRÍGUEZ, JOAQUIN"
+        }
+      },
+      {
+        "minute": 75,
+        "out": {
+          "dorsal": 10,
+          "name": "BARROSO COTO, ERIK"
+        },
+        "in": {
+          "dorsal": 24,
+          "name": "LEON SEGURA, PAU"
+        }
+      },
+      {
+        "minute": 85,
+        "out": {
+          "dorsal": 15,
+          "name": "SANTIAGO CORTES, ANTONIO"
+        },
+        "in": {
+          "dorsal": 18,
+          "name": "CIURÓ ALTÉS, ARNAU"
+        }
+      }
+    ],
     "cards": []
   },
   "away": {
@@ -207,7 +274,41 @@
         "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/18619027"
       }
     ],
-    "substitutions": [],
+    "substitutions": [
+      {
+        "minute": 75,
+        "out": {
+          "dorsal": 6,
+          "name": "CAÑETE RODRIGUEZ, ERIC"
+        },
+        "in": {
+          "dorsal": 20,
+          "name": "MARÍ PASCUAL, ALEIX"
+        }
+      },
+      {
+        "minute": 75,
+        "out": {
+          "dorsal": 2,
+          "name": "ROCA BOFILL, MARC"
+        },
+        "in": {
+          "dorsal": 24,
+          "name": "HERVÁS LEAL, JAVIER"
+        }
+      },
+      {
+        "minute": 89,
+        "out": {
+          "dorsal": 16,
+          "name": "TORRES RAMIREZ, MARC"
+        },
+        "in": {
+          "dorsal": 18,
+          "name": "RAVENTOS ALMIRALL, ORIOL"
+        }
+      }
+    ],
     "cards": []
   },
   "goals": [

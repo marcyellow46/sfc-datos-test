@@ -103,7 +103,74 @@
         "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/40613567"
       }
     ],
-    "substitutions": [],
+    "substitutions": [
+      {
+        "minute": 58,
+        "out": {
+          "dorsal": 26,
+          "name": "AGUZZI BETTINI, NICOLAS ALBERTO"
+        },
+        "in": {
+          "dorsal": 9,
+          "name": "CABEZAS MENSAH, DAVID"
+        }
+      },
+      {
+        "minute": 67,
+        "out": {
+          "dorsal": 14,
+          "name": "CIURÓ RIUDEUBAS, ROGER"
+        },
+        "in": {
+          "dorsal": 16,
+          "name": "GUTIERREZ DESTEFANIS, AGUSTIN"
+        }
+      },
+      {
+        "minute": 67,
+        "out": {
+          "dorsal": 24,
+          "name": "CARDONA PONS, UBAI"
+        },
+        "in": {
+          "dorsal": 6,
+          "name": "ANGLES MASERAS, ROGER"
+        }
+      },
+      {
+        "minute": 77,
+        "out": {
+          "dorsal": 2,
+          "name": "MORENO GAITAN, MARC"
+        },
+        "in": {
+          "dorsal": 17,
+          "name": "RUVIRA VALBUENA, AIRAN"
+        }
+      },
+      {
+        "minute": 77,
+        "out": {
+          "dorsal": 23,
+          "name": "RAYA BERNAL, PAU"
+        },
+        "in": {
+          "dorsal": 21,
+          "name": "PARISI FERRANDIZ, GUILLEM"
+        }
+      },
+      {
+        "minute": 77,
+        "out": {
+          "dorsal": 7,
+          "name": "QUEROL MONTAÑES, ALBERT"
+        },
+        "in": {
+          "dorsal": 3,
+          "name": "DANILO LUCHETTI"
+        }
+      }
+    ],
     "cards": []
   },
   "away": {
@@ -212,7 +279,85 @@
         "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/55354829"
       }
     ],
-    "substitutions": [],
+    "substitutions": [
+      {
+        "minute": 25,
+        "out": {
+          "dorsal": 12,
+          "name": "GARCIA SABADO, MARC"
+        },
+        "in": {
+          "dorsal": 22,
+          "name": "SÁEZ JIMÉNEZ, ENRIC"
+        }
+      },
+      {
+        "minute": 25,
+        "out": {
+          "dorsal": 13,
+          "name": "HONRUBIA STEFAN, ALEX"
+        },
+        "in": {
+          "dorsal": 25,
+          "name": "VALLINA RIVERA, MATEO"
+        }
+      },
+      {
+        "minute": 45,
+        "out": {
+          "dorsal": 11,
+          "name": "ROSENA CAÑAMERO, IZAN"
+        },
+        "in": {
+          "dorsal": 18,
+          "name": "FERNÁNDEZ BAUMGARTNER, ADRIÁN"
+        }
+      },
+      {
+        "minute": 45,
+        "out": {
+          "dorsal": 26,
+          "name": "DE WEERD ROBLES, ALEX"
+        },
+        "in": {
+          "dorsal": 20,
+          "name": "SALGUERO CUENCA, ERICK"
+        }
+      },
+      {
+        "minute": 45,
+        "out": {
+          "dorsal": 21,
+          "name": "DIABY DIAWARA, MAMADOU"
+        },
+        "in": {
+          "dorsal": 8,
+          "name": "BORRELL SOTO, ALEIX"
+        }
+      },
+      {
+        "minute": 60,
+        "out": {
+          "dorsal": 6,
+          "name": "KEBE , MOUSSA"
+        },
+        "in": {
+          "dorsal": 7,
+          "name": "BOBI CHAMORRO, ADRIÁN"
+        }
+      },
+      {
+        "minute": 64,
+        "out": {
+          "dorsal": 15,
+          "name": "MUÑOZ RAYA, MARCOS"
+        },
+        "in": {
+          "dorsal": 2,
+          "name": "TEBAR ZORRILLA, IVAN"
+        }
+      }
+    ],
     "cards": []
   },
   "goals": [

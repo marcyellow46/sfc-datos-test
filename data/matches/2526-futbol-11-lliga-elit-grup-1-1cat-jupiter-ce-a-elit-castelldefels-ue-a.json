@@ -103,7 +103,41 @@
         "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/786532"
       }
     ],
-    "substitutions": [],
+    "substitutions": [
+      {
+        "minute": 59,
+        "out": {
+          "dorsal": 9,
+          "name": "GENESCA GONZALEZ, LLORENÇ"
+        },
+        "in": {
+          "dorsal": 12,
+          "name": "SANCHEZ MOYA, DANIEL"
+        }
+      },
+      {
+        "minute": 59,
+        "out": {
+          "dorsal": 14,
+          "name": "GARCIA PASCUAL, ALEX"
+        },
+        "in": {
+          "dorsal": 8,
+          "name": "CHICO MARINA, PATRICK"
+        }
+      },
+      {
+        "minute": 67,
+        "out": {
+          "dorsal": 11,
+          "name": "S.MONSÓ"
+        },
+        "in": {
+          "dorsal": 17,
+          "name": "DAHBI AKALAY, BADREDDINE"
+        }
+      }
+    ],
     "cards": []
   },
   "away": {
@@ -202,7 +236,74 @@
         "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/23168454"
       }
     ],
-    "substitutions": [],
+    "substitutions": [
+      {
+        "minute": 62,
+        "out": {
+          "dorsal": 19,
+          "name": "PARRA GARCIA, EDGAR"
+        },
+        "in": {
+          "dorsal": 10,
+          "name": "CANO JIMENEZ, CARLOS"
+        }
+      },
+      {
+        "minute": 62,
+        "out": {
+          "dorsal": 11,
+          "name": "GERBOLES PEREZ, MARIO"
+        },
+        "in": {
+          "dorsal": 5,
+          "name": "ORTEGA RAMIREZ, IVAN"
+        }
+      },
+      {
+        "minute": 62,
+        "out": {
+          "dorsal": 17,
+          "name": "FRANCO CARRASCO, PABLO"
+        },
+        "in": {
+          "dorsal": 7,
+          "name": "DIAZ MENDOZA, ALEIX"
+        }
+      },
+      {
+        "minute": 76,
+        "out": {
+          "dorsal": 15,
+          "name": "FAURA MARTINEZ, JOEL"
+        },
+        "in": {
+          "dorsal": 20,
+          "name": "MALDONADO MOYA, IZAN"
+        }
+      },
+      {
+        "minute": 76,
+        "out": {
+          "dorsal": 24,
+          "name": "VILLAVERDE GARCIA, KILIAN"
+        },
+        "in": {
+          "dorsal": 23,
+          "name": "MATAMOROS SEGURA, JOEL"
+        }
+      },
+      {
+        "minute": 76,
+        "out": {
+          "dorsal": 14,
+          "name": "GIBERT FUERTES, JOAN"
+        },
+        "in": {
+          "dorsal": 2,
+          "name": "MARTIN DURAN, JUAN ANTONIO"
+        }
+      }
+    ],
     "cards": []
   },
   "goals": [

@@ -93,7 +93,41 @@
         "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/675084"
       }
     ],
-    "substitutions": [],
+    "substitutions": [
+      {
+        "minute": 60,
+        "out": {
+          "dorsal": 22,
+          "name": "PUCHE RODRÍGUEZ, FERRAN"
+        },
+        "in": {
+          "dorsal": 7,
+          "name": "NAVARRO LÓPEZ, JOSEP"
+        }
+      },
+      {
+        "minute": 78,
+        "out": {
+          "dorsal": 24,
+          "name": "COSANO BERROCAL, KENNETH"
+        },
+        "in": {
+          "dorsal": 19,
+          "name": "NUÑEZ RUIZ, YANIS"
+        }
+      },
+      {
+        "minute": 81,
+        "out": {
+          "dorsal": 17,
+          "name": "ROMEU MARQUES, POL"
+        },
+        "in": {
+          "dorsal": 16,
+          "name": "SARSANEDAS CONTRERAS, JOAO"
+        }
+      }
+    ],
     "cards": []
   },
   "away": {
@@ -202,7 +236,74 @@
         "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/18474635"
       }
     ],
-    "substitutions": [],
+    "substitutions": [
+      {
+        "minute": 60,
+        "out": {
+          "dorsal": 3,
+          "name": "DANILO LUCHETTI"
+        },
+        "in": {
+          "dorsal": 11,
+          "name": "POZO GIL, TEO"
+        }
+      },
+      {
+        "minute": 60,
+        "out": {
+          "dorsal": 16,
+          "name": "GUTIERREZ DESTEFANIS, AGUSTIN"
+        },
+        "in": {
+          "dorsal": 8,
+          "name": "BEAMUZ  AROCA, ÀLEX"
+        }
+      },
+      {
+        "minute": 77,
+        "out": {
+          "dorsal": 24,
+          "name": "CARDONA PONS, UBAI"
+        },
+        "in": {
+          "dorsal": 20,
+          "name": "HAFIDH BOUKLATA, ADAM"
+        }
+      },
+      {
+        "minute": 77,
+        "out": {
+          "dorsal": 19,
+          "name": "CABEZAS MENSAH, DAVID"
+        },
+        "in": {
+          "dorsal": 26,
+          "name": "AGUZZI BETTINI, NICOLAS ALBERTO"
+        }
+      },
+      {
+        "minute": 89,
+        "out": {
+          "dorsal": 7,
+          "name": "QUEROL MONTAÑES, ALBERT"
+        },
+        "in": {
+          "dorsal": 15,
+          "name": "ANGLES MASERAS, ROGER"
+        }
+      },
+      {
+        "minute": 89,
+        "out": {
+          "dorsal": 2,
+          "name": "MORENO GAITAN, MARC"
+        },
+        "in": {
+          "dorsal": 17,
+          "name": "MAYA PÉREZ, RUBÉN"
+        }
+      }
+    ],
     "cards": []
   },
   "goals": [

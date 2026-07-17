@@ -108,7 +108,85 @@
         "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/15169415"
       }
     ],
-    "substitutions": [],
+    "substitutions": [
+      {
+        "minute": 46,
+        "out": {
+          "dorsal": 21,
+          "name": "GUILLEM ARMADA, SAUL"
+        },
+        "in": {
+          "dorsal": 23,
+          "name": "OLAECHEA MARTÍNEZ, FRANCESC XAVIER"
+        }
+      },
+      {
+        "minute": 65,
+        "out": {
+          "dorsal": 27,
+          "name": "FERNÁNDEZ FERNÁNDEZ, HÉCTOR"
+        },
+        "in": {
+          "dorsal": 15,
+          "name": "HERVIAS MARTINEZ, MARIO"
+        }
+      },
+      {
+        "minute": 65,
+        "out": {
+          "dorsal": 10,
+          "name": "AVELLANEDA PLAZUELO, JOSE JOAQUIN"
+        },
+        "in": {
+          "dorsal": 17,
+          "name": "AVILES DIAZ, ALEJANDRO"
+        }
+      },
+      {
+        "minute": 65,
+        "out": {
+          "dorsal": 8,
+          "name": "CARBONELL GIL, MARC"
+        },
+        "in": {
+          "dorsal": 7,
+          "name": "MENDEZ GIRALDEZ, IVAN"
+        }
+      },
+      {
+        "minute": 74,
+        "out": {
+          "dorsal": 18,
+          "name": "RODRIGUEZ JIMENEZ, CHRISTIAN"
+        },
+        "in": {
+          "dorsal": 6,
+          "name": "VARESE NAFA, ANDRES"
+        }
+      },
+      {
+        "minute": 80,
+        "out": {
+          "dorsal": 12,
+          "name": "CARESIA MESA, PAU"
+        },
+        "in": {
+          "dorsal": 19,
+          "name": "HONORATO TORREJON, KILIAN"
+        }
+      },
+      {
+        "minute": 85,
+        "out": {
+          "dorsal": 11,
+          "name": "BLASCO TORRENTE, PABLO"
+        },
+        "in": {
+          "dorsal": 14,
+          "name": "HERNÁNDEZ BAYÉS, ALBERT"
+        }
+      }
+    ],
     "cards": []
   },
   "away": {
@@ -217,7 +295,63 @@
         "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/20122441"
       }
     ],
-    "substitutions": [],
+    "substitutions": [
+      {
+        "minute": 46,
+        "out": {
+          "dorsal": 8,
+          "name": "POL MARCE"
+        },
+        "in": {
+          "dorsal": 4,
+          "name": "OLTRA PLA, IKER"
+        }
+      },
+      {
+        "minute": 53,
+        "out": {
+          "dorsal": 22,
+          "name": "KAWAGUCHI , SHINNOSUKE"
+        },
+        "in": {
+          "dorsal": 7,
+          "name": "CASTELL SOLE, NIL"
+        }
+      },
+      {
+        "minute": 65,
+        "out": {
+          "dorsal": 16,
+          "name": "TORRES RAMIREZ, MARC"
+        },
+        "in": {
+          "dorsal": 23,
+          "name": "CABRERIZO TOCON, ADRIAN"
+        }
+      },
+      {
+        "minute": 74,
+        "out": {
+          "dorsal": 14,
+          "name": "HERNANDEZ LLANOS, LUIS MIGUEL"
+        },
+        "in": {
+          "dorsal": 20,
+          "name": "MARÍ PASCUAL, ALEIX"
+        }
+      },
+      {
+        "minute": 85,
+        "out": {
+          "dorsal": 19,
+          "name": "ESCOFET ALEMANY, SERGI"
+        },
+        "in": {
+          "dorsal": 24,
+          "name": "HERVÁS LEAL, JAVIER"
+        }
+      }
+    ],
     "cards": []
   },
   "goals": [

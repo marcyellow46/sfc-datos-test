@@ -108,7 +108,52 @@
         "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/15196842"
       }
     ],
-    "substitutions": [],
+    "substitutions": [
+      {
+        "minute": 46,
+        "out": {
+          "dorsal": 25,
+          "name": "KANTE , ALHASSANE"
+        },
+        "in": {
+          "dorsal": 3,
+          "name": "PALACIOS CORRAL, ALEJANDRO"
+        }
+      },
+      {
+        "minute": 53,
+        "out": {
+          "dorsal": 23,
+          "name": "BUERA NADAL, FERRAN"
+        },
+        "in": {
+          "dorsal": 9,
+          "name": "WERCKMEISTER GARCIA, ANDER"
+        }
+      },
+      {
+        "minute": 64,
+        "out": {
+          "dorsal": 6,
+          "name": "GONZÁLEZ TARRUELLA, MARC"
+        },
+        "in": {
+          "dorsal": 17,
+          "name": "GIL NAVARRO, JOEL"
+        }
+      },
+      {
+        "minute": 85,
+        "out": {
+          "dorsal": 10,
+          "name": "GONZALEZ OLLER, JAN ANTONI"
+        },
+        "in": {
+          "dorsal": 19,
+          "name": "ARJONA SERRANO, PAU"
+        }
+      }
+    ],
     "cards": []
   },
   "away": {
@@ -217,7 +262,52 @@
         "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/18475202"
       }
     ],
-    "substitutions": [],
+    "substitutions": [
+      {
+        "minute": 46,
+        "out": {
+          "dorsal": 12,
+          "name": "ZELLAL NEJAM, HICHAM"
+        },
+        "in": {
+          "dorsal": 6,
+          "name": "HIDALGO PEREZ, MANUEL"
+        }
+      },
+      {
+        "minute": 80,
+        "out": {
+          "dorsal": 19,
+          "name": "DELGADO CHICANO, ADRIAN"
+        },
+        "in": {
+          "dorsal": 8,
+          "name": "MIRANDA COSTA, HECTOR"
+        }
+      },
+      {
+        "minute": 83,
+        "out": {
+          "dorsal": 15,
+          "name": "KADOCHNIKOV , VENIAMIN"
+        },
+        "in": {
+          "dorsal": 16,
+          "name": "RODRÍGUEZ  ARASIL, RUBÉN"
+        }
+      },
+      {
+        "minute": 88,
+        "out": {
+          "dorsal": 21,
+          "name": "RELOBA NAVARRO, IZAN"
+        },
+        "in": {
+          "dorsal": 9,
+          "name": "AKEL MEHDAOUI, RAMZI"
+        }
+      }
+    ],
     "cards": []
   },
   "goals": [

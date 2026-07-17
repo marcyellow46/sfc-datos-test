@@ -108,7 +108,52 @@
         "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/15148554"
       }
     ],
-    "substitutions": [],
+    "substitutions": [
+      {
+        "minute": 65,
+        "out": {
+          "dorsal": 6,
+          "name": "RAMIREZ GALLEGO, MARC"
+        },
+        "in": {
+          "dorsal": 2,
+          "name": "AREGALL GUILLEN, VICTOR"
+        }
+      },
+      {
+        "minute": 65,
+        "out": {
+          "dorsal": 22,
+          "name": "KOUBISS AJOUB, ALI"
+        },
+        "in": {
+          "dorsal": 8,
+          "name": "VILAJOSANA MAY, VÍCTOR"
+        }
+      },
+      {
+        "minute": 78,
+        "out": {
+          "dorsal": 24,
+          "name": "VILLAGRASA JIMENEZ, BRUNO"
+        },
+        "in": {
+          "dorsal": 14,
+          "name": "DE ARRIBA VILLAHUTE, MAURO"
+        }
+      },
+      {
+        "minute": 89,
+        "out": {
+          "dorsal": 9,
+          "name": "LOPEZ CABEZAS, JORDI"
+        },
+        "in": {
+          "dorsal": 19,
+          "name": "SÁNCHEZ GIRÁLDEZ, ERIC"
+        }
+      }
+    ],
     "cards": []
   },
   "away": {
@@ -212,7 +257,74 @@
         "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/642510"
       }
     ],
-    "substitutions": [],
+    "substitutions": [
+      {
+        "minute": 65,
+        "out": {
+          "dorsal": 17,
+          "name": "ROMEU MARQUES, POL"
+        },
+        "in": {
+          "dorsal": 21,
+          "name": "MARQUILLAS BONAVILA, GERARD"
+        }
+      },
+      {
+        "minute": 65,
+        "out": {
+          "dorsal": 9,
+          "name": "ESCAMILLA VAN DER DONK, ROGER"
+        },
+        "in": {
+          "dorsal": 23,
+          "name": "PASQUINA UREÑA, ANSELM"
+        }
+      },
+      {
+        "minute": 69,
+        "out": {
+          "dorsal": 18,
+          "name": "MORENO ORDOÑEZ, DAVID"
+        },
+        "in": {
+          "dorsal": 7,
+          "name": "NAVARRO LÓPEZ, JOSEP"
+        }
+      },
+      {
+        "minute": 89,
+        "out": {
+          "dorsal": 10,
+          "name": "ARIBAU CASALS, JORDI"
+        },
+        "in": {
+          "dorsal": 12,
+          "name": "GRADO DELGADO, IZAN"
+        }
+      },
+      {
+        "minute": 89,
+        "out": {
+          "dorsal": 7,
+          "name": "NAVARRO LÓPEZ, JOSEP"
+        },
+        "in": {
+          "dorsal": 19,
+          "name": "NUÑEZ RUIZ, YANIS"
+        }
+      },
+      {
+        "minute": 89,
+        "out": {
+          "dorsal": 20,
+          "name": "GULIAS AGUILERA, MARC"
+        },
+        "in": {
+          "dorsal": 22,
+          "name": "PUCHE RODRÍGUEZ, FERRAN"
+        }
+      }
+    ],
     "cards": []
   },
   "goals": [

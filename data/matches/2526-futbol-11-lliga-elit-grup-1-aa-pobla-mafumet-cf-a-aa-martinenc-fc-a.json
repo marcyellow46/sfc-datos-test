@@ -108,7 +108,63 @@
         "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/15723516"
       }
     ],
-    "substitutions": [],
+    "substitutions": [
+      {
+        "minute": 63,
+        "out": {
+          "dorsal": 8,
+          "name": "BEAMUZ  AROCA, ÀLEX"
+        },
+        "in": {
+          "dorsal": 12,
+          "name": "CID PLA, POL"
+        }
+      },
+      {
+        "minute": 63,
+        "out": {
+          "dorsal": 21,
+          "name": "PARISI FERRANDIZ, GUILLEM"
+        },
+        "in": {
+          "dorsal": 23,
+          "name": "RAYA BERNAL, PAU"
+        }
+      },
+      {
+        "minute": 63,
+        "out": {
+          "dorsal": 16,
+          "name": "GUTIERREZ DESTEFANIS, AGUSTIN"
+        },
+        "in": {
+          "dorsal": 27,
+          "name": "GARROFÉ SALLA, JOEL"
+        }
+      },
+      {
+        "minute": 82,
+        "out": {
+          "dorsal": 7,
+          "name": "QUEROL MONTAÑES, ALBERT"
+        },
+        "in": {
+          "dorsal": 17,
+          "name": "MAYA PÉREZ, RUBÉN"
+        }
+      },
+      {
+        "minute": 82,
+        "out": {
+          "dorsal": 11,
+          "name": "POZO GIL, TEO"
+        },
+        "in": {
+          "dorsal": 3,
+          "name": "DANILO LUCHETTI"
+        }
+      }
+    ],
     "cards": []
   },
   "away": {
@@ -212,7 +268,52 @@
         "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/26282381"
       }
     ],
-    "substitutions": [],
+    "substitutions": [
+      {
+        "minute": 46,
+        "out": {
+          "dorsal": 11,
+          "name": "GONZALEZ VALTUEÑA, ANGEL"
+        },
+        "in": {
+          "dorsal": 22,
+          "name": "FABIAN PASCUAL, VICTOR"
+        }
+      },
+      {
+        "minute": 79,
+        "out": {
+          "dorsal": 14,
+          "name": "GONZALEZ ALCANTARA, CARLOS"
+        },
+        "in": {
+          "dorsal": 18,
+          "name": "IBAÑEZ BLASCO, DANIEL"
+        }
+      },
+      {
+        "minute": 85,
+        "out": {
+          "dorsal": 16,
+          "name": "ALARCON MILLAN, KEVIN"
+        },
+        "in": {
+          "dorsal": 12,
+          "name": "SIMONET ALORDA, PERE"
+        }
+      },
+      {
+        "minute": 88,
+        "out": {
+          "dorsal": 9,
+          "name": "OSORIO BARROZO, FAVIO JULIAN"
+        },
+        "in": {
+          "dorsal": 15,
+          "name": "BANGUERO LASSO, YILSON EDUTH"
+        }
+      }
+    ],
     "cards": []
   },
   "goals": [],

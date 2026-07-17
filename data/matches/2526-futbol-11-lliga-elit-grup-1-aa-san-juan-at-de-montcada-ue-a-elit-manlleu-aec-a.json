@@ -103,7 +103,63 @@
         "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/900009640"
       }
     ],
-    "substitutions": [],
+    "substitutions": [
+      {
+        "minute": 62,
+        "out": {
+          "dorsal": 26,
+          "name": "BARCELO GONZALEZ, DIDAC"
+        },
+        "in": {
+          "dorsal": 12,
+          "name": "RUIZ SANTAMARÍA, HUGO"
+        }
+      },
+      {
+        "minute": 62,
+        "out": {
+          "dorsal": 7,
+          "name": "REGUIA EL ANNOUTI, ISMAEL"
+        },
+        "in": {
+          "dorsal": 19,
+          "name": "HUGUE ALCAIDE, GALDERIC"
+        }
+      },
+      {
+        "minute": 77,
+        "out": {
+          "dorsal": 11,
+          "name": "DIAZ MOLINA, ERIC"
+        },
+        "in": {
+          "dorsal": 24,
+          "name": "FERNANDEZ AMAT, JOSE JAVIER"
+        }
+      },
+      {
+        "minute": 84,
+        "out": {
+          "dorsal": 20,
+          "name": "MONTEJO GARCIA, MARC"
+        },
+        "in": {
+          "dorsal": 17,
+          "name": "RODRÍGUEZ FERNÁNDEZ, DANIEL"
+        }
+      },
+      {
+        "minute": 89,
+        "out": {
+          "dorsal": 16,
+          "name": "BA ANDEME, MARCELO SALIOU"
+        },
+        "in": {
+          "dorsal": 22,
+          "name": "TERÁN SOSA, ALAN"
+        }
+      }
+    ],
     "cards": []
   },
   "away": {
@@ -202,7 +258,52 @@
         "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/18481364"
       }
     ],
-    "substitutions": [],
+    "substitutions": [
+      {
+        "minute": 46,
+        "out": {
+          "dorsal": 4,
+          "name": "COSTA GARCIA, JORDI"
+        },
+        "in": {
+          "dorsal": 19,
+          "name": "PIJUAN COLOM, MARC"
+        }
+      },
+      {
+        "minute": 65,
+        "out": {
+          "dorsal": 14,
+          "name": "BASART VIGAS, SERGI"
+        },
+        "in": {
+          "dorsal": 17,
+          "name": "CAO FERNÁNDEZ, TONI"
+        }
+      },
+      {
+        "minute": 65,
+        "out": {
+          "dorsal": 15,
+          "name": "LOPEZ SÁNCHEZ, ALBERT"
+        },
+        "in": {
+          "dorsal": 23,
+          "name": "COMAMALA FONT, MARC"
+        }
+      },
+      {
+        "minute": 77,
+        "out": {
+          "dorsal": 7,
+          "name": "ROSSELL VIDAL, ANTONI"
+        },
+        "in": {
+          "dorsal": 11,
+          "name": "ADU TUTU AMOAH, NANA"
+        }
+      }
+    ],
     "cards": []
   },
   "goals": [

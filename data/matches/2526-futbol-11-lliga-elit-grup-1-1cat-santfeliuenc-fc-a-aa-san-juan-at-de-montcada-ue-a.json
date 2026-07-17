@@ -108,7 +108,74 @@
         "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/15169415"
       }
     ],
-    "substitutions": [],
+    "substitutions": [
+      {
+        "minute": 26,
+        "out": {
+          "dorsal": 18,
+          "name": "RODRIGUEZ JIMENEZ, CHRISTIAN"
+        },
+        "in": {
+          "dorsal": 6,
+          "name": "VARESE NAFA, ANDRES"
+        }
+      },
+      {
+        "minute": 46,
+        "out": {
+          "dorsal": 27,
+          "name": "FERNÁNDEZ FERNÁNDEZ, HÉCTOR"
+        },
+        "in": {
+          "dorsal": 21,
+          "name": "GUILLEM ARMADA, SAUL"
+        }
+      },
+      {
+        "minute": 72,
+        "out": {
+          "dorsal": 7,
+          "name": "MENDEZ GIRALDEZ, IVAN"
+        },
+        "in": {
+          "dorsal": 15,
+          "name": "HERVIAS MARTINEZ, MARIO"
+        }
+      },
+      {
+        "minute": 72,
+        "out": {
+          "dorsal": 12,
+          "name": "CARESIA MESA, PAU"
+        },
+        "in": {
+          "dorsal": 2,
+          "name": "MATEO QUEJIGO, ELOI"
+        }
+      },
+      {
+        "minute": 77,
+        "out": {
+          "dorsal": 17,
+          "name": "AVILES DIAZ, ALEJANDRO"
+        },
+        "in": {
+          "dorsal": 9,
+          "name": "ALVAREZ CABO, SAUL"
+        }
+      },
+      {
+        "minute": 83,
+        "out": {
+          "dorsal": 4,
+          "name": "GARCÍA NACARINO, VÍCTOR"
+        },
+        "in": {
+          "dorsal": 23,
+          "name": "OLAECHEA MARTÍNEZ, FRANCESC XAVIER"
+        }
+      }
+    ],
     "cards": []
   },
   "away": {
@@ -217,7 +284,74 @@
         "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/18760009"
       }
     ],
-    "substitutions": [],
+    "substitutions": [
+      {
+        "minute": 63,
+        "out": {
+          "dorsal": 16,
+          "name": "FERNANDEZ AMAT, JOSE JAVIER"
+        },
+        "in": {
+          "dorsal": 19,
+          "name": "HUGUE ALCAIDE, GALDERIC"
+        }
+      },
+      {
+        "minute": 72,
+        "out": {
+          "dorsal": 3,
+          "name": "POU GOMEZ, ARNAU"
+        },
+        "in": {
+          "dorsal": 2,
+          "name": "ORTIZ PARAISO, JOSHUA"
+        }
+      },
+      {
+        "minute": 77,
+        "out": {
+          "dorsal": 11,
+          "name": "DIAZ MOLINA, ERIC"
+        },
+        "in": {
+          "dorsal": 6,
+          "name": "MARTINEZ MORENO, CARLOS"
+        }
+      },
+      {
+        "minute": 83,
+        "out": {
+          "dorsal": 15,
+          "name": "RUIZ SANTAMARÍA, HUGO"
+        },
+        "in": {
+          "dorsal": 21,
+          "name": "BA ANDEME, MARCELO SALIOU"
+        }
+      },
+      {
+        "minute": 86,
+        "out": {
+          "dorsal": 23,
+          "name": "PEREZ BELLO, VICTOR"
+        },
+        "in": {
+          "dorsal": 22,
+          "name": "HERNANDEZ DEL RIO, DANIEL"
+        }
+      },
+      {
+        "minute": 86,
+        "out": {
+          "dorsal": 20,
+          "name": "MONTEJO GARCIA, MARC"
+        },
+        "in": {
+          "dorsal": 9,
+          "name": "SANTIAGO PEREZ, ANTONIO"
+        }
+      }
+    ],
     "cards": []
   },
   "goals": [

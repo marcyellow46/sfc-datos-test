@@ -103,7 +103,74 @@
         "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/47413242"
       }
     ],
-    "substitutions": [],
+    "substitutions": [
+      {
+        "minute": 41,
+        "out": {
+          "dorsal": 23,
+          "name": "VALENTÍ SOLER CABOT, ENRIQUE"
+        },
+        "in": {
+          "dorsal": 4,
+          "name": "JOSA LEVRATTO, GUILLEM"
+        }
+      },
+      {
+        "minute": 73,
+        "out": {
+          "dorsal": 16,
+          "name": "PEDROL PALMADA, GERARD"
+        },
+        "in": {
+          "dorsal": 15,
+          "name": "CIFUENTES PELAEZ, RUBEN"
+        }
+      },
+      {
+        "minute": 73,
+        "out": {
+          "dorsal": 12,
+          "name": "ARAGALL PUIGVERT, JORDI"
+        },
+        "in": {
+          "dorsal": 18,
+          "name": "AGUILAR COSTA, JULIA"
+        }
+      },
+      {
+        "minute": 73,
+        "out": {
+          "dorsal": 19,
+          "name": "SÁNCHEZ GIRÁLDEZ, ERIC"
+        },
+        "in": {
+          "dorsal": 2,
+          "name": "AREGALL GUILLEN, VICTOR"
+        }
+      },
+      {
+        "minute": 78,
+        "out": {
+          "dorsal": 9,
+          "name": "LOPEZ CABEZAS, JORDI"
+        },
+        "in": {
+          "dorsal": 14,
+          "name": "DE ARRIBA VILLAHUTE, MAURO"
+        }
+      },
+      {
+        "minute": 87,
+        "out": {
+          "dorsal": 6,
+          "name": "RAMIREZ GALLEGO, MARC"
+        },
+        "in": {
+          "dorsal": 17,
+          "name": "SITGES GINÉ, POL"
+        }
+      }
+    ],
     "cards": []
   },
   "away": {
@@ -212,7 +279,85 @@
         "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/786532"
       }
     ],
-    "substitutions": [],
+    "substitutions": [
+      {
+        "minute": 46,
+        "out": {
+          "dorsal": 6,
+          "name": "VAQUERA LOPEZ, IKER"
+        },
+        "in": {
+          "dorsal": 11,
+          "name": "S.MONSÓ"
+        }
+      },
+      {
+        "minute": 46,
+        "out": {
+          "dorsal": 9,
+          "name": "GENESCA GONZALEZ, LLORENÇ"
+        },
+        "in": {
+          "dorsal": 12,
+          "name": "SANCHEZ MOYA, DANIEL"
+        }
+      },
+      {
+        "minute": 46,
+        "out": {
+          "dorsal": 14,
+          "name": "GARCIA PASCUAL, ALEX"
+        },
+        "in": {
+          "dorsal": 15,
+          "name": "PEÑA PEREZ, SERGIO"
+        }
+      },
+      {
+        "minute": 46,
+        "out": {
+          "dorsal": 22,
+          "name": "AYLLON JALDON, SERGI"
+        },
+        "in": {
+          "dorsal": 16,
+          "name": "BORDALLO CANALS, JOAN"
+        }
+      },
+      {
+        "minute": 68,
+        "out": {
+          "dorsal": 21,
+          "name": "GURREA SANCHEZ, ALBERT"
+        },
+        "in": {
+          "dorsal": 23,
+          "name": "SÁNCHEZ OLIVARES, IVÁN"
+        }
+      },
+      {
+        "minute": 87,
+        "out": {
+          "dorsal": 24,
+          "name": "CLARÀ ANDREU, GERARD"
+        },
+        "in": {
+          "dorsal": 3,
+          "name": "BASSOLS BOSCH, ADRIA"
+        }
+      },
+      {
+        "minute": 87,
+        "out": {
+          "dorsal": 8,
+          "name": "CHICO MARINA, PATRICK"
+        },
+        "in": {
+          "dorsal": 5,
+          "name": "KARROUCH KADRI, HICHAM"
+        }
+      }
+    ],
     "cards": []
   },
   "goals": [

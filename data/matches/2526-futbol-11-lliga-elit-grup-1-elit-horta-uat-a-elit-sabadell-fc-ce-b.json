@@ -108,7 +108,74 @@
         "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/43387549"
       }
     ],
-    "substitutions": [],
+    "substitutions": [
+      {
+        "minute": 55,
+        "out": {
+          "dorsal": 9,
+          "name": "LOPEZ CABEZAS, JORDI"
+        },
+        "in": {
+          "dorsal": 20,
+          "name": "VALVERDE MILLAN, JUAN"
+        }
+      },
+      {
+        "minute": 55,
+        "out": {
+          "dorsal": 7,
+          "name": "BABIA , HAITAM"
+        },
+        "in": {
+          "dorsal": 21,
+          "name": "FORNELL SAEZ, JOAQUIM"
+        }
+      },
+      {
+        "minute": 65,
+        "out": {
+          "dorsal": 15,
+          "name": "CIFUENTES PELAEZ, RUBEN"
+        },
+        "in": {
+          "dorsal": 14,
+          "name": "HAMAD , ABDUL-MOUATY"
+        }
+      },
+      {
+        "minute": 80,
+        "out": {
+          "dorsal": 22,
+          "name": "KOUBISS AJOUB, ALI"
+        },
+        "in": {
+          "dorsal": 8,
+          "name": "VILAJOSANA MAY, VÍCTOR"
+        }
+      },
+      {
+        "minute": 88,
+        "out": {
+          "dorsal": 16,
+          "name": "PEDROL PALMADA, GERARD"
+        },
+        "in": {
+          "dorsal": 12,
+          "name": "ARAGALL PUIGVERT, JORDI"
+        }
+      },
+      {
+        "minute": 88,
+        "out": {
+          "dorsal": 3,
+          "name": "HOMEDES DE LA FUENTE, SAMUEL"
+        },
+        "in": {
+          "dorsal": 19,
+          "name": "TOURAY , FABAKARY"
+        }
+      }
+    ],
     "cards": []
   },
   "away": {
@@ -217,7 +284,74 @@
         "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/44698885"
       }
     ],
-    "substitutions": [],
+    "substitutions": [
+      {
+        "minute": 46,
+        "out": {
+          "dorsal": 6,
+          "name": "KEBE , MOUSSA"
+        },
+        "in": {
+          "dorsal": 7,
+          "name": "BOBI CHAMORRO, ADRIÁN"
+        }
+      },
+      {
+        "minute": 65,
+        "out": {
+          "dorsal": 10,
+          "name": "DURAN NOMS, FERRAN"
+        },
+        "in": {
+          "dorsal": 11,
+          "name": "ROSENA CAÑAMERO, IZAN"
+        }
+      },
+      {
+        "minute": 65,
+        "out": {
+          "dorsal": 15,
+          "name": "MUÑOZ RAYA, MARCOS"
+        },
+        "in": {
+          "dorsal": 14,
+          "name": "MARCH PONS, BRU"
+        }
+      },
+      {
+        "minute": 73,
+        "out": {
+          "dorsal": 18,
+          "name": "FERNÁNDEZ BAUMGARTNER, ADRIÁN"
+        },
+        "in": {
+          "dorsal": 8,
+          "name": "BORRELL SOTO, ALEIX"
+        }
+      },
+      {
+        "minute": 80,
+        "out": {
+          "dorsal": 22,
+          "name": "SÁEZ JIMÉNEZ, ENRIC"
+        },
+        "in": {
+          "dorsal": 23,
+          "name": "BARRERA FONT, ROGER"
+        }
+      },
+      {
+        "minute": 80,
+        "out": {
+          "dorsal": 20,
+          "name": "SALGUERO CUENCA, ERICK"
+        },
+        "in": {
+          "dorsal": 26,
+          "name": "DE WEERD ROBLES, ALEX"
+        }
+      }
+    ],
     "cards": []
   },
   "goals": [

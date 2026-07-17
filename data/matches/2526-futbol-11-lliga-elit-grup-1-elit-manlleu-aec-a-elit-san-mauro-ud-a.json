@@ -98,7 +98,63 @@
         "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/18481364"
       }
     ],
-    "substitutions": [],
+    "substitutions": [
+      {
+        "minute": 70,
+        "out": {
+          "dorsal": 17,
+          "name": "CAO FERNÁNDEZ, TONI"
+        },
+        "in": {
+          "dorsal": 19,
+          "name": "PIJUAN COLOM, MARC"
+        }
+      },
+      {
+        "minute": 70,
+        "out": {
+          "dorsal": 15,
+          "name": "LOPEZ SÁNCHEZ, ALBERT"
+        },
+        "in": {
+          "dorsal": 23,
+          "name": "COMAMALA FONT, MARC"
+        }
+      },
+      {
+        "minute": 80,
+        "out": {
+          "dorsal": 21,
+          "name": "MORAL ROGER, ELOI"
+        },
+        "in": {
+          "dorsal": 8,
+          "name": "CAPDEVILA GALEANO, NIL"
+        }
+      },
+      {
+        "minute": 88,
+        "out": {
+          "dorsal": 6,
+          "name": "VILA SERRA, OLEGUER"
+        },
+        "in": {
+          "dorsal": 14,
+          "name": "BASART VIGAS, SERGI"
+        }
+      },
+      {
+        "minute": 88,
+        "out": {
+          "dorsal": 7,
+          "name": "ROSSELL VIDAL, ANTONI"
+        },
+        "in": {
+          "dorsal": 22,
+          "name": "QUADRI , MURITALA ABIOLA"
+        }
+      }
+    ],
     "cards": []
   },
   "away": {
@@ -207,7 +263,74 @@
         "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/22776481"
       }
     ],
-    "substitutions": [],
+    "substitutions": [
+      {
+        "minute": 4,
+        "out": {
+          "dorsal": 9,
+          "name": "ESCAMILLA VAN DER DONK, ROGER"
+        },
+        "in": {
+          "dorsal": 24,
+          "name": "COSANO BERROCAL, KENNETH"
+        }
+      },
+      {
+        "minute": 46,
+        "out": {
+          "dorsal": 18,
+          "name": "MORENO ORDOÑEZ, DAVID"
+        },
+        "in": {
+          "dorsal": 11,
+          "name": "YÁÑEZ BORRÀS, PAU"
+        }
+      },
+      {
+        "minute": 60,
+        "out": {
+          "dorsal": 12,
+          "name": "MERINAS CLOP, ERNEST"
+        },
+        "in": {
+          "dorsal": 16,
+          "name": "SARSANEDAS CONTRERAS, JOAO"
+        }
+      },
+      {
+        "minute": 60,
+        "out": {
+          "dorsal": 10,
+          "name": "ARIBAU CASALS, JORDI"
+        },
+        "in": {
+          "dorsal": 21,
+          "name": "MARQUILLAS BONAVILA, GERARD"
+        }
+      },
+      {
+        "minute": 80,
+        "out": {
+          "dorsal": 24,
+          "name": "COSANO BERROCAL, KENNETH"
+        },
+        "in": {
+          "dorsal": 17,
+          "name": "ROMEU MARQUES, POL"
+        }
+      },
+      {
+        "minute": 89,
+        "out": {
+          "dorsal": 6,
+          "name": "ENRIQUEZ DE LA ROSA, MARC"
+        },
+        "in": {
+          "dorsal": 22,
+          "name": "BARBERO GARCIA, RODRIGO"
+        }
+      }
+    ],
     "cards": []
   },
   "goals": [

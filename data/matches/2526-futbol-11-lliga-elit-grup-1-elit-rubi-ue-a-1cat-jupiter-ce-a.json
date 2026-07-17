@@ -108,7 +108,63 @@
         "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/15946659"
       }
     ],
-    "substitutions": [],
+    "substitutions": [
+      {
+        "minute": 58,
+        "out": {
+          "dorsal": 12,
+          "name": "NII , OLIVER KOTA"
+        },
+        "in": {
+          "dorsal": 9,
+          "name": "VEGA NAVARRO, ENRIC"
+        }
+      },
+      {
+        "minute": 65,
+        "out": {
+          "dorsal": 3,
+          "name": "JUNCÀ ROVIRA, MARC"
+        },
+        "in": {
+          "dorsal": 11,
+          "name": "SENYE PALACIOS, ALFONS"
+        }
+      },
+      {
+        "minute": 65,
+        "out": {
+          "dorsal": 18,
+          "name": "MORRAL CAMPILLO, ALBERT"
+        },
+        "in": {
+          "dorsal": 8,
+          "name": "MASIP MENDEZ, JORDI"
+        }
+      },
+      {
+        "minute": 79,
+        "out": {
+          "dorsal": 23,
+          "name": "DIAZ WILLIAMS, KEVIN"
+        },
+        "in": {
+          "dorsal": 17,
+          "name": "REY GALLEGO, SERGIO"
+        }
+      },
+      {
+        "minute": 86,
+        "out": {
+          "dorsal": 2,
+          "name": "TORRES MARTÍNEZ, AITOR"
+        },
+        "in": {
+          "dorsal": 15,
+          "name": "TENORIO GALCERAN, ORIOL"
+        }
+      }
+    ],
     "cards": []
   },
   "away": {
@@ -207,7 +263,74 @@
         "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/786532"
       }
     ],
-    "substitutions": [],
+    "substitutions": [
+      {
+        "minute": 67,
+        "out": {
+          "dorsal": 3,
+          "name": "BASSOLS BOSCH, ADRIA"
+        },
+        "in": {
+          "dorsal": 24,
+          "name": "CLARÀ ANDREU, GERARD"
+        }
+      },
+      {
+        "minute": 75,
+        "out": {
+          "dorsal": 22,
+          "name": "AYLLON JALDON, SERGI"
+        },
+        "in": {
+          "dorsal": 17,
+          "name": "DAHBI AKALAY, BADREDDINE"
+        }
+      },
+      {
+        "minute": 75,
+        "out": {
+          "dorsal": 9,
+          "name": "GENESCA GONZALEZ, LLORENÇ"
+        },
+        "in": {
+          "dorsal": 7,
+          "name": "BECERRA MARTINEZ, CRISTIAN"
+        }
+      },
+      {
+        "minute": 86,
+        "out": {
+          "dorsal": 10,
+          "name": "BARON VARGAS, ADRIA"
+        },
+        "in": {
+          "dorsal": 16,
+          "name": "FALGUERAS LLOP, MARTÍ"
+        }
+      },
+      {
+        "minute": 86,
+        "out": {
+          "dorsal": 11,
+          "name": "S.MONSÓ"
+        },
+        "in": {
+          "dorsal": 18,
+          "name": "RODRIGUEZ ROSA, BIEL"
+        }
+      },
+      {
+        "minute": 86,
+        "out": {
+          "dorsal": 21,
+          "name": "GURREA SANCHEZ, ALBERT"
+        },
+        "in": {
+          "dorsal": 2,
+          "name": "LEIRA CUTILLAS, DAVID"
+        }
+      }
+    ],
     "cards": []
   },
   "goals": [

@@ -108,7 +108,52 @@
         "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/15960092"
       }
     ],
-    "substitutions": [],
+    "substitutions": [
+      {
+        "minute": 46,
+        "out": {
+          "dorsal": 9,
+          "name": "RODRÍGUEZ  ARASIL, RUBÉN"
+        },
+        "in": {
+          "dorsal": 5,
+          "name": "COLOM CAÑERO, ANTONIO"
+        }
+      },
+      {
+        "minute": 59,
+        "out": {
+          "dorsal": 12,
+          "name": "ZELLAL NEJAM, HICHAM"
+        },
+        "in": {
+          "dorsal": 19,
+          "name": "DELGADO CHICANO, ADRIAN"
+        }
+      },
+      {
+        "minute": 59,
+        "out": {
+          "dorsal": 16,
+          "name": "PROKOPEV , MIKHAIL"
+        },
+        "in": {
+          "dorsal": 8,
+          "name": "KADOCHNIKOV , VENIAMIN"
+        }
+      },
+      {
+        "minute": 78,
+        "out": {
+          "dorsal": 17,
+          "name": "OLLÉ JURADO, PEPE"
+        },
+        "in": {
+          "dorsal": 4,
+          "name": "DE ANDRADE JIMENEZ, VICTOR MBUKU"
+        }
+      }
+    ],
     "cards": []
   },
   "away": {
@@ -217,7 +262,85 @@
         "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/15706465"
       }
     ],
-    "substitutions": [],
+    "substitutions": [
+      {
+        "minute": 53,
+        "out": {
+          "dorsal": 14,
+          "name": "RABANAL VILLAR, ANIOL"
+        },
+        "in": {
+          "dorsal": 10,
+          "name": "GONZALEZ OLLER, JAN ANTONI"
+        }
+      },
+      {
+        "minute": 53,
+        "out": {
+          "dorsal": 25,
+          "name": "SANCHEZ ERAZO, ALLAN MACCRAY"
+        },
+        "in": {
+          "dorsal": 20,
+          "name": "GARCIA BAQUES, POL"
+        }
+      },
+      {
+        "minute": 53,
+        "out": {
+          "dorsal": 17,
+          "name": "GIL NAVARRO, JOEL"
+        },
+        "in": {
+          "dorsal": 22,
+          "name": "PILAR DEL HOYO, JON"
+        }
+      },
+      {
+        "minute": 53,
+        "out": {
+          "dorsal": 9,
+          "name": "GUMA CERQUEDA, JAN"
+        },
+        "in": {
+          "dorsal": 8,
+          "name": "RUIZ PIQUE, ARNAU"
+        }
+      },
+      {
+        "minute": 69,
+        "out": {
+          "dorsal": 3,
+          "name": "PALACIOS CORRAL, ALEJANDRO"
+        },
+        "in": {
+          "dorsal": 21,
+          "name": "PEREZ PICON, DAVID"
+        }
+      },
+      {
+        "minute": 69,
+        "out": {
+          "dorsal": 16,
+          "name": "MELERO CALVO, UNAI"
+        },
+        "in": {
+          "dorsal": 7,
+          "name": "MATEO QUEJIGO, PAU"
+        }
+      },
+      {
+        "minute": 78,
+        "out": {
+          "dorsal": 24,
+          "name": "SORROCHE CALLE, MARK"
+        },
+        "in": {
+          "dorsal": 11,
+          "name": "CLAVIJO LARIOS, PABLO"
+        }
+      }
+    ],
     "cards": []
   },
   "goals": [

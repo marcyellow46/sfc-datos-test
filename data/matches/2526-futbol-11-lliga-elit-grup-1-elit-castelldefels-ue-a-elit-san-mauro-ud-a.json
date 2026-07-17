@@ -98,7 +98,63 @@
         "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/20250865"
       }
     ],
-    "substitutions": [],
+    "substitutions": [
+      {
+        "minute": 67,
+        "out": {
+          "dorsal": 4,
+          "name": "ESTEBAN CANELLES, ALEIX"
+        },
+        "in": {
+          "dorsal": 11,
+          "name": "GERBOLES PEREZ, MARIO"
+        }
+      },
+      {
+        "minute": 74,
+        "out": {
+          "dorsal": 15,
+          "name": "FAURA MARTINEZ, JOEL"
+        },
+        "in": {
+          "dorsal": 22,
+          "name": "PALOU NOGALES, CARLOS"
+        }
+      },
+      {
+        "minute": 81,
+        "out": {
+          "dorsal": 7,
+          "name": "DIAZ MENDOZA, ALEIX"
+        },
+        "in": {
+          "dorsal": 16,
+          "name": "LOPEZ GARCIA, DAVID"
+        }
+      },
+      {
+        "minute": 81,
+        "out": {
+          "dorsal": 3,
+          "name": "PEÑAS ANDREU, ALEX"
+        },
+        "in": {
+          "dorsal": 2,
+          "name": "MARTIN DURAN, JUAN ANTONIO"
+        }
+      },
+      {
+        "minute": 89,
+        "out": {
+          "dorsal": 23,
+          "name": "MATAMOROS SEGURA, JOEL"
+        },
+        "in": {
+          "dorsal": 12,
+          "name": "MONTERO PRADAS, IKER"
+        }
+      }
+    ],
     "cards": []
   },
   "away": {
@@ -197,7 +253,52 @@
         "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/38056126"
       }
     ],
-    "substitutions": [],
+    "substitutions": [
+      {
+        "minute": 65,
+        "out": {
+          "dorsal": 24,
+          "name": "COSANO BERROCAL, KENNETH"
+        },
+        "in": {
+          "dorsal": 12,
+          "name": "MERINAS CLOP, ERNEST"
+        }
+      },
+      {
+        "minute": 65,
+        "out": {
+          "dorsal": 19,
+          "name": "CAÑERO CARMONA, ALEX"
+        },
+        "in": {
+          "dorsal": 17,
+          "name": "ROMEU MARQUES, POL"
+        }
+      },
+      {
+        "minute": 84,
+        "out": {
+          "dorsal": 10,
+          "name": "ARIBAU CASALS, JORDI"
+        },
+        "in": {
+          "dorsal": 15,
+          "name": "ESPINOSA FIGUERAS, JAIRÓN RUBÉN"
+        }
+      },
+      {
+        "minute": 89,
+        "out": {
+          "dorsal": 20,
+          "name": "GULIAS AGUILERA, MARC"
+        },
+        "in": {
+          "dorsal": 18,
+          "name": "MORENO ORDOÑEZ, DAVID"
+        }
+      }
+    ],
     "cards": []
   },
   "goals": [

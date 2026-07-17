@@ -103,7 +103,41 @@
         "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/18760009"
       }
     ],
-    "substitutions": [],
+    "substitutions": [
+      {
+        "minute": 65,
+        "out": {
+          "dorsal": 24,
+          "name": "FERNANDEZ AMAT, JOSE JAVIER"
+        },
+        "in": {
+          "dorsal": 20,
+          "name": "MONTEJO GARCIA, MARC"
+        }
+      },
+      {
+        "minute": 65,
+        "out": {
+          "dorsal": 15,
+          "name": "RUIZ SANTAMARÍA, HUGO"
+        },
+        "in": {
+          "dorsal": 6,
+          "name": "MARTINEZ MORENO, CARLOS"
+        }
+      },
+      {
+        "minute": 83,
+        "out": {
+          "dorsal": 19,
+          "name": "HUGUE ALCAIDE, GALDERIC"
+        },
+        "in": {
+          "dorsal": 7,
+          "name": "RECHE HUCHA, OSCAR"
+        }
+      }
+    ],
     "cards": []
   },
   "away": {
@@ -212,7 +246,85 @@
         "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/44698885"
       }
     ],
-    "substitutions": [],
+    "substitutions": [
+      {
+        "minute": 46,
+        "out": {
+          "dorsal": 15,
+          "name": "MUÑOZ RAYA, MARCOS"
+        },
+        "in": {
+          "dorsal": 7,
+          "name": "BOBI CHAMORRO, ADRIÁN"
+        }
+      },
+      {
+        "minute": 61,
+        "out": {
+          "dorsal": 21,
+          "name": "DIABY DIAWARA, MAMADOU"
+        },
+        "in": {
+          "dorsal": 10,
+          "name": "DURAN NOMS, FERRAN"
+        }
+      },
+      {
+        "minute": 61,
+        "out": {
+          "dorsal": 22,
+          "name": "SÁEZ JIMÉNEZ, ENRIC"
+        },
+        "in": {
+          "dorsal": 23,
+          "name": "BARRERA FONT, ROGER"
+        }
+      },
+      {
+        "minute": 78,
+        "out": {
+          "dorsal": 16,
+          "name": "TOLOSA PÉREZ, ALBERT"
+        },
+        "in": {
+          "dorsal": 26,
+          "name": "DE WEERD ROBLES, ALEX"
+        }
+      },
+      {
+        "minute": 78,
+        "out": {
+          "dorsal": 19,
+          "name": "CHLIH LEHDA, OUSSAMA"
+        },
+        "in": {
+          "dorsal": 6,
+          "name": "KEBE , MOUSSA"
+        }
+      },
+      {
+        "minute": 83,
+        "out": {
+          "dorsal": 20,
+          "name": "SALGUERO CUENCA, ERICK"
+        },
+        "in": {
+          "dorsal": 11,
+          "name": "ROSENA CAÑAMERO, IZAN"
+        }
+      },
+      {
+        "minute": 89,
+        "out": {
+          "dorsal": 26,
+          "name": "DE WEERD ROBLES, ALEX"
+        },
+        "in": {
+          "dorsal": 14,
+          "name": "MARCH PONS, BRU"
+        }
+      }
+    ],
     "cards": []
   },
   "goals": [

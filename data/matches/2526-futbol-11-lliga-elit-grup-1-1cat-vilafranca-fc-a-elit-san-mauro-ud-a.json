@@ -103,7 +103,63 @@
         "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/26270207"
       }
     ],
-    "substitutions": [],
+    "substitutions": [
+      {
+        "minute": 32,
+        "out": {
+          "dorsal": 9,
+          "name": "FORGAS PALLARES, ERNEST"
+        },
+        "in": {
+          "dorsal": 17,
+          "name": "MARC"
+        }
+      },
+      {
+        "minute": 61,
+        "out": {
+          "dorsal": 6,
+          "name": "CAÑETE RODRIGUEZ, ERIC"
+        },
+        "in": {
+          "dorsal": 20,
+          "name": "MARÍ PASCUAL, ALEIX"
+        }
+      },
+      {
+        "minute": 61,
+        "out": {
+          "dorsal": 24,
+          "name": "HERVÁS LEAL, JAVIER"
+        },
+        "in": {
+          "dorsal": 7,
+          "name": "CASTELL SOLE, NIL"
+        }
+      },
+      {
+        "minute": 73,
+        "out": {
+          "dorsal": 14,
+          "name": "HERNANDEZ LLANOS, LUIS MIGUEL"
+        },
+        "in": {
+          "dorsal": 15,
+          "name": "MAÑÉ PASCUAL, MARTÍ"
+        }
+      },
+      {
+        "minute": 84,
+        "out": {
+          "dorsal": 19,
+          "name": "ESCOFET ALEMANY, SERGI"
+        },
+        "in": {
+          "dorsal": 2,
+          "name": "ROCA BOFILL, MARC"
+        }
+      }
+    ],
     "cards": []
   },
   "away": {
@@ -197,7 +253,41 @@
         "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/19645275"
       }
     ],
-    "substitutions": [],
+    "substitutions": [
+      {
+        "minute": 73,
+        "out": {
+          "dorsal": 7,
+          "name": "NAVARRO LÓPEZ, JOSEP"
+        },
+        "in": {
+          "dorsal": 19,
+          "name": "NUÑEZ RUIZ, YANIS"
+        }
+      },
+      {
+        "minute": 84,
+        "out": {
+          "dorsal": 11,
+          "name": "YÁÑEZ BORRÀS, PAU"
+        },
+        "in": {
+          "dorsal": 16,
+          "name": "SARSANEDAS CONTRERAS, JOAO"
+        }
+      },
+      {
+        "minute": 88,
+        "out": {
+          "dorsal": 17,
+          "name": "ROMEU MARQUES, POL"
+        },
+        "in": {
+          "dorsal": 3,
+          "name": "NAVARRO , GUIDO ALCIDES"
+        }
+      }
+    ],
     "cards": []
   },
   "goals": [

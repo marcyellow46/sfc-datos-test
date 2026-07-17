@@ -108,7 +108,74 @@
         "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/57736517"
       }
     ],
-    "substitutions": [],
+    "substitutions": [
+      {
+        "minute": 46,
+        "out": {
+          "dorsal": 18,
+          "name": "GASPAR MARTINEZ, MARIO"
+        },
+        "in": {
+          "dorsal": 24,
+          "name": "SORROCHE CALLE, MARK"
+        }
+      },
+      {
+        "minute": 81,
+        "out": {
+          "dorsal": 14,
+          "name": "RABANAL VILLAR, ANIOL"
+        },
+        "in": {
+          "dorsal": 15,
+          "name": "GASULL TARRADELLAS, MARTÍ"
+        }
+      },
+      {
+        "minute": 81,
+        "out": {
+          "dorsal": 9,
+          "name": "GUMA CERQUEDA, JAN"
+        },
+        "in": {
+          "dorsal": 25,
+          "name": "SANCHEZ ERAZO, ALLAN MACCRAY"
+        }
+      },
+      {
+        "minute": 81,
+        "out": {
+          "dorsal": 22,
+          "name": "PILAR DEL HOYO, JON"
+        },
+        "in": {
+          "dorsal": 7,
+          "name": "MATEO QUEJIGO, PAU"
+        }
+      },
+      {
+        "minute": 86,
+        "out": {
+          "dorsal": 6,
+          "name": "GONZÁLEZ TARRUELLA, MARC"
+        },
+        "in": {
+          "dorsal": 23,
+          "name": "AGELET DEL CARMEN, LUIS"
+        }
+      },
+      {
+        "minute": 89,
+        "out": {
+          "dorsal": 4,
+          "name": "PALACIOS CORRAL, IGNACIO"
+        },
+        "in": {
+          "dorsal": 11,
+          "name": "PUJADAS MARTINEZ, ALEIX"
+        }
+      }
+    ],
     "cards": []
   },
   "away": {
@@ -207,7 +274,74 @@
         "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/18557477"
       }
     ],
-    "substitutions": [],
+    "substitutions": [
+      {
+        "minute": 60,
+        "out": {
+          "dorsal": 6,
+          "name": "VILA SERRA, OLEGUER"
+        },
+        "in": {
+          "dorsal": 11,
+          "name": "ADU TUTU AMOAH, NANA"
+        }
+      },
+      {
+        "minute": 60,
+        "out": {
+          "dorsal": 20,
+          "name": "MURO"
+        },
+        "in": {
+          "dorsal": 3,
+          "name": "ROURA JIMÉNEZ, ROGER"
+        }
+      },
+      {
+        "minute": 60,
+        "out": {
+          "dorsal": 9,
+          "name": "CASANOVA CLUSELLS, ADRIA"
+        },
+        "in": {
+          "dorsal": 8,
+          "name": "CAPDEVILA GALEANO, NIL"
+        }
+      },
+      {
+        "minute": 76,
+        "out": {
+          "dorsal": 21,
+          "name": "MORAL ROGER, ELOI"
+        },
+        "in": {
+          "dorsal": 15,
+          "name": "LOPEZ SÁNCHEZ, ALBERT"
+        }
+      },
+      {
+        "minute": 76,
+        "out": {
+          "dorsal": 24,
+          "name": "ROGER SOLA, RAFEL"
+        },
+        "in": {
+          "dorsal": 16,
+          "name": "COLLELL JORDÀ, GERARD"
+        }
+      },
+      {
+        "minute": 84,
+        "out": {
+          "dorsal": 12,
+          "name": "MATA GARCIA, MARTI"
+        },
+        "in": {
+          "dorsal": 2,
+          "name": "PUNTI GINESTET, JOEL"
+        }
+      }
+    ],
     "cards": []
   },
   "goals": [

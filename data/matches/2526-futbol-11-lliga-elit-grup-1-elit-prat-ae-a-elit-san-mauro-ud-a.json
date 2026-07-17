@@ -108,7 +108,52 @@
         "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/18474805"
       }
     ],
-    "substitutions": [],
+    "substitutions": [
+      {
+        "minute": 55,
+        "out": {
+          "dorsal": 12,
+          "name": "ARCHS HORTIGÓN, ALEJANDRO"
+        },
+        "in": {
+          "dorsal": 14,
+          "name": "RIVAS SANCHEZ, ADRIAN"
+        }
+      },
+      {
+        "minute": 55,
+        "out": {
+          "dorsal": 11,
+          "name": "PLAZA CREMADES, ALEX"
+        },
+        "in": {
+          "dorsal": 19,
+          "name": "DONCHEV , MARTIN VALERIEV"
+        }
+      },
+      {
+        "minute": 71,
+        "out": {
+          "dorsal": 16,
+          "name": "SANCHEZ OCAÑA, ALEJANDRO"
+        },
+        "in": {
+          "dorsal": 23,
+          "name": "CORTINA CABALLERO, ABEL"
+        }
+      },
+      {
+        "minute": 77,
+        "out": {
+          "dorsal": 9,
+          "name": "VIDAL GIRONES, RICARD"
+        },
+        "in": {
+          "dorsal": 22,
+          "name": "UFANO SANCHEZ, PABLO"
+        }
+      }
+    ],
     "cards": []
   },
   "away": {
@@ -217,7 +262,52 @@
         "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/38056126"
       }
     ],
-    "substitutions": [],
+    "substitutions": [
+      {
+        "minute": 46,
+        "out": {
+          "dorsal": 17,
+          "name": "ROMEU MARQUES, POL"
+        },
+        "in": {
+          "dorsal": 20,
+          "name": "GULIAS AGUILERA, MARC"
+        }
+      },
+      {
+        "minute": 64,
+        "out": {
+          "dorsal": 10,
+          "name": "ARIBAU CASALS, JORDI"
+        },
+        "in": {
+          "dorsal": 6,
+          "name": "ENRIQUEZ DE LA ROSA, MARC"
+        }
+      },
+      {
+        "minute": 71,
+        "out": {
+          "dorsal": 19,
+          "name": "CAÑERO CARMONA, ALEX"
+        },
+        "in": {
+          "dorsal": 12,
+          "name": "MERINAS CLOP, ERNEST"
+        }
+      },
+      {
+        "minute": 71,
+        "out": {
+          "dorsal": 24,
+          "name": "COSANO BERROCAL, KENNETH"
+        },
+        "in": {
+          "dorsal": 7,
+          "name": "NAVARRO LÓPEZ, JOSEP"
+        }
+      }
+    ],
     "cards": []
   },
   "goals": [

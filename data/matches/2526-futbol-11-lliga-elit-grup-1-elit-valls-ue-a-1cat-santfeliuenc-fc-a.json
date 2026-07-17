@@ -108,7 +108,52 @@
         "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/15056727"
       }
     ],
-    "substitutions": [],
+    "substitutions": [
+      {
+        "minute": 46,
+        "out": {
+          "dorsal": 8,
+          "name": "GUASCH PORTAS, MARC"
+        },
+        "in": {
+          "dorsal": 20,
+          "name": "GÓMEZ MACÍAS, HUGO"
+        }
+      },
+      {
+        "minute": 46,
+        "out": {
+          "dorsal": 9,
+          "name": "GARCIA COMPANY, DANIEL"
+        },
+        "in": {
+          "dorsal": 22,
+          "name": "LEON SEGURA, PAU"
+        }
+      },
+      {
+        "minute": 66,
+        "out": {
+          "dorsal": 17,
+          "name": "ZHOVTENKO , OLEKSANDR"
+        },
+        "in": {
+          "dorsal": 6,
+          "name": "PALAU DOMINGO, SERGI"
+        }
+      },
+      {
+        "minute": 74,
+        "out": {
+          "dorsal": 7,
+          "name": "SUAREZ SANZ, ADRIA"
+        },
+        "in": {
+          "dorsal": 19,
+          "name": "VEGA ALDOMA, SERGI"
+        }
+      }
+    ],
     "cards": []
   },
   "away": {
@@ -217,7 +262,74 @@
         "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/15169415"
       }
     ],
-    "substitutions": [],
+    "substitutions": [
+      {
+        "minute": 66,
+        "out": {
+          "dorsal": 17,
+          "name": "AVILES DIAZ, ALEJANDRO"
+        },
+        "in": {
+          "dorsal": 10,
+          "name": "AVELLANEDA PLAZUELO, JOSE JOAQUIN"
+        }
+      },
+      {
+        "minute": 66,
+        "out": {
+          "dorsal": 7,
+          "name": "MENDEZ GIRALDEZ, IVAN"
+        },
+        "in": {
+          "dorsal": 11,
+          "name": "BLASCO TORRENTE, PABLO"
+        }
+      },
+      {
+        "minute": 74,
+        "out": {
+          "dorsal": 4,
+          "name": "GARCÍA NACARINO, VÍCTOR"
+        },
+        "in": {
+          "dorsal": 23,
+          "name": "OLAECHEA MARTÍNEZ, FRANCESC XAVIER"
+        }
+      },
+      {
+        "minute": 74,
+        "out": {
+          "dorsal": 15,
+          "name": "HERVIAS MARTINEZ, MARIO"
+        },
+        "in": {
+          "dorsal": 8,
+          "name": "CARBONELL GIL, MARC"
+        }
+      },
+      {
+        "minute": 82,
+        "out": {
+          "dorsal": 27,
+          "name": "FERNÁNDEZ FERNÁNDEZ, HÉCTOR"
+        },
+        "in": {
+          "dorsal": 2,
+          "name": "MATEO QUEJIGO, ELOI"
+        }
+      },
+      {
+        "minute": 85,
+        "out": {
+          "dorsal": 12,
+          "name": "CARESIA MESA, PAU"
+        },
+        "in": {
+          "dorsal": 9,
+          "name": "ALVAREZ CABO, SAUL"
+        }
+      }
+    ],
     "cards": []
   },
   "goals": [

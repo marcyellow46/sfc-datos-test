@@ -108,7 +108,41 @@
         "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/43487600"
       }
     ],
-    "substitutions": [],
+    "substitutions": [
+      {
+        "minute": 67,
+        "out": {
+          "dorsal": 8,
+          "name": "RUIZ PIQUE, ARNAU"
+        },
+        "in": {
+          "dorsal": 17,
+          "name": "GIL NAVARRO, JOEL"
+        }
+      },
+      {
+        "minute": 67,
+        "out": {
+          "dorsal": 12,
+          "name": "SANCHEZ PLACENCIA, IVAN"
+        },
+        "in": {
+          "dorsal": 23,
+          "name": "BUERA NADAL, FERRAN"
+        }
+      },
+      {
+        "minute": 80,
+        "out": {
+          "dorsal": 6,
+          "name": "GONZÁLEZ TARRUELLA, MARC"
+        },
+        "in": {
+          "dorsal": 9,
+          "name": "WERCKMEISTER GARCIA, ANDER"
+        }
+      }
+    ],
     "cards": []
   },
   "away": {
@@ -217,7 +251,41 @@
         "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/15655071"
       }
     ],
-    "substitutions": [],
+    "substitutions": [
+      {
+        "minute": 70,
+        "out": {
+          "dorsal": 14,
+          "name": "RIVAS SANCHEZ, ADRIAN"
+        },
+        "in": {
+          "dorsal": 11,
+          "name": "PLAZA CREMADES, ALEX"
+        }
+      },
+      {
+        "minute": 70,
+        "out": {
+          "dorsal": 20,
+          "name": "GOMEZ CASAS, RUBEN"
+        },
+        "in": {
+          "dorsal": 3,
+          "name": "PEÑA DOMINGO, ROGER"
+        }
+      },
+      {
+        "minute": 78,
+        "out": {
+          "dorsal": 22,
+          "name": "UFANO SANCHEZ, PABLO"
+        },
+        "in": {
+          "dorsal": 10,
+          "name": "TORO CONEJERO, ADRIAN"
+        }
+      }
+    ],
     "cards": []
   },
   "goals": [

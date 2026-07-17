@@ -108,7 +108,74 @@
         "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/786532"
       }
     ],
-    "substitutions": [],
+    "substitutions": [
+      {
+        "minute": 29,
+        "out": {
+          "dorsal": 15,
+          "name": "PEÑA PEREZ, SERGIO"
+        },
+        "in": {
+          "dorsal": 24,
+          "name": "CLARÀ ANDREU, GERARD"
+        }
+      },
+      {
+        "minute": 65,
+        "out": {
+          "dorsal": 8,
+          "name": "CHICO MARINA, PATRICK"
+        },
+        "in": {
+          "dorsal": 10,
+          "name": "BARON VARGAS, ADRIA"
+        }
+      },
+      {
+        "minute": 65,
+        "out": {
+          "dorsal": 12,
+          "name": "SANCHEZ MOYA, DANIEL"
+        },
+        "in": {
+          "dorsal": 20,
+          "name": "RUIZ ROMERA, DANIEL"
+        }
+      },
+      {
+        "minute": 65,
+        "out": {
+          "dorsal": 9,
+          "name": "GENESCA GONZALEZ, LLORENÇ"
+        },
+        "in": {
+          "dorsal": 23,
+          "name": "GONZALEZ NAVARRO, DIDAC"
+        }
+      },
+      {
+        "minute": 81,
+        "out": {
+          "dorsal": 14,
+          "name": "GARCIA PASCUAL, ALEX"
+        },
+        "in": {
+          "dorsal": 17,
+          "name": "DAHBI AKALAY, BADREDDINE"
+        }
+      },
+      {
+        "minute": 81,
+        "out": {
+          "dorsal": 4,
+          "name": "OLIVER JIMENEZ, OSCAR"
+        },
+        "in": {
+          "dorsal": 3,
+          "name": "BASSOLS BOSCH, ADRIA"
+        }
+      }
+    ],
     "cards": []
   },
   "away": {
@@ -217,7 +284,63 @@
         "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/633887"
       }
     ],
-    "substitutions": [],
+    "substitutions": [
+      {
+        "minute": 57,
+        "out": {
+          "dorsal": 22,
+          "name": "UFANO SANCHEZ, PABLO"
+        },
+        "in": {
+          "dorsal": 11,
+          "name": "PLAZA CREMADES, ALEX"
+        }
+      },
+      {
+        "minute": 57,
+        "out": {
+          "dorsal": 12,
+          "name": "ARCHS HORTIGÓN, ALEJANDRO"
+        },
+        "in": {
+          "dorsal": 9,
+          "name": "VIDAL GIRONES, RICARD"
+        }
+      },
+      {
+        "minute": 65,
+        "out": {
+          "dorsal": 6,
+          "name": "REINKE GONÇALVES, GUSTAVO"
+        },
+        "in": {
+          "dorsal": 15,
+          "name": "HIDALGO GARCIA, DAVID"
+        }
+      },
+      {
+        "minute": 73,
+        "out": {
+          "dorsal": 16,
+          "name": "SANCHEZ OCAÑA, ALEJANDRO"
+        },
+        "in": {
+          "dorsal": 19,
+          "name": "DONCHEV , MARTIN VALERIEV"
+        }
+      },
+      {
+        "minute": 73,
+        "out": {
+          "dorsal": 14,
+          "name": "RIVAS SANCHEZ, ADRIAN"
+        },
+        "in": {
+          "dorsal": 23,
+          "name": "CORTINA CABALLERO, ABEL"
+        }
+      }
+    ],
     "cards": []
   },
   "goals": [

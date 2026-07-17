@@ -108,7 +108,52 @@
         "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/18619027"
       }
     ],
-    "substitutions": [],
+    "substitutions": [
+      {
+        "minute": 65,
+        "out": {
+          "dorsal": 9,
+          "name": "FORGAS PALLARES, ERNEST"
+        },
+        "in": {
+          "dorsal": 23,
+          "name": "CABRERIZO TOCON, ADRIAN"
+        }
+      },
+      {
+        "minute": 65,
+        "out": {
+          "dorsal": 8,
+          "name": "POL MARCE"
+        },
+        "in": {
+          "dorsal": 7,
+          "name": "CASTELL SOLE, NIL"
+        }
+      },
+      {
+        "minute": 84,
+        "out": {
+          "dorsal": 17,
+          "name": "MARC"
+        },
+        "in": {
+          "dorsal": 12,
+          "name": "RADINSKY , TEODOR KRASSINOV"
+        }
+      },
+      {
+        "minute": 89,
+        "out": {
+          "dorsal": 19,
+          "name": "ESCOFET ALEMANY, SERGI"
+        },
+        "in": {
+          "dorsal": 22,
+          "name": "KAWAGUCHI , SHINNOSUKE"
+        }
+      }
+    ],
     "cards": []
   },
   "away": {
@@ -212,7 +257,74 @@
         "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/18481364"
       }
     ],
-    "substitutions": [],
+    "substitutions": [
+      {
+        "minute": 46,
+        "out": {
+          "dorsal": 6,
+          "name": "VILA SERRA, OLEGUER"
+        },
+        "in": {
+          "dorsal": 22,
+          "name": "QUADRI , MURITALA ABIOLA"
+        }
+      },
+      {
+        "minute": 61,
+        "out": {
+          "dorsal": 2,
+          "name": "PUNTI GINESTET, JOEL"
+        },
+        "in": {
+          "dorsal": 14,
+          "name": "BASART VIGAS, SERGI"
+        }
+      },
+      {
+        "minute": 67,
+        "out": {
+          "dorsal": 17,
+          "name": "CAO FERNÁNDEZ, TONI"
+        },
+        "in": {
+          "dorsal": 11,
+          "name": "ADU TUTU AMOAH, NANA"
+        }
+      },
+      {
+        "minute": 67,
+        "out": {
+          "dorsal": 19,
+          "name": "PIJUAN COLOM, MARC"
+        },
+        "in": {
+          "dorsal": 23,
+          "name": "COMAMALA FONT, MARC"
+        }
+      },
+      {
+        "minute": 77,
+        "out": {
+          "dorsal": 3,
+          "name": "ROURA JIMÉNEZ, ROGER"
+        },
+        "in": {
+          "dorsal": 16,
+          "name": "COLLELL JORDÀ, GERARD"
+        }
+      },
+      {
+        "minute": 77,
+        "out": {
+          "dorsal": 4,
+          "name": "COSTA GARCIA, JORDI"
+        },
+        "in": {
+          "dorsal": 20,
+          "name": "MURO"
+        }
+      }
+    ],
     "cards": []
   },
   "goals": [

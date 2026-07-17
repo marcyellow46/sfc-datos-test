@@ -108,7 +108,52 @@
         "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/24255628"
       }
     ],
-    "substitutions": [],
+    "substitutions": [
+      {
+        "minute": 65,
+        "out": {
+          "dorsal": 15,
+          "name": "CIFUENTES PELAEZ, RUBEN"
+        },
+        "in": {
+          "dorsal": 14,
+          "name": "HAMAD , ABDUL-MOUATY"
+        }
+      },
+      {
+        "minute": 65,
+        "out": {
+          "dorsal": 12,
+          "name": "ARAGALL PUIGVERT, JORDI"
+        },
+        "in": {
+          "dorsal": 7,
+          "name": "BABIA , HAITAM"
+        }
+      },
+      {
+        "minute": 73,
+        "out": {
+          "dorsal": 21,
+          "name": "FORNELL SAEZ, JOAQUIM"
+        },
+        "in": {
+          "dorsal": 17,
+          "name": "SITGES GINÉ, POL"
+        }
+      },
+      {
+        "minute": 83,
+        "out": {
+          "dorsal": 20,
+          "name": "VALVERDE MILLAN, JUAN"
+        },
+        "in": {
+          "dorsal": 18,
+          "name": "AGUILAR COSTA, JULIA"
+        }
+      }
+    ],
     "cards": []
   },
   "away": {
@@ -212,7 +257,63 @@
         "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/678000"
       }
     ],
-    "substitutions": [],
+    "substitutions": [
+      {
+        "minute": 46,
+        "out": {
+          "dorsal": 11,
+          "name": "PLAZA CREMADES, ALEX"
+        },
+        "in": {
+          "dorsal": 20,
+          "name": "GOMEZ CASAS, RUBEN"
+        }
+      },
+      {
+        "minute": 46,
+        "out": {
+          "dorsal": 23,
+          "name": "CORTINA CABALLERO, ABEL"
+        },
+        "in": {
+          "dorsal": 22,
+          "name": "UFANO SANCHEZ, PABLO"
+        }
+      },
+      {
+        "minute": 81,
+        "out": {
+          "dorsal": 18,
+          "name": "MUÑOZ VELA, MARC"
+        },
+        "in": {
+          "dorsal": 15,
+          "name": "HIDALGO GARCIA, DAVID"
+        }
+      },
+      {
+        "minute": 81,
+        "out": {
+          "dorsal": 4,
+          "name": "GARCIA CABRERA, CARLOS"
+        },
+        "in": {
+          "dorsal": 2,
+          "name": "ADAN DELGADO, DAVID"
+        }
+      },
+      {
+        "minute": 86,
+        "out": {
+          "dorsal": 19,
+          "name": "DONCHEV , MARTIN VALERIEV"
+        },
+        "in": {
+          "dorsal": 12,
+          "name": "ARCHS HORTIGÓN, ALEJANDRO"
+        }
+      }
+    ],
     "cards": []
   },
   "goals": [],

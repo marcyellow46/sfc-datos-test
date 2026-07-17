@@ -103,7 +103,85 @@
         "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/15661919"
       }
     ],
-    "substitutions": [],
+    "substitutions": [
+      {
+        "minute": 57,
+        "out": {
+          "dorsal": 8,
+          "name": "GUASCH PORTAS, MARC"
+        },
+        "in": {
+          "dorsal": 17,
+          "name": "ZHOVTENKO , OLEKSANDR"
+        }
+      },
+      {
+        "minute": 66,
+        "out": {
+          "dorsal": 19,
+          "name": "VEGA ALDOMA, SERGI"
+        },
+        "in": {
+          "dorsal": 22,
+          "name": "LEON SEGURA, PAU"
+        }
+      },
+      {
+        "minute": 66,
+        "out": {
+          "dorsal": 10,
+          "name": "MARTINEZ MARTINEZ, GUILLEM"
+        },
+        "in": {
+          "dorsal": 3,
+          "name": "MORELL BONO, OSCAR"
+        }
+      },
+      {
+        "minute": 66,
+        "out": {
+          "dorsal": 18,
+          "name": "BARROSO COTO, ERIK"
+        },
+        "in": {
+          "dorsal": 9,
+          "name": "GARCIA COMPANY, DANIEL"
+        }
+      },
+      {
+        "minute": 73,
+        "out": {
+          "dorsal": 7,
+          "name": "SUAREZ SANZ, ADRIA"
+        },
+        "in": {
+          "dorsal": 12,
+          "name": "ALVAREZ CABALLERO, UNAX"
+        }
+      },
+      {
+        "minute": 86,
+        "out": {
+          "dorsal": 20,
+          "name": "GÓMEZ MACÍAS, HUGO"
+        },
+        "in": {
+          "dorsal": 2,
+          "name": "EL MANSORI ZOUBAI, YASSIN"
+        }
+      },
+      {
+        "minute": 89,
+        "out": {
+          "dorsal": 15,
+          "name": "SANTIAGO CORTES, ANTONIO"
+        },
+        "in": {
+          "dorsal": 14,
+          "name": "SENDROS  SOLE, OSCAR"
+        }
+      }
+    ],
     "cards": []
   },
   "away": {
@@ -207,7 +285,63 @@
         "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/38056126"
       }
     ],
-    "substitutions": [],
+    "substitutions": [
+      {
+        "minute": 46,
+        "out": {
+          "dorsal": 16,
+          "name": "SARSANEDAS CONTRERAS, JOAO"
+        },
+        "in": {
+          "dorsal": 19,
+          "name": "CAÑERO CARMONA, ALEX"
+        }
+      },
+      {
+        "minute": 46,
+        "out": {
+          "dorsal": 12,
+          "name": "MERINAS CLOP, ERNEST"
+        },
+        "in": {
+          "dorsal": 7,
+          "name": "NAVARRO LÓPEZ, JOSEP"
+        }
+      },
+      {
+        "minute": 62,
+        "out": {
+          "dorsal": 20,
+          "name": "GULIAS AGUILERA, MARC"
+        },
+        "in": {
+          "dorsal": 2,
+          "name": "LOPEZ ARANDA, MARC"
+        }
+      },
+      {
+        "minute": 73,
+        "out": {
+          "dorsal": 6,
+          "name": "ENRIQUEZ DE LA ROSA, MARC"
+        },
+        "in": {
+          "dorsal": 17,
+          "name": "ROMEU MARQUES, POL"
+        }
+      },
+      {
+        "minute": 86,
+        "out": {
+          "dorsal": 2,
+          "name": "LOPEZ ARANDA, MARC"
+        },
+        "in": {
+          "dorsal": 22,
+          "name": "BARBERO GARCIA, RODRIGO"
+        }
+      }
+    ],
     "cards": []
   },
   "goals": [

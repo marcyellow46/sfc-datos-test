@@ -103,7 +103,85 @@
         "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/23168454"
       }
     ],
-    "substitutions": [],
+    "substitutions": [
+      {
+        "minute": 60,
+        "out": {
+          "dorsal": 15,
+          "name": "FAURA MARTINEZ, JOEL"
+        },
+        "in": {
+          "dorsal": 22,
+          "name": "PALOU NOGALES, CARLOS"
+        }
+      },
+      {
+        "minute": 60,
+        "out": {
+          "dorsal": 17,
+          "name": "FRANCO CARRASCO, PABLO"
+        },
+        "in": {
+          "dorsal": 4,
+          "name": "ESTEBAN CANELLES, ALEIX"
+        }
+      },
+      {
+        "minute": 60,
+        "out": {
+          "dorsal": 18,
+          "name": "POUGET FLORIDO, MARC"
+        },
+        "in": {
+          "dorsal": 8,
+          "name": "DEL CHICCA DORADO, HUGO"
+        }
+      },
+      {
+        "minute": 67,
+        "out": {
+          "dorsal": 7,
+          "name": "DIAZ MENDOZA, ALEIX"
+        },
+        "in": {
+          "dorsal": 11,
+          "name": "GERBOLES PEREZ, MARIO"
+        }
+      },
+      {
+        "minute": 67,
+        "out": {
+          "dorsal": 20,
+          "name": "MALDONADO MOYA, IZAN"
+        },
+        "in": {
+          "dorsal": 9,
+          "name": "POZUELO RIERA, ELOI"
+        }
+      },
+      {
+        "minute": 86,
+        "out": {
+          "dorsal": 14,
+          "name": "GIBERT FUERTES, JOAN"
+        },
+        "in": {
+          "dorsal": 23,
+          "name": "MATAMOROS SEGURA, JOEL"
+        }
+      },
+      {
+        "minute": 86,
+        "out": {
+          "dorsal": 19,
+          "name": "VILLAVERDE GARCIA, KILIAN"
+        },
+        "in": {
+          "dorsal": 2,
+          "name": "MARTIN DURAN, JUAN ANTONIO"
+        }
+      }
+    ],
     "cards": []
   },
   "away": {
@@ -212,7 +290,85 @@
         "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/38061608"
       }
     ],
-    "substitutions": [],
+    "substitutions": [
+      {
+        "minute": 17,
+        "out": {
+          "dorsal": 5,
+          "name": "POUS MUNTADAS, POL"
+        },
+        "in": {
+          "dorsal": 20,
+          "name": "MURO"
+        }
+      },
+      {
+        "minute": 46,
+        "out": {
+          "dorsal": 8,
+          "name": "CAPDEVILA GALEANO, NIL"
+        },
+        "in": {
+          "dorsal": 21,
+          "name": "MORAL ROGER, ELOI"
+        }
+      },
+      {
+        "minute": 60,
+        "out": {
+          "dorsal": 16,
+          "name": "ROGER SOLA, RAFEL"
+        },
+        "in": {
+          "dorsal": 18,
+          "name": "COMAMALA FONT, MARC"
+        }
+      },
+      {
+        "minute": 67,
+        "out": {
+          "dorsal": 2,
+          "name": "PUNTI GINESTET, JOEL"
+        },
+        "in": {
+          "dorsal": 9,
+          "name": "CASANOVA CLUSELLS, ADRIA"
+        }
+      },
+      {
+        "minute": 69,
+        "out": {
+          "dorsal": 15,
+          "name": "LOPEZ SÁNCHEZ, ALBERT"
+        },
+        "in": {
+          "dorsal": 4,
+          "name": "COSTA GARCIA, JORDI"
+        }
+      },
+      {
+        "minute": 75,
+        "out": {
+          "dorsal": 17,
+          "name": "CAO FERNÁNDEZ, TONI"
+        },
+        "in": {
+          "dorsal": 10,
+          "name": "ADU TUTU AMOAH, NANA"
+        }
+      },
+      {
+        "minute": 86,
+        "out": {
+          "dorsal": 3,
+          "name": "ROURA JIMÉNEZ, ROGER"
+        },
+        "in": {
+          "dorsal": 14,
+          "name": "BASART VIGAS, SERGI"
+        }
+      }
+    ],
     "cards": []
   },
   "goals": [

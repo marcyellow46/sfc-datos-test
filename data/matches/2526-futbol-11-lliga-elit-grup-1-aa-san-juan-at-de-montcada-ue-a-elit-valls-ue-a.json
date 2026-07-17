@@ -103,7 +103,19 @@
         "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/18760009"
       }
     ],
-    "substitutions": [],
+    "substitutions": [
+      {
+        "minute": 67,
+        "out": {
+          "dorsal": 23,
+          "name": "PEREZ BELLO, VICTOR"
+        },
+        "in": {
+          "dorsal": 7,
+          "name": "REGUIA EL ANNOUTI, ISMAEL"
+        }
+      }
+    ],
     "cards": []
   },
   "away": {
@@ -212,7 +224,52 @@
         "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/748290"
       }
     ],
-    "substitutions": [],
+    "substitutions": [
+      {
+        "minute": 36,
+        "out": {
+          "dorsal": 5,
+          "name": "MIRO ANDREU, ARNAU"
+        },
+        "in": {
+          "dorsal": 17,
+          "name": "ZHOVTENKO , OLEKSANDR"
+        }
+      },
+      {
+        "minute": 72,
+        "out": {
+          "dorsal": 9,
+          "name": "GARCIA COMPANY, DANIEL"
+        },
+        "in": {
+          "dorsal": 20,
+          "name": "GÓMEZ MACÍAS, HUGO"
+        }
+      },
+      {
+        "minute": 72,
+        "out": {
+          "dorsal": 11,
+          "name": "PRADES MANRESA, JORDI"
+        },
+        "in": {
+          "dorsal": 22,
+          "name": "LEON SEGURA, PAU"
+        }
+      },
+      {
+        "minute": 88,
+        "out": {
+          "dorsal": 15,
+          "name": "SANTIAGO CORTES, ANTONIO"
+        },
+        "in": {
+          "dorsal": 2,
+          "name": "EL MANSORI ZOUBAI, YASSIN"
+        }
+      }
+    ],
     "cards": []
   },
   "goals": [

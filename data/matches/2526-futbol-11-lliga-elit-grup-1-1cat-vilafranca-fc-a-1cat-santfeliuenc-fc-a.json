@@ -108,7 +108,52 @@
         "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/19640580"
       }
     ],
-    "substitutions": [],
+    "substitutions": [
+      {
+        "minute": 46,
+        "out": {
+          "dorsal": 23,
+          "name": "CABRERIZO TOCON, ADRIAN"
+        },
+        "in": {
+          "dorsal": 18,
+          "name": "ORIBE GUILLÉN, VÍCTOR"
+        }
+      },
+      {
+        "minute": 64,
+        "out": {
+          "dorsal": 19,
+          "name": "ESCOFET ALEMANY, SERGI"
+        },
+        "in": {
+          "dorsal": 20,
+          "name": "MARÍ PASCUAL, ALEIX"
+        }
+      },
+      {
+        "minute": 64,
+        "out": {
+          "dorsal": 18,
+          "name": "ORIBE GUILLÉN, VÍCTOR"
+        },
+        "in": {
+          "dorsal": 9,
+          "name": "FORGAS PALLARES, ERNEST"
+        }
+      },
+      {
+        "minute": 83,
+        "out": {
+          "dorsal": 22,
+          "name": "KAWAGUCHI , SHINNOSUKE"
+        },
+        "in": {
+          "dorsal": 11,
+          "name": "AFAZAZ BEN HAMZA, ABDELLAH"
+        }
+      }
+    ],
     "cards": []
   },
   "away": {
@@ -217,7 +262,74 @@
         "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/20038387"
       }
     ],
-    "substitutions": [],
+    "substitutions": [
+      {
+        "minute": 55,
+        "out": {
+          "dorsal": 21,
+          "name": "GUILLEM ARMADA, SAUL"
+        },
+        "in": {
+          "dorsal": 23,
+          "name": "OLAECHEA MARTÍNEZ, FRANCESC XAVIER"
+        }
+      },
+      {
+        "minute": 64,
+        "out": {
+          "dorsal": 17,
+          "name": "AVILES DIAZ, ALEJANDRO"
+        },
+        "in": {
+          "dorsal": 15,
+          "name": "HERVIAS MARTINEZ, MARIO"
+        }
+      },
+      {
+        "minute": 71,
+        "out": {
+          "dorsal": 8,
+          "name": "CARBONELL GIL, MARC"
+        },
+        "in": {
+          "dorsal": 4,
+          "name": "GARCÍA NACARINO, VÍCTOR"
+        }
+      },
+      {
+        "minute": 83,
+        "out": {
+          "dorsal": 10,
+          "name": "JIMENEZ IBARROLA, ERIC"
+        },
+        "in": {
+          "dorsal": 28,
+          "name": "DURAN MANZANILLA, HUGO"
+        }
+      },
+      {
+        "minute": 83,
+        "out": {
+          "dorsal": 27,
+          "name": "FERNÁNDEZ FERNÁNDEZ, HÉCTOR"
+        },
+        "in": {
+          "dorsal": 5,
+          "name": "SADURNI FABRELLAS, JOSEP"
+        }
+      },
+      {
+        "minute": 83,
+        "out": {
+          "dorsal": 9,
+          "name": "ALVAREZ CABO, SAUL"
+        },
+        "in": {
+          "dorsal": 6,
+          "name": "VARESE NAFA, ANDRES"
+        }
+      }
+    ],
     "cards": []
   },
   "goals": [

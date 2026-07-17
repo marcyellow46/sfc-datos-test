@@ -103,7 +103,63 @@
         "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/26282381"
       }
     ],
-    "substitutions": [],
+    "substitutions": [
+      {
+        "minute": 60,
+        "out": {
+          "dorsal": 16,
+          "name": "ALARCON MILLAN, KEVIN"
+        },
+        "in": {
+          "dorsal": 9,
+          "name": "OSORIO BARROZO, FAVIO JULIAN"
+        }
+      },
+      {
+        "minute": 80,
+        "out": {
+          "dorsal": 7,
+          "name": "FABIAN PASCUAL, VICTOR"
+        },
+        "in": {
+          "dorsal": 3,
+          "name": "MEGIA ASCASO, ALEJANDRO"
+        }
+      },
+      {
+        "minute": 89,
+        "out": {
+          "dorsal": 21,
+          "name": "NAVARRO LINARES, ADRIÁN"
+        },
+        "in": {
+          "dorsal": 15,
+          "name": "SIMONET ALORDA, PERE"
+        }
+      },
+      {
+        "minute": 89,
+        "out": {
+          "dorsal": 11,
+          "name": "GONZALEZ VALTUEÑA, ANGEL"
+        },
+        "in": {
+          "dorsal": 18,
+          "name": "IBAÑEZ BLASCO, DANIEL"
+        }
+      },
+      {
+        "minute": 89,
+        "out": {
+          "dorsal": 8,
+          "name": "SUÁREZ POSTIGO, DANIEL"
+        },
+        "in": {
+          "dorsal": 25,
+          "name": "RIBERA"
+        }
+      }
+    ],
     "cards": []
   },
   "away": {
@@ -212,7 +268,74 @@
         "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/18475202"
       }
     ],
-    "substitutions": [],
+    "substitutions": [
+      {
+        "minute": 46,
+        "out": {
+          "dorsal": 22,
+          "name": "MESSOOUDI BAKKALI, MOHAMED YASSIN"
+        },
+        "in": {
+          "dorsal": 16,
+          "name": "PROKOPEV , MIKHAIL"
+        }
+      },
+      {
+        "minute": 46,
+        "out": {
+          "dorsal": 5,
+          "name": "COLOM CAÑERO, ANTONIO"
+        },
+        "in": {
+          "dorsal": 9,
+          "name": "RODRÍGUEZ  ARASIL, RUBÉN"
+        }
+      },
+      {
+        "minute": 62,
+        "out": {
+          "dorsal": 12,
+          "name": "ZELLAL NEJAM, HICHAM"
+        },
+        "in": {
+          "dorsal": 11,
+          "name": "SERRANO RUIZ, LUIS"
+        }
+      },
+      {
+        "minute": 69,
+        "out": {
+          "dorsal": 19,
+          "name": "DELGADO CHICANO, ADRIAN"
+        },
+        "in": {
+          "dorsal": 6,
+          "name": "HIDALGO PEREZ, MANUEL"
+        }
+      },
+      {
+        "minute": 84,
+        "out": {
+          "dorsal": 24,
+          "name": "NAVARRO GÓMEZ, RUBEN"
+        },
+        "in": {
+          "dorsal": 23,
+          "name": "BUSTO FORTUNA, DANIEL"
+        }
+      },
+      {
+        "minute": 84,
+        "out": {
+          "dorsal": 10,
+          "name": "BLANCO BLANCO, BIEL"
+        },
+        "in": {
+          "dorsal": 8,
+          "name": "KADOCHNIKOV , VENIAMIN"
+        }
+      }
+    ],
     "cards": []
   },
   "goals": [

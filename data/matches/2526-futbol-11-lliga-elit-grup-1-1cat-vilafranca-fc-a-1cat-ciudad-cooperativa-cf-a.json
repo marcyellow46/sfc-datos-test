@@ -108,7 +108,74 @@
         "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/20122441"
       }
     ],
-    "substitutions": [],
+    "substitutions": [
+      {
+        "minute": 46,
+        "out": {
+          "dorsal": 4,
+          "name": "OLTRA PLA, IKER"
+        },
+        "in": {
+          "dorsal": 22,
+          "name": "KAWAGUCHI , SHINNOSUKE"
+        }
+      },
+      {
+        "minute": 63,
+        "out": {
+          "dorsal": 7,
+          "name": "CASTELL SOLE, NIL"
+        },
+        "in": {
+          "dorsal": 17,
+          "name": "MARC"
+        }
+      },
+      {
+        "minute": 78,
+        "out": {
+          "dorsal": 19,
+          "name": "ESCOFET ALEMANY, SERGI"
+        },
+        "in": {
+          "dorsal": 21,
+          "name": "AFAZAZ BEN HAMZA, ABDELLAH"
+        }
+      },
+      {
+        "minute": 84,
+        "out": {
+          "dorsal": 8,
+          "name": "POL MARCE"
+        },
+        "in": {
+          "dorsal": 12,
+          "name": "RADINSKY , TEODOR KRASSINOV"
+        }
+      },
+      {
+        "minute": 84,
+        "out": {
+          "dorsal": 9,
+          "name": "FORGAS PALLARES, ERNEST"
+        },
+        "in": {
+          "dorsal": 20,
+          "name": "MARÍ PASCUAL, ALEIX"
+        }
+      },
+      {
+        "minute": 89,
+        "out": {
+          "dorsal": 10,
+          "name": "ACEDO SANCHEZ, DAVID"
+        },
+        "in": {
+          "dorsal": 3,
+          "name": "GONZÁLEZ MIQUEL, MARC"
+        }
+      }
+    ],
     "cards": []
   },
   "away": {
@@ -217,7 +284,74 @@
         "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/18475202"
       }
     ],
-    "substitutions": [],
+    "substitutions": [
+      {
+        "minute": 46,
+        "out": {
+          "dorsal": 7,
+          "name": "DE SOKOLOW LEYVA, BRYAN"
+        },
+        "in": {
+          "dorsal": 16,
+          "name": "RODRÍGUEZ  ARASIL, RUBÉN"
+        }
+      },
+      {
+        "minute": 63,
+        "out": {
+          "dorsal": 15,
+          "name": "KADOCHNIKOV , VENIAMIN"
+        },
+        "in": {
+          "dorsal": 5,
+          "name": "COLOM CAÑERO, ANTONIO"
+        }
+      },
+      {
+        "minute": 63,
+        "out": {
+          "dorsal": 12,
+          "name": "ZELLAL NEJAM, HICHAM"
+        },
+        "in": {
+          "dorsal": 9,
+          "name": "MESSOOUDI BAKKALI, MOHAMED YASSIN"
+        }
+      },
+      {
+        "minute": 70,
+        "out": {
+          "dorsal": 20,
+          "name": "TORO CONEJERO, DAVID"
+        },
+        "in": {
+          "dorsal": 6,
+          "name": "HIDALGO PEREZ, MANUEL"
+        }
+      },
+      {
+        "minute": 78,
+        "out": {
+          "dorsal": 19,
+          "name": "DELGADO CHICANO, ADRIAN"
+        },
+        "in": {
+          "dorsal": 17,
+          "name": "OLLÉ JURADO, PEPE"
+        }
+      },
+      {
+        "minute": 89,
+        "out": {
+          "dorsal": 10,
+          "name": "BLANCO BLANCO, BIEL"
+        },
+        "in": {
+          "dorsal": 4,
+          "name": "DE ANDRADE JIMENEZ, VICTOR MBUKU"
+        }
+      }
+    ],
     "cards": []
   },
   "goals": [

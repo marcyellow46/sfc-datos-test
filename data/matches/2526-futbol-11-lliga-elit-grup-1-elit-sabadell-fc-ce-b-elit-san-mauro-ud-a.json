@@ -108,7 +108,63 @@
         "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/34011173"
       }
     ],
-    "substitutions": [],
+    "substitutions": [
+      {
+        "minute": 67,
+        "out": {
+          "dorsal": 11,
+          "name": "ROSENA CAÑAMERO, IZAN"
+        },
+        "in": {
+          "dorsal": 21,
+          "name": "DIABY DIAWARA, MAMADOU"
+        }
+      },
+      {
+        "minute": 75,
+        "out": {
+          "dorsal": 7,
+          "name": "BOBI CHAMORRO, ADRIÁN"
+        },
+        "in": {
+          "dorsal": 10,
+          "name": "DURAN NOMS, FERRAN"
+        }
+      },
+      {
+        "minute": 75,
+        "out": {
+          "dorsal": 24,
+          "name": "TOURE DIAWARA, MAMADOU BOUHARY"
+        },
+        "in": {
+          "dorsal": 8,
+          "name": "BORRELL SOTO, ALEIX"
+        }
+      },
+      {
+        "minute": 80,
+        "out": {
+          "dorsal": 22,
+          "name": "SÁEZ JIMÉNEZ, ENRIC"
+        },
+        "in": {
+          "dorsal": 26,
+          "name": "DE WEERD ROBLES, ALEX"
+        }
+      },
+      {
+        "minute": 80,
+        "out": {
+          "dorsal": 20,
+          "name": "SALGUERO CUENCA, ERICK"
+        },
+        "in": {
+          "dorsal": 6,
+          "name": "KEBE , MOUSSA"
+        }
+      }
+    ],
     "cards": []
   },
   "away": {
@@ -202,7 +258,41 @@
         "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/38056126"
       }
     ],
-    "substitutions": [],
+    "substitutions": [
+      {
+        "minute": 75,
+        "out": {
+          "dorsal": 12,
+          "name": "MERINAS CLOP, ERNEST"
+        },
+        "in": {
+          "dorsal": 17,
+          "name": "ROMEU MARQUES, POL"
+        }
+      },
+      {
+        "minute": 75,
+        "out": {
+          "dorsal": 16,
+          "name": "SARSANEDAS CONTRERAS, JOAO"
+        },
+        "in": {
+          "dorsal": 19,
+          "name": "CAÑERO CARMONA, ALEX"
+        }
+      },
+      {
+        "minute": 80,
+        "out": {
+          "dorsal": 6,
+          "name": "ENRIQUEZ DE LA ROSA, MARC"
+        },
+        "in": {
+          "dorsal": 21,
+          "name": "MARQUILLAS BONAVILA, GERARD"
+        }
+      }
+    ],
     "cards": []
   },
   "goals": [

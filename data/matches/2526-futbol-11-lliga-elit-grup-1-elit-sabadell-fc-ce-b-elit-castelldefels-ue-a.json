@@ -108,7 +108,52 @@
         "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/18838593"
       }
     ],
-    "substitutions": [],
+    "substitutions": [
+      {
+        "minute": 65,
+        "out": {
+          "dorsal": 11,
+          "name": "ROSENA CAÑAMERO, IZAN"
+        },
+        "in": {
+          "dorsal": 27,
+          "name": "RIVERA CLAVERO, FRAN"
+        }
+      },
+      {
+        "minute": 72,
+        "out": {
+          "dorsal": 9,
+          "name": "GONZÁLEZ GARCÍA, ADRIÁ"
+        },
+        "in": {
+          "dorsal": 7,
+          "name": "BOBI CHAMORRO, ADRIÁN"
+        }
+      },
+      {
+        "minute": 83,
+        "out": {
+          "dorsal": 20,
+          "name": "SALGUERO CUENCA, ERICK"
+        },
+        "in": {
+          "dorsal": 8,
+          "name": "BORRELL SOTO, ALEIX"
+        }
+      },
+      {
+        "minute": 89,
+        "out": {
+          "dorsal": 5,
+          "name": "MARTINEZ TASIAS, ELOI"
+        },
+        "in": {
+          "dorsal": 21,
+          "name": "DIABY DIAWARA, MAMADOU"
+        }
+      }
+    ],
     "cards": []
   },
   "away": {
@@ -217,7 +262,52 @@
         "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/20111426"
       }
     ],
-    "substitutions": [],
+    "substitutions": [
+      {
+        "minute": 41,
+        "out": {
+          "dorsal": 2,
+          "name": "MARTIN DURAN, JUAN ANTONIO"
+        },
+        "in": {
+          "dorsal": 10,
+          "name": "CANO JIMENEZ, CARLOS"
+        }
+      },
+      {
+        "minute": 72,
+        "out": {
+          "dorsal": 5,
+          "name": "ORTEGA RAMIREZ, IVAN"
+        },
+        "in": {
+          "dorsal": 20,
+          "name": "MALDONADO MOYA, IZAN"
+        }
+      },
+      {
+        "minute": 72,
+        "out": {
+          "dorsal": 17,
+          "name": "FRANCO CARRASCO, PABLO"
+        },
+        "in": {
+          "dorsal": 23,
+          "name": "MATAMOROS SEGURA, JOEL"
+        }
+      },
+      {
+        "minute": 89,
+        "out": {
+          "dorsal": 14,
+          "name": "GIBERT FUERTES, JOAN"
+        },
+        "in": {
+          "dorsal": 16,
+          "name": "FERREIRA MOREIRA, JONATHAN"
+        }
+      }
+    ],
     "cards": []
   },
   "goals": [

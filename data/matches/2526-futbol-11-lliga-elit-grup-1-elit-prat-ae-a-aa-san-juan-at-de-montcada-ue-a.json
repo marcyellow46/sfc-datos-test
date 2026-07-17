@@ -108,7 +108,74 @@
         "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/662253"
       }
     ],
-    "substitutions": [],
+    "substitutions": [
+      {
+        "minute": 55,
+        "out": {
+          "dorsal": 22,
+          "name": "UFANO SANCHEZ, PABLO"
+        },
+        "in": {
+          "dorsal": 4,
+          "name": "GARCIA CABRERA, CARLOS"
+        }
+      },
+      {
+        "minute": 55,
+        "out": {
+          "dorsal": 20,
+          "name": "GOMEZ CASAS, RUBEN"
+        },
+        "in": {
+          "dorsal": 6,
+          "name": "REINKE GONÇALVES, GUSTAVO"
+        }
+      },
+      {
+        "minute": 72,
+        "out": {
+          "dorsal": 18,
+          "name": "MUÑOZ VELA, MARC"
+        },
+        "in": {
+          "dorsal": 12,
+          "name": "ARCHS HORTIGÓN, ALEJANDRO"
+        }
+      },
+      {
+        "minute": 72,
+        "out": {
+          "dorsal": 11,
+          "name": "PLAZA CREMADES, ALEX"
+        },
+        "in": {
+          "dorsal": 23,
+          "name": "CORTINA CABALLERO, ABEL"
+        }
+      },
+      {
+        "minute": 84,
+        "out": {
+          "dorsal": 16,
+          "name": "SANCHEZ OCAÑA, ALEJANDRO"
+        },
+        "in": {
+          "dorsal": 15,
+          "name": "HIDALGO GARCIA, DAVID"
+        }
+      },
+      {
+        "minute": 84,
+        "out": {
+          "dorsal": 30,
+          "name": "BONAVENTURA GRIS, DANIEL"
+        },
+        "in": {
+          "dorsal": 19,
+          "name": "DONCHEV , MARTIN VALERIEV"
+        }
+      }
+    ],
     "cards": []
   },
   "away": {
@@ -212,7 +279,63 @@
         "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/18760009"
       }
     ],
-    "substitutions": [],
+    "substitutions": [
+      {
+        "minute": 66,
+        "out": {
+          "dorsal": 7,
+          "name": "RECHE HUCHA, OSCAR"
+        },
+        "in": {
+          "dorsal": 16,
+          "name": "BA ANDEME, MARCELO SALIOU"
+        }
+      },
+      {
+        "minute": 66,
+        "out": {
+          "dorsal": 24,
+          "name": "FERNANDEZ AMAT, JOSE JAVIER"
+        },
+        "in": {
+          "dorsal": 3,
+          "name": "POU GOMEZ, ARNAU"
+        }
+      },
+      {
+        "minute": 72,
+        "out": {
+          "dorsal": 11,
+          "name": "DIAZ MOLINA, ERIC"
+        },
+        "in": {
+          "dorsal": 14,
+          "name": "HUGUE ALCAIDE, GALDERIC"
+        }
+      },
+      {
+        "minute": 84,
+        "out": {
+          "dorsal": 20,
+          "name": "MONTEJO GARCIA, MARC"
+        },
+        "in": {
+          "dorsal": 10,
+          "name": "MUÑOZ SAYOL, OSCAR"
+        }
+      },
+      {
+        "minute": 84,
+        "out": {
+          "dorsal": 15,
+          "name": "RUIZ SANTAMARÍA, HUGO"
+        },
+        "in": {
+          "dorsal": 8,
+          "name": "GALEANO JARDI, FERNANDO"
+        }
+      }
+    ],
     "cards": []
   },
   "goals": [

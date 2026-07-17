@@ -108,7 +108,63 @@
         "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/634084"
       }
     ],
-    "substitutions": [],
+    "substitutions": [
+      {
+        "minute": 61,
+        "out": {
+          "dorsal": 12,
+          "name": "CARESIA MESA, PAU"
+        },
+        "in": {
+          "dorsal": 15,
+          "name": "HERVIAS MARTINEZ, MARIO"
+        }
+      },
+      {
+        "minute": 61,
+        "out": {
+          "dorsal": 17,
+          "name": "AVILES DIAZ, ALEJANDRO"
+        },
+        "in": {
+          "dorsal": 28,
+          "name": "COLLADO GUTIERREZ, JONATAN"
+        }
+      },
+      {
+        "minute": 67,
+        "out": {
+          "dorsal": 21,
+          "name": "GUILLEM ARMADA, SAUL"
+        },
+        "in": {
+          "dorsal": 23,
+          "name": "DURAN MANZANILLA, HUGO"
+        }
+      },
+      {
+        "minute": 69,
+        "out": {
+          "dorsal": 7,
+          "name": "MENDEZ GIRALDEZ, IVAN"
+        },
+        "in": {
+          "dorsal": 2,
+          "name": "MATEO QUEJIGO, ELOI"
+        }
+      },
+      {
+        "minute": 89,
+        "out": {
+          "dorsal": 8,
+          "name": "CARBONELL GIL, MARC"
+        },
+        "in": {
+          "dorsal": 22,
+          "name": "CASARES ALGUACIL, MARC"
+        }
+      }
+    ],
     "cards": []
   },
   "away": {
@@ -217,7 +273,63 @@
         "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/55354829"
       }
     ],
-    "substitutions": [],
+    "substitutions": [
+      {
+        "minute": 53,
+        "out": {
+          "dorsal": 22,
+          "name": "SÁEZ JIMÉNEZ, ENRIC"
+        },
+        "in": {
+          "dorsal": 11,
+          "name": "ROSENA CAÑAMERO, IZAN"
+        }
+      },
+      {
+        "minute": 61,
+        "out": {
+          "dorsal": 24,
+          "name": "TOURE DIAWARA, MAMADOU BOUHARY"
+        },
+        "in": {
+          "dorsal": 9,
+          "name": "GONZÁLEZ GARCÍA, ADRIÁ"
+        }
+      },
+      {
+        "minute": 69,
+        "out": {
+          "dorsal": 5,
+          "name": "MARTINEZ TASIAS, ELOI"
+        },
+        "in": {
+          "dorsal": 15,
+          "name": "MUÑOZ RAYA, MARCOS"
+        }
+      },
+      {
+        "minute": 69,
+        "out": {
+          "dorsal": 19,
+          "name": "CHLIH LEHDA, OUSSAMA"
+        },
+        "in": {
+          "dorsal": 17,
+          "name": "TOURAY , OUSMAN"
+        }
+      },
+      {
+        "minute": 89,
+        "out": {
+          "dorsal": 7,
+          "name": "BOBI CHAMORRO, ADRIÁN"
+        },
+        "in": {
+          "dorsal": 14,
+          "name": "MARCH PONS, BRU"
+        }
+      }
+    ],
     "cards": []
   },
   "goals": [

@@ -108,7 +108,52 @@
         "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/786532"
       }
     ],
-    "substitutions": [],
+    "substitutions": [
+      {
+        "minute": 46,
+        "out": {
+          "dorsal": 12,
+          "name": "SANCHEZ MOYA, DANIEL"
+        },
+        "in": {
+          "dorsal": 16,
+          "name": "FALGUERAS LLOP, MARTÍ"
+        }
+      },
+      {
+        "minute": 46,
+        "out": {
+          "dorsal": 22,
+          "name": "AYLLON JALDON, SERGI"
+        },
+        "in": {
+          "dorsal": 23,
+          "name": "GONZALEZ NAVARRO, DIDAC"
+        }
+      },
+      {
+        "minute": 74,
+        "out": {
+          "dorsal": 9,
+          "name": "GENESCA GONZALEZ, LLORENÇ"
+        },
+        "in": {
+          "dorsal": 19,
+          "name": "FERNÁNDEZ HERRERA, ERIC"
+        }
+      },
+      {
+        "minute": 74,
+        "out": {
+          "dorsal": 8,
+          "name": "CHICO MARINA, PATRICK"
+        },
+        "in": {
+          "dorsal": 3,
+          "name": "BASSOLS BOSCH, ADRIA"
+        }
+      }
+    ],
     "cards": []
   },
   "away": {
@@ -217,7 +262,52 @@
         "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/47413242"
       }
     ],
-    "substitutions": [],
+    "substitutions": [
+      {
+        "minute": 56,
+        "out": {
+          "dorsal": 23,
+          "name": "VALENTÍ SOLER CABOT, ENRIQUE"
+        },
+        "in": {
+          "dorsal": 15,
+          "name": "CIFUENTES PELAEZ, RUBEN"
+        }
+      },
+      {
+        "minute": 56,
+        "out": {
+          "dorsal": 14,
+          "name": "HAMAD , ABDUL-MOUATY"
+        },
+        "in": {
+          "dorsal": 7,
+          "name": "BABIA , HAITAM"
+        }
+      },
+      {
+        "minute": 69,
+        "out": {
+          "dorsal": 20,
+          "name": "VALVERDE MILLAN, JUAN"
+        },
+        "in": {
+          "dorsal": 8,
+          "name": "VILAJOSANA MAY, VÍCTOR"
+        }
+      },
+      {
+        "minute": 69,
+        "out": {
+          "dorsal": 21,
+          "name": "FORNELL SAEZ, JOAQUIM"
+        },
+        "in": {
+          "dorsal": 9,
+          "name": "LOPEZ CABEZAS, JORDI"
+        }
+      }
+    ],
     "cards": []
   },
   "goals": [

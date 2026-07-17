@@ -108,7 +108,52 @@
         "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/15655071"
       }
     ],
-    "substitutions": [],
+    "substitutions": [
+      {
+        "minute": 56,
+        "out": {
+          "dorsal": 11,
+          "name": "PLAZA CREMADES, ALEX"
+        },
+        "in": {
+          "dorsal": 14,
+          "name": "RIVAS SANCHEZ, ADRIAN"
+        }
+      },
+      {
+        "minute": 56,
+        "out": {
+          "dorsal": 7,
+          "name": "PLUVINS RAMOS, XAVIER"
+        },
+        "in": {
+          "dorsal": 16,
+          "name": "SANCHEZ OCAÑA, ALEJANDRO"
+        }
+      },
+      {
+        "minute": 66,
+        "out": {
+          "dorsal": 21,
+          "name": "LAMELAS DOMINGUEZ, MARTIN"
+        },
+        "in": {
+          "dorsal": 17,
+          "name": "CUEVAS LARDIES, NICOLAS DANIEL"
+        }
+      },
+      {
+        "minute": 66,
+        "out": {
+          "dorsal": 9,
+          "name": "VIDAL GIRONES, RICARD"
+        },
+        "in": {
+          "dorsal": 8,
+          "name": "FONT MONTSERRAT, MARC"
+        }
+      }
+    ],
     "cards": []
   },
   "away": {
@@ -217,7 +262,63 @@
         "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/15148554"
       }
     ],
-    "substitutions": [],
+    "substitutions": [
+      {
+        "minute": 17,
+        "out": {
+          "dorsal": 7,
+          "name": "BABIA , HAITAM"
+        },
+        "in": {
+          "dorsal": 2,
+          "name": "AREGALL GUILLEN, VICTOR"
+        }
+      },
+      {
+        "minute": 46,
+        "out": {
+          "dorsal": 6,
+          "name": "RAMIREZ GALLEGO, MARC"
+        },
+        "in": {
+          "dorsal": 8,
+          "name": "VILAJOSANA MAY, VÍCTOR"
+        }
+      },
+      {
+        "minute": 72,
+        "out": {
+          "dorsal": 9,
+          "name": "LOPEZ CABEZAS, JORDI"
+        },
+        "in": {
+          "dorsal": 14,
+          "name": "DE ARRIBA VILLAHUTE, MAURO"
+        }
+      },
+      {
+        "minute": 72,
+        "out": {
+          "dorsal": 16,
+          "name": "PEDROL PALMADA, GERARD"
+        },
+        "in": {
+          "dorsal": 15,
+          "name": "CIFUENTES PELAEZ, RUBEN"
+        }
+      },
+      {
+        "minute": 79,
+        "out": {
+          "dorsal": 11,
+          "name": "REYES SEGURA, DAVID"
+        },
+        "in": {
+          "dorsal": 19,
+          "name": "SÁNCHEZ GIRÁLDEZ, ERIC"
+        }
+      }
+    ],
     "cards": []
   },
   "goals": [

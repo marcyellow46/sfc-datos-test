@@ -103,7 +103,63 @@
         "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/15307332"
       }
     ],
-    "substitutions": [],
+    "substitutions": [
+      {
+        "minute": 67,
+        "out": {
+          "dorsal": 14,
+          "name": "GONZALEZ ALCANTARA, CARLOS"
+        },
+        "in": {
+          "dorsal": 7,
+          "name": "FABIAN PASCUAL, VICTOR"
+        }
+      },
+      {
+        "minute": 74,
+        "out": {
+          "dorsal": 11,
+          "name": "GONZALEZ VALTUEÑA, ANGEL"
+        },
+        "in": {
+          "dorsal": 20,
+          "name": "GARRIGA ORS, ALEJANDRO"
+        }
+      },
+      {
+        "minute": 82,
+        "out": {
+          "dorsal": 20,
+          "name": "GARRIGA ORS, ALEJANDRO"
+        },
+        "in": {
+          "dorsal": 15,
+          "name": "BANGUERO LASSO, YILSON EDUTH"
+        }
+      },
+      {
+        "minute": 82,
+        "out": {
+          "dorsal": 8,
+          "name": "SUÁREZ POSTIGO, DANIEL"
+        },
+        "in": {
+          "dorsal": 22,
+          "name": "BLASCO TORNE, GENIS"
+        }
+      },
+      {
+        "minute": 86,
+        "out": {
+          "dorsal": 10,
+          "name": "TEJADA GALLARDO, EDGAR"
+        },
+        "in": {
+          "dorsal": 18,
+          "name": "IBAÑEZ BLASCO, DANIEL"
+        }
+      }
+    ],
     "cards": []
   },
   "away": {
@@ -207,7 +263,74 @@
         "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/18760009"
       }
     ],
-    "substitutions": [],
+    "substitutions": [
+      {
+        "minute": 46,
+        "out": {
+          "dorsal": 24,
+          "name": "FERNANDEZ AMAT, JOSE JAVIER"
+        },
+        "in": {
+          "dorsal": 7,
+          "name": "RECHE HUCHA, OSCAR"
+        }
+      },
+      {
+        "minute": 56,
+        "out": {
+          "dorsal": 6,
+          "name": "MARTINEZ MORENO, CARLOS"
+        },
+        "in": {
+          "dorsal": 14,
+          "name": "BALDE GOMEZ, OMAR"
+        }
+      },
+      {
+        "minute": 56,
+        "out": {
+          "dorsal": 8,
+          "name": "GALEANO JARDI, FERNANDO"
+        },
+        "in": {
+          "dorsal": 15,
+          "name": "RUIZ SANTAMARÍA, HUGO"
+        }
+      },
+      {
+        "minute": 74,
+        "out": {
+          "dorsal": 2,
+          "name": "ORTIZ PARAISO, JOSHUA"
+        },
+        "in": {
+          "dorsal": 17,
+          "name": "MARTI VARELA, DANIEL"
+        }
+      },
+      {
+        "minute": 82,
+        "out": {
+          "dorsal": 5,
+          "name": "PEREZ MARIN, ERIC"
+        },
+        "in": {
+          "dorsal": 22,
+          "name": "HERNANDEZ DEL RIO, DANIEL"
+        }
+      },
+      {
+        "minute": 82,
+        "out": {
+          "dorsal": 19,
+          "name": "HUGUE ALCAIDE, GALDERIC"
+        },
+        "in": {
+          "dorsal": 26,
+          "name": "BARCELO GONZALEZ, DIDAC"
+        }
+      }
+    ],
     "cards": []
   },
   "goals": [

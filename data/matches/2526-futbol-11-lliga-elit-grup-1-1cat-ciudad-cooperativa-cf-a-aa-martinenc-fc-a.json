@@ -108,7 +108,41 @@
         "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/27325614"
       }
     ],
-    "substitutions": [],
+    "substitutions": [
+      {
+        "minute": 46,
+        "out": {
+          "dorsal": 11,
+          "name": "SERRANO RUIZ, LUIS"
+        },
+        "in": {
+          "dorsal": 12,
+          "name": "ZELLAL NEJAM, HICHAM"
+        }
+      },
+      {
+        "minute": 61,
+        "out": {
+          "dorsal": 6,
+          "name": "HIDALGO PEREZ, MANUEL"
+        },
+        "in": {
+          "dorsal": 19,
+          "name": "DELGADO CHICANO, ADRIAN"
+        }
+      },
+      {
+        "minute": 75,
+        "out": {
+          "dorsal": 8,
+          "name": "KADOCHNIKOV , VENIAMIN"
+        },
+        "in": {
+          "dorsal": 16,
+          "name": "RODRÍGUEZ  ARASIL, RUBÉN"
+        }
+      }
+    ],
     "cards": []
   },
   "away": {
@@ -207,7 +241,63 @@
         "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/732891"
       }
     ],
-    "substitutions": [],
+    "substitutions": [
+      {
+        "minute": 46,
+        "out": {
+          "dorsal": 11,
+          "name": "GONZALEZ VALTUEÑA, ANGEL"
+        },
+        "in": {
+          "dorsal": 14,
+          "name": "GONZALEZ ALCANTARA, CARLOS"
+        }
+      },
+      {
+        "minute": 46,
+        "out": {
+          "dorsal": 19,
+          "name": "ARAGONES PADILLA, ALBERT"
+        },
+        "in": {
+          "dorsal": 22,
+          "name": "FABIAN PASCUAL, VICTOR"
+        }
+      },
+      {
+        "minute": 66,
+        "out": {
+          "dorsal": 6,
+          "name": "SOSA MORENO, JUAN"
+        },
+        "in": {
+          "dorsal": 16,
+          "name": "ALARCON MILLAN, KEVIN"
+        }
+      },
+      {
+        "minute": 83,
+        "out": {
+          "dorsal": 23,
+          "name": "MARTINEZ ATIENZA, GERARD"
+        },
+        "in": {
+          "dorsal": 4,
+          "name": "TORRES GOMEZ, ALEJANDRO"
+        }
+      },
+      {
+        "minute": 88,
+        "out": {
+          "dorsal": 10,
+          "name": "TEJADA GALLARDO, EDGAR"
+        },
+        "in": {
+          "dorsal": 20,
+          "name": "GARRIGA ORS, ALEJANDRO"
+        }
+      }
+    ],
     "cards": []
   },
   "goals": [

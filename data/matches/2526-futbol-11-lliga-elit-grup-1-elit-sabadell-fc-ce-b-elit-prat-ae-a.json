@@ -108,7 +108,74 @@
         "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/21396096"
       }
     ],
-    "substitutions": [],
+    "substitutions": [
+      {
+        "minute": 65,
+        "out": {
+          "dorsal": 12,
+          "name": "DIABY DIAWARA, MAMADOU"
+        },
+        "in": {
+          "dorsal": 19,
+          "name": "CHLIH LEHDA, OUSSAMA"
+        }
+      },
+      {
+        "minute": 65,
+        "out": {
+          "dorsal": 9,
+          "name": "GONZÁLEZ GARCÍA, ADRIÁ"
+        },
+        "in": {
+          "dorsal": 3,
+          "name": "TORRES CAMARGO, MARIO"
+        }
+      },
+      {
+        "minute": 65,
+        "out": {
+          "dorsal": 11,
+          "name": "ROSENA CAÑAMERO, IZAN"
+        },
+        "in": {
+          "dorsal": 7,
+          "name": "BOBI CHAMORRO, ADRIÁN"
+        }
+      },
+      {
+        "minute": 77,
+        "out": {
+          "dorsal": 6,
+          "name": "GIRALT PALAHÍ, XAVI"
+        },
+        "in": {
+          "dorsal": 24,
+          "name": "TOURE DIAWARA, MAMADOU BOUHARY"
+        }
+      },
+      {
+        "minute": 89,
+        "out": {
+          "dorsal": 14,
+          "name": "MARCH PONS, BRU"
+        },
+        "in": {
+          "dorsal": 17,
+          "name": "TOURAY , OUSMAN"
+        }
+      },
+      {
+        "minute": 89,
+        "out": {
+          "dorsal": 16,
+          "name": "TOLOSA PÉREZ, ALBERT"
+        },
+        "in": {
+          "dorsal": 2,
+          "name": "BERTRAN DEL RIO, FRANCESC POL"
+        }
+      }
+    ],
     "cards": []
   },
   "away": {
@@ -217,7 +284,63 @@
         "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/678000"
       }
     ],
-    "substitutions": [],
+    "substitutions": [
+      {
+        "minute": 46,
+        "out": {
+          "dorsal": 11,
+          "name": "PLAZA CREMADES, ALEX"
+        },
+        "in": {
+          "dorsal": 14,
+          "name": "RIVAS SANCHEZ, ADRIAN"
+        }
+      },
+      {
+        "minute": 71,
+        "out": {
+          "dorsal": 30,
+          "name": "BONAVENTURA GRIS, DANIEL"
+        },
+        "in": {
+          "dorsal": 12,
+          "name": "ARCHS HORTIGÓN, ALEJANDRO"
+        }
+      },
+      {
+        "minute": 71,
+        "out": {
+          "dorsal": 22,
+          "name": "PADILLA RUBIO, MARC"
+        },
+        "in": {
+          "dorsal": 24,
+          "name": "UFANO SANCHEZ, PABLO"
+        }
+      },
+      {
+        "minute": 71,
+        "out": {
+          "dorsal": 16,
+          "name": "SANCHEZ OCAÑA, ALEJANDRO"
+        },
+        "in": {
+          "dorsal": 7,
+          "name": "PLUVINS RAMOS, XAVIER"
+        }
+      },
+      {
+        "minute": 89,
+        "out": {
+          "dorsal": 20,
+          "name": "GOMEZ CASAS, RUBEN"
+        },
+        "in": {
+          "dorsal": 18,
+          "name": "MUÑOZ VELA, MARC"
+        }
+      }
+    ],
     "cards": []
   },
   "goals": [

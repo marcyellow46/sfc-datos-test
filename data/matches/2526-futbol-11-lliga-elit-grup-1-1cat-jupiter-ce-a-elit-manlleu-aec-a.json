@@ -108,7 +108,85 @@
         "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/786532"
       }
     ],
-    "substitutions": [],
+    "substitutions": [
+      {
+        "minute": 73,
+        "out": {
+          "dorsal": 10,
+          "name": "BARON VARGAS, ADRIA"
+        },
+        "in": {
+          "dorsal": 12,
+          "name": "SANCHEZ MOYA, DANIEL"
+        }
+      },
+      {
+        "minute": 73,
+        "out": {
+          "dorsal": 16,
+          "name": "BORDALLO CANALS, JOAN"
+        },
+        "in": {
+          "dorsal": 23,
+          "name": "SÁNCHEZ OLIVARES, IVÁN"
+        }
+      },
+      {
+        "minute": 73,
+        "out": {
+          "dorsal": 11,
+          "name": "S.MONSÓ"
+        },
+        "in": {
+          "dorsal": 9,
+          "name": "GENESCA GONZALEZ, LLORENÇ"
+        }
+      },
+      {
+        "minute": 88,
+        "out": {
+          "dorsal": 21,
+          "name": "GURREA SANCHEZ, ALBERT"
+        },
+        "in": {
+          "dorsal": 20,
+          "name": "BERNABEU ALVAREZ, ALBERT"
+        }
+      },
+      {
+        "minute": 88,
+        "out": {
+          "dorsal": 5,
+          "name": "KARROUCH KADRI, HICHAM"
+        },
+        "in": {
+          "dorsal": 22,
+          "name": "AYLLON JALDON, SERGI"
+        }
+      },
+      {
+        "minute": 88,
+        "out": {
+          "dorsal": 8,
+          "name": "CHICO MARINA, PATRICK"
+        },
+        "in": {
+          "dorsal": 2,
+          "name": "LEIRA CUTILLAS, DAVID"
+        }
+      },
+      {
+        "minute": 89,
+        "out": {
+          "dorsal": 6,
+          "name": "VAQUERA LOPEZ, IKER"
+        },
+        "in": {
+          "dorsal": 19,
+          "name": "SANCHEZ GOMEZ, ENRIQUE"
+        }
+      }
+    ],
     "cards": []
   },
   "away": {
@@ -212,7 +290,63 @@
         "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/18481364"
       }
     ],
-    "substitutions": [],
+    "substitutions": [
+      {
+        "minute": 46,
+        "out": {
+          "dorsal": 8,
+          "name": "MARTÍNEZ VILÀ, LLUÍS"
+        },
+        "in": {
+          "dorsal": 19,
+          "name": "PIJUAN COLOM, MARC"
+        }
+      },
+      {
+        "minute": 46,
+        "out": {
+          "dorsal": 14,
+          "name": "BASART VIGAS, SERGI"
+        },
+        "in": {
+          "dorsal": 23,
+          "name": "COMAMALA FONT, MARC"
+        }
+      },
+      {
+        "minute": 67,
+        "out": {
+          "dorsal": 15,
+          "name": "LOPEZ SÁNCHEZ, ALBERT"
+        },
+        "in": {
+          "dorsal": 11,
+          "name": "ADU TUTU AMOAH, NANA"
+        }
+      },
+      {
+        "minute": 67,
+        "out": {
+          "dorsal": 17,
+          "name": "CAO FERNÁNDEZ, TONI"
+        },
+        "in": {
+          "dorsal": 22,
+          "name": "CAPDEVILA GALEANO, NIL"
+        }
+      },
+      {
+        "minute": 67,
+        "out": {
+          "dorsal": 12,
+          "name": "MATA GARCIA, MARTI"
+        },
+        "in": {
+          "dorsal": 2,
+          "name": "PUNTI GINESTET, JOEL"
+        }
+      }
+    ],
     "cards": []
   },
   "goals": [

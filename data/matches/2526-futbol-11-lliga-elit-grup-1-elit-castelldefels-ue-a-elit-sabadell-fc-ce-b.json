@@ -108,7 +108,63 @@
         "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/18782056"
       }
     ],
-    "substitutions": [],
+    "substitutions": [
+      {
+        "minute": 56,
+        "out": {
+          "dorsal": 11,
+          "name": "GERBOLES PEREZ, MARIO"
+        },
+        "in": {
+          "dorsal": 17,
+          "name": "FRANCO CARRASCO, PABLO"
+        }
+      },
+      {
+        "minute": 65,
+        "out": {
+          "dorsal": 21,
+          "name": "DIAZ MENDOZA, ALEIX"
+        },
+        "in": {
+          "dorsal": 20,
+          "name": "MALDONADO MOYA, IZAN"
+        }
+      },
+      {
+        "minute": 65,
+        "out": {
+          "dorsal": 2,
+          "name": "MARTIN DURAN, JUAN ANTONIO"
+        },
+        "in": {
+          "dorsal": 6,
+          "name": "GIMENO HERNÁNDEZ, ADRIÁN"
+        }
+      },
+      {
+        "minute": 76,
+        "out": {
+          "dorsal": 9,
+          "name": "POZUELO RIERA, ELOI"
+        },
+        "in": {
+          "dorsal": 10,
+          "name": "CANO JIMENEZ, CARLOS"
+        }
+      },
+      {
+        "minute": 76,
+        "out": {
+          "dorsal": 16,
+          "name": "FERREIRA MOREIRA, JONATHAN"
+        },
+        "in": {
+          "dorsal": 22,
+          "name": "MARTÍ NAVAS, JOEL"
+        }
+      }
+    ],
     "cards": []
   },
   "away": {
@@ -217,7 +273,63 @@
         "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/44698885"
       }
     ],
-    "substitutions": [],
+    "substitutions": [
+      {
+        "minute": 60,
+        "out": {
+          "dorsal": 9,
+          "name": "GONZÁLEZ GARCÍA, ADRIÁ"
+        },
+        "in": {
+          "dorsal": 20,
+          "name": "REECE , JADEN RYAN SAMUEL"
+        }
+      },
+      {
+        "minute": 60,
+        "out": {
+          "dorsal": 7,
+          "name": "BOBI CHAMORRO, ADRIÁN"
+        },
+        "in": {
+          "dorsal": 8,
+          "name": "BORRELL SOTO, ALEIX"
+        }
+      },
+      {
+        "minute": 78,
+        "out": {
+          "dorsal": 10,
+          "name": "DURAN NOMS, FERRAN"
+        },
+        "in": {
+          "dorsal": 23,
+          "name": "BARRERA FONT, ROGER"
+        }
+      },
+      {
+        "minute": 78,
+        "out": {
+          "dorsal": 19,
+          "name": "CHLIH LEHDA, OUSSAMA"
+        },
+        "in": {
+          "dorsal": 26,
+          "name": "DE WEERD ROBLES, ALEX"
+        }
+      },
+      {
+        "minute": 85,
+        "out": {
+          "dorsal": 16,
+          "name": "TOLOSA PÉREZ, ALBERT"
+        },
+        "in": {
+          "dorsal": 6,
+          "name": "GIRALT PALAHÍ, XAVI"
+        }
+      }
+    ],
     "cards": []
   },
   "goals": [

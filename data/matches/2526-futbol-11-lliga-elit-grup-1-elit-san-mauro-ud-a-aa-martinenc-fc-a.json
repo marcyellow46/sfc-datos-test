@@ -103,7 +103,30 @@
         "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/646697"
       }
     ],
-    "substitutions": [],
+    "substitutions": [
+      {
+        "minute": 75,
+        "out": {
+          "dorsal": 12,
+          "name": "MERINAS CLOP, ERNEST"
+        },
+        "in": {
+          "dorsal": 17,
+          "name": "ROMEU MARQUES, POL"
+        }
+      },
+      {
+        "minute": 89,
+        "out": {
+          "dorsal": 19,
+          "name": "CAÑERO CARMONA, ALEX"
+        },
+        "in": {
+          "dorsal": 18,
+          "name": "MORENO ORDOÑEZ, DAVID"
+        }
+      }
+    ],
     "cards": []
   },
   "away": {
@@ -207,7 +230,52 @@
         "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/26282381"
       }
     ],
-    "substitutions": [],
+    "substitutions": [
+      {
+        "minute": 58,
+        "out": {
+          "dorsal": 22,
+          "name": "BLASCO TORNE, GENIS"
+        },
+        "in": {
+          "dorsal": 24,
+          "name": "SANCHEZ PONS, FERRAN"
+        }
+      },
+      {
+        "minute": 67,
+        "out": {
+          "dorsal": 16,
+          "name": "ALARCON MILLAN, KEVIN"
+        },
+        "in": {
+          "dorsal": 8,
+          "name": "SUÁREZ POSTIGO, DANIEL"
+        }
+      },
+      {
+        "minute": 84,
+        "out": {
+          "dorsal": 11,
+          "name": "GONZALEZ VALTUEÑA, ANGEL"
+        },
+        "in": {
+          "dorsal": 25,
+          "name": "RIBERA"
+        }
+      },
+      {
+        "minute": 84,
+        "out": {
+          "dorsal": 9,
+          "name": "OSORIO BARROZO, FAVIO JULIAN"
+        },
+        "in": {
+          "dorsal": 3,
+          "name": "MEGIA ASCASO, ALEJANDRO"
+        }
+      }
+    ],
     "cards": []
   },
   "goals": [

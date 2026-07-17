@@ -103,7 +103,63 @@
         "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/15654695"
       }
     ],
-    "substitutions": [],
+    "substitutions": [
+      {
+        "minute": 65,
+        "out": {
+          "dorsal": 12,
+          "name": "ARAGALL PUIGVERT, JORDI"
+        },
+        "in": {
+          "dorsal": 22,
+          "name": "KOUBISS AJOUB, ALI"
+        }
+      },
+      {
+        "minute": 73,
+        "out": {
+          "dorsal": 15,
+          "name": "CIFUENTES PELAEZ, RUBEN"
+        },
+        "in": {
+          "dorsal": 7,
+          "name": "HAMAD , ABDUL-MOUATY"
+        }
+      },
+      {
+        "minute": 78,
+        "out": {
+          "dorsal": 20,
+          "name": "VALVERDE MILLAN, JUAN"
+        },
+        "in": {
+          "dorsal": 18,
+          "name": "AGUILAR COSTA, JULIA"
+        }
+      },
+      {
+        "minute": 82,
+        "out": {
+          "dorsal": 21,
+          "name": "FORNELL SAEZ, JOAQUIM"
+        },
+        "in": {
+          "dorsal": 19,
+          "name": "SÁNCHEZ GIRÁLDEZ, ERIC"
+        }
+      },
+      {
+        "minute": 82,
+        "out": {
+          "dorsal": 11,
+          "name": "REYES SEGURA, DAVID"
+        },
+        "in": {
+          "dorsal": 9,
+          "name": "LOPEZ CABEZAS, JORDI"
+        }
+      }
+    ],
     "cards": []
   },
   "away": {
@@ -207,7 +263,52 @@
         "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/694000"
       }
     ],
-    "substitutions": [],
+    "substitutions": [
+      {
+        "minute": 46,
+        "out": {
+          "dorsal": 7,
+          "name": "REGUIA EL ANNOUTI, ISMAEL"
+        },
+        "in": {
+          "dorsal": 22,
+          "name": "HERNANDEZ DEL RIO, DANIEL"
+        }
+      },
+      {
+        "minute": 60,
+        "out": {
+          "dorsal": 26,
+          "name": "BARCELO GONZALEZ, DIDAC"
+        },
+        "in": {
+          "dorsal": 15,
+          "name": "BA ANDEME, MARCELO SALIOU"
+        }
+      },
+      {
+        "minute": 63,
+        "out": {
+          "dorsal": 8,
+          "name": "GALEANO JARDI, FERNANDO"
+        },
+        "in": {
+          "dorsal": 17,
+          "name": "RODRÍGUEZ FERNÁNDEZ, DANIEL"
+        }
+      },
+      {
+        "minute": 78,
+        "out": {
+          "dorsal": 11,
+          "name": "DIAZ MOLINA, ERIC"
+        },
+        "in": {
+          "dorsal": 16,
+          "name": "FERNANDEZ AMAT, JOSE JAVIER"
+        }
+      }
+    ],
     "cards": []
   },
   "goals": [

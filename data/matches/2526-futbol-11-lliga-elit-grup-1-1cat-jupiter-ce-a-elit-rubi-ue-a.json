@@ -93,7 +93,52 @@
         "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/786532"
       }
     ],
-    "substitutions": [],
+    "substitutions": [
+      {
+        "minute": 62,
+        "out": {
+          "dorsal": 9,
+          "name": "GENESCA GONZALEZ, LLORENÇ"
+        },
+        "in": {
+          "dorsal": 20,
+          "name": "RUIZ ROMERA, DANIEL"
+        }
+      },
+      {
+        "minute": 62,
+        "out": {
+          "dorsal": 3,
+          "name": "BASSOLS BOSCH, ADRIA"
+        },
+        "in": {
+          "dorsal": 8,
+          "name": "CHICO MARINA, PATRICK"
+        }
+      },
+      {
+        "minute": 76,
+        "out": {
+          "dorsal": 22,
+          "name": "AYLLON JALDON, SERGI"
+        },
+        "in": {
+          "dorsal": 23,
+          "name": "GONZALEZ NAVARRO, DIDAC"
+        }
+      },
+      {
+        "minute": 76,
+        "out": {
+          "dorsal": 14,
+          "name": "GARCIA PASCUAL, ALEX"
+        },
+        "in": {
+          "dorsal": 5,
+          "name": "KARROUCH KADRI, HICHAM"
+        }
+      }
+    ],
     "cards": []
   },
   "away": {
@@ -197,7 +242,63 @@
         "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/15695612"
       }
     ],
-    "substitutions": [],
+    "substitutions": [
+      {
+        "minute": 70,
+        "out": {
+          "dorsal": 22,
+          "name": "MENDOZA GARCIA, SEBASTIA"
+        },
+        "in": {
+          "dorsal": 16,
+          "name": "CASTILLO MARAVER, ERIK"
+        }
+      },
+      {
+        "minute": 70,
+        "out": {
+          "dorsal": 14,
+          "name": "HERRANZ VIDAL, PAU"
+        },
+        "in": {
+          "dorsal": 6,
+          "name": "MUÑOZ DELGADO, ALEJANDRO"
+        }
+      },
+      {
+        "minute": 78,
+        "out": {
+          "dorsal": 23,
+          "name": "DIAZ WILLIAMS, KEVIN"
+        },
+        "in": {
+          "dorsal": 5,
+          "name": "CORNELLA MOLINS, ALEX"
+        }
+      },
+      {
+        "minute": 89,
+        "out": {
+          "dorsal": 2,
+          "name": "TORRES MARTÍNEZ, AITOR"
+        },
+        "in": {
+          "dorsal": 21,
+          "name": "MARTIN RIVERA, AIMAR"
+        }
+      },
+      {
+        "minute": 89,
+        "out": {
+          "dorsal": 8,
+          "name": "MASIP MENDEZ, JORDI"
+        },
+        "in": {
+          "dorsal": 4,
+          "name": "YAHYA RABIE, AYOUB"
+        }
+      }
+    ],
     "cards": []
   },
   "goals": [

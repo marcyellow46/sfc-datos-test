@@ -108,7 +108,63 @@
         "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/18474635"
       }
     ],
-    "substitutions": [],
+    "substitutions": [
+      {
+        "minute": 63,
+        "out": {
+          "dorsal": 2,
+          "name": "MORENO GAITAN, MARC"
+        },
+        "in": {
+          "dorsal": 21,
+          "name": "PARISI FERRANDIZ, GUILLEM"
+        }
+      },
+      {
+        "minute": 63,
+        "out": {
+          "dorsal": 16,
+          "name": "GUTIERREZ DESTEFANIS, AGUSTIN"
+        },
+        "in": {
+          "dorsal": 24,
+          "name": "CARDONA PONS, UBAI"
+        }
+      },
+      {
+        "minute": 74,
+        "out": {
+          "dorsal": 12,
+          "name": "CID PLA, POL"
+        },
+        "in": {
+          "dorsal": 3,
+          "name": "DANILO LUCHETTI"
+        }
+      },
+      {
+        "minute": 74,
+        "out": {
+          "dorsal": 23,
+          "name": "RAYA BERNAL, PAU"
+        },
+        "in": {
+          "dorsal": 8,
+          "name": "BEAMUZ  AROCA, ÀLEX"
+        }
+      },
+      {
+        "minute": 86,
+        "out": {
+          "dorsal": 7,
+          "name": "QUEROL MONTAÑES, ALBERT"
+        },
+        "in": {
+          "dorsal": 26,
+          "name": "AGUZZI BETTINI, NICOLAS ALBERTO"
+        }
+      }
+    ],
     "cards": []
   },
   "away": {
@@ -217,7 +273,63 @@
         "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/15148554"
       }
     ],
-    "substitutions": [],
+    "substitutions": [
+      {
+        "minute": 69,
+        "out": {
+          "dorsal": 16,
+          "name": "PEDROL PALMADA, GERARD"
+        },
+        "in": {
+          "dorsal": 7,
+          "name": "HAMAD , ABDUL-MOUATY"
+        }
+      },
+      {
+        "minute": 69,
+        "out": {
+          "dorsal": 15,
+          "name": "CIFUENTES PELAEZ, RUBEN"
+        },
+        "in": {
+          "dorsal": 8,
+          "name": "VILAJOSANA MAY, VÍCTOR"
+        }
+      },
+      {
+        "minute": 80,
+        "out": {
+          "dorsal": 12,
+          "name": "ARAGALL PUIGVERT, JORDI"
+        },
+        "in": {
+          "dorsal": 18,
+          "name": "AGUILAR COSTA, JULIA"
+        }
+      },
+      {
+        "minute": 80,
+        "out": {
+          "dorsal": 11,
+          "name": "FORNELL SAEZ, JOAQUIM"
+        },
+        "in": {
+          "dorsal": 19,
+          "name": "SÁNCHEZ GIRÁLDEZ, ERIC"
+        }
+      },
+      {
+        "minute": 80,
+        "out": {
+          "dorsal": 4,
+          "name": "JOSA LEVRATTO, GUILLEM"
+        },
+        "in": {
+          "dorsal": 2,
+          "name": "AREGALL GUILLEN, VICTOR"
+        }
+      }
+    ],
     "cards": []
   },
   "goals": [],

@@ -103,7 +103,85 @@
         "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/18557632"
       }
     ],
-    "substitutions": [],
+    "substitutions": [
+      {
+        "minute": 7,
+        "out": {
+          "dorsal": 18,
+          "name": "CARDENAS CASTILLO, AITOR"
+        },
+        "in": {
+          "dorsal": 20,
+          "name": "MURO"
+        }
+      },
+      {
+        "minute": 46,
+        "out": {
+          "dorsal": 23,
+          "name": "COMAMALA FONT, MARC"
+        },
+        "in": {
+          "dorsal": 19,
+          "name": "PIJUAN COLOM, MARC"
+        }
+      },
+      {
+        "minute": 73,
+        "out": {
+          "dorsal": 8,
+          "name": "CAPDEVILA GALEANO, NIL"
+        },
+        "in": {
+          "dorsal": 21,
+          "name": "VILA SERRA, OLEGUER"
+        }
+      },
+      {
+        "minute": 79,
+        "out": {
+          "dorsal": 17,
+          "name": "CAO FERNÁNDEZ, TONI"
+        },
+        "in": {
+          "dorsal": 11,
+          "name": "ADU TUTU AMOAH, NANA"
+        }
+      },
+      {
+        "minute": 79,
+        "out": {
+          "dorsal": 12,
+          "name": "MATA GARCIA, MARTI"
+        },
+        "in": {
+          "dorsal": 4,
+          "name": "COSTA GARCIA, JORDI"
+        }
+      },
+      {
+        "minute": 85,
+        "out": {
+          "dorsal": 7,
+          "name": "ROSSELL VIDAL, ANTONI"
+        },
+        "in": {
+          "dorsal": 14,
+          "name": "BASART VIGAS, SERGI"
+        }
+      },
+      {
+        "minute": 85,
+        "out": {
+          "dorsal": 15,
+          "name": "LOPEZ SÁNCHEZ, ALBERT"
+        },
+        "in": {
+          "dorsal": 16,
+          "name": "COLLELL JORDÀ, GERARD"
+        }
+      }
+    ],
     "cards": []
   },
   "away": {
@@ -212,7 +290,85 @@
         "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/43487600"
       }
     ],
-    "substitutions": [],
+    "substitutions": [
+      {
+        "minute": 46,
+        "out": {
+          "dorsal": 15,
+          "name": "ANDREU LOPEZ, LUCAS"
+        },
+        "in": {
+          "dorsal": 3,
+          "name": "PALACIOS CORRAL, ALEJANDRO"
+        }
+      },
+      {
+        "minute": 57,
+        "out": {
+          "dorsal": 8,
+          "name": "RUIZ PIQUE, ARNAU"
+        },
+        "in": {
+          "dorsal": 12,
+          "name": "SANCHEZ PLACENCIA, IVAN"
+        }
+      },
+      {
+        "minute": 57,
+        "out": {
+          "dorsal": 17,
+          "name": "GIL NAVARRO, JOEL"
+        },
+        "in": {
+          "dorsal": 25,
+          "name": "KANTE , ALHASSANE"
+        }
+      },
+      {
+        "minute": 57,
+        "out": {
+          "dorsal": 6,
+          "name": "GONZÁLEZ TARRUELLA, MARC"
+        },
+        "in": {
+          "dorsal": 9,
+          "name": "WERCKMEISTER GARCIA, ANDER"
+        }
+      },
+      {
+        "minute": 73,
+        "out": {
+          "dorsal": 11,
+          "name": "BEATTIE ORFILA, ERIK"
+        },
+        "in": {
+          "dorsal": 7,
+          "name": "MATEO QUEJIGO, PAU"
+        }
+      },
+      {
+        "minute": 79,
+        "out": {
+          "dorsal": 21,
+          "name": "PEREZ PICON, DAVID"
+        },
+        "in": {
+          "dorsal": 19,
+          "name": "ARJONA SERRANO, PAU"
+        }
+      },
+      {
+        "minute": 85,
+        "out": {
+          "dorsal": 16,
+          "name": "MELERO CALVO, UNAI"
+        },
+        "in": {
+          "dorsal": 22,
+          "name": "LASTRA SERRANO, JUAN CAMILO"
+        }
+      }
+    ],
     "cards": []
   },
   "goals": [

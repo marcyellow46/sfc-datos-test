@@ -108,7 +108,63 @@
         "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/15187113"
       }
     ],
-    "substitutions": [],
+    "substitutions": [
+      {
+        "minute": 46,
+        "out": {
+          "dorsal": 22,
+          "name": "UFANO SANCHEZ, PABLO"
+        },
+        "in": {
+          "dorsal": 12,
+          "name": "ARCHS HORTIGÓN, ALEJANDRO"
+        }
+      },
+      {
+        "minute": 46,
+        "out": {
+          "dorsal": 2,
+          "name": "ADAN DELGADO, DAVID"
+        },
+        "in": {
+          "dorsal": 9,
+          "name": "VIDAL GIRONES, RICARD"
+        }
+      },
+      {
+        "minute": 60,
+        "out": {
+          "dorsal": 6,
+          "name": "REINKE GONÇALVES, GUSTAVO"
+        },
+        "in": {
+          "dorsal": 27,
+          "name": "VICTOR DELGADO, XAVI"
+        }
+      },
+      {
+        "minute": 77,
+        "out": {
+          "dorsal": 30,
+          "name": "BONAVENTURA GRIS, DANIEL"
+        },
+        "in": {
+          "dorsal": 11,
+          "name": "PLAZA CREMADES, ALEX"
+        }
+      },
+      {
+        "minute": 82,
+        "out": {
+          "dorsal": 19,
+          "name": "DONCHEV , MARTIN VALERIEV"
+        },
+        "in": {
+          "dorsal": 15,
+          "name": "HIDALGO GARCIA, DAVID"
+        }
+      }
+    ],
     "cards": []
   },
   "away": {
@@ -212,7 +268,63 @@
         "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/18481364"
       }
     ],
-    "substitutions": [],
+    "substitutions": [
+      {
+        "minute": 55,
+        "out": {
+          "dorsal": 15,
+          "name": "LOPEZ SÁNCHEZ, ALBERT"
+        },
+        "in": {
+          "dorsal": 19,
+          "name": "PIJUAN COLOM, MARC"
+        }
+      },
+      {
+        "minute": 73,
+        "out": {
+          "dorsal": 21,
+          "name": "MORAL ROGER, ELOI"
+        },
+        "in": {
+          "dorsal": 23,
+          "name": "COMAMALA FONT, MARC"
+        }
+      },
+      {
+        "minute": 73,
+        "out": {
+          "dorsal": 17,
+          "name": "CAO FERNÁNDEZ, TONI"
+        },
+        "in": {
+          "dorsal": 8,
+          "name": "CAPDEVILA GALEANO, NIL"
+        }
+      },
+      {
+        "minute": 82,
+        "out": {
+          "dorsal": 4,
+          "name": "COSTA GARCIA, JORDI"
+        },
+        "in": {
+          "dorsal": 14,
+          "name": "BASART VIGAS, SERGI"
+        }
+      },
+      {
+        "minute": 82,
+        "out": {
+          "dorsal": 12,
+          "name": "MATA GARCIA, MARTI"
+        },
+        "in": {
+          "dorsal": 3,
+          "name": "ROURA JIMÉNEZ, ROGER"
+        }
+      }
+    ],
     "cards": []
   },
   "goals": [

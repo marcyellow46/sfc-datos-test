@@ -108,7 +108,63 @@
         "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/15195656"
       }
     ],
-    "substitutions": [],
+    "substitutions": [
+      {
+        "minute": 63,
+        "out": {
+          "dorsal": 19,
+          "name": "NUÑEZ RUIZ, YANIS"
+        },
+        "in": {
+          "dorsal": 17,
+          "name": "ROMEU MARQUES, POL"
+        }
+      },
+      {
+        "minute": 63,
+        "out": {
+          "dorsal": 11,
+          "name": "YÁÑEZ BORRÀS, PAU"
+        },
+        "in": {
+          "dorsal": 22,
+          "name": "PUCHE RODRÍGUEZ, FERRAN"
+        }
+      },
+      {
+        "minute": 69,
+        "out": {
+          "dorsal": 10,
+          "name": "ARIBAU CASALS, JORDI"
+        },
+        "in": {
+          "dorsal": 15,
+          "name": "ESPINOSA FIGUERAS, JAIRÓN RUBÉN"
+        }
+      },
+      {
+        "minute": 69,
+        "out": {
+          "dorsal": 20,
+          "name": "GULIAS AGUILERA, MARC"
+        },
+        "in": {
+          "dorsal": 16,
+          "name": "SARSANEDAS CONTRERAS, JOAO"
+        }
+      },
+      {
+        "minute": 84,
+        "out": {
+          "dorsal": 7,
+          "name": "NAVARRO LÓPEZ, JOSEP"
+        },
+        "in": {
+          "dorsal": 9,
+          "name": "ESCAMILLA VAN DER DONK, ROGER"
+        }
+      }
+    ],
     "cards": []
   },
   "away": {
@@ -217,7 +273,85 @@
         "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/15661919"
       }
     ],
-    "substitutions": [],
+    "substitutions": [
+      {
+        "minute": 46,
+        "out": {
+          "dorsal": 6,
+          "name": "PALAU DOMINGO, SERGI"
+        },
+        "in": {
+          "dorsal": 10,
+          "name": "BARROSO COTO, ERIK"
+        }
+      },
+      {
+        "minute": 63,
+        "out": {
+          "dorsal": 23,
+          "name": "LORCA RODRÍGUEZ, JOAQUIN"
+        },
+        "in": {
+          "dorsal": 17,
+          "name": "ZHOVTENKO , OLEKSANDR"
+        }
+      },
+      {
+        "minute": 74,
+        "out": {
+          "dorsal": 20,
+          "name": "GÓMEZ MACÍAS, HUGO"
+        },
+        "in": {
+          "dorsal": 22,
+          "name": "LEON SEGURA, PAU"
+        }
+      },
+      {
+        "minute": 74,
+        "out": {
+          "dorsal": 11,
+          "name": "PRADES MANRESA, JORDI"
+        },
+        "in": {
+          "dorsal": 3,
+          "name": "MORELL BONO, OSCAR"
+        }
+      },
+      {
+        "minute": 81,
+        "out": {
+          "dorsal": 7,
+          "name": "SUAREZ SANZ, ADRIA"
+        },
+        "in": {
+          "dorsal": 18,
+          "name": "CIURÓ ALTÉS, ARNAU"
+        }
+      },
+      {
+        "minute": 81,
+        "out": {
+          "dorsal": 21,
+          "name": "BILE , JEAN CLAUDE TOFEY"
+        },
+        "in": {
+          "dorsal": 2,
+          "name": "EL MANSORI ZOUBAI, YASSIN"
+        }
+      },
+      {
+        "minute": 89,
+        "out": {
+          "dorsal": 15,
+          "name": "SANTIAGO CORTES, ANTONIO"
+        },
+        "in": {
+          "dorsal": 19,
+          "name": "VEGA ALDOMA, SERGI"
+        }
+      }
+    ],
     "cards": []
   },
   "goals": [

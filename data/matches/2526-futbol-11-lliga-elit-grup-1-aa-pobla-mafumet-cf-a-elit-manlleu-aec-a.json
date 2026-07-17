@@ -108,7 +108,63 @@
         "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/18474635"
       }
     ],
-    "substitutions": [],
+    "substitutions": [
+      {
+        "minute": 60,
+        "out": {
+          "dorsal": 24,
+          "name": "CARDONA PONS, UBAI"
+        },
+        "in": {
+          "dorsal": 14,
+          "name": "CIURÓ RIUDEUBAS, ROGER"
+        }
+      },
+      {
+        "minute": 60,
+        "out": {
+          "dorsal": 16,
+          "name": "GUTIERREZ DESTEFANIS, AGUSTIN"
+        },
+        "in": {
+          "dorsal": 21,
+          "name": "PARISI FERRANDIZ, GUILLEM"
+        }
+      },
+      {
+        "minute": 60,
+        "out": {
+          "dorsal": 5,
+          "name": "MARQUEZ SANCHEZ, CRISTIAN"
+        },
+        "in": {
+          "dorsal": 2,
+          "name": "MORENO GAITAN, MARC"
+        }
+      },
+      {
+        "minute": 60,
+        "out": {
+          "dorsal": 19,
+          "name": "CABEZAS MENSAH, DAVID"
+        },
+        "in": {
+          "dorsal": 8,
+          "name": "BEAMUZ  AROCA, ÀLEX"
+        }
+      },
+      {
+        "minute": 82,
+        "out": {
+          "dorsal": 7,
+          "name": "QUEROL MONTAÑES, ALBERT"
+        },
+        "in": {
+          "dorsal": 26,
+          "name": "AGUZZI BETTINI, NICOLAS ALBERTO"
+        }
+      }
+    ],
     "cards": []
   },
   "away": {
@@ -202,7 +258,52 @@
         "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/18557632"
       }
     ],
-    "substitutions": [],
+    "substitutions": [
+      {
+        "minute": 69,
+        "out": {
+          "dorsal": 15,
+          "name": "LOPEZ SÁNCHEZ, ALBERT"
+        },
+        "in": {
+          "dorsal": 21,
+          "name": "VILA SERRA, OLEGUER"
+        }
+      },
+      {
+        "minute": 76,
+        "out": {
+          "dorsal": 19,
+          "name": "PIJUAN COLOM, MARC"
+        },
+        "in": {
+          "dorsal": 11,
+          "name": "QUADRI , MURITALA ABIOLA"
+        }
+      },
+      {
+        "minute": 76,
+        "out": {
+          "dorsal": 23,
+          "name": "COMAMALA FONT, MARC"
+        },
+        "in": {
+          "dorsal": 16,
+          "name": "KIPIANI MAZMANOV, LUKA"
+        }
+      },
+      {
+        "minute": 86,
+        "out": {
+          "dorsal": 8,
+          "name": "CAPDEVILA GALEANO, NIL"
+        },
+        "in": {
+          "dorsal": 20,
+          "name": "MURO"
+        }
+      }
+    ],
     "cards": []
   },
   "goals": [],

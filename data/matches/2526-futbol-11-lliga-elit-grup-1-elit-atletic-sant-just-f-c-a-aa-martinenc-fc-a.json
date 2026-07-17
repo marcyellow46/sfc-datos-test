@@ -108,7 +108,52 @@
         "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/785098"
       }
     ],
-    "substitutions": [],
+    "substitutions": [
+      {
+        "minute": 46,
+        "out": {
+          "dorsal": 7,
+          "name": "MATEO QUEJIGO, PAU"
+        },
+        "in": {
+          "dorsal": 18,
+          "name": "GASPAR MARTINEZ, MARIO"
+        }
+      },
+      {
+        "minute": 64,
+        "out": {
+          "dorsal": 9,
+          "name": "GUMA CERQUEDA, JAN"
+        },
+        "in": {
+          "dorsal": 17,
+          "name": "GIL NAVARRO, JOEL"
+        }
+      },
+      {
+        "minute": 74,
+        "out": {
+          "dorsal": 14,
+          "name": "RABANAL VILLAR, ANIOL"
+        },
+        "in": {
+          "dorsal": 23,
+          "name": "CLAVIJO LARIOS, PABLO"
+        }
+      },
+      {
+        "minute": 83,
+        "out": {
+          "dorsal": 4,
+          "name": "PALACIOS CORRAL, IGNACIO"
+        },
+        "in": {
+          "dorsal": 12,
+          "name": "SANCHEZ PLACENCIA, IVAN"
+        }
+      }
+    ],
     "cards": []
   },
   "away": {
@@ -217,7 +262,41 @@
         "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/26282381"
       }
     ],
-    "substitutions": [],
+    "substitutions": [
+      {
+        "minute": 60,
+        "out": {
+          "dorsal": 22,
+          "name": "BLASCO TORNE, GENIS"
+        },
+        "in": {
+          "dorsal": 16,
+          "name": "ALARCON MILLAN, KEVIN"
+        }
+      },
+      {
+        "minute": 60,
+        "out": {
+          "dorsal": 8,
+          "name": "SUÁREZ POSTIGO, DANIEL"
+        },
+        "in": {
+          "dorsal": 9,
+          "name": "OSORIO BARROZO, FAVIO JULIAN"
+        }
+      },
+      {
+        "minute": 74,
+        "out": {
+          "dorsal": 11,
+          "name": "GONZALEZ VALTUEÑA, ANGEL"
+        },
+        "in": {
+          "dorsal": 14,
+          "name": "GONZALEZ ALCANTARA, CARLOS"
+        }
+      }
+    ],
     "cards": []
   },
   "goals": [],

@@ -103,7 +103,63 @@
         "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/19806774"
       }
     ],
-    "substitutions": [],
+    "substitutions": [
+      {
+        "minute": 57,
+        "out": {
+          "dorsal": 19,
+          "name": "PIJUAN COLOM, MARC"
+        },
+        "in": {
+          "dorsal": 17,
+          "name": "CAO FERNÁNDEZ, TONI"
+        }
+      },
+      {
+        "minute": 70,
+        "out": {
+          "dorsal": 23,
+          "name": "COMAMALA FONT, MARC"
+        },
+        "in": {
+          "dorsal": 11,
+          "name": "ADU TUTU AMOAH, NANA"
+        }
+      },
+      {
+        "minute": 70,
+        "out": {
+          "dorsal": 9,
+          "name": "CASANOVA CLUSELLS, ADRIA"
+        },
+        "in": {
+          "dorsal": 8,
+          "name": "MARTÍNEZ VILÀ, LLUÍS"
+        }
+      },
+      {
+        "minute": 85,
+        "out": {
+          "dorsal": 12,
+          "name": "MATA GARCIA, MARTI"
+        },
+        "in": {
+          "dorsal": 18,
+          "name": "CARDENAS CASTILLO, AITOR"
+        }
+      },
+      {
+        "minute": 85,
+        "out": {
+          "dorsal": 15,
+          "name": "LOPEZ SÁNCHEZ, ALBERT"
+        },
+        "in": {
+          "dorsal": 20,
+          "name": "MURO"
+        }
+      }
+    ],
     "cards": []
   },
   "away": {
@@ -212,7 +268,74 @@
         "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/55354829"
       }
     ],
-    "substitutions": [],
+    "substitutions": [
+      {
+        "minute": 46,
+        "out": {
+          "dorsal": 18,
+          "name": "ZAMORA LOZANO, ALONSO"
+        },
+        "in": {
+          "dorsal": 24,
+          "name": "TOURE DIAWARA, MAMADOU BOUHARY"
+        }
+      },
+      {
+        "minute": 46,
+        "out": {
+          "dorsal": 11,
+          "name": "ROSENA CAÑAMERO, IZAN"
+        },
+        "in": {
+          "dorsal": 3,
+          "name": "TORRES CAMARGO, MARIO"
+        }
+      },
+      {
+        "minute": 62,
+        "out": {
+          "dorsal": 15,
+          "name": "MUÑOZ RAYA, MARCOS"
+        },
+        "in": {
+          "dorsal": 19,
+          "name": "CHLIH LEHDA, OUSSAMA"
+        }
+      },
+      {
+        "minute": 62,
+        "out": {
+          "dorsal": 10,
+          "name": "DURAN NOMS, FERRAN"
+        },
+        "in": {
+          "dorsal": 23,
+          "name": "BARRERA FONT, ROGER"
+        }
+      },
+      {
+        "minute": 70,
+        "out": {
+          "dorsal": 14,
+          "name": "MARCH PONS, BRU"
+        },
+        "in": {
+          "dorsal": 21,
+          "name": "DIAZ SORIANO, ALBERTO"
+        }
+      },
+      {
+        "minute": 70,
+        "out": {
+          "dorsal": 9,
+          "name": "GONZÁLEZ GARCÍA, ADRIÁ"
+        },
+        "in": {
+          "dorsal": 22,
+          "name": "SÁEZ JIMÉNEZ, ENRIC"
+        }
+      }
+    ],
     "cards": []
   },
   "goals": [

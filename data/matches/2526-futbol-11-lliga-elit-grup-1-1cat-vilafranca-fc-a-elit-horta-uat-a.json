@@ -108,7 +108,52 @@
         "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/20122441"
       }
     ],
-    "substitutions": [],
+    "substitutions": [
+      {
+        "minute": 67,
+        "out": {
+          "dorsal": 23,
+          "name": "CABRERIZO TOCON, ADRIAN"
+        },
+        "in": {
+          "dorsal": 7,
+          "name": "CASTELL SOLE, NIL"
+        }
+      },
+      {
+        "minute": 67,
+        "out": {
+          "dorsal": 17,
+          "name": "MARC"
+        },
+        "in": {
+          "dorsal": 8,
+          "name": "POL MARCE"
+        }
+      },
+      {
+        "minute": 83,
+        "out": {
+          "dorsal": 19,
+          "name": "ESCOFET ALEMANY, SERGI"
+        },
+        "in": {
+          "dorsal": 12,
+          "name": "RADINSKY , TEODOR KRASSINOV"
+        }
+      },
+      {
+        "minute": 85,
+        "out": {
+          "dorsal": 4,
+          "name": "OLTRA PLA, IKER"
+        },
+        "in": {
+          "dorsal": 20,
+          "name": "MARÍ PASCUAL, ALEIX"
+        }
+      }
+    ],
     "cards": []
   },
   "away": {
@@ -217,7 +262,63 @@
         "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/24255628"
       }
     ],
-    "substitutions": [],
+    "substitutions": [
+      {
+        "minute": 63,
+        "out": {
+          "dorsal": 15,
+          "name": "CIFUENTES PELAEZ, RUBEN"
+        },
+        "in": {
+          "dorsal": 16,
+          "name": "PEDROL PALMADA, GERARD"
+        }
+      },
+      {
+        "minute": 63,
+        "out": {
+          "dorsal": 24,
+          "name": "VILLAGRASA JIMENEZ, BRUNO"
+        },
+        "in": {
+          "dorsal": 8,
+          "name": "VILAJOSANA MAY, VÍCTOR"
+        }
+      },
+      {
+        "minute": 67,
+        "out": {
+          "dorsal": 20,
+          "name": "VALVERDE MILLAN, JUAN"
+        },
+        "in": {
+          "dorsal": 7,
+          "name": "BABIA , HAITAM"
+        }
+      },
+      {
+        "minute": 77,
+        "out": {
+          "dorsal": 21,
+          "name": "FORNELL SAEZ, JOAQUIM"
+        },
+        "in": {
+          "dorsal": 19,
+          "name": "SÁNCHEZ GIRÁLDEZ, ERIC"
+        }
+      },
+      {
+        "minute": 85,
+        "out": {
+          "dorsal": 22,
+          "name": "KOUBISS AJOUB, ALI"
+        },
+        "in": {
+          "dorsal": 14,
+          "name": "HAMAD , ABDUL-MOUATY"
+        }
+      }
+    ],
     "cards": []
   },
   "goals": [

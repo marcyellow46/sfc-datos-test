@@ -108,7 +108,85 @@
         "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/15548932"
       }
     ],
-    "substitutions": [],
+    "substitutions": [
+      {
+        "minute": 46,
+        "out": {
+          "dorsal": 17,
+          "name": "DAHBI AKALAY, BADREDDINE"
+        },
+        "in": {
+          "dorsal": 12,
+          "name": "SANCHEZ MOYA, DANIEL"
+        }
+      },
+      {
+        "minute": 63,
+        "out": {
+          "dorsal": 24,
+          "name": "CLARÀ ANDREU, GERARD"
+        },
+        "in": {
+          "dorsal": 15,
+          "name": "PEÑA PEREZ, SERGIO"
+        }
+      },
+      {
+        "minute": 63,
+        "out": {
+          "dorsal": 22,
+          "name": "AYLLON JALDON, SERGI"
+        },
+        "in": {
+          "dorsal": 23,
+          "name": "GONZALEZ NAVARRO, DIDAC"
+        }
+      },
+      {
+        "minute": 71,
+        "out": {
+          "dorsal": 8,
+          "name": "CHICO MARINA, PATRICK"
+        },
+        "in": {
+          "dorsal": 14,
+          "name": "GARCIA PASCUAL, ALEX"
+        }
+      },
+      {
+        "minute": 71,
+        "out": {
+          "dorsal": 11,
+          "name": "S.MONSÓ"
+        },
+        "in": {
+          "dorsal": 9,
+          "name": "GENESCA GONZALEZ, LLORENÇ"
+        }
+      },
+      {
+        "minute": 86,
+        "out": {
+          "dorsal": 18,
+          "name": "RODRIGUEZ ROSA, BIEL"
+        },
+        "in": {
+          "dorsal": 2,
+          "name": "LEIRA CUTILLAS, DAVID"
+        }
+      },
+      {
+        "minute": 86,
+        "out": {
+          "dorsal": 6,
+          "name": "VAQUERA LOPEZ, IKER"
+        },
+        "in": {
+          "dorsal": 3,
+          "name": "BASSOLS BOSCH, ADRIA"
+        }
+      }
+    ],
     "cards": []
   },
   "away": {
@@ -207,7 +285,30 @@
         "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/18760009"
       }
     ],
-    "substitutions": [],
+    "substitutions": [
+      {
+        "minute": 71,
+        "out": {
+          "dorsal": 11,
+          "name": "DIAZ MOLINA, ERIC"
+        },
+        "in": {
+          "dorsal": 24,
+          "name": "FERNANDEZ AMAT, JOSE JAVIER"
+        }
+      },
+      {
+        "minute": 75,
+        "out": {
+          "dorsal": 15,
+          "name": "RUIZ SANTAMARÍA, HUGO"
+        },
+        "in": {
+          "dorsal": 8,
+          "name": "GALEANO JARDI, FERNANDO"
+        }
+      }
+    ],
     "cards": []
   },
   "goals": [

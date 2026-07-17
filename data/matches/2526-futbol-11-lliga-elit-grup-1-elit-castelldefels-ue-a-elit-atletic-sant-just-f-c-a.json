@@ -108,7 +108,74 @@
         "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/40748333"
       }
     ],
-    "substitutions": [],
+    "substitutions": [
+      {
+        "minute": 60,
+        "out": {
+          "dorsal": 20,
+          "name": "MALDONADO MOYA, IZAN"
+        },
+        "in": {
+          "dorsal": 24,
+          "name": "VILLAVERDE GARCIA, KILIAN"
+        }
+      },
+      {
+        "minute": 69,
+        "out": {
+          "dorsal": 14,
+          "name": "GIBERT FUERTES, JOAN"
+        },
+        "in": {
+          "dorsal": 16,
+          "name": "FERREIRA MOREIRA, JONATHAN"
+        }
+      },
+      {
+        "minute": 77,
+        "out": {
+          "dorsal": 9,
+          "name": "POZUELO RIERA, ELOI"
+        },
+        "in": {
+          "dorsal": 10,
+          "name": "CANO JIMENEZ, CARLOS"
+        }
+      },
+      {
+        "minute": 77,
+        "out": {
+          "dorsal": 11,
+          "name": "GERBOLES PEREZ, MARIO"
+        },
+        "in": {
+          "dorsal": 21,
+          "name": "DIAZ MENDOZA, ALEIX"
+        }
+      },
+      {
+        "minute": 86,
+        "out": {
+          "dorsal": 6,
+          "name": "GIMENO HERNÁNDEZ, ADRIÁN"
+        },
+        "in": {
+          "dorsal": 7,
+          "name": "RAMIREZ RUIZ, ENRIQUE"
+        }
+      },
+      {
+        "minute": 89,
+        "out": {
+          "dorsal": 19,
+          "name": "PARRA GARCIA, EDGAR"
+        },
+        "in": {
+          "dorsal": 2,
+          "name": "MARTIN DURAN, JUAN ANTONIO"
+        }
+      }
+    ],
     "cards": []
   },
   "away": {
@@ -217,7 +284,85 @@
         "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/43487600"
       }
     ],
-    "substitutions": [],
+    "substitutions": [
+      {
+        "minute": 60,
+        "out": {
+          "dorsal": 22,
+          "name": "LASTRA SERRANO, JUAN CAMILO"
+        },
+        "in": {
+          "dorsal": 16,
+          "name": "MELERO CALVO, UNAI"
+        }
+      },
+      {
+        "minute": 60,
+        "out": {
+          "dorsal": 23,
+          "name": "BUERA NADAL, FERRAN"
+        },
+        "in": {
+          "dorsal": 9,
+          "name": "WERCKMEISTER GARCIA, ANDER"
+        }
+      },
+      {
+        "minute": 69,
+        "out": {
+          "dorsal": 15,
+          "name": "ANDREU LOPEZ, LUCAS"
+        },
+        "in": {
+          "dorsal": 8,
+          "name": "RUIZ PIQUE, ARNAU"
+        }
+      },
+      {
+        "minute": 77,
+        "out": {
+          "dorsal": 4,
+          "name": "PALACIOS CORRAL, IGNACIO"
+        },
+        "in": {
+          "dorsal": 12,
+          "name": "SANCHEZ PLACENCIA, IVAN"
+        }
+      },
+      {
+        "minute": 86,
+        "out": {
+          "dorsal": 6,
+          "name": "GONZÁLEZ TARRUELLA, MARC"
+        },
+        "in": {
+          "dorsal": 17,
+          "name": "GIL NAVARRO, JOEL"
+        }
+      },
+      {
+        "minute": 86,
+        "out": {
+          "dorsal": 21,
+          "name": "PEREZ PICON, DAVID"
+        },
+        "in": {
+          "dorsal": 19,
+          "name": "ARJONA SERRANO, PAU"
+        }
+      },
+      {
+        "minute": 86,
+        "out": {
+          "dorsal": 20,
+          "name": "GARCIA BAQUES, POL"
+        },
+        "in": {
+          "dorsal": 25,
+          "name": "KANTE , ALHASSANE"
+        }
+      }
+    ],
     "cards": []
   },
   "goals": [

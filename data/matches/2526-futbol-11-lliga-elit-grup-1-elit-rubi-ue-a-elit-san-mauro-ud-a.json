@@ -108,7 +108,85 @@
         "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/673820"
       }
     ],
-    "substitutions": [],
+    "substitutions": [
+      {
+        "minute": 46,
+        "out": {
+          "dorsal": 18,
+          "name": "MORRAL CAMPILLO, ALBERT"
+        },
+        "in": {
+          "dorsal": 9,
+          "name": "VEGA NAVARRO, ENRIC"
+        }
+      },
+      {
+        "minute": 60,
+        "out": {
+          "dorsal": 11,
+          "name": "SENYE PALACIOS, ALFONS"
+        },
+        "in": {
+          "dorsal": 12,
+          "name": "NII , OLIVER KOTA"
+        }
+      },
+      {
+        "minute": 60,
+        "out": {
+          "dorsal": 2,
+          "name": "TORRES MARTÍNEZ, AITOR"
+        },
+        "in": {
+          "dorsal": 19,
+          "name": "LOPEZ ESCRIG, YOEL"
+        }
+      },
+      {
+        "minute": 60,
+        "out": {
+          "dorsal": 17,
+          "name": "REY GALLEGO, SERGIO"
+        },
+        "in": {
+          "dorsal": 22,
+          "name": "MENDOZA GARCIA, SEBASTIA"
+        }
+      },
+      {
+        "minute": 72,
+        "out": {
+          "dorsal": 7,
+          "name": "RECORT MORENO, ADRIA"
+        },
+        "in": {
+          "dorsal": 14,
+          "name": "HERRANZ VIDAL, PAU"
+        }
+      },
+      {
+        "minute": 72,
+        "out": {
+          "dorsal": 3,
+          "name": "JUNCÀ ROVIRA, MARC"
+        },
+        "in": {
+          "dorsal": 4,
+          "name": "YAHYA RABIE, AYOUB"
+        }
+      },
+      {
+        "minute": 80,
+        "out": {
+          "dorsal": 16,
+          "name": "CASTILLO MARAVER, ERIK"
+        },
+        "in": {
+          "dorsal": 23,
+          "name": "DIAZ WILLIAMS, KEVIN"
+        }
+      }
+    ],
     "cards": []
   },
   "away": {
@@ -212,7 +290,52 @@
         "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/7004960"
       }
     ],
-    "substitutions": [],
+    "substitutions": [
+      {
+        "minute": 60,
+        "out": {
+          "dorsal": 17,
+          "name": "ROMEU MARQUES, POL"
+        },
+        "in": {
+          "dorsal": 23,
+          "name": "GUELL SANCHEZ, CARLES"
+        }
+      },
+      {
+        "minute": 72,
+        "out": {
+          "dorsal": 24,
+          "name": "COSANO BERROCAL, KENNETH"
+        },
+        "in": {
+          "dorsal": 9,
+          "name": "ESCAMILLA VAN DER DONK, ROGER"
+        }
+      },
+      {
+        "minute": 84,
+        "out": {
+          "dorsal": 20,
+          "name": "GULIAS AGUILERA, MARC"
+        },
+        "in": {
+          "dorsal": 18,
+          "name": "MORENO ORDOÑEZ, DAVID"
+        }
+      },
+      {
+        "minute": 88,
+        "out": {
+          "dorsal": 19,
+          "name": "CAÑERO CARMONA, ALEX"
+        },
+        "in": {
+          "dorsal": 16,
+          "name": "SARSANEDAS CONTRERAS, JOAO"
+        }
+      }
+    ],
     "cards": []
   },
   "goals": [

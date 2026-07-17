@@ -98,7 +98,63 @@
         "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/714601"
       }
     ],
-    "substitutions": [],
+    "substitutions": [
+      {
+        "minute": 61,
+        "out": {
+          "dorsal": 6,
+          "name": "TORRES SUGRANYES, IVAN"
+        },
+        "in": {
+          "dorsal": 23,
+          "name": "CABRERIZO TOCON, ADRIAN"
+        }
+      },
+      {
+        "minute": 75,
+        "out": {
+          "dorsal": 8,
+          "name": "ORIBE GUILLÉN, VÍCTOR"
+        },
+        "in": {
+          "dorsal": 16,
+          "name": "TORRES RAMIREZ, MARC"
+        }
+      },
+      {
+        "minute": 75,
+        "out": {
+          "dorsal": 4,
+          "name": "OLTRA PLA, IKER"
+        },
+        "in": {
+          "dorsal": 20,
+          "name": "MARÍ PASCUAL, ALEIX"
+        }
+      },
+      {
+        "minute": 82,
+        "out": {
+          "dorsal": 17,
+          "name": "MARC"
+        },
+        "in": {
+          "dorsal": 9,
+          "name": "FORGAS PALLARES, ERNEST"
+        }
+      },
+      {
+        "minute": 89,
+        "out": {
+          "dorsal": 7,
+          "name": "CASTELL SOLE, NIL"
+        },
+        "in": {
+          "dorsal": 14,
+          "name": "HERNANDEZ LLANOS, LUIS MIGUEL"
+        }
+      }
+    ],
     "cards": []
   },
   "away": {
@@ -202,7 +258,85 @@
         "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/23168454"
       }
     ],
-    "substitutions": [],
+    "substitutions": [
+      {
+        "minute": 46,
+        "out": {
+          "dorsal": 8,
+          "name": "DEL CHICCA DORADO, HUGO"
+        },
+        "in": {
+          "dorsal": 4,
+          "name": "ESTEBAN CANELLES, ALEIX"
+        }
+      },
+      {
+        "minute": 61,
+        "out": {
+          "dorsal": 12,
+          "name": "MONTERO PRADAS, IKER"
+        },
+        "in": {
+          "dorsal": 15,
+          "name": "FAURA MARTINEZ, JOEL"
+        }
+      },
+      {
+        "minute": 61,
+        "out": {
+          "dorsal": 10,
+          "name": "PARRA GARCIA, EDGAR"
+        },
+        "in": {
+          "dorsal": 23,
+          "name": "MATAMOROS SEGURA, JOEL"
+        }
+      },
+      {
+        "minute": 61,
+        "out": {
+          "dorsal": 11,
+          "name": "GERBOLES PEREZ, MARIO"
+        },
+        "in": {
+          "dorsal": 9,
+          "name": "POZUELO RIERA, ELOI"
+        }
+      },
+      {
+        "minute": 67,
+        "out": {
+          "dorsal": 20,
+          "name": "MALDONADO MOYA, IZAN"
+        },
+        "in": {
+          "dorsal": 22,
+          "name": "PALOU NOGALES, CARLOS"
+        }
+      },
+      {
+        "minute": 78,
+        "out": {
+          "dorsal": 3,
+          "name": "PEÑAS ANDREU, ALEX"
+        },
+        "in": {
+          "dorsal": 18,
+          "name": "POUGET FLORIDO, MARC"
+        }
+      },
+      {
+        "minute": 78,
+        "out": {
+          "dorsal": 5,
+          "name": "ORTEGA RAMIREZ, IVAN"
+        },
+        "in": {
+          "dorsal": 2,
+          "name": "MARTIN DURAN, JUAN ANTONIO"
+        }
+      }
+    ],
     "cards": []
   },
   "goals": [

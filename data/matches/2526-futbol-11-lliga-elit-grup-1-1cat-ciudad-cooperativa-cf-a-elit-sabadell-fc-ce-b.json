@@ -108,7 +108,63 @@
         "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/18475202"
       }
     ],
-    "substitutions": [],
+    "substitutions": [
+      {
+        "minute": 46,
+        "out": {
+          "dorsal": 13,
+          "name": "CHACÓN MARTÍN, PABLO"
+        },
+        "in": {
+          "dorsal": 1,
+          "name": "RUIZ HERRERO, ALEIX"
+        }
+      },
+      {
+        "minute": 46,
+        "out": {
+          "dorsal": 12,
+          "name": "ZELLAL NEJAM, HICHAM"
+        },
+        "in": {
+          "dorsal": 22,
+          "name": "MESSOOUDI BAKKALI, MOHAMED YASSIN"
+        }
+      },
+      {
+        "minute": 46,
+        "out": {
+          "dorsal": 18,
+          "name": "SÁNCHEZ PÉREZ, KEVIN"
+        },
+        "in": {
+          "dorsal": 5,
+          "name": "COLOM CAÑERO, ANTONIO"
+        }
+      },
+      {
+        "minute": 55,
+        "out": {
+          "dorsal": 9,
+          "name": "RODRÍGUEZ  ARASIL, RUBÉN"
+        },
+        "in": {
+          "dorsal": 16,
+          "name": "PROKOPEV , MIKHAIL"
+        }
+      },
+      {
+        "minute": 89,
+        "out": {
+          "dorsal": 10,
+          "name": "BLANCO BLANCO, BIEL"
+        },
+        "in": {
+          "dorsal": 8,
+          "name": "KADOCHNIKOV , VENIAMIN"
+        }
+      }
+    ],
     "cards": []
   },
   "away": {
@@ -217,7 +273,63 @@
         "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/44698885"
       }
     ],
-    "substitutions": [],
+    "substitutions": [
+      {
+        "minute": 63,
+        "out": {
+          "dorsal": 20,
+          "name": "SALGUERO CUENCA, ERICK"
+        },
+        "in": {
+          "dorsal": 11,
+          "name": "ROSENA CAÑAMERO, IZAN"
+        }
+      },
+      {
+        "minute": 63,
+        "out": {
+          "dorsal": 7,
+          "name": "BOBI CHAMORRO, ADRIÁN"
+        },
+        "in": {
+          "dorsal": 26,
+          "name": "DE WEERD ROBLES, ALEX"
+        }
+      },
+      {
+        "minute": 63,
+        "out": {
+          "dorsal": 18,
+          "name": "FERNÁNDEZ BAUMGARTNER, ADRIÁN"
+        },
+        "in": {
+          "dorsal": 6,
+          "name": "KEBE , MOUSSA"
+        }
+      },
+      {
+        "minute": 80,
+        "out": {
+          "dorsal": 8,
+          "name": "BORRELL SOTO, ALEIX"
+        },
+        "in": {
+          "dorsal": 22,
+          "name": "SÁEZ JIMÉNEZ, ENRIC"
+        }
+      },
+      {
+        "minute": 80,
+        "out": {
+          "dorsal": 19,
+          "name": "CHLIH LEHDA, OUSSAMA"
+        },
+        "in": {
+          "dorsal": 9,
+          "name": "GONZÁLEZ GARCÍA, ADRIÁ"
+        }
+      }
+    ],
     "cards": []
   },
   "goals": [],

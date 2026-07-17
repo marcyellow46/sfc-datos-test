@@ -108,7 +108,63 @@
         "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/18760009"
       }
     ],
-    "substitutions": [],
+    "substitutions": [
+      {
+        "minute": 67,
+        "out": {
+          "dorsal": 2,
+          "name": "ORTIZ PARAISO, JOSHUA"
+        },
+        "in": {
+          "dorsal": 11,
+          "name": "DIAZ MOLINA, ERIC"
+        }
+      },
+      {
+        "minute": 67,
+        "out": {
+          "dorsal": 16,
+          "name": "FERNANDEZ AMAT, JOSE JAVIER"
+        },
+        "in": {
+          "dorsal": 17,
+          "name": "MARTI VARELA, DANIEL"
+        }
+      },
+      {
+        "minute": 72,
+        "out": {
+          "dorsal": 14,
+          "name": "BALDE GOMEZ, OMAR"
+        },
+        "in": {
+          "dorsal": 8,
+          "name": "GALEANO JARDI, FERNANDO"
+        }
+      },
+      {
+        "minute": 76,
+        "out": {
+          "dorsal": 6,
+          "name": "MARTINEZ MORENO, CARLOS"
+        },
+        "in": {
+          "dorsal": 15,
+          "name": "RUIZ SANTAMARÍA, HUGO"
+        }
+      },
+      {
+        "minute": 82,
+        "out": {
+          "dorsal": 19,
+          "name": "HUGUE ALCAIDE, GALDERIC"
+        },
+        "in": {
+          "dorsal": 7,
+          "name": "RECHE HUCHA, OSCAR"
+        }
+      }
+    ],
     "cards": []
   },
   "away": {
@@ -217,7 +273,52 @@
         "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/646697"
       }
     ],
-    "substitutions": [],
+    "substitutions": [
+      {
+        "minute": 67,
+        "out": {
+          "dorsal": 17,
+          "name": "ROMEU MARQUES, POL"
+        },
+        "in": {
+          "dorsal": 10,
+          "name": "ARIBAU CASALS, JORDI"
+        }
+      },
+      {
+        "minute": 82,
+        "out": {
+          "dorsal": 19,
+          "name": "CAÑERO CARMONA, ALEX"
+        },
+        "in": {
+          "dorsal": 11,
+          "name": "YÁÑEZ BORRÀS, PAU"
+        }
+      },
+      {
+        "minute": 82,
+        "out": {
+          "dorsal": 9,
+          "name": "ESCAMILLA VAN DER DONK, ROGER"
+        },
+        "in": {
+          "dorsal": 24,
+          "name": "COSANO BERROCAL, KENNETH"
+        }
+      },
+      {
+        "minute": 87,
+        "out": {
+          "dorsal": 6,
+          "name": "ENRIQUEZ DE LA ROSA, MARC"
+        },
+        "in": {
+          "dorsal": 7,
+          "name": "NAVARRO LÓPEZ, JOSEP"
+        }
+      }
+    ],
     "cards": []
   },
   "goals": [

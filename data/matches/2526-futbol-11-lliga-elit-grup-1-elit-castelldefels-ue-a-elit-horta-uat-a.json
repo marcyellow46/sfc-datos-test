@@ -108,7 +108,85 @@
         "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/40748333"
       }
     ],
-    "substitutions": [],
+    "substitutions": [
+      {
+        "minute": 39,
+        "out": {
+          "dorsal": 18,
+          "name": "POUGET FLORIDO, MARC"
+        },
+        "in": {
+          "dorsal": 23,
+          "name": "MATAMOROS SEGURA, JOEL"
+        }
+      },
+      {
+        "minute": 61,
+        "out": {
+          "dorsal": 9,
+          "name": "POZUELO RIERA, ELOI"
+        },
+        "in": {
+          "dorsal": 24,
+          "name": "VILLAVERDE GARCIA, KILIAN"
+        }
+      },
+      {
+        "minute": 61,
+        "out": {
+          "dorsal": 16,
+          "name": "FERREIRA MOREIRA, JONATHAN"
+        },
+        "in": {
+          "dorsal": 6,
+          "name": "GIMENO HERNÁNDEZ, ADRIÁN"
+        }
+      },
+      {
+        "minute": 74,
+        "out": {
+          "dorsal": 20,
+          "name": "MALDONADO MOYA, IZAN"
+        },
+        "in": {
+          "dorsal": 10,
+          "name": "CANO JIMENEZ, CARLOS"
+        }
+      },
+      {
+        "minute": 74,
+        "out": {
+          "dorsal": 19,
+          "name": "PARRA GARCIA, EDGAR"
+        },
+        "in": {
+          "dorsal": 15,
+          "name": "FAURA MARTINEZ, JOEL"
+        }
+      },
+      {
+        "minute": 85,
+        "out": {
+          "dorsal": 11,
+          "name": "GERBOLES PEREZ, MARIO"
+        },
+        "in": {
+          "dorsal": 2,
+          "name": "MARTIN DURAN, JUAN ANTONIO"
+        }
+      },
+      {
+        "minute": 85,
+        "out": {
+          "dorsal": 14,
+          "name": "GIBERT FUERTES, JOAN"
+        },
+        "in": {
+          "dorsal": 7,
+          "name": "RAMIREZ RUIZ, ENRIQUE"
+        }
+      }
+    ],
     "cards": []
   },
   "away": {
@@ -217,7 +295,41 @@
         "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/15550724"
       }
     ],
-    "substitutions": [],
+    "substitutions": [
+      {
+        "minute": 57,
+        "out": {
+          "dorsal": 9,
+          "name": "LOPEZ CABEZAS, JORDI"
+        },
+        "in": {
+          "dorsal": 11,
+          "name": "REYES SEGURA, DAVID"
+        }
+      },
+      {
+        "minute": 74,
+        "out": {
+          "dorsal": 2,
+          "name": "AREGALL GUILLEN, VICTOR"
+        },
+        "in": {
+          "dorsal": 15,
+          "name": "CIFUENTES PELAEZ, RUBEN"
+        }
+      },
+      {
+        "minute": 75,
+        "out": {
+          "dorsal": 16,
+          "name": "PEDROL PALMADA, GERARD"
+        },
+        "in": {
+          "dorsal": 7,
+          "name": "HAMAD , ABDUL-MOUATY"
+        }
+      }
+    ],
     "cards": []
   },
   "goals": [

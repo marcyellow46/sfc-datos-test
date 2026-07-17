@@ -108,7 +108,74 @@
         "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/15960092"
       }
     ],
-    "substitutions": [],
+    "substitutions": [
+      {
+        "minute": 63,
+        "out": {
+          "dorsal": 3,
+          "name": "GARCÍA GARCÍA, KILIAN"
+        },
+        "in": {
+          "dorsal": 24,
+          "name": "NAVARRO GÓMEZ, RUBEN"
+        }
+      },
+      {
+        "minute": 67,
+        "out": {
+          "dorsal": 19,
+          "name": "DELGADO CHICANO, ADRIAN"
+        },
+        "in": {
+          "dorsal": 11,
+          "name": "SERRANO RUIZ, LUIS"
+        }
+      },
+      {
+        "minute": 80,
+        "out": {
+          "dorsal": 10,
+          "name": "BLANCO BLANCO, BIEL"
+        },
+        "in": {
+          "dorsal": 6,
+          "name": "HIDALGO PEREZ, MANUEL"
+        }
+      },
+      {
+        "minute": 80,
+        "out": {
+          "dorsal": 5,
+          "name": "COLOM CAÑERO, ANTONIO"
+        },
+        "in": {
+          "dorsal": 8,
+          "name": "KADOCHNIKOV , VENIAMIN"
+        }
+      },
+      {
+        "minute": 85,
+        "out": {
+          "dorsal": 12,
+          "name": "ZELLAL NEJAM, HICHAM"
+        },
+        "in": {
+          "dorsal": 9,
+          "name": "RODRÍGUEZ  ARASIL, RUBÉN"
+        }
+      },
+      {
+        "minute": 89,
+        "out": {
+          "dorsal": 7,
+          "name": "DE SOKOLOW LEYVA, BRYAN"
+        },
+        "in": {
+          "dorsal": 22,
+          "name": "BRAVO PONCE, PEDRO"
+        }
+      }
+    ],
     "cards": []
   },
   "away": {
@@ -217,7 +284,74 @@
         "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/23930206"
       }
     ],
-    "substitutions": [],
+    "substitutions": [
+      {
+        "minute": 61,
+        "out": {
+          "dorsal": 4,
+          "name": "COSTA GARCIA, JORDI"
+        },
+        "in": {
+          "dorsal": 14,
+          "name": "BASART VIGAS, SERGI"
+        }
+      },
+      {
+        "minute": 61,
+        "out": {
+          "dorsal": 2,
+          "name": "ROGER SOLA, RAFEL"
+        },
+        "in": {
+          "dorsal": 8,
+          "name": "CAPDEVILA GALEANO, NIL"
+        }
+      },
+      {
+        "minute": 80,
+        "out": {
+          "dorsal": 3,
+          "name": "ROURA JIMÉNEZ, ROGER"
+        },
+        "in": {
+          "dorsal": 15,
+          "name": "LOPEZ SÁNCHEZ, ALBERT"
+        }
+      },
+      {
+        "minute": 85,
+        "out": {
+          "dorsal": 7,
+          "name": "ROSSELL VIDAL, ANTONI"
+        },
+        "in": {
+          "dorsal": 11,
+          "name": "ADU TUTU AMOAH, NANA"
+        }
+      },
+      {
+        "minute": 85,
+        "out": {
+          "dorsal": 6,
+          "name": "VILA SERRA, OLEGUER"
+        },
+        "in": {
+          "dorsal": 16,
+          "name": "COLLELL JORDÀ, GERARD"
+        }
+      },
+      {
+        "minute": 89,
+        "out": {
+          "dorsal": 17,
+          "name": "CAO FERNÁNDEZ, TONI"
+        },
+        "in": {
+          "dorsal": 22,
+          "name": "KIPIANI MAZMANOV, LUKA"
+        }
+      }
+    ],
     "cards": []
   },
   "goals": [

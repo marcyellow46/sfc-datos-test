@@ -103,7 +103,52 @@
         "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/38056126"
       }
     ],
-    "substitutions": [],
+    "substitutions": [
+      {
+        "minute": 74,
+        "out": {
+          "dorsal": 6,
+          "name": "ENRIQUEZ DE LA ROSA, MARC"
+        },
+        "in": {
+          "dorsal": 21,
+          "name": "MARQUILLAS BONAVILA, GERARD"
+        }
+      },
+      {
+        "minute": 85,
+        "out": {
+          "dorsal": 14,
+          "name": "MAYMÓ BALLESTER, LLUC"
+        },
+        "in": {
+          "dorsal": 12,
+          "name": "MERINAS CLOP, ERNEST"
+        }
+      },
+      {
+        "minute": 85,
+        "out": {
+          "dorsal": 24,
+          "name": "COSANO BERROCAL, KENNETH"
+        },
+        "in": {
+          "dorsal": 15,
+          "name": "ESPINOSA FIGUERAS, JAIRÓN RUBÉN"
+        }
+      },
+      {
+        "minute": 85,
+        "out": {
+          "dorsal": 20,
+          "name": "GULIAS AGUILERA, MARC"
+        },
+        "in": {
+          "dorsal": 16,
+          "name": "SARSANEDAS CONTRERAS, JOAO"
+        }
+      }
+    ],
     "cards": []
   },
   "away": {
@@ -212,7 +257,74 @@
         "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/18760009"
       }
     ],
-    "substitutions": [],
+    "substitutions": [
+      {
+        "minute": 60,
+        "out": {
+          "dorsal": 18,
+          "name": "LOPEZ BONIGNO, DERECK"
+        },
+        "in": {
+          "dorsal": 10,
+          "name": "MUÑOZ SAYOL, OSCAR"
+        }
+      },
+      {
+        "minute": 60,
+        "out": {
+          "dorsal": 15,
+          "name": "RUIZ SANTAMARÍA, HUGO"
+        },
+        "in": {
+          "dorsal": 21,
+          "name": "ALCOVER ROIGE, ANTONI"
+        }
+      },
+      {
+        "minute": 63,
+        "out": {
+          "dorsal": 6,
+          "name": "MARTINEZ MORENO, CARLOS"
+        },
+        "in": {
+          "dorsal": 11,
+          "name": "DIAZ MOLINA, ERIC"
+        }
+      },
+      {
+        "minute": 83,
+        "out": {
+          "dorsal": 23,
+          "name": "PEREZ BELLO, VICTOR"
+        },
+        "in": {
+          "dorsal": 22,
+          "name": "HERNANDEZ DEL RIO, DANIEL"
+        }
+      },
+      {
+        "minute": 83,
+        "out": {
+          "dorsal": 24,
+          "name": "FERNANDEZ AMAT, JOSE JAVIER"
+        },
+        "in": {
+          "dorsal": 26,
+          "name": "BARCELO GONZALEZ, DIDAC"
+        }
+      },
+      {
+        "minute": 83,
+        "out": {
+          "dorsal": 19,
+          "name": "HUGUE ALCAIDE, GALDERIC"
+        },
+        "in": {
+          "dorsal": 9,
+          "name": "SANTIAGO PEREZ, ANTONIO"
+        }
+      }
+    ],
     "cards": []
   },
   "goals": [

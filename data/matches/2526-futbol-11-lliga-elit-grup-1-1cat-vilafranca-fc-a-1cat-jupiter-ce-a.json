@@ -98,7 +98,52 @@
         "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/18619027"
       }
     ],
-    "substitutions": [],
+    "substitutions": [
+      {
+        "minute": 70,
+        "out": {
+          "dorsal": 17,
+          "name": "MARC"
+        },
+        "in": {
+          "dorsal": 6,
+          "name": "CAÑETE RODRIGUEZ, ERIC"
+        }
+      },
+      {
+        "minute": 83,
+        "out": {
+          "dorsal": 20,
+          "name": "MARÍ PASCUAL, ALEIX"
+        },
+        "in": {
+          "dorsal": 24,
+          "name": "HERVÁS LEAL, JAVIER"
+        }
+      },
+      {
+        "minute": 89,
+        "out": {
+          "dorsal": 5,
+          "name": "HILL VALLS, ERIC"
+        },
+        "in": {
+          "dorsal": 14,
+          "name": "HERNANDEZ LLANOS, LUIS MIGUEL"
+        }
+      },
+      {
+        "minute": 89,
+        "out": {
+          "dorsal": 10,
+          "name": "ACEDO SANCHEZ, DAVID"
+        },
+        "in": {
+          "dorsal": 21,
+          "name": "RODRIGUEZ GELABERT, MARC"
+        }
+      }
+    ],
     "cards": []
   },
   "away": {
@@ -207,7 +252,85 @@
         "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/786532"
       }
     ],
-    "substitutions": [],
+    "substitutions": [
+      {
+        "minute": 57,
+        "out": {
+          "dorsal": 4,
+          "name": "OLIVER JIMENEZ, OSCAR"
+        },
+        "in": {
+          "dorsal": 16,
+          "name": "BORDALLO CANALS, JOAN"
+        }
+      },
+      {
+        "minute": 57,
+        "out": {
+          "dorsal": 14,
+          "name": "GARCIA PASCUAL, ALEX"
+        },
+        "in": {
+          "dorsal": 19,
+          "name": "SANCHEZ GOMEZ, ENRIQUE"
+        }
+      },
+      {
+        "minute": 57,
+        "out": {
+          "dorsal": 23,
+          "name": "SÁNCHEZ OLIVARES, IVÁN"
+        },
+        "in": {
+          "dorsal": 21,
+          "name": "GURREA SANCHEZ, ALBERT"
+        }
+      },
+      {
+        "minute": 57,
+        "out": {
+          "dorsal": 3,
+          "name": "BASSOLS BOSCH, ADRIA"
+        },
+        "in": {
+          "dorsal": 24,
+          "name": "CLARÀ ANDREU, GERARD"
+        }
+      },
+      {
+        "minute": 73,
+        "out": {
+          "dorsal": 11,
+          "name": "S.MONSÓ"
+        },
+        "in": {
+          "dorsal": 20,
+          "name": "BERNABEU ALVAREZ, ALBERT"
+        }
+      },
+      {
+        "minute": 73,
+        "out": {
+          "dorsal": 8,
+          "name": "CHICO MARINA, PATRICK"
+        },
+        "in": {
+          "dorsal": 2,
+          "name": "LEIRA CUTILLAS, DAVID"
+        }
+      },
+      {
+        "minute": 73,
+        "out": {
+          "dorsal": 12,
+          "name": "SANCHEZ MOYA, DANIEL"
+        },
+        "in": {
+          "dorsal": 9,
+          "name": "GENESCA GONZALEZ, LLORENÇ"
+        }
+      }
+    ],
     "cards": []
   },
   "goals": [

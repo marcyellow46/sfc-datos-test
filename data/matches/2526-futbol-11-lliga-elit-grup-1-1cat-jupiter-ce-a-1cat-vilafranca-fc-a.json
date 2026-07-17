@@ -103,7 +103,52 @@
         "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/786532"
       }
     ],
-    "substitutions": [],
+    "substitutions": [
+      {
+        "minute": 46,
+        "out": {
+          "dorsal": 22,
+          "name": "AYLLON JALDON, SERGI"
+        },
+        "in": {
+          "dorsal": 5,
+          "name": "KARROUCH KADRI, HICHAM"
+        }
+      },
+      {
+        "minute": 63,
+        "out": {
+          "dorsal": 20,
+          "name": "RUIZ ROMERA, DANIEL"
+        },
+        "in": {
+          "dorsal": 12,
+          "name": "SANCHEZ MOYA, DANIEL"
+        }
+      },
+      {
+        "minute": 63,
+        "out": {
+          "dorsal": 8,
+          "name": "CHICO MARINA, PATRICK"
+        },
+        "in": {
+          "dorsal": 17,
+          "name": "DAHBI AKALAY, BADREDDINE"
+        }
+      },
+      {
+        "minute": 74,
+        "out": {
+          "dorsal": 9,
+          "name": "GENESCA GONZALEZ, LLORENÇ"
+        },
+        "in": {
+          "dorsal": 23,
+          "name": "GONZALEZ NAVARRO, DIDAC"
+        }
+      }
+    ],
     "cards": []
   },
   "away": {
@@ -202,7 +247,41 @@
         "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/26715398"
       }
     ],
-    "substitutions": [],
+    "substitutions": [
+      {
+        "minute": 46,
+        "out": {
+          "dorsal": 19,
+          "name": "ESCOFET ALEMANY, SERGI"
+        },
+        "in": {
+          "dorsal": 4,
+          "name": "OLTRA PLA, IKER"
+        }
+      },
+      {
+        "minute": 63,
+        "out": {
+          "dorsal": 9,
+          "name": "FORGAS PALLARES, ERNEST"
+        },
+        "in": {
+          "dorsal": 17,
+          "name": "MARC"
+        }
+      },
+      {
+        "minute": 86,
+        "out": {
+          "dorsal": 20,
+          "name": "MARÍ PASCUAL, ALEIX"
+        },
+        "in": {
+          "dorsal": 11,
+          "name": "OUMANSSOUR OUFOUL, KHALID"
+        }
+      }
+    ],
     "cards": []
   },
   "goals": [],

@@ -108,7 +108,52 @@
         "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/26244777"
       }
     ],
-    "substitutions": [],
+    "substitutions": [
+      {
+        "minute": 69,
+        "out": {
+          "dorsal": 22,
+          "name": "PADILLA RUBIO, MARC"
+        },
+        "in": {
+          "dorsal": 14,
+          "name": "RIVAS SANCHEZ, ADRIAN"
+        }
+      },
+      {
+        "minute": 69,
+        "out": {
+          "dorsal": 21,
+          "name": "LAMELAS DOMINGUEZ, MARTIN"
+        },
+        "in": {
+          "dorsal": 7,
+          "name": "PLUVINS RAMOS, XAVIER"
+        }
+      },
+      {
+        "minute": 88,
+        "out": {
+          "dorsal": 19,
+          "name": "DONCHEV , MARTIN VALERIEV"
+        },
+        "in": {
+          "dorsal": 17,
+          "name": "CUEVAS LARDIES, NICOLAS DANIEL"
+        }
+      },
+      {
+        "minute": 88,
+        "out": {
+          "dorsal": 30,
+          "name": "BONAVENTURA GRIS, DANIEL"
+        },
+        "in": {
+          "dorsal": 8,
+          "name": "FONT MONTSERRAT, MARC"
+        }
+      }
+    ],
     "cards": []
   },
   "away": {
@@ -207,7 +252,63 @@
         "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/18619027"
       }
     ],
-    "substitutions": [],
+    "substitutions": [
+      {
+        "minute": 65,
+        "out": {
+          "dorsal": 16,
+          "name": "TORRES RAMIREZ, MARC"
+        },
+        "in": {
+          "dorsal": 24,
+          "name": "HERVÁS LEAL, JAVIER"
+        }
+      },
+      {
+        "minute": 65,
+        "out": {
+          "dorsal": 20,
+          "name": "MARÍ PASCUAL, ALEIX"
+        },
+        "in": {
+          "dorsal": 6,
+          "name": "CAÑETE RODRIGUEZ, ERIC"
+        }
+      },
+      {
+        "minute": 69,
+        "out": {
+          "dorsal": 17,
+          "name": "MARC"
+        },
+        "in": {
+          "dorsal": 9,
+          "name": "FORGAS PALLARES, ERNEST"
+        }
+      },
+      {
+        "minute": 86,
+        "out": {
+          "dorsal": 15,
+          "name": "MAÑÉ PASCUAL, MARTÍ"
+        },
+        "in": {
+          "dorsal": 21,
+          "name": "RODRIGUEZ GELABERT, MARC"
+        }
+      },
+      {
+        "minute": 86,
+        "out": {
+          "dorsal": 22,
+          "name": "KAWAGUCHI , SHINNOSUKE"
+        },
+        "in": {
+          "dorsal": 2,
+          "name": "ROCA BOFILL, MARC"
+        }
+      }
+    ],
     "cards": []
   },
   "goals": [

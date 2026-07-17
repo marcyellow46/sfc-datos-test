@@ -108,7 +108,74 @@
         "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/15152617"
       }
     ],
-    "substitutions": [],
+    "substitutions": [
+      {
+        "minute": 46,
+        "out": {
+          "dorsal": 21,
+          "name": "RELOBA NAVARRO, IZAN"
+        },
+        "in": {
+          "dorsal": 24,
+          "name": "NAVARRO GÓMEZ, RUBEN"
+        }
+      },
+      {
+        "minute": 46,
+        "out": {
+          "dorsal": 11,
+          "name": "SERRANO RUIZ, LUIS"
+        },
+        "in": {
+          "dorsal": 25,
+          "name": "MESSOOUDI BAKKALI, MOHAMED YASSIN"
+        }
+      },
+      {
+        "minute": 67,
+        "out": {
+          "dorsal": 5,
+          "name": "COLOM CAÑERO, ANTONIO"
+        },
+        "in": {
+          "dorsal": 12,
+          "name": "ZELLAL NEJAM, HICHAM"
+        }
+      },
+      {
+        "minute": 67,
+        "out": {
+          "dorsal": 19,
+          "name": "DELGADO CHICANO, ADRIAN"
+        },
+        "in": {
+          "dorsal": 17,
+          "name": "OLLÉ JURADO, PEPE"
+        }
+      },
+      {
+        "minute": 76,
+        "out": {
+          "dorsal": 8,
+          "name": "KADOCHNIKOV , VENIAMIN"
+        },
+        "in": {
+          "dorsal": 16,
+          "name": "RODRÍGUEZ  ARASIL, RUBÉN"
+        }
+      },
+      {
+        "minute": 83,
+        "out": {
+          "dorsal": 2,
+          "name": "PUEYO VILA, MARC"
+        },
+        "in": {
+          "dorsal": 6,
+          "name": "HIDALGO PEREZ, MANUEL"
+        }
+      }
+    ],
     "cards": []
   },
   "away": {
@@ -212,7 +279,63 @@
         "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/18760009"
       }
     ],
-    "substitutions": [],
+    "substitutions": [
+      {
+        "minute": 76,
+        "out": {
+          "dorsal": 18,
+          "name": "BA ANDEME, MARCELO SALIOU"
+        },
+        "in": {
+          "dorsal": 15,
+          "name": "RUIZ SANTAMARÍA, HUGO"
+        }
+      },
+      {
+        "minute": 76,
+        "out": {
+          "dorsal": 11,
+          "name": "DIAZ MOLINA, ERIC"
+        },
+        "in": {
+          "dorsal": 16,
+          "name": "FERNANDEZ AMAT, JOSE JAVIER"
+        }
+      },
+      {
+        "minute": 82,
+        "out": {
+          "dorsal": 20,
+          "name": "MONTEJO GARCIA, MARC"
+        },
+        "in": {
+          "dorsal": 10,
+          "name": "MUÑOZ SAYOL, OSCAR"
+        }
+      },
+      {
+        "minute": 83,
+        "out": {
+          "dorsal": 19,
+          "name": "HUGUE ALCAIDE, GALDERIC"
+        },
+        "in": {
+          "dorsal": 7,
+          "name": "REGUIA EL ANNOUTI, ISMAEL"
+        }
+      },
+      {
+        "minute": 87,
+        "out": {
+          "dorsal": 6,
+          "name": "MARTINEZ MORENO, CARLOS"
+        },
+        "in": {
+          "dorsal": 26,
+          "name": "BARCELO GONZALEZ, DIDAC"
+        }
+      }
+    ],
     "cards": []
   },
   "goals": [

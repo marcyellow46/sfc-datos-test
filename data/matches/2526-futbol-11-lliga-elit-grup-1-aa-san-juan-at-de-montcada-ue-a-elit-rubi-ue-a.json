@@ -103,7 +103,63 @@
         "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/18760009"
       }
     ],
-    "substitutions": [],
+    "substitutions": [
+      {
+        "minute": 46,
+        "out": {
+          "dorsal": 2,
+          "name": "ORTIZ PARAISO, JOSHUA"
+        },
+        "in": {
+          "dorsal": 11,
+          "name": "DIAZ MOLINA, ERIC"
+        }
+      },
+      {
+        "minute": 46,
+        "out": {
+          "dorsal": 18,
+          "name": "GOMEZ CAMPIÑAS, CRISTIAN"
+        },
+        "in": {
+          "dorsal": 22,
+          "name": "HERNANDEZ DEL RIO, DANIEL"
+        }
+      },
+      {
+        "minute": 46,
+        "out": {
+          "dorsal": 16,
+          "name": "FERNANDEZ AMAT, JOSE JAVIER"
+        },
+        "in": {
+          "dorsal": 7,
+          "name": "REGUIA EL ANNOUTI, ISMAEL"
+        }
+      },
+      {
+        "minute": 72,
+        "out": {
+          "dorsal": 6,
+          "name": "MARTINEZ MORENO, CARLOS"
+        },
+        "in": {
+          "dorsal": 21,
+          "name": "ALCOVER ROIGE, ANTONI"
+        }
+      },
+      {
+        "minute": 78,
+        "out": {
+          "dorsal": 10,
+          "name": "MUÑOZ SAYOL, OSCAR"
+        },
+        "in": {
+          "dorsal": 17,
+          "name": "RODRÍGUEZ FERNÁNDEZ, DANIEL"
+        }
+      }
+    ],
     "cards": []
   },
   "away": {
@@ -212,7 +268,63 @@
         "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/15946659"
       }
     ],
-    "substitutions": [],
+    "substitutions": [
+      {
+        "minute": 53,
+        "out": {
+          "dorsal": 9,
+          "name": "VEGA NAVARRO, ENRIC"
+        },
+        "in": {
+          "dorsal": 7,
+          "name": "RECORT MORENO, ADRIA"
+        }
+      },
+      {
+        "minute": 67,
+        "out": {
+          "dorsal": 21,
+          "name": "RAMIREZ CASTILLO, HUGO"
+        },
+        "in": {
+          "dorsal": 12,
+          "name": "NII , OLIVER KOTA"
+        }
+      },
+      {
+        "minute": 67,
+        "out": {
+          "dorsal": 22,
+          "name": "MENDOZA GARCIA, SEBASTIA"
+        },
+        "in": {
+          "dorsal": 17,
+          "name": "REY GALLEGO, SERGIO"
+        }
+      },
+      {
+        "minute": 79,
+        "out": {
+          "dorsal": 18,
+          "name": "MORRAL CAMPILLO, ALBERT"
+        },
+        "in": {
+          "dorsal": 14,
+          "name": "HERRANZ VIDAL, PAU"
+        }
+      },
+      {
+        "minute": 79,
+        "out": {
+          "dorsal": 2,
+          "name": "TORRES MARTÍNEZ, AITOR"
+        },
+        "in": {
+          "dorsal": 19,
+          "name": "LOPEZ ESCRIG, YOEL"
+        }
+      }
+    ],
     "cards": []
   },
   "goals": [

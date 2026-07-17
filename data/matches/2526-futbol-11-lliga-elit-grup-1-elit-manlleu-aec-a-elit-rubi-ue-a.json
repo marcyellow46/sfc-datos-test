@@ -108,7 +108,74 @@
         "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/18481364"
       }
     ],
-    "substitutions": [],
+    "substitutions": [
+      {
+        "minute": 55,
+        "out": {
+          "dorsal": 8,
+          "name": "CAPDEVILA GALEANO, NIL"
+        },
+        "in": {
+          "dorsal": 21,
+          "name": "MORAL ROGER, ELOI"
+        }
+      },
+      {
+        "minute": 62,
+        "out": {
+          "dorsal": 15,
+          "name": "LOPEZ SÁNCHEZ, ALBERT"
+        },
+        "in": {
+          "dorsal": 9,
+          "name": "CASANOVA CLUSELLS, ADRIA"
+        }
+      },
+      {
+        "minute": 67,
+        "out": {
+          "dorsal": 24,
+          "name": "ROGER SOLA, RAFEL"
+        },
+        "in": {
+          "dorsal": 20,
+          "name": "MURO"
+        }
+      },
+      {
+        "minute": 67,
+        "out": {
+          "dorsal": 3,
+          "name": "ROURA JIMÉNEZ, ROGER"
+        },
+        "in": {
+          "dorsal": 23,
+          "name": "COMAMALA FONT, MARC"
+        }
+      },
+      {
+        "minute": 85,
+        "out": {
+          "dorsal": 17,
+          "name": "CAO FERNÁNDEZ, TONI"
+        },
+        "in": {
+          "dorsal": 4,
+          "name": "COSTA GARCIA, JORDI"
+        }
+      },
+      {
+        "minute": 89,
+        "out": {
+          "dorsal": 12,
+          "name": "MATA GARCIA, MARTI"
+        },
+        "in": {
+          "dorsal": 22,
+          "name": "QUADRI , MURITALA ABIOLA"
+        }
+      }
+    ],
     "cards": []
   },
   "away": {
@@ -217,7 +284,63 @@
         "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/28910357"
       }
     ],
-    "substitutions": [],
+    "substitutions": [
+      {
+        "minute": 61,
+        "out": {
+          "dorsal": 11,
+          "name": "SENYE PALACIOS, ALFONS"
+        },
+        "in": {
+          "dorsal": 21,
+          "name": "MARTIN RIVERA, AIMAR"
+        }
+      },
+      {
+        "minute": 61,
+        "out": {
+          "dorsal": 2,
+          "name": "TORRES MARTÍNEZ, AITOR"
+        },
+        "in": {
+          "dorsal": 22,
+          "name": "MENDOZA GARCIA, SEBASTIA"
+        }
+      },
+      {
+        "minute": 81,
+        "out": {
+          "dorsal": 8,
+          "name": "MASIP MENDEZ, JORDI"
+        },
+        "in": {
+          "dorsal": 18,
+          "name": "MORRAL CAMPILLO, ALBERT"
+        }
+      },
+      {
+        "minute": 88,
+        "out": {
+          "dorsal": 7,
+          "name": "RECORT MORENO, ADRIA"
+        },
+        "in": {
+          "dorsal": 14,
+          "name": "HERRANZ VIDAL, PAU"
+        }
+      },
+      {
+        "minute": 88,
+        "out": {
+          "dorsal": 6,
+          "name": "MUÑOZ DELGADO, ALEJANDRO"
+        },
+        "in": {
+          "dorsal": 26,
+          "name": "CASTELLOTE REDON, IKER"
+        }
+      }
+    ],
     "cards": []
   },
   "goals": [

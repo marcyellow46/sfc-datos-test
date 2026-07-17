@@ -108,7 +108,52 @@
         "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/20122441"
       }
     ],
-    "substitutions": [],
+    "substitutions": [
+      {
+        "minute": 6,
+        "out": {
+          "dorsal": 13,
+          "name": "HURTADO MARTIN, HECTOR"
+        },
+        "in": {
+          "dorsal": 25,
+          "name": "TRUCHARTE GARCIA, HUGO"
+        }
+      },
+      {
+        "minute": 65,
+        "out": {
+          "dorsal": 24,
+          "name": "HERVÁS LEAL, JAVIER"
+        },
+        "in": {
+          "dorsal": 7,
+          "name": "CASTELL SOLE, NIL"
+        }
+      },
+      {
+        "minute": 65,
+        "out": {
+          "dorsal": 20,
+          "name": "MARÍ PASCUAL, ALEIX"
+        },
+        "in": {
+          "dorsal": 9,
+          "name": "FORGAS PALLARES, ERNEST"
+        }
+      },
+      {
+        "minute": 80,
+        "out": {
+          "dorsal": 17,
+          "name": "MARC"
+        },
+        "in": {
+          "dorsal": 23,
+          "name": "CABRERIZO TOCON, ADRIAN"
+        }
+      }
+    ],
     "cards": []
   },
   "away": {
@@ -217,7 +262,63 @@
         "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/15946659"
       }
     ],
-    "substitutions": [],
+    "substitutions": [
+      {
+        "minute": 73,
+        "out": {
+          "dorsal": 9,
+          "name": "VEGA NAVARRO, ENRIC"
+        },
+        "in": {
+          "dorsal": 12,
+          "name": "NII , OLIVER KOTA"
+        }
+      },
+      {
+        "minute": 73,
+        "out": {
+          "dorsal": 23,
+          "name": "DIAZ WILLIAMS, KEVIN"
+        },
+        "in": {
+          "dorsal": 19,
+          "name": "LOPEZ ESCRIG, YOEL"
+        }
+      },
+      {
+        "minute": 80,
+        "out": {
+          "dorsal": 4,
+          "name": "YAHYA RABIE, AYOUB"
+        },
+        "in": {
+          "dorsal": 11,
+          "name": "SENYE PALACIOS, ALFONS"
+        }
+      },
+      {
+        "minute": 80,
+        "out": {
+          "dorsal": 14,
+          "name": "HERRANZ VIDAL, PAU"
+        },
+        "in": {
+          "dorsal": 3,
+          "name": "JUNCÀ ROVIRA, MARC"
+        }
+      },
+      {
+        "minute": 86,
+        "out": {
+          "dorsal": 22,
+          "name": "MENDOZA GARCIA, SEBASTIA"
+        },
+        "in": {
+          "dorsal": 30,
+          "name": "RUIZ DEL TÍO, JOAN"
+        }
+      }
+    ],
     "cards": []
   },
   "goals": [

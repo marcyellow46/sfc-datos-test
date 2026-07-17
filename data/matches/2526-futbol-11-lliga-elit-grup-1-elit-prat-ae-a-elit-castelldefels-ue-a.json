@@ -103,7 +103,30 @@
         "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/27655563"
       }
     ],
-    "substitutions": [],
+    "substitutions": [
+      {
+        "minute": 75,
+        "out": {
+          "dorsal": 18,
+          "name": "MUÑOZ VELA, MARC"
+        },
+        "in": {
+          "dorsal": 17,
+          "name": "CUEVAS LARDIES, NICOLAS DANIEL"
+        }
+      },
+      {
+        "minute": 83,
+        "out": {
+          "dorsal": 23,
+          "name": "CORTINA CABALLERO, ABEL"
+        },
+        "in": {
+          "dorsal": 28,
+          "name": "FRENKEL MARTINS, MARC"
+        }
+      }
+    ],
     "cards": []
   },
   "away": {
@@ -202,7 +225,74 @@
         "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/20250865"
       }
     ],
-    "substitutions": [],
+    "substitutions": [
+      {
+        "minute": 46,
+        "out": {
+          "dorsal": 11,
+          "name": "GERBOLES PEREZ, MARIO"
+        },
+        "in": {
+          "dorsal": 14,
+          "name": "GIBERT FUERTES, JOAN"
+        }
+      },
+      {
+        "minute": 46,
+        "out": {
+          "dorsal": 15,
+          "name": "FAURA MARTINEZ, JOEL"
+        },
+        "in": {
+          "dorsal": 19,
+          "name": "VILLAVERDE GARCIA, KILIAN"
+        }
+      },
+      {
+        "minute": 68,
+        "out": {
+          "dorsal": 7,
+          "name": "DIAZ MENDOZA, ALEIX"
+        },
+        "in": {
+          "dorsal": 20,
+          "name": "MALDONADO MOYA, IZAN"
+        }
+      },
+      {
+        "minute": 68,
+        "out": {
+          "dorsal": 18,
+          "name": "POUGET FLORIDO, MARC"
+        },
+        "in": {
+          "dorsal": 22,
+          "name": "PALOU NOGALES, CARLOS"
+        }
+      },
+      {
+        "minute": 68,
+        "out": {
+          "dorsal": 10,
+          "name": "PARRA GARCIA, EDGAR"
+        },
+        "in": {
+          "dorsal": 5,
+          "name": "ORTEGA RAMIREZ, IVAN"
+        }
+      },
+      {
+        "minute": 80,
+        "out": {
+          "dorsal": 23,
+          "name": "MATAMOROS SEGURA, JOEL"
+        },
+        "in": {
+          "dorsal": 2,
+          "name": "MARTIN DURAN, JUAN ANTONIO"
+        }
+      }
+    ],
     "cards": []
   },
   "goals": [

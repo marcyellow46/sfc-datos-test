@@ -108,7 +108,63 @@
         "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/44698885"
       }
     ],
-    "substitutions": [],
+    "substitutions": [
+      {
+        "minute": 69,
+        "out": {
+          "dorsal": 8,
+          "name": "BORRELL SOTO, ALEIX"
+        },
+        "in": {
+          "dorsal": 19,
+          "name": "CHLIH LEHDA, OUSSAMA"
+        }
+      },
+      {
+        "minute": 76,
+        "out": {
+          "dorsal": 24,
+          "name": "TOURE DIAWARA, MAMADOU BOUHARY"
+        },
+        "in": {
+          "dorsal": 11,
+          "name": "ROSENA CAÑAMERO, IZAN"
+        }
+      },
+      {
+        "minute": 76,
+        "out": {
+          "dorsal": 7,
+          "name": "BOBI CHAMORRO, ADRIÁN"
+        },
+        "in": {
+          "dorsal": 17,
+          "name": "TOURAY , OUSMAN"
+        }
+      },
+      {
+        "minute": 85,
+        "out": {
+          "dorsal": 9,
+          "name": "GONZÁLEZ GARCÍA, ADRIÁ"
+        },
+        "in": {
+          "dorsal": 26,
+          "name": "DE WEERD ROBLES, ALEX"
+        }
+      },
+      {
+        "minute": 85,
+        "out": {
+          "dorsal": 15,
+          "name": "MUÑOZ RAYA, MARCOS"
+        },
+        "in": {
+          "dorsal": 5,
+          "name": "MARTINEZ TASIAS, ELOI"
+        }
+      }
+    ],
     "cards": []
   },
   "away": {
@@ -217,7 +273,74 @@
         "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/18760009"
       }
     ],
-    "substitutions": [],
+    "substitutions": [
+      {
+        "minute": 62,
+        "out": {
+          "dorsal": 8,
+          "name": "GALEANO JARDI, FERNANDO"
+        },
+        "in": {
+          "dorsal": 14,
+          "name": "BALDE GOMEZ, OMAR"
+        }
+      },
+      {
+        "minute": 76,
+        "out": {
+          "dorsal": 19,
+          "name": "HUGUE ALCAIDE, GALDERIC"
+        },
+        "in": {
+          "dorsal": 18,
+          "name": "OSORIO ROVIRA, ALEX"
+        }
+      },
+      {
+        "minute": 80,
+        "out": {
+          "dorsal": 23,
+          "name": "PEREZ BELLO, VICTOR"
+        },
+        "in": {
+          "dorsal": 17,
+          "name": "RODRÍGUEZ FERNÁNDEZ, DANIEL"
+        }
+      },
+      {
+        "minute": 85,
+        "out": {
+          "dorsal": 21,
+          "name": "ALCOVER ROIGE, ANTONI"
+        },
+        "in": {
+          "dorsal": 2,
+          "name": "ORTIZ PARAISO, JOSHUA"
+        }
+      },
+      {
+        "minute": 85,
+        "out": {
+          "dorsal": 20,
+          "name": "MONTEJO GARCIA, MARC"
+        },
+        "in": {
+          "dorsal": 7,
+          "name": "BA ANDEME, MARCELO SALIOU"
+        }
+      },
+      {
+        "minute": 89,
+        "out": {
+          "dorsal": 6,
+          "name": "MARTINEZ MORENO, CARLOS"
+        },
+        "in": {
+          "dorsal": 26,
+          "name": "BARCELO GONZALEZ, DIDAC"
+        }
+      }
+    ],
     "cards": []
   },
   "goals": [

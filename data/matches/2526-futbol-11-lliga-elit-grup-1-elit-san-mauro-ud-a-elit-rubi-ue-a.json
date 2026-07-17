@@ -103,7 +103,52 @@
         "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/38056126"
       }
     ],
-    "substitutions": [],
+    "substitutions": [
+      {
+        "minute": 54,
+        "out": {
+          "dorsal": 8,
+          "name": "BENITO ALSINA, BERNAT"
+        },
+        "in": {
+          "dorsal": 15,
+          "name": "ESPINOSA FIGUERAS, JAIRÓN RUBÉN"
+        }
+      },
+      {
+        "minute": 62,
+        "out": {
+          "dorsal": 24,
+          "name": "COSANO BERROCAL, KENNETH"
+        },
+        "in": {
+          "dorsal": 12,
+          "name": "MERINAS CLOP, ERNEST"
+        }
+      },
+      {
+        "minute": 62,
+        "out": {
+          "dorsal": 17,
+          "name": "ROMEU MARQUES, POL"
+        },
+        "in": {
+          "dorsal": 19,
+          "name": "CAÑERO CARMONA, ALEX"
+        }
+      },
+      {
+        "minute": 83,
+        "out": {
+          "dorsal": 6,
+          "name": "ENRIQUEZ DE LA ROSA, MARC"
+        },
+        "in": {
+          "dorsal": 21,
+          "name": "MARQUILLAS BONAVILA, GERARD"
+        }
+      }
+    ],
     "cards": []
   },
   "away": {
@@ -212,7 +257,63 @@
         "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/15695612"
       }
     ],
-    "substitutions": [],
+    "substitutions": [
+      {
+        "minute": 62,
+        "out": {
+          "dorsal": 14,
+          "name": "HERRANZ VIDAL, PAU"
+        },
+        "in": {
+          "dorsal": 21,
+          "name": "MARTIN RIVERA, AIMAR"
+        }
+      },
+      {
+        "minute": 77,
+        "out": {
+          "dorsal": 6,
+          "name": "MUÑOZ DELGADO, ALEJANDRO"
+        },
+        "in": {
+          "dorsal": 23,
+          "name": "DIAZ WILLIAMS, KEVIN"
+        }
+      },
+      {
+        "minute": 77,
+        "out": {
+          "dorsal": 15,
+          "name": "TENORIO GALCERAN, ORIOL"
+        },
+        "in": {
+          "dorsal": 5,
+          "name": "CORNELLA MOLINS, ALEX"
+        }
+      },
+      {
+        "minute": 83,
+        "out": {
+          "dorsal": 20,
+          "name": "RUIZ FERNANDEZ, ALEX"
+        },
+        "in": {
+          "dorsal": 18,
+          "name": "MORRAL CAMPILLO, ALBERT"
+        }
+      },
+      {
+        "minute": 83,
+        "out": {
+          "dorsal": 8,
+          "name": "MASIP MENDEZ, JORDI"
+        },
+        "in": {
+          "dorsal": 9,
+          "name": "LOPEZ ESCRIG, YOEL"
+        }
+      }
+    ],
     "cards": []
   },
   "goals": [

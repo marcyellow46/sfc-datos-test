@@ -108,7 +108,52 @@
         "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/647946"
       }
     ],
-    "substitutions": [],
+    "substitutions": [
+      {
+        "minute": 59,
+        "out": {
+          "dorsal": 15,
+          "name": "RUIZ SANTAMARÍA, HUGO"
+        },
+        "in": {
+          "dorsal": 3,
+          "name": "POU GOMEZ, ARNAU"
+        }
+      },
+      {
+        "minute": 65,
+        "out": {
+          "dorsal": 17,
+          "name": "MULERO GONZALEZ, SERGIO"
+        },
+        "in": {
+          "dorsal": 19,
+          "name": "HUGUE ALCAIDE, GALDERIC"
+        }
+      },
+      {
+        "minute": 81,
+        "out": {
+          "dorsal": 24,
+          "name": "FERNANDEZ AMAT, JOSE JAVIER"
+        },
+        "in": {
+          "dorsal": 2,
+          "name": "ORTIZ PARAISO, JOSHUA"
+        }
+      },
+      {
+        "minute": 85,
+        "out": {
+          "dorsal": 20,
+          "name": "MONTEJO GARCIA, MARC"
+        },
+        "in": {
+          "dorsal": 9,
+          "name": "SANTIAGO PEREZ, ANTONIO"
+        }
+      }
+    ],
     "cards": []
   },
   "away": {
@@ -217,7 +262,63 @@
         "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/15960092"
       }
     ],
-    "substitutions": [],
+    "substitutions": [
+      {
+        "minute": 59,
+        "out": {
+          "dorsal": 17,
+          "name": "OLLÉ JURADO, PEPE"
+        },
+        "in": {
+          "dorsal": 16,
+          "name": "PROKOPEV , MIKHAIL"
+        }
+      },
+      {
+        "minute": 59,
+        "out": {
+          "dorsal": 21,
+          "name": "RELOBA NAVARRO, IZAN"
+        },
+        "in": {
+          "dorsal": 4,
+          "name": "DE ANDRADE JIMENEZ, VICTOR MBUKU"
+        }
+      },
+      {
+        "minute": 65,
+        "out": {
+          "dorsal": 12,
+          "name": "ZELLAL NEJAM, HICHAM"
+        },
+        "in": {
+          "dorsal": 19,
+          "name": "DELGADO CHICANO, ADRIAN"
+        }
+      },
+      {
+        "minute": 75,
+        "out": {
+          "dorsal": 16,
+          "name": "PROKOPEV , MIKHAIL"
+        },
+        "in": {
+          "dorsal": 9,
+          "name": "RODRÍGUEZ  ARASIL, RUBÉN"
+        }
+      },
+      {
+        "minute": 78,
+        "out": {
+          "dorsal": 23,
+          "name": "BUSTO FORTUNA, DANIEL"
+        },
+        "in": {
+          "dorsal": 6,
+          "name": "HIDALGO PEREZ, MANUEL"
+        }
+      }
+    ],
     "cards": []
   },
   "goals": [

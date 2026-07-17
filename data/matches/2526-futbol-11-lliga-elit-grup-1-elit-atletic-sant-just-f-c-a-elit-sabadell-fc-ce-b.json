@@ -108,7 +108,74 @@
         "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/38436012"
       }
     ],
-    "substitutions": [],
+    "substitutions": [
+      {
+        "minute": 3,
+        "out": {
+          "dorsal": 20,
+          "name": "GARCIA BAQUES, POL"
+        },
+        "in": {
+          "dorsal": 6,
+          "name": "GONZÁLEZ TARRUELLA, MARC"
+        }
+      },
+      {
+        "minute": 44,
+        "out": {
+          "dorsal": 1,
+          "name": "DOMINGUEZ CIVICO, TONI"
+        },
+        "in": {
+          "dorsal": 13,
+          "name": "PARTIDA GORDILLO, MARIO"
+        }
+      },
+      {
+        "minute": 46,
+        "out": {
+          "dorsal": 12,
+          "name": "SANCHEZ PLACENCIA, IVAN"
+        },
+        "in": {
+          "dorsal": 25,
+          "name": "GUMA CERQUEDA, JAN"
+        }
+      },
+      {
+        "minute": 60,
+        "out": {
+          "dorsal": 8,
+          "name": "RUIZ PIQUE, ARNAU"
+        },
+        "in": {
+          "dorsal": 11,
+          "name": "BEATTIE ORFILA, ERIK"
+        }
+      },
+      {
+        "minute": 60,
+        "out": {
+          "dorsal": 24,
+          "name": "SORROCHE CALLE, MARK"
+        },
+        "in": {
+          "dorsal": 14,
+          "name": "RABANAL VILLAR, ANIOL"
+        }
+      },
+      {
+        "minute": 73,
+        "out": {
+          "dorsal": 16,
+          "name": "MELERO CALVO, UNAI"
+        },
+        "in": {
+          "dorsal": 17,
+          "name": "GIL NAVARRO, JOEL"
+        }
+      }
+    ],
     "cards": []
   },
   "away": {
@@ -217,7 +284,52 @@
         "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/747210"
       }
     ],
-    "substitutions": [],
+    "substitutions": [
+      {
+        "minute": 46,
+        "out": {
+          "dorsal": 5,
+          "name": "MARTINEZ TASIAS, ELOI"
+        },
+        "in": {
+          "dorsal": 24,
+          "name": "TOURE DIAWARA, MAMADOU BOUHARY"
+        }
+      },
+      {
+        "minute": 60,
+        "out": {
+          "dorsal": 7,
+          "name": "BOBI CHAMORRO, ADRIÁN"
+        },
+        "in": {
+          "dorsal": 18,
+          "name": "SALGUERO CUENCA, ERICK"
+        }
+      },
+      {
+        "minute": 60,
+        "out": {
+          "dorsal": 11,
+          "name": "ROSENA CAÑAMERO, IZAN"
+        },
+        "in": {
+          "dorsal": 9,
+          "name": "GONZÁLEZ GARCÍA, ADRIÁ"
+        }
+      },
+      {
+        "minute": 75,
+        "out": {
+          "dorsal": 22,
+          "name": "SÁEZ JIMÉNEZ, ENRIC"
+        },
+        "in": {
+          "dorsal": 12,
+          "name": "DIABY DIAWARA, MAMADOU"
+        }
+      }
+    ],
     "cards": []
   },
   "goals": [

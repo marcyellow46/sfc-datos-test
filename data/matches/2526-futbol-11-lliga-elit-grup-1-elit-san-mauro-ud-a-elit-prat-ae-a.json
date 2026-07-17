@@ -108,7 +108,52 @@
         "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/15195656"
       }
     ],
-    "substitutions": [],
+    "substitutions": [
+      {
+        "minute": 61,
+        "out": {
+          "dorsal": 24,
+          "name": "COSANO BERROCAL, KENNETH"
+        },
+        "in": {
+          "dorsal": 22,
+          "name": "PUCHE RODRÍGUEZ, FERRAN"
+        }
+      },
+      {
+        "minute": 61,
+        "out": {
+          "dorsal": 11,
+          "name": "YÁÑEZ BORRÀS, PAU"
+        },
+        "in": {
+          "dorsal": 8,
+          "name": "BENITO ALSINA, BERNAT"
+        }
+      },
+      {
+        "minute": 70,
+        "out": {
+          "dorsal": 21,
+          "name": "MARQUILLAS BONAVILA, GERARD"
+        },
+        "in": {
+          "dorsal": 17,
+          "name": "ROMEU MARQUES, POL"
+        }
+      },
+      {
+        "minute": 70,
+        "out": {
+          "dorsal": 6,
+          "name": "ENRIQUEZ DE LA ROSA, MARC"
+        },
+        "in": {
+          "dorsal": 4,
+          "name": "MASEGOSA SOLÍS, ALBERT"
+        }
+      }
+    ],
     "cards": []
   },
   "away": {
@@ -217,7 +262,41 @@
         "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/26244777"
       }
     ],
-    "substitutions": [],
+    "substitutions": [
+      {
+        "minute": 22,
+        "out": {
+          "dorsal": 21,
+          "name": "LAMELAS DOMINGUEZ, MARTIN"
+        },
+        "in": {
+          "dorsal": 12,
+          "name": "ARCHS HORTIGÓN, ALEJANDRO"
+        }
+      },
+      {
+        "minute": 46,
+        "out": {
+          "dorsal": 19,
+          "name": "DONCHEV , MARTIN VALERIEV"
+        },
+        "in": {
+          "dorsal": 9,
+          "name": "VIDAL GIRONES, RICARD"
+        }
+      },
+      {
+        "minute": 82,
+        "out": {
+          "dorsal": 30,
+          "name": "BONAVENTURA GRIS, DANIEL"
+        },
+        "in": {
+          "dorsal": 7,
+          "name": "PLUVINS RAMOS, XAVIER"
+        }
+      }
+    ],
     "cards": []
   },
   "goals": [

@@ -108,7 +108,41 @@
         "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/15723516"
       }
     ],
-    "substitutions": [],
+    "substitutions": [
+      {
+        "minute": 66,
+        "out": {
+          "dorsal": 4,
+          "name": "SAMPER ARBO, XAVIER"
+        },
+        "in": {
+          "dorsal": 12,
+          "name": "ADELL ALIAU, IKER"
+        }
+      },
+      {
+        "minute": 66,
+        "out": {
+          "dorsal": 24,
+          "name": "CARDONA PONS, UBAI"
+        },
+        "in": {
+          "dorsal": 16,
+          "name": "GUTIERREZ DESTEFANIS, AGUSTIN"
+        }
+      },
+      {
+        "minute": 75,
+        "out": {
+          "dorsal": 9,
+          "name": "CABEZAS MENSAH, DAVID"
+        },
+        "in": {
+          "dorsal": 19,
+          "name": "TORRES GONZÁLEZ, ÁLVARO"
+        }
+      }
+    ],
     "cards": []
   },
   "away": {
@@ -217,7 +251,85 @@
         "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/15152617"
       }
     ],
-    "substitutions": [],
+    "substitutions": [
+      {
+        "minute": 3,
+        "out": {
+          "dorsal": 7,
+          "name": "DE SOKOLOW LEYVA, BRYAN"
+        },
+        "in": {
+          "dorsal": 11,
+          "name": "SERRANO RUIZ, LUIS"
+        }
+      },
+      {
+        "minute": 46,
+        "out": {
+          "dorsal": 23,
+          "name": "BUSTO FORTUNA, DANIEL"
+        },
+        "in": {
+          "dorsal": 6,
+          "name": "HIDALGO PEREZ, MANUEL"
+        }
+      },
+      {
+        "minute": 46,
+        "out": {
+          "dorsal": 24,
+          "name": "NAVARRO GÓMEZ, RUBEN"
+        },
+        "in": {
+          "dorsal": 9,
+          "name": "RODRÍGUEZ  ARASIL, RUBÉN"
+        }
+      },
+      {
+        "minute": 54,
+        "out": {
+          "dorsal": 17,
+          "name": "OLLÉ JURADO, PEPE"
+        },
+        "in": {
+          "dorsal": 22,
+          "name": "BRAVO PONCE, PEDRO"
+        }
+      },
+      {
+        "minute": 62,
+        "out": {
+          "dorsal": 21,
+          "name": "RELOBA NAVARRO, IZAN"
+        },
+        "in": {
+          "dorsal": 8,
+          "name": "KADOCHNIKOV , VENIAMIN"
+        }
+      },
+      {
+        "minute": 75,
+        "out": {
+          "dorsal": 5,
+          "name": "COLOM CAÑERO, ANTONIO"
+        },
+        "in": {
+          "dorsal": 20,
+          "name": "VARGAS ECHEPARES, TOMAS"
+        }
+      },
+      {
+        "minute": 75,
+        "out": {
+          "dorsal": 19,
+          "name": "DELGADO CHICANO, ADRIAN"
+        },
+        "in": {
+          "dorsal": 4,
+          "name": "DE ANDRADE JIMENEZ, VICTOR MBUKU"
+        }
+      }
+    ],
     "cards": []
   },
   "goals": [

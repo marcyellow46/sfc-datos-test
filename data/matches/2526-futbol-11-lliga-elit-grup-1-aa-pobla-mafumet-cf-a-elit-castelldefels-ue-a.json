@@ -108,7 +108,74 @@
         "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/18474635"
       }
     ],
-    "substitutions": [],
+    "substitutions": [
+      {
+        "minute": 71,
+        "out": {
+          "dorsal": 3,
+          "name": "DANILO LUCHETTI"
+        },
+        "in": {
+          "dorsal": 11,
+          "name": "POZO GIL, TEO"
+        }
+      },
+      {
+        "minute": 71,
+        "out": {
+          "dorsal": 16,
+          "name": "GUTIERREZ DESTEFANIS, AGUSTIN"
+        },
+        "in": {
+          "dorsal": 14,
+          "name": "CIURÓ RIUDEUBAS, ROGER"
+        }
+      },
+      {
+        "minute": 71,
+        "out": {
+          "dorsal": 12,
+          "name": "CID PLA, POL"
+        },
+        "in": {
+          "dorsal": 8,
+          "name": "BEAMUZ  AROCA, ÀLEX"
+        }
+      },
+      {
+        "minute": 81,
+        "out": {
+          "dorsal": 10,
+          "name": "PAVON COLOMBO, MANUEL"
+        },
+        "in": {
+          "dorsal": 23,
+          "name": "RAYA BERNAL, PAU"
+        }
+      },
+      {
+        "minute": 81,
+        "out": {
+          "dorsal": 21,
+          "name": "PARISI FERRANDIZ, GUILLEM"
+        },
+        "in": {
+          "dorsal": 24,
+          "name": "CARDONA PONS, UBAI"
+        }
+      },
+      {
+        "minute": 86,
+        "out": {
+          "dorsal": 7,
+          "name": "QUEROL MONTAÑES, ALBERT"
+        },
+        "in": {
+          "dorsal": 17,
+          "name": "MAYA PÉREZ, RUBÉN"
+        }
+      }
+    ],
     "cards": []
   },
   "away": {
@@ -217,7 +284,63 @@
         "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/23168454"
       }
     ],
-    "substitutions": [],
+    "substitutions": [
+      {
+        "minute": 64,
+        "out": {
+          "dorsal": 21,
+          "name": "DIAZ MENDOZA, ALEIX"
+        },
+        "in": {
+          "dorsal": 7,
+          "name": "RAMIREZ RUIZ, ENRIQUE"
+        }
+      },
+      {
+        "minute": 71,
+        "out": {
+          "dorsal": 9,
+          "name": "POZUELO RIERA, ELOI"
+        },
+        "in": {
+          "dorsal": 10,
+          "name": "CANO JIMENEZ, CARLOS"
+        }
+      },
+      {
+        "minute": 71,
+        "out": {
+          "dorsal": 16,
+          "name": "FERREIRA MOREIRA, JONATHAN"
+        },
+        "in": {
+          "dorsal": 12,
+          "name": "MONTERO PRADAS, IKER"
+        }
+      },
+      {
+        "minute": 83,
+        "out": {
+          "dorsal": 11,
+          "name": "GERBOLES PEREZ, MARIO"
+        },
+        "in": {
+          "dorsal": 15,
+          "name": "FAURA MARTINEZ, JOEL"
+        }
+      },
+      {
+        "minute": 83,
+        "out": {
+          "dorsal": 19,
+          "name": "PARRA GARCIA, EDGAR"
+        },
+        "in": {
+          "dorsal": 20,
+          "name": "MALDONADO MOYA, IZAN"
+        }
+      }
+    ],
     "cards": []
   },
   "goals": [

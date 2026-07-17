@@ -108,7 +108,52 @@
         "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/646697"
       }
     ],
-    "substitutions": [],
+    "substitutions": [
+      {
+        "minute": 42,
+        "out": {
+          "dorsal": 11,
+          "name": "YÁÑEZ BORRÀS, PAU"
+        },
+        "in": {
+          "dorsal": 19,
+          "name": "CAÑERO CARMONA, ALEX"
+        }
+      },
+      {
+        "minute": 74,
+        "out": {
+          "dorsal": 23,
+          "name": "GUELL SANCHEZ, CARLES"
+        },
+        "in": {
+          "dorsal": 21,
+          "name": "MARQUILLAS BONAVILA, GERARD"
+        }
+      },
+      {
+        "minute": 74,
+        "out": {
+          "dorsal": 20,
+          "name": "GULIAS AGUILERA, MARC"
+        },
+        "in": {
+          "dorsal": 22,
+          "name": "PUCHE RODRÍGUEZ, FERRAN"
+        }
+      },
+      {
+        "minute": 82,
+        "out": {
+          "dorsal": 17,
+          "name": "ROMEU MARQUES, POL"
+        },
+        "in": {
+          "dorsal": 24,
+          "name": "COSANO BERROCAL, KENNETH"
+        }
+      }
+    ],
     "cards": []
   },
   "away": {
@@ -217,7 +262,52 @@
         "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/43487600"
       }
     ],
-    "substitutions": [],
+    "substitutions": [
+      {
+        "minute": 61,
+        "out": {
+          "dorsal": 9,
+          "name": "WERCKMEISTER GARCIA, ANDER"
+        },
+        "in": {
+          "dorsal": 8,
+          "name": "RUIZ PIQUE, ARNAU"
+        }
+      },
+      {
+        "minute": 74,
+        "out": {
+          "dorsal": 10,
+          "name": "GONZALEZ OLLER, JAN ANTONI"
+        },
+        "in": {
+          "dorsal": 12,
+          "name": "SANCHEZ PLACENCIA, IVAN"
+        }
+      },
+      {
+        "minute": 74,
+        "out": {
+          "dorsal": 20,
+          "name": "GARCIA BAQUES, POL"
+        },
+        "in": {
+          "dorsal": 14,
+          "name": "RABANAL VILLAR, ANIOL"
+        }
+      },
+      {
+        "minute": 82,
+        "out": {
+          "dorsal": 16,
+          "name": "MELERO CALVO, UNAI"
+        },
+        "in": {
+          "dorsal": 21,
+          "name": "PEREZ PICON, DAVID"
+        }
+      }
+    ],
     "cards": []
   },
   "goals": [],

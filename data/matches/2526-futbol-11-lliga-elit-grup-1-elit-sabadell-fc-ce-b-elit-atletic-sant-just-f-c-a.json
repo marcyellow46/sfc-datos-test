@@ -108,7 +108,85 @@
         "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/44698885"
       }
     ],
-    "substitutions": [],
+    "substitutions": [
+      {
+        "minute": 56,
+        "out": {
+          "dorsal": 2,
+          "name": "TEBAR ZORRILLA, IVAN"
+        },
+        "in": {
+          "dorsal": 11,
+          "name": "ROSENA CAÑAMERO, IZAN"
+        }
+      },
+      {
+        "minute": 56,
+        "out": {
+          "dorsal": 17,
+          "name": "BAULÓ MEJÍAS, SAMUEL"
+        },
+        "in": {
+          "dorsal": 12,
+          "name": "PEMBERTON , VINCENT NINIAN DAVID"
+        }
+      },
+      {
+        "minute": 56,
+        "out": {
+          "dorsal": 22,
+          "name": "SÁEZ JIMÉNEZ, ENRIC"
+        },
+        "in": {
+          "dorsal": 18,
+          "name": "FERNÁNDEZ BAUMGARTNER, ADRIÁN"
+        }
+      },
+      {
+        "minute": 70,
+        "out": {
+          "dorsal": 27,
+          "name": "GARCIA SANTOS, KAUA"
+        },
+        "in": {
+          "dorsal": 26,
+          "name": "DE WEERD ROBLES, ALEX"
+        }
+      },
+      {
+        "minute": 70,
+        "out": {
+          "dorsal": 20,
+          "name": "SALGUERO CUENCA, ERICK"
+        },
+        "in": {
+          "dorsal": 3,
+          "name": "TORRES CAMARGO, MARIO"
+        }
+      },
+      {
+        "minute": 82,
+        "out": {
+          "dorsal": 25,
+          "name": "BARRERA FONT, ROGER"
+        },
+        "in": {
+          "dorsal": 14,
+          "name": "MARCH PONS, BRU"
+        }
+      },
+      {
+        "minute": 89,
+        "out": {
+          "dorsal": 26,
+          "name": "DE WEERD ROBLES, ALEX"
+        },
+        "in": {
+          "dorsal": 15,
+          "name": "MUÑOZ RAYA, MARCOS"
+        }
+      }
+    ],
     "cards": []
   },
   "away": {
@@ -217,7 +295,85 @@
         "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/785098"
       }
     ],
-    "substitutions": [],
+    "substitutions": [
+      {
+        "minute": 30,
+        "out": {
+          "dorsal": 19,
+          "name": "ARJONA SERRANO, PAU"
+        },
+        "in": {
+          "dorsal": 24,
+          "name": "SORROCHE CALLE, MARK"
+        }
+      },
+      {
+        "minute": 30,
+        "out": {
+          "dorsal": 12,
+          "name": "SANCHEZ PLACENCIA, IVAN"
+        },
+        "in": {
+          "dorsal": 8,
+          "name": "RUIZ PIQUE, ARNAU"
+        }
+      },
+      {
+        "minute": 46,
+        "out": {
+          "dorsal": 22,
+          "name": "PILAR DEL HOYO, JON"
+        },
+        "in": {
+          "dorsal": 16,
+          "name": "MELERO CALVO, UNAI"
+        }
+      },
+      {
+        "minute": 56,
+        "out": {
+          "dorsal": 14,
+          "name": "RABANAL VILLAR, ANIOL"
+        },
+        "in": {
+          "dorsal": 18,
+          "name": "GASPAR MARTINEZ, MARIO"
+        }
+      },
+      {
+        "minute": 56,
+        "out": {
+          "dorsal": 7,
+          "name": "MATEO QUEJIGO, PAU"
+        },
+        "in": {
+          "dorsal": 20,
+          "name": "GARCIA BAQUES, POL"
+        }
+      },
+      {
+        "minute": 71,
+        "out": {
+          "dorsal": 6,
+          "name": "GONZÁLEZ TARRUELLA, MARC"
+        },
+        "in": {
+          "dorsal": 11,
+          "name": "JAWO DANSO, MUHAMMED DABA"
+        }
+      },
+      {
+        "minute": 89,
+        "out": {
+          "dorsal": 4,
+          "name": "PALACIOS CORRAL, IGNACIO"
+        },
+        "in": {
+          "dorsal": 9,
+          "name": "GUMA CERQUEDA, JAN"
+        }
+      }
+    ],
     "cards": []
   },
   "goals": [

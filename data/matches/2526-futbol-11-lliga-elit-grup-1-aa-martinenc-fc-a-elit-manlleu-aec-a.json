@@ -103,7 +103,74 @@
         "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/688717"
       }
     ],
-    "substitutions": [],
+    "substitutions": [
+      {
+        "minute": 37,
+        "out": {
+          "dorsal": 16,
+          "name": "ALARCON MILLAN, KEVIN"
+        },
+        "in": {
+          "dorsal": 14,
+          "name": "GONZALEZ ALCANTARA, CARLOS"
+        }
+      },
+      {
+        "minute": 37,
+        "out": {
+          "dorsal": 11,
+          "name": "GONZALEZ VALTUEÑA, ANGEL"
+        },
+        "in": {
+          "dorsal": 19,
+          "name": "ARAGONES PADILLA, ALBERT"
+        }
+      },
+      {
+        "minute": 37,
+        "out": {
+          "dorsal": 21,
+          "name": "NAVARRO LINARES, ADRIÁN"
+        },
+        "in": {
+          "dorsal": 8,
+          "name": "SUÁREZ POSTIGO, DANIEL"
+        }
+      },
+      {
+        "minute": 61,
+        "out": {
+          "dorsal": 22,
+          "name": "FABIAN PASCUAL, VICTOR"
+        },
+        "in": {
+          "dorsal": 4,
+          "name": "TORRES GOMEZ, ALEJANDRO"
+        }
+      },
+      {
+        "minute": 77,
+        "out": {
+          "dorsal": 17,
+          "name": "ESPIGOL DE LEMUS, MAX"
+        },
+        "in": {
+          "dorsal": 23,
+          "name": "MARTINEZ ATIENZA, GERARD"
+        }
+      },
+      {
+        "minute": 84,
+        "out": {
+          "dorsal": 10,
+          "name": "TEJADA GALLARDO, EDGAR"
+        },
+        "in": {
+          "dorsal": 20,
+          "name": "GARRIGA ORS, ALEJANDRO"
+        }
+      }
+    ],
     "cards": []
   },
   "away": {
@@ -207,7 +274,74 @@
         "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/19806774"
       }
     ],
-    "substitutions": [],
+    "substitutions": [
+      {
+        "minute": 56,
+        "out": {
+          "dorsal": 15,
+          "name": "LOPEZ SÁNCHEZ, ALBERT"
+        },
+        "in": {
+          "dorsal": 19,
+          "name": "PIJUAN COLOM, MARC"
+        }
+      },
+      {
+        "minute": 69,
+        "out": {
+          "dorsal": 3,
+          "name": "ROURA JIMÉNEZ, ROGER"
+        },
+        "in": {
+          "dorsal": 11,
+          "name": "ADU TUTU AMOAH, NANA"
+        }
+      },
+      {
+        "minute": 69,
+        "out": {
+          "dorsal": 17,
+          "name": "CAO FERNÁNDEZ, TONI"
+        },
+        "in": {
+          "dorsal": 14,
+          "name": "BASART VIGAS, SERGI"
+        }
+      },
+      {
+        "minute": 69,
+        "out": {
+          "dorsal": 24,
+          "name": "ROGER SOLA, RAFEL"
+        },
+        "in": {
+          "dorsal": 18,
+          "name": "CARDENAS CASTILLO, AITOR"
+        }
+      },
+      {
+        "minute": 77,
+        "out": {
+          "dorsal": 9,
+          "name": "CASANOVA CLUSELLS, ADRIA"
+        },
+        "in": {
+          "dorsal": 7,
+          "name": "ROSSELL VIDAL, ANTONI"
+        }
+      },
+      {
+        "minute": 84,
+        "out": {
+          "dorsal": 2,
+          "name": "PUNTI GINESTET, JOEL"
+        },
+        "in": {
+          "dorsal": 20,
+          "name": "MURO"
+        }
+      }
+    ],
     "cards": []
   },
   "goals": [

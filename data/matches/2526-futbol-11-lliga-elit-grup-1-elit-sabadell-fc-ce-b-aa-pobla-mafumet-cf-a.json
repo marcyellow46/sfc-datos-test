@@ -108,7 +108,74 @@
         "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/18838593"
       }
     ],
-    "substitutions": [],
+    "substitutions": [
+      {
+        "minute": 46,
+        "out": {
+          "dorsal": 14,
+          "name": "MARCH PONS, BRU"
+        },
+        "in": {
+          "dorsal": 22,
+          "name": "SÁEZ JIMÉNEZ, ENRIC"
+        }
+      },
+      {
+        "minute": 58,
+        "out": {
+          "dorsal": 6,
+          "name": "GIRALT PALAHÍ, XAVI"
+        },
+        "in": {
+          "dorsal": 24,
+          "name": "TOURE DIAWARA, MAMADOU BOUHARY"
+        }
+      },
+      {
+        "minute": 69,
+        "out": {
+          "dorsal": 7,
+          "name": "BOBI CHAMORRO, ADRIÁN"
+        },
+        "in": {
+          "dorsal": 26,
+          "name": "SIMUNYU , ETHAN TAFARA"
+        }
+      },
+      {
+        "minute": 69,
+        "out": {
+          "dorsal": 12,
+          "name": "DIABY DIAWARA, MAMADOU"
+        },
+        "in": {
+          "dorsal": 27,
+          "name": "RIVERA CLAVERO, FRAN"
+        }
+      },
+      {
+        "minute": 86,
+        "out": {
+          "dorsal": 3,
+          "name": "TORRES CAMARGO, MARIO"
+        },
+        "in": {
+          "dorsal": 15,
+          "name": "MUÑOZ RAYA, MARCOS"
+        }
+      },
+      {
+        "minute": 86,
+        "out": {
+          "dorsal": 8,
+          "name": "BORRELL SOTO, ALEIX"
+        },
+        "in": {
+          "dorsal": 17,
+          "name": "TOURAY , OUSMAN"
+        }
+      }
+    ],
     "cards": []
   },
   "away": {
@@ -212,7 +279,74 @@
         "player_url": "https://www.fcf.cat/jugador/2526/futbol-11/lliga-elit/grup-1/54322937/18474635"
       }
     ],
-    "substitutions": [],
+    "substitutions": [
+      {
+        "minute": 58,
+        "out": {
+          "dorsal": 8,
+          "name": "BEAMUZ  AROCA, ÀLEX"
+        },
+        "in": {
+          "dorsal": 21,
+          "name": "PARISI FERRANDIZ, GUILLEM"
+        }
+      },
+      {
+        "minute": 58,
+        "out": {
+          "dorsal": 24,
+          "name": "CARDONA PONS, UBAI"
+        },
+        "in": {
+          "dorsal": 23,
+          "name": "RAYA BERNAL, PAU"
+        }
+      },
+      {
+        "minute": 68,
+        "out": {
+          "dorsal": 11,
+          "name": "POZO GIL, TEO"
+        },
+        "in": {
+          "dorsal": 12,
+          "name": "CID PLA, POL"
+        }
+      },
+      {
+        "minute": 68,
+        "out": {
+          "dorsal": 14,
+          "name": "CIURÓ RIUDEUBAS, ROGER"
+        },
+        "in": {
+          "dorsal": 26,
+          "name": "AGUZZI BETTINI, NICOLAS ALBERTO"
+        }
+      },
+      {
+        "minute": 68,
+        "out": {
+          "dorsal": 7,
+          "name": "QUEROL MONTAÑES, ALBERT"
+        },
+        "in": {
+          "dorsal": 2,
+          "name": "MORENO GAITAN, MARC"
+        }
+      },
+      {
+        "minute": 89,
+        "out": {
+          "dorsal": 12,
+          "name": "CID PLA, POL"
+        },
+        "in": {
+          "dorsal": 18,
+          "name": "TORRES GONZÁLEZ, ÁLVARO"
+        }
+      }
+    ],
     "cards": []
   },
   "goals": [
