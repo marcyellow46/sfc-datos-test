@@ -143,6 +143,7 @@ def main():
 
     player_matches = defaultdict(int)
     player_call_ups = defaultdict(int)
+    player_titular = defaultdict(int)
     player_minutes_total = defaultdict(int)
     player_goals_total = defaultdict(int)
     player_goals_conceded_total = defaultdict(int)
@@ -196,8 +197,18 @@ def main():
         # es independiente del cálculo de minutos (que depende de que las
         # sustituciones estén bien leídas) — aquí solo miramos si el nombre
         # aparece listado en la ficha del equipo para ese partido.
+        # "Titular" y "Suplente" son categorías que se excluyen entre sí y
+        # suman el total de convocatorias: titular = empezó el partido en el
+        # once inicial; suplente = empezó en el banquillo, haya llegado a
+        # jugar o no.
         for side_name, side in ((home_name, home), (away_name, away)):
-            for p in side.get("starters", []) + side.get("bench", []):
+            for p in side.get("starters", []):
+                name = normalize_name(p["name"])
+                player_call_ups[name] += 1
+                player_titular[name] += 1
+                player_dorsal.setdefault(name, p["dorsal"])
+                player_team.setdefault(name, side_name)
+            for p in side.get("bench", []):
                 name = normalize_name(p["name"])
                 player_call_ups[name] += 1
                 player_dorsal.setdefault(name, p["dorsal"])
@@ -270,10 +281,9 @@ def main():
     for name in all_player_names:
         matches = player_matches.get(name, 0)
         call_ups = player_call_ups.get(name, 0)
+        titular = player_titular.get(name, 0)
+        suplente = call_ups - titular
         minutes_total = player_minutes_total[name]
-        ranges = player_ranges[name]
-        avg_start = round(sum(r[0] for r in ranges) / len(ranges)) if ranges else 0
-        avg_end = round(sum(r[1] for r in ranges) / len(ranges)) if ranges else 0
         position = positions.get(name, "Sin definir")
         entry = {
             "name": name,
@@ -281,11 +291,11 @@ def main():
             "team": player_team.get(name),
             "position": position,
             "callUpsTotal": call_ups,
+            "titularTotal": titular,
+            "suplenteTotal": suplente,
             "matches": matches,
             "minutesTotal": minutes_total,
             "minutesAvg": round(minutes_total / matches, 1) if matches else 0,
-            "rangeStart": avg_start,
-            "rangeEnd": avg_end,
             "goalsTotal": player_goals_total.get(name, 0),
             "goalsAvg": round(player_goals_total.get(name, 0) / matches, 2) if matches else 0,
         }
