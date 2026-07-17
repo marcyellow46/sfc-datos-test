@@ -1,0 +1,12 @@
+[
+  {
+    "match_file": "2526-futbol-11-lliga-elit-grup-1-1cat-santfeliuenc-fc-a-elit-prat-ae-a.json",
+    "reason": "La acta de la FCF registró la sustitución del min 68' con FELEZ NAVARRO, SERGI cuando en realidad fue FELEZ NAVARRO, ROGER quien saltó al campo (error de la propia acta, confirmado revisando el partido).",
+    "reassign_player": {
+      "from_id": "15625517",
+      "to_id": "15625474",
+      "to_name": "FELEZ NAVARRO, ROGER",
+      "to_dorsal": 20
+    }
+  }
+]
