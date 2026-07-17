@@ -396,9 +396,12 @@ def main():
     # -------- construir teams.json --------
     teams_out = {}
     for team, played in team_played.items():
+        goals_for_total = sum(team_gf_buckets[team])
         teams_out[team] = {
             "name": team,
             "matchesPlayed": played,
+            "goalsForTotal": goals_for_total,
+            "goalsForAvg": round(goals_for_total / played, 2),
             "goalsAgainstTotal": team_goals_against_total[team],
             "goalsAgainstAvg": round(team_goals_against_total[team] / played, 2),
             "gfBucketsTotal": team_gf_buckets[team],
