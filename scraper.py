@@ -234,49 +234,64 @@ def _parse_substitutions_global(soup, debug_label=None):
     tabla que sigue (o que envuelve) al texto "Substitucions" —que resultó
     no encontrarse NUNCA en los 240 partidos reales, el mismo tipo de
     fragilidad que ya vimos con "Gols"—, recorremos TODAS las filas <tr>
-    del documento y nos quedamos con las que tienen forma de fila de
-    sustitución (dorsal + enlace a jugador en las celdas 2ª y 3ª, con la 1ª
-    celda siendo un minuto tipo "45'" o estando vacía).
+    del documento.
 
-    En vez de exigir que la fila "sale" y su fila "entra" sean vecinas
-    inmediatas en el documento (lo cual se rompe si hay algo intercalado
-    entre medias, p.ej. por cómo repite bloques esta web), primero
-    recogemos TODAS las filas candidatas en orden, y luego las emparejamos
-    por alternancia: candidata-con-minuto seguida de candidata-sin-minuto.
+    Confirmado con una acta real: cada sustitución son dos filas seguidas,
+    "sale" (minuto + dorsal + jugador) e "entra" justo debajo. La fila
+    "entra" puede tener 2 celdas (dorsal + jugador, sin celda de minuto) o
+    3 (celda de minuto vacía + dorsal + jugador) según cómo la renderice
+    la web en cada caso — antes solo contemplaba la variante de 3 celdas,
+    por eso no encontraba ninguna "entra". Ahora acepto las dos.
     """
-    candidates = []
-    for row in soup.find_all("tr"):
-        cells = row.find_all("td")
-        if len(cells) < 3:
-            continue
-        link = cells[2].find("a", href=re.compile(r"/jugador/"))
-        dorsal_txt = cells[1].get_text(strip=True)
-        if not link or not dorsal_txt.isdigit():
-            continue
-        minute_txt = cells[0].get_text(strip=True).replace("'", "")
-        candidates.append({
-            "minute": int(minute_txt) if minute_txt.isdigit() else None,
-            "dorsal": int(dorsal_txt),
-            "name": link.get_text(strip=True),
-        })
+    all_rows = soup.find_all("tr")
 
-    if debug_label:
-        print(f"    [debug] {debug_label}: {len(candidates)} filas candidatas de sustitución "
-              f"detectadas: {candidates[:6]}{' ...' if len(candidates) > 6 else ''}")
+    def row_as_out(cells):
+        # fila "sale": minuto + dorsal + enlace a jugador (3+ celdas)
+        if len(cells) < 3:
+            return None
+        minute_txt = cells[0].get_text(strip=True).replace("'", "")
+        dorsal_txt = cells[1].get_text(strip=True)
+        link = cells[2].find("a", href=re.compile(r"/jugador/"))
+        if not (minute_txt.isdigit() and dorsal_txt.isdigit() and link):
+            return None
+        return {"minute": int(minute_txt), "dorsal": int(dorsal_txt), "name": link.get_text(strip=True)}
+
+    def row_as_in(cells):
+        # fila "entra": 2 celdas (dorsal + jugador) o 3 (vacía + dorsal + jugador)
+        if len(cells) == 2:
+            dorsal_txt = cells[0].get_text(strip=True)
+            link = cells[1].find("a", href=re.compile(r"/jugador/"))
+        elif len(cells) >= 3 and cells[0].get_text(strip=True) == "":
+            dorsal_txt = cells[1].get_text(strip=True)
+            link = cells[2].find("a", href=re.compile(r"/jugador/"))
+        else:
+            return None
+        if not (dorsal_txt.isdigit() and link):
+            return None
+        return {"dorsal": int(dorsal_txt), "name": link.get_text(strip=True)}
 
     events = []
+    unpaired_sale = 0
     i = 0
-    while i < len(candidates) - 1:
-        a, b = candidates[i], candidates[i + 1]
-        if a["minute"] is not None and b["minute"] is None:
-            events.append({
-                "minute": a["minute"],
-                "out": {"dorsal": a["dorsal"], "name": a["name"]},
-                "in": {"dorsal": b["dorsal"], "name": b["name"]},
-            })
-            i += 2
-        else:
-            i += 1
+    while i < len(all_rows):
+        out_player = row_as_out(all_rows[i].find_all("td"))
+        if out_player and i + 1 < len(all_rows):
+            in_player = row_as_in(all_rows[i + 1].find_all("td"))
+            if in_player:
+                events.append({
+                    "minute": out_player["minute"],
+                    "out": {"dorsal": out_player["dorsal"], "name": out_player["name"]},
+                    "in": in_player,
+                })
+                i += 2
+                continue
+            unpaired_sale += 1
+        i += 1
+
+    if debug_label:
+        print(f"    [debug] {debug_label}: {len(events)} sustituciones emparejadas "
+              f"({unpaired_sale} filas 'sale' sin pareja 'entra' detectada).")
+
     return events
 
 
