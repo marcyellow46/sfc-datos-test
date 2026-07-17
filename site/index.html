@@ -462,6 +462,7 @@ async function loadRealData() {
         gfBucketsAvg: t.gfBucketsAvg,
         gaBucketsTotal: t.gaBucketsTotal,
         gaBucketsAvg: t.gaBucketsAvg,
+        keyMoments: t.keyMoments,
         players: (playersByTeam[t.name] || []).sort((a, b) => b.minutesTotal - a.minutesTotal),
       }))
       .sort((a, b) => a.name.localeCompare(b.name));
@@ -540,6 +541,29 @@ function timelineHtml(totals, avgs, colorClass){
   }).join("");
   const labels = BUCKET_LABELS.map(l=>`<span>${l}</span>`).join("");
   return `<div class="timeline">${segs}</div><div class="timeline-labels">${labels}</div>`;
+}
+
+const KEY_MOMENT_ROWS = [
+  { forKey: "early1_10For",     againstKey: "early1_10Against",     label: "Inicio de partido (1'-10')" },
+  { forKey: "halfEnd40_45For",  againstKey: "halfEnd40_45Against",  label: "Final 1ª parte (40'-45')" },
+  { forKey: "halfStart45_50For",againstKey: "halfStart45_50Against",label: "Inicio 2ª parte (45'-50')" },
+  { forKey: "lateDecisiveFor",  againstKey: "lateDecisiveAgainst",  label: "Gol decisivo tardío (80'+)" },
+  { forKey: "quickResponseFor", againstKey: "quickResponseAgainst", label: "Respuesta rápida (≤5' de otro gol)" },
+];
+
+function keyMomentsTable(km){
+  km = km || {};
+  const rows = KEY_MOMENT_ROWS.map(r => `
+    <tr>
+      <td>${r.label}</td>
+      <td class="num" style="color:var(--amber)">${km[r.forKey] ?? 0}</td>
+      <td class="num" style="color:var(--clay)">${km[r.againstKey] ?? 0}</td>
+    </tr>
+  `).join("");
+  return `<table class="players">
+    <thead><tr><th>Momento</th><th>A favor</th><th>En contra</th></tr></thead>
+    <tbody>${rows}</tbody>
+  </table>`;
 }
 
 function playerRangeBar(p){
@@ -703,6 +727,10 @@ function renderTeamView(){
           <div class="timeline-block-title">Minutos en que encaja (total)</div>
           ${timelineHtml(team.gaBucketsTotal, team.gaBucketsAvg, "clay")}
         </div>
+      </div>
+      <div class="section-block" style="margin-top:28px;">
+        <div class="timeline-block-title">Goles en momentos clave</div>
+        ${keyMomentsTable(team.keyMoments)}
       </div>
     `;
   }
