@@ -142,6 +142,7 @@ def main():
     team_ga_buckets = defaultdict(lambda: [0] * 6)
 
     player_matches = defaultdict(int)
+    player_call_ups = defaultdict(int)
     player_minutes_total = defaultdict(int)
     player_goals_total = defaultdict(int)
     player_goals_conceded_total = defaultdict(int)
@@ -189,6 +190,18 @@ def main():
             player_dorsal[name] = dorsal
             player_team[name] = away_name
             player_ranges[name].append((start, end))
+
+        # Convocatorias: cualquiera que aparezca en Titulars o Suplents de
+        # ese partido cuenta como convocado, haya llegado a jugar o no. Esto
+        # es independiente del cálculo de minutos (que depende de que las
+        # sustituciones estén bien leídas) — aquí solo miramos si el nombre
+        # aparece listado en la ficha del equipo para ese partido.
+        for side_name, side in ((home_name, home), (away_name, away)):
+            for p in side.get("starters", []) + side.get("bench", []):
+                name = normalize_name(p["name"])
+                player_call_ups[name] += 1
+                player_dorsal.setdefault(name, p["dorsal"])
+                player_team.setdefault(name, side_name)
 
         # goles: hay que decidir de qué equipo es cada gol comparando el
         # autor con las plantillas de cada lado. Usamos roster_names (titulares
@@ -253,7 +266,10 @@ def main():
 
     # -------- construir players.json --------
     players_out = {}
-    for name, matches in player_matches.items():
+    all_player_names = set(player_matches.keys()) | set(player_call_ups.keys())
+    for name in all_player_names:
+        matches = player_matches.get(name, 0)
+        call_ups = player_call_ups.get(name, 0)
         minutes_total = player_minutes_total[name]
         ranges = player_ranges[name]
         avg_start = round(sum(r[0] for r in ranges) / len(ranges)) if ranges else 0
@@ -264,6 +280,7 @@ def main():
             "dorsal": player_dorsal.get(name),
             "team": player_team.get(name),
             "position": position,
+            "callUpsTotal": call_ups,
             "matches": matches,
             "minutesTotal": minutes_total,
             "minutesAvg": round(minutes_total / matches, 1) if matches else 0,
