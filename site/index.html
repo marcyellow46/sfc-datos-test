@@ -544,7 +544,8 @@ const SORT_COLUMNS = [
   { key: "name", label: "Jugador", type: "string" },
   { key: "position", label: "Pos.", type: "string" },
   { key: "callUpsTotal", label: "Convocatorias", type: "number" },
-  { key: "minutesTotal", label: "Min. (total / media)", type: "number" },
+  { key: "minutesTotal", label: "Minutos", type: "number" },
+  { key: "minutesAvg", label: "Min./partido", type: "number" },
   { key: "rangeStart", label: "Rango habitual", type: "number" },
   { key: "goalsTotal", label: "Goles", type: "number" },
   { key: "goalsAvg", label: "Goles/partido", type: "number" },
@@ -585,7 +586,8 @@ function playersTable(players){
       <td class="name-cell"><span class="dorsal">${p.dorsal}</span>${p.name}</td>
       <td>${posBadge(p.position)}</td>
       <td class="num">${p.callUpsTotal}</td>
-      <td class="num">${p.minutesTotal} <span style="color:var(--chalk-dim)">(${p.minutesAvg}/p)</span></td>
+      <td class="num">${p.minutesTotal}</td>
+      <td class="num">${p.minutesAvg}</td>
       <td>${playerRangeBar(p)}</td>
       <td class="num">${p.goalsTotal}</td>
       <td class="num">${p.goalsAvg}</td>
