@@ -48,7 +48,7 @@ GROUP = "grup-1"
 MAX_JORNADAS = 34                     # límite de seguridad; se detiene antes si no hay más
 REQUEST_DELAY_SECONDS = 1.0           # ser educado con el servidor de la FCF
 DEBUG = False                         # True -> guarda el html de cada página descargada
-FORCE_REFRESH = True                  # True -> re-parsea TODO aunque el JSON ya exista.
+FORCE_REFRESH = False                  # True -> re-parsea TODO aunque el JSON ya exista.
                                        # Ponlo en True puntualmente cuando cambies la
                                        # lógica de parseo (como ahora, para corregir los
                                        # partidos guardados con el nombre de equipo local
