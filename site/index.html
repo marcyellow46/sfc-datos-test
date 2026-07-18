@@ -361,6 +361,10 @@ function mkPlayer(dorsal,name,position,minTotal,partidos,goles,rangoIni,rangoFin
     rangeEnd:rangoFin,
     goalsConcededTotal:golesEncajados,
     goalsConcededAvg:golesEncajados!==null?+(golesEncajados/partidos).toFixed(2):null,
+    goalsForOnPitchTotal:Math.round(partidos*1.1),
+    goalsForOnPitchAvg:+(1.1).toFixed(2),
+    goalsAgainstOnPitchTotal:Math.round(partidos*0.9),
+    goalsAgainstOnPitchAvg:+(0.9).toFixed(2),
     yellowCardsCycles:0,
     yellowCardsTally:Math.min(partidos%5,4),
     yellowCardsScore:Math.min(partidos%5,4)
@@ -683,6 +687,10 @@ const SORT_COLUMNS = [
   { key: "goalsTotal", label: "Goles", type: "number" },
   { key: "goalsAvg", label: "Goles/partido", type: "number" },
   { key: "goalsConcededTotal", label: "Encajados (total / media)", type: "number" },
+  { key: "goalsForOnPitchTotal", label: "Equipo marca en pista", type: "number" },
+  { key: "goalsForOnPitchAvg", label: "Equipo marca en pista/p.", type: "number" },
+  { key: "goalsAgainstOnPitchTotal", label: "Equipo encaja en pista", type: "number" },
+  { key: "goalsAgainstOnPitchAvg", label: "Equipo encaja en pista/p.", type: "number" },
   { key: "yellowCardsScore", label: "Amarillas", type: "number" },
 ];
 
@@ -738,6 +746,10 @@ function playersTable(players){
       <td class="num">${p.goalsTotal}</td>
       <td class="num">${p.goalsAvg}</td>
       <td class="num">${p.goalsConcededTotal!==null ? p.goalsConcededTotal+` <span style="color:var(--chalk-dim)">(${p.goalsConcededAvg}/p)</span>` : "—"}</td>
+      <td class="num">${p.goalsForOnPitchTotal}</td>
+      <td class="num">${p.goalsForOnPitchAvg}</td>
+      <td class="num">${p.goalsAgainstOnPitchTotal}</td>
+      <td class="num">${p.goalsAgainstOnPitchAvg}</td>
       <td class="num">${yellowCardsDisplay(p)}</td>
     </tr>
   `).join("");
