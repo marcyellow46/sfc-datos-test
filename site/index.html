@@ -858,6 +858,9 @@ function renderCompareView(){
       <div class="team-meta">${A.name} vs ${B.name}</div>
 
       <div class="section-block" style="margin-top:22px;">
+        <div style="font-size:11px;color:var(--chalk-dim);margin-bottom:10px;">
+          <span style="color:var(--amber)">●</span> ${A.name} &nbsp; <span style="color:var(--clay)">●</span> ${B.name}
+        </div>
         ${compareStatRow("Goles a favor (total)", A.goalsForTotal, B.goalsForTotal)}
         ${compareStatRow("Goles a favor (media)", A.goalsForAvg, B.goalsForAvg)}
         ${compareStatRow("Goles en contra (total)", A.goalsAgainstTotal, B.goalsAgainstTotal)}
