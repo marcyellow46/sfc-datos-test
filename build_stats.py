@@ -279,6 +279,7 @@ def main():
 
     goals_total_seen = 0
     goals_skipped = 0
+    quick_response_seen = 0
     subs_total_seen = 0
     matches_with_zero_subs = 0
 
@@ -465,6 +466,7 @@ def main():
             # actual: si el equipo que marca/encaja ahora había marcado o
             # encajado el gol anterior.
             if prev_goal is not None and (minute - prev_goal["minute"]) <= 5:
+                quick_response_seen += 1
                 prev_scoring, prev_conceding = prev_goal["scoring_team"], prev_goal["conceding_team"]
 
                 # el equipo que ahora MARCA (scoring_team):
@@ -554,6 +556,7 @@ def main():
           f"({subs_total_seen / len(match_files):.1f} de media por partido). "
           f"Partidos con 0 sustituciones detectadas: {matches_with_zero_subs} "
           f"(sospechoso si es un número alto — en fútbol amateur casi siempre hay alguna).")
+    print(f"Respuestas rápidas (goles a <=5' de otro) detectadas: {quick_response_seen}")
 
     missing = [k for k in players_out if players_out[k]["position"] == "Sin definir"]
     if missing:
