@@ -102,6 +102,15 @@
     display:block;font-size:10px;color:var(--chalk-dim);text-transform:uppercase;
     letter-spacing:0.5px;font-weight:600;margin-bottom:5px;
   }
+  .field-label{
+    display:block;font-size:10px;color:var(--chalk-dim);text-transform:uppercase;
+    letter-spacing:0.5px;font-weight:600;margin-bottom:5px;
+  }
+  .field-select{
+    width:100%;background:var(--pitch-dark);border:1px solid var(--panel-line);
+    color:var(--chalk);padding:8px 10px;border-radius:6px;font-family:var(--font-body);
+    font-size:13px;cursor:pointer;
+  }
   .my-team-box select{
     width:100%;background:var(--pitch-dark);border:1px solid var(--panel-line);
     color:var(--chalk);padding:8px 10px;border-radius:6px;font-family:var(--font-body);
@@ -258,18 +267,25 @@
   .two-col{display:grid;grid-template-columns:1fr 1fr;gap:24px;}
 
   /* players table */
+  .table-scroll-wrap{overflow-x:auto;overflow-y:visible;border:1px solid var(--panel-line);border-radius:8px;}
   table.players{width:100%;border-collapse:collapse;font-size:13px;}
   table.players th{
-    text-align:left;font-family:var(--font-body);font-weight:600;font-size:11px;
-    color:var(--chalk-dim);text-transform:uppercase;letter-spacing:0.4px;
-    padding:8px 10px;border-bottom:1px solid var(--panel-line);
-    user-select:none;
+    text-align:left;font-family:var(--font-body);font-weight:600;font-size:10px;
+    color:var(--chalk-dim);text-transform:uppercase;letter-spacing:0.3px;
+    padding:8px 8px;border-bottom:1px solid var(--panel-line);
+    user-select:none;white-space:normal;max-width:90px;line-height:1.3;
+    background:var(--pitch-mid);position:sticky;top:0;z-index:3;
   }
-  table.players th.sortable{cursor:pointer;white-space:nowrap;}
+  table.players th.sortable{cursor:pointer;}
   table.players th.sortable:hover{color:var(--chalk);}
   table.players th.sortable.active{color:var(--amber);}
   table.players td{padding:10px;border-bottom:1px solid rgba(255,255,255,0.05);vertical-align:middle;}
   table.players tr:hover td{background:rgba(255,255,255,0.03);}
+  table.players th:first-child, table.players td:first-child{
+    position:sticky;left:0;z-index:2;background:var(--pitch-dark);
+  }
+  table.players th:first-child{z-index:4;background:var(--pitch-mid);}
+  table.players tr:hover td:first-child{background:var(--pitch-mid);}
   .pos-badge{
     font-family:var(--font-mono);font-size:10px;padding:2px 7px;border-radius:3px;
     background:var(--panel-line);color:var(--chalk);white-space:nowrap;
@@ -452,7 +468,8 @@ let mode = "team";          // "team" | "compare"
 let TEAMS = [];
 let selectedTeamId = null;
 let compareA = null, compareB = null;
-let activeTab = "plantilla"; // "plantilla" | "equipo"
+let activeTab = "plantilla"; // "plantilla" | "equipo" | "jugadores"
+let playerCompareASel = null, playerCompareBSel = null;
 
 let myTeamId = localStorage.getItem("sfcdatos_myTeam") || "";
 let favoriteIds = new Set(JSON.parse(localStorage.getItem("sfcdatos_favorites") || "[]"));
@@ -731,6 +748,64 @@ function yellowCardsDisplay(p){
   return `<span style="color:var(--chalk-dim)">(${cycles})</span> ${squares}`;
 }
 
+function renderPlayerCompare(content, team){
+  if(playerCompareASel && !team.players.some(p=>p.dorsal+p.name===playerCompareASel)) playerCompareASel = null;
+  if(playerCompareBSel && !team.players.some(p=>p.dorsal+p.name===playerCompareBSel)) playerCompareBSel = null;
+
+  const options = (selected) => `<option value="">— Elegir —</option>` + team.players.map(p=>
+    `<option value="${p.dorsal}${p.name}" ${selected===(p.dorsal+p.name)?'selected':''}>${p.name}</option>`
+  ).join("");
+
+  content.innerHTML = `
+    <div class="section-block" style="display:flex;gap:16px;max-width:600px;">
+      <div style="flex:1;">
+        <label class="field-label">Jugador A</label>
+        <select id="playerCompareA" class="field-select">${options(playerCompareASel)}</select>
+      </div>
+      <div style="flex:1;">
+        <label class="field-label">Jugador B</label>
+        <select id="playerCompareB" class="field-select">${options(playerCompareBSel)}</select>
+      </div>
+    </div>
+    <div id="playerCompareResult"></div>
+  `;
+
+  const selA = document.getElementById("playerCompareA");
+  const selB = document.getElementById("playerCompareB");
+  selA.onchange = () => { playerCompareASel = selA.value || null; renderTeamView(); };
+  selB.onchange = () => { playerCompareBSel = selB.value || null; renderTeamView(); };
+
+  const result = document.getElementById("playerCompareResult");
+  const pA = team.players.find(p=>(p.dorsal+p.name)===playerCompareASel);
+  const pB = team.players.find(p=>(p.dorsal+p.name)===playerCompareBSel);
+  if(!pA || !pB){
+    result.innerHTML = `<div class="empty-state"><h2>Comparar jugadores</h2><p>Elige dos jugadores de ${team.name} para ver sus datos uno junto al otro.</p></div>`;
+    return;
+  }
+
+  result.innerHTML = `
+    <div class="section-block" style="margin-top:10px;">
+      <div style="font-size:11px;color:var(--chalk-dim);margin-bottom:10px;">
+        <span style="color:var(--amber)">●</span> ${pA.name} &nbsp; <span style="color:var(--clay)">●</span> ${pB.name}
+      </div>
+      ${compareStatRow("Convocatorias", pA.callUpsTotal, pB.callUpsTotal)}
+      ${compareStatRow("Participaciones", pA.matches, pB.matches)}
+      ${compareStatRow("Titular", pA.titularTotal, pB.titularTotal)}
+      ${compareStatRow("Suplente", pA.suplenteTotal, pB.suplenteTotal)}
+      ${compareStatRow("Minutos", pA.minutesTotal, pB.minutesTotal)}
+      ${compareStatRow("Min./partido", pA.minutesAvg, pB.minutesAvg)}
+      ${compareStatRow("Goles", pA.goalsTotal, pB.goalsTotal)}
+      ${compareStatRow("Goles/partido", pA.goalsAvg, pB.goalsAvg)}
+      ${compareStatRow("Encajados (portero)", pA.goalsConcededTotal ?? "—", pB.goalsConcededTotal ?? "—")}
+      ${compareStatRow("Equipo marca en pista", pA.goalsForOnPitchTotal, pB.goalsForOnPitchTotal)}
+      ${compareStatRow("Equipo marca en pista/p.", pA.goalsForOnPitchAvg, pB.goalsForOnPitchAvg)}
+      ${compareStatRow("Equipo encaja en pista", pA.goalsAgainstOnPitchTotal, pB.goalsAgainstOnPitchTotal)}
+      ${compareStatRow("Equipo encaja en pista/p.", pA.goalsAgainstOnPitchAvg, pB.goalsAgainstOnPitchAvg)}
+      ${compareStatRow("Amarillas (ciclos)", pA.yellowCardsCycles ?? 0, pB.yellowCardsCycles ?? 0)}
+    </div>
+  `;
+}
+
 function playersTable(players){
   const sorted = sortPlayers(players);
   const rows = sorted.map(p=>`
@@ -758,10 +833,10 @@ function playersTable(players){
     const arrow = active ? (sortState.dir === "asc" ? " ▲" : " ▼") : "";
     return `<th class="sortable${active?' active':''}" data-sort-key="${col.key}">${col.label}${arrow}</th>`;
   }).join("");
-  return `<table class="players">
+  return `<div class="table-scroll-wrap"><table class="players">
     <thead><tr>${headerCells}</tr></thead>
     <tbody>${rows}</tbody>
-  </table>`;
+  </table></div>`;
 }
 
 function attachSortHandlers(container){
@@ -788,6 +863,7 @@ function renderTeamView(){
     <div class="tabs">
       <button class="tab-btn ${activeTab==='plantilla'?'active':''}" data-tab="plantilla">Plantilla</button>
       <button class="tab-btn ${activeTab==='equipo'?'active':''}" data-tab="equipo">Equipo</button>
+      <button class="tab-btn ${activeTab==='jugadores'?'active':''}" data-tab="jugadores">Comparar jugadores</button>
     </div>
 
     <div id="tabContent"></div>
@@ -801,6 +877,8 @@ function renderTeamView(){
   if(activeTab==="plantilla"){
     content.innerHTML = `<div class="section-block">${playersTable(team.players)}</div>`;
     attachSortHandlers(content);
+  } else if(activeTab==="jugadores"){
+    renderPlayerCompare(content, team);
   } else {
     content.innerHTML = `
       <div class="stat-grid">
