@@ -94,7 +94,8 @@ def _new_key_moments():
         "halfEnd40_45For": 0, "halfEnd40_45Against": 0,
         "halfStart45_50For": 0, "halfStart45_50Against": 0,
         "lateDecisiveFor": 0, "lateDecisiveAgainst": 0,
-        "quickResponseFor": 0, "quickResponseAgainst": 0,
+        "quickResponseAfterScoringFor": 0, "quickResponseAfterScoringAgainst": 0,
+        "quickResponseAfterConcedingFor": 0, "quickResponseAfterConcedingAgainst": 0,
     }
 
 
@@ -411,7 +412,7 @@ def main():
         # Segunda pasada: con los goles ya ordenados, aplicamos los tramos de
         # siempre y calculamos los "momentos clave" llevando el marcador en vivo.
         home_score, away_score = 0, 0
-        prev_goal_minute = None
+        prev_goal = None  # {"minute":, "scoring_team":, "conceding_team":} del gol anterior del partido
         for g in valid_goals:
             minute = g["minute"]
             scoring_team, conceding_team = g["scoring_team"], g["conceding_team"]
@@ -458,14 +459,27 @@ def main():
                 km_scoring["lateDecisiveFor"] += 1
                 km_conceding["lateDecisiveAgainst"] += 1
 
-            # respuesta rápida: este gol cae dentro de los 5 minutos
-            # siguientes al gol anterior del partido (de cualquiera de los
-            # dos equipos)
-            if prev_goal_minute is not None and (minute - prev_goal_minute) <= 5:
-                km_scoring["quickResponseFor"] += 1
-                km_conceding["quickResponseAgainst"] += 1
+            # Respuesta rápida: este gol cae dentro de los 5 minutos
+            # siguientes al gol anterior del partido. Se distingue según qué
+            # fue ese gol anterior PARA CADA equipo implicado en el gol
+            # actual: si el equipo que marca/encaja ahora había marcado o
+            # encajado el gol anterior.
+            if prev_goal is not None and (minute - prev_goal["minute"]) <= 5:
+                prev_scoring, prev_conceding = prev_goal["scoring_team"], prev_goal["conceding_team"]
 
-            prev_goal_minute = minute
+                # el equipo que ahora MARCA (scoring_team):
+                if prev_scoring == scoring_team:
+                    km_scoring["quickResponseAfterScoringFor"] += 1      # marcó, y vuelve a marcar rápido
+                elif prev_conceding == scoring_team:
+                    km_scoring["quickResponseAfterConcedingFor"] += 1    # había encajado, responde rápido
+
+                # el equipo que ahora ENCAJA (conceding_team):
+                if prev_scoring == conceding_team:
+                    km_conceding["quickResponseAfterScoringAgainst"] += 1    # había marcado, encaja justo después
+                elif prev_conceding == conceding_team:
+                    km_conceding["quickResponseAfterConcedingAgainst"] += 1  # ya encajaba, encaja otra vez rápido
+
+            prev_goal = {"minute": minute, "scoring_team": scoring_team, "conceding_team": conceding_team}
 
     # -------- construir teams.json --------
     teams_out = {}
