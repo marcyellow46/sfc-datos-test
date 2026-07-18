@@ -86,12 +86,12 @@
     border:none;
     color:var(--chalk-dim);
     font-family:var(--font-body);
-    font-size:12px;
+    font-size:11px;
     font-weight:600;
-    padding:8px 6px;
+    padding:8px 3px;
     border-radius:4px;
     cursor:pointer;
-    letter-spacing:0.3px;
+    letter-spacing:0.2px;
   }
   .mode-toggle button.active{
     background:var(--amber);
@@ -294,6 +294,7 @@
     <div class="mode-toggle">
       <button id="btnModeTeam" class="active">Equipo</button>
       <button id="btnModeCompare">Comparar</button>
+      <button id="btnModeTable">Tabla</button>
     </div>
 
     <div class="search-box"><input id="searchInput" placeholder="Buscar equipo…"></div>
@@ -484,11 +485,13 @@ const compareHint = document.getElementById("compareHint");
 
 document.getElementById("btnModeTeam").onclick = () => { mode="team"; syncModeButtons(); renderAll(); };
 document.getElementById("btnModeCompare").onclick = () => { mode="compare"; syncModeButtons(); renderAll(); };
+document.getElementById("btnModeTable").onclick = () => { mode="table"; syncModeButtons(); renderAll(); };
 searchInput.addEventListener("input", renderSidebar);
 
 function syncModeButtons(){
   document.getElementById("btnModeTeam").classList.toggle("active", mode==="team");
   document.getElementById("btnModeCompare").classList.toggle("active", mode==="compare");
+  document.getElementById("btnModeTable").classList.toggle("active", mode==="table");
   compareHint.style.display = mode==="compare" ? "block" : "none";
 }
 
@@ -517,6 +520,10 @@ function renderSidebar(){
     row.onclick = () => {
       if(mode==="team"){
         selectedTeamId = team.id;
+      } else if(mode==="table"){
+        mode = "team";
+        selectedTeamId = team.id;
+        syncModeButtons();
       } else {
         if(compareA===team.id){ compareA=null; }
         else if(compareB===team.id){ compareB=null; }
@@ -793,9 +800,77 @@ function renderCompareView(){
   attachSortHandlers(mainEl);
 }
 
+const LEAGUE_SORT_COLUMNS = [
+  { key: "name", label: "Equipo", type: "string" },
+  { key: "played", label: "Partidos", type: "number" },
+  { key: "goalsForTotal", label: "GF", type: "number" },
+  { key: "goalsForAvg", label: "GF/partido", type: "number" },
+  { key: "goalsAgainstTotal", label: "GC", type: "number" },
+  { key: "goalsAgainstAvg", label: "GC/partido", type: "number" },
+  { key: "goalDiff", label: "Diferencia", type: "number" },
+];
+
+let leagueSortState = { key: "goalsForTotal", dir: "desc" };
+
+function setLeagueSort(key){
+  if(leagueSortState.key === key){
+    leagueSortState.dir = leagueSortState.dir === "asc" ? "desc" : "asc";
+  } else {
+    leagueSortState.key = key;
+    leagueSortState.dir = "desc";
+  }
+  renderAll();
+}
+
+function sortTeamsForTable(teams){
+  const { key, dir } = leagueSortState;
+  const mul = dir === "asc" ? 1 : -1;
+  return [...teams].sort((a,b)=>{
+    let va = a[key], vb = b[key];
+    if(typeof va === "string") return mul * va.localeCompare(vb, "es");
+    return mul * (va - vb);
+  });
+}
+
+function renderLeagueTableView(){
+  const withDiff = TEAMS.map(t => ({...t, goalDiff: t.goalsForTotal - t.goalsAgainstTotal}));
+  const sorted = sortTeamsForTable(withDiff);
+
+  const headerCells = LEAGUE_SORT_COLUMNS.map(col=>{
+    const active = leagueSortState.key === col.key;
+    const arrow = active ? (leagueSortState.dir === "asc" ? " ▲" : " ▼") : "";
+    return `<th class="sortable${active?' active':''}" data-league-sort-key="${col.key}">${col.label}${arrow}</th>`;
+  }).join("");
+
+  const rows = sorted.map(t => `
+    <tr>
+      <td class="name-cell">${crestHtml(t,22)}<span style="margin-left:8px">${t.name}</span></td>
+      <td class="num">${t.played}</td>
+      <td class="num">${t.goalsForTotal}</td>
+      <td class="num">${t.goalsForAvg}</td>
+      <td class="num">${t.goalsAgainstTotal}</td>
+      <td class="num">${t.goalsAgainstAvg}</td>
+      <td class="num" style="color:${t.goalDiff>0?'var(--amber)':(t.goalDiff<0?'var(--clay)':'var(--chalk)')}">${t.goalDiff>0?'+':''}${t.goalDiff}</td>
+    </tr>
+  `).join("");
+
+  mainEl.innerHTML = `
+    <h1 style="font-family:var(--font-display);text-transform:uppercase;font-size:26px;margin-bottom:4px;">Tabla general</h1>
+    <div class="team-meta" style="margin-bottom:20px;">Goles a favor y en contra de los ${TEAMS.length} equipos del grupo</div>
+    <table class="players">
+      <thead><tr>${headerCells}</tr></thead>
+      <tbody>${rows}</tbody>
+    </table>
+  `;
+  mainEl.querySelectorAll("th.sortable").forEach(th=>{
+    th.onclick = () => setLeagueSort(th.dataset.leagueSortKey);
+  });
+}
+
 function renderAll(){
   renderSidebar();
   if(mode==="team") renderTeamView();
+  else if(mode==="table") renderLeagueTableView();
   else renderCompareView();
 }
 
