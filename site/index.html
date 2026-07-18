@@ -831,6 +831,15 @@ function compareStatRow(label, a, b){
   return `<div class="compare-stat-row"><div class="a">${a}</div><div class="label">${label}</div><div class="c">${b}</div></div>`;
 }
 
+function keyMomentCompareRow(label, aFor, aAgainst, bFor, bAgainst){
+  const side = (f,a) => `<span style="color:var(--amber)">${f}</span><span style="color:var(--chalk-dim)"> / </span><span style="color:var(--clay)">${a}</span>`;
+  return `<div class="compare-stat-row">
+    <div style="text-align:right;font-family:var(--font-mono);font-size:16px;">${side(aFor,aAgainst)}</div>
+    <div class="label">${label}</div>
+    <div style="text-align:left;font-family:var(--font-mono);font-size:16px;">${side(bFor,bAgainst)}</div>
+  </div>`;
+}
+
 function renderCompareView(){
   if(!compareA || !compareB){
     mainEl.innerHTML = `
@@ -857,10 +866,14 @@ function renderCompareView(){
 
       <div class="section-block">
         <div class="timeline-block-title">Goles en momentos clave</div>
-        ${KEY_MOMENT_ROWS.map(r => `
-          ${compareStatRow(r.label + " — a favor", (A.keyMoments||{})[r.forKey] ?? 0, (B.keyMoments||{})[r.forKey] ?? 0)}
-          ${compareStatRow(r.label + " — en contra", (A.keyMoments||{})[r.againstKey] ?? 0, (B.keyMoments||{})[r.againstKey] ?? 0)}
-        `).join("")}
+        <div style="font-size:11px;color:var(--chalk-dim);margin-bottom:10px;">
+          <span style="color:var(--amber)">●</span> a favor &nbsp; <span style="color:var(--clay)">●</span> en contra
+        </div>
+        ${KEY_MOMENT_ROWS.map(r => keyMomentCompareRow(
+          r.label,
+          (A.keyMoments||{})[r.forKey] ?? 0, (A.keyMoments||{})[r.againstKey] ?? 0,
+          (B.keyMoments||{})[r.forKey] ?? 0, (B.keyMoments||{})[r.againstKey] ?? 0
+        )).join("")}
       </div>
 
       <div class="two-col section-block">
