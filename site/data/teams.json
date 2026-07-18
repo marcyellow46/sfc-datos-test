@@ -47,8 +47,10 @@
       "halfStart45_50Against": 4,
       "lateDecisiveFor": 4,
       "lateDecisiveAgainst": 4,
-      "quickResponseFor": 5,
-      "quickResponseAgainst": 6
+      "quickResponseAfterScoringFor": 2,
+      "quickResponseAfterScoringAgainst": 4,
+      "quickResponseAfterConcedingFor": 3,
+      "quickResponseAfterConcedingAgainst": 2
     }
   },
   "JÚPITER, C.E. A": {
@@ -99,8 +101,10 @@
       "halfStart45_50Against": 1,
       "lateDecisiveFor": 5,
       "lateDecisiveAgainst": 3,
-      "quickResponseFor": 3,
-      "quickResponseAgainst": 4
+      "quickResponseAfterScoringFor": 3,
+      "quickResponseAfterScoringAgainst": 1,
+      "quickResponseAfterConcedingFor": 0,
+      "quickResponseAfterConcedingAgainst": 3
     }
   },
   "SANTFELIUENC, F.C. A": {
@@ -151,8 +155,10 @@
       "halfStart45_50Against": 4,
       "lateDecisiveFor": 2,
       "lateDecisiveAgainst": 5,
-      "quickResponseFor": 2,
-      "quickResponseAgainst": 8
+      "quickResponseAfterScoringFor": 0,
+      "quickResponseAfterScoringAgainst": 3,
+      "quickResponseAfterConcedingFor": 2,
+      "quickResponseAfterConcedingAgainst": 5
     }
   },
   "VILAFRANCA, F.C. A": {
@@ -203,8 +209,10 @@
       "halfStart45_50Against": 2,
       "lateDecisiveFor": 5,
       "lateDecisiveAgainst": 4,
-      "quickResponseFor": 3,
-      "quickResponseAgainst": 8
+      "quickResponseAfterScoringFor": 0,
+      "quickResponseAfterScoringAgainst": 2,
+      "quickResponseAfterConcedingFor": 3,
+      "quickResponseAfterConcedingAgainst": 6
     }
   },
   "MARTINENC, F.C. A": {
@@ -255,8 +263,10 @@
       "halfStart45_50Against": 6,
       "lateDecisiveFor": 7,
       "lateDecisiveAgainst": 2,
-      "quickResponseFor": 7,
-      "quickResponseAgainst": 7
+      "quickResponseAfterScoringFor": 4,
+      "quickResponseAfterScoringAgainst": 4,
+      "quickResponseAfterConcedingFor": 3,
+      "quickResponseAfterConcedingAgainst": 3
     }
   },
   "POBLA MAFUMET, C.F. A": {
@@ -307,8 +317,10 @@
       "halfStart45_50Against": 0,
       "lateDecisiveFor": 3,
       "lateDecisiveAgainst": 5,
-      "quickResponseFor": 5,
-      "quickResponseAgainst": 1
+      "quickResponseAfterScoringFor": 2,
+      "quickResponseAfterScoringAgainst": 1,
+      "quickResponseAfterConcedingFor": 3,
+      "quickResponseAfterConcedingAgainst": 0
     }
   },
   "SAN JUAN AT. DE MONTCADA,U.E. A": {
@@ -359,8 +371,10 @@
       "halfStart45_50Against": 2,
       "lateDecisiveFor": 3,
       "lateDecisiveAgainst": 4,
-      "quickResponseFor": 13,
-      "quickResponseAgainst": 6
+      "quickResponseAfterScoringFor": 8,
+      "quickResponseAfterScoringAgainst": 3,
+      "quickResponseAfterConcedingFor": 5,
+      "quickResponseAfterConcedingAgainst": 3
     }
   },
   "ATLETIC SANT JUST . F. C. A": {
@@ -411,8 +425,10 @@
       "halfStart45_50Against": 1,
       "lateDecisiveFor": 4,
       "lateDecisiveAgainst": 5,
-      "quickResponseFor": 2,
-      "quickResponseAgainst": 8
+      "quickResponseAfterScoringFor": 1,
+      "quickResponseAfterScoringAgainst": 6,
+      "quickResponseAfterConcedingFor": 1,
+      "quickResponseAfterConcedingAgainst": 2
     }
   },
   "CASTELLDEFELS, U.E. A": {
@@ -463,8 +479,10 @@
       "halfStart45_50Against": 0,
       "lateDecisiveFor": 8,
       "lateDecisiveAgainst": 7,
-      "quickResponseFor": 7,
-      "quickResponseAgainst": 1
+      "quickResponseAfterScoringFor": 4,
+      "quickResponseAfterScoringAgainst": 1,
+      "quickResponseAfterConcedingFor": 3,
+      "quickResponseAfterConcedingAgainst": 0
     }
   },
   "HORTA, U.AT. A": {
@@ -515,8 +533,10 @@
       "halfStart45_50Against": 2,
       "lateDecisiveFor": 4,
       "lateDecisiveAgainst": 0,
-      "quickResponseFor": 10,
-      "quickResponseAgainst": 4
+      "quickResponseAfterScoringFor": 6,
+      "quickResponseAfterScoringAgainst": 0,
+      "quickResponseAfterConcedingFor": 4,
+      "quickResponseAfterConcedingAgainst": 4
     }
   },
   "MANLLEU, A.E.C. A": {
@@ -567,8 +587,10 @@
       "halfStart45_50Against": 2,
       "lateDecisiveFor": 1,
       "lateDecisiveAgainst": 4,
-      "quickResponseFor": 7,
-      "quickResponseAgainst": 11
+      "quickResponseAfterScoringFor": 5,
+      "quickResponseAfterScoringAgainst": 5,
+      "quickResponseAfterConcedingFor": 2,
+      "quickResponseAfterConcedingAgainst": 6
     }
   },
   "PRAT, A.E. A": {
@@ -619,8 +641,10 @@
       "halfStart45_50Against": 2,
       "lateDecisiveFor": 3,
       "lateDecisiveAgainst": 8,
-      "quickResponseFor": 9,
-      "quickResponseAgainst": 8
+      "quickResponseAfterScoringFor": 3,
+      "quickResponseAfterScoringAgainst": 5,
+      "quickResponseAfterConcedingFor": 6,
+      "quickResponseAfterConcedingAgainst": 3
     }
   },
   "RUBI, U.E. A": {
@@ -671,8 +695,10 @@
       "halfStart45_50Against": 4,
       "lateDecisiveFor": 4,
       "lateDecisiveAgainst": 4,
-      "quickResponseFor": 1,
-      "quickResponseAgainst": 10
+      "quickResponseAfterScoringFor": 1,
+      "quickResponseAfterScoringAgainst": 3,
+      "quickResponseAfterConcedingFor": 0,
+      "quickResponseAfterConcedingAgainst": 7
     }
   },
   "SABADELL F.C., C.E. B": {
@@ -723,8 +749,10 @@
       "halfStart45_50Against": 3,
       "lateDecisiveFor": 8,
       "lateDecisiveAgainst": 7,
-      "quickResponseFor": 9,
-      "quickResponseAgainst": 4
+      "quickResponseAfterScoringFor": 6,
+      "quickResponseAfterScoringAgainst": 4,
+      "quickResponseAfterConcedingFor": 3,
+      "quickResponseAfterConcedingAgainst": 0
     }
   },
   "SAN MAURO, U.D. A": {
@@ -775,8 +803,10 @@
       "halfStart45_50Against": 0,
       "lateDecisiveFor": 6,
       "lateDecisiveAgainst": 7,
-      "quickResponseFor": 5,
-      "quickResponseAgainst": 3
+      "quickResponseAfterScoringFor": 2,
+      "quickResponseAfterScoringAgainst": 2,
+      "quickResponseAfterConcedingFor": 3,
+      "quickResponseAfterConcedingAgainst": 1
     }
   },
   "VALLS U.E. A": {
@@ -827,8 +857,10 @@
       "halfStart45_50Against": 3,
       "lateDecisiveFor": 5,
       "lateDecisiveAgainst": 3,
-      "quickResponseFor": 6,
-      "quickResponseAgainst": 5
+      "quickResponseAfterScoringFor": 1,
+      "quickResponseAfterScoringAgainst": 2,
+      "quickResponseAfterConcedingFor": 5,
+      "quickResponseAfterConcedingAgainst": 3
     }
   }
 }
