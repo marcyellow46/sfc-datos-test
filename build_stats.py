@@ -270,6 +270,8 @@ def main():
     player_minutes_total = defaultdict(int)
     player_goals_total = defaultdict(int)
     player_goals_conceded_total = defaultdict(int)
+    player_goals_for_on_pitch = defaultdict(int)
+    player_goals_against_on_pitch = defaultdict(int)
     player_dorsal = {}
     player_team = {}
     player_name = {}  # clave -> nombre normalizado, para mostrar en la web
@@ -429,9 +431,19 @@ def main():
 
             # goles encajados por el portero que estuviera en el campo en ese minuto
             conceding_side_intervals = home_intervals if conceding_team == home_name else away_intervals
+            scoring_side_intervals = home_intervals if scoring_team == home_name else away_intervals
             for key, (dorsal, name, start, end) in conceding_side_intervals.items():
                 if positions.get(name) == "Portero" and start <= minute <= end:
                     player_goals_conceded_total[key] += 1
+
+            # goles del EQUIPO a favor/en contra mientras cada jugador estaba
+            # en el campo (no depende de la posición, aplica a todos)
+            for key, (dorsal, name, start, end) in scoring_side_intervals.items():
+                if start <= minute <= end:
+                    player_goals_for_on_pitch[key] += 1
+            for key, (dorsal, name, start, end) in conceding_side_intervals.items():
+                if start <= minute <= end:
+                    player_goals_against_on_pitch[key] += 1
 
             # -------- momentos clave --------
             km_scoring = team_key_moments[scoring_team]
@@ -517,6 +529,9 @@ def main():
         card_jornadas = player_yellow_jornadas.get(key, set())
         yellow_cycles, yellow_tally = compute_yellow_cycle(schedule, card_jornadas)
 
+        gfop = player_goals_for_on_pitch.get(key, 0)
+        gaop = player_goals_against_on_pitch.get(key, 0)
+
         entry = {
             "name": name,
             "dorsal": player_dorsal.get(key),
@@ -533,6 +548,10 @@ def main():
             "yellowCardsTotal": len(card_jornadas),
             "yellowCardsCycles": yellow_cycles,
             "yellowCardsTally": yellow_tally,
+            "goalsForOnPitchTotal": gfop,
+            "goalsForOnPitchAvg": round(gfop / matches, 2) if matches else 0,
+            "goalsAgainstOnPitchTotal": gaop,
+            "goalsAgainstOnPitchAvg": round(gaop / matches, 2) if matches else 0,
         }
         if position == "Portero":
             gc = player_goals_conceded_total.get(key, 0)
