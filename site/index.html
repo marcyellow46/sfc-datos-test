@@ -97,6 +97,25 @@
     background:var(--amber);
     color:var(--pitch-dark);
   }
+  .my-team-box{margin:14px 20px 0;}
+  .my-team-box label{
+    display:block;font-size:10px;color:var(--chalk-dim);text-transform:uppercase;
+    letter-spacing:0.5px;font-weight:600;margin-bottom:5px;
+  }
+  .my-team-box select{
+    width:100%;background:var(--pitch-dark);border:1px solid var(--panel-line);
+    color:var(--chalk);padding:8px 10px;border-radius:6px;font-family:var(--font-body);
+    font-size:13px;cursor:pointer;
+  }
+  .star-btn{
+    margin-left:auto;background:none;border:none;cursor:pointer;font-size:14px;
+    color:var(--panel-line);line-height:1;padding:2px 4px;flex-shrink:0;
+  }
+  .star-btn.active{color:var(--amber);}
+  .my-team-row{border-color:var(--amber)!important;background:rgba(232,179,61,0.08);}
+  .sidebar-divider{
+    margin:6px 14px;border-top:1px solid var(--panel-line);
+  }
   .search-box{margin:14px 20px;}
   .search-box input{
     width:100%;
@@ -297,6 +316,13 @@
       <button id="btnModeTable">Tabla</button>
     </div>
 
+    <div class="my-team-box">
+      <label for="myTeamSelect">Mi equipo</label>
+      <select id="myTeamSelect">
+        <option value="">— Elegir —</option>
+      </select>
+    </div>
+
     <div class="search-box"><input id="searchInput" placeholder="Buscar equipo…"></div>
     <div class="compare-hint" id="compareHint" style="display:none;">Selecciona dos equipos: primero <b>Equipo A</b>, luego <b>Equipo B</b>.</div>
 
@@ -420,6 +446,22 @@ let selectedTeamId = null;
 let compareA = null, compareB = null;
 let activeTab = "plantilla"; // "plantilla" | "equipo"
 
+let myTeamId = localStorage.getItem("sfcdatos_myTeam") || "";
+let favoriteIds = new Set(JSON.parse(localStorage.getItem("sfcdatos_favorites") || "[]"));
+
+function toggleFavorite(teamId){
+  if(favoriteIds.has(teamId)) favoriteIds.delete(teamId);
+  else favoriteIds.add(teamId);
+  localStorage.setItem("sfcdatos_favorites", JSON.stringify([...favoriteIds]));
+  renderSidebar();
+}
+
+function setMyTeam(teamId){
+  myTeamId = teamId;
+  localStorage.setItem("sfcdatos_myTeam", teamId);
+  renderSidebar();
+}
+
 function slugify(str) {
   return str.toLowerCase()
     .normalize("NFD").replace(/[\u0300-\u036f]/g, "")
@@ -504,10 +546,30 @@ function crestHtml(team, size){
 
 function renderSidebar(){
   const q = searchInput.value.trim().toLowerCase();
+
+  // rellenar el desplegable de "mi equipo" (una vez que ya tenemos TEAMS)
+  const select = document.getElementById("myTeamSelect");
+  if(select.dataset.filled !== String(TEAMS.length)){
+    select.innerHTML = `<option value="">— Elegir —</option>` +
+      TEAMS.map(t => `<option value="${t.id}">${t.name}</option>`).join("");
+    select.dataset.filled = String(TEAMS.length);
+  }
+  select.value = myTeamId;
+  select.onchange = () => setMyTeam(select.value);
+
+  // orden: mi equipo primero, luego favoritos, luego el resto (cada grupo
+  // mantiene el orden alfabético original entre sí)
+  const filtered = TEAMS.filter(t=>t.name.toLowerCase().includes(q));
+  const mine = filtered.filter(t => t.id === myTeamId);
+  const favs = filtered.filter(t => t.id !== myTeamId && favoriteIds.has(t.id));
+  const rest = filtered.filter(t => t.id !== myTeamId && !favoriteIds.has(t.id));
+  const ordered = [...mine, ...favs, ...rest];
+
   teamListEl.innerHTML = "";
-  TEAMS.filter(t=>t.name.toLowerCase().includes(q)).forEach(team=>{
+  ordered.forEach((team, i)=>{
     const row = document.createElement("div");
     row.className = "team-row";
+    if(team.id===myTeamId) row.classList.add("my-team-row");
     if(mode==="team" && team.id===selectedTeamId) row.classList.add("selected");
     if(mode==="compare" && team.id===compareA) row.classList.add("selected-a");
     if(mode==="compare" && team.id===compareB) row.classList.add("selected-b");
@@ -516,7 +578,15 @@ function renderSidebar(){
     if(mode==="compare" && team.id===compareA) tag = `<span class="team-tag">A</span>`;
     if(mode==="compare" && team.id===compareB) tag = `<span class="team-tag b">B</span>`;
 
-    row.innerHTML = `${crestHtml(team,26)}<span class="team-name">${team.name}</span>${tag}`;
+    const isFav = favoriteIds.has(team.id);
+    row.innerHTML = `${crestHtml(team,26)}<span class="team-name">${team.name}</span>${tag}
+      <button class="star-btn${isFav?' active':''}" data-team-id="${team.id}" title="Marcar como favorito">${isFav?'★':'☆'}</button>`;
+
+    row.querySelector(".star-btn").onclick = (ev) => {
+      ev.stopPropagation();
+      toggleFavorite(team.id);
+    };
+
     row.onclick = () => {
       if(mode==="team"){
         selectedTeamId = team.id;
@@ -534,6 +604,13 @@ function renderSidebar(){
       renderAll();
     };
     teamListEl.appendChild(row);
+
+    // separador visual entre "mi equipo"+favoritos y el resto de la liga
+    if(i === mine.length + favs.length - 1 && rest.length > 0){
+      const divider = document.createElement("div");
+      divider.className = "sidebar-divider";
+      teamListEl.appendChild(divider);
+    }
   });
 }
 
