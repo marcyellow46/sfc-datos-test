@@ -48,7 +48,7 @@ GROUP = "grup-1"
 MAX_JORNADAS = 34                     # límite de seguridad; se detiene antes si no hay más
 REQUEST_DELAY_SECONDS = 1.0           # ser educado con el servidor de la FCF
 DEBUG = False                         # True -> guarda el html de cada página descargada
-FORCE_REFRESH = False                  # True -> re-parsea TODO aunque el JSON ya exista.
+FORCE_REFRESH = True                  # True -> re-parsea TODO aunque el JSON ya exista.
                                        # Ponlo en True puntualmente cuando cambies la
                                        # lógica de parseo (como ahora, para corregir los
                                        # partidos guardados con el nombre de equipo local
@@ -147,6 +147,28 @@ def discover_matches():
 
     print(f"Total partidos encontrados en el calendario: {len(matches)}")
     return matches
+
+
+def discover_team_equip_urls():
+    """
+    Recorre la misma página /calendari/ (una sola petición) y extrae, para
+    cada equipo, la URL de su ficha (/equip/...). Se usa para el
+    seguimiento de altas/bajas de jugadores inscritos (ver
+    check_altas_bajas.py), no para descubrir partidos.
+
+    Devuelve {"NOMBRE EQUIPO": "https://www.fcf.cat/equip/..."}
+    """
+    soup = get_soup(CALENDAR_URL)
+    mapping = {}
+    for a in soup.find_all("a", href=re.compile(r"/equip/")):
+        name = a.get_text(strip=True)
+        if not name:
+            continue  # enlaces de solo escudo (una <img>, sin texto)
+        href = a["href"]
+        if not href.startswith("http"):
+            href = BASE + href
+        mapping.setdefault(name, href)
+    return mapping
 
 
 def discover_matches_by_jornada():
@@ -401,20 +423,25 @@ def _parse_goals(soup):
     return goals
 
 
-def _parse_cards(table):
+def _parse_cards(soup):
+    """
+    Igual que con goles y sustituciones: en vez de depender de localizar
+    primero la tabla "Targetes" (frágil, como ya vimos con "Gols" y
+    "Substitucions"), recorremos TODAS las filas del documento y nos
+    quedamos con las que tienen forma de fila de tarjeta: dorsal (celda 1,
+    numérico), enlace a jugador (celda 2), minuto (celda 3, tipo "45'").
+    """
     cards = []
-    if not table:
-        return cards
-    for row in table.find_all("tr"):
+    for row in soup.find_all("tr"):
         cells = row.find_all("td")
         if len(cells) < 3:
             continue
         dorsal_txt = cells[0].get_text(strip=True)
-        link = cells[1].find("a")
-        name = link.get_text(strip=True) if link else cells[1].get_text(strip=True)
+        link = cells[1].find("a", href=re.compile(r"/jugador/"))
         minute_txt = cells[2].get_text(strip=True).replace("'", "")
-        if not (dorsal_txt.isdigit() and minute_txt.isdigit()):
+        if not (dorsal_txt.isdigit() and link and minute_txt.isdigit()):
             continue
+        name = link.get_text(strip=True)
 
         # Tipo de tarjeta por el icono (alt/title/src). Por defecto "yellow"
         # si no se detecta nada más específico, ya que la amarilla es el
@@ -432,7 +459,7 @@ def _parse_cards(table):
         cards.append({
             "dorsal": int(dorsal_txt),
             "name": name,
-            "player_id": _player_id_from_url(link.get("href")) if link else None,
+            "player_id": _player_id_from_url(link.get("href")),
             "minute": int(minute_txt),
             "type": card_type,
         })
@@ -441,6 +468,67 @@ def _parse_cards(table):
 
 _debug_subs_calls = 0
 _debug_subs_limit = 3
+
+
+def _parse_team_roster(soup):
+    """
+    Extrae la lista de jugadores inscritos de la sección "Jugadors/es" de la
+    ficha de equipo (https://www.fcf.cat/equip/.../<equipo>).
+
+    IMPORTANTE: al escribir esto, las plantillas de la temporada están
+    todavía vacías, así que no se ha podido ver esta tabla con datos reales.
+    Según el propio usuario, cuando se rellene probablemente solo traiga el
+    NOMBRE del jugador — sin dorsal, sin fecha, y posiblemente sin enlace a
+    su ficha de jugador. Por eso este parser es deliberadamente permisivo:
+    no exige ningún enlace ni ninguna celda extra, solo el texto de cada
+    fila. Si en algún momento la fila SÍ trae dorsal (primera celda
+    numérica) o un enlace a /jugador/, los aprovecha; si no, se queda solo
+    con el nombre. Puede hacer falta un ajuste real en cuanto haya
+    inscripciones de verdad, igual que nos pasó con sustituciones y tarjetas.
+    """
+    header = soup.find(string=re.compile(r"^\s*Jugadors/es\s*$"))
+    if not header:
+        return []
+
+    own_table = header.find_parent("table")
+    node = header.find_parent()
+    next_table = node.find_next("table") if node else None
+
+    players = []
+    for table in (own_table, next_table):
+        if table is None:
+            continue
+        found = []
+        for row in table.find_all("tr"):
+            # saltar la propia fila de cabecera "Jugadors/es"
+            if row.find(string=re.compile(r"^\s*Jugadors/es\s*$")):
+                continue
+            text = row.get_text(strip=True)
+            if not text:
+                continue
+
+            cells = row.find_all("td")
+            if len(cells) >= 2 and cells[0].get_text(strip=True).isdigit():
+                dorsal = int(cells[0].get_text(strip=True))
+                name = cells[1].get_text(strip=True)
+            else:
+                dorsal = None
+                name = text
+
+            link = row.find("a", href=re.compile(r"/jugador/"))
+            player_id = _player_id_from_url(link.get("href")) if link else None
+
+            found.append({"name": name, "dorsal": dorsal, "player_id": player_id})
+        if found:
+            players = found
+            break
+    return players
+
+
+def fetch_team_roster(equip_url: str):
+    """Descarga la ficha de un equipo y devuelve su lista de jugadores inscritos."""
+    soup = get_soup(equip_url)
+    return _parse_team_roster(soup)
 
 
 def parse_acta(acta_url: str) -> dict:
@@ -463,11 +551,11 @@ def parse_acta(acta_url: str) -> dict:
     score_match = re.search(r"(\d+)\s*-\s*(\d+)", soup.get_text())
     score = f"{score_match.group(1)}-{score_match.group(2)}" if score_match else None
 
-    # Hay dos bloques "Titulars"/"Suplents"/"Targetes" (uno por equipo). Las
-    # sustituciones ya no se localizan por cabecera (ver _parse_substitutions_global).
+    # Hay dos bloques "Titulars"/"Suplents" (uno por equipo). Las sustituciones
+    # y las tarjetas ya no se localizan por cabecera (ver
+    # _parse_substitutions_global y el escaneo global de _parse_cards).
     titulars_tables = soup.find_all(string=re.compile(r"^\s*Titulars\s*$"))
     suplents_tables = soup.find_all(string=re.compile(r"^\s*Suplents\s*$"))
-    cards_tables = soup.find_all(string=re.compile(r"^\s*Targetes\s*$"))
 
     def _resolve(text_node, parser_fn):
         """
@@ -499,8 +587,6 @@ def parse_acta(acta_url: str) -> dict:
     away_starters = _resolve(titulars_tables[1], _parse_lineup_table) if len(titulars_tables) > 1 else []
     home_subs_bench = _resolve(suplents_tables[0], _parse_lineup_table) if len(suplents_tables) > 0 else []
     away_subs_bench = _resolve(suplents_tables[1], _parse_lineup_table) if len(suplents_tables) > 1 else []
-    home_cards = _resolve(cards_tables[0], _parse_cards) if len(cards_tables) > 0 else []
-    away_cards = _resolve(cards_tables[1], _parse_cards) if len(cards_tables) > 1 else []
 
     # Sustituciones: escaneamos todo el documento (ver _parse_substitutions_global)
     # y repartimos cada evento a local o visitante según a qué plantilla
@@ -514,6 +600,10 @@ def parse_acta(acta_url: str) -> dict:
     away_roster = {p["name"] for p in away_starters} | {p["name"] for p in away_subs_bench}
     home_substitutions = [e for e in all_substitutions if e["out"]["name"] in home_roster]
     away_substitutions = [e for e in all_substitutions if e["out"]["name"] in away_roster]
+
+    all_cards = _parse_cards(soup)
+    home_cards = [c for c in all_cards if c["name"] in home_roster]
+    away_cards = [c for c in all_cards if c["name"] in away_roster]
 
     goals = _parse_goals(soup)
 
