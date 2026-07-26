@@ -86,6 +86,11 @@
       "jugador": "Tècnics/ques",
       "tipo": "alta",
       "fecha": "2026-07-26"
+    },
+    {
+      "jugador": "Tècnics/ques",
+      "tipo": "baja",
+      "fecha": "2026-07-26"
     }
   ],
   "MANLLEU, A.E.C. A": [
@@ -93,12 +98,22 @@
       "jugador": "Tècnics/ques",
       "tipo": "alta",
       "fecha": "2026-07-26"
+    },
+    {
+      "jugador": "Tècnics/ques",
+      "tipo": "baja",
+      "fecha": "2026-07-26"
     }
   ],
   "VILAFRANCA, F.C. A": [
     {
       "jugador": "Tècnics/ques",
       "tipo": "alta",
+      "fecha": "2026-07-26"
+    },
+    {
+      "jugador": "Tècnics/ques",
+      "tipo": "baja",
       "fecha": "2026-07-26"
     }
   ],
@@ -124,6 +139,11 @@
       "jugador": "Tècnics/ques",
       "tipo": "alta",
       "fecha": "2026-07-26"
+    },
+    {
+      "jugador": "Tècnics/ques",
+      "tipo": "baja",
+      "fecha": "2026-07-26"
     }
   ],
   "SANTFELIUENC, F.C. A": [
@@ -131,12 +151,22 @@
       "jugador": "Tècnics/ques",
       "tipo": "alta",
       "fecha": "2026-07-26"
+    },
+    {
+      "jugador": "Tècnics/ques",
+      "tipo": "baja",
+      "fecha": "2026-07-26"
     }
   ],
   "PRAT, A.E. A": [
     {
       "jugador": "Tècnics/ques",
       "tipo": "alta",
+      "fecha": "2026-07-26"
+    },
+    {
+      "jugador": "Tècnics/ques",
+      "tipo": "baja",
       "fecha": "2026-07-26"
     }
   ],
@@ -284,12 +314,22 @@
       "jugador": "Tècnics/ques",
       "tipo": "alta",
       "fecha": "2026-07-26"
+    },
+    {
+      "jugador": "Tècnics/ques",
+      "tipo": "baja",
+      "fecha": "2026-07-26"
     }
   ],
   "SABADELL F.C., C.E. B": [
     {
       "jugador": "Tècnics/ques",
       "tipo": "alta",
+      "fecha": "2026-07-26"
+    },
+    {
+      "jugador": "Tècnics/ques",
+      "tipo": "baja",
       "fecha": "2026-07-26"
     }
   ],
@@ -374,6 +414,14 @@
       "jugador": "Tècnics/ques",
       "tipo": "alta",
       "fecha": "2026-07-26"
+    },
+    {
+      "jugador": "Tècnics/ques",
+      "tipo": "baja",
+      "fecha": "2026-07-26"
     }
-  ]
+  ],
+  "_meta": {
+    "lastUpdated": "26 de Julio a las 19:06"
+  }
 }
