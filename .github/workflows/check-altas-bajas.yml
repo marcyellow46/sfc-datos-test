@@ -1,0 +1,85 @@
+name: Comprobar altas y bajas de jugadores
+
+on:
+  # Se dispara dos veces (19:00 y 20:00 UTC) para cubrir tanto horario de
+  # verano (CEST, UTC+2) como de invierno (CET, UTC+1) y así caer siempre a
+  # las 21:00 en Madrid sin tener que tocar el cron dos veces al año — mismo
+  # truco que en update-data.yml.
+  schedule:
+    - cron: "0 19 * * *"
+    - cron: "0 20 * * *"
+  workflow_dispatch: {}   # también se puede lanzar a mano desde GitHub
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
+jobs:
+  check-altas-bajas:
+    runs-on: ubuntu-latest
+    outputs:
+      should_run: ${{ steps.check_time.outputs.should_run }}
+    steps:
+      - name: Comprobar si toca ejecutar
+        id: check_time
+        run: |
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            echo "should_run=true" >> "$GITHUB_OUTPUT"
+            echo "Lanzado a mano: se ejecuta siempre, sin comprobar la hora."
+          else
+            HOUR=$(TZ="Europe/Madrid" date +%H)
+            if [ "$HOUR" = "21" ]; then
+              echo "should_run=true" >> "$GITHUB_OUTPUT"
+            else
+              echo "should_run=false" >> "$GITHUB_OUTPUT"
+              echo "No son las 21:00 en Madrid (son las $HOUR:xx), esta ejecución programada se salta."
+            fi
+          fi
+
+      - uses: actions/checkout@v4
+        if: steps.check_time.outputs.should_run == 'true'
+
+      - uses: actions/setup-python@v5
+        if: steps.check_time.outputs.should_run == 'true'
+        with:
+          python-version: "3.12"
+
+      - name: Instalar dependencias
+        if: steps.check_time.outputs.should_run == 'true'
+        run: pip install -r requirements.txt
+
+      - name: Comprobar altas y bajas
+        if: steps.check_time.outputs.should_run == 'true'
+        run: python check_altas_bajas.py
+
+      - name: Commitear cambios
+        if: steps.check_time.outputs.should_run == 'true'
+        run: |
+          git config user.name "sfcdatos-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/rosters/ site/data/altas_bajas.json
+          git diff --quiet --cached || git commit -m "Comprobación de altas/bajas $(date -u +'%Y-%m-%d %H:%M UTC')"
+          git push
+
+  deploy-pages:
+    needs: check-altas-bajas
+    if: needs.check-altas-bajas.outputs.should_run == 'true'
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: "site"
+      - id: deployment
+        uses: actions/deploy-pages@v4
