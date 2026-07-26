@@ -337,6 +337,8 @@
       <button id="btnModeAltasBajas">Altas/Bajas</button>
     </div>
 
+    <div id="lastUpdatedNote" style="display:none;margin:10px 20px 0;font-size:10px;color:var(--chalk-dim);font-family:var(--font-mono);"></div>
+
     <div class="my-team-box">
       <label for="myTeamSelect">Mi equipo</label>
       <select id="myTeamSelect">
@@ -344,7 +346,7 @@
       </select>
     </div>
 
-    <div class="search-box"><input id="searchInput" placeholder="Buscar equipo…"></div>
+    <div class="search-box"><select id="searchInput" class="field-select"><option value="">Todos los equipos</option></select></div>
     <div class="compare-hint" id="compareHint" style="display:none;">Selecciona dos equipos: primero <b>Equipo A</b>, luego <b>Equipo B</b>.</div>
 
     <div class="team-list" id="teamList"></div>
@@ -563,7 +565,7 @@ document.getElementById("btnModeTeam").onclick = () => { mode="team"; syncModeBu
 document.getElementById("btnModeCompare").onclick = () => { mode="compare"; syncModeButtons(); renderAll(); };
 document.getElementById("btnModeTable").onclick = () => { mode="table"; syncModeButtons(); renderAll(); };
 document.getElementById("btnModeAltasBajas").onclick = () => { mode="altasBajas"; syncModeButtons(); renderAll(); };
-searchInput.addEventListener("input", renderSidebar);
+searchInput.addEventListener("change", renderSidebar);
 
 function syncModeButtons(){
   document.getElementById("btnModeTeam").classList.toggle("active", mode==="team");
@@ -571,6 +573,15 @@ function syncModeButtons(){
   document.getElementById("btnModeTable").classList.toggle("active", mode==="table");
   document.getElementById("btnModeAltasBajas").classList.toggle("active", mode==="altasBajas");
   compareHint.style.display = mode==="compare" ? "block" : "none";
+
+  const noteEl = document.getElementById("lastUpdatedNote");
+  if(mode==="altasBajas"){
+    const stamp = ALTAS_BAJAS?._meta?.lastUpdated;
+    noteEl.textContent = stamp ? `Última actualización: ${stamp}` : "Última actualización: aún sin datos";
+    noteEl.style.display = "block";
+  } else {
+    noteEl.style.display = "none";
+  }
 }
 
 function crestHtml(team, size){
@@ -592,6 +603,13 @@ function renderSidebar(){
   }
   select.value = myTeamId;
   select.onchange = () => setMyTeam(select.value);
+
+  // rellenar el desplegable de "buscar equipo"
+  if(searchInput.dataset.filled !== String(TEAMS.length)){
+    searchInput.innerHTML = `<option value="">Todos los equipos</option>` +
+      TEAMS.map(t => `<option value="${t.name}">${t.name}</option>`).join("");
+    searchInput.dataset.filled = String(TEAMS.length);
+  }
 
   // orden: mi equipo primero, luego favoritos, luego el resto (cada grupo
   // mantiene el orden alfabético original entre sí)
@@ -1075,6 +1093,8 @@ function renderLeagueTableView(){
   });
 }
 
+let altasBajasFilters = { jugador: "", desde: "", hasta: "" };
+
 function renderAltasBajasView(){
   const team = TEAMS.find(t=>t.id===selectedTeamId);
   if(!team){
@@ -1082,7 +1102,7 @@ function renderAltasBajasView(){
     return;
   }
 
-  const events = (ALTAS_BAJAS[team.name] || []).slice().sort((a,b)=> b.fecha.localeCompare(a.fecha));
+  const allEvents = (ALTAS_BAJAS[team.name] || []).slice().sort((a,b)=> b.fecha.localeCompare(a.fecha));
 
   mainEl.innerHTML = `
     <div class="team-header">
@@ -1092,10 +1112,54 @@ function renderAltasBajasView(){
         <div class="team-meta">Altas y bajas de jugadores inscritos</div>
       </div>
     </div>
+    <div class="section-block" style="display:flex;gap:16px;flex-wrap:wrap;max-width:700px;">
+      <div style="flex:2;min-width:180px;">
+        <label class="field-label">Jugador</label>
+        <input id="filtroJugador" class="field-select" type="text" placeholder="Buscar por nombre…" value="${altasBajasFilters.jugador}">
+      </div>
+      <div style="flex:1;min-width:140px;">
+        <label class="field-label">Fecha inicio</label>
+        <input id="filtroDesde" class="field-select" type="date" value="${altasBajasFilters.desde}">
+      </div>
+      <div style="flex:1;min-width:140px;">
+        <label class="field-label">Fecha fin</label>
+        <input id="filtroHasta" class="field-select" type="date" value="${altasBajasFilters.hasta}">
+      </div>
+    </div>
+    <div id="altasBajasResult"></div>
   `;
 
+  const fJugador = document.getElementById("filtroJugador");
+  const fDesde = document.getElementById("filtroDesde");
+  const fHasta = document.getElementById("filtroHasta");
+  fJugador.oninput = () => { altasBajasFilters.jugador = fJugador.value; renderAltasBajasFilteredTable(allEvents); };
+  fDesde.onchange = () => { altasBajasFilters.desde = fDesde.value; renderAltasBajasFilteredTable(allEvents); };
+  fHasta.onchange = () => { altasBajasFilters.hasta = fHasta.value; renderAltasBajasFilteredTable(allEvents); };
+
+  renderAltasBajasFilteredTable(allEvents);
+}
+
+function renderAltasBajasFilteredTable(allEvents){
+  const result = document.getElementById("altasBajasResult");
+  let events = allEvents;
+
+  if(altasBajasFilters.jugador.trim()){
+    const q = altasBajasFilters.jugador.trim().toLowerCase();
+    events = events.filter(e => e.jugador.toLowerCase().includes(q));
+  }
+  if(altasBajasFilters.desde){
+    events = events.filter(e => e.fecha >= altasBajasFilters.desde);
+  }
+  if(altasBajasFilters.hasta){
+    events = events.filter(e => e.fecha <= altasBajasFilters.hasta);
+  }
+
+  if(allEvents.length === 0){
+    result.innerHTML = `<div class="empty-state"><h2>Sin cambios registrados todavía</h2><p>En cuanto se detecte una inscripción o una baja en la ficha de este equipo en la web de la FCF, aparecerá aquí con la fecha en que se detectó.</p></div>`;
+    return;
+  }
   if(events.length === 0){
-    mainEl.innerHTML += `<div class="empty-state"><h2>Sin cambios registrados todavía</h2><p>En cuanto se detecte una inscripción o una baja en la ficha de este equipo en la web de la FCF, aparecerá aquí con la fecha en que se detectó.</p></div>`;
+    result.innerHTML = `<div class="empty-state"><h2>Sin resultados</h2><p>Ningún cambio coincide con los filtros aplicados.</p></div>`;
     return;
   }
 
@@ -1107,7 +1171,7 @@ function renderAltasBajasView(){
     </tr>
   `).join("");
 
-  mainEl.innerHTML += `
+  result.innerHTML = `
     <div class="section-block">
       <table class="players">
         <thead><tr><th>Jugador</th><th>Tipo</th><th>Fecha</th></tr></thead>
