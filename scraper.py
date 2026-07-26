@@ -519,6 +519,15 @@ def _parse_team_roster(soup):
             dorsal = None
             name = text
 
+        # Filtro de seguridad: si por lo que sea se cuela el texto de otra
+        # cabecera de sección (nos pasó con "Tècnics/ques"), lo descartamos
+        # aquí también, no solo confiando en la lógica de arriba.
+        if name.strip().rstrip(":").lower() in {
+            "jugadors/es", "tècnics/ques", "tecnics/ques",
+            "delegats/des", "equipació", "correspondència", "altres dades",
+        }:
+            continue
+
         link = row.find("a", href=re.compile(r"/jugador/"))
         player_id = _player_id_from_url(link.get("href")) if link else None
 
