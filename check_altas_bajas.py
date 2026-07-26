@@ -22,8 +22,9 @@ USO:
 
 import json
 import re
-from datetime import date
+from datetime import date, datetime
 from pathlib import Path
+from zoneinfo import ZoneInfo
 
 import scraper
 
@@ -33,6 +34,18 @@ ROSTERS_DIR.mkdir(parents=True, exist_ok=True)
 SITE_DATA_DIR = Path(__file__).parent / "site" / "data"
 SITE_DATA_DIR.mkdir(parents=True, exist_ok=True)
 HISTORY_PATH = SITE_DATA_DIR / "altas_bajas.json"
+
+MESES_ES = [
+    "enero", "febrero", "marzo", "abril", "mayo", "junio",
+    "julio", "agosto", "septiembre", "octubre", "noviembre", "diciembre",
+]
+
+
+def formatted_now_madrid() -> str:
+    """Ej: '26 de Julio a las 18:50' (hora de Madrid, con o sin horario de verano)."""
+    now = datetime.now(ZoneInfo("Europe/Madrid"))
+    mes = MESES_ES[now.month - 1].capitalize()
+    return f"{now.day} de {mes} a las {now.strftime('%H:%M')}"
 
 
 def safe_filename(name: str) -> str:
@@ -91,6 +104,7 @@ def main():
             json.dumps(current_by_key, ensure_ascii=False, indent=2), encoding="utf-8"
         )
 
+    history["_meta"] = {"lastUpdated": formatted_now_madrid()}
     HISTORY_PATH.write_text(json.dumps(history, ensure_ascii=False, indent=2), encoding="utf-8")
     print(f"Listo. {total_altas} altas y {total_bajas} bajas detectadas hoy.")
 
