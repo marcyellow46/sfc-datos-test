@@ -1093,7 +1093,7 @@ function renderLeagueTableView(){
   });
 }
 
-let altasBajasFilters = { jugador: "", desde: "", hasta: "" };
+let altasBajasFilters = { jugador: "", tipo: "", desde: "", hasta: "" };
 
 function renderAltasBajasView(){
   const team = TEAMS.find(t=>t.id===selectedTeamId);
@@ -1103,6 +1103,8 @@ function renderAltasBajasView(){
   }
 
   const allEvents = (ALTAS_BAJAS[team.name] || []).slice().sort((a,b)=> b.fecha.localeCompare(a.fecha));
+  const uniqueNames = [...new Set(allEvents.map(e=>e.jugador))].sort((a,b)=>a.localeCompare(b,"es"));
+  if(!uniqueNames.includes(altasBajasFilters.jugador)) altasBajasFilters.jugador = "";
 
   mainEl.innerHTML = `
     <div class="team-header">
@@ -1112,10 +1114,21 @@ function renderAltasBajasView(){
         <div class="team-meta">Altas y bajas de jugadores inscritos</div>
       </div>
     </div>
-    <div class="section-block" style="display:flex;gap:16px;flex-wrap:wrap;max-width:700px;">
-      <div style="flex:2;min-width:180px;">
+    <div class="section-block" style="display:flex;gap:16px;flex-wrap:wrap;max-width:900px;">
+      <div style="flex:2;min-width:200px;">
         <label class="field-label">Jugador</label>
-        <input id="filtroJugador" class="field-select" type="text" placeholder="Buscar por nombre…" value="${altasBajasFilters.jugador}">
+        <select id="filtroJugador" class="field-select">
+          <option value="">Todos los jugadores</option>
+          ${uniqueNames.map(n=>`<option value="${n}" ${altasBajasFilters.jugador===n?'selected':''}>${n}</option>`).join("")}
+        </select>
+      </div>
+      <div style="flex:1;min-width:170px;">
+        <label class="field-label">Tipo</label>
+        <select id="filtroTipo" class="field-select">
+          <option value="" ${altasBajasFilters.tipo===""?'selected':''}>Todos los movimientos</option>
+          <option value="alta" ${altasBajasFilters.tipo==="alta"?'selected':''}>Altas</option>
+          <option value="baja" ${altasBajasFilters.tipo==="baja"?'selected':''}>Bajas</option>
+        </select>
       </div>
       <div style="flex:1;min-width:140px;">
         <label class="field-label">Fecha inicio</label>
@@ -1130,9 +1143,11 @@ function renderAltasBajasView(){
   `;
 
   const fJugador = document.getElementById("filtroJugador");
+  const fTipo = document.getElementById("filtroTipo");
   const fDesde = document.getElementById("filtroDesde");
   const fHasta = document.getElementById("filtroHasta");
-  fJugador.oninput = () => { altasBajasFilters.jugador = fJugador.value; renderAltasBajasFilteredTable(allEvents); };
+  fJugador.onchange = () => { altasBajasFilters.jugador = fJugador.value; renderAltasBajasFilteredTable(allEvents); };
+  fTipo.onchange = () => { altasBajasFilters.tipo = fTipo.value; renderAltasBajasFilteredTable(allEvents); };
   fDesde.onchange = () => { altasBajasFilters.desde = fDesde.value; renderAltasBajasFilteredTable(allEvents); };
   fHasta.onchange = () => { altasBajasFilters.hasta = fHasta.value; renderAltasBajasFilteredTable(allEvents); };
 
@@ -1143,9 +1158,11 @@ function renderAltasBajasFilteredTable(allEvents){
   const result = document.getElementById("altasBajasResult");
   let events = allEvents;
 
-  if(altasBajasFilters.jugador.trim()){
-    const q = altasBajasFilters.jugador.trim().toLowerCase();
-    events = events.filter(e => e.jugador.toLowerCase().includes(q));
+  if(altasBajasFilters.jugador){
+    events = events.filter(e => e.jugador === altasBajasFilters.jugador);
+  }
+  if(altasBajasFilters.tipo){
+    events = events.filter(e => e.tipo === altasBajasFilters.tipo);
   }
   if(altasBajasFilters.desde){
     events = events.filter(e => e.fecha >= altasBajasFilters.desde);
@@ -1155,7 +1172,7 @@ function renderAltasBajasFilteredTable(allEvents){
   }
 
   if(allEvents.length === 0){
-    result.innerHTML = `<div class="empty-state"><h2>Sin cambios registrados todavía</h2><p>En cuanto se detecte una inscripción o una baja en la ficha de este equipo en la web de la FCF, aparecerá aquí con la fecha en que se detectó.</p></div>`;
+    result.innerHTML = `<div class="empty-state"><h2>No hay jugadores en el equipo</h2><p>Cuando se inscriban jugadores, aparecerán en este apartado.</p></div>`;
     return;
   }
   if(events.length === 0){
