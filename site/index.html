@@ -86,12 +86,12 @@
     border:none;
     color:var(--chalk-dim);
     font-family:var(--font-body);
-    font-size:11px;
+    font-size:10px;
     font-weight:600;
-    padding:8px 3px;
+    padding:8px 2px;
     border-radius:4px;
     cursor:pointer;
-    letter-spacing:0.2px;
+    letter-spacing:0.1px;
   }
   .mode-toggle button.active{
     background:var(--amber);
@@ -334,6 +334,7 @@
       <button id="btnModeTeam" class="active">Equipo</button>
       <button id="btnModeCompare">Comparar</button>
       <button id="btnModeTable">Tabla</button>
+      <button id="btnModeAltasBajas">Altas/Bajas</button>
     </div>
 
     <div class="my-team-box">
@@ -473,6 +474,7 @@ let playerCompareASel = null, playerCompareBSel = null;
 
 let myTeamId = localStorage.getItem("sfcdatos_myTeam") || "";
 let favoriteIds = new Set(JSON.parse(localStorage.getItem("sfcdatos_favorites") || "[]"));
+let ALTAS_BAJAS = {};
 
 function toggleFavorite(teamId){
   if(favoriteIds.has(teamId)) favoriteIds.delete(teamId);
@@ -508,6 +510,13 @@ async function loadRealData() {
     if (!teamsRes.ok || !playersRes.ok) throw new Error("HTTP no-ok al pedir los JSON");
     const teamsObj = await teamsRes.json();
     const playersObj = await playersRes.json();
+
+    try {
+      const altasBajasRes = await fetch("data/altas_bajas.json");
+      if (altasBajasRes.ok) ALTAS_BAJAS = await altasBajasRes.json();
+    } catch (e) {
+      console.warn("No se pudo cargar data/altas_bajas.json todavía (normal si aún no se ha lanzado el workflow diario).", e);
+    }
 
     const playersByTeam = {};
     Object.values(playersObj).forEach(p => {
@@ -553,12 +562,14 @@ const compareHint = document.getElementById("compareHint");
 document.getElementById("btnModeTeam").onclick = () => { mode="team"; syncModeButtons(); renderAll(); };
 document.getElementById("btnModeCompare").onclick = () => { mode="compare"; syncModeButtons(); renderAll(); };
 document.getElementById("btnModeTable").onclick = () => { mode="table"; syncModeButtons(); renderAll(); };
+document.getElementById("btnModeAltasBajas").onclick = () => { mode="altasBajas"; syncModeButtons(); renderAll(); };
 searchInput.addEventListener("input", renderSidebar);
 
 function syncModeButtons(){
   document.getElementById("btnModeTeam").classList.toggle("active", mode==="team");
   document.getElementById("btnModeCompare").classList.toggle("active", mode==="compare");
   document.getElementById("btnModeTable").classList.toggle("active", mode==="table");
+  document.getElementById("btnModeAltasBajas").classList.toggle("active", mode==="altasBajas");
   compareHint.style.display = mode==="compare" ? "block" : "none";
 }
 
@@ -613,7 +624,7 @@ function renderSidebar(){
     };
 
     row.onclick = () => {
-      if(mode==="team"){
+      if(mode==="team" || mode==="altasBajas"){
         selectedTeamId = team.id;
       } else if(mode==="table"){
         mode = "team";
@@ -1064,10 +1075,53 @@ function renderLeagueTableView(){
   });
 }
 
+function renderAltasBajasView(){
+  const team = TEAMS.find(t=>t.id===selectedTeamId);
+  if(!team){
+    mainEl.innerHTML = `<div class="empty-state"><h2>Altas / Bajas</h2><p>Elige un equipo en el panel de la izquierda para ver su historial de altas y bajas de jugadores inscritos.</p></div>`;
+    return;
+  }
+
+  const events = (ALTAS_BAJAS[team.name] || []).slice().sort((a,b)=> b.fecha.localeCompare(a.fecha));
+
+  mainEl.innerHTML = `
+    <div class="team-header">
+      ${crestHtml(team,56)}
+      <div>
+        <h1>${team.name}</h1>
+        <div class="team-meta">Altas y bajas de jugadores inscritos</div>
+      </div>
+    </div>
+  `;
+
+  if(events.length === 0){
+    mainEl.innerHTML += `<div class="empty-state"><h2>Sin cambios registrados todavía</h2><p>En cuanto se detecte una inscripción o una baja en la ficha de este equipo en la web de la FCF, aparecerá aquí con la fecha en que se detectó.</p></div>`;
+    return;
+  }
+
+  const rows = events.map(e => `
+    <tr>
+      <td class="name-cell">${e.jugador}</td>
+      <td><span class="pos-badge${e.tipo==='alta'?' gk':''}" style="${e.tipo==='alta'?'':'background:var(--clay);color:var(--chalk)'}">${e.tipo==='alta'?'Alta':'Baja'}</span></td>
+      <td class="num">${e.fecha}</td>
+    </tr>
+  `).join("");
+
+  mainEl.innerHTML += `
+    <div class="section-block">
+      <table class="players">
+        <thead><tr><th>Jugador</th><th>Tipo</th><th>Fecha</th></tr></thead>
+        <tbody>${rows}</tbody>
+      </table>
+    </div>
+  `;
+}
+
 function renderAll(){
   renderSidebar();
   if(mode==="team") renderTeamView();
   else if(mode==="table") renderLeagueTableView();
+  else if(mode==="altasBajas") renderAltasBajasView();
   else renderCompareView();
 }
 
