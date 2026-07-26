@@ -475,53 +475,54 @@ def _parse_team_roster(soup):
     Extrae la lista de jugadores inscritos de la sección "Jugadors/es" de la
     ficha de equipo (https://www.fcf.cat/equip/.../<equipo>).
 
+    A diferencia de las actas (donde Titulars/Suplents necesitaban probar
+    dos estrategias), esta ficha de equipo parece organizar cada sección
+    ("Jugadors/es", "Tècnics/ques", "Delegats/des"...) como su propia tabla
+    separada. Por eso aquí SOLO miramos la tabla ancestro del propio texto
+    de cabecera — mirar "la tabla siguiente" se cuela en la sección de al
+    lado cuando la propia está vacía (nos pasó justo esto: cuando
+    "Jugadors/es" no tenía nadie, cogía por error la cabecera de
+    "Tècnics/ques" como si fuera un jugador).
+
     IMPORTANTE: al escribir esto, las plantillas de la temporada están
-    todavía vacías, así que no se ha podido ver esta tabla con datos reales.
-    Según el propio usuario, cuando se rellene probablemente solo traiga el
-    NOMBRE del jugador — sin dorsal, sin fecha, y posiblemente sin enlace a
-    su ficha de jugador. Por eso este parser es deliberadamente permisivo:
-    no exige ningún enlace ni ninguna celda extra, solo el texto de cada
-    fila. Si en algún momento la fila SÍ trae dorsal (primera celda
-    numérica) o un enlace a /jugador/, los aprovecha; si no, se queda solo
-    con el nombre. Puede hacer falta un ajuste real en cuanto haya
-    inscripciones de verdad, igual que nos pasó con sustituciones y tarjetas.
+    todavía vacías, así que no se ha podido ver esta tabla con datos
+    reales. Según el propio usuario, cuando se rellene probablemente solo
+    traiga el NOMBRE del jugador — sin dorsal, sin fecha, y posiblemente
+    sin enlace a su ficha de jugador. Por eso este parser es
+    deliberadamente permisivo con el contenido de cada fila (no exige
+    ningún enlace ni ninguna celda extra), pero si el patrón de "una tabla
+    por sección" resultara no cumplirse en cuanto haya inscripciones
+    reales, avisadme y lo ajustamos.
     """
     header = soup.find(string=re.compile(r"^\s*Jugadors/es\s*$"))
     if not header:
         return []
 
-    own_table = header.find_parent("table")
-    node = header.find_parent()
-    next_table = node.find_next("table") if node else None
+    table = header.find_parent("table")
+    if table is None:
+        return []
 
     players = []
-    for table in (own_table, next_table):
-        if table is None:
+    for row in table.find_all("tr"):
+        # saltar la propia fila de cabecera "Jugadors/es"
+        if row.find(string=re.compile(r"^\s*Jugadors/es\s*$")):
             continue
-        found = []
-        for row in table.find_all("tr"):
-            # saltar la propia fila de cabecera "Jugadors/es"
-            if row.find(string=re.compile(r"^\s*Jugadors/es\s*$")):
-                continue
-            text = row.get_text(strip=True)
-            if not text:
-                continue
+        text = row.get_text(strip=True)
+        if not text:
+            continue
 
-            cells = row.find_all("td")
-            if len(cells) >= 2 and cells[0].get_text(strip=True).isdigit():
-                dorsal = int(cells[0].get_text(strip=True))
-                name = cells[1].get_text(strip=True)
-            else:
-                dorsal = None
-                name = text
+        cells = row.find_all("td")
+        if len(cells) >= 2 and cells[0].get_text(strip=True).isdigit():
+            dorsal = int(cells[0].get_text(strip=True))
+            name = cells[1].get_text(strip=True)
+        else:
+            dorsal = None
+            name = text
 
-            link = row.find("a", href=re.compile(r"/jugador/"))
-            player_id = _player_id_from_url(link.get("href")) if link else None
+        link = row.find("a", href=re.compile(r"/jugador/"))
+        player_id = _player_id_from_url(link.get("href")) if link else None
 
-            found.append({"name": name, "dorsal": dorsal, "player_id": player_id})
-        if found:
-            players = found
-            break
+        players.append({"name": name, "dorsal": dorsal, "player_id": player_id})
     return players
 
 
