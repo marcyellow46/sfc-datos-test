@@ -398,7 +398,22 @@
         }
       }
     ],
-    "cards": []
+    "cards": [
+      {
+        "dorsal": 26,
+        "name": "AGUZZI BETTINI, NICOLAS ALBERTO",
+        "player_id": "18474635",
+        "minute": 2,
+        "type": "yellow"
+      },
+      {
+        "dorsal": 27,
+        "name": "GARROFÉ SALLA, JOEL",
+        "player_id": "15723516",
+        "minute": 2,
+        "type": "yellow"
+      }
+    ]
   },
   "goals": [
     {

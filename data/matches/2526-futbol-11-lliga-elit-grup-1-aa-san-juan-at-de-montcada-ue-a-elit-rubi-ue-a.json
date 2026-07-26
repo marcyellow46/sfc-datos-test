@@ -384,7 +384,15 @@
         }
       }
     ],
-    "cards": []
+    "cards": [
+      {
+        "dorsal": 23,
+        "name": "DIAZ WILLIAMS, KEVIN",
+        "player_id": "673820",
+        "minute": 2,
+        "type": "yellow"
+      }
+    ]
   },
   "goals": [
     {

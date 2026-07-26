@@ -189,7 +189,15 @@
         }
       }
     ],
-    "cards": []
+    "cards": [
+      {
+        "dorsal": 11,
+        "name": "DIAZ MOLINA, ERIC",
+        "player_id": "483396",
+        "minute": 2,
+        "type": "yellow"
+      }
+    ]
   },
   "away": {
     "name": "MANLLEU, A.E.C. A",
@@ -359,7 +367,15 @@
         }
       }
     ],
-    "cards": []
+    "cards": [
+      {
+        "dorsal": 3,
+        "name": "ROURA JIMÉNEZ, ROGER",
+        "player_id": "18494853",
+        "minute": 2,
+        "type": "yellow"
+      }
+    ]
   },
   "goals": [
     {

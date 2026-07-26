@@ -341,7 +341,15 @@
         }
       }
     ],
-    "cards": []
+    "cards": [
+      {
+        "dorsal": 17,
+        "name": "MARC",
+        "player_id": "15695132",
+        "minute": 2,
+        "type": "yellow"
+      }
+    ]
   },
   "goals": [
     {

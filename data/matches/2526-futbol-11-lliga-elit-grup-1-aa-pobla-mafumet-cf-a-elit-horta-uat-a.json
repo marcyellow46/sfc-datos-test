@@ -195,7 +195,15 @@
         }
       }
     ],
-    "cards": []
+    "cards": [
+      {
+        "dorsal": 19,
+        "name": "CABEZAS MENSAH, DAVID",
+        "player_id": "23168365",
+        "minute": 2,
+        "type": "yellow"
+      }
+    ]
   },
   "away": {
     "name": "HORTA, U.AT. A",

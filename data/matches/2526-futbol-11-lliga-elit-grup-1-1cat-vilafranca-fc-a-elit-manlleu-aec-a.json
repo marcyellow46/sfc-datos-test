@@ -182,7 +182,15 @@
         }
       }
     ],
-    "cards": []
+    "cards": [
+      {
+        "dorsal": 23,
+        "name": "CABRERIZO TOCON, ADRIAN",
+        "player_id": "714601",
+        "minute": 2,
+        "type": "yellow"
+      }
+    ]
   },
   "away": {
     "name": "MANLLEU, A.E.C. A",

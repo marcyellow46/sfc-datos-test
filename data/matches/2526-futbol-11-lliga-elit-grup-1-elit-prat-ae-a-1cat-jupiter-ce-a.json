@@ -189,7 +189,15 @@
         }
       }
     ],
-    "cards": []
+    "cards": [
+      {
+        "dorsal": 11,
+        "name": "PLAZA CREMADES, ALEX",
+        "player_id": "731752",
+        "minute": 2,
+        "type": "yellow"
+      }
+    ]
   },
   "away": {
     "name": "JÚPITER, C.E. A",

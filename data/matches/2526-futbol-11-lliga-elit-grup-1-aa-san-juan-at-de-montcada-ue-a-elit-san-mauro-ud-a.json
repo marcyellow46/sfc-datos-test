@@ -195,7 +195,15 @@
         }
       }
     ],
-    "cards": []
+    "cards": [
+      {
+        "dorsal": 2,
+        "name": "ORTIZ PARAISO, JOSHUA",
+        "player_id": "353696",
+        "minute": 2,
+        "type": "yellow"
+      }
+    ]
   },
   "away": {
     "name": "SAN MAURO, U.D. A",
@@ -377,7 +385,15 @@
         }
       }
     ],
-    "cards": []
+    "cards": [
+      {
+        "dorsal": 20,
+        "name": "GULIAS AGUILERA, MARC",
+        "player_id": "722851",
+        "minute": 2,
+        "type": "yellow"
+      }
+    ]
   },
   "goals": [
     {

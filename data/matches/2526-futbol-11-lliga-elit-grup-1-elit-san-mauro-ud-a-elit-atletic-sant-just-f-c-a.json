@@ -364,7 +364,15 @@
         }
       }
     ],
-    "cards": []
+    "cards": [
+      {
+        "dorsal": 11,
+        "name": "BEATTIE ORFILA, ERIK",
+        "player_id": "15134055",
+        "minute": 2,
+        "type": "yellow"
+      }
+    ]
   },
   "goals": [],
   "jornada": 11

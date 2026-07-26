@@ -208,7 +208,15 @@
         }
       }
     ],
-    "cards": []
+    "cards": [
+      {
+        "dorsal": 11,
+        "name": "GONZALEZ VALTUEÑA, ANGEL",
+        "player_id": "7014186",
+        "minute": 3,
+        "type": "yellow"
+      }
+    ]
   },
   "away": {
     "name": "RUBI, U.E. A",

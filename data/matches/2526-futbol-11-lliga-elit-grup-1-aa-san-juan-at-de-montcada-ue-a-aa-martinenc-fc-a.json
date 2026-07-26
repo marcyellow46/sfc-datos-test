@@ -208,7 +208,15 @@
         }
       }
     ],
-    "cards": []
+    "cards": [
+      {
+        "dorsal": 10,
+        "name": "MUÑOZ SAYOL, OSCAR",
+        "player_id": "900009104",
+        "minute": 3,
+        "type": "yellow"
+      }
+    ]
   },
   "away": {
     "name": "MARTINENC, F.C. A",

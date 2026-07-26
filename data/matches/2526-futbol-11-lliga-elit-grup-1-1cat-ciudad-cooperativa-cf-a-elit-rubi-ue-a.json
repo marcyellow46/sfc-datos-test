@@ -390,7 +390,15 @@
         }
       }
     ],
-    "cards": []
+    "cards": [
+      {
+        "dorsal": 7,
+        "name": "RECORT MORENO, ADRIA",
+        "player_id": "637231",
+        "minute": 2,
+        "type": "yellow"
+      }
+    ]
   },
   "goals": [
     {

@@ -157,7 +157,15 @@
         }
       }
     ],
-    "cards": []
+    "cards": [
+      {
+        "dorsal": 21,
+        "name": "LAMELAS DOMINGUEZ, MARTIN",
+        "player_id": "47621480",
+        "minute": 2,
+        "type": "yellow"
+      }
+    ]
   },
   "away": {
     "name": "CIUDAD COOPERATIVA, C.F. A",

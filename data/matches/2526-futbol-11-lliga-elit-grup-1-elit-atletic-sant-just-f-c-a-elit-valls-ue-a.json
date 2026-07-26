@@ -403,7 +403,15 @@
         }
       }
     ],
-    "cards": []
+    "cards": [
+      {
+        "dorsal": 22,
+        "name": "LEON SEGURA, PAU",
+        "player_id": "15661919",
+        "minute": 2,
+        "type": "yellow"
+      }
+    ]
   },
   "goals": [
     {

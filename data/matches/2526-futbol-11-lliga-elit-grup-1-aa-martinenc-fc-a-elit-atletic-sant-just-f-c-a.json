@@ -169,7 +169,22 @@
         }
       }
     ],
-    "cards": []
+    "cards": [
+      {
+        "dorsal": 9,
+        "name": "OSORIO BARROZO, FAVIO JULIAN",
+        "player_id": "35325471",
+        "minute": 2,
+        "type": "yellow"
+      },
+      {
+        "dorsal": 8,
+        "name": "SUÁREZ POSTIGO, DANIEL",
+        "player_id": "688231",
+        "minute": 2,
+        "type": "yellow"
+      }
+    ]
   },
   "away": {
     "name": "ATLETIC SANT JUST . F. C. A",

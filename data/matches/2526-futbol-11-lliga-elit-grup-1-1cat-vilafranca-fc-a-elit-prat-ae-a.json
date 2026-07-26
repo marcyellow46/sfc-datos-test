@@ -385,7 +385,22 @@
         }
       }
     ],
-    "cards": []
+    "cards": [
+      {
+        "dorsal": 6,
+        "name": "REINKE GONÇALVES, GUSTAVO",
+        "player_id": "15464655",
+        "minute": 2,
+        "type": "yellow"
+      },
+      {
+        "dorsal": 12,
+        "name": "ARCHS HORTIGÓN, ALEJANDRO",
+        "player_id": "25236916",
+        "minute": 2,
+        "type": "yellow"
+      }
+    ]
   },
   "goals": [
     {

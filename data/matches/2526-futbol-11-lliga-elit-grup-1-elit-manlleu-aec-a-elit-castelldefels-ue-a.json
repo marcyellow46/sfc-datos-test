@@ -378,7 +378,15 @@
         }
       }
     ],
-    "cards": []
+    "cards": [
+      {
+        "dorsal": 12,
+        "name": "MONTERO PRADAS, IKER",
+        "player_id": "15765782",
+        "minute": 2,
+        "type": "yellow"
+      }
+    ]
   },
   "goals": [
     {

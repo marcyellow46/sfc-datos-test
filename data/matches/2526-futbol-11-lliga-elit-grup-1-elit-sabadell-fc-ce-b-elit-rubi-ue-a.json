@@ -221,7 +221,22 @@
         }
       }
     ],
-    "cards": []
+    "cards": [
+      {
+        "dorsal": 9,
+        "name": "GONZÁLEZ GARCÍA, ADRIÁ",
+        "player_id": "752379",
+        "minute": 2,
+        "type": "yellow"
+      },
+      {
+        "dorsal": 19,
+        "name": "CHLIH LEHDA, OUSSAMA",
+        "player_id": "23398565",
+        "minute": 2,
+        "type": "yellow"
+      }
+    ]
   },
   "away": {
     "name": "RUBI, U.E. A",
